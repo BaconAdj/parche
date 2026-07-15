@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react'
 import { useParams, useRouter } from 'next/navigation'
+import { useUser, SignInButton, UserButton } from '@clerk/nextjs'
+import { createClient } from '../../../lib/supabase'
 import { destinations, findDestination, type Destination } from '../../../lib/destinations'
 
 // ─────────────────────────────────────────────────────────────
@@ -48,6 +50,7 @@ function UnsplashCredit({ photo, dark = false }: { photo: UnsplashPhoto; dark?: 
 function Nav() {
   const router = useRouter()
   const [scrolled, setScrolled] = useState(false)
+  const { isSignedIn, isLoaded } = useUser()
   useEffect(() => {
     const fn = () => setScrolled(window.scrollY > 60)
     window.addEventListener('scroll', fn, { passive: true })
@@ -63,7 +66,18 @@ function Nav() {
       </ul>
       <div className="nav-right">
         <button className="btn-ghost" onClick={() => router.back()}>← Back</button>
-        <a href="/" className="btn-primary">New search</a>
+        {isLoaded && isSignedIn && (
+          <a href="/dashboard" className="btn-ghost">My wardrobe</a>
+        )}
+        {isLoaded && !isSignedIn && (
+          <SignInButton mode="modal">
+            <button className="btn-ghost">Sign in</button>
+          </SignInButton>
+        )}
+        {isLoaded && isSignedIn
+          ? <UserButton />
+          : <a href="/" className="btn-primary">New search</a>
+        }
       </div>
     </nav>
   )
@@ -234,6 +248,120 @@ function MoreDestinations({ current }: { current: string }) {
   )
 }
 
+
+// ─────────────────────────────────────────────────────────────
+// SAVE TRIP BUTTON
+// ─────────────────────────────────────────────────────────────
+function SaveTripButton({ dest, heroPhoto }: { dest: Destination; heroPhoto: string | null }) {
+  const { isSignedIn, user } = useUser()
+  const supabase = createClient()
+  const [saved, setSaved]     = useState(false)
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    if (!isSignedIn || !user) return
+    supabase
+      .from('saved_trips')
+      .select('id')
+      .eq('user_id', user.id)
+      .eq('destination_slug', dest.slug)
+      .single()
+      .then(({ data }: { data: any }) => { if (data) setSaved(true) })
+  }, [isSignedIn, user, dest.slug])
+
+  async function toggle() {
+    if (!isSignedIn || !user) return
+    setLoading(true)
+    if (saved) {
+      await supabase.from('saved_trips').delete()
+        .eq('user_id', user.id).eq('destination_slug', dest.slug)
+      setSaved(false)
+    } else {
+      await supabase.from('saved_trips').upsert({
+        user_id: user.id,
+        destination_slug: dest.slug,
+        destination_name: dest.name,
+        destination_country: dest.country,
+        destination_temp: dest.temp,
+        photo_url: heroPhoto,
+      })
+      setSaved(true)
+    }
+    setLoading(false)
+  }
+
+  if (!isSignedIn) {
+    return (
+      <SignInButton mode="modal">
+        <button className="save-trip-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+          Save trip
+        </button>
+      </SignInButton>
+    )
+  }
+
+  return (
+    <button className={`save-trip-btn${saved ? ' saved' : ''}`} onClick={toggle} disabled={loading}>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill={saved ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+      </svg>
+      {saved ? 'Saved' : 'Save trip'}
+    </button>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// SAVE LOOK BUTTON
+// ─────────────────────────────────────────────────────────────
+function SaveLookButton({ dest, title, desc, photoUrl }: { dest: Destination; title: string; desc: string; photoUrl: string | null }) {
+  const { isSignedIn, user } = useUser()
+  const supabase = createClient()
+  const [saved, setSaved]     = useState(false)
+  const [loading, setLoading] = useState(false)
+
+  async function toggle() {
+    if (!isSignedIn || !user) return
+    setLoading(true)
+    if (saved) {
+      await supabase.from('saved_looks').delete()
+        .eq('user_id', user.id).eq('destination_slug', dest.slug).eq('look_title', title)
+      setSaved(false)
+    } else {
+      await supabase.from('saved_looks').insert({
+        user_id: user.id,
+        destination_slug: dest.slug,
+        destination_name: dest.name,
+        look_title: title,
+        look_desc: desc,
+        photo_url: photoUrl,
+      })
+      setSaved(true)
+    }
+    setLoading(false)
+  }
+
+  if (!isSignedIn) {
+    return (
+      <SignInButton mode="modal">
+        <button className="save-look-btn">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          Save look
+        </button>
+      </SignInButton>
+    )
+  }
+
+  return (
+    <button className={`save-look-btn${saved ? ' saved' : ''}`} onClick={toggle} disabled={loading}>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill={saved ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+      </svg>
+      {saved ? 'Saved' : 'Save look'}
+    </button>
+  )
+}
+
 // ─────────────────────────────────────────────────────────────
 // RESULTS VIEW
 // ─────────────────────────────────────────────────────────────
@@ -323,6 +451,9 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
             <span className="dest-pill">{dest.weather}</span>
             <span className="dest-pill">{dest.type}</span>
           </div>
+          <div style={{ marginTop: '1.2rem' }}>
+            <SaveTripButton dest={dest} heroPhoto={heroPhoto?.urls?.regular || null} />
+          </div>
         </div>
         {heroPhoto && <UnsplashCredit photo={heroPhoto} dark />}
       </div>
@@ -351,6 +482,14 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
               <div className="style-body">
                 <p className="style-card-title">{card.title}</p>
                 <p className="style-card-desc">{card.desc}</p>
+                <div style={{ marginTop: '0.8rem' }}>
+                  <SaveLookButton
+                    dest={dest}
+                    title={card.title}
+                    desc={card.desc}
+                    photoUrl={stylePhotos[i]?.urls?.regular || null}
+                  />
+                </div>
               </div>
             </div>
           ))}
@@ -367,15 +506,7 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
         <div className="dest-tags">
           {dest.tags.map(t => <span key={t} className="dest-tag">{t}</span>)}
         </div>
-        <div className="keffy-cta">
-          <div>
-            <p className="keffy-title">Planning your trip to {dest.name}?</p>
-            <p className="keffy-desc">Keffy is an AI travel concierge that handles flights, hotels, and itineraries — so you can focus on what to wear.</p>
-          </div>
-          <a href="https://keffy.com" target="_blank" rel="noopener noreferrer" className="keffy-btn">
-            Plan with Keffy →
-          </a>
-        </div>
+
       </section>
 
       {/* MORE DESTINATIONS */}
@@ -557,11 +688,11 @@ const css = `
 .cta-section { padding:4rem; background:var(--white); border-top:1px solid var(--border); }
 .dest-tags { display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:2.5rem; }
 .dest-tag { font-size:0.62rem; padding:0.35rem 1rem; border-radius:100px; border:1px solid var(--border-s); color:var(--char); background:var(--off); letter-spacing:0.05em; }
-.keffy-cta { background:var(--black); border-radius:20px; padding:2.5rem 3rem; display:flex; align-items:center; justify-content:space-between; gap:2rem; flex-wrap:wrap; }
-.keffy-title { font-size:1.2rem; font-weight:300; color:var(--white); letter-spacing:-0.01em; margin-bottom:0.5rem; }
-.keffy-desc { font-size:0.78rem; color:rgba(255,255,255,0.4); line-height:1.7; max-width:36rem; }
-.keffy-btn { background:var(--sand); color:var(--black); padding:0.8rem 2rem; border-radius:100px; font-size:0.85rem; font-weight:600; text-decoration:none; white-space:nowrap; flex-shrink:0; transition:all 0.2s; }
-.keffy-btn:hover { background:var(--sand-d); color:var(--white); transform:translateY(-1px); }
+
+
+
+
+
 
 /* MORE */
 .more-section { padding:5rem 4rem; background:var(--off); }
@@ -603,6 +734,27 @@ const css = `
 .loading-body { padding:4rem; display:flex; flex-direction:column; gap:1.2rem; }
 .skeleton-block { height:80px; border-radius:12px; background:linear-gradient(90deg,#1a1a1a 25%,#242424 50%,#1a1a1a 75%); background-size:200% 100%; animation:shimmer 1.8s infinite; }
 @keyframes shimmer { 0%{background-position:200% 0}100%{background-position:-200% 0} }
+
+/* SAVE BUTTONS */
+.save-trip-btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: rgba(255,255,255,0.12); color: var(--white);
+  border: 1px solid rgba(255,255,255,0.25); padding: 0.55rem 1.2rem;
+  border-radius: 100px; font-size: 0.75rem; font-weight: 500;
+  cursor: pointer; font-family: var(--font-body);
+  backdrop-filter: blur(8px); transition: all 0.2s;
+}
+.save-trip-btn:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.4); }
+.save-trip-btn.saved { background: var(--white); color: var(--black); border-color: var(--white); }
+.save-look-btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  background: none; color: var(--mid);
+  border: 1px solid var(--border-s); padding: 0.4rem 0.9rem;
+  border-radius: 100px; font-size: 0.68rem; font-weight: 500;
+  cursor: pointer; font-family: var(--font-body); transition: all 0.2s;
+}
+.save-look-btn:hover { border-color: var(--black); color: var(--black); }
+.save-look-btn.saved { background: var(--black); color: var(--white); border-color: var(--black); }
 
 /* RESPONSIVE */
 @media(max-width:1024px){

@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
+import { useUser, SignInButton, UserButton } from '@clerk/nextjs'
 import { featuredDestinations } from '../lib/destinations'
 
 
@@ -663,8 +664,9 @@ function SearchBar() {
 
 // ── Nav ────────────────────────────────────────────────
 function Nav() {
-  const [scrolled, setScrolled]     = useState(false)
-  const [menuOpen, setMenuOpen]     = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
+  const { isSignedIn, isLoaded } = useUser()
 
   useEffect(() => {
     const fn = () => setScrolled(window.scrollY > 50)
@@ -685,8 +687,22 @@ function Nav() {
           <li><a href="#about">About</a></li>
         </ul>
         <div className="nav-right">
-          <a href="#" className="btn-ghost">Sign in</a>
-          <a href="#" className="btn-primary">Plan my trip</a>
+          {isLoaded && !isSignedIn && (
+            <SignInButton mode="modal">
+              <button className="btn-ghost-nav">Sign in</button>
+            </SignInButton>
+          )}
+          {isLoaded && isSignedIn && (
+            <a href="/dashboard" className="btn-ghost-nav">My wardrobe</a>
+          )}
+          {isLoaded && isSignedIn
+            ? <UserButton />
+            : (
+              <SignInButton mode="modal">
+                <button className="btn-primary-nav">Get started</button>
+              </SignInButton>
+            )
+          }
           <button
             className={`hamburger${menuOpen ? ' open' : ''}`}
             onClick={() => setMenuOpen(o => !o)}
@@ -1220,6 +1236,10 @@ export default function Home() {
 // ── Styles ─────────────────────────────────────────────
 const pageStyles = `
 /* NAV */
+.btn-ghost-nav { color: var(--mid); font-size: 0.88rem; font-weight: 400; background: none; border: none; cursor: pointer; font-family: var(--font-body); transition: color 0.2s; text-decoration: none; display: inline-block; }
+.btn-ghost-nav:hover { color: var(--black); }
+.btn-primary-nav { background: var(--black); color: var(--white); padding: 0.65rem 1.6rem; border-radius: 100px; font-size: 0.88rem; font-weight: 500; border: none; cursor: pointer; font-family: var(--font-body); transition: background 0.2s; }
+.btn-primary-nav:hover { background: var(--char); }
 .nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 500;
   display: flex; align-items: center; justify-content: space-between;
