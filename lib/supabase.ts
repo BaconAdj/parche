@@ -1,20 +1,27 @@
 import { createBrowserClient } from '@supabase/ssr'
 
-// Lazy client — only initializes in the browser where env vars are available
-let client: ReturnType<typeof createBrowserClient> | null = null
-
 export function createClient() {
-  if (typeof window === 'undefined') {
-    // Return a dummy during SSR — never actually used since all pages are client-only
-    return null as any
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+  if (!url || !key) {
+    // Return a no-op proxy during SSR or when env vars are missing
+    // This prevents crashes — actual DB calls only happen client-side in useEffect
+    return {
+      from: () => ({
+        select: () => ({ eq: () => ({ eq: () => ({ single: () => Promise.resolve({ data: null }) }), order: () => Promise.resolve({ data: [] }) }), order: () => Promise.resolve({ data: [] }) }),
+        insert: () => Promise.resolve({ error: null }),
+        upsert: () => Promise.resolve({ error: null }),
+        delete: () => ({ eq: () => ({ eq: () => Promise.resolve({ error: null }), single: () => Promise.resolve({ data: null }) }) }),
+      }),
+      auth: {
+        getUser: () => Promise.resolve({ data: { user: null } }),
+        signOut: () => Promise.resolve({}),
+      },
+    } as any
   }
-  if (!client) {
-    client = createBrowserClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-    )
-  }
-  return client
+
+  return createBrowserClient(url, key)
 }
 
 export type SavedTrip = {
