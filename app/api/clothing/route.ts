@@ -35,7 +35,7 @@ Rules:
 - Mix price ranges: roughly 40% under-100, 40% 100-300, 20% 300-plus
 - Mix categories naturally — don't repeat the same category more than 3x per gender
 - The "why" must be destination-specific, not generic (mention the place, weather, activity, or culture)
-- imageQuery should be clean fashion-focused terms e.g. "COS linen shirt white editorial" or "Reformation midi dress floral"
+- imageQuery should produce beautiful fashion editorial photos. Use format: "[fabric/style descriptor] [garment type] [woman/man] fashion editorial" — e.g. "linen dress woman fashion editorial", "white shirt man editorial photography", "silk midi dress woman editorial". NEVER include brand names in imageQuery. Keep it to 5-6 words describing the look, not the brand.
 - Women's items: include at least 2 dresses, 1 swimwear (if warm), 1 footwear, 1 accessory
 - Men's items: include at least 1 outerwear/jacket, 1 footwear, 1 accessory, varied tops and bottoms`
 

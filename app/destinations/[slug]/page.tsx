@@ -20,11 +20,18 @@ type UnsplashPhoto = {
   links: { html: string }
 }
 
-async function fetchPhoto(query: string, orientation: 'landscape' | 'portrait' = 'landscape'): Promise<UnsplashPhoto | null> {
+async function fetchPhoto(query: string, orientation: 'landscape' | 'portrait' = 'landscape', collections?: string): Promise<UnsplashPhoto | null> {
   if (!UNSPLASH_KEY) return null
   try {
+    const params = new URLSearchParams({
+      query,
+      per_page: '3',
+      orientation,
+      content_filter: 'high',
+    })
+    if (collections) params.set('collections', collections)
     const res = await fetch(
-      `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=3&orientation=${orientation}&content_filter=high`,
+      `https://api.unsplash.com/search/photos?${params.toString()}`,
       { headers: { Authorization: `Client-ID ${UNSPLASH_KEY}` } }
     )
     const data = await res.json()
@@ -549,11 +556,20 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
         const res  = await fetch(`/api/clothing?destination=${encodeURIComponent(dest.name)}&climate=${encodeURIComponent(climate)}`)
         const json = await res.json()
         const raw: ClothingItem[] = json.data?.items || []
-        // Fetch Unsplash photos for each item
+        // Fetch Unsplash photos constrained to fashion collections
+        const FASHION_COLLECTIONS = '3178572,542909,4459627' // curated fashion photography collections
         const withPhotos = await Promise.all(
           raw.map(async item => {
-            const photo = await fetchPhoto(`${item.imageQuery} fashion editorial`, 'portrait')
-            return { ...item, photo: photo?.urls?.small || null }
+            // Always anchor query to clothing/fashion to avoid irrelevant results
+            const query = `${item.imageQuery} clothing`
+            let photo = await fetchPhoto(query, 'portrait', FASHION_COLLECTIONS)
+            if (!photo) {
+              const fallback = item.gender === 'men'
+                ? 'man fashion clothing editorial'
+                : 'woman fashion clothing editorial'
+              photo = await fetchPhoto(fallback, 'portrait', FASHION_COLLECTIONS)
+            }
+            return { ...item, photo: photo?.urls?.regular || null }
           })
         )
         setClothingItems(withPhotos)
