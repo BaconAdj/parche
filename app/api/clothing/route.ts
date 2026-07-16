@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-export const runtime = 'edge'
-export const maxDuration = 30
+export const runtime = 'nodejs'
+export const maxDuration = 60
 
 const SYSTEM_PROMPT = `You are parche's fashion director. Given a travel destination, generate specific clothing recommendations from real brands that are perfect for that location, climate, and culture.
 
