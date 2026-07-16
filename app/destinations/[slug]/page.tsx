@@ -5,6 +5,7 @@ import { useParams, useRouter } from 'next/navigation'
 import { useUser, SignInButton, UserButton } from '@clerk/nextjs'
 import { createClient } from '../../../lib/supabase'
 import { destinations, findDestination, type Destination } from '../../../lib/destinations'
+import { getBrandCategoryUrl } from '../../../lib/brandUrls'
 
 // ─────────────────────────────────────────────────────────────
 // UNSPLASH
@@ -363,11 +364,206 @@ function SaveLookButton({ dest, title, desc, photoUrl }: { dest: Destination; ti
 }
 
 // ─────────────────────────────────────────────────────────────
+// CLOTHING GRID
+// ─────────────────────────────────────────────────────────────
+type ClothingItem = {
+  brand: string
+  name: string
+  category: string
+  gender: 'women' | 'men' | 'unisex'
+  priceRange: 'under-100' | '100-300' | '300-plus'
+  priceDisplay: string
+  why: string
+  imageQuery: string
+}
+
+const PRICE_LABELS: Record<string, string> = {
+  'under-100': 'Under $100',
+  '100-300':   '$100–300',
+  '300-plus':  '$300+',
+}
+
+const CAT_LABELS: Record<string, string> = {
+  tops: 'Tops', bottoms: 'Bottoms', outerwear: 'Outerwear',
+  dresses: 'Dresses', footwear: 'Footwear', accessories: 'Accessories', swimwear: 'Swimwear',
+}
+
+function ClothingCard({ item }: { item: ClothingItem & { photo?: string | null } }) {
+  const href = getBrandCategoryUrl(item.brand, item.category, item.gender)
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="clothing-card"
+    >
+      <div className="clothing-img">
+        {item.photo
+          ? <img src={item.photo} alt={`${item.brand} ${item.name}`} loading="lazy" />
+          : <div className="clothing-placeholder" />
+        }
+        <span className="clothing-price-badge">{item.priceDisplay}</span>
+        <span className="clothing-cat-badge">{CAT_LABELS[item.category] || item.category}</span>
+        <span className="clothing-shop-overlay">
+          View on {item.brand} →
+        </span>
+      </div>
+      <div className="clothing-body">
+        <p className="clothing-brand">{item.brand}</p>
+        <p className="clothing-name">{item.name}</p>
+        <p className="clothing-why">{item.why}</p>
+      </div>
+    </a>
+  )
+}
+
+function ClothingGrid({
+  dest,
+  items,
+  loading,
+}: {
+  dest: Destination
+  items: (ClothingItem & { photo?: string | null })[]
+  loading: boolean
+}) {
+  const [gender, setGender]     = useState<'women' | 'men'>('women')
+  const [budget, setBudget]     = useState<string>('all')
+  const [category, setCategory] = useState<string>('all')
+  const [visible, setVisible]   = useState(4)
+
+  const categories = [...new Set(items.filter(i => i.gender === gender || i.gender === 'unisex').map(i => i.category))]
+
+  // Reset visible count when filters change
+  const allFiltered = items.filter(i => {
+    if (i.gender !== gender && i.gender !== 'unisex') return false
+    if (budget !== 'all' && i.priceRange !== budget) return false
+    if (category !== 'all' && i.category !== category) return false
+    return true
+  })
+  const filtered = allFiltered.slice(0, visible)
+  const hasMore  = allFiltered.length > visible
+
+  return (
+    <div className="clothing-section">
+      <div className="clothing-header">
+        <div>
+          <p className="section-eyebrow">What to wear</p>
+          <h2 className="clothing-title">
+            Curated picks for <em className="display">{dest.name}</em>
+          </h2>
+        </div>
+      </div>
+
+      {/* Gender tabs */}
+      <div className="clothing-gender-tabs">
+        <button className={`gender-tab${gender === 'women' ? ' active' : ''}`} onClick={() => { setGender('women'); setCategory('all'); setVisible(4) }}>
+          Women&apos;s
+        </button>
+        <button className={`gender-tab${gender === 'men' ? ' active' : ''}`} onClick={() => { setGender('men'); setCategory('all'); setVisible(4) }}>
+          Men&apos;s
+        </button>
+      </div>
+
+      {/* Filters */}
+      <div className="clothing-filters">
+        <div className="filter-group-row">
+          <span className="filter-row-label">Budget</span>
+          <div className="filter-pills">
+            {['all', 'under-100', '100-300', '300-plus'].map(b => (
+              <button key={b} className={`filter-pill${budget === b ? ' active' : ''}`} onClick={() => { setBudget(b); setVisible(4) }}>
+                {b === 'all' ? 'All prices' : PRICE_LABELS[b]}
+              </button>
+            ))}
+          </div>
+        </div>
+        {categories.length > 1 && (
+          <div className="filter-group-row">
+            <span className="filter-row-label">Category</span>
+            <div className="filter-pills">
+              <button className={`filter-pill${category === 'all' ? ' active' : ''}`} onClick={() => { setCategory('all'); setVisible(4) }}>All</button>
+              {categories.map(c => (
+                <button key={c} className={`filter-pill${category === c ? ' active' : ''}`} onClick={() => { setCategory(c); setVisible(4) }}>
+                  {CAT_LABELS[c] || c}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Grid */}
+      {loading ? (
+        <div className="clothing-loading">
+          <div className="clothing-shimmer-grid">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <div key={i} className="clothing-shimmer" style={{ animationDelay: `${i * 0.08}s` }} />
+            ))}
+          </div>
+          <p className="clothing-loading-text">Finding the best pieces for {dest.name}...</p>
+        </div>
+      ) : filtered.length === 0 ? (
+        <div className="clothing-empty">
+          <p>No items match your filters.</p>
+          <button className="filter-pill active" onClick={() => { setBudget('all'); setCategory('all') }}>Clear filters</button>
+        </div>
+      ) : allFiltered.length === 0 ? (
+        <div className="clothing-empty">
+          <p>No items match your filters.</p>
+          <button className="filter-pill active" onClick={() => { setBudget('all'); setCategory('all') }}>Clear filters</button>
+        </div>
+      ) : (
+        <>
+          <div className="clothing-grid">
+            {filtered.map((item, i) => <ClothingCard key={i} item={item} />)}
+          </div>
+          {hasMore && (
+            <div className="clothing-more-wrap">
+              <button
+                className="clothing-more-btn"
+                onClick={() => setVisible(v => v + 4)}
+              >
+                {`Show 4 more ↓`}
+              </button>
+            </div>
+          )}
+        </>
+      )}
+    </div>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
 // RESULTS VIEW
 // ─────────────────────────────────────────────────────────────
 function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGenerated?: boolean }) {
-  const [heroPhoto,   setHeroPhoto]   = useState<UnsplashPhoto | null>(null)
-  const [stylePhotos, setStylePhotos] = useState<(UnsplashPhoto | null)[]>([null, null, null])
+  const [heroPhoto,      setHeroPhoto]      = useState<UnsplashPhoto | null>(null)
+  const [stylePhotos,    setStylePhotos]    = useState<(UnsplashPhoto | null)[]>([null, null, null])
+  const [clothingItems,  setClothingItems]  = useState<(ClothingItem & { photo?: string | null })[]>([])
+  const [clothingLoading, setClothingLoading] = useState(true)
+
+  useEffect(() => {
+    // Start clothing fetch immediately — runs in parallel with photos
+    async function loadClothing() {
+      try {
+        const climate = `${dest.temp}, ${dest.weather}, ${(dest.tags || []).join(', ')}`
+        const res  = await fetch(`/api/clothing?destination=${encodeURIComponent(dest.name)}&climate=${encodeURIComponent(climate)}`)
+        const json = await res.json()
+        const raw: ClothingItem[] = json.data?.items || []
+        // Fetch Unsplash photos for each item
+        const withPhotos = await Promise.all(
+          raw.map(async item => {
+            const photo = await fetchPhoto(`${item.imageQuery} fashion editorial`, 'portrait')
+            return { ...item, photo: photo?.urls?.small || null }
+          })
+        )
+        setClothingItems(withPhotos)
+      } catch {
+        setClothingItems([])
+      }
+      setClothingLoading(false)
+    }
+    loadClothing()
+  }, [dest.name])
 
   useEffect(() => {
     async function load() {
@@ -500,6 +696,9 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
       <section className="checklist-section">
         <PackingChecklist dest={dest} />
       </section>
+
+      {/* CLOTHING RECOMMENDATIONS */}
+      <ClothingGrid dest={dest} items={clothingItems} loading={clothingLoading} />
 
       {/* TAGS + KEFFY CTA */}
       <section className="cta-section">
@@ -756,13 +955,76 @@ const css = `
 .save-look-btn:hover { border-color: var(--black); color: var(--black); }
 .save-look-btn.saved { background: var(--black); color: var(--white); border-color: var(--black); }
 
+/* CLOTHING SECTION */
+.clothing-section { padding:5rem 4rem; background:var(--white); border-top:1px solid var(--border); }
+.clothing-header { margin-bottom:2rem; }
+.clothing-title { font-size:clamp(1.8rem,3.5vw,2.8rem); font-weight:200; letter-spacing:-0.02em; margin-top:0.3rem; line-height:1.05; }
+.clothing-title em { color:var(--sand); }
+
+/* Gender tabs */
+.clothing-gender-tabs { display:flex; gap:2px; background:var(--off); border-radius:100px; padding:3px; width:fit-content; margin-bottom:1.5rem; }
+.gender-tab { padding:0.5rem 1.8rem; border-radius:100px; border:none; background:none; font-family:var(--font-body); font-size:0.82rem; font-weight:400; cursor:pointer; color:var(--mid); transition:all 0.2s; }
+.gender-tab.active { background:var(--white); color:var(--black); font-weight:500; box-shadow:0 1px 6px rgba(10,10,10,0.1); }
+
+/* Filter rows */
+.clothing-filters { display:flex; flex-direction:column; gap:0.75rem; margin-bottom:2rem; }
+.filter-group-row { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+.filter-row-label { font-size:0.6rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--light); flex-shrink:0; width:60px; }
+.filter-pills { display:flex; gap:0.4rem; flex-wrap:wrap; }
+.filter-pill { padding:0.35rem 0.9rem; border-radius:100px; border:1px solid var(--border-s); background:none; font-family:var(--font-body); font-size:0.68rem; cursor:pointer; color:var(--mid); transition:all 0.15s; white-space:nowrap; }
+.filter-pill:hover { border-color:var(--black); color:var(--black); }
+.filter-pill.active { background:var(--black); color:var(--white); border-color:var(--black); }
+
+/* Clothing grid */
+.clothing-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.2rem; }
+.clothing-card { border-radius:14px; overflow:hidden; border:1px solid var(--border); background:var(--white); transition:transform 0.3s, box-shadow 0.3s; text-decoration:none; display:block; color:inherit; }
+.clothing-card:hover { transform:translateY(-3px); box-shadow:0 12px 36px rgba(10,10,10,0.1); }
+.clothing-img { width:100%; aspect-ratio:3/4; position:relative; overflow:hidden; background:var(--off); }
+.clothing-img img { width:100%; height:100%; object-fit:cover; object-position:top; transition:transform 0.7s; }
+.clothing-card:hover .clothing-img img { transform:scale(1.04); }
+.clothing-placeholder { width:100%; height:100%; background:linear-gradient(175deg,#ece8e0,#d8d2c8); }
+.clothing-price-badge { position:absolute; top:0.6rem; right:0.6rem; background:rgba(255,255,255,0.92); backdrop-filter:blur(8px); border-radius:100px; padding:0.2rem 0.65rem; font-size:0.58rem; font-weight:600; color:var(--black); }
+.clothing-cat-badge { position:absolute; top:0.6rem; left:0.6rem; background:var(--black); border-radius:100px; padding:0.2rem 0.65rem; font-size:0.52rem; font-weight:500; color:var(--white); letter-spacing:0.08em; text-transform:uppercase; }
+.clothing-shop-overlay {
+  position:absolute; bottom:0; left:0; right:0;
+  background:rgba(10,10,10,0.75); backdrop-filter:blur(4px);
+  color:var(--white); font-size:0.68rem; font-weight:500;
+  text-align:center; padding:0.65rem;
+  opacity:0; transform:translateY(4px);
+  transition:opacity 0.2s, transform 0.2s;
+}
+.clothing-card:hover .clothing-shop-overlay { opacity:1; transform:translateY(0); }
+.clothing-body { padding:1rem; }
+.clothing-brand { font-size:0.58rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--sand-d); margin-bottom:0.2rem; font-weight:600; }
+.clothing-name { font-size:0.9rem; font-weight:500; margin-bottom:0.4rem; letter-spacing:-0.01em; line-height:1.2; }
+.clothing-why { font-size:0.7rem; color:var(--mid); line-height:1.6; }
+.clothing-more-wrap { text-align:center; margin-top:2rem; }
+.clothing-more-btn {
+  background:none; border:1.5px solid var(--border-s);
+  padding:0.7rem 2rem; border-radius:100px;
+  font-family:var(--font-body); font-size:0.78rem;
+  color:var(--char); cursor:pointer;
+  transition:all 0.2s;
+}
+.clothing-more-btn:hover { border-color:var(--black); color:var(--black); }
+
+/* Loading shimmer */
+.clothing-loading { text-align:center; }
+.clothing-shimmer-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.2rem; margin-bottom:1.5rem; }
+.clothing-shimmer { aspect-ratio:3/4; border-radius:14px; background:linear-gradient(90deg,var(--off) 25%,var(--mist) 50%,var(--off) 75%); background-size:200% 100%; animation:shimmer 1.6s infinite; }
+@keyframes shimmer { 0%{background-position:200% 0}100%{background-position:-200% 0} }
+.clothing-loading-text { font-size:0.78rem; color:var(--mid); }
+.clothing-empty { text-align:center; padding:3rem; color:var(--mid); font-size:0.85rem; display:flex; flex-direction:column; align-items:center; gap:1rem; }
+
 /* RESPONSIVE */
 @media(max-width:1024px){
   .nav-links{display:none}
-  .dest-hero-content,.wx-band,.style-section,.checklist-section,.cta-section,.more-section{padding-left:2rem;padding-right:2rem}
+  .dest-hero-content,.wx-band,.style-section,.checklist-section,.cta-section,.more-section,.clothing-section{padding-left:2rem;padding-right:2rem}
   .style-grid{grid-template-columns:1fr 1fr}
   .checklist-grid{grid-template-columns:1fr 1fr}
   .more-grid{grid-template-columns:1fr 1fr}
+  .clothing-grid{grid-template-columns:repeat(3,1fr)}
+  .clothing-shimmer-grid{grid-template-columns:repeat(3,1fr)}
 }
 @media(max-width:640px){
   .r-nav{padding:0 1.25rem;height:64px}
@@ -773,15 +1035,19 @@ const css = `
   .wx-band{padding:1.2rem 1.25rem}
   .wx-wrap{gap:1rem}
   .wx-day{padding:0.5rem 0.55rem;min-width:44px}
-  .style-section,.checklist-section,.cta-section,.more-section{padding:3rem 1.25rem}
+  .style-section,.checklist-section,.cta-section,.more-section,.clothing-section{padding:3rem 1.25rem}
   .style-grid{grid-template-columns:1fr}
   .checklist-grid{grid-template-columns:1fr}
   .checklist-head{flex-direction:column}
   .progress-wrap{text-align:left;width:100%}
   .progress-bar{width:100%}
-  .keffy-cta{flex-direction:column;padding:1.8rem}
-  .keffy-btn{width:100%;text-align:center}
   .more-grid{grid-template-columns:1fr 1fr;gap:0.8rem}
+  .clothing-grid{grid-template-columns:repeat(2,1fr);gap:0.8rem}
+  .clothing-shimmer-grid{grid-template-columns:repeat(2,1fr)}
+  .clothing-gender-tabs{width:100%}
+  .gender-tab{flex:1;text-align:center}
+  .filter-group-row{flex-direction:column;align-items:flex-start}
+  .filter-row-label{width:auto}
   .r-footer{padding:1.5rem 1.25rem}
   .loading-hero-content{padding:0 1.5rem 2.5rem}
   .loading-body{padding:2rem 1.25rem}
