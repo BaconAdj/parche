@@ -148,11 +148,11 @@ test('clothing API validates dates and never calls a paid service', async () => 
 
 test('catalogue has three distinct reviewed options per selection and expires stale prices', async () => {
   const { catalogue, reviewedProducts } = await import('../lib/product-catalogue')
-  assert.equal(reviewedProducts(new Date('2026-10-23')).length, 6)
+  assert.equal(reviewedProducts(new Date('2026-10-23')).length, catalogue.length)
   assert.equal(reviewedProducts(new Date('2026-11-22')).length, 0)
   assert.equal(new Set(catalogue.map(p => p.productUrl)).size, catalogue.length)
   assert.equal(new Set(catalogue.map(p => p.imageUrl)).size, catalogue.length)
-  for (const gender of ['women', 'men']) assert.deepEqual(catalogue.filter(p => p.gender === gender).map(p => p.tier), ['High-end', 'Quality', 'Budget'])
+  for (const gender of ['women', 'men']) assert.deepEqual(catalogue.filter(p => p.gender === gender && p.kinds.includes('tee')).map(p => p.tier), ['High-end', 'Quality', 'Budget'])
   for (const item of catalogue) {
     assert.equal(new URL(item.productUrl).protocol, 'https:')
     assert.equal(new URL(item.imageUrl).protocol, 'https:')

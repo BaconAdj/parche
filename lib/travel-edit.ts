@@ -1,9 +1,10 @@
 import { findDestination, type Destination } from './destinations'
 import { ACTIVITIES, STYLES, type Trip } from './trip'
+import { buildPackingPlan, type PackingPlan } from './packing'
 import type { TripWeather } from './weather'
 
 export type Look = { title: string; desc: string }
-export type TravelEdit = { trip: Trip; destination: Destination; weather: TripWeather; looks: Look[]; packing: string[] }
+export type TravelEdit = { trip: Trip; destination: Destination; weather: TripWeather; looks: Look[]; packing: string[]; packingPlan: PackingPlan }
 
 // Outfit suggestions, not claims about current local trends or product inventory.
 export function buildTravelEdit(trip: Trip, weather: TripWeather): TravelEdit {
@@ -49,5 +50,6 @@ export function buildTravelEdit(trip: Trip, weather: TripWeather): TravelEdit {
     type: activityLabel, forecast: [], products: [], guide: `${weatherLine} ${day}`,
     tags: [...(base?.tags || []).filter(t => !['autumn', 'winter', 'summer', 'spring', 'layers'].includes(t.toLowerCase())), ...(cold ? ['Layers'] : []), ...(styleLabel ? [styleLabel] : [])],
   }
-  return { trip, destination, weather, looks: [{ title: `Your ${name} day look`, desc: day }, { title: 'The evening edit', desc: evening }, { title: active ? 'Ready to move' : relaxed ? 'Slow mornings, easy afternoons' : 'An exploring-day layer', desc: third }], packing: [tops, bottoms, shoes, layer, active ? 'A small daypack' : 'A secure crossbody bag', ...(wet ? ['A compact umbrella'] : [])] }
+  const packingPlan = buildPackingPlan(trip, weather)
+  return { trip, destination, weather, packingPlan, looks: [{ title: `Your ${name} day look`, desc: day }, { title: 'The evening edit', desc: evening }, { title: active ? 'Ready to move' : relaxed ? 'Slow mornings, easy afternoons' : 'An exploring-day layer', desc: third }], packing: packingPlan.needs.map(n => `${n.quantity} × ${n.title}`) }
 }
