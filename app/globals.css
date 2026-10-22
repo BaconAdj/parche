@@ -179,3 +179,53 @@ body {
     --sp-12: 3.5rem;
   }
 }
+
+
+/* Trip-first additions use the existing type, palette and button system. */
+.trip-search-error { color: #963c2e; font-size: .85rem; margin: .8rem 0; }
+.trip-dates-form { display: flex; align-items: end; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0; }
+.trip-dates-form label { display: block; font-size: .8rem; font-weight: 500; margin-bottom: .5rem; }
+.trip-dates-form input { font: inherit; min-height: 48px; padding: .7rem; border: 1px solid var(--border-s); border-radius: 8px; background: var(--white); color: var(--black); }
+.trip-dates-form button { min-height: 48px; }
+.trip-form-error { flex-basis: 100%; color: #963c2e; }
+.trip-start { max-width: 880px; margin: auto; padding: 10rem 2rem 4rem; }
+.trip-start h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 400; margin: 1rem 0; }
+.trip-start > p { line-height: 1.7; }
+.trip-start > a { display: inline-block; margin: 1rem; color: var(--char); }
+.trip-date-label { font-size: 1rem; margin-top: 1.5rem; }
+.trip-edit-dates { background: transparent; color: white; border: 0; border-bottom: 1px solid currentColor; padding: .5rem 0; margin-bottom: 1rem; cursor: pointer; font: inherit; font-size: .8rem; min-height: 44px; }
+.trip-date-editor { padding: 1rem 4rem; background: var(--off); }
+.trip-weather { padding: 2.5rem 4rem; background: var(--off); }
+.trip-weather-summary { display: grid; grid-template-columns: minmax(180px, 1fr) 2fr; gap: 2rem; }
+.trip-weather h2 { font-size: 2rem; font-weight: 400; margin: .75rem 0; }
+.trip-weather p { font-size: .85rem; line-height: 1.7; color: var(--char); }
+.trip-weather .weather-credit { font-size: .72rem; margin-top: .6rem; }
+.weather-credit a { color: inherit; text-decoration: underline; }
+.trip-weather-days { display: flex; gap: .75rem; overflow-x: auto; margin-top: 1.5rem; padding-bottom: .5rem; }
+.trip-weather-days > div { flex: 0 0 140px; padding: 1rem; background: white; border: 1px solid var(--border); border-radius: 10px; display: grid; gap: .6rem; text-align: center; }
+.trip-weather-days time, .trip-weather-days small { font-size: .72rem; }
+.trip-weather-days strong { font-size: .9rem; font-weight: 500; }
+.trip-edit-summary { max-width: 760px; line-height: 1.8; margin: -1rem 0 2rem; color: var(--char); }
+.trip-refinements { margin: 0 4rem 1rem; padding: 2rem; background: var(--off); border: 1px solid var(--border); border-radius: 16px; }
+.trip-refinements fieldset { border: 0; margin: 1.5rem 0; min-width: 0; }
+.trip-refinements legend { font-size: 1.2rem; font-weight: 500; margin-bottom: 1rem; }
+.trip-choices { display: flex; flex-wrap: wrap; gap: .65rem; }
+.trip-choices button { min-height: 48px; padding: .8rem 1.2rem; border: 1px solid var(--border-s); border-radius: 999px; background: white; color: var(--black); font: inherit; font-size: .85rem; cursor: pointer; }
+.trip-choices button[aria-pressed="true"] { background: var(--black); color: white; border-color: var(--black); }
+.trip-skip { background: none; border: none; text-decoration: underline; font: inherit; font-size: .85rem; padding: .75rem 0; cursor: pointer; }
+.trip-refine-note, .trip-update-status { color: var(--mid); font-size: .8rem; line-height: 1.6; }
+.trip-update-status { margin: 0 4rem 2rem; }
+.trip-packing { margin: 2rem 4rem; padding: 1.5rem 0; border-block: 1px solid var(--border); }
+.trip-packing summary { cursor: pointer; font-size: 1.1rem; min-height: 44px; }
+.trip-packing ul { margin-left: 1.5rem; line-height: 2; }
+.trip-clothing-error { margin: 3rem 4rem; line-height: 1.7; }
+.trip-choices button:focus-visible, .trip-skip:focus-visible, .trip-edit-dates:focus-visible, .sf-date:focus-visible, .trip-dates-form input:focus-visible, .trip-dates-form button:focus-visible { outline: 3px solid var(--sand-d); outline-offset: 4px; }
+@media (max-width: 640px) {
+  .trip-weather, .trip-date-editor { padding: 1.5rem 1.25rem; }
+  .trip-weather-summary { grid-template-columns: 1fr; gap: 1rem; }
+  .trip-refinements { margin-inline: 1.25rem; padding: 1.25rem; }
+  .trip-update-status, .trip-packing, .trip-clothing-error { margin-inline: 1.25rem; }
+  .trip-dates-form > div { width: 100%; }
+  .trip-dates-form input, .trip-dates-form button { width: 100%; }
+  .trip-choices button { flex: 1 1 130px; }
+}

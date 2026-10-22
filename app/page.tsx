@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { useUser, SignInButton, UserButton } from '@clerk/nextjs'
 import { featuredDestinations } from '../lib/destinations'
+import { dateError, localDateISO } from '../lib/trip'
 
 
 // ── Unsplash ────────────────────────────────────────────────
@@ -148,7 +149,8 @@ function Calendar({
       onChange({ start: date, end: null })
     } else {
       if (date.getTime() === start.getTime()) {
-        onChange({ start: null, end: null })
+        onChange({ start, end: date })
+        onClose()
       } else if (date < start) {
         onChange({ start: date, end: start })
         setTimeout(onClose, 320)
@@ -212,9 +214,9 @@ function Calendar({
         onClick={e => e.stopPropagation()}
       >
         <div className="cal-header">
-          <button className="cal-nav" onClick={prevMonth}>‹</button>
+          <button aria-label="Previous month" className="cal-nav" onClick={prevMonth}>‹</button>
           <span className="cal-month-label">{MONTHS[month]} {year}</span>
-          <button className="cal-nav" onClick={nextMonth}>›</button>
+          <button aria-label="Next month" className="cal-nav" onClick={nextMonth}>›</button>
         </div>
         <div className="cal-dow">
           {['Su','Mo','Tu','We','Th','Fr','Sa'].map(d => <span key={d}>{d}</span>)}
@@ -228,6 +230,8 @@ function Calendar({
                 key={date.getDate()}
                 type="button"
                 className={dayClass(date)}
+                aria-label={date.toLocaleDateString("en", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}
+                aria-pressed={Boolean(range.start && range.end && date >= range.start && date <= range.end)}
                 disabled={isPast}
                 onClick={() => pickDay(date)}
                 onMouseEnter={() => { if (start && !end) setHover(date) }}
@@ -455,6 +459,7 @@ const ALIASES: Record<string, string> = {
 function SearchBar() {
   const router = useRouter()
   const [query, setQuery]             = useState('')
+  const [searchError, setSearchError] = useState('')
   const [range, setRange]             = useState<DateRange>({ start: null, end: null })
   const [calOpen, setCalOpen]         = useState(false)
   const [suggestions, setSuggestions] = useState<typeof ALL_DESTINATIONS>([])
@@ -545,26 +550,19 @@ function SearchBar() {
 
   function search() {
     const q = query.trim()
-    if (!q) return
-
-    // 1. Exact match from selected or typed
-    const dest = selected || ALL_DESTINATIONS.find(d =>
-      d.label.toLowerCase() === q.toLowerCase()
-    )
-    if (dest) { router.push(`/destinations/${dest.slug}`); return }
-
-    // 2. Alias match
-    const aliasSlug = ALIASES[q.toLowerCase()]
-    if (aliasSlug) { router.push(`/destinations/${aliasSlug}`); return }
-
-    // 3. Starts-with match
-    const partial = ALL_DESTINATIONS.find(d =>
-      d.label.toLowerCase().startsWith(q.toLowerCase())
-    )
-    if (partial) { router.push(`/destinations/${partial.slug}`); return }
-
-    // 4. Unknown destination — navigate anyway, results page handles it gracefully
-    router.push(`/destinations/${q.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}`)
+    if (!q) { setSearchError('Where are you going? Enter a destination.'); inputRef.current?.focus(); return }
+    const start = range.start ? localDateISO(range.start) : ''
+    const end = range.end ? localDateISO(range.end) : ''
+    const error = dateError(start, end)
+    if (error) { setSearchError(error); setCalOpen(true); return }
+    setSearchError('')
+    const dest = selected || ALL_DESTINATIONS.find(d => d.label.toLowerCase() === q.toLowerCase())
+      || ALL_DESTINATIONS.find(d => d.slug === ALIASES[q.toLowerCase()])
+      || ALL_DESTINATIONS.find(d => d.label.toLowerCase().startsWith(q.toLowerCase()))
+    const slug = dest?.slug || q.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')
+    const location = dest ? `${dest.label}, ${dest.sublabel.split(' · ')[0]}` : q
+    const params = new URLSearchParams({ destination: location, start, end })
+    router.push(`/destinations/${slug}?${params}`)
   }
 
   return (
@@ -572,9 +570,11 @@ function SearchBar() {
       <div className="search-box">
         {/* Destination */}
         <div ref={sfRef} className="sf">
-          <span className="sf-label">Destination</span>
+          <label htmlFor="trip-destination" className="sf-label">Destination</label>
           <input
             ref={inputRef}
+            id="trip-destination"
+            aria-describedby={searchError ? "trip-search-error" : undefined}
             type="text"
             placeholder="Tokyo, Tulum, Santorini..."
             value={query}
@@ -590,6 +590,11 @@ function SearchBar() {
         <div
           ref={dateRef}
           className="sf sf-date"
+          role="button"
+          tabIndex={0}
+          aria-label={`Travel dates: ${formatDateRange(range)}`}
+          aria-expanded={calOpen}
+          onKeyDown={e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setCalOpen(o => !o) } }}
           onClick={() => { setSuggestions([]); setCalOpen(o => !o) }}
         >
           <span className="sf-label">Travel dates</span>
@@ -602,9 +607,11 @@ function SearchBar() {
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
             <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
           </svg>
-          Search
+          Show my travel edit
         </button>
       </div>
+
+      {searchError && <p id="trip-search-error" role="alert" className="trip-search-error">{searchError}</p>}
 
       {/* Autocomplete dropdown — rendered via fixed positioning to escape overflow:hidden */}
       {suggestions.length > 0 && (
@@ -653,7 +660,7 @@ function SearchBar() {
       {calOpen && (
         <Calendar
           range={range}
-          onChange={setRange}
+          onChange={r => { setRange(r); setSearchError('') }}
           onClose={() => setCalOpen(false)}
           anchorRef={dateRef}
         />
@@ -1113,7 +1120,7 @@ export default function Home() {
           {[
             {
               title: 'Destination-aware',
-              desc: 'Every recommendation is built around your exact destination, dates, and the local weather forecast — not generic advice.',
+              desc: 'Your destination and dates shape your edit, with forecasts for near-term trips and historical conditions for later departures.',
               icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="18" height="18">
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
@@ -1122,7 +1129,7 @@ export default function Home() {
               ),
             },
             {
-              title: 'Curated, not generated',
+              title: 'A starting point, made personal',
               desc: "Real editorial judgment behind every pick. We care about what locals actually wear, not just what\u2019s trending.",
               icon: (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" width="18" height="18">

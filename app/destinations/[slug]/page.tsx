@@ -1,11 +1,15 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { useParams, useRouter } from 'next/navigation'
+import { Suspense, useState, useEffect } from 'react'
+import Link from 'next/link'
+import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { useUser, SignInButton, UserButton } from '@clerk/nextjs'
 import { createClient } from '../../../lib/supabase'
 import { destinations, findDestination, type Destination } from '../../../lib/destinations'
 import { getBrandCategoryUrl } from '../../../lib/brandUrls'
+import { parseTrip, tripParams, formatTripDates, type Trip } from '../../../lib/trip'
+import { buildTravelEdit, type TravelEdit } from '../../../lib/travel-edit'
+import { TripDates, TripRefinements, TripWeatherPanel } from './trip-controls'
 
 // ─────────────────────────────────────────────────────────────
 // UNSPLASH
@@ -66,16 +70,16 @@ function Nav() {
   }, [])
   return (
     <nav className={`r-nav${scrolled ? ' scrolled' : ''}`}>
-      <a href="/" className="nav-logo"><span className="logo-text">parche</span></a>
+      <Link href="/" className="nav-logo"><span className="logo-text">parche</span></Link>
       <ul className="nav-links">
-        <li><a href="/#destinations">Destinations</a></li>
-        <li><a href="/#trending">Trending</a></li>
-        <li><a href="/#guides">Style Guides</a></li>
+        <li><Link href="/#destinations">Destinations</Link></li>
+        <li><Link href="/#trending">Trending</Link></li>
+        <li><Link href="/#guides">Style Guides</Link></li>
       </ul>
       <div className="nav-right">
         <button className="btn-ghost" onClick={() => router.back()}>← Back</button>
         {isLoaded && isSignedIn && (
-          <a href="/dashboard" className="btn-ghost">My wardrobe</a>
+          <Link href="/dashboard" className="btn-ghost">My wardrobe</Link>
         )}
         {isLoaded && !isSignedIn && (
           <SignInButton mode="modal">
@@ -84,7 +88,7 @@ function Nav() {
         )}
         {isLoaded && isSignedIn
           ? <UserButton />
-          : <a href="/" className="btn-primary">New search</a>
+          : <Link href="/" className="btn-primary">New search</Link>
         }
       </div>
     </nav>
@@ -118,28 +122,6 @@ function LoadingSkeleton({ name }: { name: string }) {
 // ─────────────────────────────────────────────────────────────
 // WEATHER WIDGET
 // ─────────────────────────────────────────────────────────────
-function WeatherWidget({ dest }: { dest: Destination }) {
-  return (
-    <div className="wx-wrap">
-      <p className="wx-label">Forecast</p>
-      <div className="wx-days">
-        {dest.forecast.map((f, i) => (
-          <div key={i} className={`wx-day${i === 0 ? ' now' : ''}`}>
-            <span className="wx-icon">{f.icon}</span>
-            <span className="wx-temp">{f.temp}</span>
-            <span className="wx-dl">{f.day}</span>
-          </div>
-        ))}
-      </div>
-      <div className="wx-pills">
-        <span className="wx-pill">{dest.temp}</span>
-        <span className="wx-pill">{dest.weather}</span>
-        <span className="wx-pill">{dest.type}</span>
-      </div>
-    </div>
-  )
-}
-
 // ─────────────────────────────────────────────────────────────
 // PACKING CHECKLIST
 // ─────────────────────────────────────────────────────────────
@@ -274,7 +256,7 @@ function SaveTripButton({ dest, heroPhoto }: { dest: Destination; heroPhoto: str
       .eq('user_id', user.id)
       .eq('destination_slug', dest.slug)
       .single()
-      .then(({ data }: { data: any }) => { if (data) setSaved(true) })
+      .then(({ data }: { data: { id: string } | null }) => { if (data) setSaved(true) })
   }, [isSignedIn, user, dest.slug])
 
   async function toggle() {
@@ -474,7 +456,7 @@ function ClothingGrid({
       {/* Filters */}
       <div className="clothing-filters">
         <div className="filter-group-row">
-          <span className="filter-row-label">Budget</span>
+          <span className="filter-row-label">Price range</span>
           <div className="filter-pills">
             {['all', 'under-100', '100-300', '300-plus'].map(b => (
               <button key={b} className={`filter-pill${budget === b ? ' active' : ''}`} onClick={() => { setBudget(b); setVisible(4) }}>
@@ -542,55 +524,52 @@ function ClothingGrid({
 // ─────────────────────────────────────────────────────────────
 // RESULTS VIEW
 // ─────────────────────────────────────────────────────────────
-function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGenerated?: boolean }) {
+function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (updates: Partial<Trip>) => void }) {
+  const { destination: dest, trip } = edit
+  const [editingDates, setEditingDates] = useState(false)
+  const queryKey = tripParams(trip).toString()
+  const [clothingError, setClothingError] = useState('')
   const [heroPhoto,      setHeroPhoto]      = useState<UnsplashPhoto | null>(null)
   const [stylePhotos,    setStylePhotos]    = useState<(UnsplashPhoto | null)[]>([null, null, null])
   const [clothingItems,  setClothingItems]  = useState<(ClothingItem & { photo?: string | null })[]>([])
   const [clothingLoading, setClothingLoading] = useState(true)
 
   useEffect(() => {
-    // Start clothing fetch immediately — runs in parallel with photos
+    const controller = new AbortController()
+    let cancelled = false
     async function loadClothing() {
+      setClothingLoading(true)
+      setClothingError('')
       try {
-        const climate = `${dest.temp}, ${dest.weather}, ${(dest.tags || []).join(', ')}`
-        const res  = await fetch(`/api/clothing?destination=${encodeURIComponent(dest.name)}&climate=${encodeURIComponent(climate)}`)
+        const res = await fetch(`/api/clothing?${queryKey}`, { signal: controller.signal })
         const json = await res.json()
-        const raw: ClothingItem[] = json.data?.items || []
-        // Fetch Unsplash photos constrained to fashion collections
-        const FASHION_COLLECTIONS = '3178572,542909,4459627' // curated fashion photography collections
-        const withPhotos = await Promise.all(
-          raw.map(async item => {
-            // Always anchor query to clothing/fashion to avoid irrelevant results
-            const query = `${item.imageQuery} clothing`
-            let photo = await fetchPhoto(query, 'portrait', FASHION_COLLECTIONS)
-            if (!photo) {
-              const fallback = item.gender === 'men'
-                ? 'man fashion clothing editorial'
-                : 'woman fashion clothing editorial'
-              photo = await fetchPhoto(fallback, 'portrait', FASHION_COLLECTIONS)
-            }
-            return { ...item, photo: photo?.urls?.regular || null }
-          })
-        )
-        setClothingItems(withPhotos)
+        if (!res.ok || !Array.isArray(json.data?.items)) throw new Error(json.error || 'Unable to load clothing suggestions.')
+        const raw: ClothingItem[] = json.data.items
+        const FASHION_COLLECTIONS = '3178572,542909,4459627'
+        const withPhotos = await Promise.all(raw.map(async item => {
+          const photo = await fetchPhoto(`${item.imageQuery} clothing`, 'portrait', FASHION_COLLECTIONS)
+          return { ...item, photo: photo?.urls?.regular || null }
+        }))
+        if (!cancelled) setClothingItems(withPhotos)
       } catch {
-        setClothingItems([])
-      }
-      setClothingLoading(false)
+        if (!cancelled) { setClothingItems([]); setClothingError('Clothing suggestions are temporarily unavailable. Your travel looks are ready above.') }
+      } finally { if (!cancelled) setClothingLoading(false) }
     }
-    loadClothing()
-  }, [dest.name])
+    const timer = setTimeout(loadClothing, 300)
+    return () => { cancelled = true; clearTimeout(timer); controller.abort() }
+  }, [queryKey])
 
   useEffect(() => {
+    let cancelled = false
     async function load() {
       // Derive climate context from tags and temp for smarter photo queries
-      const tags    = (dest.tags || []).map((t: string) => t.toLowerCase())
+      const tags = (findDestination(dest.slug)?.tags || []).map((t: string) => t.toLowerCase())
       const tempStr = dest.temp || ''
-      const tempNum = parseInt(tempStr.replace(/[^-\d]/g, '')) || 20
-      const isBeach   = tags.some((t: string) => ['beach','tropical','resort','island'].includes(t))
-      const isCold    = tempNum < 10
+      const tempNum = Number.isFinite(parseFloat(tempStr)) ? parseFloat(tempStr) : 20
+      const isCold = tempNum < 10
+      const isBeach = tempNum >= 22 && tags.some((t: string) => ['beach','tropical','resort','island'].includes(t))
       const isModest  = tags.some((t: string) => ['modest','cultural','desert'].includes(t))
-      const isBoho    = tags.some((t: string) => ['boho','bohemian'].includes(t))
+      const isBoho    = !isCold && tags.some((t: string) => ['boho','bohemian'].includes(t))
       const isCity    = tags.some((t: string) => ['city','street','minimal'].includes(t))
       const isWarm    = tempNum >= 22
 
@@ -618,26 +597,13 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
         fetchPhoto(style2, 'portrait'),
         fetchPhoto(style3, 'portrait'),
       ])
-      setHeroPhoto(hero)
-      setStylePhotos([s1, s2, s3])
+      if (!cancelled) { setHeroPhoto(hero); setStylePhotos([s1, s2, s3]) }
     }
     load()
-  }, [dest.name, dest.tags, dest.temp])
+    return () => { cancelled = true }
+  }, [dest.name, dest.temp, dest.slug])
 
-  const styleCards = [
-    {
-      title: `The ${dest.name} day look`,
-      desc: dest.guide,
-    },
-    {
-      title: 'Evening upgrade',
-      desc: `After sunset in ${dest.name}, the vibe shifts. ${dest.tags.includes('Beach') ? 'Beach cover-ups give way to something with more shape — a maxi dress, linen trousers, a good sandal.' : 'A single elevated layer — a blazer, a silk shirt — takes your daytime outfit straight to dinner.'}`,
-    },
-    {
-      title: 'What locals actually wear',
-      desc: `Forget generic travel blog advice. In ${dest.name}, locals favour ${dest.tags.includes('Minimal') ? 'clean lines and understated quality over logos or trends.' : dest.tags.includes('Boho') ? 'relaxed silhouettes, natural fabrics, nothing that looks like it tried too hard.' : 'pieces that work across contexts — dressed up or down depending on the moment.'}`,
-    },
-  ]
+  const styleCards = edit.looks
 
   return (
     <div className="results-page">
@@ -652,12 +618,14 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
         <div className="dest-hero-content">
           <p className="dest-eyebrow">
             {dest.country} · {dest.region}
-            {isGenerated && <span className="ai-tag">AI Guide</span>}
+
           </p>
           <h1 className="dest-title">
             What to wear in<br />
             <em className="display">{dest.name}</em>
           </h1>
+          <p className="trip-date-label">{formatTripDates(trip.start, trip.end)}</p>
+          <button type="button" className="trip-edit-dates" aria-expanded={editingDates} onClick={() => setEditingDates(!editingDates)}>Change dates</button>
           <div className="dest-pills">
             <span className="dest-pill">{dest.temp}</span>
             <span className="dest-pill">{dest.weather}</span>
@@ -671,7 +639,8 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
       </div>
 
       {/* WEATHER */}
-      <div className="wx-band"><WeatherWidget dest={dest} /></div>
+      {editingDates && <div className="trip-date-editor"><TripDates key={trip.start + trip.end} start={trip.start} end={trip.end} onApply={(start, end) => { onTripChange({ start, end }); setEditingDates(false) }} /></div>}
+      <TripWeatherPanel weather={edit.weather} />
 
       {/* STYLE GUIDE */}
       <section className="style-section">
@@ -679,6 +648,7 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
         <h2 className="style-title">
           Dressing for <em className="display">{dest.name}</em>
         </h2>
+        <p className="trip-edit-summary">{dest.guide.split("For " + dest.name)[0]}</p>
         <div className="style-grid">
           {styleCards.map((card, i) => (
             <div key={i} className="style-card">
@@ -708,13 +678,12 @@ function ResultsView({ dest, isGenerated = false }: { dest: Destination; isGener
         </div>
       </section>
 
-      {/* PACKING CHECKLIST */}
-      <section className="checklist-section">
-        <PackingChecklist dest={dest} />
-      </section>
+      <TripRefinements trip={trip} onChange={(key, value) => onTripChange({ [key]: value })} />
+      <p className="trip-update-status" role="status" aria-live="polite">{trip.activity || trip.style ? 'Your looks reflect your choices.' : 'Your travel edit is ready. Refine it whenever you like.'}</p>
+      <details className="trip-packing"><summary>Your packing essentials</summary><ul>{edit.packing.map(item => <li key={item}>{item}</li>)}</ul></details>
 
       {/* CLOTHING RECOMMENDATIONS */}
-      <ClothingGrid dest={dest} items={clothingItems} loading={clothingLoading} />
+      {clothingError ? <p className="trip-clothing-error" role="status">{clothingError}</p> : <ClothingGrid dest={dest} items={clothingItems} loading={clothingLoading} />}
 
       {/* TAGS + KEFFY CTA */}
       <section className="cta-section">
@@ -758,7 +727,7 @@ function ErrorState({ name }: { name: string }) {
       </div>
       <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
         <button className="btn-primary-dark" onClick={() => window.location.reload()}>Try again</button>
-        <a href="/" style={{ fontSize: '0.88rem', color: 'var(--mid)', textDecoration: 'none' }}>← New search</a>
+        <Link href="/" style={{ fontSize: '0.88rem', color: 'var(--mid)', textDecoration: 'none' }}>← New search</Link>
       </div>
     </div>
   )
@@ -767,37 +736,59 @@ function ErrorState({ name }: { name: string }) {
 // ─────────────────────────────────────────────────────────────
 // PAGE
 // ─────────────────────────────────────────────────────────────
-export default function DestinationPage() {
-  const params   = useParams()
-  const rawSlug  = Array.isArray(params.slug) ? params.slug[0] : (params.slug ?? '')
-  const slug     = decodeURIComponent(rawSlug)
+function DestinationContent() {
+  const params = useParams()
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const rawSlug = Array.isArray(params.slug) ? params.slug[0] : (params.slug ?? '')
+  const slug = decodeURIComponent(rawSlug)
   const staticDest = findDestination(slug)
-
-  const [state, setState]   = useState<'idle' | 'loading' | 'done' | 'error'>('idle')
-  const [generated, setGen] = useState<Destination | null>(null)
+  const name = staticDest?.name || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+  const destination = searchParams.get('destination') || (staticDest ? `${staticDest.name}, ${staticDest.country}` : name)
+  const start = searchParams.get('start') || '', end = searchParams.get('end') || ''
+  const activity = searchParams.get('activity') || '', style = searchParams.get('style') || ''
+  const request = new URLSearchParams({ destination, start, end, activity, style })
+  let trip: Trip | null = null, validation = ''
+  try { trip = parseTrip(request) } catch (error) { validation = error instanceof Error ? error.message : 'Choose your travel dates.' }
+  const weatherKey = new URLSearchParams({ destination, start, end }).toString()
+  const [result, setResult] = useState<{ key: string; edit?: TravelEdit; error?: string } | null>(null)
+  const [retry, setRetry] = useState(0)
+  const valid = Boolean(trip)
 
   useEffect(() => {
-    if (staticDest) return
-    setState('loading')
-    const name = slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
-    fetch(`/api/destinations?destination=${encodeURIComponent(name)}`)
-      .then(r => r.json())
-      .then(json => { if (json.data) { setGen(json.data); setState('done') } else setState('error') })
-      .catch(() => setState('error'))
-  }, [slug, staticDest])
+    if (!valid) return
+    const controller = new AbortController()
+    fetch(`/api/destinations?${weatherKey}`, { signal: controller.signal })
+      .then(async r => { const json = await r.json(); if (!r.ok || !json.edit) throw new Error(json.error || 'Unable to prepare your travel edit.'); return json.edit as TravelEdit })
+      .then(edit => { if (!controller.signal.aborted) setResult({ key: weatherKey, edit }) })
+      .catch(() => { if (!controller.signal.aborted) setResult({ key: weatherKey, error: 'We could not load your travel edit. Please try again.' }) })
+    return () => controller.abort()
+  }, [valid, weatherKey, retry])
 
-  const displayName = slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+  function updateTrip(updates: Partial<Trip>) {
+    const next = new URLSearchParams(searchParams.toString())
+    next.set('destination', destination)
+    for (const [key, value] of Object.entries(updates)) { if (value) next.set(key, value); else next.delete(key) }
+    router.push(`/destinations/${encodeURIComponent(slug)}?${next}`, { scroll: false })
+  }
 
-  return (
-    <>
-      <Nav />
-      {staticDest && <ResultsView dest={staticDest} />}
-      {!staticDest && state === 'loading' && <LoadingSkeleton name={displayName} />}
-      {!staticDest && state === 'done' && generated && <ResultsView dest={generated} isGenerated />}
-      {!staticDest && state === 'error' && <ErrorState name={displayName} />}
-      <style>{css}</style>
-    </>
-  )
+  const current = result?.key === weatherKey ? result : null
+  return <>
+    <Nav />
+    {!trip ? <main className="trip-start">
+      <p className="section-eyebrow">Your travel edit</p><h1>When are you going to {name}?</h1>
+      <p>{validation}</p>
+      <TripDates key={start + end} start={start} end={end} onApply={(s, e) => updateTrip({ start: s, end: e, activity: '', style: '' })} />
+      <Link href="/">Choose a different destination</Link>
+    </main> : current?.edit ? <ResultsView key={weatherKey} edit={buildTravelEdit(trip, current.edit.weather)} onTripChange={updateTrip} />
+      : current?.error ? <main className="trip-start"><h1>Your travel edit</h1><p role="alert">{current.error}</p><button className="btn-primary" onClick={() => setRetry(n => n + 1)}>Try again</button><Link href="/">New search</Link></main>
+      : <LoadingSkeleton name={name} />}
+    <style>{css}</style>
+  </>
+}
+
+export default function DestinationPage() {
+  return <Suspense fallback={<p className="trip-start" role="status">Preparing your travel edit…</p>}><DestinationContent /></Suspense>
 }
 
 const css = `
@@ -1069,3 +1060,4 @@ const css = `
   .loading-body{padding:2rem 1.25rem}
 }
 `
+

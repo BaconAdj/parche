@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES2022",
+    "noEmit": false,
+    "incremental": false,
+    "outDir": ".test-build",
+    "plugins": [],
+    "types": [
+      "node",
+      "next"
+    ]
+  },
+  "include": [
+    "tests/**/*.ts",
+    "lib/trip.ts",
+    "lib/weather.ts",
+    "lib/travel-edit.ts",
+    "lib/destinations.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}
