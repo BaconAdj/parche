@@ -1215,13 +1215,13 @@ export default function Home() {
             </div>
             <p className="footer-tagline">
               Destination fashion, curated by real weather data and local style knowledge.
-              We earn a small commission on purchases — at no extra cost to you.
+              Build a useful packing list, then explore pieces that fit your trip.
             </p>
           </div>
           {[
             { title: 'Explore',  links: ['Beach & Island','City Breaks','Mountain','Desert','All Destinations'] },
             { title: 'Style',    links: ['Trending Now','Packing Guides','By Temperature','Budget Picks','Luxury Picks'] },
-            { title: 'Company', links: ['About','Advertise','Affiliate Disclosure','Privacy Policy','Contact'] },
+            { title: 'Company', links: ['About','Privacy Policy','Contact'] },
           ].map(col => (
             <div key={col.title} className="footer-col">
               <p className="footer-col-title">{col.title}</p>
@@ -1231,7 +1231,7 @@ export default function Home() {
         </div>
         <div className="footer-bottom">
           <p>© 2026 parche. All rights reserved.</p>
-          <p>Affiliate links may earn us a commission. <a href="#">Disclosure</a></p>
+          <p>Thoughtful packing. Pieces for your destination.</p>
         </div>
       </footer>
 
