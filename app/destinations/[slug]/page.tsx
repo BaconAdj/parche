@@ -6,7 +6,8 @@ import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { useUser, SignInButton, UserButton } from '@clerk/nextjs'
 import { createClient } from '../../../lib/supabase'
 import { destinations, findDestination, type Destination } from '../../../lib/destinations'
-import type { Product } from '../../../lib/product-catalogue'
+import { productsForNeed, type Product } from '../../../lib/product-catalogue'
+import type { PackingKind } from '../../../lib/packing'
 import { parseTrip, tripParams, formatTripDates, type Trip } from '../../../lib/trip'
 import { buildTravelEdit, type TravelEdit } from '../../../lib/travel-edit'
 import { TripDates, TripRefinements, TripWeatherPanel } from './trip-controls'
@@ -125,86 +126,6 @@ function LoadingSkeleton({ name }: { name: string }) {
 // ─────────────────────────────────────────────────────────────
 // PACKING CHECKLIST
 // ─────────────────────────────────────────────────────────────
-type CheckCat = { label: string; icon: string; items: string[] }
-
-function buildChecklist(dest: Destination): CheckCat[] {
-  const tags    = dest.tags.map(t => t.toLowerCase())
-  const isBeach = tags.some(t => ['beach','tropical','resort','island'].includes(t))
-  const isCold  = parseInt(dest.temp) < 10
-  const isModest= tags.some(t => ['modest','cultural','desert'].includes(t))
-  const isCity  = tags.some(t => ['city','street','minimal','layers'].includes(t))
-
-  if (isBeach) return [
-    { label: 'Clothing',    icon: '👗', items: ['Swimsuit or bikini', 'Linen cover-up or sarong', 'Light sundress × 2', 'Linen shorts or wide-leg trousers', 'Casual tank tops × 3'] },
-    { label: 'Footwear',   icon: '👡', items: ['Sandals or flip flops', 'Espadrilles for evenings', 'Water shoes (optional)'] },
-    { label: 'Accessories',icon: '🕶', items: ['Wide-brim sun hat', 'Polarized sunglasses', 'Lightweight tote bag', 'Waterproof watch'] },
-    { label: 'Essentials', icon: '✈️', items: ['SPF 50 sunscreen', 'Reef-safe sunscreen', 'Insect repellent', 'Reusable water bottle', 'Portable fan'] },
-  ]
-  if (isCold) return [
-    { label: 'Clothing',    icon: '🧥', items: ['Warm coat or parka', 'Wool or fleece mid-layer', 'Thermal base layers × 2', 'Warm trousers', 'Knitwear × 2', 'Smart shirt or blouse'] },
-    { label: 'Footwear',   icon: '👢', items: ['Insulated waterproof boots', 'Thick socks × 4 pairs', 'Sneakers for indoors'] },
-    { label: 'Accessories',icon: '🧣', items: ['Warm hat or beanie', 'Scarf or snood', 'Waterproof gloves', 'Backpack'] },
-    { label: 'Essentials', icon: '✈️', items: ['Lip balm', 'Hand cream', 'Hand warmers', 'Portable charger', 'Travel adapter'] },
-  ]
-  if (isModest) return [
-    { label: 'Clothing',    icon: '👗', items: ['Lightweight maxi dress', 'Loose linen trousers', 'Long-sleeve linen shirt', 'Light cardigan or blazer', 'Scarf (doubles as cover-up)'] },
-    { label: 'Footwear',   icon: '👟', items: ['Flat sandals or loafers', 'Comfortable walking shoes'] },
-    { label: 'Accessories',icon: '👜', items: ['Lightweight scarf', 'Crossbody bag', 'Sunglasses', 'Sun hat'] },
-    { label: 'Essentials', icon: '✈️', items: ['SPF 30 sunscreen', 'Reusable water bottle', 'Wet wipes', 'Small first aid kit'] },
-  ]
-  return [
-    { label: 'Clothing',    icon: '👕', items: ['Smart-casual trousers or quality jeans', 'Versatile shirt or blouse × 2', 'Light jacket or blazer', 'One elevated dinner outfit', 'Comfortable everyday layer × 2'] },
-    { label: 'Footwear',   icon: '👟', items: ['Clean walking sneakers', 'Loafers or ankle boots for evenings'] },
-    { label: 'Accessories',icon: '🎒', items: ['Quality daypack or tote', 'Crossbody bag for evenings', 'Sunglasses', 'Compact umbrella'] },
-    { label: 'Essentials', icon: '✈️', items: ['Portable charger', 'Reusable water bottle', 'Travel adapter', 'Hand sanitiser'] },
-  ]
-}
-
-function PackingChecklist({ dest }: { dest: Destination }) {
-  const cats   = buildChecklist(dest)
-  const [checked, setChecked] = useState<Record<string, boolean>>({})
-  const total  = cats.reduce((s, c) => s + c.items.length, 0)
-  const done   = Object.values(checked).filter(Boolean).length
-  const pct    = total ? Math.round((done / total) * 100) : 0
-
-  function toggle(k: string) { setChecked(p => ({ ...p, [k]: !p[k] })) }
-
-  return (
-    <div className="checklist-wrap">
-      <div className="checklist-head">
-        <div>
-          <p className="section-eyebrow">Packing checklist</p>
-          <h2 className="checklist-title">What to pack for {dest.name}</h2>
-        </div>
-        <div className="progress-wrap">
-          <div className="progress-bar"><div className="progress-fill" style={{ width: `${pct}%` }} /></div>
-          <p className="progress-label">{done} / {total} packed</p>
-          {done > 0 && <button className="checklist-reset" onClick={() => setChecked({})}>Reset</button>}
-        </div>
-      </div>
-      <div className="checklist-grid">
-        {cats.map(cat => (
-          <div key={cat.label} className="check-cat">
-            <p className="check-cat-label">{cat.icon} {cat.label}</p>
-            <ul>
-              {cat.items.map(item => {
-                const k = `${cat.label}-${item}`
-                const done = checked[k]
-                return (
-                  <li key={k} className={`check-item${done ? ' done' : ''}`} onClick={() => toggle(k)}>
-                    <span className="check-box">{done ? '✓' : ''}</span>
-                    <span className="check-text">{item}</span>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-}
-
 // ─────────────────────────────────────────────────────────────
 // MORE DESTINATIONS
 // ─────────────────────────────────────────────────────────────
@@ -374,28 +295,48 @@ function ClothingCard({ item }: { item: Product }) {
   </article>
 }
 
-function ClothingGrid({ edit, items, loading }: { edit: TravelEdit; items: Product[]; loading: boolean }) {
+function ClothingGrid({ edit, items, loading, error }: { edit: TravelEdit; items: Product[]; loading: boolean; error: string }) {
   const [gender, setGender] = useState<'women' | 'men'>('women')
-  const cold = edit.weather.low !== null && edit.weather.low < 8
-  const context = cold ? 'An indoor or layering piece; add the warm layers in your packing edit for outdoor days.'
-    : edit.trip.activity === 'active' ? 'For travel days and downtime. Choose activity-specific clothing for your adventures.'
-    : 'Wear with the trousers in your travel edit, and add a removable layer for cooler moments.'
-  return <section className="clothing-section" aria-label="Shop your travel edit">
-    <div className="clothing-header"><p className="section-eyebrow">One essential · three ways</p>
-      <h2 className="clothing-title">The everyday tee</h2>
-      <p className="product-intro">A starting piece for {edit.destination.name}. {context}</p>
-      <p className="product-intro">Our first selection covers cotton tees. More wardrobe essentials are being added.</p>
+  const [selected, setSelected] = useState<PackingKind | null>(null)
+  const [packed, setPacked] = useState<Record<string, boolean>>({})
+  const plan = edit.packingPlan
+  const optionsFor = (kind: PackingKind) => productsForNeed(items, kind, gender, plan, edit.trip.style)
+  const current = plan.needs.find(n => n.id === selected) || plan.needs.find(n => optionsFor(n.id).length > 0) || plan.needs[0]
+  const options = optionsFor(current.id)
+  const done = plan.needs.filter(n => packed[n.id]).length
+  return <section className="clothing-section" aria-label="Your packing wardrobe">
+    <div className="clothing-header"><p className="section-eyebrow">Your trip, piece by piece</p>
+      <h2 className="clothing-title">What to pack for {edit.destination.name}</h2>
+      <p className="product-intro">{plan.note}</p>
+      <p className="packing-progress" role="status">{done} of {plan.needs.length} categories packed</p>
     </div>
     <div className="clothing-gender-tabs" role="group" aria-label="Product selection">
       {(['women', 'men'] as const).map(g => <button key={g} className={`gender-tab${gender === g ? ' active' : ''}`} aria-pressed={gender === g} onClick={() => setGender(g)}>{g === 'women' ? "Women's" : "Men's"}</button>)}
     </div>
-    {loading ? <p role="status">Loading the selection…</p> : <div className="product-options">
-      {(['High-end', 'Quality', 'Budget'] as const).map(tier => {
-        const item = items.find(p => p.gender === gender && p.tier === tier)
-        return item ? <ClothingCard key={item.id} item={item} /> : <article className="product-unavailable" key={tier}><h3>{tier}</h3><p>We are reviewing an option for this tier. Check back soon.</p></article>
-      })}
-    </div>}
-    <p className="product-footnote">Prices use each retailer’s listed currency. Taxes and delivery may be extra. These are direct retailer links; affiliate commissions are not enabled yet.</p>
+    <div className="packing-groups">
+      {(['Clothing','Footwear','Accessories','Daily essentials'] as const).map(group => <div className="packing-group" key={group}>
+        <h3>{group}</h3>
+        <ul>{plan.needs.filter(n => n.group === group).map(need => {
+          const count = optionsFor(need.id).length
+          return <li key={need.id} className={packed[need.id] ? 'packing-row is-packed' : 'packing-row'}>
+            <label className="packing-check"><input type="checkbox" checked={!!packed[need.id]} onChange={e => setPacked(previous => ({...previous,[need.id]:e.target.checked}))} /><span><strong>{need.title}</strong><small>{need.quantity} {need.quantity === 1 ? 'piece / pair' : 'pieces / pairs'}{need.optional ? ' · Optional' : ''}</small></span></label>
+            <p>{need.reason}</p>
+            <a href="#packing-options" onClick={() => setSelected(need.id)}>{count ? `See ${count} ${count === 1 ? 'option' : 'options'} →` : 'View guidance →'}</a>
+          </li>
+        })}</ul>
+      </div>)}
+    </div>
+    <div id="packing-options" className="packing-options-panel" tabIndex={-1}>
+      <p className="section-eyebrow">From your packing list</p>
+      <h3 className="clothing-title">{current.title}</h3>
+      <p className="product-intro">{current.reason}</p>
+      <label className="packing-select">Explore another item<select value={current.id} onChange={e => setSelected(e.target.value as PackingKind)}>{plan.needs.map(n => <option key={n.id} value={n.id}>{n.title}</option>)}</select></label>
+      {loading ? <p role="status">Loading matching pieces…</p> : error ? <p role="status">{error}</p> : options.length ? <>
+        <div className="product-options">{options.map(item => <ClothingCard key={item.id} item={item} />)}</div>
+        {options.length < 3 && <p className="product-footnote">Available matches shown. We have not verified a suitable option in every price tier yet.</p>}
+      </> : <p className="packing-no-match">This belongs in your packing list, but we have not verified a matching product for this selection yet. Use the guidance above when choosing one.</p>}
+      <p className="product-footnote">Prices use each retailer’s listed currency. Confirm current prices, sizes and delivery on the exact product page.</p>
+    </div>
   </section>
 }
 
@@ -553,10 +494,10 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
 
       <TripRefinements trip={trip} onChange={(key, value) => onTripChange({ [key]: value })} />
       <p className="trip-update-status" role="status" aria-live="polite">{trip.activity || trip.style ? 'Your looks reflect your choices.' : 'Your travel edit is ready. Refine it whenever you like.'}</p>
-      <details className="trip-packing"><summary>Your packing essentials</summary><ul>{edit.packing.map(item => <li key={item}>{item}</li>)}</ul></details>
+
 
       {/* CLOTHING RECOMMENDATIONS */}
-      {clothingError ? <p className="trip-clothing-error" role="status">{clothingError}</p> : <ClothingGrid edit={edit} items={clothingItems} loading={clothingLoading} />}
+      <ClothingGrid key={trip.destination + trip.start + trip.end} edit={edit} items={clothingItems} loading={clothingLoading} error={clothingError} />
 
       {/* TAGS + KEFFY CTA */}
       <section className="cta-section">
@@ -665,6 +606,25 @@ export default function DestinationPage() {
 }
 
 const css = `
+.packing-groups { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;margin-top:2rem; }
+.packing-group h3 { font-size:1.2rem;margin-bottom:1rem; }
+.packing-group ul { list-style:none;padding:0; }
+.packing-row { border-top:1px solid var(--border);padding:1rem 0; }
+.packing-check { display:flex;gap:.8rem;align-items:center;min-height:44px;cursor:pointer; }
+.packing-check input { width:20px;height:20px;accent-color:#111;flex-shrink:0; }
+.packing-check strong { display:block;font-weight:500;font-size:.95rem; }
+.packing-check small { display:block;color:var(--mid);margin-top:.3rem; }
+.packing-row p { font-size:.85rem;line-height:1.6;color:var(--mid);margin:.6rem 0 .25rem 1.9rem; }
+.packing-row a { display:inline-flex;align-items:center;min-height:44px;margin-left:1.9rem;font-size:.85rem;color:var(--black);text-underline-offset:4px; }
+.is-packed .packing-check strong { text-decoration:line-through; }
+.packing-progress { margin-top:1rem;font-size:.85rem; }
+.packing-options-panel { margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);scroll-margin-top:90px; }
+.packing-select { display:flex;flex-direction:column;gap:.5rem;font-size:.85rem;margin:1.5rem 0;max-width:430px; }
+.packing-select select { min-height:44px;border:1px solid var(--border-s);border-radius:8px;padding:.7rem;background:white;color:#111;max-width:100%;font:inherit; }
+.packing-no-match { padding:1.5rem;background:var(--off);border-radius:12px;line-height:1.7; }
+.packing-row a:focus-visible,.packing-select select:focus-visible,.packing-check input:focus-visible { outline:2px solid #111;outline-offset:4px; }
+@media(max-width:640px) { .packing-groups { grid-template-columns:1fr;gap:1.5rem; } }
+
 .product-options { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.5rem; }
 .product-options .clothing-img img { object-fit:contain; }
 .product-options .clothing-card { display:flex; flex-direction:column; }
