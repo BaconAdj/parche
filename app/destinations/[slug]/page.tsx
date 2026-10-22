@@ -6,7 +6,7 @@ import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { useUser, SignInButton, UserButton } from '@clerk/nextjs'
 import { createClient } from '../../../lib/supabase'
 import { destinations, findDestination, type Destination } from '../../../lib/destinations'
-import { getBrandCategoryUrl } from '../../../lib/brandUrls'
+import type { Product } from '../../../lib/product-catalogue'
 import { parseTrip, tripParams, formatTripDates, type Trip } from '../../../lib/trip'
 import { buildTravelEdit, type TravelEdit } from '../../../lib/travel-edit'
 import { TripDates, TripRefinements, TripWeatherPanel } from './trip-controls'
@@ -355,170 +355,48 @@ function SaveLookButton({ dest, title, desc, photoUrl }: { dest: Destination; ti
 // ─────────────────────────────────────────────────────────────
 // CLOTHING GRID
 // ─────────────────────────────────────────────────────────────
-type ClothingItem = {
-  brand: string
-  name: string
-  category: string
-  gender: 'women' | 'men' | 'unisex'
-  priceRange: 'under-100' | '100-300' | '300-plus'
-  priceDisplay: string
-  why: string
-  imageQuery: string
-}
-
-const PRICE_LABELS: Record<string, string> = {
-  'under-100': 'Under $100',
-  '100-300':   '$100–300',
-  '300-plus':  '$300+',
-}
-
-const CAT_LABELS: Record<string, string> = {
-  tops: 'Tops', bottoms: 'Bottoms', outerwear: 'Outerwear',
-  dresses: 'Dresses', footwear: 'Footwear', accessories: 'Accessories', swimwear: 'Swimwear',
-}
-
-function ClothingCard({ item }: { item: ClothingItem & { photo?: string | null } }) {
-  const href = getBrandCategoryUrl(item.brand, item.category, item.gender)
-  return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="clothing-card"
-    >
-      <div className="clothing-img">
-        {item.photo
-          ? <img src={item.photo} alt={`${item.brand} ${item.name}`} loading="lazy" />
-          : <div className="clothing-placeholder" />
-        }
-        <span className="clothing-price-badge">{item.priceDisplay}</span>
-        <span className="clothing-cat-badge">{CAT_LABELS[item.category] || item.category}</span>
-        <span className="clothing-shop-overlay">
-          View on {item.brand} →
-        </span>
-      </div>
-      <div className="clothing-body">
-        <p className="clothing-brand">{item.brand}</p>
-        <p className="clothing-name">{item.name}</p>
-        <p className="clothing-why">{item.why}</p>
-      </div>
-    </a>
-  )
-}
-
-function ClothingGrid({
-  dest,
-  items,
-  loading,
-}: {
-  dest: Destination
-  items: (ClothingItem & { photo?: string | null })[]
-  loading: boolean
-}) {
-  const [gender, setGender]     = useState<'women' | 'men'>('women')
-  const [budget, setBudget]     = useState<string>('all')
-  const [category, setCategory] = useState<string>('all')
-  const [visible, setVisible]   = useState(4)
-
-  const categories = [...new Set(items.filter(i => i.gender === gender || i.gender === 'unisex').map(i => i.category))]
-
-  // Reset visible count when filters change
-  const allFiltered = items.filter(i => {
-    if (i.gender !== gender && i.gender !== 'unisex') return false
-    if (budget !== 'all' && i.priceRange !== budget) return false
-    if (category !== 'all' && i.category !== category) return false
-    return true
-  })
-  const filtered = allFiltered.slice(0, visible)
-  const hasMore  = allFiltered.length > visible
-
-  return (
-    <div className="clothing-section">
-      <div className="clothing-header">
-        <div>
-          <p className="section-eyebrow">What to wear</p>
-          <h2 className="clothing-title">
-            Curated picks for <em className="display">{dest.name}</em>
-          </h2>
-        </div>
-      </div>
-
-      {/* Gender tabs */}
-      <div className="clothing-gender-tabs">
-        <button className={`gender-tab${gender === 'women' ? ' active' : ''}`} onClick={() => { setGender('women'); setCategory('all'); setVisible(4) }}>
-          Women&apos;s
-        </button>
-        <button className={`gender-tab${gender === 'men' ? ' active' : ''}`} onClick={() => { setGender('men'); setCategory('all'); setVisible(4) }}>
-          Men&apos;s
-        </button>
-      </div>
-
-      {/* Filters */}
-      <div className="clothing-filters">
-        <div className="filter-group-row">
-          <span className="filter-row-label">Price range</span>
-          <div className="filter-pills">
-            {['all', 'under-100', '100-300', '300-plus'].map(b => (
-              <button key={b} className={`filter-pill${budget === b ? ' active' : ''}`} onClick={() => { setBudget(b); setVisible(4) }}>
-                {b === 'all' ? 'All prices' : PRICE_LABELS[b]}
-              </button>
-            ))}
-          </div>
-        </div>
-        {categories.length > 1 && (
-          <div className="filter-group-row">
-            <span className="filter-row-label">Category</span>
-            <div className="filter-pills">
-              <button className={`filter-pill${category === 'all' ? ' active' : ''}`} onClick={() => { setCategory('all'); setVisible(4) }}>All</button>
-              {categories.map(c => (
-                <button key={c} className={`filter-pill${category === c ? ' active' : ''}`} onClick={() => { setCategory(c); setVisible(4) }}>
-                  {CAT_LABELS[c] || c}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-
-      {/* Grid */}
-      {loading ? (
-        <div className="clothing-loading">
-          <div className="clothing-shimmer-grid">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div key={i} className="clothing-shimmer" style={{ animationDelay: `${i * 0.08}s` }} />
-            ))}
-          </div>
-          <p className="clothing-loading-text">Finding the best pieces for {dest.name}...</p>
-        </div>
-      ) : filtered.length === 0 ? (
-        <div className="clothing-empty">
-          <p>No items match your filters.</p>
-          <button className="filter-pill active" onClick={() => { setBudget('all'); setCategory('all') }}>Clear filters</button>
-        </div>
-      ) : allFiltered.length === 0 ? (
-        <div className="clothing-empty">
-          <p>No items match your filters.</p>
-          <button className="filter-pill active" onClick={() => { setBudget('all'); setCategory('all') }}>Clear filters</button>
-        </div>
-      ) : (
-        <>
-          <div className="clothing-grid">
-            {filtered.map((item, i) => <ClothingCard key={i} item={item} />)}
-          </div>
-          {hasMore && (
-            <div className="clothing-more-wrap">
-              <button
-                className="clothing-more-btn"
-                onClick={() => setVisible(v => v + 4)}
-              >
-                {`Show 4 more ↓`}
-              </button>
-            </div>
-          )}
-        </>
-      )}
+function ClothingCard({ item }: { item: Product }) {
+  const [failed, setFailed] = useState(false)
+  return <article className="clothing-card">
+    <div className="clothing-img">
+      {failed ? <p className="product-image-missing">Photo unavailable · view the item at {item.brand}</p>
+        : <img src={item.imageUrl} alt={`${item.brand} ${item.name}`} loading="lazy" onError={() => setFailed(true)} />}
     </div>
-  )
+    <div className="clothing-body">
+      <p className="product-tier">{item.tier}</p>
+      <p className="clothing-brand">{item.brand}</p>
+      <h3 className="clothing-name">{item.name}</h3>
+      <p className="product-price">{item.currency} {item.price.toFixed(2)}</p>
+      <p className="clothing-why">{item.details}</p>
+      <p className="product-checked">Price checked {item.checkedAt}. Confirm sizes, shipping and current price with the retailer.</p>
+      <a className="product-link" href={item.productUrl} target="_blank" rel="noopener noreferrer">View exact item at {item.brand} ↗</a>
+    </div>
+  </article>
+}
+
+function ClothingGrid({ edit, items, loading }: { edit: TravelEdit; items: Product[]; loading: boolean }) {
+  const [gender, setGender] = useState<'women' | 'men'>('women')
+  const cold = edit.weather.low !== null && edit.weather.low < 8
+  const context = cold ? 'An indoor or layering piece; add the warm layers in your packing edit for outdoor days.'
+    : edit.trip.activity === 'active' ? 'For travel days and downtime. Choose activity-specific clothing for your adventures.'
+    : 'Wear with the trousers in your travel edit, and add a removable layer for cooler moments.'
+  return <section className="clothing-section" aria-label="Shop your travel edit">
+    <div className="clothing-header"><p className="section-eyebrow">One essential · three ways</p>
+      <h2 className="clothing-title">The everyday tee</h2>
+      <p className="product-intro">A starting piece for {edit.destination.name}. {context}</p>
+      <p className="product-intro">Our first selection covers cotton tees. More wardrobe essentials are being added.</p>
+    </div>
+    <div className="clothing-gender-tabs" role="group" aria-label="Product selection">
+      {(['women', 'men'] as const).map(g => <button key={g} className={`gender-tab${gender === g ? ' active' : ''}`} aria-pressed={gender === g} onClick={() => setGender(g)}>{g === 'women' ? "Women's" : "Men's"}</button>)}
+    </div>
+    {loading ? <p role="status">Loading the selection…</p> : <div className="product-options">
+      {(['High-end', 'Quality', 'Budget'] as const).map(tier => {
+        const item = items.find(p => p.gender === gender && p.tier === tier)
+        return item ? <ClothingCard key={item.id} item={item} /> : <article className="product-unavailable" key={tier}><h3>{tier}</h3><p>We are reviewing an option for this tier. Check back soon.</p></article>
+      })}
+    </div>}
+    <p className="product-footnote">Prices use each retailer’s listed currency. Taxes and delivery may be extra. These are direct retailer links; affiliate commissions are not enabled yet.</p>
+  </section>
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -531,7 +409,7 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
   const [clothingError, setClothingError] = useState('')
   const [heroPhoto,      setHeroPhoto]      = useState<UnsplashPhoto | null>(null)
   const [stylePhotos,    setStylePhotos]    = useState<(UnsplashPhoto | null)[]>([null, null, null])
-  const [clothingItems,  setClothingItems]  = useState<(ClothingItem & { photo?: string | null })[]>([])
+  const [clothingItems,  setClothingItems]  = useState<Product[]>([])
   const [clothingLoading, setClothingLoading] = useState(true)
 
   useEffect(() => {
@@ -544,13 +422,7 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
         const res = await fetch(`/api/clothing?${queryKey}`, { signal: controller.signal })
         const json = await res.json()
         if (!res.ok || !Array.isArray(json.data?.items)) throw new Error(json.error || 'Unable to load clothing suggestions.')
-        const raw: ClothingItem[] = json.data.items
-        const FASHION_COLLECTIONS = '3178572,542909,4459627'
-        const withPhotos = await Promise.all(raw.map(async item => {
-          const photo = await fetchPhoto(`${item.imageQuery} clothing`, 'portrait', FASHION_COLLECTIONS)
-          return { ...item, photo: photo?.urls?.regular || null }
-        }))
-        if (!cancelled) setClothingItems(withPhotos)
+        if (!cancelled) setClothingItems(json.data.items)
       } catch {
         if (!cancelled) { setClothingItems([]); setClothingError('Clothing suggestions are temporarily unavailable. Your travel looks are ready above.') }
       } finally { if (!cancelled) setClothingLoading(false) }
@@ -648,6 +520,7 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
         <h2 className="style-title">
           Dressing for <em className="display">{dest.name}</em>
         </h2>
+        <p className="product-footnote">Outfit inspiration · photos do not depict the shop items below.</p>
         <p className="trip-edit-summary">{dest.guide.split("For " + dest.name)[0]}</p>
         <div className="style-grid">
           {styleCards.map((card, i) => (
@@ -683,7 +556,7 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
       <details className="trip-packing"><summary>Your packing essentials</summary><ul>{edit.packing.map(item => <li key={item}>{item}</li>)}</ul></details>
 
       {/* CLOTHING RECOMMENDATIONS */}
-      {clothingError ? <p className="trip-clothing-error" role="status">{clothingError}</p> : <ClothingGrid dest={dest} items={clothingItems} loading={clothingLoading} />}
+      {clothingError ? <p className="trip-clothing-error" role="status">{clothingError}</p> : <ClothingGrid edit={edit} items={clothingItems} loading={clothingLoading} />}
 
       {/* TAGS + KEFFY CTA */}
       <section className="cta-section">
@@ -792,6 +665,21 @@ export default function DestinationPage() {
 }
 
 const css = `
+.product-options { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.5rem; }
+.product-options .clothing-img img { object-fit:contain; }
+.product-options .clothing-card { display:flex; flex-direction:column; }
+.product-options .clothing-body { flex:1; display:flex; flex-direction:column; gap:.6rem; padding:1.4rem; }
+.product-tier { font-size:.75rem; text-transform:uppercase; letter-spacing:.16em; font-weight:600; }
+.product-price { font-size:1.2rem; }
+.product-intro { max-width:760px; line-height:1.7; margin-top:1rem; color:var(--mid); }
+.product-checked,.product-footnote { font-size:.75rem; line-height:1.6; color:var(--mid); }
+.product-footnote { margin:1.5rem 0; }
+.product-link { display:flex; align-items:center; min-height:44px; margin-top:auto; padding:.7rem 0; color:var(--black); text-underline-offset:4px; }
+.product-image-missing,.product-unavailable { padding:2rem; line-height:1.7; }
+.clothing-gender-tabs .gender-tab { min-height:44px; }
+.product-link:focus-visible,.gender-tab:focus-visible { outline:2px solid var(--black); outline-offset:4px; }
+@media(max-width:640px) { .product-options { grid-template-columns:1fr; } }
+
 .display { font-family:'Playfair Display',serif; font-style:italic; font-weight:400; }
 .section-eyebrow {
   font-size:0.58rem; letter-spacing:0.35em; text-transform:uppercase; color:var(--sand);

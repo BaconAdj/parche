@@ -131,32 +131,32 @@ test('API rejects invalid dates before calling a provider', async () => {
   } finally { mock.restore() }
 })
 
-test('clothing API uses trip preferences in prompts and isolates cached results', async () => {
+test('clothing API validates dates and never calls a paid service', async () => {
   const { NextRequest } = await import('next/server')
   const { GET } = await import('../app/api/clothing/route')
-  const original = globalThis.fetch, savedKey = process.env.ANTHROPIC_API_KEY
-  process.env.ANTHROPIC_API_KEY = 'test-only-placeholder'
-  const prompts: string[] = []
-  const future = new Date(); future.setDate(future.getDate() + 30)
-  const selected = { ...trip, start: localDateISO(future), end: localDateISO(future) }
-  globalThis.fetch = async (input, init) => {
-    if (String(input).includes('anthropic.com')) {
-      prompts.push(String(init?.body))
-      return Response.json({ content: [{ text: JSON.stringify({ items: [{ brand: 'Test brand', name: 'Test shirt', category: 'tops', gender: 'unisex', priceRange: 'under-100', priceDisplay: '$50', why: 'Test rationale', imageQuery: 'shirt' }] }) }] })
-    }
-    throw new Error('Weather deliberately unavailable in this test')
-  }
+  const original = globalThis.fetch
+  globalThis.fetch = async () => { throw new Error('Shopping must not call external services') }
   try {
-    for (const style of ['', '', 'statement']) {
-      const response = await GET(new NextRequest('https://parche.store/api/clothing?' + tripParams({ ...selected, style: style as Trip['style'] })))
-      assert.equal(response.status, 200)
-    }
-    assert.equal(prompts.length, 2)
-    const data = JSON.parse(JSON.parse(prompts[1]).messages[0].content)
-    assert.equal(data.personalStyle, 'statement'); assert.equal(data.departure, selected.start)
-    assert.match(data.weatherContext, /unavailable/)
-  } finally {
-    globalThis.fetch = original
-    if (savedKey === undefined) delete process.env.ANTHROPIC_API_KEY; else process.env.ANTHROPIC_API_KEY = savedKey
+    const future = new Date(); future.setDate(future.getDate() + 30)
+    const selected = { ...trip, start: localDateISO(future), end: localDateISO(future) }
+    const response = await GET(new NextRequest('https://parche.store/api/clothing?' + tripParams(selected)))
+    assert.equal(response.status, 200)
+    assert.ok(Array.isArray((await response.json()).data.items))
+    assert.equal((await GET(new NextRequest('https://parche.store/api/clothing'))).status, 400)
+  } finally { globalThis.fetch = original }
+})
+
+test('catalogue has three distinct reviewed options per selection and expires stale prices', async () => {
+  const { catalogue, reviewedProducts } = await import('../lib/product-catalogue')
+  assert.equal(reviewedProducts(new Date('2026-10-23')).length, 6)
+  assert.equal(reviewedProducts(new Date('2026-11-22')).length, 0)
+  assert.equal(new Set(catalogue.map(p => p.productUrl)).size, catalogue.length)
+  assert.equal(new Set(catalogue.map(p => p.imageUrl)).size, catalogue.length)
+  for (const gender of ['women', 'men']) assert.deepEqual(catalogue.filter(p => p.gender === gender).map(p => p.tier), ['High-end', 'Quality', 'Budget'])
+  for (const item of catalogue) {
+    assert.equal(new URL(item.productUrl).protocol, 'https:')
+    assert.equal(new URL(item.imageUrl).protocol, 'https:')
+    assert.ok(item.price > 0 && ['USD', 'CAD'].includes(item.currency))
+    assert.ok(!item.imageUrl.includes('unsplash'))
   }
 })
