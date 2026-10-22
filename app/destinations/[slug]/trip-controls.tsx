@@ -47,7 +47,7 @@ export function TripWeatherPanel({ weather }: { weather: TripWeather }) {
       </div>
       <div><p>{weather.note}</p>
         {weather.rainDays !== null && <p>{weather.rainDays}% of {weather.kind === 'seasonal' ? 'historical sample' : 'forecast'} days have at least 1 mm of precipitation.</p>}
-        {weather.kind !== 'unavailable' && <p className="weather-credit">Weather data: <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. {weather.kind === 'seasonal' ? 'Historical data averaged by parché.' : 'Daily data summarized by parché.'}</p>}
+        {weather.kind !== 'unavailable' && <p className="weather-credit">Weather data: <a href="https://www.visualcrossing.com/" target="_blank" rel="noopener noreferrer">Visual Crossing</a>. {weather.kind === 'seasonal' ? 'Historical data averaged by parché.' : 'Daily data summarized by parché.'}</p>}
       </div>
     </div>
     {weather.kind === 'forecast' && <div className="trip-weather-days">{weather.days.map(day => <div key={day.date}>

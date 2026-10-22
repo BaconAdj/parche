@@ -19,9 +19,9 @@ test('date validation handles missing, invalid, reversed, past and overlong date
   assert.throws(() => parseTrip(new URLSearchParams({ ...trip, activity: 'bad' }), '2026-10-22'))
 })
 
-test('entire trip must fit the 16-day forecast window', () => {
-  assert.equal(weatherWindow({ start: '2026-10-22', end: '2026-11-06' }, '2026-10-22'), 'forecast')
-  assert.equal(weatherWindow({ start: '2026-10-22', end: '2026-11-07' }, '2026-10-22'), 'seasonal')
+test('entire trip must fit the 15-day forecast window', () => {
+  assert.equal(weatherWindow({ start: '2026-10-22', end: '2026-11-05' }, '2026-10-22'), 'forecast')
+  assert.equal(weatherWindow({ start: '2026-10-22', end: '2026-11-06' }, '2026-10-22'), 'seasonal')
   assert.equal(weatherWindow(trip, '2026-10-22'), 'seasonal')
 })
 
@@ -31,7 +31,7 @@ test('historical comparisons handle leap days and year-crossing trips', () => {
 })
 
 test('missing provider temperatures are not silently converted to zero', () => {
-  assert.deepEqual(parseDays({ time: ['2027-01-05'], temperature_2m_min: [null], temperature_2m_max: [20], precipitation_sum: [0], weather_code: [0] }), [])
+  assert.deepEqual(parseDays([{ datetime: '2027-01-05', tempmin: null, tempmax: 20, precip: 0 }]), [])
 })
 
 test('preferences change actual looks while preserving location and dates', () => {
@@ -56,16 +56,17 @@ test('unavailable weather never fabricates a forecast or a temperature', () => {
 
 function installWeatherMock() {
   const calls: URL[] = []
-  const original = globalThis.fetch
+  const original = globalThis.fetch, savedKey = process.env.VISUAL_CROSSING_API_KEY
+  process.env.VISUAL_CROSSING_API_KEY = 'test-only-placeholder'
   globalThis.fetch = async (input) => {
     const url = new URL(String(input)); calls.push(url)
-    if (url.hostname.includes('geocoding')) return Response.json({ results: [{ name: 'Lisbon', country: 'Portugal', latitude: 38.7, longitude: -9.1, timezone: 'Europe/Lisbon' }] })
-    const start = url.searchParams.get('start_date')!, end = url.searchParams.get('end_date')!
+    const path = url.pathname.split('/')
+    const start = path.length > 6 ? path.at(-2)! : '2026-10-22', end = path.length > 6 ? path.at(-1)! : '2026-11-05'
     const dates: string[] = []
     for (let d = Date.parse(start + 'T12:00:00Z'); d <= Date.parse(end + 'T12:00:00Z'); d += 86400000) dates.push(new Date(d).toISOString().slice(0, 10))
-    return Response.json({ daily: { time: dates, temperature_2m_min: dates.map(() => 10), temperature_2m_max: dates.map(() => 20), precipitation_sum: dates.map(() => 2), weather_code: dates.map(() => 61) } })
+    return Response.json({ resolvedAddress: 'Lisbon, Portugal', timezone: 'Europe/Lisbon', days: dates.map(datetime => ({ datetime, tempmin: 10, tempmax: 20, precip: 2, icon: 'rain', source: path.length > 6 ? 'obs' : 'fcst' })) })
   }
-  return { calls, restore: () => { globalThis.fetch = original } }
+  return { calls, restore: () => { globalThis.fetch = original; if (savedKey === undefined) delete process.env.VISUAL_CROSSING_API_KEY; else process.env.VISUAL_CROSSING_API_KEY = savedKey } }
 }
 
 test('forecast integration requests actual trip days and returns sourced daily rows', async () => {
@@ -74,18 +75,18 @@ test('forecast integration requests actual trip days and returns sourced daily r
     const weather = await getTripWeather({ ...trip, start: '2026-10-23', end: '2026-10-26' }, new Date('2026-10-22T12:00:00Z'))
     assert.equal(weather.kind, 'forecast'); assert.equal(weather.days.length, 4)
     assert.equal(weather.days[0].date, '2026-10-23'); assert.equal(weather.rainDays, 100)
-    assert.equal(mock.calls[1].searchParams.get('end_date'), '2026-10-26')
+    assert.equal(mock.calls.length, 1); assert.equal(mock.calls[0].searchParams.get('include'), 'days'); assert.equal(mock.calls[0].searchParams.get('unitGroup'), 'metric')
   } finally { mock.restore() }
 })
 
-test('seasonal integration averages five historical periods, never presents them as future daily forecasts', async () => {
+test('seasonal integration averages three historical periods, never presents them as future daily forecasts', async () => {
   const mock = installWeatherMock()
   try {
     const weather = await getTripWeather(trip, new Date('2026-10-22T12:00:00Z'))
-    assert.equal(weather.kind, 'seasonal'); assert.equal(weather.sampleYears.length, 5)
+    assert.equal(weather.kind, 'seasonal'); assert.equal(weather.sampleYears.length, 3)
     assert.equal(weather.low, 10); assert.equal(weather.high, 20); assert.deepEqual(weather.days, [])
     assert.match(weather.note, /not a forecast/)
-    assert.equal(mock.calls.length, 6)
+    assert.equal(mock.calls.length, 4)
   } finally { mock.restore() }
 })
 
@@ -95,12 +96,28 @@ test('provider failures fall back safely without rejecting the travel edit', asy
   try { assert.equal((await getTripWeather(trip)).kind, 'unavailable') } finally { globalThis.fetch = original }
 })
 
-test('commercial production does not silently use the non-commercial endpoint', async () => {
-  const saved = { NODE_ENV: process.env.NODE_ENV, VERCEL_ENV: process.env.VERCEL_ENV, OPEN_METEO_API_KEY: process.env.OPEN_METEO_API_KEY }
-  Object.assign(process.env, { NODE_ENV: 'production', VERCEL_ENV: 'production' }); delete process.env.OPEN_METEO_API_KEY
+test('missing key never calls a provider or falls back to a paid service', async () => {
   const mock = installWeatherMock()
+  delete process.env.VISUAL_CROSSING_API_KEY
   try { assert.equal((await getTripWeather(trip)).kind, 'unavailable'); assert.equal(mock.calls.length, 0) }
-  finally { mock.restore(); for (const [k, v] of Object.entries(saved)) { if (v === undefined) delete process.env[k]; else process.env[k] = v } }
+  finally { mock.restore() }
+})
+
+test('quota exhaustion leaves the travel edit usable without invented weather', async () => {
+  const mock = installWeatherMock()
+  globalThis.fetch = async () => new Response('Quota exceeded', { status: 429 })
+  try {
+    const weather = await getTripWeather(trip)
+    assert.equal(weather.kind, 'unavailable')
+    assert.equal(buildTravelEdit(trip, weather).looks.length, 3)
+  } finally { mock.restore() }
+})
+
+test('duplicate or statistical forecast rows cannot masquerade as a complete forecast', async () => {
+  const mock = installWeatherMock()
+  globalThis.fetch = async () => Response.json({ resolvedAddress: 'Lisbon', timezone: 'Europe/Lisbon', days: [{ datetime: '2026-10-23', tempmin: 10, tempmax: 20, precip: 0, source: 'stats' }] })
+  try { assert.equal((await getTripWeather({ ...trip, start: '2026-10-23', end: '2026-10-23' }, new Date('2026-10-22T12:00:00Z'))).kind, 'unavailable') }
+  finally { mock.restore() }
 })
 
 test('API rejects invalid dates before calling a provider', async () => {

@@ -11,8 +11,8 @@ export type TripWeather = {
   note: string
   sampleYears: number[]
 }
-type Place = { name: string; country: string; latitude: number; longitude: number; timezone: string }
-type Daily = { time: string[]; temperature_2m_min: (number | null)[]; temperature_2m_max: (number | null)[]; precipitation_sum: (number | null)[]; weather_code: (number | null)[] }
+type ProviderDay = { datetime?: string; tempmin?: number | null; tempmax?: number | null; precip?: number | null; icon?: string; source?: string }
+type Timeline = { resolvedAddress?: string; timezone?: string; days?: ProviderDay[] }
 
 // Regional searches use an explicitly labelled reference town, never a made-up coordinate.
 const REGIONS: Record<string, string> = {
@@ -22,44 +22,47 @@ const REGIONS: Record<string, string> = {
   'seychelles': 'Victoria, Seychelles', 'algarve': 'Faro, Portugal', 'cinque terre': 'Monterosso al Mare, Italy',
 }
 
-function apiURL(service: 'geocoding' | 'forecast' | 'archive', path: string, params: URLSearchParams): string {
-  const key = process.env.OPEN_METEO_API_KEY
-  // The free endpoint is for evaluation only. Commercial deployments need a customer key.
-  if (!key && process.env.NODE_ENV === 'production' && process.env.VERCEL_ENV !== 'preview') throw new Error('Weather provider not configured')
-  const host = service === 'forecast' ? 'api' : `${service}-api`
-  if (key) params.set('apikey', key)
-  return `https://${key ? 'customer-' : ''}${host}.open-meteo.com/${path}?${params}`
+// Only a free account without billing details should be configured for this launch.
+// The provider enforces that account's daily allowance; no paid fallback is used.
+const pending = new Map<string, Promise<Timeline>>()
+async function timeline(destination: string, start?: string, end?: string): Promise<Timeline> {
+  const key = process.env.VISUAL_CROSSING_API_KEY
+  if (!key) throw new Error('Weather provider not configured')
+  const name = REGIONS[destination.split(',')[0].toLowerCase().trim()] || destination.trim()
+  const params = new URLSearchParams({ key, unitGroup: 'metric', include: 'days', contentType: 'json', elements: 'datetime,tempmin,tempmax,precip,icon,source' })
+  const dates = start && end ? `/${start}/${end}` : ''
+  const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(name)}${dates}?${params}`
+  // Share concurrent requests from the outfit and shopping routes. Next's persistent
+  // fetch cache shares forecast data across trip dates and historical rows for 30 days.
+  const existing = pending.get(url)
+  if (existing) return existing
+  const request = (async () => {
+    const res = await fetch(url, { signal: AbortSignal.timeout(10_000), next: { revalidate: start ? 86400 * 30 : 21600 } })
+    if (!res.ok) throw new Error('Weather provider unavailable')
+    return await res.json() as Timeline
+  })()
+  pending.set(url, request)
+  try { return await request } finally { pending.delete(url) }
 }
 
-async function getJSON(url: string, revalidate: number) {
-  const res = await fetch(url, { signal: AbortSignal.timeout(10_000), next: { revalidate } })
-  if (!res.ok) throw new Error('Weather provider unavailable')
-  return res.json()
-}
-
-export async function resolvePlace(destination: string): Promise<Place> {
-  const base = destination.split(',')[0].toLowerCase().trim()
-  const name = REGIONS[base] || destination
-  const data = await getJSON(apiURL('geocoding', 'v1/search', new URLSearchParams({ name, count: '5', language: 'en', format: 'json' })), 86400)
-  const places = (data.results || []) as Place[]
-  if (!places.length) throw new Error('Location not found')
-  const place = places[0]
-  if (!Number.isFinite(place.latitude) || !Number.isFinite(place.longitude) || !place.timezone) throw new Error('Invalid location')
-  return place
-}
-
-export function parseDays(daily: Daily | undefined): WeatherDay[] {
-  if (!daily || !Array.isArray(daily.time)) return []
-  return daily.time.flatMap((date, i) => {
-    const low = daily.temperature_2m_min?.[i], high = daily.temperature_2m_max?.[i], rain = daily.precipitation_sum?.[i], code = daily.weather_code?.[i]
-    if (typeof low !== 'number' || !Number.isFinite(low) || typeof high !== 'number' || !Number.isFinite(high) || typeof rain !== 'number' || !Number.isFinite(rain) || typeof code !== 'number' || !Number.isFinite(code)) return []
-    return [{ date, low, high, rain, code }]
+export function parseDays(rows: ProviderDay[] | undefined): WeatherDay[] {
+  if (!Array.isArray(rows)) return []
+  const codes: Record<string, number> = { 'clear-day': 0, 'clear-night': 0, 'partly-cloudy-day': 2, 'partly-cloudy-night': 2, cloudy: 3, fog: 45, rain: 61, snow: 71, wind: 3 }
+  return rows.flatMap(row => {
+    const { datetime: date, tempmin: low, tempmax: high, precip: rain } = row
+    if (!date || !Number.isFinite(dateNumber(date)) || typeof low !== 'number' || !Number.isFinite(low) || typeof high !== 'number' || !Number.isFinite(high) || typeof rain !== 'number' || !Number.isFinite(rain) || low > high || rain < 0) return []
+    return [{ date, low, high, rain, code: codes[row.icon || ''] ?? 3 }]
   })
+}
+
+function completePeriod(days: WeatherDay[], start: string, end: string): boolean {
+  const count = (dateNumber(end) - dateNumber(start)) / 86400000 + 1
+  return days.length === count && days.every((day, i) => dateNumber(day.date) === dateNumber(start) + i * 86400000)
 }
 
 export function weatherWindow(trip: Pick<Trip, 'start' | 'end'>, today: string): 'forecast' | 'seasonal' {
   // Use a single historical basis for the whole trip if any day is beyond the forecast horizon.
-  return trip.start >= today && dateNumber(trip.end) - dateNumber(today) <= 15 * 86400000 ? 'forecast' : 'seasonal'
+  return trip.start >= today && dateNumber(trip.end) - dateNumber(today) <= 14 * 86400000 ? 'forecast' : 'seasonal'
 }
 
 export function historicWindow(trip: Pick<Trip, 'start' | 'end'>, year: number): { start: string; end: string } {
@@ -77,31 +80,28 @@ export function unavailableWeather(location: string): TripWeather {
 
 export async function getTripWeather(trip: Trip, now = new Date()): Promise<TripWeather> {
   try {
-    const place = await resolvePlace(trip.destination)
-    const location = `${place.name}, ${place.country}`
-    const today = new Intl.DateTimeFormat('en-CA', { timeZone: place.timezone, year: 'numeric', month: '2-digit', day: '2-digit' }).format(now)
+    const forecast = await timeline(trip.destination)
+    if (!forecast.timezone || !forecast.resolvedAddress) throw new Error('Invalid location')
+    const location = forecast.resolvedAddress
+    const today = new Intl.DateTimeFormat('en-CA', { timeZone: forecast.timezone, year: 'numeric', month: '2-digit', day: '2-digit' }).format(now)
     const kind = weatherWindow(trip, today)
-    const params = () => new URLSearchParams({ latitude: String(place.latitude), longitude: String(place.longitude), timezone: place.timezone, daily: 'temperature_2m_min,temperature_2m_max,precipitation_sum,weather_code' })
     let days: WeatherDay[] = []
     const sampleYears: number[] = []
     if (kind === 'forecast') {
-      const query = params()
-      query.set('start_date', trip.start); query.set('end_date', trip.end)
-      const data = await getJSON(apiURL('forecast', 'v1/forecast', query), 3600)
-      days = parseDays(data.daily)
-      const count = (dateNumber(trip.end) - dateNumber(trip.start)) / 86400000 + 1
-      if (days.length !== count || days[0]?.date !== trip.start || days.at(-1)?.date !== trip.end) return unavailableWeather(location)
+      // Never label statistical future estimates as a live forecast.
+      const rows = (forecast.days || []).filter(d => d.datetime && d.datetime >= trip.start && d.datetime <= trip.end)
+      if (rows.some(d => d.source !== 'fcst' && d.source !== 'comb')) return unavailableWeather(location)
+      days = parseDays(rows)
+      if (!completePeriod(days, trip.start, trip.end)) return unavailableWeather(location)
     } else {
-      // Five completed comparison seasons. December–January trips must end in a completed year.
+      // Three completed comparison seasons conserve the free daily allowance. December–January trips must end in a completed year.
       const crossesYear = trip.end.slice(0, 4) !== trip.start.slice(0, 4)
       const latestYear = Number(today.slice(0, 4)) - (crossesYear ? 2 : 1)
-      const samples = await Promise.allSettled(Array.from({ length: 5 }, async (_, i) => {
-        const year = latestYear - i, window = historicWindow(trip, year), query = params()
-        query.set('start_date', window.start); query.set('end_date', window.end); query.set('models', 'era5')
-        const data = await getJSON(apiURL('archive', 'v1/archive', query), 86400 * 30)
-        const rows = parseDays(data.daily)
-        const expected = (dateNumber(window.end) - dateNumber(window.start)) / 86400000 + 1
-        if (rows.length !== expected) throw new Error('Incomplete historical season')
+      const samples = await Promise.allSettled(Array.from({ length: 3 }, async (_, i) => {
+        const year = latestYear - i, window = historicWindow(trip, year)
+        const data = await timeline(trip.destination, window.start, window.end)
+        const rows = parseDays(data.days)
+        if (!completePeriod(rows, window.start, window.end)) throw new Error('Incomplete historical season')
         return { year, rows }
       }))
       for (const sample of samples) if (sample.status === 'fulfilled') { days.push(...sample.value.rows); sampleYears.push(sample.value.year) }
