@@ -72,7 +72,9 @@ for (const k of KINDS.kinds) {
 }
 lines.push('', '## Brands', '', ...Object.entries(catalogue.reduce((a, p) => (a[p.brand] = (a[p.brand] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]).map(([b, n]) => `- ${b}: ${n}`))
 // Category audit: the garment word in each name should belong to the family of the piece it is listed under.
-const odd = catalogue.filter(p => { const f = garmentFamily(p.name.split(' — ')[0]); return f && f !== kindFamily(p.kinds[0]) })
+// Expected crossings (lounge pants filed as sleepwear, bikini tops as swim, crew socks, vests as knitwear) are not flagged.
+const EXPECTED = new Set(['top>sleep', 'bottom>sleep', 'dress>sleep', 'top>swim', 'bottom>swim', 'under>swim', 'dress>swim', 'top>sock', 'bottom>sock', 'bottom>under', 'outer>top', 'top>outer', 'under>bottom'])
+const odd = catalogue.filter(p => { const f = garmentFamily(p.name.split(' — ')[0]), k = kindFamily(p.kinds[0]); return f && f !== k && !EXPECTED.has(`${f}>${k}`) })
 lines.push('', '## Category audit', '', `${odd.length} products whose name names a different kind of garment than their piece.`, '', ...odd.slice(0, 60).map(p => `- ${p.kinds[0]}: ${p.brand} — ${p.name}`))
 fs.writeFileSync(path.join(ROOT, 'data/catalogue-report.md'), lines.join('\n') + '\n')
 console.log(lines.slice(0, 3).join('\n'))

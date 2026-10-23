@@ -9,7 +9,7 @@
 // Anything still unclear is rejected rather than guessed.
 
 const KIDS = /\b(kids?|girls?|boys?|baby|babies|toddler|infant|youth|junior|teen|little kids|big kids|newborn|grade school|preschool)\b/i
-const NOT_APPAREL = /gift ?card|frame (case|pouch)|(glasses|eyewear|sunglass(es)?) (case|pouch|cord|chain|strap)|e-?gift|gift pack|corp(orate)? |\(\d+ units?\)|\bsample\b|warranty|insurance|shipping protection|route package|donation|candle|\bmug\b|poster|sticker|keychain|key ?ring|\bcharm\b|iron-on patch|\bpatches\b|enamel pin|lapel pin|face mask|\bdog\b|\bpet\b|\bcat\b|blanket|pillow|towel|bedding|sheet set|duvet|cleaner|care kit|cleaning|repair kit|replacement|spare lens|\blaces\b|insole|\bfootbeds\b|deodor|lotion|perfume|fragrance|lipstick|makeup|card ?holder|card ?case|wallet|clamp|sensor|\btracker\b|hanger|garment bag|(two|three)-piece suit|tuxedo|\bsuit set\b|headband|scrunchie|hair ?clip|earring|necklace|bracelet|jewel|smartwatch|watch band|earmuff|balaclava|briefcase|slipper|\bski bib\b|\bbib\b|snow pant|ski pant|cover-?up|duffel bag|duffle bag|\bduffel\b(?!\s+coat)|weekender bag|suitcase|luggage|carry-?on|toiletry|dopp|cosmetic|laundry|shoe bag|dust bag|gift bag|storage bag|reusable bag|packing cube|organi[sz]er|bag strap|lens cloth|glasses case|sunglass(es)? case|umbrella stand|swim cap|bottle/i
+const NOT_APPAREL = /gift ?card|(frame|soft|hard|glasses|eyewear|sunglass(es)?) (case|pouch)|(glasses|eyewear|sunglass(es)?) (cord|chain|strap)|wristlet|e-?gift|gift pack|corp(orate)? |\(\d+ units?\)|\bsample\b|warranty|insurance|shipping protection|route package|donation|candle|\bmug\b|poster|sticker|keychain|key ?ring|\bcharm\b|iron-on patch|\bpatches\b|enamel pin|lapel pin|face mask|\bdog\b|\bpet\b|\bcat\b|blanket|pillow|towel|bedding|sheet set|duvet|cleaner|care kit|cleaning|repair kit|replacement|spare lens|\blaces\b|insole|\bfootbeds\b|deodor|lotion|perfume|fragrance|lipstick|makeup|card ?holder|card ?case|wallet|clamp|sensor|\btracker\b|hanger|garment bag|(two|three)-piece suit|tuxedo|\bsuit set\b|headband|scrunchie|hair ?clip|earring|necklace|bracelet|jewel|smartwatch|watch band|earmuff|balaclava|briefcase|slipper|\bski bib\b|\bbib\b|snow pant|ski pant|cover-?up|duffel bag|duffle bag|\bduffel\b(?!\s+coat)|weekender bag|suitcase|luggage|carry-?on|toiletry|dopp|cosmetic|laundry|shoe bag|dust bag|gift bag|storage bag|reusable bag|packing cube|organi[sz]er|bag strap|lens cloth|glasses case|sunglass(es)? case|umbrella stand|swim cap|bottle/i
 // Multipacks and bundles only make sense for underwear and socks; elsewhere they distort the price.
 const PACK = /\b\d+[- ]?(pack|pk)\b|\bpack of \d|\bbundle\b|\bset of\b|gift set|\bduo\b|\btrio\b|\b\d+ ?[×x] /i
 const PACK_OK = new Set(['underwear', 'socks'])
@@ -64,7 +64,7 @@ const NOUNS = [
   N('outer', 'vests?|gilets?', c => has(/\b(sweater|knit)\b/i, c.ctx) ? 'knit' : null),
   N('outer', 'truckers?', c => 'light-jacket', true),
   // Dresses
-  N('dress', 'dress|dresses|sundress|shirtdress|gowns?|kaftans?|caftans?|jumpsuits?|rompers?|playsuits?|boiler ?suits?', c => has(SWIM, c.ctx) ? 'swim' : has(SLEEP, c.ctx) || SLEEP_BRANDS.has(c.brand) && /\b(slip|night|shirt ?dress)\b/i.test(c.ctx) ? 'sleepwear' : 'dress'),
+  N('dress', 'dress|dresses|sundress|shirtdress|gowns?|kaftans?|caftans?|jumpsuits?|rompers?|playsuits?|boiler ?suits?', c => has(SWIM, c.title) ? 'swim' : has(SLEEP, c.ctx) || SLEEP_BRANDS.has(c.brand) && /\b(slip|night|shirt ?dress)\b/i.test(c.ctx) ? 'sleepwear' : 'dress'),
   // Footwear
   N('foot', 'sneakers?|trainers?|running shoes?|shoes?|slip-?ons?|runners?|walking shoes?|high[- ]tops?|low[- ]tops?|mid[- ]tops?', c => shoes(c)),
   N('foot', 'boots?|booties|chelsea boots?|wellies', c => has(TRAIL, c.ctx) ? 'trail-shoes' : 'boots'),
@@ -281,5 +281,5 @@ export function garmentFamily(title, type = '') {
 }
 
 export function excluded(title, kind) {
-  return KIDS.test(title) || NOT_APPAREL.test(title) || (PACK.test(title) && !PACK_OK.has(kind))
+  return KIDS.test(title) || NOT_APPAREL.test(title) || (PACK.test(title) && !PACK_OK.has(kind)) || (/\b(\d-piece|sets?)\b/i.test(title) && !/\bset of\b/i.test(title) && kind !== 'sleepwear')
 }
