@@ -4,32 +4,10 @@ import path from 'node:path'
 
 export const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../..')
 export const KINDS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/kinds.json'), 'utf8'))
-const compiled = KINDS.kinds.map(k => ({ ...k, inc: new RegExp(k.include, 'i'), exc: k.exclude ? new RegExp(k.exclude, 'i') : null }))
-
 export const slug = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60)
 
-const KIDS = /\b(kids?|girls?|boys?|baby|babies|toddler|infant|youth|junior|teen|little kids|big kids|newborn|grade school|preschool)\b/i
-const NOT_APPAREL = /gift ?card|e-?gift|gift pack|corp(orate)? |\(\d+ units?\)|sample|warranty|insurance|shipping protection|route package|donation|candle|mug|poster|sticker|keychain|key ?ring|charm|patch|pin\b|face mask|dog|pet\b|cat\b|blanket|pillow|towel|bedding|sheet set|duvet|cleaner|care kit|cleaning|repair kit|replacement|spare lens|laces|insole|deodor|lotion|perfume|fragrance|lipstick|makeup|card ?holder|card ?case|wallet|clamp|sensor|tracker|hanger|garment bag|(two|three)-piece suit|tuxedo|\bsuit set\b/i
-// Multipacks and bundles only make sense for underwear and socks; elsewhere they distort the price.
-const PACK = /\b\d+[- ]?(pack|pk)\b|\bpack of \d|\bbundle\b|\bset of\b|gift set|\bduo\b|\btrio\b/i
-const PACK_OK = new Set(['underwear', 'socks'])
-
-const firstMatch = text => compiled.find(k => k.inc.test(text) && !(k.exc && k.exc.test(text)))?.id || null
-
-// The title decides first ("Slim-Fit Suit Pants" in a blazers category are trousers); the product type only
-// fills in when the title alone is ambiguous. Store tags are never used: they are too noisy.
-// True when a title names something we never list (kids, non-apparel, multipacks outside underwear/socks).
-export function excluded(title, kind) {
-  return KIDS.test(title) || NOT_APPAREL.test(title) || (PACK.test(title) && !PACK_OK.has(kind))
-}
-
-export function classify(title, type = '') {
-  const primary = `${title} ${type}`
-  if (KIDS.test(primary) || NOT_APPAREL.test(primary)) return null
-  const kind = firstMatch(title) || firstMatch(primary)
-  if (!kind || (PACK.test(title) && !PACK_OK.has(kind))) return null
-  return kind
-}
+// Classification lives in classify.mjs.
+export { classify, excluded, garmentFamily } from './classify.mjs'
 
 export function detectGender(text, hint) {
   const t = ` ${text.toLowerCase()} `

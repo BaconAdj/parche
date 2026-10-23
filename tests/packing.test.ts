@@ -126,3 +126,16 @@ test('unknown weather still offers every listed piece at three price points', ()
     }
   }
 })
+
+test('a weekend is a capsule: fewer kinds of clothing, no nice-to-haves, counts that match the days', () => {
+  const weekend = buildPackingPlan({ ...trip, destination: 'Paris, France', end: '2027-01-06' }, wx(10, 19))
+  const week = buildPackingPlan({ ...trip, destination: 'Paris, France', end: '2027-01-11' }, wx(10, 19))
+  const count = (p: typeof weekend, ids: PackingKind[]) => p.needs.filter(n => ids.includes(n.id) && !n.optional).reduce((t, n) => t + n.quantity, 0)
+  assert.equal(weekend.days, 2)
+  assert.ok(!weekend.needs.some(n => n.optional))
+  assert.ok(count(weekend, ['tee', 'long-sleeve-top', 'shirt', 'linen-shirt', 'dress']) <= 3)
+  assert.equal(count(weekend, ['trousers', 'jeans', 'skirt', 'shorts', 'light-trousers', 'warm-trousers']), 1)
+  assert.ok(count(weekend, ['walking-shoes', 'dress-shoes', 'boots', 'sandals', 'trail-shoes']) <= 2)
+  assert.ok(weekend.needs.length < week.needs.length && weekend.total < week.total)
+  for (const n of weekend.needs) if (n.quantity === 1) assert.doesNotMatch(n.title, /\b(T-shirts|tops|shirts)\b/)
+})

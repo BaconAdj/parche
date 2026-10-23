@@ -129,7 +129,58 @@ export function buildPackingPlan(trip: Trip, weather: TripWeather): PackingPlan 
     add('base-layer-top', 'Thermal base layer top', 1, 'For the coldest day of the trip.', true)
   }
 
+  // ── Fit the list to the length of the trip ──
+  // A short trip is a capsule: fewer kinds of clothing, each worn more than once. Lists are trimmed by priority,
+  // so what is left is what this trip needs most, and every count still adds up to the days away.
+  const weekend = days <= 3, short = days <= 6
+  if (weekend) {
+    // Nice-to-haves don't earn space in a weekend bag (unconfirmed weather keeps its umbrella).
+    for (let i = needs.length - 1; i >= 0; i--) if (needs[i].optional && !(needs[i].id === 'umbrella' && unknown)) needs.splice(i, 1)
+  }
+  const drop = (id: PackingKind) => { const i = needs.findIndex(n => n.id === id); if (i >= 0) needs.splice(i, 1) }
+  const get = (id: PackingKind) => needs.find(n => n.id === id)
+  // Reduce a group to `budget` pieces, taking from the lowest-priority kinds first (the order lists highest first).
+  const fit = (order: PackingKind[], budget: number) => {
+    const inGroup = () => order.map(get).filter((n): n is PackingNeed => !!n && !n.optional)
+    let count = inGroup().reduce((t, n) => t + n.quantity, 0)
+    for (const id of [...order].reverse()) {
+      const n = get(id)
+      if (!n || n.optional) continue
+      while (count > budget && n.quantity > 0) { n.quantity--; count-- }
+      if (n.quantity === 0) drop(id)
+    }
+  }
+  if (short) {
+    // Tops: one per day plus an evening option on a weekend; under a week, roughly one per day.
+    const topOrder: PackingKind[] = hot
+      ? ['tee', 'linen-shirt', 'dress', 'shirt', 'long-sleeve-top']
+      : cold ? ['tee', 'long-sleeve-top', 'shirt', 'dress', 'linen-shirt'] : polished ? ['shirt', 'tee', 'long-sleeve-top', 'dress', 'linen-shirt'] : ['tee', 'shirt', 'long-sleeve-top', 'dress', 'linen-shirt']
+    fit(topOrder, weekend ? days + 1 : days)
+    // Bottoms: the pair you travel in, plus one more from three days; shorts for the beach in the heat.
+    const bottomOrder: PackingKind[] = hot
+      ? (coverage ? ['light-trousers', 'skirt', 'shorts', 'trousers', 'jeans'] : ['shorts', 'light-trousers', 'skirt', 'trousers', 'jeans'])
+      : cold ? ['warm-trousers', 'jeans', 'trousers', 'skirt'] : relaxed ? ['jeans', 'trousers', 'shorts', 'skirt'] : ['trousers', 'jeans', 'skirt', 'shorts']
+    fit(bottomOrder, days <= 2 ? (hot ? 2 : 1) : weekend ? 2 : 3)
+    // Layers: one jacket and one knit is plenty; the coat in the cold is the jacket.
+    const layerOrder: PackingKind[] = cold ? ['coat', 'warm-knit', 'knit', 'blazer', 'light-jacket'] : polished ? ['blazer', 'knit', 'light-jacket'] : ['light-jacket', 'knit', 'blazer']
+    fit(layerOrder, weekend ? 2 : 3)
+    if (weekend && get('rain-shell') && !cold) drop('light-jacket') // the rain jacket is the jacket
+    // Shoes: the pair you travel in plus one; boots double as walking shoes in the cold.
+    if (weekend && get('boots') && !walking && !active) drop('walking-shoes')
+    const shoeOrder: PackingKind[] = ['trail-shoes', 'boots', 'walking-shoes', ...(hot || relaxing ? ['sandals', 'dress-shoes'] : ['dress-shoes', 'sandals']) as PackingKind[]]
+    fit(shoeOrder, weekend ? 2 : 3)
+  }
+  if (weekend) {
+    if (!polished) drop('belt')
+    if (mixed) for (const id of ['active-top', 'active-bottoms', 'sports-bra'] as PackingKind[]) drop(id)
+    const bra = get('bra'); if (bra) bra.quantity = Math.min(bra.quantity, days)
+    const swim = get('swim'); if (swim) swim.quantity = 1
+  }
+
+  // A single piece reads as a single piece: "1× T-shirt", not "1× T-shirts".
+  for (const n of needs) if (n.quantity === 1) n.title = n.title.replace(/T-shirts and tanks/, 'T-shirt or tank').replace(/\b(shirt|top|sweater|bra|tank)s\b/g, '$1').replace(/\bDresses\b/, 'Dress')
   const total = needs.filter(n => !n.optional).reduce((t, n) => t + n.quantity, 0)
-  const note = `${days}-day trip, ${total} pieces in total. Quantities include what you wear on the plane${days > 7 ? ' and assume one laundry stop a week' : ''}.`
+  const length = weekend ? `A ${days}-day capsule: ${total} pieces, each worn more than once` : `${days}-day trip, ${total} pieces in total`
+  const note = `${length}. Quantities include what you wear on the way${days > 7 ? ' and assume one laundry stop a week' : ''}.`
   return { days, climate, palette, needs, total, note }
 }

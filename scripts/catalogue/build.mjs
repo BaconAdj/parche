@@ -2,8 +2,9 @@
 // Run locally: node scripts/catalogue/ingest-shopify.mjs && node scripts/catalogue/build.mjs
 // Raw sources: data/raw/shopify/*.json (brand feeds) and data/raw/seed/*.json (verified listing extractions).
 import fs from 'node:fs'
+import { kindFamily } from './classify.mjs'
 import path from 'node:path'
-import { ROOT, KINDS, classify, excluded, tierFor, climatesFor, colours, styles, writeJson, slug } from './lib.mjs'
+import { ROOT, KINDS, classify, excluded, garmentFamily, tierFor, climatesFor, colours, styles, writeJson, slug } from './lib.mjs'
 
 const today = process.env.CATALOGUE_DATE || new Date().toISOString().slice(0, 10)
 const readDir = dir => fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith('.json')).flatMap(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))) : []
@@ -28,10 +29,10 @@ const byKey = new Map()
 for (const r of raw) {
   // Re-classify with the current rules so a rule fix applies without re-fetching. Records without a stored
   // title (older raw files) are checked by their name, and keep their stored kind only when the name is ambiguous.
-  if (r.title !== undefined) r.kind = classify(r.title, r.type)
+  if (r.title !== undefined) r.kind = classify(r.title, r.type, r.brand)
   else if (r.kind) {
     const stem = r.name.split(' — ')[0]
-    const byName = classify(stem, '')
+    const byName = classify(stem, '', r.brand)
     r.kind = byName || (excluded(stem, r.kind) ? null : r.kind)
   }
   if (!r.kind) { rejected.push([r.id, 'not classified']); continue }
@@ -70,5 +71,8 @@ for (const k of KINDS.kinds) {
   lines.push(`| ${k.label} | ${cell('women')} | ${cell('men')} |`)
 }
 lines.push('', '## Brands', '', ...Object.entries(catalogue.reduce((a, p) => (a[p.brand] = (a[p.brand] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]).map(([b, n]) => `- ${b}: ${n}`))
+// Category audit: the garment word in each name should belong to the family of the piece it is listed under.
+const odd = catalogue.filter(p => { const f = garmentFamily(p.name.split(' — ')[0]); return f && f !== kindFamily(p.kinds[0]) })
+lines.push('', '## Category audit', '', `${odd.length} products whose name names a different kind of garment than their piece.`, '', ...odd.slice(0, 60).map(p => `- ${p.kinds[0]}: ${p.brand} — ${p.name}`))
 fs.writeFileSync(path.join(ROOT, 'data/catalogue-report.md'), lines.join('\n') + '\n')
 console.log(lines.slice(0, 3).join('\n'))

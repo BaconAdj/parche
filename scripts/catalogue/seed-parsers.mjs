@@ -31,7 +31,7 @@ const parsers = {
       if (!url || !img || !(+price > 0)) continue
       const text = `${title} ${subtitle}`
       if (/basketball|skate|football|soccer|cleat|golf|spike|weightlift|boxing|wrestling/i.test(text)) continue
-      const kind = classify(text)
+      const kind = classify(text, '', 'Nike')
       add({ source: 'seed-api:nike', brand: 'Nike', id: `nike-${url.split('/').pop()}`, name: `${title} ${subtitle.replace(/^(Men's|Women's)\s*/i, '')} — ${color}`.replace(/\s+/g, ' '),
         title: `${title} ${subtitle}`, type: '', gender: detectGender(subtitle, 'unisex'), kind, price: +price, currency: 'USD',
         productUrl: url.startsWith('http') ? url : `https://www.nike.com/t/${url}`,
@@ -52,7 +52,7 @@ const parsers = {
         const colour = p.productColor?.colorName || ''
         const text = `${p.title} ${cat} ${colour}`
         add({ source: 'seed-page:hm', brand: 'H&M', id: `hm-${p.articleCode}`, name: colour ? `${p.title} — ${colour}` : p.title,
-          title: p.title, type: cat, gender, kind: classify(p.title, cat), price, currency: 'CAD',
+          title: p.title, type: cat, gender, kind: classify(p.title, cat, 'H&M'), price, currency: 'CAD',
           productUrl: p.pdpUrl.startsWith('http') ? p.pdpUrl : `https://www2.hm.com${p.pdpUrl}`, imageUrl: img.replace(/\?.*$/, '') + '?imwidth=1260', text })
       }
     }

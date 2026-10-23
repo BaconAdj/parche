@@ -44,7 +44,7 @@ for (const src of sources) {
       if (!variants.length || !image) continue
       const tags = Array.isArray(p.tags) ? p.tags.join(' ') : String(p.tags || '')
       const title = clean(p.title)
-      const kind = classify(title, p.product_type || '')
+      const kind = classify(title, p.product_type || '', src.brand)
       if (!kind) continue
       const gender = detectGender(`${title} ${p.product_type || ''} ${tags} ${p.handle}`, src.gender)
       if (!gender) continue
