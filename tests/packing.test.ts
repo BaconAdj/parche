@@ -34,8 +34,26 @@ test('active trips add technical needs and never substitute cotton tees or shoul
  const plan=buildPackingPlan({...trip,activity:'active'},wx(12,22))
  assert.ok(plan.needs.some(n=>n.id==='active-top'))
  assert.ok(plan.needs.some(n=>n.id==='daypack'))
- assert.equal(productsForNeed(catalogue,'active-top','women',plan,'').length,0)
- assert.equal(productsForNeed(catalogue,'daypack','men',plan,'').length,0)
+ for(const [kind,gender] of [['active-top','women'],['daypack','men']] as const){
+  const picks=productsForNeed(catalogue,kind,gender,plan,'')
+  assert.ok(picks.length)
+  assert.ok(picks.every(p=>p.kinds.includes(kind)&&!p.kinds.includes('tee')&&!p.kinds.includes('bag')))
+ }
+})
+test('outbound links prefer affiliate URLs and otherwise tag the exact product page',async()=>{
+ const { outboundUrl } = await import('../lib/product-catalogue')
+ const base=catalogue[0]
+ assert.ok(outboundUrl(base).startsWith(base.productUrl.split('?')[0]))
+ assert.match(outboundUrl(base),/utm_source=parche/)
+ assert.equal(outboundUrl({...base,affiliateUrl:'https://aff.example/track?id=1'}),'https://aff.example/track?id=1')
+})
+test('every product pairs an https product page with its own https image',()=>{
+ const ids=new Set<string>()
+ for(const p of catalogue){
+  assert.ok(!ids.has(p.id)); ids.add(p.id)
+  assert.match(p.productUrl,/^https:\/\//); assert.match(p.imageUrl,/^https:\/\//)
+  assert.ok(p.kinds.length&&p.climates.length&&p.price>0)
+ }
 })
 test('trip duration sets quantities with a weekly laundry cap',()=>{
  const short=buildPackingPlan({...trip,end:trip.start},wx(15,22))

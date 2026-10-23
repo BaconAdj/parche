@@ -1,14 +1,16 @@
 import type { PackingKind, PackingPlan } from './packing'
 import type { Trip } from './trip'
 // Merchant page, photo and price are kept together as one reviewed record.
-export type Product = { id: string; gender: 'women' | 'men' | 'unisex'; tier: 'High-end' | 'Quality' | 'Budget'; brand: string; name: string; price: number; currency: string; productUrl: string; imageUrl: string; details: string; checkedAt: string; kinds: PackingKind[]; climates: PackingPlan['climate'][]; colours: string[]; styles: Trip['style'][] }
+// affiliateUrl is optional: once a programme approves parché, paste its tracking link here and
+// /go/[id] starts sending traffic through it — no UI change needed.
+export type Product = { id: string; gender: 'women' | 'men' | 'unisex'; tier: 'High-end' | 'Quality' | 'Budget'; brand: string; name: string; price: number; currency: string; productUrl: string; imageUrl: string; details: string; checkedAt: string; kinds: PackingKind[]; climates: PackingPlan['climate'][]; colours: string[]; styles: Trip['style'][]; affiliateUrl?: string }
 export const catalogue: Product[] = [
   {
     "id": "sunspel-w-tee",
     "gender": "women",
     "tier": "High-end",
     "brand": "Sunspel",
-    "name": "Classic T-shirt \u2014 White",
+    "name": "Classic T-shirt — White",
     "price": 95,
     "currency": "USD",
     "productUrl": "https://us.sunspel.com/products/womens-cotton-t-shirt-in-white-wtsh0032",
@@ -37,7 +39,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "The T-Shirt \u2014 White",
+    "name": "The T-Shirt — White",
     "price": 75,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/womens-t-shirt-white",
@@ -66,7 +68,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "True Regular Tee \u2014 White",
+    "name": "True Regular Tee — White",
     "price": 36,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/womens-true-regular-tee-white",
@@ -95,7 +97,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "High-end",
     "brand": "Sunspel",
-    "name": "Classic T-shirt \u2014 White",
+    "name": "Classic T-shirt — White",
     "price": 98,
     "currency": "USD",
     "productUrl": "https://us.sunspel.com/products/mens-short-sleeve-crew-neck-t-shirt-white",
@@ -124,7 +126,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "The T-Shirt \u2014 Black",
+    "name": "The T-Shirt — Black",
     "price": 75,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/mens-t-shirt-black",
@@ -153,7 +155,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "True Boxy Fit Tee \u2014 Artichoke",
+    "name": "True Boxy Fit Tee — Artichoke",
     "price": 25.9,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/mens-true-boxy-fit-tee-artichoke",
@@ -182,7 +184,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Core Straight Leg Pants \u2014 Black",
+    "name": "Core Straight Leg Pants — Black",
     "price": 75,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/womens-core-straight-leg-pants-black",
@@ -206,7 +208,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Everyday Straight Leg Pants \u2014 Stone Blue",
+    "name": "Everyday Straight Leg Pants — Stone Blue",
     "price": 56,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/womens-everyday-straight-leg-pants-stone-blue",
@@ -233,7 +235,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "True Knit Sweater \u2014 Almond",
+    "name": "True Knit Sweater — Almond",
     "price": 83,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/true-knit-sweater-almond",
@@ -259,7 +261,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "True Knit Sweater \u2014 Navy",
+    "name": "True Knit Sweater — Navy",
     "price": 83,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/true-knit-sweater-navy",
@@ -285,7 +287,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Fine Knit V-Neck Sweater \u2014 Dark Grey",
+    "name": "Fine Knit V-Neck Sweater — Dark Grey",
     "price": 74.2,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/womens-fine-knit-v-neck-sweater-dark-grey-melange",
@@ -312,7 +314,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Swim Open Back One-Piece \u2014 Dove Blue",
+    "name": "Swim Open Back One-Piece — Dove Blue",
     "price": 48.5,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/womens-swim-open-back-one-piece-dove-blue",
@@ -337,7 +339,7 @@ export const catalogue: Product[] = [
     "gender": "unisex",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Core Casual Cap \u2014 Sandstone",
+    "name": "Core Casual Cap — Sandstone",
     "price": 19.5,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/core-casual-cap-sandstone",
@@ -364,7 +366,7 @@ export const catalogue: Product[] = [
     "gender": "unisex",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Core Casual Cap \u2014 Azure Blue",
+    "name": "Core Casual Cap — Azure Blue",
     "price": 19.5,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/core-casual-cap-azure-blue",
@@ -391,7 +393,7 @@ export const catalogue: Product[] = [
     "gender": "unisex",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Core Casual Cap \u2014 Black",
+    "name": "Core Casual Cap — Black",
     "price": 35,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/core-casual-cap-black",
@@ -418,7 +420,7 @@ export const catalogue: Product[] = [
     "gender": "unisex",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Core Casual Cap \u2014 Vibrant Red",
+    "name": "Core Casual Cap — Vibrant Red",
     "price": 19.5,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/core-casual-cap-vibrant-red",
@@ -445,7 +447,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Alley Copenhagen Shoulder Bag \u2014 Midnight Blue",
+    "name": "Alley Copenhagen Shoulder Bag — Midnight Blue",
     "price": 60,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/womens-alley-copenhagen-shoulder-bag-midnight-blue",
@@ -471,7 +473,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Alley Copenhagen Shoulder Bag \u2014 Black",
+    "name": "Alley Copenhagen Shoulder Bag — Black",
     "price": 60,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/womens-alley-copenhagen-shoulder-bag-black",
@@ -497,7 +499,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "Budget",
     "brand": "Organic Basics",
-    "name": "Alley Copenhagen Shoulder Bag \u2014 Black",
+    "name": "Alley Copenhagen Shoulder Bag — Black",
     "price": 60,
     "currency": "USD",
     "productUrl": "https://us.organicbasics.com/products/mens-alley-copenhagen-shoulder-bag-black",
@@ -523,7 +525,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "The Wool Trousers \u2014 Charcoal",
+    "name": "The Wool Trousers — Charcoal",
     "price": 360,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/womens-wool-trousers-charcoal-melange",
@@ -549,7 +551,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "The Wool Trousers \u2014 Charcoal",
+    "name": "The Wool Trousers — Charcoal",
     "price": 360,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/mens-wool-trousers-charcoal-melange",
@@ -575,7 +577,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "The Heavy Wool Sweater \u2014 Charcoal",
+    "name": "The Heavy Wool Sweater — Charcoal",
     "price": 290,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/mens-heavy-wool-sweater-charcoal-melange",
@@ -600,7 +602,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "The Oxford Shirt \u2014 Dark Navy",
+    "name": "The Oxford Shirt — Dark Navy",
     "price": 210,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/mens-oxford-shirt-dark-navy",
@@ -627,7 +629,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "The Loose Twill Chino \u2014 Dark Navy",
+    "name": "The Loose Twill Chino — Dark Navy",
     "price": 260,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/mens-loose-twill-chino-dark-navy",
@@ -653,7 +655,7 @@ export const catalogue: Product[] = [
     "gender": "unisex",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "The Ribbed Wool Beanie \u2014 Black",
+    "name": "The Ribbed Wool Beanie — Black",
     "price": 75,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/ribbed-wool-beanie-black",
@@ -676,7 +678,7 @@ export const catalogue: Product[] = [
     "gender": "unisex",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "Oversized Cashmere Wool Scarf \u2014 Navy",
+    "name": "Oversized Cashmere Wool Scarf — Navy",
     "price": 180,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/oversized-cashmere-wool-scarf-dark-navy",
@@ -699,7 +701,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "High-end",
     "brand": "Sunspel",
-    "name": "Linen Shirt \u2014 Hazelwood",
+    "name": "Linen Shirt — Hazelwood",
     "price": 210,
     "currency": "USD",
     "productUrl": "https://us.sunspel.com/products/womens-linen-shirt-in-hazelwood-wsht2055-brgt",
@@ -727,7 +729,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "High-end",
     "brand": "Sunspel",
-    "name": "Linen Shirt \u2014 Sky Blue/Navy",
+    "name": "Linen Shirt — Sky Blue/Navy",
     "price": 374,
     "currency": "CAD",
     "productUrl": "https://www.sunspel.com/en-ca/products/mens-linen-shirt-in-sky-blue-navy-msht2106-stol",
@@ -757,7 +759,7 @@ export const catalogue: Product[] = [
     "gender": "men",
     "tier": "High-end",
     "brand": "Sunspel",
-    "name": "Tailored Swim Shorts \u2014 Navy",
+    "name": "Tailored Swim Shorts — Navy",
     "price": 200,
     "currency": "USD",
     "productUrl": "https://us.sunspel.com/products/mens-upcycled-marine-plastic-tailored-swim-short-in-navy",
@@ -782,7 +784,7 @@ export const catalogue: Product[] = [
     "gender": "women",
     "tier": "Quality",
     "brand": "ASKET",
-    "name": "The Wool Cardigan \u2014 Charcoal",
+    "name": "The Wool Cardigan — Charcoal",
     "price": 330,
     "currency": "CAD",
     "productUrl": "https://www.asket.com/en-ca/womens-wool-cardigan-charcoal-melange",
@@ -801,6 +803,1183 @@ export const catalogue: Product[] = [
     "colours": [
       "grey"
     ]
+  },
+  {
+    "id": "uniqlo-w-475649",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Premium Linen Skipper Collar Shirt",
+    "price": 29.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E475649-000/00?colorDisplayCode=00",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/475649/item/cagoods_00_475649_3x4.jpg?width=600",
+    "details": "100% European linen with an open skipper collar.",
+    "kinds": [
+      "linen-shirt"
+    ],
+    "climates": [
+      "hot",
+      "mild"
+    ],
+    "styles": [
+      "relaxed",
+      "understated"
+    ],
+    "colours": [
+      "white"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-w-491380",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Oxford Boxy Long Sleeve Shirt",
+    "price": 49.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E491380-000/00?colorDisplayCode=65",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491380/item/cagoods_65_491380_3x4.jpg?width=600",
+    "details": "Boxy oxford cotton that layers easily over a tee.",
+    "kinds": [
+      "shirt"
+    ],
+    "climates": [
+      "mild",
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "relaxed",
+      "understated"
+    ],
+    "colours": [
+      "blue"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-w-487959",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Smart Easy Pants",
+    "price": 49.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E487959-000/00?colorDisplayCode=09",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487959/item/cagoods_09_487959_3x4.jpg?width=600",
+    "details": "Elastic-waist trousers with a smart, tailored look.",
+    "kinds": [
+      "trousers"
+    ],
+    "climates": [
+      "mild",
+      "unknown"
+    ],
+    "styles": [
+      "polished",
+      "understated"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-w-487185",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Warm Lined Pants",
+    "price": 69.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E487185-000/00?colorDisplayCode=09",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487185/item/cagoods_09_487185_3x4.jpg?width=600",
+    "details": "Lined for colder days without extra bulk.",
+    "kinds": [
+      "warm-trousers"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "understated",
+      "relaxed"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-w-469410",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Merino Crew Neck Sweater",
+    "price": 59.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E469410-000/00?colorDisplayCode=55",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/469410/item/cagoods_55_469410_3x4.jpg?width=600",
+    "details": "Fine merino wool; packs flat and resists odour.",
+    "kinds": [
+      "knit"
+    ],
+    "climates": [
+      "mild",
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "polished"
+    ],
+    "colours": [
+      "green"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-w-465734",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Cashmere Crew Neck Sweater",
+    "price": 129.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E465734-000/00?colorDisplayCode=99",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/465734/item/cagoods_99_465734_3x4.jpg?width=600",
+    "details": "100% cashmere for real warmth at a light weight.",
+    "kinds": [
+      "warm-knit"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "polished",
+      "understated"
+    ],
+    "colours": [
+      "grey"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-w-478579",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Seamless Down Long Coat",
+    "price": 249.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E478579-000/00?colorDisplayCode=09",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/478579/item/cagoods_09_478579_3x4.jpg?width=600",
+    "details": "Down-filled long coat with sealed, seamless quilting.",
+    "kinds": [
+      "coat"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "understated",
+      "polished"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-u-481610",
+    "gender": "unisex",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Round Mini Shoulder Bag",
+    "price": 24.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E481610-000/00?colorDisplayCode=58",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/481610/item/goods_58_481610_3x4.jpg?width=600",
+    "details": "The cult crossbody: compact, water-repellent nylon.",
+    "kinds": [
+      "bag"
+    ],
+    "climates": [
+      "cold",
+      "mild",
+      "hot",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "relaxed",
+      "statement"
+    ],
+    "colours": [
+      "green"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-u-488858",
+    "gender": "unisex",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Utility Backpack",
+    "price": 59.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E488858-000/00?colorDisplayCode=09",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/488858/item/goods_09_488858_3x4.jpg?width=600",
+    "details": "Everyday daypack with organised pockets.",
+    "kinds": [
+      "daypack"
+    ],
+    "climates": [
+      "cold",
+      "mild",
+      "hot",
+      "unknown"
+    ],
+    "styles": [
+      "understated"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-455957",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Premium Linen Shirt",
+    "price": 29.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E455957-000/00?colorDisplayCode=34",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/455957/item/cagoods_34_455957_3x4.jpg?width=600",
+    "details": "100% European linen in a relaxed regular fit.",
+    "kinds": [
+      "linen-shirt"
+    ],
+    "climates": [
+      "hot",
+      "mild"
+    ],
+    "styles": [
+      "relaxed",
+      "understated"
+    ],
+    "colours": [
+      "sand",
+      "brown"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-470086",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Super Non Iron Stretch Slim Fit Shirt",
+    "price": 49.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E470086-000/00?colorDisplayCode=01",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/470086/item/cagoods_01_470086_3x4.jpg?width=600",
+    "details": "Non-iron stretch cotton that comes out of a suitcase smooth.",
+    "kinds": [
+      "shirt"
+    ],
+    "climates": [
+      "mild",
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "polished",
+      "understated"
+    ],
+    "colours": [
+      "white"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-487214",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Barrel Chino Pants",
+    "price": 49.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E487214-000/00?colorDisplayCode=09",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487214/item/cagoods_09_487214_3x4.jpg?width=600",
+    "details": "A relaxed barrel leg in sturdy cotton twill.",
+    "kinds": [
+      "trousers"
+    ],
+    "climates": [
+      "mild",
+      "unknown"
+    ],
+    "styles": [
+      "relaxed",
+      "statement"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-482920",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Linen Blend Relaxed Pants",
+    "price": 59.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E482920-000/00?colorDisplayCode=69",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482920/item/cagoods_69_482920_3x4.jpg?width=600",
+    "details": "Breathable linen blend with an easy drawstring waist.",
+    "kinds": [
+      "light-trousers"
+    ],
+    "climates": [
+      "hot"
+    ],
+    "styles": [
+      "relaxed",
+      "understated"
+    ],
+    "colours": [
+      "navy"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-487261",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Warm Lined Pants",
+    "price": 69.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E487261-000/00?colorDisplayCode=36",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487261/item/cagoods_36_487261_3x4.jpg?width=600",
+    "details": "Lined trousers for cold-weather city days.",
+    "kinds": [
+      "warm-trousers"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "understated"
+    ],
+    "colours": [
+      "brown"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-450535",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Merino Crew Neck Sweater",
+    "price": 59.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E450535-000/00?colorDisplayCode=69",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/450535/item/cagoods_69_450535_3x4.jpg?width=600",
+    "details": "Fine merino wool; layers under a coat or over a shirt.",
+    "kinds": [
+      "knit"
+    ],
+    "climates": [
+      "mild",
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "polished"
+    ],
+    "colours": [
+      "navy"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-450543",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Cashmere Crew Neck Sweater",
+    "price": 129.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E450543-000/00?colorDisplayCode=76",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/450543/item/cagoods_76_450543_3x4.jpg?width=600",
+    "details": "100% cashmere crew neck.",
+    "kinds": [
+      "warm-knit"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "polished",
+      "understated"
+    ],
+    "colours": [
+      "brown"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-478280",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Seamless Down Coat",
+    "price": 249.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E478280-000/00?colorDisplayCode=07",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/478280/item/cagoods_07_478280_3x4.jpg?width=600",
+    "details": "Down-filled with seamless, wind-resistant construction.",
+    "kinds": [
+      "coat"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "understated"
+    ],
+    "colours": [
+      "grey"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-482299",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "DRY-EX T-Shirt",
+    "price": 29.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E482299-000/00?colorDisplayCode=56",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482299/item/cagoods_56_482299_3x4.jpg?width=600",
+    "details": "Quick-drying, moisture-wicking performance tee.",
+    "kinds": [
+      "active-top"
+    ],
+    "climates": [
+      "hot",
+      "mild",
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "understated"
+    ],
+    "colours": [
+      "green"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "uniqlo-m-485744",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "UNIQLO",
+    "name": "Extra Stretch Active Jogger Pants",
+    "price": 49.9,
+    "currency": "CAD",
+    "productUrl": "https://www.uniqlo.com/ca/en/products/E485744-000/00?colorDisplayCode=68",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485744/item/cagoods_68_485744_3x4.jpg?width=600",
+    "details": "Four-way stretch joggers for movement-heavy days.",
+    "kinds": [
+      "active-bottoms"
+    ],
+    "climates": [
+      "hot",
+      "mild",
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "relaxed"
+    ],
+    "colours": [
+      "blue"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-w-00340151",
+    "gender": "women",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Knotted Linen Shirt — Light blue",
+    "price": 45.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/knotted-linen-shirt-p00340151.html",
+    "imageUrl": "https://static.zara.net/assets/public/9171/5181/afc74ca09792/0be54922673d/00340151406-p/00340151406-p.jpg?w=900",
+    "details": "Linen shirt with a knotted front hem.",
+    "kinds": [
+      "linen-shirt"
+    ],
+    "climates": [
+      "hot",
+      "mild"
+    ],
+    "styles": [
+      "relaxed",
+      "statement"
+    ],
+    "colours": [
+      "blue"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-w-08372248",
+    "gender": "women",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Barrel Pants — Khaki",
+    "price": 55.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/barrel-pants-p08372248.html",
+    "imageUrl": "https://static.zara.net/assets/public/7ebe/5499/3056497d870b/8a763405d3de/08372248756-a1/08372248756-a1.jpg?w=900",
+    "details": "Curved barrel leg; dress up or down.",
+    "kinds": [
+      "trousers"
+    ],
+    "climates": [
+      "mild",
+      "unknown"
+    ],
+    "styles": [
+      "relaxed",
+      "statement"
+    ],
+    "colours": [
+      "green",
+      "sand"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-w-02745319",
+    "gender": "women",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Wool-Blend Belted Long Coat — Black",
+    "price": 219,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/long-wool-belted-coat-p02745319.html",
+    "imageUrl": "https://static.zara.net/assets/public/9ce1/29e2/2b1e4f4293c6/5858d45169cd/02745319800-p/02745319800-p.jpg?w=900",
+    "details": "Long belted wool-blend coat.",
+    "kinds": [
+      "coat"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "polished",
+      "understated"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-w-08851172",
+    "gender": "women",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Basic Knit Sweater — Navy",
+    "price": 45.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/basic-knit-sweater-p08851172.html",
+    "imageUrl": "https://static.zara.net/assets/public/2923/0692/9c214abd98e0/ba93307de791/08851172401-p/08851172401-p.jpg?w=900",
+    "details": "A simple knit layer for cool evenings.",
+    "kinds": [
+      "knit"
+    ],
+    "climates": [
+      "mild",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "polished"
+    ],
+    "colours": [
+      "navy"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-w-02142283",
+    "gender": "women",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Soft Knit Sweater — Grey marl",
+    "price": 79.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/soft-knit-sweater-p02142283.html",
+    "imageUrl": "https://static.zara.net/assets/public/5f32/081a/3da34f0db9df/96bb36dab273/02142283803-p/02142283803-p.jpg?w=900",
+    "details": "Soft, chunky knit for cold days.",
+    "kinds": [
+      "warm-knit"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "relaxed",
+      "understated"
+    ],
+    "colours": [
+      "grey"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-m-01957102",
+    "gender": "men",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "100% Linen Regular Fit Shirt — White",
+    "price": 69.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/100-linen-regular-fit-shirt-p01957102.html",
+    "imageUrl": "https://static.zara.net/assets/public/5342/19c0/54ae486cb04b/537bc1a14d1d/01957102250-p/01957102250-p.jpg?w=900",
+    "details": "Pure linen in a regular fit.",
+    "kinds": [
+      "linen-shirt"
+    ],
+    "climates": [
+      "hot",
+      "mild"
+    ],
+    "styles": [
+      "polished",
+      "understated",
+      "relaxed"
+    ],
+    "colours": [
+      "white"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-m-00975785",
+    "gender": "men",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Cotton-Linen Regular Fit Shirt — White",
+    "price": 69.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/cotton-linen-regular-fit-shirt-p00975785.html",
+    "imageUrl": "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?w=900",
+    "details": "Cotton-linen blend that breathes from day to dinner.",
+    "kinds": [
+      "shirt"
+    ],
+    "climates": [
+      "mild",
+      "unknown"
+    ],
+    "styles": [
+      "polished",
+      "understated"
+    ],
+    "colours": [
+      "white"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-m-01063442",
+    "gender": "men",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Straight Fit Chino Pants — Light khaki",
+    "price": 79.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/straight-fit-chino-pants-p01063442.html",
+    "imageUrl": "https://static.zara.net/assets/public/7a54/9f34/a7a9446da6a9/89471ac75619/01063442506-p/01063442506-p.jpg?w=900",
+    "details": "Classic straight chino.",
+    "kinds": [
+      "trousers"
+    ],
+    "climates": [
+      "mild",
+      "hot",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "polished"
+    ],
+    "colours": [
+      "sand",
+      "green"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-m-04592381",
+    "gender": "men",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "100% Wool Suit Pants — Black",
+    "price": 99.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/100-wool-suit-pants-p04592381.html",
+    "imageUrl": "https://static.zara.net/assets/public/3cf5/4743/b5cd478ea12f/191ce057fb63/04592381800-p/04592381800-p.jpg?w=900",
+    "details": "Pure wool trousers for cold-weather dinners.",
+    "kinds": [
+      "warm-trousers"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "polished"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-m-08281615",
+    "gender": "men",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Wool-Blend Relaxed Fit Coat — Black",
+    "price": 169,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/wool-blend-relaxed-fit-coat-p08281615.html",
+    "imageUrl": "https://static.zara.net/assets/public/e058/0eec/09d84cfdaacb/aab80c8989b0/08281615800-p/08281615800-p.jpg?w=900",
+    "details": "Relaxed wool-blend overcoat.",
+    "kinds": [
+      "coat"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "understated",
+      "polished"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-m-03284341",
+    "gender": "men",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Regular Fit Purl Knit Sweater — Grey marl",
+    "price": 65.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/regular-fit-knit-sweater-p03284341.html",
+    "imageUrl": "https://static.zara.net/assets/public/3aab/dc83/77cd416cb12b/9523629e732d/03284341803-p/03284341803-p.jpg?w=900",
+    "details": "Textured purl knit layer.",
+    "kinds": [
+      "knit"
+    ],
+    "climates": [
+      "mild",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "relaxed"
+    ],
+    "colours": [
+      "grey"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "zara-m-00304330",
+    "gender": "men",
+    "tier": "Quality",
+    "brand": "ZARA",
+    "name": "Basic Turtleneck Jumper — Black",
+    "price": 65.9,
+    "currency": "CAD",
+    "productUrl": "https://www.zara.com/ca/en/basic-turtleneck-jumper-p00304330.html",
+    "imageUrl": "https://static.zara.net/assets/public/49d5/349c/25ae415181cc/569cf790cb54/00304330800-p/00304330800-p.jpg?w=900",
+    "details": "A neat turtleneck for layering under a coat.",
+    "kinds": [
+      "warm-knit"
+    ],
+    "climates": [
+      "cold"
+    ],
+    "styles": [
+      "polished",
+      "understated"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "hm-w-one-shoulder-swimsuit-navy",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "H&M",
+    "name": "Padded-Cup One-Shoulder Swimsuit — Navy blue",
+    "price": 44.99,
+    "currency": "CAD",
+    "productUrl": "https://www2.hm.com/en_ca/productpage.1315160005.html",
+    "imageUrl": "https://image.hm.com/assets/hm/2d/e4/2de4d3ca3a140e8a5066c23febffa285ed41d7f2.jpg?imwidth=1260",
+    "details": "Fully lined, removable cup inserts, medium back coverage.",
+    "kinds": [
+      "swim"
+    ],
+    "climates": [
+      "hot",
+      "mild",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "polished"
+    ],
+    "colours": [
+      "navy"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "hm-m-swim-shorts-blue",
+    "gender": "men",
+    "tier": "Budget",
+    "brand": "H&M",
+    "name": "Swim Shorts — Blue",
+    "price": 59.99,
+    "currency": "CAD",
+    "productUrl": "https://www2.hm.com/en_ca/productpage.1339969001.html",
+    "imageUrl": "https://image.hm.com/assets/hm/d7/29/d72976fa7032bf6906e12b8e26930fe3e602cc13.jpg?imwidth=1260",
+    "details": "Knee-length nylon with mesh liner and a zip back pocket.",
+    "kinds": [
+      "swim"
+    ],
+    "climates": [
+      "hot",
+      "mild",
+      "unknown"
+    ],
+    "styles": [
+      "relaxed",
+      "understated"
+    ],
+    "colours": [
+      "blue"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "hm-polarized-aviator-brown",
+    "gender": "unisex",
+    "tier": "Budget",
+    "brand": "H&M",
+    "name": "Polarized Aviator Sunglasses — Dark brown",
+    "price": 20.99,
+    "currency": "CAD",
+    "productUrl": "https://www2.hm.com/en_ca/productpage.1284775006.html",
+    "imageUrl": "https://image.hm.com/assets/hm/71/41/7141f653945f58c80f55ab947f77e2992e1c2219.jpg?imwidth=1260",
+    "details": "Retailer lists tinted, UV-protective, polarized lenses.",
+    "kinds": [
+      "sunglasses"
+    ],
+    "climates": [
+      "hot",
+      "mild",
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "polished",
+      "statement"
+    ],
+    "colours": [
+      "brown"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "hm-w-softmove-sports-top",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "H&M",
+    "name": "Sports Top with SoftMove™ — Choco mocha",
+    "price": 24.99,
+    "currency": "CAD",
+    "productUrl": "https://www2.hm.com/en_ca/productpage.1355688001.html",
+    "imageUrl": "https://image.hm.com/assets/hm/1c/5e/1c5ec0bd7d184a6d3338cf1cace67de565f99fae.jpg?imwidth=1260",
+    "details": "Moisture-wicking DryMove™ fabric, slim fit.",
+    "kinds": [
+      "active-top"
+    ],
+    "climates": [
+      "hot",
+      "mild",
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "understated"
+    ],
+    "colours": [
+      "brown"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "hm-w-drymove-leggings-black",
+    "gender": "women",
+    "tier": "Budget",
+    "brand": "H&M",
+    "name": "Sports Leggings with Cool Handfeel DryMove™ — Black",
+    "price": 44.99,
+    "currency": "CAD",
+    "productUrl": "https://www2.hm.com/en_ca/productpage.1292463001.html",
+    "imageUrl": "https://image.hm.com/assets/hm/c2/b3/c2b3d710ea28cb6ef5ef50f8aa9455bd50d2852c.jpg?imwidth=1260",
+    "details": "Cooling, moisture-wicking fabric with a wide waistband.",
+    "kinds": [
+      "active-bottoms"
+    ],
+    "climates": [
+      "hot",
+      "mild",
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "understated"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "hm-cotton-neck-scarf-paisley",
+    "gender": "unisex",
+    "tier": "Budget",
+    "brand": "H&M",
+    "name": "Cotton Neck Scarf — Red paisley",
+    "price": 19.99,
+    "currency": "CAD",
+    "productUrl": "https://www2.hm.com/en_ca/productpage.1370457002.html",
+    "imageUrl": "https://image.hm.com/assets/hm/bd/03/bd03c21e62783292fae3030e8e08c123e6755a5a.jpg?imwidth=1260",
+    "details": "Lightweight woven cotton; an easy cover-up or accent.",
+    "kinds": [
+      "light-scarf"
+    ],
+    "climates": [
+      "hot",
+      "mild",
+      "unknown"
+    ],
+    "styles": [
+      "statement",
+      "relaxed"
+    ],
+    "colours": [
+      "red"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "hm-wool-blend-scarf-grey",
+    "gender": "unisex",
+    "tier": "Budget",
+    "brand": "H&M",
+    "name": "Woven Scarf — Dark grey",
+    "price": 10.99,
+    "currency": "CAD",
+    "productUrl": "https://www2.hm.com/en_ca/productpage.1243624002.html",
+    "imageUrl": "https://image.hm.com/assets/hm/7b/bc/7bbccddfbbd3a0ee50df84075664c4b869374333.jpg?imwidth=1260",
+    "details": "Soft woven blend with 12% wool; fringed ends.",
+    "kinds": [
+      "scarf"
+    ],
+    "climates": [
+      "cold",
+      "unknown"
+    ],
+    "styles": [
+      "understated"
+    ],
+    "colours": [
+      "grey"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "rains-long-jacket-black",
+    "gender": "unisex",
+    "tier": "High-end",
+    "brand": "Rains",
+    "name": "Long Jacket — Black",
+    "price": 140,
+    "currency": "USD",
+    "productUrl": "https://us.rains.com/products/long-jacket-female?variant=50305181024496",
+    "imageUrl": "https://us.rains.com/cdn/shop/files/rains_long_jacket_w3_black_rainwear_pack_1_288c208e-7657-4a86-b057-ab7d0b3fd404.jpg?v=1788270419&width=900",
+    "details": "Waterproof unisex rain jacket in a matte Danish design.",
+    "kinds": [
+      "rain-shell"
+    ],
+    "climates": [
+      "cold",
+      "mild",
+      "hot",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "polished"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "veja-campo-white-natural",
+    "gender": "unisex",
+    "tier": "High-end",
+    "brand": "VEJA",
+    "name": "Campo Leather — White Natural",
+    "price": 175,
+    "currency": "USD",
+    "productUrl": "https://www.veja-store.com/en_us/p/campo-leather-white-natural-CP0502429.html",
+    "imageUrl": "https://media.veja-store.com/images/t_sfcc-pdp-desktop-v2/c_limit,w_1200/v1781690726/VEJA/PACKSHOTS/CP0502429_1/CP0502429_1.jpg",
+    "details": "Clean leather sneaker that goes from sightseeing to dinner.",
+    "kinds": [
+      "walking-shoes"
+    ],
+    "climates": [
+      "cold",
+      "mild",
+      "hot",
+      "unknown"
+    ],
+    "styles": [
+      "understated",
+      "relaxed",
+      "polished"
+    ],
+    "colours": [
+      "white"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "birkenstock-arizona-black",
+    "gender": "unisex",
+    "tier": "High-end",
+    "brand": "BIRKENSTOCK",
+    "name": "Arizona Birko-Flor — Black",
+    "price": 145,
+    "currency": "CAD",
+    "productUrl": "https://www.birkenstock.com/ca/arizona-birko-flor/arizona-core-birkoflor-0-eva-u_1.html",
+    "imageUrl": "https://www.birkenstock.com/dw/image/v2/BLZD_PRD/on/demandware.static/-/Sites-master-catalog-amer/default/dwb3d5222b/51791/51791.jpg?sw=900&sh=900&sm=fit&q=75",
+    "details": "Contoured cork-latex footbed with adjustable straps.",
+    "kinds": [
+      "sandals"
+    ],
+    "climates": [
+      "hot",
+      "mild"
+    ],
+    "styles": [
+      "relaxed",
+      "understated"
+    ],
+    "colours": [
+      "black"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "fjallraven-kanken-black-oak",
+    "gender": "unisex",
+    "tier": "High-end",
+    "brand": "Fjällräven",
+    "name": "Kånken Backpack",
+    "price": 115,
+    "currency": "CAD",
+    "productUrl": "https://www.fjallraven.com/ca/en-ca/bags-gear/kanken/kanken-bags/kanken/",
+    "imageUrl": "https://www.fjallraven.com/4a853d/globalassets/catalogs/fjallraven/f2/f235/f23510/f294/kanken_23510-294_a_main2.jpg?width=800&height=800&rmode=BoxPad&bgcolor=fff&quality=90",
+    "details": "Water-resistant Vinylon daypack; colour shown may vary on the product page.",
+    "kinds": [
+      "daypack"
+    ],
+    "climates": [
+      "cold",
+      "mild",
+      "hot",
+      "unknown"
+    ],
+    "styles": [
+      "relaxed",
+      "statement"
+    ],
+    "colours": [
+      "brown"
+    ],
+    "checkedAt": "2026-10-22"
+  },
+  {
+    "id": "salomon-x-ultra-360-gtx-m",
+    "gender": "men",
+    "tier": "High-end",
+    "brand": "Salomon",
+    "name": "X Ultra 360 GORE-TEX",
+    "price": 155,
+    "currency": "USD",
+    "productUrl": "https://www.salomon.com/en-us/product/x-ultra-360-gore-tex-li5205",
+    "imageUrl": "https://cdn.dam.salomon.com/2d8c0305-bca1-4001-8fe5-b2f40093437d/L47865300/PNG-2000px-max-72dpi.png?pad=0.12,0.12,0.12,0.12",
+    "details": "Waterproof hiking shoe with all-terrain grip.",
+    "kinds": [
+      "trail-shoes"
+    ],
+    "climates": [
+      "cold",
+      "mild",
+      "hot",
+      "unknown"
+    ],
+    "styles": [
+      "understated"
+    ],
+    "colours": [
+      "green",
+      "brown"
+    ],
+    "checkedAt": "2026-10-22"
   }
 ]
 export function reviewedProducts(now = new Date()): Product[] {
@@ -810,13 +1989,33 @@ export function reviewedProducts(now = new Date()): Product[] {
   })
 }
 
+export const TIERS = ['High-end', 'Quality', 'Budget'] as const
+
+export function findProduct(id: string): Product | undefined {
+  return catalogue.find(p => p.id === id)
+}
+
+// Where an outbound click should land: an approved affiliate link when one exists, otherwise the exact product page.
+export function outboundUrl(product: Product): string {
+  const url = new URL(product.affiliateUrl || product.productUrl)
+  if (!product.affiliateUrl) {
+    url.searchParams.set('utm_source', 'parche')
+    url.searchParams.set('utm_medium', 'referral')
+    url.searchParams.set('utm_campaign', 'travel-edit')
+  }
+  return url.toString()
+}
+
 // Exact category match is mandatory. Never fill a missing rain shell with a tee.
-export function productsForNeed(products: Product[], kind: PackingKind, gender: 'women' | 'men', plan: PackingPlan, style: Trip['style']): Product[] {
+// One pick per price tier first, then up to `limit` total from the best remaining matches.
+export function productsForNeed(products: Product[], kind: PackingKind, gender: 'women' | 'men', plan: PackingPlan, style: Trip['style'], limit = 4): Product[] {
   if (!plan.needs.some(n => n.id === kind)) return []
-  const score = (p: Product) => (p.styles.includes(style) ? 3 : 0) + p.colours.filter(c => plan.palette.includes(c)).length * 2
+  const score = (p: Product) => (p.styles.includes(style) ? 3 : 0) + p.colours.filter(c => plan.palette.includes(c)).length * 2 + (p.gender === gender ? 1 : 0)
   const matched = products.filter(p => p.kinds.includes(kind) && (p.gender === gender || p.gender === 'unisex') && p.climates.includes(plan.climate)).sort((a,b) => score(b) - score(a) || a.id.localeCompare(b.id))
-  return (['High-end','Quality','Budget'] as const).flatMap(tier => {
+  const picks = TIERS.flatMap(tier => {
     const product = matched.find(p => p.tier === tier)
     return product ? [product] : []
   })
+  for (const p of matched) if (picks.length < limit && !picks.includes(p)) picks.push(p)
+  return picks.sort((a, b) => TIERS.indexOf(a.tier) - TIERS.indexOf(b.tier))
 }
