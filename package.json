@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "tsc -p tsconfig.tests.json && node --test .test-build/tests/*.test.js"
+    "test": "tsc -p tsconfig.tests.json && node --conditions=react-server --test .test-build/tests/*.test.js"
   },
   "dependencies": {
     "@clerk/nextjs": "^7.5.18",

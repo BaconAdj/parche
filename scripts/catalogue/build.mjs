@@ -3,7 +3,7 @@
 // Raw sources: data/raw/shopify/*.json (brand feeds) and data/raw/seed/*.json (verified listing extractions).
 import fs from 'node:fs'
 import path from 'node:path'
-import { ROOT, KINDS, tierFor, climatesFor, colours, styles, writeJson, slug } from './lib.mjs'
+import { ROOT, KINDS, classify, excluded, tierFor, climatesFor, colours, styles, writeJson, slug } from './lib.mjs'
 
 const today = process.env.CATALOGUE_DATE || new Date().toISOString().slice(0, 10)
 const readDir = dir => fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith('.json')).flatMap(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))) : []
@@ -24,6 +24,15 @@ const seen = new Set()
 const rejected = []
 const byKey = new Map()
 for (const r of raw) {
+  // Re-classify with the current rules so a rule fix applies without re-fetching. Records without a stored
+  // title (older raw files) are checked by their name, and keep their stored kind only when the name is ambiguous.
+  if (r.title !== undefined) r.kind = classify(r.title, r.type)
+  else if (r.kind) {
+    const stem = r.name.split(' — ')[0]
+    const byName = classify(stem, '')
+    r.kind = byName || (excluded(stem, r.kind) ? null : r.kind)
+  }
+  if (!r.kind) { rejected.push([r.id, 'not classified']); continue }
   if (!kindIds.has(r.kind) || !/^https:\/\//.test(r.productUrl) || !/^https:\/\//.test(r.imageUrl) || !(r.price > 0)) { rejected.push([r.id, 'invalid']); continue }
   const check = r.source?.startsWith('seed:') ? PAIRING[r.brand.toLowerCase()] : null
   if (check && !check(r.productUrl, r.imageUrl)) { rejected.push([r.id, 'image/product mismatch']); continue }
@@ -38,10 +47,10 @@ for (const r of raw) {
     climates: r.climates || climatesFor(r.kind, text), colours: r.colours || colours(text), styles: r.styles || styles(text),
   }
   if (r.affiliateUrl) product.affiliateUrl = r.affiliateUrl
-  // Diversity: at most 14 products per brand × piece × gender.
+  // Diversity: at most 8 products per brand × piece × gender.
   const key = `${product.brand}|${r.kind}|${product.gender}`
   const list = byKey.get(key) || []
-  if (list.length >= 14) continue
+  if (list.length >= 8) continue
   // Avoid near-duplicates (same style in many colours): two colours per style name at most.
   const stem = product.name.split(' — ')[0].toLowerCase()
   if (list.filter(p => p.name.split(' — ')[0].toLowerCase() === stem).length >= 2) continue

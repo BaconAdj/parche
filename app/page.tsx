@@ -11,7 +11,10 @@ import { SiteNav } from '../components/SiteNav'
 import { SiteFooter } from '../components/SiteFooter'
 import { ProductCard } from '../components/ProductCard'
 import { TripSearch, ALL_DESTINATIONS } from '../components/TripSearch'
-import { findProduct, type Product } from '../lib/product-catalogue'
+import type { Product } from '../lib/catalogue-types'
+import Counter from '../components/react-bits/Counter'
+import OrbitImages from '../components/react-bits/OrbitImages'
+import LogoLoop from '../components/react-bits/LogoLoop'
 
 gsap.registerPlugin(ScrollTrigger, useGSAP)
 
@@ -36,7 +39,16 @@ const PLACES: { slug: string; name: string; hint: string }[] = [
   { slug: 'bali', name: 'Bali', hint: 'Breathable fabrics with cover for temple visits.' },
 ]
 
-const BRANDS = ['UNIQLO', 'ZARA', 'H&M', 'VEJA', 'Birkenstock', 'Sunspel', 'ASKET', 'Rains', 'Fjällräven', 'Salomon', 'Organic Basics']
+type Showcase = { items: Product[]; total: number; brands: string[] }
+function useShowcase() {
+  const [data, setData] = useState<Showcase | null>(null)
+  useEffect(() => {
+    const c = new AbortController()
+    fetch('/api/products?count=28', { signal: c.signal }).then(r => r.json()).then(j => { if (j.data?.items) setData(j.data) }).catch(() => {})
+    return () => c.abort()
+  }, [])
+  return data
+}
 
 const REDUCED = '(prefers-reduced-motion: reduce)'
 function useReducedMotion() {
@@ -75,17 +87,23 @@ function HeroCity({ typed }: { typed: string }) {
 }
 
 function ExampleEdit() {
-  const products = EXAMPLE_EDIT.map(e => ({ ...e, product: findProduct(e.id) })).filter((e): e is typeof e & { product: Product } => Boolean(e.product))
+  const [found, setFound] = useState<Product[]>([])
+  useEffect(() => {
+    const c = new AbortController()
+    fetch(`/api/products?ids=${EXAMPLE_EDIT.map(e => e.id).join(',')}`, { signal: c.signal }).then(r => r.json()).then(j => setFound(j.data?.items || [])).catch(() => {})
+    return () => c.abort()
+  }, [])
+  const products = EXAMPLE_EDIT.map(e => ({ ...e, product: found.find(p => p.id === e.id) })).filter((e): e is typeof e & { product: Product } => Boolean(e.product))
   const grid = useRef<HTMLDivElement>(null)
   useGSAP(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    if (!products.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
     gsap.utils.toArray<HTMLElement>('.pcard-img', grid.current).forEach(el => {
       gsap.fromTo(el, { clipPath: 'inset(100% 0 0 0)' }, {
         clipPath: 'inset(0% 0 0 0)', duration: 1.1, ease: 'expo.out',
         scrollTrigger: { trigger: el, start: 'top 85%', once: true },
       })
     })
-  }, { scope: grid })
+  }, { scope: grid, dependencies: [products.length] })
 
   return (
     <section id="edit" className="edit" aria-labelledby="edit-title">
@@ -107,7 +125,62 @@ function ExampleEdit() {
   )
 }
 
+// A horizontal run of real products that slides as you scroll, pinned on wide screens.
+function PackingRun({ items }: { items: Product[] }) {
+  const root = useRef<HTMLElement>(null)
+  const track = useRef<HTMLDivElement>(null)
+  useGSAP(() => {
+    if (!items.length || !track.current || !root.current) return
+    const mm = gsap.matchMedia()
+    mm.add('(min-width: 900px) and (prefers-reduced-motion: no-preference)', () => {
+      const distance = () => track.current!.scrollWidth - window.innerWidth + 64
+      gsap.to(track.current, { x: () => -distance(), ease: 'none', scrollTrigger: { trigger: root.current, start: 'top top', end: () => `+=${distance()}`, pin: true, scrub: 0.6, invalidateOnRefresh: true } })
+      gsap.utils.toArray<HTMLElement>('.run-card', track.current).forEach((card, i) => {
+        gsap.fromTo(card, { rotate: i % 2 ? 4 : -4 }, { rotate: i % 2 ? -3 : 3, ease: 'none', scrollTrigger: { trigger: root.current, start: 'top top', end: () => `+=${distance()}`, scrub: true } })
+      })
+    })
+    return () => mm.revert()
+  }, { scope: root, dependencies: [items.length] })
+  if (!items.length) return null
+  return (
+    <section ref={root} className="run" aria-labelledby="run-title">
+      <div className="run-head wrap">
+        <p className="kicker">This week in the catalogue</p>
+        <h2 id="run-title" className="h2">Real pieces, real product pages.</h2>
+      </div>
+      <div ref={track} className="run-track">
+        {items.slice(0, 14).map(p => (
+          <a key={p.id} className="run-card" href={`/go/${p.id}`} target="_blank" rel="noopener sponsored">
+            <img src={p.imageUrl} alt={`${p.brand} ${p.name}`} loading="lazy" referrerPolicy="no-referrer" />
+            <span className="run-brand">{p.brand}</span>
+            <span className="run-name">{p.name}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function CatalogueOrbit({ data }: { data: Showcase }) {
+  const images = data.items.slice(14, 26).map(p => ({ src: p.imageUrl, alt: `${p.brand} ${p.name}` }))
+  return (
+    <section className="orbit rouge-field" aria-labelledby="orbit-title">
+      <div className="wrap orbit-grid">
+        <div className="orbit-copy">
+          <p className="kicker">The catalogue</p>
+          <h2 id="orbit-title" className="orbit-count"><Counter value={data.total} fontSize="1em" fontWeight={400} textColor="currentColor" padding={0} gap={0} /></h2>
+          <p className="orbit-lede">pieces from {data.brands.length} brands, from UNIQLO and H&amp;M to Canada Goose and LEMAIRE. Checked against each retailer every week, so prices, photos and links stay current.</p>
+        </div>
+        <div className="orbit-stage" aria-hidden>
+          {images.length >= 6 && <OrbitImages images={images} shape="ellipse" radiusX={300} radiusY={120} rotation={-8} duration={36} itemSize={96} baseWidth={720} depth={0.4} itemRadius={6} responsive intro centerContent={<span className="emblem orbit-emblem" />} />}
+        </div>
+      </div>
+    </section>
+  )
+}
+
 export default function Home() {
+  const showcase = useShowcase()
   const [typed, setTyped] = useState('')
   const onQueryChange = useCallback((label: string) => setTyped(label), [])
   const country = (slug: string) => ALL_DESTINATIONS.find(d => d.slug === slug)?.sublabel.split(' · ')[0] || ''
@@ -129,15 +202,16 @@ export default function Home() {
         </section>
 
         <ExampleEdit />
+        {showcase && <PackingRun items={showcase.items} />}
 
         <section id="how" className="steps" aria-labelledby="how-title">
           <div className="wrap">
             <p className="kicker">How it works</p>
             <h2 id="how-title" className="h2">From itinerary to outfit in a minute.</h2>
             <ol className="steps-list">
-              <li><h3>Tell us the trip</h3><p>Destination and dates. Add what you&apos;ll be doing and your style if you want it sharper.</p></li>
-              <li><h3>See what to wear</h3><p>Complete looks built around the real forecast or seasonal weather, the terrain and the evenings.</p></li>
-              <li><h3>Shop what you&apos;re missing</h3><p>Every piece links to the exact item at UNIQLO, ZARA, H&amp;M and smaller labels, at three price points.</p></li>
+              <li><h3>Tell us the trip</h3><p>Destination, dates and who you&apos;re shopping for. Add what you&apos;ll be doing and your style to sharpen the list.</p></li>
+              <li><h3>Get the complete list</h3><p>Every piece and how many to pack, down to socks and underwear, built around the forecast or seasonal weather and your plans.</p></li>
+              <li><h3>Shop what you&apos;re missing</h3><p>Every piece links to the exact item at UNIQLO, ZARA, H&amp;M, Nike and smaller labels, with luxury, mid-range and budget options for every piece.</p></li>
             </ol>
           </div>
         </section>
@@ -167,15 +241,16 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="brands" aria-labelledby="brands-title">
-          <div className="wrap brands-inner">
-            <div className="brands-copy">
-              <h2 id="brands-title" className="kicker">Pieces from</h2>
-              <p>Big names for the basics, smaller labels for the pieces worth investing in. Links go straight to each brand&apos;s product page.</p>
-            </div>
-            <ul className="brands-list">{BRANDS.map(b => <li key={b}>{b}</li>)}</ul>
+        {showcase && <CatalogueOrbit data={showcase} />}
+
+        {showcase && <section className="brands" aria-labelledby="brands-title">
+          <div className="wrap brands-copy">
+            <h2 id="brands-title" className="kicker">Pieces from</h2>
+            <p>Big names for the basics, smaller labels for the pieces worth investing in. Links go straight to each brand&apos;s product page.</p>
           </div>
-        </section>
+          <LogoLoop logos={showcase.brands.map(b => ({ node: <span className="brand-loop-item">{b}</span>, title: b }))} speed={50} gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover scaleOnHover scrollBoost={2} ariaLabel="Brands in the catalogue" />
+          <LogoLoop logos={[...showcase.brands].reverse().map(b => ({ node: <span className="brand-loop-item brand-loop-item--ghost">{b}</span>, title: b }))} speed={40} direction="right" gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover ariaLabel="More brands in the catalogue" />
+        </section>}
       </main>
       <SiteFooter />
     </>

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
-import { dateError, localDateISO } from '../lib/trip'
+import { WEARS, dateError, localDateISO, type Wear } from '../lib/trip'
 
 // ── Types ──────────────────────────────────────────────
 type DateRange = { start: Date | null; end: Date | null }
@@ -438,6 +438,10 @@ export function TripSearch({ onQueryChange }: { onQueryChange?: (label: string) 
   const [searchError, setSearchError] = useState('')
   const [range, setRange]             = useState<DateRange>({ start: null, end: null })
   const [calOpen, setCalOpen]         = useState(false)
+  const [wear, setWear]               = useState<Wear>('women')
+  useEffect(() => {
+    try { const v = localStorage.getItem('parche.wear'); if (v === 'women' || v === 'men' || v === 'unisex') setWear(v) } catch {}
+  }, [])
   const [suggestions, setSuggestions] = useState<typeof ALL_DESTINATIONS>([])
   const [activeIdx, setActiveIdx]     = useState(-1)
   const [selected, setSelected]       = useState<typeof ALL_DESTINATIONS[0] | null>(null)
@@ -539,7 +543,8 @@ export function TripSearch({ onQueryChange }: { onQueryChange?: (label: string) 
       || ALL_DESTINATIONS.find(d => d.label.toLowerCase().startsWith(q.toLowerCase()))
     const slug = dest?.slug || q.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')
     const location = dest ? `${dest.label}, ${dest.sublabel.split(' · ')[0]}` : q
-    const params = new URLSearchParams({ destination: location, start, end })
+    const params = new URLSearchParams({ destination: location, start, end, wear })
+    try { localStorage.setItem('parche.wear', wear) } catch {}
     router.push(`/destinations/${slug}?${params}`)
   }
 
@@ -579,6 +584,18 @@ export function TripSearch({ onQueryChange }: { onQueryChange?: (label: string) 
           <span className={`date-display${range.start ? ' has-dates' : ''}`}>
             {formatDateRange(range)}
           </span>
+        </div>
+
+        {/* Wardrobe */}
+        <div className="sf sf-wear" role="radiogroup" aria-label="Shop for">
+          <span className="sf-label">Shop for</span>
+          <div className="wear-seg">
+            {WEARS.map(w => (
+              <button key={w.value} type="button" role="radio" aria-checked={wear === w.value} onClick={() => setWear(w.value)}>
+                {w.value === 'women' ? 'Women' : w.value === 'men' ? 'Men' : 'Unisex'}
+              </button>
+            ))}
+          </div>
         </div>
 
         <button className="s-btn" onClick={() => { setSuggestions([]); search() }}>

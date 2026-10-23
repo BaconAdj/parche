@@ -12,9 +12,16 @@ export const STYLES = [
   { value: 'polished', label: 'Polished' },
 ] as const
 
+export const WEARS = [
+  { value: 'women', label: 'Womenswear' },
+  { value: 'men', label: 'Menswear' },
+  { value: 'unisex', label: 'Unisex' },
+] as const
+
+export type Wear = typeof WEARS[number]['value']
 export type Activity = typeof ACTIVITIES[number]['value']
 export type PersonalStyle = typeof STYLES[number]['value']
-export type Trip = { destination: string; start: string; end: string; activity: Activity | ''; style: PersonalStyle | '' }
+export type Trip = { destination: string; start: string; end: string; activity: Activity | ''; style: PersonalStyle | ''; wear: Wear }
 const DAY = 86_400_000
 
 // Calendar dates must never be converted through the browser's UTC offset.
@@ -49,13 +56,16 @@ export function parseTrip(params: URLSearchParams, today?: string): Trip {
   const style = params.get('style') || ''
   if (activity && !ACTIVITIES.some(a => a.value === activity)) throw new Error('Choose one of the activity options.')
   if (style && !STYLES.some(s => s.value === style)) throw new Error('Choose one of the style options.')
-  return { destination, start, end, activity: activity as Trip['activity'], style: style as Trip['style'] }
+  const wear = params.get('wear') || 'unisex'
+  if (!WEARS.some(w => w.value === wear)) throw new Error('Choose womenswear, menswear or unisex.')
+  return { destination, start, end, activity: activity as Trip['activity'], style: style as Trip['style'], wear: wear as Wear }
 }
 
 export function tripParams(trip: Trip): URLSearchParams {
   const params = new URLSearchParams({ destination: trip.destination, start: trip.start, end: trip.end })
   if (trip.activity) params.set('activity', trip.activity)
   if (trip.style) params.set('style', trip.style)
+  if (trip.wear && trip.wear !== 'unisex') params.set('wear', trip.wear)
   return params
 }
 

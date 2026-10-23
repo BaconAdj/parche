@@ -1,19 +1,27 @@
 'use client'
 
-import { Suspense, useState, useEffect, useMemo } from 'react'
+import { Suspense, useState, useEffect, useMemo, useRef } from 'react'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useGSAP } from '@gsap/react'
 import Link from 'next/link'
 import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { useUser, SignInButton } from '@clerk/nextjs'
 import { createClient } from '../../../lib/supabase'
 import { findDestination, type Destination } from '../../../lib/destinations'
-import { productsForNeed, type Product } from '../../../lib/product-catalogue'
-import type { PackingKind, PackingNeed } from '../../../lib/packing'
-import { parseTrip, tripParams, formatTripDates, type Trip } from '../../../lib/trip'
+import { TIER_LABEL, type Product, type ShopPayload, type Tier } from '../../../lib/catalogue-types'
+import { GROUPS, type PackingKind } from '../../../lib/packing'
+import { ACTIVITIES, STYLES, WEARS, parseTrip, tripParams, formatTripDates, type Trip } from '../../../lib/trip'
 import { buildTravelEdit, type TravelEdit } from '../../../lib/travel-edit'
-import { TripDates, TripRefinements, TripWeatherPanel } from './trip-controls'
+import { TripDates, TripWeatherPanel } from './trip-controls'
 import { SiteNav } from '../../../components/SiteNav'
 import { SiteFooter } from '../../../components/SiteFooter'
 import { ProductCard } from '../../../components/ProductCard'
+import Counter from '../../../components/react-bits/Counter'
+import BounceCards from '../../../components/react-bits/BounceCards'
+import LogoLoop from '../../../components/react-bits/LogoLoop'
+
+gsap.registerPlugin(ScrollTrigger, useGSAP)
 
 // ── Unsplash (optional editorial photography; never used for products) ──
 const UNSPLASH_KEY = process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY || ''
@@ -84,37 +92,42 @@ function SaveLookButton({ dest, title, desc, photo }: { dest: Destination; title
 }
 
 // ── Shop the list ──
-const GROUPS: PackingNeed['group'][] = ['Clothing', 'Footwear', 'Accessories', 'Daily essentials']
+const money = (p: Product) => new Intl.NumberFormat('en-CA', { style: 'currency', currency: p.currency, currencyDisplay: p.currency === 'CAD' ? 'narrowSymbol' : 'code', maximumFractionDigits: 0 }).format(p.price)
+type ShopState = { payload: ShopPayload | null; loading: boolean; error: string }
 
-function ShopTheList({ edit, items, loading, error }: { edit: TravelEdit; items: Product[]; loading: boolean; error: string }) {
-  const [gender, setGender] = useState<'women' | 'men'>('women')
+function ShopTheList({ edit, shop }: { edit: TravelEdit; shop: ShopState }) {
   const [selected, setSelected] = useState<PackingKind | null>(null)
   const [packed, setPacked] = useState<Record<string, boolean>>({})
+  const panel = useRef<HTMLDivElement>(null)
   const plan = edit.packingPlan
-  const optionsFor = (kind: PackingKind) => productsForNeed(items, kind, gender, plan, edit.trip.style)
-  const current = plan.needs.find(n => n.id === selected) || plan.needs.find(n => optionsFor(n.id).length > 0) || plan.needs[0]
-  const options = optionsFor(current.id)
-  const done = plan.needs.filter(n => packed[n.id]).length
+  const byNeed = useMemo(() => new Map(shop.payload?.needs.map(n => [n.id, n.tiers]) || []), [shop.payload])
+  const current = plan.needs.find(n => n.id === selected) || plan.needs[0]
+  const tiers = byNeed.get(current.id) || []
+  const done = plan.needs.filter(n => packed[n.id]).reduce((t, n) => t + n.quantity, 0)
   const choose = (kind: PackingKind) => {
     setSelected(kind)
     if (window.innerWidth < 900) document.getElementById('shop-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
+
+  useGSAP(() => {
+    if (!panel.current || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    gsap.fromTo(panel.current.querySelectorAll('.pcard'), { y: 28, autoAlpha: 0, rotate: () => gsap.utils.random(-2.5, 2.5) },
+      { y: 0, autoAlpha: 1, rotate: 0, duration: .7, ease: 'expo.out', stagger: { each: .05, grid: 'auto' } })
+    gsap.fromTo(panel.current.querySelector('.shop-panel-title'), { yPercent: 60, autoAlpha: 0 }, { yPercent: 0, autoAlpha: 1, duration: .6, ease: 'expo.out' })
+  }, { dependencies: [current.id, shop.payload], scope: panel })
 
   return (
     <section id="shop" className="shop" aria-labelledby="shop-title">
       <div className="wrap">
         <div className="shop-head">
           <div>
-            <p className="kicker">Your list</p>
-            <h2 id="shop-title" className="h2">What to pack for {edit.destination.name}.</h2>
-            <p className="lede">{plan.note}</p>
+            <p className="kicker">Your complete packing list</p>
+            <h2 id="shop-title" className="h2">
+              <span className="shop-count"><Counter value={plan.total} fontSize="1em" fontWeight={400} textColor="currentColor" padding={0} gap={0} /></span> pieces for {edit.destination.name}.
+            </h2>
+            <p className="lede">{plan.note} Tick items off as you pack; pick a piece to see options at every price.</p>
           </div>
-          <div className="shop-tools">
-            <div className="seg" role="group" aria-label="Show pieces for">
-              {(['women', 'men'] as const).map(g => <button key={g} aria-pressed={gender === g} onClick={() => setGender(g)}>{g === 'women' ? 'Womenswear' : 'Menswear'}</button>)}
-            </div>
-            <p className="shop-progress" role="status">{done} of {plan.needs.length} packed</p>
-          </div>
+          <p className="shop-progress" role="status">{done} of {plan.total} pieces packed</p>
         </div>
 
         <div className="shop-grid">
@@ -127,14 +140,13 @@ function ShopTheList({ edit, items, loading, error }: { edit: TravelEdit; items:
                   <h3>{group}</h3>
                   <ul>
                     {needs.map(need => {
-                      const count = optionsFor(need.id).length
                       const active = need.id === current.id
                       return (
                         <li key={need.id} className={`need${active ? ' is-active' : ''}${packed[need.id] ? ' is-packed' : ''}`}>
                           <input type="checkbox" id={`pk-${need.id}`} checked={!!packed[need.id]} onChange={e => setPacked(p => ({ ...p, [need.id]: e.target.checked }))} aria-label={`Already packed: ${need.title}`} />
                           <button type="button" className="need-btn" aria-pressed={active} onClick={() => choose(need.id)}>
                             <span className="need-title">{need.title}{need.optional && <span className="need-opt"> (optional)</span>}</span>
-                            <span className="need-meta">&times;{need.quantity}{count ? `, ${count} to shop` : ''}</span>
+                            <span className="need-qty" aria-label={`Pack ${need.quantity}`}>{need.quantity}</span>
                           </button>
                         </li>
                       )
@@ -145,26 +157,120 @@ function ShopTheList({ edit, items, loading, error }: { edit: TravelEdit; items:
             })}
           </div>
 
-          <div id="shop-panel" className="shop-panel" tabIndex={-1} aria-live="polite">
+          <div id="shop-panel" ref={panel} className="shop-panel" tabIndex={-1} aria-live="polite">
+            <p className="kicker">Pack {current.quantity}</p>
             <h3 className="serif shop-panel-title">{current.title}</h3>
             <p className="shop-panel-why">{current.reason}</p>
-            {loading ? <p role="status" className="shop-status">Finding the pieces…</p>
-              : error ? <p role="status" className="shop-status">{error}</p>
-              : options.length ? (
-                <>
+            {shop.loading && !shop.payload ? <div className="shop-skeleton" aria-label="Finding the pieces" role="status">{Array.from({ length: 6 }, (_, i) => <span key={i} />)}</div>
+              : shop.error ? <p role="status" className="shop-status">{shop.error}</p>
+              : tiers.length ? tiers.map(t => (
+                <div key={t.tier} className="tier-row">
+                  <h4 className="tier-label"><span>{t.label}</span><small>{t.products.length} {t.products.length === 1 ? 'option' : 'options'}</small></h4>
                   <div className="shop-products">
-                    {options.map(p => <ProductCard key={p.id} product={p} destination={edit.destination.name} kind={current.id} />)}
+                    {t.products.map(p => <ProductCard key={p.id} product={p} destination={edit.destination.name} kind={current.id} showTier={false} />)}
                   </div>
-                  {options.length < 3 && <p className="shop-foot">These are the verified matches we have for this piece so far.</p>}
-                </>
-              ) : (
-                <p className="shop-status">We haven&apos;t verified a product for this one yet. Use the note above when you choose your own.</p>
+                </div>
+              )) : (
+                <p className="shop-status">We&apos;re still sourcing this piece for {edit.trip.wear === 'unisex' ? 'this wardrobe' : edit.trip.wear === 'women' ? 'womenswear' : 'menswear'}. The note above says what to look for.</p>
               )}
-            <p className="shop-foot">Prices are shown in each retailer&apos;s currency and were checked on {options[0]?.checkedAt || 'the review date'}. Confirm sizes, stock and delivery on the product page.</p>
+            <p className="shop-foot">Prices are shown in each retailer&apos;s currency and refreshed weekly{shop.payload?.checkedAt ? ` (oldest checked ${shop.payload.checkedAt})` : ''}. Confirm sizes, stock and delivery on the product page.</p>
           </div>
         </div>
       </div>
     </section>
+  )
+}
+
+// ── Looks built from real products on the list ──
+type Recipe = { title: string; desc: string; tier: Tier; slots: PackingKind[][] }
+function lookRecipes(edit: TravelEdit): Recipe[] {
+  const a = edit.trip.activity
+  const [day, evening, third] = edit.looks
+  const top: PackingKind[] = ['linen-shirt', 'tee', 'long-sleeve-top', 'knit']
+  const bottom: PackingKind[] = ['light-trousers', 'trousers', 'jeans', 'warm-trousers', 'shorts']
+  return [
+    { ...day, tier: 'Quality', slots: [top, ['coat', 'light-jacket', 'rain-shell', 'warm-knit'], bottom, ['walking-shoes', 'boots', 'sandals'], ['bag', 'sunglasses', 'beanie', 'sun-hat']] },
+    { ...evening, tier: 'High-end', slots: [['dress', 'shirt', 'warm-knit', 'knit'], ['blazer', 'coat', 'light-jacket'], ['skirt', 'trousers', 'warm-trousers', 'light-trousers'], ['dress-shoes', 'boots'], ['belt', 'light-scarf', 'scarf', 'bag']] },
+    { ...third, tier: 'Budget', slots: a === 'active'
+      ? [['active-top'], ['active-bottoms'], ['trail-shoes', 'walking-shoes'], ['daypack'], ['sun-hat', 'beanie', 'sunglasses']]
+      : a === 'relaxing'
+        ? [['swim', 'tee'], ['shorts', 'light-trousers', 'trousers'], ['sandals', 'walking-shoes'], ['sun-hat', 'beanie'], ['sunglasses', 'bag']]
+        : [['tee', 'long-sleeve-top', 'knit'], ['jeans', 'trousers', 'warm-trousers', 'shorts'], ['walking-shoes', 'boots'], ['daypack', 'bag'], ['sunglasses', 'umbrella', 'scarf']] },
+  ]
+}
+
+function Looks({ edit, shop }: { edit: TravelEdit; shop: ShopState }) {
+  const byNeed = new Map(shop.payload?.needs.map(n => [n.id, n.tiers]) || [])
+  const looks = lookRecipes(edit).map(r => {
+    const used = new Set<string>()
+    const pieces = r.slots.flatMap(kinds => {
+      for (const k of kinds) {
+        const tiers = byNeed.get(k)
+        if (!tiers?.length) continue
+        const pick = [...(tiers.find(t => t.tier === r.tier)?.products || []), ...tiers.flatMap(t => t.products)].find(p => !used.has(p.id))
+        if (pick) { used.add(pick.id); return [{ kind: k, product: pick }] }
+      }
+      return []
+    })
+    return { ...r, pieces }
+  })
+  return (
+    <section className="looks" aria-labelledby="looks-title">
+      <div className="wrap">
+        <p className="kicker">The looks</p>
+        <h2 id="looks-title" className="h2">Three outfits, built from your list.</h2>
+        <div className="looks-grid">
+          {looks.map(look => (
+            <article key={look.title} className="look">
+              <div className="look-collage">
+                {look.pieces.length >= 3
+                  ? <BounceCards images={look.pieces.map(p => ({ src: p.product.imageUrl, alt: `${p.product.brand} ${p.product.name}` }))} containerWidth={320} containerHeight={250} cardSize={128} spread={62} rotation={8} borderWidth={4} borderColor="#FFFFFF" radius={6} animationDelay={0.2} onCardClick={i => window.open(`/go/${look.pieces[i].product.id}?d=${encodeURIComponent(edit.destination.name)}&k=${look.pieces[i].kind}`, '_blank', 'noopener')} />
+                  : <div className="look-collage-empty" aria-hidden><span className="emblem" /></div>}
+              </div>
+              <p className="look-tier">{TIER_LABEL[look.tier]} edit</p>
+              <h3 className="look-title">{look.title}</h3>
+              <p className="look-desc">{look.desc}</p>
+              {look.pieces.length > 0 && <ul className="look-pieces">
+                {look.pieces.map(({ kind, product }) => <li key={product.id}><a href={`/go/${product.id}?d=${encodeURIComponent(edit.destination.name)}&k=${kind}`} target="_blank" rel="noopener sponsored"><span>{product.brand}</span> {product.name}<em>{money(product)}</em></a></li>)}
+              </ul>}
+              <SaveLookButton dest={edit.destination} title={look.title} desc={look.desc} photo={look.pieces[0]?.product.imageUrl || null} />
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function BrandRibbon({ shop }: { shop: ShopState }) {
+  const brands = [...new Set(shop.payload?.needs.flatMap(n => n.tiers.flatMap(t => t.products.map(p => p.brand))) || [])]
+  if (brands.length < 6) return null
+  return (
+    <div className="brand-ribbon" aria-label={`Brands in this edit: ${brands.join(', ')}`}>
+      <LogoLoop logos={brands.map(b => ({ node: <span className="brand-ribbon-item">{b}</span>, title: b }))} speed={60} gap={48} logoHeight={34} fadeOut fadeOutColor="#14213D" pauseOnHover scaleOnHover ariaLabel="Brands in this edit" />
+    </div>
+  )
+}
+
+// ── Trip controls in the hero, so wardrobe, activity and style change the list in place ──
+function TripControls({ trip, onChange }: { trip: Trip; onChange: (updates: Partial<Trip>) => void }) {
+  return (
+    <div className="r-controls">
+      <div className="r-control">
+        <span className="r-control-label">Shop for</span>
+        <div className="seg" role="radiogroup" aria-label="Shop for">
+          {WEARS.map(w => <button key={w.value} type="button" role="radio" aria-checked={trip.wear === w.value} onClick={() => onChange({ wear: w.value })}>{w.value === 'women' ? 'Women' : w.value === 'men' ? 'Men' : 'Unisex'}</button>)}
+        </div>
+      </div>
+      <div className="r-control">
+        <span className="r-control-label">Your trip</span>
+        <div className="trip-choices">{ACTIVITIES.map(a => <button type="button" key={a.value} aria-pressed={trip.activity === a.value} onClick={() => onChange({ activity: trip.activity === a.value ? '' : a.value })}>{a.label}</button>)}</div>
+      </div>
+      <div className="r-control">
+        <span className="r-control-label">Your style</span>
+        <div className="trip-choices">{STYLES.map(s => <button type="button" key={s.value} aria-pressed={trip.style === s.value} onClick={() => onChange({ style: trip.style === s.value ? '' : s.value })}>{s.label}</button>)}</div>
+      </div>
+    </div>
   )
 }
 
@@ -173,54 +279,55 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
   const { destination: dest, trip } = edit
   const [editingDates, setEditingDates] = useState(false)
   const queryKey = tripParams(trip).toString()
-  const [items, setItems] = useState<Product[]>([])
-  const [itemsLoading, setItemsLoading] = useState(true)
-  const [itemsError, setItemsError] = useState('')
+  const [shop, setShop] = useState<ShopState>({ payload: null, loading: true, error: '' })
   const [hero, setHero] = useState<UnsplashPhoto | null>(null)
-  const [lookPhotos, setLookPhotos] = useState<(UnsplashPhoto | null)[]>([null, null, null])
+  const heroRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
     const controller = new AbortController()
     let cancelled = false
     const timer = setTimeout(async () => {
-      setItemsLoading(true); setItemsError('')
+      setShop(s => ({ ...s, loading: true, error: '' }))
       try {
         const res = await fetch(`/api/clothing?${queryKey}`, { signal: controller.signal })
         const json = await res.json()
-        if (!res.ok || !Array.isArray(json.data?.items)) throw new Error(json.error)
-        if (!cancelled) setItems(json.data.items)
+        if (!res.ok || !Array.isArray(json.data?.needs)) throw new Error(json.error)
+        if (!cancelled) setShop({ payload: json.data, loading: false, error: '' })
       } catch {
-        if (!cancelled) { setItems([]); setItemsError('The shop list didn’t load. Your looks above are ready; refresh to try the list again.') }
-      } finally { if (!cancelled) setItemsLoading(false) }
-    }, 250)
+        if (!cancelled) setShop({ payload: null, loading: false, error: 'The shopping options didn’t load. Your list is complete above; refresh to try again.' })
+      }
+    }, 150)
     return () => { cancelled = true; clearTimeout(timer); controller.abort() }
   }, [queryKey])
 
   useEffect(() => {
     let cancelled = false
-    const climate = edit.packingPlan.climate
-    const mood = climate === 'cold' ? 'winter coat' : climate === 'hot' ? 'summer linen' : 'smart casual'
-    Promise.all([
-      fetchPhoto(`${dest.name} street architecture`, 'portrait'),
-      fetchPhoto(`woman ${mood} outfit editorial portrait`),
-      fetchPhoto(`woman evening ${mood} outfit editorial portrait`),
-      fetchPhoto(`${mood} travel style editorial portrait`),
-    ]).then(([h, a, b, c]) => { if (!cancelled) { setHero(h); setLookPhotos([a, b, c]) } })
+    fetchPhoto(`${dest.name} street architecture`, 'portrait').then(h => { if (!cancelled) setHero(h) })
     return () => { cancelled = true }
-  }, [dest.name, edit.packingPlan.climate])
+  }, [dest.name])
+
+  useGSAP(() => {
+    if (!heroRef.current || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const tl = gsap.timeline({ defaults: { ease: 'expo.out' } })
+    tl.from('.r-title > *', { yPercent: 110, duration: 1, stagger: .08 })
+      .from('.r-weather, .r-controls .r-control', { y: 16, autoAlpha: 0, duration: .7, stagger: .07 }, '-=.6')
+      .from('.r-hero-img', { clipPath: 'inset(0 0 100% 0)', duration: 1.2 }, 0)
+    gsap.to('.r-hero-img img', { yPercent: 12, ease: 'none', scrollTrigger: { trigger: heroRef.current, start: 'top top', end: 'bottom top', scrub: true } })
+  }, { scope: heroRef })
 
   const weatherLine = edit.weather.low === null ? 'Weather to confirm closer to departure' : `${edit.weather.low}–${edit.weather.high}°C, ${edit.weather.kind === 'forecast' ? 'forecast' : 'typical for these dates'}`
 
   return (
     <main className="results">
-      <header className="r-hero">
+      <header ref={heroRef} className="r-hero r-hero--compact">
         <div className="wrap r-hero-grid">
           <div className="r-hero-copy">
-            <p className="kicker">{formatTripDates(trip.start, trip.end)}</p>
-            <h1 className="r-title">What to wear in <span className="r-city">{dest.name}.</span></h1>
+            <p className="kicker">{formatTripDates(trip.start, trip.end)} · {edit.packingPlan.days} {edit.packingPlan.days === 1 ? 'day' : 'days'}</p>
+            <h1 className="r-title"><span className="r-line">What to wear in</span> <span className="r-line r-city">{dest.name}.</span></h1>
             <p className="r-weather">{weatherLine}.</p>
+            <TripControls trip={trip} onChange={onTripChange} />
             <div className="r-actions">
-              <a href="#shop" className="btn btn--rouge">Shop the list</a>
+              <a href="#shop" className="btn btn--rouge">See the {edit.packingPlan.total}-piece list</a>
               <button type="button" className="btn btn--line" aria-expanded={editingDates} onClick={() => setEditingDates(v => !v)}>Change dates</button>
               <SaveTripButton dest={dest} photo={hero?.urls.regular || null} />
             </div>
@@ -232,29 +339,10 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
         </div>
       </header>
 
+      <ShopTheList key={trip.destination + trip.start + trip.end} edit={edit} shop={shop} />
+      <BrandRibbon shop={shop} />
+      <Looks edit={edit} shop={shop} />
       <TripWeatherPanel weather={edit.weather} />
-
-      <section className="looks" aria-labelledby="looks-title">
-        <div className="wrap">
-          <p className="kicker">The looks</p>
-          <h2 id="looks-title" className="h2">Three outfits that cover the trip.</h2>
-          <div className="looks-grid">
-            {edit.looks.map((look, i) => (
-              <article key={look.title} className="look">
-                {lookPhotos[i] && <figure className="look-img"><img src={lookPhotos[i]!.urls.regular} alt="" loading="lazy" /><PhotoCredit photo={lookPhotos[i]!} /></figure>}
-                <h3 className="look-title">{look.title}</h3>
-                <p className="look-desc">{look.desc}</p>
-                <SaveLookButton dest={dest} title={look.title} desc={look.desc} photo={lookPhotos[i]?.urls.regular || null} />
-              </article>
-            ))}
-          </div>
-          {lookPhotos.some(Boolean) && <p className="shop-foot">Photos are mood references, not the items in your list.</p>}
-        </div>
-      </section>
-
-      <div className="wrap"><TripRefinements trip={trip} onChange={(key, value) => onTripChange({ [key]: value })} /></div>
-
-      <ShopTheList key={trip.destination + trip.start + trip.end} edit={edit} items={items} loading={itemsLoading} error={itemsError} />
     </main>
   )
 }
@@ -284,7 +372,8 @@ function DestinationContent() {
   const destination = searchParams.get('destination') || (staticDest ? `${staticDest.name}, ${staticDest.country}` : name)
   const start = searchParams.get('start') || '', end = searchParams.get('end') || ''
   const activity = searchParams.get('activity') || '', style = searchParams.get('style') || ''
-  const request = new URLSearchParams({ destination, start, end, activity, style })
+  const wear = searchParams.get('wear') || 'unisex'
+  const request = new URLSearchParams({ destination, start, end, activity, style, wear })
   let trip: Trip | null = null, validation = ''
   try { trip = parseTrip(request) } catch (error) { validation = error instanceof Error ? error.message : 'Choose your travel dates.' }
   const weatherKey = new URLSearchParams({ destination, start, end }).toString()

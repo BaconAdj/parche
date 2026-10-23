@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import type { Product } from '../lib/product-catalogue'
+import { TIER_LABEL, type Product } from '../lib/catalogue-types'
 
 const money = (p: Product) => new Intl.NumberFormat('en-CA', { style: 'currency', currency: p.currency, currencyDisplay: p.currency === 'CAD' ? 'narrowSymbol' : 'code' }).format(p.price)
 
@@ -18,7 +18,7 @@ export function ProductCard({ product, destination, kind, showTier = true }: { p
         {failed
           ? <p className="pcard-missing">Photo unavailable. See it at {product.brand}.</p>
           : <img src={product.imageUrl} alt={`${product.brand} ${product.name}`} loading="lazy" referrerPolicy="no-referrer" onError={() => setFailed(true)} />}
-        {showTier && <span className="pcard-tier">{product.tier === 'High-end' ? 'Investment' : product.tier === 'Quality' ? 'Mid-range' : 'Budget'}</span>}
+        {showTier && <span className="pcard-tier">{TIER_LABEL[product.tier]}</span>}
       </div>
       <div className="pcard-meta"><span className="pcard-brand">{product.brand}</span><span className="pcard-price">{money(product)}</span></div>
       <p className="pcard-name">{product.name}</p>

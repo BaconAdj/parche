@@ -4,11 +4,13 @@ import { dateError, parseTrip, tripParams, localDateISO, type Trip } from '../li
 import { weatherWindow, historicWindow, parseDays, getTripWeather, unavailableWeather } from '../lib/weather'
 import { buildTravelEdit } from '../lib/travel-edit'
 
-const trip: Trip = { destination: 'Lisbon, Portugal', start: '2027-01-05', end: '2027-01-10', activity: '', style: '' }
+const trip: Trip = { destination: 'Lisbon, Portugal', start: '2027-01-05', end: '2027-01-10', activity: '', style: '', wear: 'unisex' }
 
 test('dates and optional preferences survive URL serialization without a budget field', () => {
-  const selected: Trip = { ...trip, activity: 'walking', style: 'polished' }
+  const selected: Trip = { ...trip, activity: 'walking', style: 'polished', wear: 'men' }
   assert.deepEqual(parseTrip(tripParams(selected), '2026-10-22'), selected)
+  assert.deepEqual(parseTrip(tripParams(trip), '2026-10-22'), trip)
+  assert.throws(() => parseTrip(new URLSearchParams({ destination: trip.destination, start: trip.start, end: trip.end, wear: 'kids' }), '2026-10-22'))
   assert.equal(tripParams(selected).has('budget'), false)
   assert.equal(localDateISO(new Date(2027, 0, 5)), '2027-01-05')
 })
@@ -131,32 +133,27 @@ test('API rejects invalid dates before calling a provider', async () => {
   } finally { mock.restore() }
 })
 
-test('clothing API validates dates and never calls a paid service', async () => {
+test('clothing API returns tiered options per piece and never calls a paid service', async () => {
   const { NextRequest } = await import('next/server')
   const { GET } = await import('../app/api/clothing/route')
   const original = globalThis.fetch
   globalThis.fetch = async () => { throw new Error('Shopping must not call external services') }
   try {
     const future = new Date(); future.setDate(future.getDate() + 30)
-    const selected = { ...trip, start: localDateISO(future), end: localDateISO(future) }
+    const selected: Trip = { ...trip, start: localDateISO(future), end: localDateISO(future), wear: 'women' }
     const response = await GET(new NextRequest('https://parche.store/api/clothing?' + tripParams(selected)))
     assert.equal(response.status, 200)
-    assert.ok(Array.isArray((await response.json()).data.items))
+    const { data } = await response.json()
+    assert.equal(data.wear, 'women')
+    assert.ok(data.needs.length > 5)
+    for (const need of data.needs) for (const tier of need.tiers) assert.ok(tier.products.length <= 3)
     assert.equal((await GET(new NextRequest('https://parche.store/api/clothing'))).status, 400)
   } finally { globalThis.fetch = original }
 })
 
-test('catalogue has three distinct reviewed options per selection and expires stale prices', async () => {
-  const { catalogue, reviewedProducts } = await import('../lib/product-catalogue')
-  assert.equal(reviewedProducts(new Date('2026-10-23')).length, catalogue.length)
-  assert.equal(reviewedProducts(new Date('2026-11-22')).length, 0)
-  assert.equal(new Set(catalogue.map(p => p.productUrl)).size, catalogue.length)
-  assert.equal(new Set(catalogue.map(p => p.imageUrl)).size, catalogue.length)
-  for (const gender of ['women', 'men']) assert.deepEqual(catalogue.filter(p => p.gender === gender && p.kinds.includes('tee')).map(p => p.tier), ['High-end', 'Quality', 'Budget'])
-  for (const item of catalogue) {
-    assert.equal(new URL(item.productUrl).protocol, 'https:')
-    assert.equal(new URL(item.imageUrl).protocol, 'https:')
-    assert.ok(item.price > 0 && ['USD', 'CAD'].includes(item.currency))
-    assert.ok(!item.imageUrl.includes('unsplash'))
-  }
+test('stale prices expire after 30 days', async () => {
+  const { liveProducts } = await import('../lib/selection')
+  const p = { checkedAt: '2026-10-22' } as Parameters<typeof liveProducts>[0][number]
+  assert.equal(liveProducts([p], new Date('2026-10-23')).length, 1)
+  assert.equal(liveProducts([p], new Date('2026-11-22')).length, 0)
 })

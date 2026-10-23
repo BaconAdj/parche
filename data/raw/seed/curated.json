@@ -1,0 +1,1903 @@
+[
+ {
+  "source": "seed-curated",
+  "brand": "Sunspel",
+  "id": "sunspel-w-tee",
+  "name": "Classic T-shirt — White",
+  "gender": "women",
+  "kind": "tee",
+  "price": 95,
+  "currency": "USD",
+  "productUrl": "https://us.sunspel.com/products/womens-cotton-t-shirt-in-white-wtsh0032",
+  "imageUrl": "https://us.sunspel.com/cdn/shop/files/wtsh0183-whaa-1_33c0ef39-0a94-4ee1-b392-f8fbae9c7a16.jpg?v=1789057745&width=800",
+  "details": "Supima cotton; made in England.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated",
+   "relaxed"
+  ],
+  "text": "Classic T-shirt — White"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "asket-w-tee",
+  "name": "The T-Shirt — White",
+  "gender": "women",
+  "kind": "tee",
+  "price": 75,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/womens-t-shirt-white",
+  "imageUrl": "https://images.asket.com/products/images/440_YTE-WS-WHI-slideshow_1-original.jpg",
+  "details": "Organic cotton with a straight, relaxed fit.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated",
+   "relaxed"
+  ],
+  "text": "The T-Shirt — White"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "ob-w-tee",
+  "name": "True Regular Tee — White",
+  "gender": "women",
+  "kind": "tee",
+  "price": 36,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/womens-true-regular-tee-white",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/cqt2mfxyz1mjrph7su0w.jpg?v=1723549862",
+  "details": "Organic cotton with a ribbed crewneck.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated",
+   "relaxed"
+  ],
+  "text": "True Regular Tee — White"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Sunspel",
+  "id": "sunspel-m-tee",
+  "name": "Classic T-shirt — White",
+  "gender": "men",
+  "kind": "tee",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://us.sunspel.com/products/mens-short-sleeve-crew-neck-t-shirt-white",
+  "imageUrl": "https://us.sunspel.com/cdn/shop/files/mtsh0001-whaa-1_930c05cc-bbc8-473f-b115-6d34fa3c02f2.jpg?v=1791899277&width=800",
+  "details": "Supima cotton; made in England.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated",
+   "relaxed"
+  ],
+  "text": "Classic T-shirt — White"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "asket-m-tee",
+  "name": "The T-Shirt — Black",
+  "gender": "men",
+  "kind": "tee",
+  "price": 75,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/mens-t-shirt-black",
+  "imageUrl": "https://images.asket.com/products/images/2_TEE-MA-BLA-slideshow_1-original.jpg",
+  "details": "Organic cotton in a versatile black colour.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated",
+   "relaxed"
+  ],
+  "text": "The T-Shirt — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "ob-m-tee",
+  "name": "True Boxy Fit Tee — Artichoke",
+  "gender": "men",
+  "kind": "tee",
+  "price": 25.9,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/mens-true-boxy-fit-tee-artichoke",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_organic_basics-men-organic_cotton-true-boxy_fit_tee-artichoke-studio-1.jpg?v=1734604826",
+  "details": "Organic cotton with a boxy fit. Sale price; final-sale terms may apply.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "green"
+  ],
+  "styles": [
+   "understated",
+   "relaxed"
+  ],
+  "text": "True Boxy Fit Tee — Artichoke"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "womens-core-straight-leg-pants-black",
+  "name": "Core Straight Leg Pants — Black",
+  "gender": "women",
+  "kind": "trousers",
+  "price": 75,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/womens-core-straight-leg-pants-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_ob-wonen-organic_cotton-core-straight_leg_pants-black-studio-1.jpg?v=1738671379",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [],
+  "text": "Core Straight Leg Pants — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "womens-everyday-straight-leg-pants-stone-blue",
+  "name": "Everyday Straight Leg Pants — Stone Blue",
+  "gender": "women",
+  "kind": "trousers",
+  "price": 56,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/womens-everyday-straight-leg-pants-stone-blue",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/ynj3r8sugcfi4ici3tjp.jpg?v=1723645443",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
+  ],
+  "text": "Everyday Straight Leg Pants — Stone Blue"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "true-knit-sweater-almond",
+  "name": "True Knit Sweater — Almond",
+  "gender": "women",
+  "kind": "knit",
+  "price": 83,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/true-knit-sweater-almond",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_organic_basics-women-organic_cotton-true_knit-sweater-almond-studio-2.jpg?v=1726402741",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "almond"
+  ],
+  "styles": [
+   "relaxed"
+  ],
+  "text": "True Knit Sweater — Almond"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "true-knit-sweater-navy",
+  "name": "True Knit Sweater — Navy",
+  "gender": "women",
+  "kind": "knit",
+  "price": 83,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/true-knit-sweater-navy",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_organic_basics-women-organic_cotton-true_knit-sweater-navy-studio-4.jpg?v=1726402324",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "True Knit Sweater — Navy"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "womens-fine-knit-v-neck-sweater-dark-grey-melange",
+  "name": "Fine Knit V-Neck Sweater — Dark Grey",
+  "gender": "women",
+  "kind": "knit",
+  "price": 74.2,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/womens-fine-knit-v-neck-sweater-dark-grey-melange",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/FineKnitVNeck_Grey_e5417ac7-e00d-4793-b087-a60b33ab8376.jpg?v=1764775587",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown",
+   "hot"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "polished"
+  ],
+  "text": "Fine Knit V-Neck Sweater — Dark Grey"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "womens-swim-open-back-one-piece-dove-blue",
+  "name": "Swim Open Back One-Piece — Dove Blue",
+  "gender": "women",
+  "kind": "swim",
+  "price": 48.5,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/womens-swim-open-back-one-piece-dove-blue",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_organic_basics-women-swim-open_back_one_piece-dove_blue-studio-1.jpg?v=1738670580",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [],
+  "text": "Swim Open Back One-Piece — Dove Blue"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "core-casual-cap-sandstone",
+  "name": "Core Casual Cap — Sandstone",
+  "gender": "unisex",
+  "kind": "sun-hat",
+  "price": 19.5,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/core-casual-cap-sandstone",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_ob-unisex-organic_cotton-core-casual-cap-sandstone-packshot-1.jpg?v=1751370694",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "sandstone"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "Core Casual Cap — Sandstone"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "core-casual-cap-azure-blue",
+  "name": "Core Casual Cap — Azure Blue",
+  "gender": "unisex",
+  "kind": "sun-hat",
+  "price": 19.5,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/core-casual-cap-azure-blue",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_ob-unisex-organic_cotton-core-casual-cap-azure_blue-packshot-1.jpg?v=1751370706",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "Core Casual Cap — Azure Blue"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "core-casual-cap-black",
+  "name": "Core Casual Cap — Black",
+  "gender": "unisex",
+  "kind": "sun-hat",
+  "price": 35,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/core-casual-cap-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_ob-unisex-organic_cotton-core-casual-cap-black-packshot-1.jpg?v=1751370682",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "Core Casual Cap — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "core-casual-cap-vibrant-red",
+  "name": "Core Casual Cap — Vibrant Red",
+  "gender": "unisex",
+  "kind": "sun-hat",
+  "price": 19.5,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/core-casual-cap-vibrant-red",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_ob-unisex-organic_cotton-core-casual-cap-red-packshot-1.jpg?v=1751370727",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "red"
+  ],
+  "styles": [
+   "statement"
+  ],
+  "text": "Core Casual Cap — Vibrant Red"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "womens-alley-copenhagen-shoulder-bag-midnight-blue",
+  "name": "Alley Copenhagen Shoulder Bag — Midnight Blue",
+  "gender": "women",
+  "kind": "bag",
+  "price": 60,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/womens-alley-copenhagen-shoulder-bag-midnight-blue",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_organic_basics-women-organic_cotton-alley-copenhagen_sholder_bag-midnight_blue-studio-1.jpg?v=1783942144",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [],
+  "text": "Alley Copenhagen Shoulder Bag — Midnight Blue"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "womens-alley-copenhagen-shoulder-bag-black",
+  "name": "Alley Copenhagen Shoulder Bag — Black",
+  "gender": "women",
+  "kind": "bag",
+  "price": 60,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/womens-alley-copenhagen-shoulder-bag-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_organic_basics-women-organic_cotton-alley-copenhagen_sholder_bag-black-studio-1.jpg?v=1783942131",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [],
+  "text": "Alley Copenhagen Shoulder Bag — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Organic Basics",
+  "id": "mens-alley-copenhagen-shoulder-bag-black",
+  "name": "Alley Copenhagen Shoulder Bag — Black",
+  "gender": "men",
+  "kind": "bag",
+  "price": 60,
+  "currency": "USD",
+  "productUrl": "https://us.organicbasics.com/products/mens-alley-copenhagen-shoulder-bag-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/dg_organic_basics-men-organic_cotton-alley-copenhagen_sholder_bag-black-studio-1.jpg?v=1783942116",
+  "details": "Check the exact fit, fabric and available sizes on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [],
+  "text": "Alley Copenhagen Shoulder Bag — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "womens-wool-trousers-charcoal-melange",
+  "name": "The Wool Trousers — Charcoal",
+  "gender": "women",
+  "kind": "warm-trousers",
+  "price": 360,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/womens-wool-trousers-charcoal-melange",
+  "imageUrl": "https://images.asket.com/products/images/302_WTR-WR-CLM-slideshow_6-original.jpg",
+  "details": "Merino wool trousers with a high waist and loose fit.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "polished"
+  ],
+  "text": "The Wool Trousers — Charcoal"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "mens-wool-trousers-charcoal-melange",
+  "name": "The Wool Trousers — Charcoal",
+  "gender": "men",
+  "kind": "warm-trousers",
+  "price": 360,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/mens-wool-trousers-charcoal-melange",
+  "imageUrl": "https://images.asket.com/products/images/300_WT3-MQ-CLM-slideshow_1-original.jpg",
+  "details": "Merino wool trousers with a mid-rise waist and loose fit.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "polished"
+  ],
+  "text": "The Wool Trousers — Charcoal"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "mens-heavy-wool-sweater-charcoal-melange",
+  "name": "The Heavy Wool Sweater — Charcoal",
+  "gender": "men",
+  "kind": "warm-knit",
+  "price": 290,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/mens-heavy-wool-sweater-charcoal-melange",
+  "imageUrl": "https://images.asket.com/products/images/131_HWS-MA-CLM-slideshow_1-original.jpg",
+  "details": "A chunky wool-blend crewneck for layering.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed"
+  ],
+  "text": "The Heavy Wool Sweater — Charcoal"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "mens-oxford-shirt-dark-navy",
+  "name": "The Oxford Shirt — Dark Navy",
+  "gender": "men",
+  "kind": "shirt",
+  "price": 210,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/mens-oxford-shirt-dark-navy",
+  "imageUrl": "https://images.asket.com/products/images/5_OXF-MA-DKN-slideshow_1-original.jpg",
+  "details": "Midweight organic cotton with a button-down collar.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown",
+   "cold"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "polished"
+  ],
+  "text": "The Oxford Shirt — Dark Navy"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "mens-loose-twill-chino-dark-navy",
+  "name": "The Loose Twill Chino — Dark Navy",
+  "gender": "men",
+  "kind": "trousers",
+  "price": 260,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/mens-loose-twill-chino-dark-navy",
+  "imageUrl": "https://images.asket.com/products/images/237_TC4-MK-DKN-slideshow_1-original.jpg",
+  "details": "Sturdy organic cotton twill with a loose, straight leg.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "relaxed"
+  ],
+  "text": "The Loose Twill Chino — Dark Navy"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "ribbed-wool-beanie-black",
+  "name": "The Ribbed Wool Beanie — Black",
+  "gender": "unisex",
+  "kind": "beanie",
+  "price": 75,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/ribbed-wool-beanie-black",
+  "imageUrl": "https://images.asket.com/products/images/15_MWH-MD-BLA-slideshow_1-original.jpg",
+  "details": "Extra-fine merino wool with a folded rib knit.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [],
+  "text": "The Ribbed Wool Beanie — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "oversized-cashmere-wool-scarf-dark-navy",
+  "name": "Oversized Cashmere Wool Scarf — Navy",
+  "gender": "unisex",
+  "kind": "scarf",
+  "price": 180,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/oversized-cashmere-wool-scarf-dark-navy",
+  "imageUrl": "https://images.asket.com/products/images/98_OWS-UD-DKN-slideshow_1-original.jpg",
+  "details": "Recycled wool and cashmere in an oversized winter scarf.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [],
+  "text": "Oversized Cashmere Wool Scarf — Navy"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Sunspel",
+  "id": "sunspel-w-linen",
+  "name": "Linen Shirt — Hazelwood",
+  "gender": "women",
+  "kind": "linen-shirt",
+  "price": 210,
+  "currency": "USD",
+  "productUrl": "https://us.sunspel.com/products/womens-linen-shirt-in-hazelwood-wsht2055-brgt",
+  "imageUrl": "https://us.sunspel.com/cdn/shop/files/wsht2055-brgt-1.jpg?v=1773852893&width=800",
+  "details": "Relaxed linen shirt with a curved hem.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "hazelwood"
+  ],
+  "styles": [
+   "relaxed"
+  ],
+  "text": "Linen Shirt — Hazelwood"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Sunspel",
+  "id": "sunspel-m-linen",
+  "name": "Linen Shirt — Sky Blue/Navy",
+  "gender": "men",
+  "kind": "linen-shirt",
+  "price": 374,
+  "currency": "CAD",
+  "productUrl": "https://www.sunspel.com/en-ca/products/mens-linen-shirt-in-sky-blue-navy-msht2106-stol",
+  "imageUrl": "https://www.sunspel.com/cdn/shop/files/msht2106-stol-1_796d3c26-28c5-41e3-9d83-78f990dac29c.jpg?v=1764767738&width=800",
+  "details": "Regular-fit linen shirt for wearing buttoned or as a light open layer.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue",
+   "navy"
+  ],
+  "styles": [
+   "polished",
+   "statement"
+  ],
+  "text": "Linen Shirt — Sky Blue/Navy"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Sunspel",
+  "id": "sunspel-m-swim",
+  "name": "Tailored Swim Shorts — Navy",
+  "gender": "men",
+  "kind": "swim",
+  "price": 200,
+  "currency": "USD",
+  "productUrl": "https://us.sunspel.com/products/mens-upcycled-marine-plastic-tailored-swim-short-in-navy",
+  "imageUrl": "https://us.sunspel.com/cdn/shop/files/mshr3704-buaa-5.jpg?v=1773852753&width=800",
+  "details": "Recycled polyester swim shorts with an adjustable waist.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [],
+  "text": "Tailored Swim Shorts — Navy"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ASKET",
+  "id": "asket-w-cardigan",
+  "name": "The Wool Cardigan — Charcoal",
+  "gender": "women",
+  "kind": "warm-knit",
+  "price": 330,
+  "currency": "CAD",
+  "productUrl": "https://www.asket.com/en-ca/womens-wool-cardigan-charcoal-melange",
+  "imageUrl": "https://images.asket.com/pim-images/1781698899-asket_ywc-ws-clm_slideshow_1.jpg",
+  "details": "Structured wool-blend cardigan with a relaxed fit.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "polished"
+  ],
+  "text": "The Wool Cardigan — Charcoal"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-w-475649",
+  "name": "Premium Linen Skipper Collar Shirt",
+  "gender": "women",
+  "kind": "linen-shirt",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E475649-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/475649/item/cagoods_00_475649_3x4.jpg?width=600",
+  "details": "100% European linen with an open skipper collar.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "text": "Premium Linen Skipper Collar Shirt"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-w-491380",
+  "name": "Oxford Boxy Long Sleeve Shirt",
+  "gender": "women",
+  "kind": "shirt",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491380-000/00?colorDisplayCode=65",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491380/item/cagoods_65_491380_3x4.jpg?width=600",
+  "details": "Boxy oxford cotton that layers easily over a tee.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "text": "Oxford Boxy Long Sleeve Shirt"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-w-487959",
+  "name": "Smart Easy Pants",
+  "gender": "women",
+  "kind": "trousers",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487959-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487959/item/cagoods_09_487959_3x4.jpg?width=600",
+  "details": "Elastic-waist trousers with a smart, tailored look.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ],
+  "text": "Smart Easy Pants"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-w-487185",
+  "name": "Warm Lined Pants",
+  "gender": "women",
+  "kind": "warm-trousers",
+  "price": 69.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487185-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487185/item/cagoods_09_487185_3x4.jpg?width=600",
+  "details": "Lined for colder days without extra bulk.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated",
+   "relaxed"
+  ],
+  "text": "Warm Lined Pants"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-w-469410",
+  "name": "Merino Crew Neck Sweater",
+  "gender": "women",
+  "kind": "knit",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E469410-000/00?colorDisplayCode=55",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/469410/item/cagoods_55_469410_3x4.jpg?width=600",
+  "details": "Fine merino wool; packs flat and resists odour.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "green"
+  ],
+  "styles": [
+   "understated",
+   "polished"
+  ],
+  "text": "Merino Crew Neck Sweater"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-w-465734",
+  "name": "Cashmere Crew Neck Sweater",
+  "gender": "women",
+  "kind": "warm-knit",
+  "price": 129.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E465734-000/00?colorDisplayCode=99",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/465734/item/cagoods_99_465734_3x4.jpg?width=600",
+  "details": "100% cashmere for real warmth at a light weight.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ],
+  "text": "Cashmere Crew Neck Sweater"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-w-478579",
+  "name": "Seamless Down Long Coat",
+  "gender": "women",
+  "kind": "coat",
+  "price": 249.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E478579-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/478579/item/cagoods_09_478579_3x4.jpg?width=600",
+  "details": "Down-filled long coat with sealed, seamless quilting.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated",
+   "polished"
+  ],
+  "text": "Seamless Down Long Coat"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-u-481610",
+  "name": "Round Mini Shoulder Bag",
+  "gender": "unisex",
+  "kind": "bag",
+  "price": 24.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E481610-000/00?colorDisplayCode=58",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/481610/item/goods_58_481610_3x4.jpg?width=600",
+  "details": "The cult crossbody: compact, water-repellent nylon.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "green"
+  ],
+  "styles": [
+   "understated",
+   "relaxed",
+   "statement"
+  ],
+  "text": "Round Mini Shoulder Bag"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-u-488858",
+  "name": "Utility Backpack",
+  "gender": "unisex",
+  "kind": "daypack",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488858-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/488858/item/goods_09_488858_3x4.jpg?width=600",
+  "details": "Everyday daypack with organised pockets.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "Utility Backpack"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-455957",
+  "name": "Premium Linen Shirt",
+  "gender": "men",
+  "kind": "linen-shirt",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E455957-000/00?colorDisplayCode=34",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/455957/item/cagoods_34_455957_3x4.jpg?width=600",
+  "details": "100% European linen in a relaxed regular fit.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "sand",
+   "brown"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "text": "Premium Linen Shirt"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-470086",
+  "name": "Super Non Iron Stretch Slim Fit Shirt",
+  "gender": "men",
+  "kind": "shirt",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E470086-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/470086/item/goods_01_470086_3x4.jpg?width=600",
+  "details": "Non-iron stretch cotton that comes out of a suitcase smooth.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ],
+  "text": "Super Non Iron Stretch Slim Fit Shirt"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-487214",
+  "name": "Barrel Chino Pants",
+  "gender": "men",
+  "kind": "trousers",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487214-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487214/item/cagoods_09_487214_3x4.jpg?width=600",
+  "details": "A relaxed barrel leg in sturdy cotton twill.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
+  ],
+  "text": "Barrel Chino Pants"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-482920",
+  "name": "Linen Blend Relaxed Pants",
+  "gender": "men",
+  "kind": "light-trousers",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482920-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482920/item/cagoods_69_482920_3x4.jpg?width=600",
+  "details": "Breathable linen blend with an easy drawstring waist.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "text": "Linen Blend Relaxed Pants"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-487261",
+  "name": "Warm Lined Pants",
+  "gender": "men",
+  "kind": "warm-trousers",
+  "price": 69.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487261-000/00?colorDisplayCode=36",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487261/item/cagoods_36_487261_3x4.jpg?width=600",
+  "details": "Lined trousers for cold-weather city days.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "Warm Lined Pants"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-450535",
+  "name": "Merino Crew Neck Sweater",
+  "gender": "men",
+  "kind": "knit",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E450535-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/450535/item/cagoods_69_450535_3x4.jpg?width=600",
+  "details": "Fine merino wool; layers under a coat or over a shirt.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "understated",
+   "polished"
+  ],
+  "text": "Merino Crew Neck Sweater"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-450543",
+  "name": "Cashmere Crew Neck Sweater",
+  "gender": "men",
+  "kind": "warm-knit",
+  "price": 129.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E450543-000/00?colorDisplayCode=76",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/450543/item/cagoods_76_450543_3x4.jpg?width=600",
+  "details": "100% cashmere crew neck.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ],
+  "text": "Cashmere Crew Neck Sweater"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-478280",
+  "name": "Seamless Down Coat",
+  "gender": "men",
+  "kind": "coat",
+  "price": 249.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E478280-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/478280/item/cagoods_07_478280_3x4.jpg?width=600",
+  "details": "Down-filled with seamless, wind-resistant construction.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "Seamless Down Coat"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-482299",
+  "name": "DRY-EX T-Shirt",
+  "gender": "men",
+  "kind": "active-top",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482299-000/00?colorDisplayCode=56",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482299/item/cagoods_56_482299_3x4.jpg?width=600",
+  "details": "Quick-drying, moisture-wicking performance tee.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "green"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "DRY-EX T-Shirt"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "UNIQLO",
+  "id": "uniqlo-m-485744",
+  "name": "Extra Stretch Active Jogger Pants",
+  "gender": "men",
+  "kind": "active-bottoms",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485744-000/00?colorDisplayCode=68",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485744/item/cagoods_68_485744_3x4.jpg?width=600",
+  "details": "Four-way stretch joggers for movement-heavy days.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated",
+   "relaxed"
+  ],
+  "text": "Extra Stretch Active Jogger Pants"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-w-00340151",
+  "name": "Knotted Linen Shirt — Light blue",
+  "gender": "women",
+  "kind": "linen-shirt",
+  "price": 45.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/knotted-linen-shirt-p00340151.html",
+  "imageUrl": "https://static.zara.net/assets/public/9171/5181/afc74ca09792/0be54922673d/00340151406-p/00340151406-p.jpg?w=900",
+  "details": "Linen shirt with a knotted front hem.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
+  ],
+  "text": "Knotted Linen Shirt — Light blue"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-w-08372248",
+  "name": "Barrel Pants — Khaki",
+  "gender": "women",
+  "kind": "trousers",
+  "price": 55.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/barrel-pants-p08372248.html",
+  "imageUrl": "https://static.zara.net/assets/public/7ebe/5499/3056497d870b/8a763405d3de/08372248756-a1/08372248756-a1.jpg?w=900",
+  "details": "Curved barrel leg; dress up or down.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "green",
+   "sand"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
+  ],
+  "text": "Barrel Pants — Khaki"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-w-02745319",
+  "name": "Wool-Blend Belted Long Coat — Black",
+  "gender": "women",
+  "kind": "coat",
+  "price": 219,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/long-wool-belted-coat-p02745319.html",
+  "imageUrl": "https://static.zara.net/assets/public/9ce1/29e2/2b1e4f4293c6/5858d45169cd/02745319800-p/02745319800-p.jpg?w=900",
+  "details": "Long belted wool-blend coat.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ],
+  "text": "Wool-Blend Belted Long Coat — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-w-08851172",
+  "name": "Basic Knit Sweater — Navy",
+  "gender": "women",
+  "kind": "knit",
+  "price": 45.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/basic-knit-sweater-p08851172.html",
+  "imageUrl": "https://static.zara.net/assets/public/2923/0692/9c214abd98e0/ba93307de791/08851172401-p/08851172401-p.jpg?w=900",
+  "details": "A simple knit layer for cool evenings.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "understated",
+   "polished"
+  ],
+  "text": "Basic Knit Sweater — Navy"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-w-02142283",
+  "name": "Soft Knit Sweater — Grey marl",
+  "gender": "women",
+  "kind": "warm-knit",
+  "price": 79.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/soft-knit-sweater-p02142283.html",
+  "imageUrl": "https://static.zara.net/assets/public/5f32/081a/3da34f0db9df/96bb36dab273/02142283803-p/02142283803-p.jpg?w=900",
+  "details": "Soft, chunky knit for cold days.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "text": "Soft Knit Sweater — Grey marl"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-m-01957102",
+  "name": "100% Linen Regular Fit Shirt — White",
+  "gender": "men",
+  "kind": "linen-shirt",
+  "price": 69.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/100-linen-regular-fit-shirt-p01957102.html",
+  "imageUrl": "https://static.zara.net/assets/public/5342/19c0/54ae486cb04b/537bc1a14d1d/01957102250-p/01957102250-p.jpg?w=900",
+  "details": "Pure linen in a regular fit.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "polished",
+   "understated",
+   "relaxed"
+  ],
+  "text": "100% Linen Regular Fit Shirt — White"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-m-00975785",
+  "name": "Cotton-Linen Regular Fit Shirt — White",
+  "gender": "men",
+  "kind": "shirt",
+  "price": 69.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/cotton-linen-regular-fit-shirt-p00975785.html",
+  "imageUrl": "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?w=900",
+  "details": "Cotton-linen blend that breathes from day to dinner.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ],
+  "text": "Cotton-Linen Regular Fit Shirt — White"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-m-01063442",
+  "name": "Straight Fit Chino Pants — Light khaki",
+  "gender": "men",
+  "kind": "trousers",
+  "price": 79.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/straight-fit-chino-pants-p01063442.html",
+  "imageUrl": "https://static.zara.net/assets/public/7a54/9f34/a7a9446da6a9/89471ac75619/01063442506-p/01063442506-p.jpg?w=900",
+  "details": "Classic straight chino.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "sand",
+   "green"
+  ],
+  "styles": [
+   "understated",
+   "polished"
+  ],
+  "text": "Straight Fit Chino Pants — Light khaki"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-m-04592381",
+  "name": "100% Wool Suit Pants — Black",
+  "gender": "men",
+  "kind": "warm-trousers",
+  "price": 99.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/100-wool-suit-pants-p04592381.html",
+  "imageUrl": "https://static.zara.net/assets/public/3cf5/4743/b5cd478ea12f/191ce057fb63/04592381800-p/04592381800-p.jpg?w=900",
+  "details": "Pure wool trousers for cold-weather dinners.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished"
+  ],
+  "text": "100% Wool Suit Pants — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-m-08281615",
+  "name": "Wool-Blend Relaxed Fit Coat — Black",
+  "gender": "men",
+  "kind": "coat",
+  "price": 169,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/wool-blend-relaxed-fit-coat-p08281615.html",
+  "imageUrl": "https://static.zara.net/assets/public/e058/0eec/09d84cfdaacb/aab80c8989b0/08281615800-p/08281615800-p.jpg?w=900",
+  "details": "Relaxed wool-blend overcoat.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated",
+   "polished"
+  ],
+  "text": "Wool-Blend Relaxed Fit Coat — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-m-03284341",
+  "name": "Regular Fit Purl Knit Sweater — Grey marl",
+  "gender": "men",
+  "kind": "knit",
+  "price": 65.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/regular-fit-knit-sweater-p03284341.html",
+  "imageUrl": "https://static.zara.net/assets/public/3aab/dc83/77cd416cb12b/9523629e732d/03284341803-p/03284341803-p.jpg?w=900",
+  "details": "Textured purl knit layer.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "understated",
+   "relaxed"
+  ],
+  "text": "Regular Fit Purl Knit Sweater — Grey marl"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "ZARA",
+  "id": "zara-m-00304330",
+  "name": "Basic Turtleneck Jumper — Black",
+  "gender": "men",
+  "kind": "warm-knit",
+  "price": 65.9,
+  "currency": "CAD",
+  "productUrl": "https://www.zara.com/ca/en/basic-turtleneck-jumper-p00304330.html",
+  "imageUrl": "https://static.zara.net/assets/public/49d5/349c/25ae415181cc/569cf790cb54/00304330800-p/00304330800-p.jpg?w=900",
+  "details": "A neat turtleneck for layering under a coat.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ],
+  "text": "Basic Turtleneck Jumper — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "H&M",
+  "id": "hm-w-one-shoulder-swimsuit-navy",
+  "name": "Padded-Cup One-Shoulder Swimsuit — Navy blue",
+  "gender": "women",
+  "kind": "swim",
+  "price": 44.99,
+  "currency": "CAD",
+  "productUrl": "https://www2.hm.com/en_ca/productpage.1315160005.html",
+  "imageUrl": "https://image.hm.com/assets/hm/2d/e4/2de4d3ca3a140e8a5066c23febffa285ed41d7f2.jpg?imwidth=1260",
+  "details": "Fully lined, removable cup inserts, medium back coverage.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "understated",
+   "polished"
+  ],
+  "text": "Padded-Cup One-Shoulder Swimsuit — Navy blue"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "H&M",
+  "id": "hm-m-swim-shorts-blue",
+  "name": "Swim Shorts — Blue",
+  "gender": "men",
+  "kind": "swim",
+  "price": 59.99,
+  "currency": "CAD",
+  "productUrl": "https://www2.hm.com/en_ca/productpage.1339969001.html",
+  "imageUrl": "https://image.hm.com/assets/hm/d7/29/d72976fa7032bf6906e12b8e26930fe3e602cc13.jpg?imwidth=1260",
+  "details": "Knee-length nylon with mesh liner and a zip back pocket.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "text": "Swim Shorts — Blue"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "H&M",
+  "id": "hm-polarized-aviator-brown",
+  "name": "Polarized Aviator Sunglasses — Dark brown",
+  "gender": "unisex",
+  "kind": "sunglasses",
+  "price": 20.99,
+  "currency": "CAD",
+  "productUrl": "https://www2.hm.com/en_ca/productpage.1284775006.html",
+  "imageUrl": "https://image.hm.com/assets/hm/71/41/7141f653945f58c80f55ab947f77e2992e1c2219.jpg?imwidth=1260",
+  "details": "Retailer lists tinted, UV-protective, polarized lenses.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "polished",
+   "statement"
+  ],
+  "text": "Polarized Aviator Sunglasses — Dark brown"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "H&M",
+  "id": "hm-w-softmove-sports-top",
+  "name": "Sports Top with SoftMove™ — Choco mocha",
+  "gender": "women",
+  "kind": "active-top",
+  "price": 24.99,
+  "currency": "CAD",
+  "productUrl": "https://www2.hm.com/en_ca/productpage.1355688001.html",
+  "imageUrl": "https://image.hm.com/assets/hm/1c/5e/1c5ec0bd7d184a6d3338cf1cace67de565f99fae.jpg?imwidth=1260",
+  "details": "Moisture-wicking DryMove™ fabric, slim fit.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "Sports Top with SoftMove™ — Choco mocha"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "H&M",
+  "id": "hm-w-drymove-leggings-black",
+  "name": "Sports Leggings with Cool Handfeel DryMove™ — Black",
+  "gender": "women",
+  "kind": "active-bottoms",
+  "price": 44.99,
+  "currency": "CAD",
+  "productUrl": "https://www2.hm.com/en_ca/productpage.1292463001.html",
+  "imageUrl": "https://image.hm.com/assets/hm/c2/b3/c2b3d710ea28cb6ef5ef50f8aa9455bd50d2852c.jpg?imwidth=1260",
+  "details": "Cooling, moisture-wicking fabric with a wide waistband.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "Sports Leggings with Cool Handfeel DryMove™ — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "H&M",
+  "id": "hm-cotton-neck-scarf-paisley",
+  "name": "Cotton Neck Scarf — Red paisley",
+  "gender": "unisex",
+  "kind": "light-scarf",
+  "price": 19.99,
+  "currency": "CAD",
+  "productUrl": "https://www2.hm.com/en_ca/productpage.1370457002.html",
+  "imageUrl": "https://image.hm.com/assets/hm/bd/03/bd03c21e62783292fae3030e8e08c123e6755a5a.jpg?imwidth=1260",
+  "details": "Lightweight woven cotton; an easy cover-up or accent.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "red"
+  ],
+  "styles": [
+   "statement",
+   "relaxed"
+  ],
+  "text": "Cotton Neck Scarf — Red paisley"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "H&M",
+  "id": "hm-wool-blend-scarf-grey",
+  "name": "Woven Scarf — Dark grey",
+  "gender": "unisex",
+  "kind": "scarf",
+  "price": 10.99,
+  "currency": "CAD",
+  "productUrl": "https://www2.hm.com/en_ca/productpage.1243624002.html",
+  "imageUrl": "https://image.hm.com/assets/hm/7b/bc/7bbccddfbbd3a0ee50df84075664c4b869374333.jpg?imwidth=1260",
+  "details": "Soft woven blend with 12% wool; fringed ends.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "Woven Scarf — Dark grey"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Rains",
+  "id": "rains-long-jacket-black",
+  "name": "Long Jacket — Black",
+  "gender": "unisex",
+  "kind": "rain-shell",
+  "price": 140,
+  "currency": "USD",
+  "productUrl": "https://us.rains.com/products/long-jacket-female?variant=50305181024496",
+  "imageUrl": "https://us.rains.com/cdn/shop/files/rains_long_jacket_w3_black_rainwear_pack_1_288c208e-7657-4a86-b057-ab7d0b3fd404.jpg?v=1788270419&width=900",
+  "details": "Waterproof unisex rain jacket in a matte Danish design.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated",
+   "polished"
+  ],
+  "text": "Long Jacket — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "VEJA",
+  "id": "veja-campo-white-natural",
+  "name": "Campo Leather — White Natural",
+  "gender": "unisex",
+  "kind": "walking-shoes",
+  "price": 175,
+  "currency": "USD",
+  "productUrl": "https://www.veja-store.com/en_us/p/campo-leather-white-natural-CP0502429.html",
+  "imageUrl": "https://media.veja-store.com/images/t_sfcc-pdp-desktop-v2/c_limit,w_1200/v1781690726/VEJA/PACKSHOTS/CP0502429_1/CP0502429_1.jpg",
+  "details": "Clean leather sneaker that goes from sightseeing to dinner.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated",
+   "relaxed",
+   "polished"
+  ],
+  "text": "Campo Leather — White Natural"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "BIRKENSTOCK",
+  "id": "birkenstock-arizona-black",
+  "name": "Arizona Birko-Flor — Black",
+  "gender": "unisex",
+  "kind": "sandals",
+  "price": 145,
+  "currency": "CAD",
+  "productUrl": "https://www.birkenstock.com/ca/arizona-birko-flor/arizona-core-birkoflor-0-eva-u_1.html",
+  "imageUrl": "https://www.birkenstock.com/dw/image/v2/BLZD_PRD/on/demandware.static/-/Sites-master-catalog-amer/default/dwb3d5222b/51791/51791.jpg?sw=900&sh=900&sm=fit&q=75",
+  "details": "Contoured cork-latex footbed with adjustable straps.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "text": "Arizona Birko-Flor — Black"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Fjällräven",
+  "id": "fjallraven-kanken-black-oak",
+  "name": "Kånken Backpack",
+  "gender": "unisex",
+  "kind": "daypack",
+  "price": 115,
+  "currency": "CAD",
+  "productUrl": "https://www.fjallraven.com/ca/en-ca/bags-gear/kanken/kanken-bags/kanken/",
+  "imageUrl": "https://www.fjallraven.com/4a853d/globalassets/catalogs/fjallraven/f2/f235/f23510/f294/kanken_23510-294_a_main2.jpg?width=800&height=800&rmode=BoxPad&bgcolor=fff&quality=90",
+  "details": "Water-resistant Vinylon daypack; colour shown may vary on the product page.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
+  ],
+  "text": "Kånken Backpack"
+ },
+ {
+  "source": "seed-curated",
+  "brand": "Salomon",
+  "id": "salomon-x-ultra-360-gtx-m",
+  "name": "X Ultra 360 GORE-TEX",
+  "gender": "men",
+  "kind": "trail-shoes",
+  "price": 155,
+  "currency": "USD",
+  "productUrl": "https://www.salomon.com/en-us/product/x-ultra-360-gore-tex-li5205",
+  "imageUrl": "https://cdn.dam.salomon.com/2d8c0305-bca1-4001-8fe5-b2f40093437d/L47865300/PNG-2000px-max-72dpi.png?pad=0.12,0.12,0.12,0.12",
+  "details": "Waterproof hiking shoe with all-terrain grip.",
+  "checkedAt": "2026-10-22",
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "green",
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "text": "X Ultra 360 GORE-TEX"
+ }
+]

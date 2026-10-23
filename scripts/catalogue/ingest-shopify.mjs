@@ -44,7 +44,7 @@ for (const src of sources) {
       if (!variants.length || !image) continue
       const tags = Array.isArray(p.tags) ? p.tags.join(' ') : String(p.tags || '')
       const title = clean(p.title)
-      const kind = classify(title, p.product_type || '', tags)
+      const kind = classify(title, p.product_type || '')
       if (!kind) continue
       const gender = detectGender(`${title} ${p.product_type || ''} ${tags} ${p.handle}`, src.gender)
       if (!gender) continue
@@ -66,6 +66,7 @@ for (const src of sources) {
         brand: src.brand,
         id: `${slug(src.brand)}-${p.handle}`.slice(0, 90),
         name: colour && !title.toLowerCase().includes(String(colour).toLowerCase()) ? `${title} — ${colour}` : title,
+        title, type: p.product_type || '',
         gender, kind, price, currency,
         productUrl: url,
         imageUrl: img.startsWith('//') ? `https:${img}` : img,

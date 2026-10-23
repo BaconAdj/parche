@@ -43,3 +43,6 @@ next-env.d.ts
 
 # Compiled test output
 .test-build/
+
+# Catalogue feed snapshots are rebuilt weekly; only seeds and the built catalogue are committed.
+/data/raw/shopify/
