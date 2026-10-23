@@ -1,60 +1,60 @@
 # Catalogue coverage (2026-10-23)
 
-9968 products from 109 brands. Rejected: 154.
+10007 products from 112 brands. Rejected: 159.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
-| Sports bra | 8 / 14 / 18 | 0 / 1 / 0 |
+| Sports bra | 9 / 18 / 13 | 0 / 1 / 0 |
 | Bra | 69 / 54 / 35 | 0 / 3 / 1 |
-| Swimwear | 43 / 54 / 60 | 30 / 31 / 24 |
-| Underwear | 111 / 38 / 21 | 106 / 33 / 9 |
-| Socks | 152 / 81 / 19 | 138 / 65 / 21 |
-| Sleepwear | 68 / 64 / 20 | 51 / 30 / 14 |
+| Swimwear | 43 / 56 / 58 | 30 / 31 / 24 |
+| Underwear | 110 / 39 / 21 | 107 / 32 / 9 |
+| Socks | 150 / 84 / 18 | 138 / 66 / 20 |
+| Sleepwear | 69 / 64 / 19 | 51 / 30 / 14 |
 | Thermal base layer top | 15 / 3 / 4 | 12 / 2 / 4 |
 | Thermal leggings | 13 / 1 / 4 | 3 / 3 / 1 |
 | Rain jacket | 13 / 12 / 9 | 19 / 15 / 10 |
-| Warm coat | 41 / 87 / 58 | 51 / 48 / 22 |
+| Warm coat | 41 / 89 / 58 | 54 / 48 / 22 |
 | Blazer | 24 / 16 / 19 | 27 / 9 / 1 |
-| Light jacket | 115 / 74 / 67 | 105 / 72 / 67 |
-| Dress | 125 / 109 / 49 | 21 / 0 / 0 |
-| Workout top | 56 / 27 / 18 | 17 / 18 / 24 |
-| Workout leggings or shorts | 57 / 67 / 43 | 18 / 25 / 12 |
-| Linen shirt | 13 / 24 / 11 | 35 / 25 / 10 |
-| Button-up shirt | 126 / 87 / 43 | 140 / 85 / 34 |
-| Warm sweater | 101 / 192 / 32 | 97 / 184 / 43 |
-| Light knit | 172 / 163 / 71 | 153 / 145 / 57 |
-| Long-sleeve top | 139 / 50 / 34 | 124 / 56 / 15 |
-| T-shirt | 207 / 158 / 35 | 193 / 142 / 29 |
+| Light jacket | 123 / 75 / 67 | 105 / 72 / 67 |
+| Dress | 124 / 111 / 48 | 21 / 0 / 0 |
+| Workout top | 56 / 30 / 18 | 17 / 18 / 24 |
+| Workout leggings or shorts | 57 / 68 / 43 | 18 / 25 / 12 |
+| Linen shirt | 13 / 25 / 11 | 35 / 25 / 11 |
+| Button-up shirt | 126 / 88 / 43 | 140 / 85 / 34 |
+| Warm sweater | 97 / 205 / 32 | 94 / 187 / 43 |
+| Light knit | 173 / 166 / 71 | 153 / 145 / 57 |
+| Long-sleeve top | 140 / 51 / 34 | 124 / 56 / 15 |
+| T-shirt | 205 / 162 / 33 | 192 / 143 / 29 |
 | Jeans | 74 / 53 / 21 | 54 / 33 / 20 |
-| Shorts | 138 / 101 / 48 | 122 / 91 / 29 |
-| Skirt | 87 / 71 / 55 | 10 / 1 / 0 |
+| Shorts | 137 / 102 / 47 | 122 / 90 / 29 |
+| Skirt | 86 / 75 / 53 | 10 / 1 / 0 |
 | Lightweight trousers | 78 / 56 / 16 | 38 / 9 / 4 |
-| Warm trousers | 27 / 39 / 14 | 36 / 40 / 14 |
-| Everyday trousers | 216 / 108 / 58 | 185 / 95 / 48 |
+| Warm trousers | 27 / 40 / 14 | 36 / 40 / 14 |
+| Everyday trousers | 217 / 109 / 57 | 184 / 96 / 48 |
 | Hiking or trail shoes | 9 / 8 / 10 | 12 / 6 / 9 |
-| Boots | 83 / 42 / 21 | 30 / 36 / 17 |
+| Boots | 83 / 44 / 21 | 30 / 36 / 17 |
 | Sandals | 84 / 26 / 23 | 10 / 17 / 13 |
 | Evening shoes | 67 / 21 / 15 | 31 / 12 / 7 |
 | Walking sneakers | 106 / 27 / 18 | 95 / 24 / 19 |
 | Daypack | 37 / 20 / 2 | 16 / 16 / 2 |
-| Day bag | 91 / 119 / 40 | 24 / 72 / 19 |
+| Day bag | 91 / 116 / 42 | 24 / 69 / 21 |
 | Sunglasses | 43 / 37 / 21 | 40 / 32 / 14 |
 | Umbrella | 18 / 6 / 3 | 18 / 4 / 4 |
-| Sun hat or cap | 52 / 46 / 34 | 39 / 47 / 21 |
-| Beanie | 37 / 65 / 16 | 42 / 56 / 20 |
+| Sun hat or cap | 51 / 48 / 34 | 37 / 48 / 21 |
+| Beanie | 37 / 64 / 16 | 42 / 55 / 20 |
 | Gloves | 14 / 20 / 6 | 11 / 17 / 9 |
-| Warm scarf | 61 / 55 / 15 | 35 / 26 / 4 |
-| Light scarf or wrap | 21 / 27 / 4 | 4 / 3 / 2 |
+| Warm scarf | 61 / 54 / 15 | 35 / 25 / 4 |
+| Light scarf or wrap | 21 / 28 / 4 | 4 / 3 / 2 |
 | Belt | 52 / 19 / 12 | 35 / 11 / 8 |
 
 ## Brands
 
 - H&M: 325
-- Alo: 308
-- Everlane: 302
-- FRAME: 299
+- Alo: 307
+- Everlane: 306
+- FRAME: 298
 - LEMAIRE: 285
-- Faherty: 278
+- Faherty: 277
 - Bluenotes: 275
 - Woolx: 242
 - Kotn: 241
@@ -66,12 +66,12 @@
 - Brixton: 192
 - UNIQLO: 186
 - Outerknown: 181
+- Knix: 178
 - Beyond Yoga: 175
 - STAUD: 172
 - Summersalt: 171
 - Organic Basics: 166
 - Tommy John: 163
-- Knix: 162
 - Cotopaxi: 162
 - Andie: 159
 - Citizens of Humanity: 154
@@ -83,8 +83,8 @@
 - MOTHER: 120
 - Frankies Bikinis: 120
 - Onia: 116
-- Naadam: 113
 - Taylor Stitch: 113
+- Naadam: 112
 - Lunya: 109
 - Eberjey: 107
 - Topo Designs: 106
@@ -108,14 +108,14 @@
 - Rothy's: 69
 - ZARA: 62
 - ThirdLove: 60
-- Rudsak: 53
+- Rudsak: 52
 - Allbirds: 51
 - Cuyana: 51
 - Girlfriend Collective: 49
 - BY FAR: 48
 - Ten Thousand: 45
+- Margaux: 44
 - Dagne Dover: 44
-- Margaux: 43
 - Columbia: 41
 - totes: 40
 - GUESS: 37
@@ -140,6 +140,8 @@
 - Blunt: 13
 - Le Specs: 12
 - Solid & Striped: 11
+- Burberry: 11
+- Aritzia: 11
 - ASKET: 10
 - Astral: 10
 - Parade: 10
@@ -152,6 +154,7 @@
 - Victoria's Secret: 5
 - ShedRain: 4
 - Roots: 4
+- Mango: 1
 - Fjällräven: 1
 - BIRKENSTOCK: 1
 - Mackage: 1
