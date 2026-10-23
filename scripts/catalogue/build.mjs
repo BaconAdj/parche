@@ -1,4 +1,5 @@
 // Builds data/catalogue.json from every raw source and writes a coverage report.
+// Run locally: node scripts/catalogue/ingest-shopify.mjs && node scripts/catalogue/build.mjs
 // Raw sources: data/raw/shopify/*.json (brand feeds) and data/raw/seed/*.json (verified listing extractions).
 import fs from 'node:fs'
 import path from 'node:path'
