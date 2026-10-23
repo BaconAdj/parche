@@ -1,0 +1,47 @@
+[
+ {
+  "source": "seed:mango",
+  "brand": "Mango",
+  "id": "Mango-70-00",
+  "name": "Manteco wool coat with funnel neck — Red",
+  "title": "Manteco wool coat with funnel neck",
+  "type": "",
+  "gender": "women",
+  "price": 379.99,
+  "currency": "CAD",
+  "productUrl": "https://shop.mango.com/ca/en/p/women/coats/coats/manteco-wool-coat-with-funnel-neck/37017807/70/00",
+  "imageUrl": "https://media.mango.com/is/image/punto/37017807-70-004?wid=2048&hei=2867&fit=crop",
+  "text": "Manteco wool coat with funnel neck Red https://shop.mango.com/ca/en/c/women/coats/d1b967bc",
+  "checkedAt": "2026-10-23"
+ },
+ {
+  "source": "seed:mango",
+  "brand": "Mango",
+  "id": "Mango-92-00",
+  "name": "100% wool funnel-neck coat — Grey",
+  "title": "100% wool funnel-neck coat",
+  "type": "",
+  "gender": "women",
+  "price": 249.99,
+  "currency": "CAD",
+  "productUrl": "https://shop.mango.com/ca/en/p/women/coats/coats/100-wool-funnel-neck-coat/37016747/92/00",
+  "imageUrl": "https://media.mango.com/is/image/punto/37016747-92-001?wid=2048&hei=2867&fit=crop",
+  "text": "100% wool funnel-neck coat Grey https://shop.mango.com/ca/en/c/women/coats/d1b967bc",
+  "checkedAt": "2026-10-23"
+ },
+ {
+  "source": "seed:mango",
+  "brand": "Mango",
+  "id": "Mango-09-00",
+  "name": "Long bambi faux-fur coat — Medium Brown",
+  "title": "Long bambi faux-fur coat",
+  "type": "",
+  "gender": "women",
+  "price": 349.99,
+  "currency": "CAD",
+  "productUrl": "https://shop.mango.com/ca/en/p/women/coats/coats/long-bambi-faux-fur-coat/37057927/09/00",
+  "imageUrl": "https://media.mango.com/is/image/punto/37057927-09-001?wid=2048&hei=2867&fit=crop",
+  "text": "Long bambi faux-fur coat Medium Brown https://shop.mango.com/ca/en/c/women/coats/d1b967bc",
+  "checkedAt": "2026-10-23"
+ }
+]
