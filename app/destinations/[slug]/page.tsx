@@ -218,7 +218,7 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
           <div className="r-hero-copy">
             <p className="kicker">{formatTripDates(trip.start, trip.end)}</p>
             <h1 className="r-title">What to wear in <span className="r-city">{dest.name}.</span></h1>
-            <p className="r-weather">{weatherLine}{dest.country ? `. ${dest.country}` : ''}</p>
+            <p className="r-weather">{weatherLine}.</p>
             <div className="r-actions">
               <a href="#shop" className="btn btn--rouge">Shop the list</a>
               <button type="button" className="btn btn--line" aria-expanded={editingDates} onClick={() => setEditingDates(v => !v)}>Change dates</button>

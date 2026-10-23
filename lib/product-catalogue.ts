@@ -1087,7 +1087,7 @@ export const catalogue: Product[] = [
     "price": 49.9,
     "currency": "CAD",
     "productUrl": "https://www.uniqlo.com/ca/en/products/E470086-000/00?colorDisplayCode=01",
-    "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/470086/item/cagoods_01_470086_3x4.jpg?width=600",
+    "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/470086/item/goods_01_470086_3x4.jpg?width=600",
     "details": "Non-iron stretch cotton that comes out of a suitcase smooth.",
     "kinds": [
       "shirt"

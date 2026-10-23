@@ -412,3 +412,4 @@ button { font: inherit; color: inherit; }
 .dash-empty { padding: clamp(2rem, 5vw, 3.5rem); background: var(--pierre); display: flex; flex-direction: column; align-items: flex-start; gap: .75rem; max-width: 640px; }
 .dash-empty p:not(.dash-card-name) { color: var(--graphite); max-width: 46ch; }
 .seg button[aria-selected="true"] { background: var(--marine); color: var(--blanc); }
+.shop-head > div:first-child { flex: 1 1 520px; }
