@@ -7,6 +7,7 @@ import { useGSAP } from '@gsap/react'
 import Link from 'next/link'
 import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { useUser, SignInButton } from '@clerk/nextjs'
+import { ACCOUNTS_ENABLED } from '../../../lib/flags'
 import { createClient } from '../../../lib/supabase'
 import { findDestination, type Destination } from '../../../lib/destinations'
 import { TIER_LABEL, type Product, type ShopPayload, type Tier } from '../../../lib/catalogue-types'
@@ -233,7 +234,7 @@ function Looks({ edit, shop }: { edit: TravelEdit; shop: ShopState }) {
               {look.pieces.length > 0 && <ul className="look-pieces">
                 {look.pieces.map(({ kind, product }) => <li key={product.id}><a href={`/go/${product.id}?d=${encodeURIComponent(edit.destination.name)}&k=${kind}`} target="_blank" rel="noopener sponsored"><span>{product.brand}</span> {product.name}<em>{money(product)}</em></a></li>)}
               </ul>}
-              <SaveLookButton dest={edit.destination} title={look.title} desc={look.desc} photo={look.pieces[0]?.product.imageUrl || null} />
+              {ACCOUNTS_ENABLED && <SaveLookButton dest={edit.destination} title={look.title} desc={look.desc} photo={look.pieces[0]?.product.imageUrl || null} />}
             </article>
           ))}
         </div>
@@ -329,7 +330,7 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
             <div className="r-actions">
               <a href="#shop" className="btn btn--rouge">See the {edit.packingPlan.total}-piece list</a>
               <button type="button" className="btn btn--line" aria-expanded={editingDates} onClick={() => setEditingDates(v => !v)}>Change dates</button>
-              <SaveTripButton dest={dest} photo={hero?.urls.regular || null} />
+              {ACCOUNTS_ENABLED && <SaveTripButton dest={dest} photo={hero?.urls.regular || null} />}
             </div>
             {editingDates && <div className="r-dates"><TripDates key={trip.start + trip.end} start={trip.start} end={trip.end} onApply={(start, end) => { onTripChange({ start, end }); setEditingDates(false) }} /></div>}
           </div>

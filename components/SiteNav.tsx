@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useUser, SignInButton, UserButton } from '@clerk/nextjs'
+import { ACCOUNTS_ENABLED } from '../lib/flags'
 
 // Transparent over a red hero, solid white once the page scrolls (or always, with solid).
 export function SiteNav({ solid = false }: { solid?: boolean }) {
@@ -25,11 +26,11 @@ export function SiteNav({ solid = false }: { solid?: boolean }) {
         <li><Link href="/#places">Destinations</Link></li>
       </ul>
       <div className="nav-right">
-        {isLoaded && isSignedIn && <Link href="/dashboard" className="nav-text-btn hide-sm">My trips</Link>}
-        {isLoaded && !isSignedIn && (
+        {ACCOUNTS_ENABLED && isLoaded && isSignedIn && <Link href="/dashboard" className="nav-text-btn hide-sm">My trips</Link>}
+        {ACCOUNTS_ENABLED && isLoaded && !isSignedIn && (
           <SignInButton mode="modal"><button className="nav-text-btn hide-sm">Sign in</button></SignInButton>
         )}
-        {isLoaded && isSignedIn ? <UserButton /> : <Link href="/#plan" className="btn">Plan a trip</Link>}
+        {ACCOUNTS_ENABLED && isLoaded && isSignedIn ? <UserButton /> : <Link href="/#plan" className="btn">Plan a trip</Link>}
       </div>
     </nav>
   )
