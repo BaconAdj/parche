@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react'
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import Link from 'next/link'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -14,7 +14,7 @@ import { TripSearch, ALL_DESTINATIONS } from '../components/TripSearch'
 import type { Product } from '../lib/catalogue-types'
 import Counter from '../components/react-bits/Counter'
 import OrbitImages from '../components/react-bits/OrbitImages'
-import LogoLoop from '../components/react-bits/LogoLoop'
+import { BrandMarquee } from '../components/BrandMarquee'
 import { SectionBoundary } from '../components/SectionBoundary'
 
 gsap.registerPlugin(ScrollTrigger, useGSAP)
@@ -184,8 +184,6 @@ export default function Home() {
   const showcase = useShowcase()
   const [typed, setTyped] = useState('')
   const onQueryChange = useCallback((label: string) => setTyped(label), [])
-  const brandLogos = useMemo(() => (showcase?.brands || []).map(b => ({ node: <span className="brand-loop-item">{b}</span>, title: b })), [showcase])
-  const brandLogosReversed = useMemo(() => [...(showcase?.brands || [])].reverse().map(b => ({ node: <span className="brand-loop-item brand-loop-item--ghost">{b}</span>, title: b })), [showcase])
   const country = (slug: string) => ALL_DESTINATIONS.find(d => d.slug === slug)?.sublabel.split(' · ')[0] || ''
 
   return (
@@ -256,8 +254,8 @@ export default function Home() {
             <p>Big names for the basics, smaller labels for the pieces worth investing in. Links go straight to each brand&apos;s product page.</p>
           </div>
           <SectionBoundary name="brand-loops">
-          <LogoLoop logos={brandLogos} speed={50} gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover scaleOnHover scrollBoost={2} ariaLabel="Brands in the catalogue" />
-          <LogoLoop logos={brandLogosReversed} speed={40} direction="right" gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover ariaLabel="More brands in the catalogue" />
+          <BrandMarquee brands={showcase.brands} label="Brands in the catalogue" />
+          <BrandMarquee brands={[...showcase.brands].reverse()} reverse ghost label="More brands in the catalogue" />
           </SectionBoundary>
         </section>}
       </main>

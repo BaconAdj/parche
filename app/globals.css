@@ -497,3 +497,14 @@ button { font: inherit; color: inherit; }
 .brand-loop-item { font-family: var(--serif); font-size: 2.2rem; white-space: nowrap; }
 .brand-loop-item--ghost { color: transparent; -webkit-text-stroke: 1px rgba(255,255,255,.55); }
 @media (prefers-reduced-motion: reduce) { .shop-skeleton span { animation: none; } }
+
+/* Brand marquee (replaces LogoLoop, which could re-render forever) */
+.marquee { overflow: hidden; padding: .9rem 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+.marquee-track { display: flex; width: max-content; animation: marquee linear infinite; }
+.marquee--rev .marquee-track { animation-direction: reverse; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+.marquee-list { display: flex; gap: 3.5rem; padding-right: 3.5rem; list-style: none; margin: 0; }
+.marquee .brand-loop-item { transition: color .2s, transform .2s; }
+.marquee .brand-loop-item:hover { color: var(--rouge); transform: scale(1.06); }
+@keyframes marquee { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
