@@ -15,6 +15,7 @@ import type { Product } from '../lib/catalogue-types'
 import Counter from '../components/react-bits/Counter'
 import OrbitImages from '../components/react-bits/OrbitImages'
 import LogoLoop from '../components/react-bits/LogoLoop'
+import { SectionBoundary } from '../components/SectionBoundary'
 
 gsap.registerPlugin(ScrollTrigger, useGSAP)
 
@@ -192,8 +193,10 @@ export default function Home() {
         <section id="plan" className="hero rouge-field" aria-labelledby="hero-title">
           <div className="hero-emblem" aria-hidden><span className="emblem" /></div>
           <h1 id="hero-title" className="hero-title">
-            <SplitText text="Dress for" tag="span" className="line" splitType="chars" effect="rise" mask trigger="load" delay={35} duration={1.1} textAlign="left" />
-            <HeroCity typed={typed} />
+            <SectionBoundary name="hero-split" fallback={<span className="line">Dress for</span>}>
+              <SplitText text="Dress for" tag="span" className="line" splitType="chars" effect="rise" mask trigger="load" delay={35} duration={1.1} textAlign="left" />
+            </SectionBoundary>
+            <SectionBoundary name="hero-city" fallback={<span className="hero-city">where you&apos;re going.</span>}><HeroCity typed={typed} /></SectionBoundary>
           </h1>
           <div className="hero-foot">
             <TripSearch onQueryChange={onQueryChange} />
@@ -201,8 +204,8 @@ export default function Home() {
           </div>
         </section>
 
-        <ExampleEdit />
-        {showcase && <PackingRun items={showcase.items} />}
+        <SectionBoundary name="example-edit"><ExampleEdit /></SectionBoundary>
+        {showcase && <SectionBoundary name="packing-run"><PackingRun items={showcase.items} /></SectionBoundary>}
 
         <section id="how" className="steps" aria-labelledby="how-title">
           <div className="wrap">
@@ -223,9 +226,11 @@ export default function Home() {
                 <p className="kicker">Destinations</p>
                 <h2 id="places-title" className="h2">Where to next?</h2>
               </div>
-              <Magnet padding={60} magnetStrength={4}>
-                <Link href="/#plan" className="btn btn--rouge">Plan your own trip</Link>
-              </Magnet>
+              <SectionBoundary name="magnet" fallback={<Link href="/#plan" className="btn btn--rouge">Plan your own trip</Link>}>
+                <Magnet padding={60} magnetStrength={4}>
+                  <Link href="/#plan" className="btn btn--rouge">Plan your own trip</Link>
+                </Magnet>
+              </SectionBoundary>
             </div>
             <div className="places-grid">
               {PLACES.map(p => (
@@ -241,15 +246,17 @@ export default function Home() {
           </div>
         </section>
 
-        {showcase && <CatalogueOrbit data={showcase} />}
+        {showcase && <SectionBoundary name="catalogue-orbit"><CatalogueOrbit data={showcase} /></SectionBoundary>}
 
         {showcase && <section className="brands" aria-labelledby="brands-title">
           <div className="wrap brands-copy">
             <h2 id="brands-title" className="kicker">Pieces from</h2>
             <p>Big names for the basics, smaller labels for the pieces worth investing in. Links go straight to each brand&apos;s product page.</p>
           </div>
+          <SectionBoundary name="brand-loops">
           <LogoLoop logos={showcase.brands.map(b => ({ node: <span className="brand-loop-item">{b}</span>, title: b }))} speed={50} gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover scaleOnHover scrollBoost={2} ariaLabel="Brands in the catalogue" />
           <LogoLoop logos={[...showcase.brands].reverse().map(b => ({ node: <span className="brand-loop-item brand-loop-item--ghost">{b}</span>, title: b }))} speed={40} direction="right" gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover ariaLabel="More brands in the catalogue" />
+          </SectionBoundary>
         </section>}
       </main>
       <SiteFooter />
