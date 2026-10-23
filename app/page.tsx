@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react'
 import Link from 'next/link'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -184,6 +184,8 @@ export default function Home() {
   const showcase = useShowcase()
   const [typed, setTyped] = useState('')
   const onQueryChange = useCallback((label: string) => setTyped(label), [])
+  const brandLogos = useMemo(() => (showcase?.brands || []).map(b => ({ node: <span className="brand-loop-item">{b}</span>, title: b })), [showcase])
+  const brandLogosReversed = useMemo(() => [...(showcase?.brands || [])].reverse().map(b => ({ node: <span className="brand-loop-item brand-loop-item--ghost">{b}</span>, title: b })), [showcase])
   const country = (slug: string) => ALL_DESTINATIONS.find(d => d.slug === slug)?.sublabel.split(' · ')[0] || ''
 
   return (
@@ -254,8 +256,8 @@ export default function Home() {
             <p>Big names for the basics, smaller labels for the pieces worth investing in. Links go straight to each brand&apos;s product page.</p>
           </div>
           <SectionBoundary name="brand-loops">
-          <LogoLoop logos={showcase.brands.map(b => ({ node: <span className="brand-loop-item">{b}</span>, title: b }))} speed={50} gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover scaleOnHover scrollBoost={2} ariaLabel="Brands in the catalogue" />
-          <LogoLoop logos={[...showcase.brands].reverse().map(b => ({ node: <span className="brand-loop-item brand-loop-item--ghost">{b}</span>, title: b }))} speed={40} direction="right" gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover ariaLabel="More brands in the catalogue" />
+          <LogoLoop logos={brandLogos} speed={50} gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover scaleOnHover scrollBoost={2} ariaLabel="Brands in the catalogue" />
+          <LogoLoop logos={brandLogosReversed} speed={40} direction="right" gap={56} logoHeight={44} fadeOut fadeOutColor="#14213D" pauseOnHover ariaLabel="More brands in the catalogue" />
           </SectionBoundary>
         </section>}
       </main>

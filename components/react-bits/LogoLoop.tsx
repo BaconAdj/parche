@@ -142,6 +142,7 @@ interface Move {
 }
 
 interface EngineState {
+  settledPrimary?: boolean;
   offset: number;
   velocity: number;
   period: number;
@@ -450,8 +451,11 @@ const createEngine = (
     root.style.setProperty('--logoloop-pad', `${Math.ceil(pad)}px`);
     root.style.perspective = geo.tilted ? `${geo.persp}px` : '';
     track.style.transformOrigin = geo.tilted ? (cfg.vertical ? `50% ${L / 2}px` : `${L / 2}px 50%`) : '';
-    if (copies !== st.layout.copies || primary !== st.layout.primary) {
-      st.layout = { copies, primary };
+    // parché fix: only ever grow the copy count. Re-measuring after a layout change could flip it back
+    // and forth between two values, which re-rendered forever (React error #185) and crashed the homepage.
+    if (copies > st.layout.copies || (copies === st.layout.copies && primary !== st.layout.primary && !st.settledPrimary)) {
+      if (copies === st.layout.copies) st.settledPrimary = true
+      st.layout = { copies: Math.max(copies, st.layout.copies), primary };
       setLayout(st.layout);
     }
   };
