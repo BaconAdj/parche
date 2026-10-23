@@ -30,7 +30,7 @@ export function SiteNav({ solid = false }: { solid?: boolean }) {
         {ACCOUNTS_ENABLED && isLoaded && !isSignedIn && (
           <SignInButton mode="modal"><button className="nav-text-btn hide-sm">Sign in</button></SignInButton>
         )}
-        {ACCOUNTS_ENABLED && isLoaded && isSignedIn ? <UserButton /> : <Link href="/#plan" className="btn">Plan a trip</Link>}
+        {ACCOUNTS_ENABLED && isLoaded && isSignedIn && <UserButton />}
       </div>
     </nav>
   )

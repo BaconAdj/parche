@@ -1,4 +1,3 @@
-import Link from 'next/link'
 
 export function SiteFooter({ photoCredit = false }: { photoCredit?: boolean }) {
   return (
@@ -15,7 +14,6 @@ export function SiteFooter({ photoCredit = false }: { photoCredit?: boolean }) {
         <div className="footer-bottom">
           <p>© {new Date().getFullYear()} parché. Shop links go to each retailer&apos;s own product page; parché may earn a commission on some purchases.</p>
           <p>
-            <Link href="/#plan">Plan a trip</Link>
             {photoCredit && <> &nbsp; Photos: <a href="https://unsplash.com?utm_source=parche&utm_medium=referral" target="_blank" rel="noopener noreferrer">Unsplash</a></>}
             &nbsp; Weather: <a href="https://www.visualcrossing.com/" target="_blank" rel="noopener noreferrer">Visual Crossing</a>
           </p>
