@@ -1,0 +1,344 @@
+{
+ "_comment": "Brand stores with public Shopify feeds. gender = fallback when a product doesn't say. Add a store, push, and the weekly workflow picks it up.",
+ "shopify": [
+  {
+   "brand": "Kotn",
+   "domain": "kotn.com"
+  },
+  {
+   "brand": "Frank And Oak",
+   "domain": "frankandoak.com"
+  },
+  {
+   "brand": "tentree",
+   "domain": "tentree.ca"
+  },
+  {
+   "brand": "Moose Knuckles",
+   "domain": "www.mooseknucklescanada.com"
+  },
+  {
+   "brand": "Canada Goose",
+   "domain": "www.canadagoose.com",
+   "prefix": "/en-ca"
+  },
+  {
+   "brand": "SAXX",
+   "domain": "www.saxxunderwear.com",
+   "gender": "men"
+  },
+  {
+   "brand": "Knix",
+   "domain": "knix.ca",
+   "gender": "women"
+  },
+  {
+   "brand": "Stance",
+   "domain": "www.stance.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Allbirds",
+   "domain": "www.allbirds.ca"
+  },
+  {
+   "brand": "Herschel",
+   "domain": "herschel.ca",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Rains",
+   "domain": "us.rains.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Quay",
+   "domain": "www.quayaustralia.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Davek",
+   "domain": "davekny.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Sunspel",
+   "domain": "us.sunspel.com"
+  },
+  {
+   "brand": "Organic Basics",
+   "domain": "us.organicbasics.com"
+  },
+  {
+   "brand": "Reigning Champ",
+   "domain": "reigningchamp.com"
+  },
+  {
+   "brand": "Faherty",
+   "domain": "fahertybrand.com"
+  },
+  {
+   "brand": "Outerknown",
+   "domain": "www.outerknown.com"
+  },
+  {
+   "brand": "Tommy John",
+   "domain": "tommyjohn.com"
+  },
+  {
+   "brand": "DUER",
+   "domain": "shopduer.com"
+  },
+  {
+   "brand": "Le Specs",
+   "domain": "lespecs.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Mack Weldon",
+   "domain": "www.mackweldon.com",
+   "gender": "men"
+  },
+  {
+   "brand": "Taylor Stitch",
+   "domain": "www.taylorstitch.com",
+   "gender": "men"
+  },
+  {
+   "brand": "Everlane",
+   "domain": "www.everlane.com"
+  },
+  {
+   "brand": "Cuyana",
+   "domain": "www.cuyana.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Blundstone",
+   "domain": "www.blundstone.ca",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Vessi",
+   "domain": "www.vessi.com"
+  },
+  {
+   "brand": "Naadam",
+   "domain": "www.naadam.co"
+  },
+  {
+   "brand": "Girlfriend Collective",
+   "domain": "www.girlfriend.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Mackage",
+   "domain": "www.mackage.com"
+  },
+  {
+   "brand": "Rudsak",
+   "domain": "www.rudsak.com"
+  },
+  {
+   "brand": "KREWE",
+   "domain": "krewe.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Blunt",
+   "domain": "bluntumbrellas.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "STAUD",
+   "domain": "staud.clothing",
+   "gender": "women"
+  },
+  {
+   "brand": "Rouje",
+   "domain": "www.rouje.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Faithfull the Brand",
+   "domain": "faithfullthebrand.com",
+   "gender": "women"
+  },
+  {
+   "brand": "FRAME",
+   "domain": "frame-store.com"
+  },
+  {
+   "brand": "AGOLDE",
+   "domain": "agolde.com",
+   "gender": "women"
+  },
+  {
+   "brand": "MOTHER",
+   "domain": "www.motherdenim.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Koio",
+   "domain": "www.koio.co"
+  },
+  {
+   "brand": "Rothy's",
+   "domain": "rothys.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Larroudé",
+   "domain": "www.larroude.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Margaux",
+   "domain": "www.margauxny.com",
+   "gender": "women"
+  },
+  {
+   "brand": "CDLP",
+   "domain": "www.cdlp.com"
+  },
+  {
+   "brand": "Thousand Fell",
+   "domain": "www.thousandfell.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Sunski",
+   "domain": "www.sunski.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "goodr",
+   "domain": "goodr.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Knockaround",
+   "domain": "www.knockaround.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Parker Clay",
+   "domain": "www.parkerclay.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Dagne Dover",
+   "domain": "www.dagnedover.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Lack of Color",
+   "domain": "www.lackofcolor.com",
+   "gender": "unisex"
+  },
+  {
+   "brand": "Brixton",
+   "domain": "www.brixton.com"
+  },
+  {
+   "brand": "Ten Thousand",
+   "domain": "www.tenthousand.cc",
+   "gender": "men"
+  },
+  {
+   "brand": "Alo",
+   "domain": "www.aloyoga.com"
+  },
+  {
+   "brand": "Outdoor Voices",
+   "domain": "www.outdoorvoices.com"
+  },
+  {
+   "brand": "Beyond Yoga",
+   "domain": "www.beyondyoga.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Solid & Striped",
+   "domain": "www.solidandstriped.com"
+  },
+  {
+   "brand": "Frankies Bikinis",
+   "domain": "www.frankiesbikinis.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Onia",
+   "domain": "www.onia.com",
+   "gender": "men"
+  },
+  {
+   "brand": "Summersalt",
+   "domain": "www.summersalt.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Andie",
+   "domain": "www.andieswim.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Lunya",
+   "domain": "www.lunya.co",
+   "gender": "women"
+  },
+  {
+   "brand": "Eberjey",
+   "domain": "www.eberjey.com",
+   "gender": "women"
+  },
+  {
+   "brand": "ThirdLove",
+   "domain": "www.thirdlove.com",
+   "gender": "women"
+  },
+  {
+   "brand": "SKIMS",
+   "domain": "www.skims.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Pajar",
+   "domain": "www.pajar.com"
+  },
+  {
+   "brand": "Kamik",
+   "domain": "www.kamik.com"
+  },
+  {
+   "brand": "BY FAR",
+   "domain": "www.byfar.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Lisa Says Gah",
+   "domain": "www.lisasaysgah.com",
+   "gender": "women"
+  },
+  {
+   "brand": "Citizens of Humanity",
+   "domain": "www.citizensofhumanity.com"
+  },
+  {
+   "brand": "LEMAIRE",
+   "domain": "www.lemaire.fr"
+  },
+  {
+   "brand": "Kit and Ace",
+   "domain": "www.kitandace.com"
+  },
+  {
+   "brand": "Oak + Fort",
+   "domain": "www.oakandfort.com"
+  },
+  {
+   "brand": "Bluenotes",
+   "domain": "www.bluenotes.com"
+  }
+ ]
+}
