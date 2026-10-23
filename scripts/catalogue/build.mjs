@@ -15,8 +15,10 @@ const PAIRING = {
   'zara': (u, i) => { const m = u.match(/-p(\d{8})\.html/); return !!m && i.includes(m[1]) },
   'massimo dutti': (u, i) => { const m = u.match(/-l(\d{8})/); return !!m && i.includes(m[1].slice(0, 8)) },
   'uniqlo': (u, i) => { const m = u.match(/E(\d{6})-/); return !!m && i.includes(m[1]) },
-  'mango': (u, i) => { const m = u.match(/_(\d{8})/); return !!m && i.includes(m[1]) },
+  'mango': (u, i) => { const m = u.match(/\/(\d{8})\//); return !!m && i.includes(m[1]) },
   'nike': (u, i) => { const m = u.match(/\/t\/([^/]+)\//); return !!m && i.toLowerCase().includes(m[1].toLowerCase().split('-').slice(0, 2).join('-')) },
+  // Aritzia tiles lazy-load: the photo must carry both the style number and the colour code of its link.
+  'aritzia': (u, i) => { const m = u.match(/\/(\d{5,6})\.html\?color=(\d+)/); return !!m && i.includes(`_${m[1]}_${m[2]}_`) },
   'adidas': (u, i) => { const m = u.match(/\/([A-Z0-9]{6})\.html/i); return !!m && i.toUpperCase().includes(m[1].toUpperCase()) },
 }
 

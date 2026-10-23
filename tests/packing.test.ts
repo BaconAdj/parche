@@ -116,3 +116,13 @@ test('every product pairs an https product page with its own https image', () =>
   }
   assert.ok(catalogue.length >= 1500)
 })
+
+test('unknown weather still offers every listed piece at three price points', () => {
+  for (const wear of ['women', 'men'] as const) {
+    const plan = buildPackingPlan({ ...trip, destination: 'Lisbon, Portugal', wear }, unavailableWeather('Lisbon'))
+    for (const need of plan.needs.filter(n => !n.optional)) {
+      const tiers = optionsForNeed(catalogue, need.id, wear, plan, '', 'seed')
+      assert.ok(tiers.reduce((s, x) => s + x.products.length, 0) >= 3, `${wear} ${need.id} has too few options without weather`)
+    }
+  }
+})

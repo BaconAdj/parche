@@ -41,7 +41,8 @@ export function optionsForNeed(products: Product[], kind: PackingKind, wear: Wea
     p.colours.filter(c => plan.palette.includes(c)).length * 2 +
     (wear !== 'unisex' && p.gender === wear ? 1 : 0) + (wear === 'unisex' && p.gender === 'unisex' ? 2 : 0) +
     (hash(seed + p.id) % 1000) / 1000
-  const matched = products.filter(p => p.kinds[0] === kind && fitsWear(p, wear) && p.climates.includes(plan.climate))
+  const matched = products.filter(p => p.kinds[0] === kind && fitsWear(p, wear) && (plan.climate === 'unknown' || p.climates.includes(plan.climate)))
+  // Unknown weather never narrows the shop: the packing plan has already chosen which pieces apply.
   const ranked = new Map(matched.map(p => [p.id, score(p)]))
   const bucket: Record<Tier, Product[]> = { 'High-end': [], Quality: [], Budget: [] }
   for (const p of matched) bucket[p.tier].push(p)

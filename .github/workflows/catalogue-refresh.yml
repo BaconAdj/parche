@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['scripts/catalogue/**', 'data/kinds.json']
+    paths: ['scripts/catalogue/**', 'data/kinds.json', 'data/raw/seed/**']
 permissions:
   contents: write
 concurrency: { group: catalogue, cancel-in-progress: false }
