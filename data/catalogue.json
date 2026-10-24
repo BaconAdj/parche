@@ -28,35 +28,6 @@
   ]
  },
  {
-  "id": "alo-m5142r-conquer-react-performance-pant-navy",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Conquer React Performance Pant - Navy",
-  "price": 89,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m5142r-conquer-react-performance-pant-navy?variant=43766299984052",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M5142R_03842_b1_s1_a1_1_m214.jpg?v=1736372008",
-  "details": "With the Conquer React Performance Pant, the grind never stops.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "active-bottoms"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "navy",
-   "blue"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-m6131r-7-conquer-react-performance-short-burgundy",
   "gender": "men",
   "tier": "Quality",
@@ -209,7 +180,7 @@
   "name": "5\" Traction Running Short - Lunar Grey",
   "price": 88,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m6169r-5-traction-running-short-lunar-grey?variant=50661473845607",
+  "productUrl": "https://www.aloyoga.com/products/m6169r-5-traction-running-short-lunar-grey?variant=50661473911143",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M6174R_06461_b1_s1_a1_m221.jpg?v=1756231920",
   "details": "The 5” Traction Running Short was designed to keep up.",
   "checkedAt": "2026-10-24",
@@ -257,6 +228,34 @@
   "styles": [
    "relaxed",
    "understated"
+  ]
+ },
+ {
+  "id": "alo-m6171r-7-sports-club-sweater-knit-short-espresso",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "7\" Sports Club Sweater Knit Short - Espresso",
+  "price": 168,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m6171r-7-sports-club-sweater-knit-short-espresso",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M6171R_04064_b1_s1_a1_dSU26_m245.jpg?v=1782901551",
+  "details": "The country club called—looks like a reservation just opened up.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "active-bottoms"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "relaxed"
   ]
  },
  {
@@ -402,16 +401,16 @@
   ]
  },
  {
-  "id": "alo-w5473r-high-waist-airbrush-legging-burgundy-truffle",
+  "id": "alo-w54309r-airbrush-high-waist-7-8-better-together-legging-",
   "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "High-Waist Airbrush Legging - Burgundy Truffle",
-  "price": 82,
+  "name": "Airbrush High-Waist 7/8 Better Together Legging - Bluestone/White",
+  "price": 134,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w5473r-high-waist-airbrush-legging-burgundy-truffle",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W5473R_05815_b1_s1_a1_m18.jpg?v=1730953168",
-  "details": "Meet the legging that deserves a place in your rotation.",
+  "productUrl": "https://www.aloyoga.com/products/w54309r-airbrush-high-waist-7-8-better-together-legging-bluestone-white?variant=50661512020327",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54309R_06514_b2_s1_a1_m255.jpg?v=1759986436",
+  "details": "The Airbrush Better Together Legging gives the illusion of layers, without actually needing to wear more than one piece.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "active-bottoms"
@@ -423,11 +422,11 @@
    "unknown"
   ],
   "colours": [
-   "red",
-   "burgundy"
+   "white",
+   "blue"
   ],
   "styles": [
-   "statement"
+   "understated"
   ]
  },
  {
@@ -6916,6 +6915,34 @@
   ]
  },
  {
+  "id": "alo-w2785r-cropped-sport-star-tank-white",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Cropped Sport Star Tank - White",
+  "price": 58,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w2785r-cropped-sport-star-tank-white?variant=50661339726183",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2785R_00_b1_s1_a1_m241.jpg?v=1745987005",
+  "details": "It’s giving sporty chic.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "active-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "alo-w2792r-tennis-club-sweater-knit-tank-black-ivory",
   "gender": "women",
   "tier": "High-end",
@@ -7677,58 +7704,6 @@
   "colours": [],
   "styles": [
    "relaxed"
-  ]
- },
- {
-  "id": "duer-womens-performance-flannel-button-down-heather-black",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "DUER",
-  "name": "Performance Flannel Button Down - Heather Black",
-  "price": 119,
-  "currency": "USD",
-  "productUrl": "https://shopduer.com/products/womens-performance-flannel-button-down-heather-black",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1662/1831/files/WCJT1800-HBK-Performance_Flannel_Shirt-Heather_Black_3652.jpg?v=1761069734",
-  "details": "A modern take on the classic flannel, this button-down is crafted from a soft, breathable knit for added stretch and comfort.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "active-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "duer-womens-performance-flannel-button-down-heather-peat",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "DUER",
-  "name": "Performance Flannel Button Down - Heather Peat",
-  "price": 119,
-  "currency": "USD",
-  "productUrl": "https://shopduer.com/products/womens-performance-flannel-button-down-heather-peat",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1662/1831/files/WCJT1800-HPE-Performance_Flannel_Shirt-Heather_Peat_3882.jpg?v=1762361853",
-  "details": "A modern take on the classic flannel, this button-down is crafted from a soft, breathable knit for added stretch and comfort.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "active-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
   ]
  },
  {
@@ -14287,16 +14262,16 @@
   ]
  },
  {
-  "id": "oak-fort-solei-bag-ba-15761-w",
+  "id": "oak-fort-structured-duffle-bag-ba-18151-w",
   "gender": "women",
   "tier": "Quality",
   "brand": "Oak + Fort",
-  "name": "SOLEI BAG — Espresso",
-  "price": 88,
+  "name": "CROC INSPIRED SHOULDER BAG — Black",
+  "price": 98,
   "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/solei-bag-ba-15761-w?variant=47809527611631",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Bag-15761_Espresso-1.jpg?v=1776232247",
-  "details": "The Solei Bag features a softly structured silhouette finished with an all-over woven design.",
+  "productUrl": "https://www.oakandfort.com/products/structured-duffle-bag-ba-18151-w?variant=51262459216111",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Bag-18151_Black-1.jpg?v=1792801492",
+  "details": "This duffle bag is designed with a structured shape and top handles for a polished take on an everyday carryall.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "bag"
@@ -14307,7 +14282,10 @@
    "hot",
    "unknown"
   ],
-  "colours": [],
+  "colours": [
+   "black",
+   "purple"
+  ],
   "styles": [
    "understated"
   ]
@@ -22533,6 +22511,33 @@
   ],
   "colours": [
    "black"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
+  "id": "oak-fort-100-wool-pillbox-hat-ha-18147-w",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Oak + Fort",
+  "name": "100% WOOL PILLBOX HAT — Black",
+  "price": 68,
+  "currency": "USD",
+  "productUrl": "https://www.oakandfort.com/products/100-wool-pillbox-hat-ha-18147-w?variant=51262458888431",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Hat-18147_Black-1.jpg?v=1792801578",
+  "details": "This pillbox hat is designed in 100% wool with a felted finish and structured shape.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "beanie"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black",
+   "purple"
   ],
   "styles": [
    "polished",
@@ -35261,35 +35266,6 @@
   ]
  },
  {
-  "id": "alo-w9351rg-splendor-bra-light-cocoa-white",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Splendor Bra - Light Cocoa/White",
-  "price": 68,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w9351rg-splendor-bra-light-cocoa-white?variant=50661529289063",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9351RG_06206_b1_s1_a2_m191.jpg?v=1758558606",
-  "details": "Comfiest.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "bra"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "brown"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-w9620r-airlift-double-trouble-bra-black",
   "gender": "women",
   "tier": "Quality",
@@ -35399,6 +35375,34 @@
   ],
   "styles": [
    "statement"
+  ]
+ },
+ {
+  "id": "alo-w9827r-airlift-mesh-darling-bra-navy",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Airlift Mesh Darling Bra - Navy",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w9827r-airlift-mesh-darling-bra-navy?variant=50661376688487",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9827R_03842_b2_s1_a1_m143.jpg?v=1752215097",
+  "details": "Bring an elevated energy to your everyday rotation.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "bra"
+  ],
+  "climates": [
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "navy",
+   "blue"
+  ],
+  "styles": [
+   "understated"
   ]
  },
  {
@@ -38244,6 +38248,34 @@
   "colours": [],
   "styles": [
    "relaxed"
+  ]
+ },
+ {
+  "id": "tentree-womens-double-scoop-bralette",
+  "gender": "women",
+  "tier": "Budget",
+  "brand": "tentree",
+  "name": "The Everyday Scoop Bralette — METEORITE BLACK",
+  "price": 31.5,
+  "currency": "CAD",
+  "productUrl": "https://tentree.ca/products/womens-double-scoop-bralette?variant=41607439286458",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2404/6643/products/BlackWomen_sTencelScoopBraletteTCW4332-0104-38491_3.jpg?v=1684428228",
+  "details": "The structure where you need it, the freedom where you don't.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "bra"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
   ]
  },
  {
@@ -43944,12 +43976,12 @@
   "gender": "women",
   "tier": "Budget",
   "brand": "Oak + Fort",
-  "name": "REMOVABLE FAUX FUR HOOD ZIP JACKET — Charcoal",
+  "name": "FLEECE-LINED FAUX FUR HOOD JACKET — Charcoal",
   "price": 108,
   "currency": "USD",
   "productUrl": "https://www.oakandfort.com/products/removable-faux-fur-hood-zip-jacket-ow-17899-w?variant=50980877271279",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Outerwear-17899_Charcoal-1.jpg?v=1791566577",
-  "details": "This hooded jacket is designed with a removable faux fur hood for added texture and warmth.",
+  "details": "This hooded jacket is designed with a removable faux fur hood and fleece-lined interior for added texture and warmth.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "coat"
@@ -43995,11 +44027,11 @@
   "gender": "women",
   "tier": "Quality",
   "brand": "Oak + Fort",
-  "name": "WOOL BLEND HANDMADE BELTED COAT — Cocoa",
+  "name": "WOOL BLEND HANDMADE BELTED COAT — DARK CHARCOAL",
   "price": 288,
   "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/wool-blend-handmade-belted-coat-ow-16005-w?variant=50776721522927",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Outerwear-16005_Cocoa-1.jpg?v=1790702373",
+  "productUrl": "https://www.oakandfort.com/products/wool-blend-handmade-belted-coat-ow-16005-w?variant=50776721653999",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Outerwear-16005_DARK_CHARCOAL-1.jpg?v=1792810761",
   "details": "Made from a wool blend, this wrap coat features a wide collar that you can button into a funnel neck silhouette.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -44008,7 +44040,9 @@
   "climates": [
    "cold"
   ],
-  "colours": [],
+  "colours": [
+   "grey"
+  ],
   "styles": [
    "polished"
   ]
@@ -49627,34 +49661,6 @@
   ]
  },
  {
-  "id": "alo-w8278r-airbrush-streamlined-dress-pink-quartz-white",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Airbrush Streamlined Dress - Pink Quartz/White",
-  "price": 110,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w8278r-airbrush-streamlined-dress-pink-quartz-white?variant=43774152376500",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W8278R_06055_b1_s1_a1_m189.jpg?v=1744019052",
-  "details": "How good is this dress? From the chic piping detail to the softly sculpted A-line silhouette, the Airbrush Streamlined Dress was designed to",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "dress"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "pink"
-  ],
-  "styles": [
-   "statement",
-   "understated"
-  ]
- },
- {
   "id": "alo-w8278r-airbrush-streamlined-dress-spearmint-white",
   "gender": "women",
   "tier": "Quality",
@@ -49705,6 +49711,33 @@
    "black",
    "beige",
    "sand"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w8303r-ribbed-mesh-secret-dress-crystal-clear-blue",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Ribbed Mesh Secret Dress - Crystal Clear Blue",
+  "price": 86,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w8303r-ribbed-mesh-secret-dress-crystal-clear-blue",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W8303R_06030_b1_s1_a1_m191.jpg?v=1743063171",
+  "details": "The best way to add something chic to your wardrobe lineup is with the Ribbed Mesh Secret Dress.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
   ],
   "styles": [
    "understated"
@@ -54791,7 +54824,9 @@
    "mild",
    "unknown"
   ],
-  "colours": [],
+  "colours": [
+   "purple"
+  ],
   "styles": [
    "understated"
   ]
@@ -66841,7 +66876,7 @@
   "name": "FADED BARREL JEAN — Blue",
   "price": 78,
   "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/faded-barrel-jean-dm-17499-w?variant=50498823454959",
+  "productUrl": "https://www.oakandfort.com/products/faded-barrel-jean-dm-17499-w?variant=50498823487727",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Denim-17499_Blue-1.jpg?v=1789775212",
   "details": "These jeans are designed with a barrel leg and faded finish for a more worn-in look.",
   "checkedAt": "2026-10-24",
@@ -67316,31 +67351,6 @@
   ]
  },
  {
-  "id": "outerknown-the-all-terrain-pant-chestnut",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Outerknown",
-  "name": "The All-Terrain Pant — Chestnut",
-  "price": 128,
-  "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/the-all-terrain-pant-chestnut",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/1680003_The_All_Terrain_Pants_CHS_0212_ab3ae214-131d-49ab-b335-685f9dd88ec7.jpg?v=1788385583",
-  "details": "Hit the road—even when it veers off-trail—in these easy-wearing, adventure-craving travel pants we like to call our ATBs (All Terrain Bottom",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "jeans"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "outerknown-the-beachcomber-relaxed-jean-aul83-kk5e-resale",
   "gender": "unisex",
   "tier": "High-end",
@@ -67583,6 +67593,34 @@
   ]
  },
  {
+  "id": "outerknown-the-craftsman-pant-fjxgbu0fry-resale",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Outerknown",
+  "name": "The Craftsman Pant - Outerworn — Dark Khaki",
+  "price": 145,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/the-craftsman-pant-fjxgbu0fry-resale?variant=54515652821176",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/1610080_Craftsman_Pant_DKH_9647_a2354db2-00b3-4b41-807e-aa1b4b99402c.jpg?v=1792810569",
+  "details": "Ideal for craftsmen and everyday adventurers alike, these utility pants are designed to endure tough tasks while crossing over stylishly int",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "jeans"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige",
+   "khaki"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "outerknown-the-dunes-straight-jean-cwonlb80ly-resale",
   "gender": "men",
   "tier": "High-end",
@@ -67669,7 +67707,7 @@
   "tier": "Quality",
   "brand": "Outerknown",
   "name": "The Wanderer Pant - Outerworn — Persimmon",
-  "price": 86.95,
+  "price": 79.26,
   "currency": "USD",
   "productUrl": "https://www.outerknown.com/products/the-wanderer-pant-kxfttnfape-resale?variant=54182508560568",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/Outerknown_Wanderer_Pant_Persimmon_1_072e10d3-7471-4049-8148-9b0ef4f2dff1.jpg?v=1790372646",
@@ -69005,33 +69043,6 @@
   ]
  },
  {
-  "id": "alo-m1205r-conquer-reform-crewneck-short-sleeve-chestnut",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Conquer Reform Crewneck Short Sleeve - Chestnut",
-  "price": 46,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m1205r-conquer-reform-crewneck-short-sleeve-chestnut?variant=42865364566196",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1205R_03500_b1_s1_a1_1_m93.jpg?v=1720628038",
-  "details": "Without a doubt, an absolute ALO essential.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "relaxed"
-  ]
- },
- {
   "id": "alo-m1205r-conquer-reform-crewneck-short-sleeve-seashell-blu",
   "gender": "men",
   "tier": "Quality",
@@ -69056,34 +69067,6 @@
   ],
   "styles": [
    "relaxed"
-  ]
- },
- {
-  "id": "alo-m1228r-alo-vapor-crewneck-short-sleeve-clover-green",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "ALO Vapor Crewneck Short Sleeve - Clover Green",
-  "price": 68,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m1228r-alo-vapor-crewneck-short-sleeve-clover-green",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1228R_06663_b1_s1_a6_m214_37c61d3d-5881-4c48-b95c-4bc797d04559.jpg?v=1764004793",
-  "details": "Peak performance is waiting with the ALO Vapor Crewneck Short Sleeve.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "green"
-  ],
-  "styles": [
-   "relaxed",
-   "statement"
   ]
  },
  {
@@ -69114,35 +69097,6 @@
   ]
  },
  {
-  "id": "alo-m1249r-sports-club-sweater-knit-short-sleeve-button-up-n",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Sports Club Sweater Knit Short Sleeve Button Up - Navy",
-  "price": 178,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m1249r-sports-club-sweater-knit-short-sleeve-button-up-navy?variant=50661326291303",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1249R_03842_b2_s1_a1_m245.jpg?v=1750307405",
-  "details": "It’s the button-up that blurs the line between laid-back and elevated.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "navy",
-   "blue"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "alo-m3193r-conquer-1-4-zip-reform-long-sleeve-dark-heather-g",
   "gender": "men",
   "tier": "Quality",
@@ -69164,6 +69118,33 @@
   ],
   "colours": [
    "grey"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m3193r-conquer-1-4-zip-reform-long-sleeve-rich-bordeaux",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Conquer 1/4 Zip Reform Long Sleeve - Rich Bordeaux",
+  "price": 108,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3193r-conquer-1-4-zip-reform-long-sleeve-rich-bordeaux",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3193R_06547_b2_s1_a1_dFA26_m208.jpg?v=1791360732",
+  "details": "Go from reps day to rest day without missing a beat.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "purple"
   ],
   "styles": [
    "understated"
@@ -69225,33 +69206,6 @@
   ]
  },
  {
-  "id": "alo-m3259r-light-weight-takeaway-track-pullover-java-brown-w",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Light Weight Takeaway Track Pullover - Java Brown",
-  "price": 148,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3259r-light-weight-takeaway-track-pullover-java-brown-womens",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3259R_08194_b1_s1_a60_dFA26_m161.jpg?v=1790897142",
-  "details": "The Light Weight Takeaway Track Pullover has just the right amount of retro vibes, done in a lightweight, softly swishy fabric with a quarte",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-m3259r-light-weight-takeaway-track-pullover-lunar-grey",
   "gender": "men",
   "tier": "High-end",
@@ -69303,6 +69257,143 @@
   ],
   "styles": [
    "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m3267r-idol-crewneck-long-sleeve-anthracite",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Idol Crewneck Long Sleeve - Anthracite",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3267r-idol-crewneck-long-sleeve-anthracite",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3267R_02125_b1_s1_a2_dFA26_m214_1.jpg?v=1791375881",
+  "details": "Clean lines, full-range function.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m3271r-domain-rib-knit-crew-sweater-gravel",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Domain Rib Knit Crew Sweater - Gravel",
+  "price": 188,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3271r-domain-rib-knit-crew-sweater-gravel?variant=43591368966324",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3271R_05438_b1_s3_a1_m180.jpg?v=1731968669",
+  "details": "Meet the must-have sweater of the season.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m3271r-domain-rib-knit-crew-sweater-gravel-womens",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Domain Rib Knit Crew Sweater - Gravel",
+  "price": 188,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3271r-domain-rib-knit-crew-sweater-gravel-womens?variant=43594922328244",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3271R_05438_b1_s1_a1_m206.jpg?v=1731969674",
+  "details": "Meet the must-have sweater of the season.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-u3031rg-accolade-crew-neck-pullover-brownstone",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Accolade Crew Neck Pullover - Brownstone",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-brownstone",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3031RG_06659_b1_s1_a2_m125.jpg?v=1762365322",
+  "details": "This best seller is cozy, comfortable, cute and done in classic neutrals and on-trend colors—each finished with a chrome ALO logo.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-u3031rg-accolade-crew-neck-pullover-brownstone-mens",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Accolade Crew Neck Pullover - Brownstone",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-brownstone-mens?variant=50661767086439",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3031RG_06659_b1_s1_a2_m198.jpg?v=1762150484",
+  "details": "Cozy and comfortable with plenty of street cred, too, thanks to a chrome ALO logo on the chest and an on-trend offering of colors.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
    "understated"
   ]
  },
@@ -69361,15 +69452,15 @@
   ]
  },
  {
-  "id": "alo-u3031rg-accolade-crew-neck-pullover-crystal-clear-blue",
-  "gender": "unisex",
+  "id": "alo-u3031rg-accolade-crew-neck-pullover-clover-green",
+  "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Accolade Crew Neck Pullover - Crystal Clear Blue",
+  "name": "Accolade Crew Neck Pullover - Clover Green",
   "price": 138,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-crystal-clear-blue",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3031RG_06030_b1_s1_a5_m231.jpg?v=1749146648",
+  "productUrl": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-clover-green?variant=50661765513575",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3031RG_06663_b2_s1_a1_m191.jpg?v=1762849447",
   "details": "This best seller is cozy, comfortable, cute and done in classic neutrals and on-trend colors—each finished with a chrome ALO logo.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -69381,23 +69472,23 @@
    "unknown"
   ],
   "colours": [
-   "blue"
+   "green"
   ],
   "styles": [
-   "understated"
+   "statement"
   ]
  },
  {
-  "id": "alo-u3040rg-accolade-1-4-zip-pullover-rich-bordeaux-mens",
+  "id": "alo-u3031rg-accolade-crew-neck-pullover-clover-green-mens",
   "gender": "unisex",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Accolade 1/4 Zip Pullover - Rich Bordeaux",
-  "price": 148,
+  "name": "Accolade Crew Neck Pullover - Clover Green",
+  "price": 138,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/u3040rg-accolade-1-4-zip-pullover-rich-bordeaux-mens",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3040RG_06547_b1_s1_a1_dFA26_m214_1.jpg?v=1791267779",
-  "details": "Everyone needs more Accolade.",
+  "productUrl": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-clover-green-mens",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3031RG_06663_b1_s1_a2_m198_31876da6-9ebc-4513-ba3e-74b6f7897ac3.jpg?v=1762906771",
+  "details": "Cozy and comfortable with plenty of street cred, too, thanks to a chrome ALO logo on the chest and an on-trend offering of colors.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -69408,10 +69499,10 @@
    "unknown"
   ],
   "colours": [
-   "purple"
+   "green"
   ],
   "styles": [
-   "understated"
+   "statement"
   ]
  },
  {
@@ -69465,93 +69556,6 @@
    "blue"
   ],
   "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-w2796r-ribbed-sweater-knit-highline-c-black-white",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Ribbed Sweater Knit Highline Cropped Tank - Black/White",
-  "price": 118,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w2796r-ribbed-sweater-knit-highline-c-black-white?variant=50661484429671",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2796R_06401_b1_s1_a1_m125.jpg?v=1755729845",
-  "details": "The Highline Ribbed Sweater Knit Cropped Tank puts a retro spin on your off-duty uniform with bold contrast piping and a body-hugging silhou",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black",
-   "white"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "alo-w2796r-ribbed-sweater-knit-highline-c-bluestone-white",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Ribbed Sweater Knit Highline Cropped Tank - Bluestone/White",
-  "price": 118,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w2796r-ribbed-sweater-knit-highline-c-bluestone-white?variant=50661485085031",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2796R_06514_b2_s1_a1_m256.jpg?v=1759983195",
-  "details": "The Highline Ribbed Sweater Knit Cropped Tank puts a retro spin on your off-duty uniform with bold contrast piping and a body-hugging silhou",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "blue"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "alo-w2796r-ribbed-sweater-knit-highline-c-lunar-grey-white",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Ribbed Sweater Knit Highline Cropped Tank - Lunar Grey/White",
-  "price": 118,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w2796r-ribbed-sweater-knit-highline-c-lunar-grey-white?variant=50661484790119",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2796R_06513_b1_s1_a1_m177.jpg?v=1754572029",
-  "details": "The Highline Ribbed Sweater Knit Cropped Tank puts a retro spin on your off-duty uniform with bold contrast piping and a body-hugging silhou",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "grey"
-  ],
-  "styles": [
-   "relaxed",
    "understated"
   ]
  },
@@ -69614,16 +69618,16 @@
   ]
  },
  {
-  "id": "alo-w3905r-extreme-cropped-pullover-pink-quartz",
+  "id": "alo-w3845r-hazy-mock-neck-pullover-brownstone",
   "gender": "women",
-  "tier": "Quality",
+  "tier": "High-end",
   "brand": "Alo",
-  "name": "Extreme Cropped Pullover - Pink Quartz",
-  "price": 78,
+  "name": "Hazy Mock Neck Pullover - Brownstone",
+  "price": 138,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3905r-extreme-cropped-pullover-pink-quartz?variant=43774115905716",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3905R_06027_b1_s1_a1_1_m189.jpg?v=1744242270",
-  "details": "Short, sweet, and ultra-chic.",
+  "productUrl": "https://www.aloyoga.com/products/w3845r-hazy-mock-neck-pullover-brownstone",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3845R_06659_b2_s1_a1_m190_ed5f5a69-160e-4274-8710-d12e9c4ab8e0.jpg?v=1762289308",
+  "details": "This sweater is our latest obsession.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -69634,10 +69638,38 @@
    "unknown"
   ],
   "colours": [
-   "pink"
+   "brown"
   ],
   "styles": [
-   "statement"
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w3849r-snuggle-up-sweater-long-sleeve-steel-grey",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Snuggle Up Sweater Long Sleeve - Steel Grey",
+  "price": 110,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3849r-snuggle-up-sweater-long-sleeve-steel-grey?variant=43591472677044",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3849R_05541_b1_s1_a1_1_m54.jpg?v=1739423486",
+  "details": "Snuggle season is here! This cropped sweater is soft, chic, and so versatile.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
   ]
  },
  {
@@ -69953,33 +69985,6 @@
   ]
  },
  {
-  "id": "andie-womens-april-lightweight-sweatshirt-french-terry-grey",
-  "gender": "women",
-  "tier": "Budget",
-  "brand": "Andie",
-  "name": "Womens April Lightweight Sweatshirt - French Terry - Grey",
-  "price": 27,
-  "currency": "USD",
-  "productUrl": "https://www.andieswim.com/products/womens-april-lightweight-sweatshirt-french-terry-grey?variant=40742214631496",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/41WFT-LTFT-GREY-02_1df8b81a-6ce8-4178-a6e2-f50a0e927d63.jpg?v=1761143853",
-  "details": "Classic Fit crew sweatshirt Dreamy-soft lightweight French Terry Stretch rib at neckline and sleeve cuffs Heathered, 2 tone color effect A l",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "grey"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "andie-womens-beefy-stripe-cotton-pullover-pima-cotton-jersey",
   "gender": "women",
   "tier": "Quality",
@@ -70062,6 +70067,34 @@
   ],
   "colours": [
    "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "andie-womens-dune-sweater-cotton-sweater-knit-black",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Andie",
+  "name": "Womens Dune Sweater - Cotton Sweater Knit - Black",
+  "price": 118,
+  "currency": "USD",
+  "productUrl": "https://www.andieswim.com/products/womens-dune-sweater-cotton-sweater-knit-black?variant=40742276497480",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/53WWS-DNSW-BLCK_1_1ab1ac58-67b4-4043-92a1-dc1b9abff059.jpg?v=1761143557",
+  "details": "Classic fit, fully fashioned pullover sweater Lightweight cotton yarns with novelty thermal stitch Knitted rib at neckline and sleeve cuffs ",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
   ],
   "styles": [
    "relaxed",
@@ -71764,34 +71797,6 @@
   ]
  },
  {
-  "id": "citizens-of-humanity-frances-cropped-cape-button-up-recycled",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Citizens of Humanity",
-  "name": "Frances Cropped Cape Recycled Leather Button Up in Black",
-  "price": 358,
-  "currency": "USD",
-  "productUrl": "https://www.citizensofhumanity.com/products/frances-cropped-cape-button-up-recycled-leather-black",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0252/1042/1345/files/9446-3015_FRANCES_BUTTON_UP_LEATHER_BLACK_0396.jpg?v=1785966420",
-  "details": "The Frances offers a modern interpretation of the classic button-up, crafted from buttery vegan leather with subtle stretch for added ease.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "polished",
-   "understated"
-  ]
- },
- {
   "id": "citizens-of-humanity-pilar-crewneck-washed-black",
   "gender": "women",
   "tier": "High-end",
@@ -71814,6 +71819,31 @@
   "colours": [
    "black"
   ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "citizens-of-humanity-pilar-waffle-crewneck-dune",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Citizens of Humanity",
+  "name": "Pilar Waffle Crewneck in Dune",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.citizensofhumanity.com/products/pilar-waffle-crewneck-dune",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0252/1042/1345/files/9429-1785_PILAR_WAFFLE_CREWNECK_DUNE_0765.jpg?v=1773355967",
+  "details": "The ‘Pilar’ is a classic long sleeve crewneck updated in soft, regenerative cotton waffle thermal.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
   "styles": [
    "understated"
   ]
@@ -73461,36 +73491,6 @@
   ]
  },
  {
-  "id": "everlane-mens-luxe-merino-dblknit-sweater-taupe-melange",
-  "gender": "men",
-  "tier": "Budget",
-  "brand": "Everlane",
-  "name": "Luxe Merino Double-Knit Sweater | Taupe Melange",
-  "price": 40,
-  "currency": "USD",
-  "productUrl": "https://www.everlane.com/products/mens-luxe-merino-dblknit-sweater-taupe-melange",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/dbc72596_9b14.jpg?v=1758129540",
-  "details": "The sweatshirt, redefined.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "grey",
-   "sand"
-  ],
-  "styles": [
-   "polished",
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "everlane-mens-no-sweat-cotton-sweater-heather-oatmeal",
   "gender": "men",
   "tier": "Budget",
@@ -73515,6 +73515,34 @@
   ],
   "styles": [
    "relaxed"
+  ]
+ },
+ {
+  "id": "everlane-mens-rec-quarter-zip-black",
+  "gender": "men",
+  "tier": "Budget",
+  "brand": "Everlane",
+  "name": "The Rec Quarter-Zip | Black",
+  "price": 17,
+  "currency": "USD",
+  "productUrl": "https://www.everlane.com/products/mens-rec-quarter-zip-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/d2dfd25c_82a3.jpg?v=1753411846",
+  "details": "Moisture-wicking, quick-drying, and breathable, with a natural stretch for added comfort, it checks all the boxes.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
   ]
  },
  {
@@ -80275,16 +80303,16 @@
   ]
  },
  {
-  "id": "outerknown-roma-donegal-sweater-heather-grey",
-  "gender": "women",
+  "id": "outerknown-pacifica-sweater-beachwood",
+  "gender": "men",
   "tier": "High-end",
   "brand": "Outerknown",
-  "name": "Roma Donegal Sweater — Heather Grey",
-  "price": 228,
+  "name": "Pacifica Sweater — Beachwood",
+  "price": 188,
   "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/roma-donegal-sweater-heather-grey",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/OK_FW26_FINAL_EDITS-629.jpg?v=1788567907",
-  "details": "'Our best selling Roma Sweater, reimagined in a wool Donegal yarn, with colorful, textured flecks throughout.",
+  "productUrl": "https://www.outerknown.com/products/pacifica-sweater-beachwood",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/1410091_Pacifica_Sweater_BCW_0299.jpg?v=1785797810",
+  "details": "Inspired by the misty, Nor Cal coastal climate around the seaside town of Pacifica, this timeless, cozy rollneck sweater layers beautifully ",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -80295,40 +80323,10 @@
    "unknown"
   ],
   "colours": [
-   "grey"
+   "brown"
   ],
   "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "outerknown-roma-donegal-sweater-olive-night",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Outerknown",
-  "name": "Roma Donegal Sweater — Olive Night",
-  "price": 228,
-  "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/roma-donegal-sweater-olive-night",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/FW26_Female_PDP_3349_4abe1dba-58a7-4dc2-ae77-5509602034df.jpg?v=1788282211",
-  "details": "Our best selling Roma Sweater, reimagined in a wool Donegal yarn, with colorful, textured flecks throughout.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "olive",
-   "green"
-  ],
-  "styles": [
-   "relaxed",
-   "statement"
+   "relaxed"
   ]
  },
  {
@@ -80357,6 +80355,33 @@
   ]
  },
  {
+  "id": "outerknown-roma-sweater-gieircl6r5-resale",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Outerknown",
+  "name": "Roma Sweater - Outerworn — Marine",
+  "price": 154,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/roma-sweater-gieircl6r5-resale?variant=54515651608760",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/FW26_Female_PDP_5430_d6c7e11a-3821-4ab8-a93b-724e5421db6b.jpg?v=1792810566",
+  "details": "Feels like the sweater you've been missing.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
   "id": "outerknown-ronan-velour-crew-fc56lv0web-resale",
   "gender": "women",
   "tier": "Quality",
@@ -80378,34 +80403,6 @@
   ],
   "colours": [
    "navy"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "outerknown-seafarer-sweater-qu7ejjamtc-resale",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Outerknown",
-  "name": "Seafarer Sweater - Outerworn — Salt",
-  "price": 150,
-  "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/seafarer-sweater-qu7ejjamtc-resale?variant=54277164925112",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/1410084_Seafarer_Sweater_SLT_0202_844df304-eb71-455c-9e56-dd12449024da.jpg?v=1791583930",
-  "details": "Our take on the traditional fisherman sweater.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white"
   ],
   "styles": [
    "relaxed",
@@ -80628,6 +80625,34 @@
   ],
   "colours": [
    "pink"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
+  ]
+ },
+ {
+  "id": "outerknown-womens-hightide-crew-nlvqwztdg8-resale",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Outerknown",
+  "name": "Women's Hightide Crew - Outerworn — Mangrove / Salt Stripe",
+  "price": 85,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/womens-hightide-crew-nlvqwztdg8-resale?variant=54515650265272",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2240008_Women_s_Hightide_Crew_MSI_1_3358f6d9-aa03-46a9-b973-5e9d7b01a6a2.jpg?v=1792810462",
+  "details": "Premium softness meets effortless, sustainable style with these ultra-cozy, towel-soft layers you can wear anywhere.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "green"
   ],
   "styles": [
    "relaxed",
@@ -85804,6 +85829,32 @@
   ]
  },
  {
+  "id": "alo-m4220r-alpha-shell-overshirt-espresso",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Alpha Shell Overshirt - Espresso",
+  "price": 298,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m4220r-alpha-shell-overshirt-espresso",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4220R_04064_b2_s1_a1_dFA26_m243.jpg?v=1789113756",
+  "details": "The Alpha Shell Overshirt is made from a high-performance, water-resistant fabric and features fully bonded seams and waterproof zippers.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "alo-m4220r-alpha-shell-overshirt-espresso-womens",
   "gender": "unisex",
   "tier": "High-end",
@@ -85826,34 +85877,6 @@
    "brown"
   ],
   "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-w4401r-sherpa-trench-camel",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Oversized Sherpa Trench - Camel",
-  "price": 298,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4401r-sherpa-trench-camel?variant=32083087163510",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U4012R_01660_b1_s1_a1_1_m206.jpg?v=1731612483",
-  "details": "The easiest way to elevate a simple winter outfit? Throw the Oversized Sherpa Trench on top.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "beige",
-   "sand"
-  ],
-  "styles": [
-   "relaxed",
    "understated"
   ]
  },
@@ -85884,6 +85907,85 @@
   ]
  },
  {
+  "id": "alo-w4574r-night-out-cargo-jacket-black",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Night Out Cargo Jacket - Black",
+  "price": 158,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4574r-night-out-cargo-jacket-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4574R_01_b1_s1_a1_1_m54.jpg?v=1712878966",
+  "details": "Crafted from softly structured cotton twill, the Night Out Cargo Jacket is the kind of styling staple that dresses up or down effortlessly.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w4601r-scholar-knit-cropped-full-zip-jacket-clover-green",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Scholar Knit Cropped Full Zip Jacket - Clover Green",
+  "price": 188,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4601r-scholar-knit-cropped-full-zip-jacket-clover-green?variant=50661711085927",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4601R_06663_b1_s1_a5_m189.jpg?v=1762861825",
+  "details": "Put some prep in your step in the Scholar Knit Jacket.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "green"
+  ],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
+  "id": "alo-w4601r-scholar-knit-cropped-full-zip-jacket-green-olive",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Scholar Knit Cropped Full Zip Jacket - Green Olive",
+  "price": 188,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4601r-scholar-knit-cropped-full-zip-jacket-green-olive",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4601R_06464_b1_s1_a2_m240_966363b4-ea1b-49a1-80b5-5c9e02fca2a4.jpg?v=1757435147",
+  "details": "Put some prep in your step in the Scholar Knit Jacket.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "olive",
+   "green"
+  ],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
   "id": "alo-w4656r-origin-full-zip-track-jacket-navy-black",
   "gender": "women",
   "tier": "Quality",
@@ -85908,87 +86010,6 @@
    "blue"
   ],
   "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-w4662r-sport-star-full-zip-jacket-candy-red",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Sport Star Full Zip Jacket - Candy Red",
-  "price": 126,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4662r-sport-star-full-zip-jacket-candy-red?variant=50661348737383",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4662R_06281_b1_s1_a1_m91.jpg?v=1747232494",
-  "details": "The Sport Star Jacket is the definition of sporty chic.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "red"
-  ],
-  "styles": [
-   "statement"
-  ]
- },
- {
-  "id": "alo-w4663r-cropped-air-it-out-bomber-taupe",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Cropped Air It Out Bomber - Taupe",
-  "price": 110,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4663r-cropped-air-it-out-bomber-taupe?variant=50661349491047",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4663R_04481_b1_s1_a2_m54.jpg?v=1750701306",
-  "details": "It’s the ultimate balance of edge and elegance.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "beige",
-   "sand"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-w4677r-tennis-club-sweater-knit-full-zip-jacket-seashell",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Tennis Club Sweater Knit Full Zip Jacket - Seashell Blue/White",
-  "price": 158,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4677r-tennis-club-sweater-knit-full-zip-jacket-seashell-blue-white?variant=50661350146407",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4677R_05487_b2_s1_a1_m51.jpg?v=1749541191",
-  "details": "Tell your tennis pro it’s your turn to serve.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "blue"
-  ],
-  "styles": [
-   "relaxed",
    "understated"
   ]
  },
@@ -86048,15 +86069,15 @@
   ]
  },
  {
-  "id": "alo-w4692r-micro-corduroy-on-duty-jacket-burgundy",
+  "id": "alo-w4692r-micro-corduroy-on-duty-jacket-black",
   "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Micro Corduroy On Duty Jacket - Burgundy",
+  "name": "Micro Corduroy On Duty Jacket - Black",
   "price": 228,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4692r-micro-corduroy-on-duty-jacket-burgundy?variant=50661499437415",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4692R_06465_b2_s1_a1_m54.jpg?v=1757323709",
+  "productUrl": "https://www.aloyoga.com/products/w4692r-micro-corduroy-on-duty-jacket-black?variant=50661499208039",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4692R_01_b1_s1_a2_m241.jpg?v=1757419033",
   "details": "A sleek take on a classic texture.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -86067,11 +86088,10 @@
    "unknown"
   ],
   "colours": [
-   "red",
-   "burgundy"
+   "black"
   ],
   "styles": [
-   "statement"
+   "understated"
   ]
  },
  {
@@ -91864,7 +91884,7 @@
   "name": "CloudCut™ Bomber — Twilight Navy",
   "price": 118,
   "currency": "CAD",
-  "productUrl": "https://knix.ca/products/cloudcut-studio-bomber?variant=50316975079709",
+  "productUrl": "https://knix.ca/products/cloudcut-studio-bomber?variant=50316975112477",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0935/5191/9389/files/CloudCutStudioBomber_TwilightNavy_02.webp?v=1761938004",
   "details": "",
   "checkedAt": "2026-10-24",
@@ -105169,6 +105189,141 @@
   ]
  },
  {
+  "id": "alo-m1270r-linen-days-short-sleeve-button-up-black",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Linen Days Short Sleeve Button Up - Black",
+  "price": 198,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1270r-linen-days-short-sleeve-button-up-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1270R_01_b2_s1_a1_dSU26_m276.jpg?v=1780925114",
+  "details": "Add a little linen to your closet this season.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m1270r-linen-days-short-sleeve-button-up-bone",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Linen Days Short Sleeve Button Up - Bone",
+  "price": 198,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1270r-linen-days-short-sleeve-button-up-bone",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1270R_03040_b2_s1_a1_dSU26_m276.jpg?v=1780925077",
+  "details": "Add a little linen to your closet this season.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m1270r-linen-days-short-sleeve-button-up-white",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Linen Days Short Sleeve Button Up - White",
+  "price": 198,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1270r-linen-days-short-sleeve-button-up-white",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1270R_05594_b1_s1_a4_dSU26_m214.jpg?v=1779878517",
+  "details": "Add a little linen to your closet this season.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m3357p-linen-jersey-coastal-long-sleeve-button-up-gravel",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Linen Jersey Coastal Long Sleeve Button Up - Gravel",
+  "price": 198,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3357p-linen-jersey-coastal-long-sleeve-button-up-gravel",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3357P_05438_b1_s1_a3_dSU26_m243_1a5250ad-fca8-4a2f-a791-0714125c4764.jpg?v=1781839557",
+  "details": "The Linen Jersey Coastal Button Up was made for long days and cool nights.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m3357p-linen-jersey-coastal-long-sleeve-button-up-white",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Linen Jersey Coastal Long Sleeve Button Up - White",
+  "price": 198,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3357p-linen-jersey-coastal-long-sleeve-button-up-white",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3357P_05594_b1_s1_a1_dSU26_m257_43194895-0853-489f-95c9-cfafc2928c16.jpg?v=1781839670",
+  "details": "The Linen Jersey Coastal Button Up was made for long days and cool nights.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "andie-womens-roma-work-shirt-cotton-linen-twill-porcini",
   "gender": "women",
   "tier": "Quality",
@@ -107141,6 +107296,33 @@
   ]
  },
  {
+  "id": "mack-weldon-linen-button-up",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Mack Weldon",
+  "name": "Linen Button Up — Bright White",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/linen-button-up?variant=43189869740145",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Linen-Button-Up_Bright-White_M01Y12-BW-278.png?v=1777646748",
+  "details": "We're not ones to mess with a good thing.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "mack-weldon-linen-camp-shirt",
   "gender": "men",
   "tier": "High-end",
@@ -107165,6 +107347,30 @@
   "styles": [
    "relaxed",
    "understated"
+  ]
+ },
+ {
+  "id": "mack-weldon-tech-linen-button-up",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Mack Weldon",
+  "name": "Tech Linen Button Up — Wild Rapids",
+  "price": 74.99,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/tech-linen-button-up?variant=41850832322673",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01Y07-WLDR_Front.png?v=1745513033",
+  "details": "The shirt that feels like vacation: Our take on this summer classic is crafted with a lightweight linen blend and COOLMAX® technology.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
   ]
  },
  {
@@ -109423,60 +109629,6 @@
   ]
  },
  {
-  "id": "alo-m3357p-linen-jersey-coastal-long-sleeve-button-up-gravel",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Linen Jersey Coastal Long Sleeve Button Up - Gravel",
-  "price": 198,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3357p-linen-jersey-coastal-long-sleeve-button-up-gravel",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3357P_05438_b1_s1_a3_dSU26_m243_1a5250ad-fca8-4a2f-a791-0714125c4764.jpg?v=1781839557",
-  "details": "The Linen Jersey Coastal Button Up was made for long days and cool nights.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "alo-m3357p-linen-jersey-coastal-long-sleeve-button-up-white",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Linen Jersey Coastal Long Sleeve Button Up - White",
-  "price": 198,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3357p-linen-jersey-coastal-long-sleeve-button-up-white",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3357P_05594_b1_s1_a1_dSU26_m257_43194895-0853-489f-95c9-cfafc2928c16.jpg?v=1781839670",
-  "details": "The Linen Jersey Coastal Button Up was made for long days and cool nights.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "alo-m3370r-cotton-cashmere-ever-soft-long-sleeve-crew-black",
   "gender": "men",
   "tier": "High-end",
@@ -109561,16 +109713,16 @@
   ]
  },
  {
-  "id": "alo-w3732r-dreamscape-button-down-long-sleeve-smoky-quartz",
+  "id": "alo-w3601r-alosoft-crop-finesse-long-sleeve-rich-bordeaux",
   "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Dreamscape Button Down Long Sleeve - Smoky Quartz",
-  "price": 102,
+  "name": "Alosoft Crop Finesse Long Sleeve - Rich Bordeaux",
+  "price": 78,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3732r-dreamscape-button-down-long-sleeve-smoky-quartz?variant=43774111908020",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3732R_02512_b1_s1_a1_m158.jpg?v=1741692510",
-  "details": "This lightweight layer feels like a dream.",
+  "productUrl": "https://www.aloyoga.com/products/w3601r-alosoft-crop-finesse-long-sleeve-rich-bordeaux",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3601R_06547_b1_s1_a3_dFA26_m207_1.jpg?v=1791268368",
+  "details": "From warm-up to workout to lounge, the Alosoft Crop Finesse Long Sleeve has your back.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "long-sleeve-top"
@@ -109581,35 +109733,7 @@
    "unknown"
   ],
   "colours": [
-   "brown"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-w3732r-dreamscape-button-down-long-sleeve-taupe",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Dreamscape Button Down Long Sleeve - Taupe",
-  "price": 102,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3732r-dreamscape-button-down-long-sleeve-taupe?variant=50661343363431",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3732R_04481_b2_s1_a1_m18.jpg?v=1750654528",
-  "details": "This lightweight layer feels like a dream.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "beige",
-   "sand"
+   "purple"
   ],
   "styles": [
    "understated"
@@ -109643,6 +109767,34 @@
   ]
  },
  {
+  "id": "alo-w3869r-ribbed-mesmerize-long-sleeve-taupe",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Ribbed Mesmerize Long Sleeve - Taupe",
+  "price": 70,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3869r-ribbed-mesmerize-long-sleeve-taupe?variant=50661344248167",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3869R_04481_b1_s1_a2_m54.jpg?v=1750707361",
+  "details": "Customize your look with the Mesmerize Long Sleeve.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige",
+   "sand"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "alo-w3903r-ribbed-modal-long-sleeve-anthracite",
   "gender": "women",
   "tier": "High-end",
@@ -109664,6 +109816,33 @@
   ],
   "colours": [
    "grey"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w3903r-ribbed-modal-long-sleeve-bone",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Ribbed Modal Long Sleeve - Bone",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3903r-ribbed-modal-long-sleeve-bone",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3903R_03040_b1_s1_a2_m18_cc11809e-a9aa-49b2-b0e2-62a3dc4c9844.jpg?v=1758933017",
+  "details": "Consider this the basic you’ll be reaching for over and over again.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
   ],
   "styles": [
    "understated"
@@ -109693,35 +109872,6 @@
    "beige"
   ],
   "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-w3925p-courchevel-silk-button-down-black-ivory",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Courchevel Silk Button Down - Black/Ivory",
-  "price": 368,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3925p-courchevel-silk-button-down-black-ivory?variant=43591354908852",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3925P_03850_b1_s1_a1_1_m143.jpg?v=1732658193",
-  "details": "Discover the ease and elegance of our first-ever silk collection.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black",
-   "cream"
-  ],
-  "styles": [
-   "polished",
    "understated"
   ]
  },
@@ -117843,12 +117993,10 @@
    "mild",
    "unknown"
   ],
-  "colours": [
-   "green"
-  ],
+  "colours": [],
   "styles": [
    "relaxed",
-   "statement"
+   "understated"
   ]
  },
  {
@@ -123464,32 +123612,6 @@
   ]
  },
  {
-  "id": "allbirds-womens-allbirds-slide-mushroom",
-  "gender": "women",
-  "tier": "Budget",
-  "brand": "Allbirds",
-  "name": "Women's Allbirds Slide - Mushroom",
-  "price": 37.5,
-  "currency": "CAD",
-  "productUrl": "https://www.allbirds.ca/products/womens-allbirds-slide-mushroom",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0806/5967/7504/files/A12589_26Q1_Allbirds-Slide-Mushroom_PDP_LEFT.jpg?v=1775145472",
-  "details": "Easy on.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "sandals"
-  ],
-  "climates": [
-   "hot",
-   "mild"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "allbirds-womens-allbirds-slide-natural-black",
   "gender": "women",
   "tier": "Budget",
@@ -123566,58 +123688,6 @@
   "styles": [
    "polished",
    "understated"
-  ]
- },
- {
-  "id": "alo-a0919u-alo-classico-sandal-black",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "ALO Classico Sandal - Black",
-  "price": 325,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0919u-alo-classico-sandal-black",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0919U_01_b1_s1_a2_dSU26_f990f23f-c9b0-4888-96ce-b245a5cc3ea0.jpg?v=1781044033",
-  "details": "A classic take on your favorite sandal.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "sandals"
-  ],
-  "climates": [
-   "hot",
-   "mild"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-a1004u-alo-sunset-sneaker-mule-sundrenched-pink",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "ALO Sunset Sneaker Mule - Sundrenched Pink",
-  "price": 225,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a1004u-alo-sunset-sneaker-mule-sundrenched-pink",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A1004U_07995_b1_s1_a3_dSU26.jpg?v=1780408262",
-  "details": "Everything you know and love about the Sunset Sneaker is now in a mule.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "sandals"
-  ],
-  "climates": [
-   "hot",
-   "mild"
-  ],
-  "colours": [
-   "pink"
-  ],
-  "styles": [
-   "statement"
   ]
  },
  {
@@ -131780,6 +131850,467 @@
   ]
  },
  {
+  "id": "alo-m1235r-coastal-terry-button-up-bone",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Coastal Terry Button Up - Bone",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1235r-coastal-terry-button-up-bone?variant=50661325341031",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1235R_03040_b1_s1_a1_m214.jpg?v=1746504805",
+  "details": "This shirt is a summertime essential, made from cozy, stretchy terry that feels like a towel but looks way cooler.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m1249r-sports-club-sweater-knit-short-sleeve-button-up-b",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Sports Club Sweater Knit Short Sleeve Button Up - Black",
+  "price": 178,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1249r-sports-club-sweater-knit-short-sleeve-button-up-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1249R_01_b2_s1_a1_dSU26_m276.png?v=1778519212",
+  "details": "It’s the button-up that blurs the line between laid-back and elevated.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m1249r-sports-club-sweater-knit-short-sleeve-button-up-g",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Sports Club Sweater Knit Short Sleeve Button Up - Gravel",
+  "price": 178,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1249r-sports-club-sweater-knit-short-sleeve-button-up-gravel",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1249R_05438_b1_s1_a2_dSU26_m214.jpg?v=1782900581",
+  "details": "It’s the button-up that blurs the line between laid-back and elevated.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m1249r-sports-club-sweater-knit-short-sleeve-button-up-n",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Sports Club Sweater Knit Short Sleeve Button Up - Navy",
+  "price": 178,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1249r-sports-club-sweater-knit-short-sleeve-button-up-navy?variant=50661326291303",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1249R_03842_b2_s1_a1_m245.jpg?v=1750307405",
+  "details": "It’s the button-up that blurs the line between laid-back and elevated.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "navy",
+   "blue"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m1274r-satin-horizon-short-sleeve-button-up-black",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Satin Horizon Short Sleeve Button Up - Black",
+  "price": 178,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1274r-satin-horizon-short-sleeve-button-up-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1274R_01_b2_s1_a1_dSU26_m276.jpg?v=1780925020",
+  "details": "Take your night out to the next level with the Satin Horizon Button Up.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m1274r-satin-horizon-short-sleeve-button-up-bone",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Satin Horizon Short Sleeve Button Up - Bone",
+  "price": 178,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1274r-satin-horizon-short-sleeve-button-up-bone",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1274R_03040_b1_s1_a2_dSU26_m214.jpg?v=1779878536",
+  "details": "Take your night out to the next level with the Satin Horizon Button Up.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m1274r-satin-horizon-short-sleeve-button-up-espresso",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Satin Horizon Short Sleeve Button Up - Espresso",
+  "price": 178,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1274r-satin-horizon-short-sleeve-button-up-espresso",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1274R_04064_b1_s1_a2_dSU26_m245.jpg?v=1779878549",
+  "details": "Take your night out to the next level with the Satin Horizon Button Up.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "polished",
+   "relaxed"
+  ]
+ },
+ {
+  "id": "alo-m1274r-satin-horizon-short-sleeve-button-up-navy",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Satin Horizon Short Sleeve Button Up - Navy",
+  "price": 178,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1274r-satin-horizon-short-sleeve-button-up-navy",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1274R_03842_b1_s1_a1_dSU26_m214.jpg?v=1779878561",
+  "details": "Take your night out to the next level with the Satin Horizon Button Up.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "navy",
+   "blue"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w31176r-satin-smooth-talker-button-up-black",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Satin Smooth Talker Button Up - Black",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w31176r-satin-smooth-talker-button-up-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W31176R_01_b1_s1_a1_dFA26_m241_1.jpg?v=1791268275",
+  "details": "The Satin Smooth Talker Button Up instantly elevates any outfit.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w31176r-satin-smooth-talker-button-up-rich-bordeaux",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Satin Smooth Talker Button Up - Rich Bordeaux",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w31176r-satin-smooth-talker-button-up-rich-bordeaux",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W31176R_06547_b2_s1_a1_dFA26_m18.jpg?v=1791351696",
+  "details": "The Satin Smooth Talker Button Up instantly elevates any outfit.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "purple"
+  ],
+  "styles": [
+   "polished"
+  ]
+ },
+ {
+  "id": "alo-w3732r-dreamscape-button-down-long-sleeve-espresso",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Dreamscape Button Down Long Sleeve - Espresso",
+  "price": 128,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3732r-dreamscape-button-down-long-sleeve-espresso",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3732R_04064_b1_s1_a4_dFA26_m271.jpg?v=1786957165",
+  "details": "This lightweight layer feels like a dream.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w3732r-dreamscape-button-down-long-sleeve-rich-bordeaux",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Dreamscape Button Down Long Sleeve - Rich Bordeaux",
+  "price": 128,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3732r-dreamscape-button-down-long-sleeve-rich-bordeaux",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3732R_06547_b1_s1_a40_dFA26_m270.jpg?v=1791583466",
+  "details": "This lightweight layer feels like a dream.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "purple"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w3732r-dreamscape-button-down-long-sleeve-smoky-quartz",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Dreamscape Button Down Long Sleeve - Smoky Quartz",
+  "price": 102,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3732r-dreamscape-button-down-long-sleeve-smoky-quartz?variant=43774111908020",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3732R_02512_b1_s1_a1_m158.jpg?v=1741692510",
+  "details": "This lightweight layer feels like a dream.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w3732r-dreamscape-button-down-long-sleeve-taupe",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Dreamscape Button Down Long Sleeve - Taupe",
+  "price": 102,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3732r-dreamscape-button-down-long-sleeve-taupe?variant=50661343363431",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3732R_04481_b2_s1_a1_m18.jpg?v=1750654528",
+  "details": "This lightweight layer feels like a dream.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige",
+   "sand"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w3893r-pinstripe-daylight-button-down-long-sleeve-lunar-",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Pinstripe Daylight Button Down Long Sleeve - Lunar Grey/White",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3893r-pinstripe-daylight-button-down-long-sleeve-lunar-grey-white?variant=50661489901927",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3893R_06513_b1_s1_a5_m177.jpg?v=1754597402",
+  "details": "Add this button down to any outfit to instantly level up your look.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "grey"
+  ],
+  "styles": [
+   "statement",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w3925p-courchevel-silk-button-down-black-ivory",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Courchevel Silk Button Down - Black/Ivory",
+  "price": 368,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3925p-courchevel-silk-button-down-black-ivory?variant=43591354908852",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3925P_03850_b1_s1_a1_1_m143.jpg?v=1732658193",
+  "details": "Discover the ease and elegance of our first-ever silk collection.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black",
+   "cream"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
   "id": "andie-aura-mini-shirt-black",
   "gender": "women",
   "tier": "High-end",
@@ -131928,47 +132459,16 @@
   ]
  },
  {
-  "id": "andie-womens-palermo-short-sleeve-camp-shirt-poly-seer-sucke",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Andie",
-  "name": "Womens Palermo Short Sleeve Camp Shirt - Poly Seer Sucker Stripe - Vanilla Blue Stripe",
-  "price": 53,
-  "currency": "USD",
-  "productUrl": "https://www.andieswim.com/products/womens-palermo-short-sleeve-camp-shirt-poly-seer-sucker-stripe-vanilla-blue-stripe?variant=40742288588872",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/51WWT-PASS-VBST_01_c768c810-b591-435e-95b5-c7ff1b14e86c.jpg?v=1761143614",
-  "details": "Relaxed Fit Button Front Front Chest Pocket Side slit at side seam hem Pairs perfectly with the Palermo Drawstring Pant Light weight seer su",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "shirt"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "blue"
-  ],
-  "styles": [
-   "relaxed",
-   "statement",
-   "understated"
-  ]
- },
- {
-  "id": "andie-womens-venice-button-up-shirt-cotton-rayon-woven-black",
+  "id": "andie-the-short-sleeve-button-up-waffle-dove",
   "gender": "women",
   "tier": "Budget",
   "brand": "Andie",
-  "name": "Womens Venice Button Up Shirt - Cotton Rayon Woven - Black",
-  "price": 42,
+  "name": "The Short Sleeve Button Up - Waffle - Dove",
+  "price": 24,
   "currency": "USD",
-  "productUrl": "https://www.andieswim.com/products/womens-venice-button-up-shirt-cotton-rayon-woven-black?variant=40742220759112",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/34WWT-BUTO-BLCK_01.jpg?v=1761143543",
-  "details": "Oversized Fit long sleeve button up shirt Soft, breathable Cotton woven blend Tonal, faux horn buttons and patch pocket at chest Size small ",
+  "productUrl": "https://www.andieswim.com/products/the-short-sleeve-button-up-waffle-dove",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/TheShortSleeveButtonUp-Dove.jpg?v=1762445904",
+  "details": "Introducing our Short Sleeve Button Down - a versatile sleep essential.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "shirt"
@@ -131980,7 +132480,7 @@
    "unknown"
   ],
   "colours": [
-   "black"
+   "grey"
   ],
   "styles": [
    "relaxed",
@@ -131988,16 +132488,16 @@
   ]
  },
  {
-  "id": "andie-womens-venice-button-up-shirt-cotton-rayon-woven-bone",
+  "id": "andie-the-short-sleeve-button-up-waffle-lilac",
   "gender": "women",
   "tier": "Budget",
   "brand": "Andie",
-  "name": "Womens Venice Button Up Shirt - Cotton Rayon Woven - Bone",
-  "price": 42,
+  "name": "The Short Sleeve Button Up - Waffle - Lilac",
+  "price": 24,
   "currency": "USD",
-  "productUrl": "https://www.andieswim.com/products/womens-venice-button-up-shirt-cotton-rayon-woven-bone?variant=40742220922952",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/34WWT-BUTO-BONE_08.jpg?v=1761143547",
-  "details": "Oversized Fit long sleeve button up shirt Soft, breathable Cotton woven blend Tonal, faux horn buttons and patch pocket at chest Size small ",
+  "productUrl": "https://www.andieswim.com/products/the-short-sleeve-button-up-waffle-lilac",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/TheShortSleeveButtonTop-Lilac.jpg?v=1762445899",
+  "details": "Introducing our Short Sleeve Button Down - a versatile sleep essential.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "shirt"
@@ -132009,11 +132509,39 @@
    "unknown"
   ],
   "colours": [
-   "white"
+   "purple"
+  ],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "andie-the-short-sleeve-button-up-waffle-tea",
+  "gender": "women",
+  "tier": "Budget",
+  "brand": "Andie",
+  "name": "The Short Sleeve Button Up - Waffle - Tea",
+  "price": 24,
+  "currency": "USD",
+  "productUrl": "https://www.andieswim.com/products/the-short-sleeve-button-up-waffle-tea",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/TheShortSleeveButtonUp-Tea-3.jpg?v=1762445902",
+  "details": "Introducing our Short Sleeve Button Down - a versatile sleep essential.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "green"
   ],
   "styles": [
    "relaxed",
-   "understated"
+   "statement"
   ]
  },
  {
@@ -132071,6 +132599,115 @@
   ],
   "styles": [
    "relaxed"
+  ]
+ },
+ {
+  "id": "beyond-yoga-forever-favorite-button-down-sea-salt-stripe-00a",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Beyond Yoga",
+  "name": "Forever Favorite Button Down — Sea Salt Stripe",
+  "price": 118,
+  "currency": "USD",
+  "productUrl": "https://www.beyondyoga.com/products/forever-favorite-button-down-sea-salt-stripe-00abm-0001",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0265/6141/3219/files/WT_00ABM-0001_GLO_CM_FV.jpg?v=1787411022",
+  "details": "An oversized shirt designed to be a staple season after season.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "statement",
+   "understated"
+  ]
+ },
+ {
+  "id": "beyond-yoga-forever-favorite-button-down-white-00abm-0002",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Beyond Yoga",
+  "name": "Forever Favorite Button Down — White",
+  "price": 118,
+  "currency": "USD",
+  "productUrl": "https://www.beyondyoga.com/products/forever-favorite-button-down-white-00abm-0002",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0265/6141/3219/files/WT_00ABM-0002_GLO_CM_FV.jpg?v=1787410882",
+  "details": "An oversized shirt designed to be a staple season after season.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "beyond-yoga-sunkissed-cupro-button-down-iced-mocha-0075w-000",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Beyond Yoga",
+  "name": "Sunkissed Cupro Button Down — Iced Mocha",
+  "price": 68.5,
+  "currency": "USD",
+  "productUrl": "https://www.beyondyoga.com/products/sunkissed-cupro-button-down-iced-mocha-0075w-0000",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0265/6141/3219/files/0075W-0000_iced-mocha_add1.jpg?v=1784242176",
+  "details": "Made from 100% Cupro, the soft and silky Sunkissed Cupro Button Down is the perfect layer to throw over your swimsuit, your favorite set, or",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "beyond-yoga-sunkissed-cupro-button-down-muted-mauve-0075w-00",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Beyond Yoga",
+  "name": "Sunkissed Cupro Button Down — Muted Mauve",
+  "price": 68.5,
+  "currency": "USD",
+  "productUrl": "https://www.beyondyoga.com/products/sunkissed-cupro-button-down-muted-mauve-0075w-0001",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0265/6141/3219/files/0075W-0001_muted-mauve_3.jpg?v=1777441701",
+  "details": "Made from 100% Cupro, the soft and silky Sunkissed Cupro Button Down is the perfect layer to throw over your swimsuit, your favorite set, or",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "purple"
+  ],
+  "styles": [
+   "understated"
   ]
  },
  {
@@ -133127,29 +133764,31 @@
   ]
  },
  {
-  "id": "citizens-of-humanity-kayla-shirt-brown",
+  "id": "citizens-of-humanity-frances-cropped-cape-button-up-recycled",
   "gender": "women",
   "tier": "High-end",
   "brand": "Citizens of Humanity",
-  "name": "Kayla Portofino Twill Shirt in Brown",
-  "price": 368,
+  "name": "Frances Cropped Cape Recycled Leather Button Up in Black",
+  "price": 358,
   "currency": "USD",
-  "productUrl": "https://www.citizensofhumanity.com/products/kayla-shirt-brown",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0252/1042/1345/files/9103-1905_KAYLA_SHIRT_TWILL_BROWN_0106_b673e8ef-753b-4dce-bdeb-884dedb5baaf.jpg?v=1785964062",
-  "details": "The Kayla Shirt is a timeless button-up designed with a relaxed silhouette and effortless drape throughout.",
+  "productUrl": "https://www.citizensofhumanity.com/products/frances-cropped-cape-button-up-recycled-leather-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0252/1042/1345/files/9446-3015_FRANCES_BUTTON_UP_LEATHER_BLACK_0396.jpg?v=1785966420",
+  "details": "The Frances offers a modern interpretation of the classic button-up, crafted from buttery vegan leather with subtle stretch for added ease.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "shirt"
   ],
   "climates": [
+   "cold",
    "mild",
    "hot",
    "unknown"
   ],
   "colours": [
-   "brown"
+   "black"
   ],
   "styles": [
+   "polished",
    "understated"
   ]
  },
@@ -135134,6 +135773,34 @@
   ]
  },
  {
+  "id": "faherty-texas-tried-and-true-chambray-workshirt-durango-blac",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Faherty",
+  "name": "University of Texas Tried & True Chambray Workshirt - Durango Black",
+  "price": 218,
+  "currency": "USD",
+  "productUrl": "https://fahertybrand.com/products/texas-tried-and-true-chambray-workshirt-durango-black-1?variant=43763896254533",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0359/8357/files/MPF25119-DGB_2_b9fc0c68-7eab-4d5b-b462-b960c238ff59.jpg?v=1765472448",
+  "details": "This style was created in partnership with the University of Texas and celebrates Longhorn pride with design elements inspired by the spirit",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "faherty-the-movement-shirt-blue-bay-plaid",
   "gender": "men",
   "tier": "High-end",
@@ -136319,32 +136986,6 @@
   ]
  },
  {
-  "id": "frankies-bikinis-rosie-silk-blouse-gift-wrap",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Frankies Bikinis",
-  "name": "Rosie Silk Blouse - Gift Wrap",
-  "price": 105,
-  "currency": "USD",
-  "productUrl": "https://www.frankiesbikinis.com/products/rosie-silk-blouse-gift-wrap",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0158/2548/files/Frankiesbikinis-RosieBlouse-GiftWrap-Detail.jpg?v=1772474593",
-  "details": "Rosie is a personal favorite of Francesca’s.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "shirt"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "polished"
-  ]
- },
- {
   "id": "frankies-bikinis-rosie-silk-blouse-heaven",
   "gender": "women",
   "tier": "Quality",
@@ -136368,6 +137009,31 @@
   "colours": [],
   "styles": [
    "polished"
+  ]
+ },
+ {
+  "id": "frankies-bikinis-x-devon-lee-carlson-bestie-button-down-beac",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Frankies Bikinis",
+  "name": "x Devon Lee Carlson Bestie Button Down - Beach House Bloom",
+  "price": 220,
+  "currency": "USD",
+  "productUrl": "https://www.frankiesbikinis.com/products/x-devon-lee-carlson-bestie-button-down-beach-house-bloom",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0158/2548/files/Frankiesbikinis-BestieButtonDown-BeachHouseBloom-Front2.jpg?v=1785273635",
+  "details": "The Bestie chiffon button down is a 1970's western inspired piece.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "statement"
   ]
  },
  {
@@ -138484,109 +139150,76 @@
   ]
  },
  {
-  "id": "mack-weldon-24-7-poplin-short-sleeve-shirt",
-  "gender": "men",
-  "tier": "Budget",
-  "brand": "Mack Weldon",
-  "name": "24/7 Poplin Short Sleeve Shirt — Chambray Crosshatch",
-  "price": 42.99,
+  "id": "lunya-womens-airy-cotton-piped-button-down-rosewater-stripe",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Lunya",
+  "name": "Airy Cotton Piped Button Down — Rosewater Stripe",
+  "price": 128,
   "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/24-7-poplin-short-sleeve-shirt?variant=41365625274481",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01Y06-GGCW_Front_1_85033aff-3310-43e0-8566-0aad1d392caa.png?v=1762269287",
-  "details": "Whether you’re at the office or by the pool, our easygoing poplin button up is uniquely designed to keep you cool and comfortable.",
+  "productUrl": "https://www.lunya.co/products/womens-airy-cotton-piped-button-down-rosewater-stripe?variant=42592629227563",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/LOOK_04_AIRYCOTTON_PIPED_BUTTON_DOWN_PIPED_SHORT_ROSEWATER_0761_1_01_1.jpg?v=1773354419",
+  "details": "Light, crisp, and perfectly oversized.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "shirt"
   ],
   "climates": [
-   "cold",
    "mild",
-   "hot",
    "unknown"
   ],
   "colours": [],
   "styles": [
-   "relaxed"
+   "statement"
   ]
  },
  {
-  "id": "mack-weldon-37-5-oxford-shirt",
-  "gender": "men",
-  "tier": "Budget",
-  "brand": "Mack Weldon",
-  "name": "37.5® Oxford — Blue Yonder",
-  "price": 39.99,
+  "id": "lunya-womens-airy-cotton-piped-button-down-stillwater-stripe",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Lunya",
+  "name": "Airy Cotton Piped Button Down — Stillwater Stripe/Spring Clover",
+  "price": 128,
   "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/37-5-oxford-shirt?variant=41365745434737",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Oxford_BlueYonder_Front_90086341-c574-43fb-a612-e50dea094228.png?v=1728554088",
-  "details": "High-performance.",
+  "productUrl": "https://www.lunya.co/products/womens-airy-cotton-piped-button-down-stillwater-stripespring-clover?variant=42592629030955",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/LOOK_01_AIRYCOTTON_PIPED_BUTTON_DOWN_WIDELEG_PANT_SPRINGCLOVER_0068_01.jpg?v=1773352368",
+  "details": "Light, crisp, and perfectly oversized.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "shirt"
   ],
   "climates": [
-   "cold",
    "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "polished"
-  ]
- },
- {
-  "id": "mack-weldon-airflex-shirt-fs",
-  "gender": "men",
-  "tier": "Budget",
-  "brand": "Mack Weldon",
-  "name": "AIRFLEX Shirt — True Navy Ticker Tape",
-  "price": 34.99,
-  "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/airflex-shirt-fs?variant=41368107614321",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01Y04-TNTTS_Front_b56edeb4-6ea5-4b8b-a1a7-48d9f728b14a.png?v=1732050669",
-  "details": "It’s all right there in the name: AIRFLEX.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "shirt"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "navy"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "mack-weldon-chambray-endeavor-work-shirt",
-  "gender": "men",
-  "tier": "Budget",
-  "brand": "Mack Weldon",
-  "name": "Chambray Endeavor Work Shirt",
-  "price": 39.99,
-  "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/chambray-endeavor-work-shirt?variant=41368096931953",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01Y03-CHMB_Front_ecb05309-99d2-4cc4-9aab-4ae888f0158e.png?v=1762269382",
-  "details": "Our update on the classic work shirt is exceptionally soft with strong utility details.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "shirt"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
    "unknown"
   ],
   "colours": [],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
+  "id": "mack-weldon-corduroy-button-up",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Mack Weldon",
+  "name": "Corduroy Button Up — Thistle Grey",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/corduroy-button-up?variant=44025667846257",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Corduroy-Button-Up-Shirt_Thistle-Grey_M01Y13-TLG.png?v=1786642761",
+  "details": "Every guy needs a good corduroy shirt.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
   "styles": [
    "understated"
   ]
@@ -138677,6 +139310,114 @@
   "styles": [
    "relaxed",
    "understated"
+  ]
+ },
+ {
+  "id": "mack-weldon-silver-jersey-button-up",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Mack Weldon",
+  "name": "SILVER Jersey Button Up — Bright White",
+  "price": 128,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/silver-jersey-button-up?variant=42863690973297",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Silver-Jersey-Button-Up_Bright-White_M01T03-BW.png?v=1768513169",
+  "details": "An easygoing button up that features the softness and stretch of our bestselling tees.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "mack-weldon-silver-pique-button-up",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Mack Weldon",
+  "name": "SILVER Pique Button Up — Monument",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/silver-pique-button-up?variant=42948542791793",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Silver-Pique-LS-Button-Down_Monument_M02T01-MNMT.png?v=1768254770",
+  "details": "Looks like a button up, feels like anything but.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "mack-weldon-silver-pique-short-sleeve-button-up",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Mack Weldon",
+  "name": "SILVER Pique Short Sleeve Button Up — Total Eclipse Chambray Oxford",
+  "price": 78.99,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/silver-pique-short-sleeve-button-up?variant=41806978908273",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01T31-TECH_Front.png?v=1762270017",
+  "details": "Introducing summer’s most covetable button up: a timeless style updated with world-class cotton and a stretchy, polo-like texture.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "polished",
+   "relaxed"
+  ]
+ },
+ {
+  "id": "mack-weldon-terry-cloth-short-sleeve-button-up",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Mack Weldon",
+  "name": "Terry Cloth Short Sleeve Button Up — Desert Taupe",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/terry-cloth-short-sleeve-button-up?variant=43195784724593",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Terry-Cloth-Short-Sleeve-Button-Up_Desert-Taupe_M01T45-DT-171.png?v=1777913673",
+  "details": "Designed with cotton-rich terry cloth, our beachiest button up goes best with frozen drinks, dramatic sunsets, and a matching pair of shorts",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "sand"
+  ],
+  "styles": [
+   "relaxed"
   ]
  },
  {
@@ -139181,6 +139922,37 @@
   ]
  },
  {
+  "id": "naadam-signature-cashmere-short-sleeve-button-down",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Naadam",
+  "name": "Signature Cashmere Short Sleeve Button Down — Black",
+  "price": 141,
+  "currency": "USD",
+  "productUrl": "https://www.naadam.co/products/signature-cashmere-short-sleeve-button-down?variant=41568330940512",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0313/7821/files/Signature-Cashmere-Short-Sleeve-Button-Down_Black_0757.jpg?v=1764788207",
+  "details": "Summer, but make it soft.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black",
+   "sand",
+   "olive"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "oak-fort-belted-cotton-plaid-shirt-wt-17517-w",
   "gender": "women",
   "tier": "Quality",
@@ -139234,34 +140006,6 @@
   ],
   "styles": [
    "relaxed"
-  ]
- },
- {
-  "id": "oak-fort-double-layered-blouse-wt-17251-w",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Oak + Fort",
-  "name": "DOUBLE LAYERED BLOUSE — Charcoal",
-  "price": 108,
-  "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/double-layered-blouse-wt-17251-w?variant=49815349723375",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Blouse-17251_Charcoal-1.jpg?v=1786644777",
-  "details": "This double layered blouse is designed with a layered front and a collared neckline for a refined, tailored look.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "shirt"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "grey"
-  ],
-  "styles": [
-   "understated"
   ]
  },
  {
@@ -139374,6 +140118,32 @@
   "colours": [
    "brown"
   ],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
+  "id": "oak-fort-plaid-scarf-tie-shirt-wt-17861-w",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Oak + Fort",
+  "name": "PLAID SCARF TIE SHIRT — Wine",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.oakandfort.com/products/plaid-scarf-tie-shirt-wt-17861-w?variant=50931700564207",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Blouse-17861_Wine-1.jpg?v=1792808931",
+  "details": "This plaid shirt is designed with a coordinating scarf tie at the neckline for a more styled take on classic shirting.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
   "styles": [
    "statement"
   ]
@@ -142428,7 +143198,7 @@
   ],
   "colours": [
    "black",
-   "white",
+   "navy",
    "blue"
   ],
   "styles": [
@@ -143183,6 +143953,32 @@
   "colours": [],
   "styles": [
    "relaxed"
+  ]
+ },
+ {
+  "id": "tommy-john-flannel-long-sleeve-button-up",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Tommy John",
+  "name": "All Day Flannel Long Sleeve Button Up — Dress Blues Checkered Plaid",
+  "price": 68,
+  "currency": "USD",
+  "productUrl": "https://tommyjohn.com/products/flannel-long-sleeve-button-up?variant=67408030892077",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2964/7474/files/1004620_401983_473_Ecomm_Front_M_S_FLAN_LSCRW_10.8.26_e73792d0-e18a-4d91-8c5c-c66a2cf24384.jpg?v=1787928838",
+  "details": "All Day Flannel Long Sleeve Button Up Ultra-Soft Non-Pilling Machine Washable Classic Button-Down: Full-placket button down top.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed",
+   "statement"
   ]
  },
  {
@@ -144126,6 +144922,33 @@
   ]
  },
  {
+  "id": "woolx-merino-wool-womens-lorelai-button-up-shirt",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Woolx",
+  "name": "Lorelai Button Up - Black",
+  "price": 175,
+  "currency": "USD",
+  "productUrl": "https://woolx.com/products/merino-wool-womens-lorelai-button-up-shirt?variant=44143319908418",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/small-2_eab4c6a6-d08f-4ad9-b343-e55ceeaa9d8a.jpg?v=1789739636",
+  "details": "Temperature Regulating: Merino adapts to your body temperature, helping keep you warm when it’s cool and comfortable when things heat up.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "woolx-wilder-merino-wool-shirt-jac",
   "gender": "men",
   "tier": "High-end",
@@ -144149,6 +144972,34 @@
   "colours": [
    "black",
    "navy"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "woolx-womens-merino-wool-lorelai-button-up",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Woolx",
+  "name": "Lorelai Button Up — Black",
+  "price": 175,
+  "currency": "USD",
+  "productUrl": "https://woolx.com/products/womens-merino-wool-lorelai-button-up?variant=44143319908418",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/small-2_eab4c6a6-d08f-4ad9-b343-e55ceeaa9d8a.jpg?v=1789739636",
+  "details": "Temperature Regulating: Merino adapts to your body temperature, helping keep you warm when it’s cool and comfortable when things heat up.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
   ],
   "styles": [
    "understated"
@@ -144904,16 +145755,16 @@
   ]
  },
  {
-  "id": "alo-m6201p-7-linen-jersey-coastal-short-white",
+  "id": "alo-m6158r-5-circuit-short-dune-grass",
   "gender": "men",
-  "tier": "High-end",
+  "tier": "Quality",
   "brand": "Alo",
-  "name": "7\" Linen Jersey Coastal Short - White",
-  "price": 158,
+  "name": "5\" Circuit Short - Dune Grass",
+  "price": 68,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m6201p-7-linen-jersey-coastal-short-white",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M6201P_05594_b1_s1_a2_dSU26_m243_7e171bb3-0253-424e-8c64-a920107aef37.jpg?v=1781840286",
-  "details": "There’s nothing like linen for summer.",
+  "productUrl": "https://www.aloyoga.com/products/m6158r-5-circuit-short-dune-grass",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M6158R_07947_b1_s1_a5_dSU26_m214_1.jpg?v=1784540351",
+  "details": "Your favorite gym shorts just got shorter...",
   "checkedAt": "2026-10-24",
   "kinds": [
    "shorts"
@@ -144923,38 +145774,11 @@
    "mild"
   ],
   "colours": [
-   "white"
+   "green"
   ],
   "styles": [
    "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "alo-w6295r-airlift-energy-short-lunar-grey",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "5\" Airlift Energy Short - Lunar Grey",
-  "price": 88,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6295r-airlift-energy-short-lunar-grey?variant=50661517656423",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6295R_06461_b2_s1_a1_m143.jpg?v=1754634790",
-  "details": "Found: the perfect pair of biker shorts.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "shorts"
-  ],
-  "climates": [
-   "hot",
-   "mild"
-  ],
-  "colours": [
-   "grey"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
+   "statement"
   ]
  },
  {
@@ -145022,6 +145846,33 @@
   "productUrl": "https://www.aloyoga.com/products/w6334r-match-point-short-lunar-grey?variant=50661518508391",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6334R_06461_b2_s1_a1_m240.jpg?v=1754634947",
   "details": "Game, set, match.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w6368r-alolux-high-waist-me-time-short-athletic-heather-",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Alolux High-Waist Me Time Short - Athletic Heather Grey",
+  "price": 64,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w6368r-alolux-high-waist-me-time-short-athletic-heather-grey?variant=42376148484276",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6368R_02910_b1_s1_a1_1_m18.jpg?v=1699569537",
+  "details": "The Alolux Me Time Short is seriously comfy.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "shorts"
@@ -157224,33 +158075,6 @@
   ]
  },
  {
-  "id": "alo-w6235r-aces-tennis-skirt-black",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Aces Tennis Skirt - Black",
-  "price": 59,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6235r-aces-tennis-skirt-black?variant=39601769447604",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6235R_01_b1_s1_a1_1_m125.jpg?v=1704221494",
-  "details": "Singles? How about doubles? You’ll want more than one of the Aces Tennis Skirt, a lightweight, wrap-style tennis skirt (!) that’s perfect fo",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "skirt"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-w6427r-tennis-club-sweater-knit-skirt-crystal-clear-blue",
   "gender": "women",
   "tier": "Quality",
@@ -157334,6 +158158,33 @@
   ]
  },
  {
+  "id": "alo-w6480r-alumni-tennis-skirt-black",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Alumni Tennis Skirt - Black",
+  "price": 88,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w6480r-alumni-tennis-skirt-black?variant=50661363876199",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6480R_01_b1_s1_a1_m161.jpg?v=1748405839",
+  "details": "Channel your inner courtside cutie (with this style, it won’t be hard).",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "alo-w6480r-alumni-tennis-skirt-white",
   "gender": "women",
   "tier": "Quality",
@@ -157341,7 +158192,7 @@
   "name": "Alumni Tennis Skirt - White",
   "price": 88,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6480r-alumni-tennis-skirt-white?variant=50661363679591",
+  "productUrl": "https://www.aloyoga.com/products/w6480r-alumni-tennis-skirt-white?variant=50661363646823",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6480R_00_b1_s1_a5_m91.jpg?v=1748405746",
   "details": "Channel your inner courtside cutie (with this style, it won’t be hard).",
   "checkedAt": "2026-10-24",
@@ -157368,7 +158219,7 @@
   "name": "Alosoft Better Together Tennis Skirt - Athletic Heather Grey/White",
   "price": 78,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6491r-alosoft-better-together-tennis-skirt-athletic-heather-grey-white?variant=50661365875047",
+  "productUrl": "https://www.aloyoga.com/products/w6491r-alosoft-better-together-tennis-skirt-athletic-heather-grey-white?variant=50661365743975",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6491R_03320_b1_s1_a1_m91.jpg?v=1748404981",
   "details": "Get your layer on, without wearing more than one piece.",
   "checkedAt": "2026-10-24",
@@ -168983,7 +169834,7 @@
   "price": 84,
   "currency": "USD",
   "productUrl": "https://www.yourparade.com/products/organic-womens-pajamas?variant=45399745036311",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0045/4757/5842/files/FW26_JAMMIES_WOMEN_PAJAMAS_SIG_berries.jpg?v=1792799824",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0045/4757/5842/files/FW26_JAMMIES_WOMEN_PAJAMAS_SIG_berries.jpg?v=1792813011",
   "details": "Made from the same luxuriously soft, GOTS-certified organic cotton as our fan-favorite kids’ jammies, these women’s pajamas are all about co",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -171575,6 +172426,64 @@
   ]
  },
  {
+  "id": "alo-a0094w-womens-pivot-barre-sock-white-loyalty",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Women's Pivot Barre Sock - White",
+  "price": 38,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0094w-womens-pivot-barre-sock-white-loyalty?variant=50662453281127",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/ChatGPTImageSep24_2026_11_35_57PM.png?v=1790361713",
+  "details": "No-slip grips, cushioning soles and fit-perfecting elastic straps.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-a0357u-unisex-throwback-sock-charcoal-green-ivory",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Unisex Throwback Sock - Charcoal Green/Ivory",
+  "price": 23,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0357u-unisex-throwback-sock-charcoal-green-ivory?variant=43774080516276",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0357U_06469_b1_s1_a1_8f1222e9-f25f-4fb0-ab1e-2366f810ce1c.jpg?v=1738610675",
+  "details": "Instant classic.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "cream",
+   "grey",
+   "green"
+  ],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
   "id": "alo-a0357u-unisex-throwback-sock-marathon-blue-white",
   "gender": "unisex",
   "tier": "High-end",
@@ -171598,63 +172507,6 @@
   "colours": [
    "white",
    "blue"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-a0411w-womens-strappy-siren-grip-sock-smoky-quartz",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Women's Strappy Siren Grip Sock - Smoky Quartz",
-  "price": 33,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0411w-womens-strappy-siren-grip-sock-smoky-quartz?variant=43774075928756",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0411W_02512_b1_s1_a1.jpg?v=1741697058",
-  "details": "A studio class essential, this crew-length barre sock features cushioned soles with no-slip silicone grips, elastic cross-strap details and ",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-a0429w-plush-lush-sock-ivory",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Women's Plush Lush Sock - Ivory",
-  "price": 32,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0429w-plush-lush-sock-ivory",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0429W_032991_b1_a1_413e7c8e-a423-426e-abdb-b733d0fd486a.jpg?v=1777696244",
-  "details": "Fleecy-soft and ultra-comfy.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "cream"
   ],
   "styles": [
    "understated"
@@ -171862,34 +172714,6 @@
   ]
  },
  {
-  "id": "alo-a0690u-unisex-scrunch-sock-spearmint",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Unisex Scrunch Sock - Spearmint",
-  "price": 25,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0690u-unisex-scrunch-sock-spearmint?variant=50661323702631",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0690U_06326_b1_s1_a1.jpg?v=1747823378",
-  "details": "Super soft & breathable.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "green"
-  ],
-  "styles": [
-   "statement"
-  ]
- },
- {
   "id": "alo-a0838u-unisex-half-crew-scrunch-sock-pink-wild-rose",
   "gender": "unisex",
   "tier": "High-end",
@@ -171915,6 +172739,32 @@
   ],
   "styles": [
    "statement"
+  ]
+ },
+ {
+  "id": "alo-a0930u-cashmere-mesh-sock-java-brown",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Cashmere Mesh Sock - Java Brown",
+  "price": 68,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0930u-cashmere-mesh-sock-java-brown",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0930U_08194_b1_s1_a1_dFA26_1.jpg?v=1791354404",
+  "details": "The Cashmere Mesh Sock is a finishing touch that changes your whole look.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "polished"
   ]
  },
  {
@@ -178584,222 +179434,6 @@
   ]
  },
  {
-  "id": "stance-banner-bos-offwhite",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Stance",
-  "name": "BANNER BOSTON CELTICS — OFFWHITE",
-  "price": 19.99,
-  "currency": "USD",
-  "productUrl": "https://www.stance.com/products/banner-bos-offwhite",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A555D26BBO_OFW_c0abbb84-b6df-46e3-8932-07b5dfb71467.png?v=1789673386",
-  "details": "Banner brings bold team lettering and contrasting colors to a casual off-white crew, so you can rep your squad from tip-off to the final buz",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "stance-banner-gsw-offwhite",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Stance",
-  "name": "BANNER GOLDEN STATE WARRIORS — OFFWHITE",
-  "price": 19.99,
-  "currency": "USD",
-  "productUrl": "https://www.stance.com/products/banner-gsw-offwhite",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A555D26BGS_OFW.png?v=1789673378",
-  "details": "Banner brings bold team lettering and contrasting colors to a casual off-white crew, so you can rep your squad from tip-off to the final buz",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "stance-banner-lal-offwhite",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Stance",
-  "name": "BANNER LOS ANGELES LAKERS — OFFWHITE",
-  "price": 19.99,
-  "currency": "USD",
-  "productUrl": "https://www.stance.com/products/banner-lal-offwhite",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A555D26BLA_OFW_3af8c6ae-ab21-47c7-adf2-bcfd93fda9e6.png?v=1789673381",
-  "details": "Banner brings bold team lettering and contrasting colors to a casual off-white crew, so you can rep your squad from tip-off to the final buz",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "stance-banner-nyk-offwhite",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Stance",
-  "name": "BANNER NEW YORK KNICKS — OFFWHITE",
-  "price": 19.99,
-  "currency": "USD",
-  "productUrl": "https://www.stance.com/products/banner-nyk-offwhite",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A555D26BNY_OFW_c55373de-136c-4882-8edd-5ed8ad1c2a98.png?v=1789673385",
-  "details": "Banner brings bold team lettering and contrasting colors to a casual off-white crew, so you can rep your squad from tip-off to the final buz",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "stance-bears-crest-navy",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Stance",
-  "name": "BEARS CREST — NAVY",
-  "price": 17.99,
-  "currency": "USD",
-  "productUrl": "https://www.stance.com/products/bears-crest-navy",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26BEA_NVY.png?v=1790806414",
-  "details": "A classic crew for the team you back.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "navy"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "stance-bengals-crest-black",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Stance",
-  "name": "BENGALS CREST — BLACK",
-  "price": 17.99,
-  "currency": "USD",
-  "productUrl": "https://www.stance.com/products/bengals-crest-black",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26BEN_BLK.png?v=1790806416",
-  "details": "A classic crew for the team you back.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "stance-bills-crest-blue",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Stance",
-  "name": "BILLS CREST — BLUE",
-  "price": 17.99,
-  "currency": "USD",
-  "productUrl": "https://www.stance.com/products/bills-crest-blue",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26BIL_BLU.png?v=1790806424",
-  "details": "A classic crew for the team you back.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "stance-broncos-crest-navy",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Stance",
-  "name": "BRONCOS CREST — NAVY",
-  "price": 17.99,
-  "currency": "USD",
-  "productUrl": "https://www.stance.com/products/broncos-crest-navy",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26BRO_NVY.png?v=1790806427",
-  "details": "A classic crew for the team you back.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "navy"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "stance-cle-camo-trees",
   "gender": "men",
   "tier": "Quality",
@@ -178810,6 +179444,32 @@
   "productUrl": "https://www.stance.com/products/cle-camo-trees?variant=53535191236946",
   "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D25CLC_MUL.png?v=1779468651",
   "details": "Let's Go Team! Featuring a seamless toe closure, targeted cushioning and arch support.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "stance-ind-theater-multi",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Stance",
+  "name": "IND THEATER — MULTI",
+  "price": 19.99,
+  "currency": "USD",
+  "productUrl": "https://www.stance.com/products/ind-theater-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26IND_MUL_ALT_01_616ffc73-1aa1-4a65-a8f5-e64a6a5cd401.png?v=1792792548",
+  "details": "Game Theater puts your team’s name and logo on a fast-moving print that fits the moment, whether you’re courtside or couch-side.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "socks"
@@ -178854,6 +179514,162 @@
   ]
  },
  {
+  "id": "stance-lal-theater-multi",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Stance",
+  "name": "LAL THEATER — MULTI",
+  "price": 19.99,
+  "currency": "USD",
+  "productUrl": "https://www.stance.com/products/lal-theater-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26LAL_MUL_ALT_01.png?v=1792792559",
+  "details": "Game Theater puts your team’s name and logo on a fast-moving print that fits the moment, whether you’re courtside or couch-side.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "stance-mia-theater-multi",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Stance",
+  "name": "MIA THEATER — MULTI",
+  "price": 19.99,
+  "currency": "USD",
+  "productUrl": "https://www.stance.com/products/mia-theater-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26MIA_MUL_ALT_01_ef674e27-04b9-4312-811f-9a6103dbce11.png?v=1792792561",
+  "details": "Game Theater puts your team’s name and logo on a fast-moving print that fits the moment, whether you’re courtside or couch-side.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "stance-min-theater-multi",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Stance",
+  "name": "MIN THEATER — MULTI",
+  "price": 19.99,
+  "currency": "USD",
+  "productUrl": "https://www.stance.com/products/min-theater-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26MIN_MUL_ALT_01_8ec885cf-4998-44fa-9a1c-60ca57fa1198.png?v=1792792561",
+  "details": "Game Theater puts your team’s name and logo on a fast-moving print that fits the moment, whether you’re courtside or couch-side.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "stance-nyk-theater-multi",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Stance",
+  "name": "NYK THEATER — MULTI",
+  "price": 19.99,
+  "currency": "USD",
+  "productUrl": "https://www.stance.com/products/nyk-theater-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26NYK_MUL_ALT_01_dba8bec2-1ffb-40b6-ac77-294ce998ea3d.png?v=1792792561",
+  "details": "Game Theater puts your team’s name and logo on a fast-moving print that fits the moment, whether you’re courtside or couch-side.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "stance-okc-theater-multi",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Stance",
+  "name": "OKC THEATER — MULTI",
+  "price": 19.99,
+  "currency": "USD",
+  "productUrl": "https://www.stance.com/products/okc-theater-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26OKC_MUL_ALT_01_ccb0f650-b0bb-4b1c-b990-951fc3ec30cf.png?v=1792792573",
+  "details": "Game Theater puts your team’s name and logo on a fast-moving print that fits the moment, whether you’re courtside or couch-side.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "stance-phi-theater-multi",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Stance",
+  "name": "PHI THEATER — MULTI",
+  "price": 19.99,
+  "currency": "USD",
+  "productUrl": "https://www.stance.com/products/phi-theater-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26PHI_MUL_ALT_01_1ad954ce-993b-499f-bf27-361bbdc28457.png?v=1792792575",
+  "details": "Game Theater puts your team’s name and logo on a fast-moving print that fits the moment, whether you’re courtside or couch-side.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "stance-san-diego-padres-diamond-pro-b-baseball-socks",
   "gender": "men",
   "tier": "Budget",
@@ -178879,6 +179695,32 @@
   ],
   "styles": [
    "statement"
+  ]
+ },
+ {
+  "id": "stance-san-theater-multi",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Stance",
+  "name": "SAN THEATER — MULTI",
+  "price": 19.99,
+  "currency": "USD",
+  "productUrl": "https://www.stance.com/products/san-theater-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1024/0878/2162/files/A556D26SAS_MUL_ALT_01_c2cecfb4-078d-488a-94f8-ec64c0090e3f.png?v=1792792576",
+  "details": "Game Theater puts your team’s name and logo on a fast-moving print that fits the moment, whether you’re courtside or couch-side.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
   ]
  },
  {
@@ -183028,33 +183870,6 @@
   ]
  },
  {
-  "id": "alo-a0543u-performance-off-duty-cap-azure-blue",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Performance Off-Duty Cap - Azure Blue",
-  "price": 68,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0543u-performance-off-duty-cap-azure-blue",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0543U_04830_b1_s1_a3_dSU26.jpg?v=1780653222",
-  "details": "Get your head in the game in the Performance Off-Duty Hat.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "sun-hat"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-a0543u-performance-off-duty-cap-bluestone",
   "gender": "unisex",
   "tier": "High-end",
@@ -183133,6 +183948,60 @@
   ],
   "styles": [
    "statement"
+  ]
+ },
+ {
+  "id": "alo-a0543u-performance-off-duty-cap-winter-frost",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Performance Off-Duty Cap - Winter Frost",
+  "price": 68,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0543u-performance-off-duty-cap-winter-frost",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0543U_06646_b2_s1_a1.jpg?v=1761623324",
+  "details": "Get your head in the game in the Performance Off-Duty Hat.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "sun-hat"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-a0545u-performance-district-trucker-hat-bluestone",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Performance District Trucker Hat - Bluestone",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0545u-performance-district-trucker-hat-bluestone?variant=42542413152436",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0545U_04352_b1_s3_a1_1_m93_7534fbcb-2401-478c-a920-e3735a3d8cbf.jpg?v=1760059489",
+  "details": "A good hat is hard to find—which is why we made the Performance District Trucker Hat.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "sun-hat"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
   ]
  },
  {
@@ -200278,6 +201147,62 @@
   ]
  },
  {
+  "id": "alo-m1224r-double-take-short-sleeve-brownstone",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Double Take Short Sleeve - Brownstone",
+  "price": 88,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1224r-double-take-short-sleeve-brownstone?variant=50661762695527",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1224R_06659_b2_s1_a1_m243.jpg?v=1763420794",
+  "details": "Think of the Double Take as a thicker, more substantial version of your favorite tee.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "alo-m1224r-double-take-short-sleeve-brownstone-womens",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Double Take Short Sleeve - Brownstone",
+  "price": 88,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1224r-double-take-short-sleeve-brownstone-womens?variant=50661767184743",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1224R_06659_b1_s1_a3_m261.jpg?v=1763486065",
+  "details": "Think of the Double Take as a thicker, more substantial version of your favorite tee.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
   "id": "alo-m1224r-double-take-short-sleeve-rich-bordeaux",
   "gender": "men",
   "tier": "High-end",
@@ -200331,35 +201256,6 @@
   ],
   "styles": [
    "relaxed"
-  ]
- },
- {
-  "id": "alo-m1235r-coastal-terry-button-up-bone",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Coastal Terry Button Up - Bone",
-  "price": 98,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m1235r-coastal-terry-button-up-bone?variant=50661325341031",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1235R_03040_b1_s1_a1_m214.jpg?v=1746504805",
-  "details": "This shirt is a summertime essential, made from cozy, stretchy terry that feels like a towel but looks way cooler.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
   ]
  },
  {
@@ -200590,6 +201486,34 @@
   ]
  },
  {
+  "id": "alo-w1430r-all-day-short-sleeve-winter-frost",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "All Day Short Sleeve - Winter Frost",
+  "price": 68,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w1430r-all-day-short-sleeve-winter-frost",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W1430R_06646_b1_s1_a7_m209.jpg?v=1776826605",
+  "details": "The All Day Short Sleeve is the ultimate off-duty option.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
   "id": "alo-w1449r-ribbed-sea-coast-tee-ivory",
   "gender": "women",
   "tier": "High-end",
@@ -200620,15 +201544,45 @@
   ]
  },
  {
-  "id": "alo-w2675rg-aspire-tank-bluestone-white",
+  "id": "alo-w1459r-denim-knit-sleeveless-full-zip-top-oat-milk-ivory",
   "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Aspire Tank - Bluestone/White",
-  "price": 68,
+  "name": "Denim Knit Sleeveless Full Zip Top - Oat Milk/Ivory",
+  "price": 100,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w2675rg-aspire-tank-bluestone-white?variant=50661482889575",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2675RG_06514_b2_s1_a1_m256.jpg?v=1759983111",
+  "productUrl": "https://www.aloyoga.com/products/w1459r-denim-knit-sleeveless-full-zip-top-oat-milk-ivory?variant=43591359234228",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W1459R_05857_b1_s1_a1_1_m54.jpg?v=1769646465",
+  "details": "Keep your style effortlessly sleek with the Denim Knit Sleeveless Top.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "cream",
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w2675rg-aspire-tank-seashell-blue-white",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Aspire Tank - Seashell Blue/White",
+  "price": 54,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w2675rg-aspire-tank-seashell-blue-white",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2675RG_05442_b1_s1_a1_m241.jpg?v=1749468151",
   "details": "Meet your new go-to, the Aspire Tank.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -200699,62 +201653,6 @@
   ],
   "colours": [
    "pink"
-  ],
-  "styles": [
-   "statement"
-  ]
- },
- {
-  "id": "alo-w2799r-ribbed-prosper-tank-lunar-grey",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Ribbed Prosper Tank - Lunar Grey",
-  "price": 78,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w2799r-ribbed-prosper-tank-lunar-grey?variant=50661484659047",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2799R_06461_b2_s1_a1_m240.jpg?v=1755125487",
-  "details": "A good wardrobe always has a go-to tank top, and the Ribbed Prosper Tank is about to be yours.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "grey"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-w9940r-alo-softsculpt-no-nonsense-bra-tank-summer-romanc",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "ALO Softsculpt No Nonsense Bra Tank - Summer Romance Red",
-  "price": 88,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w9940r-alo-softsculpt-no-nonsense-bra-tank-summer-romance-red",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9940R_07952_b2_s1_a1_dSU26_m174.jpg?v=1780609839",
-  "details": "The name says it all.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "red"
   ],
   "styles": [
    "statement"
@@ -201025,16 +201923,16 @@
   ]
  },
  {
-  "id": "andie-the-short-sleeve-button-up-waffle-dove",
+  "id": "andie-womens-recycled-stripe-tee-recycled-cotton-jersey-cham",
   "gender": "women",
-  "tier": "Quality",
+  "tier": "High-end",
   "brand": "Andie",
-  "name": "The Short Sleeve Button Up - Waffle - Dove",
-  "price": 24,
+  "name": "Womens Recycled Stripe Tee - Recycled Jersey - Chambray Stripe",
+  "price": 62,
   "currency": "USD",
-  "productUrl": "https://www.andieswim.com/products/the-short-sleeve-button-up-waffle-dove",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/TheShortSleeveButtonUp-Dove.jpg?v=1762445904",
-  "details": "Introducing our Short Sleeve Button Down - a versatile sleep essential.",
+  "productUrl": "https://www.andieswim.com/products/womens-recycled-stripe-tee-recycled-cotton-jersey-chambray-stripe",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/ChamBlue-Front2.webp?v=1781016210",
+  "details": "The Recycled Stripe Crop Tee is an effortless warm weather staple featuring a boxy, cropped crew neck made entirely from recycled fibers.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "tee"
@@ -201046,68 +201944,13 @@
    "unknown"
   ],
   "colours": [
-   "grey"
+   "white",
+   "blue"
   ],
   "styles": [
    "relaxed",
+   "statement",
    "understated"
-  ]
- },
- {
-  "id": "andie-the-short-sleeve-button-up-waffle-lilac",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Andie",
-  "name": "The Short Sleeve Button Up - Waffle - Lilac",
-  "price": 24,
-  "currency": "USD",
-  "productUrl": "https://www.andieswim.com/products/the-short-sleeve-button-up-waffle-lilac",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/TheShortSleeveButtonTop-Lilac.jpg?v=1762445899",
-  "details": "Introducing our Short Sleeve Button Down - a versatile sleep essential.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "purple"
-  ],
-  "styles": [
-   "relaxed"
-  ]
- },
- {
-  "id": "andie-the-short-sleeve-button-up-waffle-tea",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Andie",
-  "name": "The Short Sleeve Button Up - Waffle - Tea",
-  "price": 24,
-  "currency": "USD",
-  "productUrl": "https://www.andieswim.com/products/the-short-sleeve-button-up-waffle-tea",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/TheShortSleeveButtonUp-Tea-3.jpg?v=1762445902",
-  "details": "Introducing our Short Sleeve Button Down - a versatile sleep essential.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "green"
-  ],
-  "styles": [
-   "relaxed",
-   "statement"
   ]
  },
  {
@@ -201179,6 +202022,64 @@
   "productUrl": "https://www.andieswim.com/products/womens-relaxed-crop-tee-pigment-dye-jersey-heather-grey",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/ALVA-RP-ECOM1903copy.webp?v=1790014814",
   "details": "Relaxed fit Pigment dyed Dropped shoulder seams Oversized neck rib This style is pigment dyed, making every piece unique.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "andie-womens-relaxed-everyday-tee-pigment-dye-jersey-heather",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Andie",
+  "name": "Womens Relaxed Everyday Tee - Pigment Dye Jersey - Heather Grey",
+  "price": 40,
+  "currency": "USD",
+  "productUrl": "https://www.andieswim.com/products/womens-relaxed-everyday-tee-pigment-dye-jersey-heather-grey",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/51WTT-EVGT_HEATHER-GREY_2174-close.jpg?v=1772753370",
+  "details": "in Heather Grey",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "andie-womens-relaxed-muscle-tee-pigment-dye-jersey-heather-g",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Andie",
+  "name": "Womens Relaxed Muscle Tee - Pigment Dye Jersey - Heather Grey",
+  "price": 48,
+  "currency": "USD",
+  "productUrl": "https://www.andieswim.com/products/womens-relaxed-muscle-tee-pigment-dye-jersey-heather-grey",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/34WTT-SSRM_HEATHER-GREY_2259-front.jpg?v=1772753464",
+  "details": "in Bone",
   "checkedAt": "2026-10-24",
   "kinds": [
    "tee"
@@ -211409,54 +212310,6 @@
   ]
  },
  {
-  "id": "lunya-womens-airy-cotton-piped-button-down-rosewater-stripe",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Lunya",
-  "name": "Airy Cotton Piped Button Down — Rosewater Stripe",
-  "price": 128,
-  "currency": "USD",
-  "productUrl": "https://www.lunya.co/products/womens-airy-cotton-piped-button-down-rosewater-stripe?variant=42592629227563",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/LOOK_04_AIRYCOTTON_PIPED_BUTTON_DOWN_PIPED_SHORT_ROSEWATER_0761_1_01_1.jpg?v=1773354419",
-  "details": "Light, crisp, and perfectly oversized.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "statement"
-  ]
- },
- {
-  "id": "lunya-womens-airy-cotton-piped-button-down-stillwater-stripe",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Lunya",
-  "name": "Airy Cotton Piped Button Down — Stillwater Stripe/Spring Clover",
-  "price": 128,
-  "currency": "USD",
-  "productUrl": "https://www.lunya.co/products/womens-airy-cotton-piped-button-down-stillwater-stripespring-clover?variant=42592629030955",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/LOOK_01_AIRYCOTTON_PIPED_BUTTON_DOWN_WIDELEG_PANT_SPRINGCLOVER_0068_01.jpg?v=1773352368",
-  "details": "Light, crisp, and perfectly oversized.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "statement"
-  ]
- },
- {
   "id": "lunya-womens-linen-embroidered-eyelet-tank-sincere-white",
   "gender": "women",
   "tier": "High-end",
@@ -211623,6 +212476,58 @@
   ]
  },
  {
+  "id": "lunya-womens-soft-modal-rib-cami-napping-dove-heather",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Lunya",
+  "name": "Soft Modal Rib Cami — Napping Dove Heather",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.lunya.co/products/womens-soft-modal-rib-cami-napping-dove-heather?variant=43346811420715",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/LOOK_23_SOFTMODAL_RIBTEE_SHORT_NAPPINGDOVE_2562_01.jpg?v=1781050338",
+  "details": "Equal parts soft, supportive, and endlessly wearable.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "lunya-womens-soft-modal-rib-curved-hem-tee-napping-dove-heat",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Lunya",
+  "name": "Soft Modal Rib Curved Hem Tee — Napping Dove Heather",
+  "price": 88,
+  "currency": "USD",
+  "productUrl": "https://www.lunya.co/products/womens-soft-modal-rib-curved-hem-tee-napping-dove-heather?variant=43346800705579",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/LOOK_23_SOFTMODAL_RIBTEE_SHORT_NAPPINGDOVE_2562_01_4e005c32-6d24-4923-9a51-a1716c018fe8.jpg?v=1781051454",
+  "details": "Second-skin feel, in tee shirt form.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
   "id": "mack-weldon-airknitx-cotton-v-neck-undershirt",
   "gender": "men",
   "tier": "Quality",
@@ -211645,33 +212550,6 @@
   ],
   "colours": [
    "white"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "mack-weldon-corduroy-button-up",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Mack Weldon",
-  "name": "Corduroy Button Up — Thistle Grey",
-  "price": 138,
-  "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/corduroy-button-up?variant=44025667846257",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Corduroy-Button-Up-Shirt_Thistle-Grey_M01Y13-TLG.png?v=1786642761",
-  "details": "Every guy needs a good corduroy shirt.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "grey"
   ],
   "styles": [
    "understated"
@@ -211731,6 +212609,34 @@
   ]
  },
  {
+  "id": "mack-weldon-pima-tank",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Mack Weldon",
+  "name": "Pima Tank — Bright White",
+  "price": 44,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/pima-tank?variant=43192678744177",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Pima-Tank_Bright-White_M01T24-BW_6af39d51-2ab7-466f-bd95-db3ea5b9c93d.png?v=1778014541",
+  "details": "Substantial enough to wear on its own, this incredibly soft tank is made with the same premium cotton as our bestselling tee.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "mack-weldon-silver-v-neck-t-shirt-fs",
   "gender": "men",
   "tier": "Quality",
@@ -211752,6 +212658,34 @@
    "unknown"
   ],
   "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "mack-weldon-slub-crew-neck-t-shirt",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Mack Weldon",
+  "name": "Slub Crew Neck T-Shirt — Bright White",
+  "price": 24.99,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/slub-crew-neck-t-shirt?variant=43190138110065",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Slub-Crew-Neck-T-Shirt_Bright-White_M01T38-BW.png?v=1777662353",
+  "details": "A classic tee, updated with absurdly soft slub cotton for a lived-in feel and heathered look.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
   "styles": [
    "understated"
   ]
@@ -211780,34 +212714,6 @@
   "colours": [],
   "styles": [
    "understated"
-  ]
- },
- {
-  "id": "mack-weldon-terry-cloth-short-sleeve-button-up",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Mack Weldon",
-  "name": "Terry Cloth Short Sleeve Button Up — Desert Taupe",
-  "price": 98,
-  "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/terry-cloth-short-sleeve-button-up?variant=43195784724593",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Terry-Cloth-Short-Sleeve-Button-Up_Desert-Taupe_M01T45-DT-171.png?v=1777913673",
-  "details": "Designed with cotton-rich terry cloth, our beachiest button up goes best with frozen drinks, dramatic sunsets, and a matching pair of shorts",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "sand"
-  ],
-  "styles": [
-   "relaxed"
   ]
  },
  {
@@ -213115,35 +214021,6 @@
   ]
  },
  {
-  "id": "oak-fort-mock-neck-knit-top-kt-17470-w",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Oak + Fort",
-  "name": "MOCK NECK KNIT TOP — Taupe",
-  "price": 38,
-  "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/mock-neck-knit-top-kt-17470-w?variant=50498826141935",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/TShirt-17470_Taupe-1.jpg?v=1789503993",
-  "details": "This knit top is designed with a mock neckline and fitted shape through the body.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "sand"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "oak-fort-oversized-boxy-polo-kt-14344-m",
   "gender": "unisex",
   "tier": "Quality",
@@ -213339,6 +214216,35 @@
    "grey"
   ],
   "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "oak-fort-sheer-neck-wool-blend-sleeveless-top-kt-17919-w",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Oak + Fort",
+  "name": "SHEER NECK WOOL BLEND SLEEVELESS TOP — Beige",
+  "price": 68,
+  "currency": "USD",
+  "productUrl": "https://www.oakandfort.com/products/sheer-neck-wool-blend-sleeveless-top-kt-17919-w?variant=51054127907055",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/TShirt-17919_Beige-1.jpg?v=1792802648",
+  "details": "This sleeveless top is designed with a sheer finish and softly draped neckline.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "polished",
    "relaxed",
    "understated"
   ]
@@ -214463,6 +215369,34 @@
   ]
  },
  {
+  "id": "outerknown-generation-selvedge-crop-0ly48orauz-resale",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Outerknown",
+  "name": "Generation Selvedge Crop - Outerworn — Faded Indigo Selvedge",
+  "price": 235,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/generation-selvedge-crop-0ly48orauz-resale?variant=54515649544376",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2630022_Generation_Selvedge_Crop_BWH_1_58fd2c4e-61d5-44a6-a8aa-a290cab7dc42.jpg?v=1792810449",
+  "details": "Cropped selvedge jeans that will get even better over time.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "outerknown-give-a-damn-ok-pocket-tee-oyouh5gmat-resale",
   "gender": "men",
   "tier": "Quality",
@@ -214775,32 +215709,6 @@
   "colours": [
    "black"
   ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "outerknown-the-west-tank-j3vipynznr-resale",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Outerknown",
-  "name": "The West Tank - Outerworn — Harbor",
-  "price": 50,
-  "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/the-west-tank-j3vipynznr-resale?variant=54101952921784",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/3L6A9526_e6766780-3868-4641-a064-54ab26ca67b5.jpg?v=1789437607",
-  "details": "This shirt knows the art of going-with-the-flow all too well.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
   "styles": [
    "understated"
   ]
@@ -219568,6 +220476,35 @@
   ]
  },
  {
+  "id": "tommy-john-air-muscle-tank",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Tommy John",
+  "name": "Air Muscle Tank — White",
+  "price": 58,
+  "currency": "USD",
+  "productUrl": "https://tommyjohn.com/products/air-muscle-tank?variant=43154348671021",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2964/7474/files/1004174_100091_Ecomm_Front_M_R_AIR_MSCLTNK_1.14.25.jpg?v=1773166770",
+  "details": "Temperature Regulating: Perforated, featherlight, innovative CoolcoreⓇ fabric rapidly pulls sweat away from your skin.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "tommy-john-air-muscle-tank-1",
   "gender": "men",
   "tier": "Quality",
@@ -219621,32 +220558,6 @@
   ],
   "styles": [
    "understated"
-  ]
- },
- {
-  "id": "tommy-john-flannel-long-sleeve-button-up",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Tommy John",
-  "name": "All Day Flannel Long Sleeve Button Up — Dress Blues Checkered Plaid",
-  "price": 68,
-  "currency": "USD",
-  "productUrl": "https://tommyjohn.com/products/flannel-long-sleeve-button-up?variant=67408030892077",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2964/7474/files/1004620_401983_473_Ecomm_Front_M_S_FLAN_LSCRW_10.8.26_e73792d0-e18a-4d91-8c5c-c66a2cf24384.jpg?v=1787928838",
-  "details": "All Day Flannel Long Sleeve Button Up Ultra-Soft Non-Pilling Machine Washable Classic Button-Down: Full-placket button down top.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed",
-   "statement"
   ]
  },
  {
@@ -220940,6 +221851,34 @@
   ]
  },
  {
+  "id": "woolx-luxurious-merino-ribbed-evie-tunic-blue-pine",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Woolx",
+  "name": "Evie Ribbed Tunic - Blue Pine",
+  "price": 184,
+  "currency": "USD",
+  "productUrl": "https://woolx.com/products/luxurious-merino-ribbed-evie-tunic-blue-pine?variant=43865869385794",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/small-1_2174c598-f4d0-47eb-a046-81324eb39142.jpg?v=1787331680",
+  "details": "Cozy Like a Hug : This tunic is seriously next-level cozy, thanks to the luxurious Merino wool ribbed fabric.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "woolx-mens-lightweight-merino-endurance-tee-berry-indigo",
   "gender": "men",
   "tier": "High-end",
@@ -221105,33 +222044,6 @@
   ]
  },
  {
-  "id": "woolx-merino-wool-womens-lorelai-button-up-shirt",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Woolx",
-  "name": "Lorelai Button Up - Black",
-  "price": 175,
-  "currency": "USD",
-  "productUrl": "https://woolx.com/products/merino-wool-womens-lorelai-button-up-shirt?variant=44143319908418",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/small-2_eab4c6a6-d08f-4ad9-b343-e55ceeaa9d8a.jpg?v=1789739636",
-  "details": "Temperature Regulating: Merino adapts to your body temperature, helping keep you warm when it’s cool and comfortable when things heat up.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "woolx-petite-sizing-ribbed-merino-evie-tunic-beet-red",
   "gender": "women",
   "tier": "High-end",
@@ -221243,16 +222155,16 @@
   ]
  },
  {
-  "id": "woolx-womens-merino-wool-lorelai-button-up",
+  "id": "woolx-womens-petite-merino-ribbed-evie-tunic-black",
   "gender": "women",
   "tier": "High-end",
   "brand": "Woolx",
-  "name": "Lorelai Button Up — Black",
-  "price": 175,
+  "name": "Evie Petite Tunic - Black",
+  "price": 184,
   "currency": "USD",
-  "productUrl": "https://woolx.com/products/womens-merino-wool-lorelai-button-up?variant=44143319908418",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/small-2_eab4c6a6-d08f-4ad9-b343-e55ceeaa9d8a.jpg?v=1789739636",
-  "details": "Temperature Regulating: Merino adapts to your body temperature, helping keep you warm when it’s cool and comfortable when things heat up.",
+  "productUrl": "https://woolx.com/products/womens-petite-merino-ribbed-evie-tunic-black?variant=43865871253570",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/evie-black-tagged-5.jpg?v=1789395996",
+  "details": "Petite Sizing: If you need a shorter length, this is the tunic top for you! Cozy Like a Hug : This tunic is seriously next-level cozy, thank",
   "checkedAt": "2026-10-24",
   "kinds": [
    "tee"
@@ -222339,34 +223251,6 @@
   ]
  },
  {
-  "id": "alo-m5079r-the-triumph-sweatpant-black",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "The Triumph Sweatpant - Black",
-  "price": 78,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m5079r-the-triumph-sweatpant-black?variant=40028023292084",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M5079R_01_b1_s1_a1_1_m221.jpg?v=1736372787",
-  "details": "Layer it to and from the studio, practice in it or lounge in it: the Triumph Sweatpant is made of insanely comfortable triblend fleece.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "trousers"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "alo-m5083r-co-op-7-8-pant-black",
   "gender": "men",
   "tier": "High-end",
@@ -222390,34 +223274,6 @@
    "black"
   ],
   "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-m5097r-torrent-track-sweatpant-bone",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Torrent Track Sweatpant - Bone",
-  "price": 82,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m5097r-torrent-track-sweatpant-bone?variant=39601767973044",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/products/M5097R_03040_b1_s3_a1_1_m12.jpg?v=1656612413",
-  "details": "Let these pants light the way.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "trousers"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "relaxed",
    "understated"
   ]
  },
@@ -222473,6 +223329,33 @@
   ],
   "styles": [
    "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m5279r-waffle-chenille-edition-straight-leg-pant-black",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Waffle Chenille Edition Straight Leg Pant - Black",
+  "price": 178,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m5279r-waffle-chenille-edition-straight-leg-pant-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M5279R_01_b1_s1_a3_dFA26_m245.jpg?v=1788857251",
+  "details": "Elevate your off-duty looks with the Waffle Chenille Edition Pant.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
    "understated"
   ]
  },
@@ -222694,6 +223577,34 @@
   ]
  },
  {
+  "id": "alo-u5012rg-accolade-straight-leg-sweatpant-winter-ivy",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Accolade Straight Leg Sweatpant - Winter Ivy",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/u5012rg-accolade-straight-leg-sweatpant-winter-ivy",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U5012RG_05819_b1_s1_a1_1_m18.jpg?v=1739423642",
+  "details": "Okay, so we’re pretty much obsessed with this new, straight-leg version of the Accolade Sweatpant — it’s a super soft, leveled-up classic wi",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "green"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
+  ]
+ },
+ {
   "id": "alo-u5012rg-accolade-straight-leg-sweatpant-winter-ivy-mens",
   "gender": "unisex",
   "tier": "High-end",
@@ -222722,16 +223633,16 @@
   ]
  },
  {
-  "id": "alo-w51206r-blaze-trouser-pant-black",
+  "id": "alo-w51263r-high-waist-dreamscape-trouser-long-brownstone",
   "gender": "women",
-  "tier": "Quality",
+  "tier": "High-end",
   "brand": "Alo",
-  "name": "Blaze Trouser Pant - Black",
-  "price": 94,
+  "name": "High-Waist Dreamscape Trouser (Long) - Brownstone",
+  "price": 148,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w51206r-blaze-trouser-pant-black?variant=41853682516148",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/products/W51206R_01_b1_s1_a1_1_m89.jpg?v=1677274158",
-  "details": "This pant is ready to ignite.",
+  "productUrl": "https://www.aloyoga.com/products/w51263r-high-waist-dreamscape-trouser-long-brownstone?variant=50661691654503",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W51263R_06659_b1_s1_a2_m209.jpg?v=1762466497",
+  "details": "A sleek evolution of effortless tailoring.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "trousers"
@@ -222742,24 +223653,23 @@
    "unknown"
   ],
   "colours": [
-   "black"
+   "brown"
   ],
   "styles": [
-   "polished",
-   "understated"
+   "polished"
   ]
  },
  {
-  "id": "alo-w51304r-sway-bootcut-sweatpant-bluestone",
+  "id": "alo-w54162r-serenity-wide-leg-sweatpant-winter-frost",
   "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Sway Bootcut Sweatpant - Bluestone",
+  "name": "Serenity Wide Leg Sweatpant - Winter Frost",
   "price": 128,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w51304r-sway-bootcut-sweatpant-bluestone?variant=50661504549223",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W51304R_04352_b2_s1_a1_m239.jpg?v=1759986028",
-  "details": "With all the makings of a perfect chill pant, the Sway Bootcut Sweatpant elevates any lounge look with tailored lines and an elongating boot",
+  "productUrl": "https://www.aloyoga.com/products/w54162r-serenity-wide-leg-sweatpant-winter-frost",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54162R_06646_b2_s1_a1_m18_c16629ea-60b4-4699-97c2-20e23a96f863.jpg?v=1768002458",
+  "details": "Elevate your post-workout look with the Serenity Wide Leg Sweatpant.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "trousers"
@@ -222777,16 +223687,16 @@
   ]
  },
  {
-  "id": "alo-w54162r-serenity-wide-leg-sweatpant-athletic-heather-gre",
+  "id": "alo-w54174r-high-waist-dreamscape-trouser-regular-brownstone",
   "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Serenity Wide Leg Sweatpant - Athletic Heather Grey",
-  "price": 128,
+  "name": "High-Waist Dreamscape Trouser (Regular) - Brownstone",
+  "price": 148,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w54162r-serenity-wide-leg-sweatpant-athletic-heather-grey?variant=50661352800615",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54162R_02910_b2_s1_a1_m143.jpg?v=1752222405",
-  "details": "Elevate your post-workout look with the Serenity Wide Leg Sweatpant.",
+  "productUrl": "https://www.aloyoga.com/products/w54174r-high-waist-dreamscape-trouser-regular-brownstone?variant=50661687689575",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54174R_06659_b1_s1_a2_m209.jpg?v=1762466511",
+  "details": "A sleek evolution of effortless tailoring.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "trousers"
@@ -222797,11 +223707,10 @@
    "unknown"
   ],
   "colours": [
-   "grey"
+   "brown"
   ],
   "styles": [
-   "relaxed",
-   "understated"
+   "polished"
   ]
  },
  {
@@ -222840,7 +223749,7 @@
   "name": "Track Star Wide Leg Pant (Regular) - Black",
   "price": 148,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w54242r-track-star-wide-leg-pant-reg-black?variant=50661509661031",
+  "productUrl": "https://www.aloyoga.com/products/w54242r-track-star-wide-leg-pant-reg-black?variant=50661509693799",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54242R_01_b1_s1_a3_m240.jpg?v=1758230606",
   "details": "This iconic sporty style is a wardrobe must-have.",
   "checkedAt": "2026-10-24",
@@ -227247,7 +228156,7 @@
   "name": "Movement Patina 5-Pocket Pant - Blue Nights",
   "price": 198,
   "currency": "USD",
-  "productUrl": "https://fahertybrand.com/products/costa-5pocket-pant-blue-nights?variant=44869740396613",
+  "productUrl": "https://fahertybrand.com/products/costa-5pocket-pant-blue-nights?variant=44869740429381",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0359/8357/files/MBF2607-BLN_Costa_5pocket_Pant_OM_FRONT_CROP_1_Web.jpg?v=1785154110",
   "details": "Made from organic cotton milled and sewn with trusted partners in Turkey, our Movement Patina Pants pair natural fabric with real performanc",
   "checkedAt": "2026-10-24",
@@ -233087,11 +233996,11 @@
   "gender": "women",
   "tier": "High-end",
   "brand": "Oak + Fort",
-  "name": "100% CASHMERE KNIT STRAIGHT LEG PANT — DARK HEATHER TAUPE",
+  "name": "100% CASHMERE KNIT STRAIGHT LEG PANT — Charcoal",
   "price": 248,
   "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/100-cashmere-knit-straight-leg-pant-pt-16181-w?variant=50890175152367",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Pant-16181_DARK_HEATHER_TAUPE-1.jpg?v=1792797929",
+  "productUrl": "https://www.oakandfort.com/products/100-cashmere-knit-straight-leg-pant-pt-16181-w?variant=50890175021295",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Pant-16181_Charcoal-12.jpg?v=1792798615",
   "details": "These cashmere knit pants are made in a relaxed fit in a straight leg cut.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -233103,7 +234012,7 @@
    "unknown"
   ],
   "colours": [
-   "sand"
+   "grey"
   ],
   "styles": [
    "polished"
@@ -234525,6 +235434,33 @@
   ]
  },
  {
+  "id": "outerknown-generation-slim-selvedge-f2ywqlxcjk-resale",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Outerknown",
+  "name": "Generation Slim Selvedge - Outerworn — Blue Moon Wash",
+  "price": 235,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/generation-slim-selvedge-f2ywqlxcjk-resale?variant=54515649511608",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2630022_Generation_Selvedge_BWH_1_4cbeeecf-389c-4feb-b505-51ce7b158eea.jpg?v=1792810446",
+  "details": "Premium selvedge that'll get even better over time.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "outerknown-iconoclast-high-rise-skinny-resale",
   "gender": "women",
   "tier": "High-end",
@@ -234712,6 +235648,63 @@
    "green"
   ],
   "styles": [
+   "statement"
+  ]
+ },
+ {
+  "id": "outerknown-sea-stretch-jogger-pants-7pze3vvar3-resale",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Outerknown",
+  "name": "S.E.A. Stretch Jogger Pants - Outerworn — Ember",
+  "price": 85,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/sea-stretch-jogger-pants-7pze3vvar3-resale?variant=54515649642680",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2610022_Avalon_Stretch_Joggers_EBR_1_6dd381a4-36e5-4956-b047-14530266dd68.jpg?v=1792810456",
+  "details": "Made from a heavyweight stretch twill for moving freely.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "outerknown-sea-stretch-jogger-pants-ausrb6ns2y-resale",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Outerknown",
+  "name": "S.E.A. Stretch Jogger Pants - Outerworn — Olive",
+  "price": 85,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/sea-stretch-jogger-pants-ausrb6ns2y-resale?variant=54515649609912",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2610022_Avalon_Stretch_Joggers_OLV_1_09b61adb-97c1-45ad-9500-a1efc982d15b.jpg?v=1792810454",
+  "details": "Made from a heavyweight stretch twill for moving freely.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "olive",
+   "green"
+  ],
+  "styles": [
+   "relaxed",
    "statement"
   ]
  },
@@ -235233,7 +236226,7 @@
   "name": "Midweight Terry Fadeaway Standard Sweatpant — Faded Coffee",
   "price": 128,
   "currency": "USD",
-  "productUrl": "https://reigningchamp.com/products/midweight-terry-fadeaway-standard-sweatpant-5739-faded-coffee?variant=45207874273462",
+  "productUrl": "https://reigningchamp.com/products/midweight-terry-fadeaway-standard-sweatpant-5739-faded-coffee?variant=45207874306230",
   "imageUrl": "https://cdn.shopify.com/s/files/1/1499/3122/files/FW26_RC-5739_FADEDCOFFEE_PANT_off_1.jpg?v=1789584806",
   "details": "The Fadeaway series features a special wash and dye process to achieve its unique sun-faded finish.",
   "checkedAt": "2026-10-24",
@@ -248675,15 +249668,15 @@
   ]
  },
  {
-  "id": "alo-a0590u-alo-runner-burgundy",
+  "id": "alo-a0590u-alo-runner-dune-grass",
   "gender": "unisex",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "ALO Runner (Unisex) - Burgundy",
+  "name": "ALO Runner (Unisex) - Dune Grass",
   "price": 195,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0590u-alo-runner-burgundy?variant=50661612650855",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0590U_06465_b1_s1_a6.jpg?v=1765847092",
+  "productUrl": "https://www.aloyoga.com/products/a0590u-alo-runner-dune-grass",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0590U_07947_b1_s1_a1_dSU26_4af07b0e-0b86-41bf-9842-826b8f42a814.jpg?v=1784659302",
   "details": "The ALO Runner was engineered to support your body from the ground up, wherever your moving meditation takes you.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -248696,8 +249689,7 @@
    "unknown"
   ],
   "colours": [
-   "red",
-   "burgundy"
+   "green"
   ],
   "styles": [
    "statement",
@@ -255379,6 +256371,31 @@
   ]
  },
  {
+  "id": "alo-m3210r-chill-hoodie-marathon-blue",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Chill Hoodie - Marathon Blue",
+  "price": 82,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3210r-chill-hoodie-marathon-blue?variant=43774083793076",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3210R_06037_b1_s1_a1_1_m214_f750892c-4e38-41c6-8320-3fe2b1bfaa19.jpg?v=1742097748",
+  "details": "Your favorite fabric is getting a new must-have style.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "alo-m3222r-cable-knit-crew-neck-sweater-bone",
   "gender": "unisex",
   "tier": "Quality",
@@ -255453,32 +256470,6 @@
   ],
   "styles": [
    "statement"
-  ]
- },
- {
-  "id": "alo-m3245r-double-take-hoodie-navy",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Double Take Hoodie - Navy",
-  "price": 128,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3245r-double-take-hoodie-navy",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3245R_03842_b2_s1_a1_dFA26_m257.jpg?v=1788515465",
-  "details": "Meet our new Double Take Hoodie: The fabric is lighter than our heavyweight Renown, more polished than street-smart Accolade, and has a soft",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "navy",
-   "blue"
-  ],
-  "styles": [
-   "understated"
   ]
  },
  {
@@ -255686,16 +256677,16 @@
   ]
  },
  {
-  "id": "alo-m3351r-chunky-knit-rewind-hoodie-rich-bordeaux-multi-wom",
-  "gender": "unisex",
+  "id": "alo-m4199r-cotton-canvas-full-zip-hoodie-black",
+  "gender": "men",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Chunky Knit Rewind Hoodie - Rich Bordeaux Multi",
-  "price": 228,
+  "name": "Cotton Canvas Full Zip Hoodie - Black",
+  "price": 248,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3351r-chunky-knit-rewind-hoodie-rich-bordeaux-multi-womens",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3351R_07013_b1_s1_a1_dFA26_m241_1.jpg?v=1791376132",
-  "details": "Layer up with the Chunky Knit Rewind Hoodie.",
+  "productUrl": "https://www.aloyoga.com/products/m4199r-cotton-canvas-full-zip-hoodie-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4199R_01_b1_s1_a4_m243_89c4a5cb-e9a7-467c-a852-a2def3c640d6.jpg?v=1758155174",
+  "details": "The Cotton Canvas Full-Zip Hoodie is an everyday essential.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "warm-knit"
@@ -255704,7 +256695,7 @@
    "cold"
   ],
   "colours": [
-   "purple"
+   "black"
   ],
   "styles": [
    "understated"
@@ -255787,31 +256778,6 @@
   ]
  },
  {
-  "id": "alo-w31007r-polar-fleece-retreat-cover-up-dark-heather-grey",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Polar Fleece Retreat Cover Up - Dark Heather Grey",
-  "price": 168,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w31007r-polar-fleece-retreat-cover-up-dark-heather-grey",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W31007R_01300_b1_s1_a2_m161.jpg?v=1764782694",
-  "details": "Your new cold-weather staple.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "grey"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-w31007r-polar-fleece-retreat-cover-up-rich-bordeaux",
   "gender": "women",
   "tier": "Quality",
@@ -255831,6 +256797,31 @@
   ],
   "colours": [
    "purple"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w31007r-polar-fleece-retreat-cover-up-winter-frost",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Polar Fleece Retreat Cover Up - Winter Frost",
+  "price": 168,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w31007r-polar-fleece-retreat-cover-up-winter-frost",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W31007R_06646_b1_s1_a1_m209_jpg.png?v=1776708615",
+  "details": "Your new cold-weather staple.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "blue"
   ],
   "styles": [
    "understated"
@@ -267046,32 +268037,6 @@
    "blue"
   ],
   "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "outerknown-fisherman-sweater-resale-1",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Outerknown",
-  "name": "Fisherman Sweater - Outerworn — Heather Grey",
-  "price": 130,
-  "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/fisherman-sweater-resale-1?variant=54477490553016",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/31856738435256.jpg?v=1734378499",
-  "details": "A classic fisherman's sweater with thick, cushy cables.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "grey"
-  ],
-  "styles": [
-   "relaxed",
    "understated"
   ]
  },

@@ -1,11 +1,11 @@
 # Catalogue coverage (2026-10-24)
 
-10313 products from 112 brands. Rejected: 50.
+10348 products from 112 brands. Rejected: 50.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
 | Sports bra | 13 / 25 / 15 | 0 / 1 / 0 |
-| Bra | 61 / 55 / 30 | 0 / 3 / 1 |
+| Bra | 61 / 55 / 31 | 0 / 3 / 1 |
 | Swimwear | 47 / 39 / 59 | 33 / 25 / 15 |
 | Underwear | 99 / 28 / 19 | 103 / 33 / 9 |
 | Socks | 155 / 89 / 19 | 148 / 71 / 20 |
@@ -17,31 +17,31 @@
 | Blazer | 22 / 15 / 20 | 27 / 10 / 1 |
 | Light jacket | 153 / 118 / 54 | 144 / 106 / 49 |
 | Dress | 108 / 114 / 49 | 10 / 0 / 0 |
-| Workout top | 31 / 20 / 18 | 13 / 20 / 17 |
+| Workout top | 29 / 21 / 18 | 13 / 20 / 17 |
 | Workout leggings or shorts | 66 / 66 / 45 | 34 / 21 / 15 |
-| Linen shirt | 15 / 27 / 18 | 40 / 25 / 18 |
-| Button-up shirt | 120 / 85 / 37 | 138 / 81 / 32 |
-| Warm sweater | 124 / 218 / 40 | 109 / 209 / 45 |
-| Light knit | 163 / 159 / 52 | 121 / 118 / 37 |
-| Long-sleeve top | 151 / 63 / 25 | 137 / 58 / 6 |
-| T-shirt | 229 / 156 / 37 | 222 / 157 / 32 |
-| Jeans | 81 / 56 / 23 | 62 / 35 / 20 |
-| Shorts | 120 / 108 / 45 | 107 / 96 / 31 |
+| Linen shirt | 15 / 27 / 18 | 46 / 26 / 18 |
+| Button-up shirt | 134 / 87 / 38 | 150 / 85 / 28 |
+| Warm sweater | 123 / 219 / 40 | 109 / 208 / 45 |
+| Light knit | 166 / 157 / 51 | 121 / 118 / 37 |
+| Long-sleeve top | 151 / 63 / 25 | 135 / 58 / 6 |
+| T-shirt | 232 / 154 / 37 | 221 / 159 / 32 |
+| Jeans | 81 / 56 / 23 | 63 / 34 / 20 |
+| Shorts | 119 / 109 / 45 | 106 / 97 / 31 |
 | Skirt | 109 / 80 / 48 | 9 / 1 / 0 |
 | Lightweight trousers | 35 / 25 / 7 | 35 / 9 / 3 |
 | Warm trousers | 37 / 36 / 11 | 42 / 37 / 13 |
-| Everyday trousers | 208 / 116 / 56 | 177 / 97 / 45 |
+| Everyday trousers | 211 / 116 / 56 | 179 / 95 / 45 |
 | Hiking or trail shoes | 3 / 1 / 2 | 5 / 1 / 3 |
 | Boots | 77 / 32 / 17 | 29 / 31 / 14 |
-| Sandals | 79 / 31 / 24 | 23 / 19 / 13 |
+| Sandals | 77 / 31 / 23 | 23 / 19 / 13 |
 | Evening shoes | 60 / 24 / 12 | 32 / 12 / 7 |
 | Walking sneakers | 111 / 24 / 19 | 94 / 19 / 17 |
 | Daypack | 37 / 20 / 2 | 18 / 16 / 2 |
 | Day bag | 96 / 116 / 35 | 25 / 68 / 19 |
 | Sunglasses | 49 / 49 / 25 | 44 / 44 / 16 |
 | Umbrella | 18 / 6 / 3 | 18 / 4 / 4 |
-| Sun hat or cap | 67 / 90 / 44 | 36 / 89 / 29 |
-| Beanie | 42 / 83 / 15 | 51 / 60 / 21 |
+| Sun hat or cap | 67 / 90 / 44 | 37 / 89 / 29 |
+| Beanie | 43 / 83 / 15 | 51 / 60 / 21 |
 | Gloves | 14 / 21 / 6 | 12 / 18 / 9 |
 | Warm scarf | 54 / 56 / 18 | 34 / 35 / 8 |
 | Light scarf or wrap | 27 / 32 / 4 | 9 / 3 / 2 |
@@ -49,26 +49,26 @@
 
 ## Brands
 
+- Alo: 336
 - H&M: 318
-- Alo: 316
 - FRAME: 308
 - LEMAIRE: 308
 - Everlane: 294
-- Faherty: 287
+- Faherty: 288
 - Kotn: 271
 - Bluenotes: 267
 - SKIMS: 255
-- tentree: 245
-- Woolx: 244
+- tentree: 246
+- Woolx: 246
 - Sunspel: 239
-- Oak + Fort: 215
-- Outerknown: 214
+- Oak + Fort: 216
+- Outerknown: 216
 - Kit and Ace: 209
 - UNIQLO: 190
 - Summersalt: 187
+- Beyond Yoga: 182
 - Organic Basics: 182
 - Brixton: 179
-- Beyond Yoga: 178
 - Cotopaxi: 178
 - Andie: 171
 - STAUD: 171
@@ -77,20 +77,20 @@
 - Reigning Champ: 153
 - Citizens of Humanity: 149
 - Rains: 147
-- DUER: 145
-- Tommy John: 143
+- Tommy John: 144
+- DUER: 143
 - MOTHER: 127
 - Taylor Stitch: 122
 - Frankies Bikinis: 121
-- Mack Weldon: 117
-- Naadam: 117
+- Mack Weldon: 120
+- Naadam: 118
 - Onia: 117
 - Topo Designs: 114
 - Outdoor Voices: 113
 - Eberjey: 105
 - Faithfull the Brand: 104
 - Rouje: 102
-- Lunya: 99
+- Lunya: 101
 - Minus33: 91
 - Larroudé: 90
 - CDLP: 89
@@ -109,7 +109,7 @@
 - OluKai: 62
 - Girlfriend Collective: 56
 - Cuyana: 56
-- Allbirds: 55
+- Allbirds: 54
 - Ten Thousand: 51
 - BY FAR: 48
 - Duckworth: 45
