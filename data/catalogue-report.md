@@ -1,6 +1,6 @@
 # Catalogue coverage (2026-10-24)
 
-10310 products from 112 brands. Rejected: 50.
+10313 products from 112 brands. Rejected: 50.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
@@ -21,24 +21,24 @@
 | Workout leggings or shorts | 66 / 66 / 45 | 34 / 21 / 15 |
 | Linen shirt | 15 / 27 / 18 | 40 / 25 / 18 |
 | Button-up shirt | 120 / 85 / 37 | 138 / 81 / 32 |
-| Warm sweater | 124 / 217 / 40 | 109 / 208 / 45 |
-| Light knit | 165 / 156 / 51 | 120 / 119 / 37 |
-| Long-sleeve top | 150 / 63 / 25 | 138 / 57 / 6 |
-| T-shirt | 230 / 157 / 37 | 222 / 157 / 32 |
+| Warm sweater | 124 / 218 / 40 | 109 / 209 / 45 |
+| Light knit | 163 / 159 / 52 | 121 / 118 / 37 |
+| Long-sleeve top | 151 / 63 / 25 | 137 / 58 / 6 |
+| T-shirt | 229 / 156 / 37 | 222 / 157 / 32 |
 | Jeans | 81 / 56 / 23 | 62 / 35 / 20 |
-| Shorts | 120 / 108 / 45 | 106 / 97 / 31 |
+| Shorts | 120 / 108 / 45 | 107 / 96 / 31 |
 | Skirt | 109 / 80 / 48 | 9 / 1 / 0 |
 | Lightweight trousers | 35 / 25 / 7 | 35 / 9 / 3 |
 | Warm trousers | 37 / 36 / 11 | 42 / 37 / 13 |
 | Everyday trousers | 208 / 116 / 56 | 177 / 97 / 45 |
 | Hiking or trail shoes | 3 / 1 / 2 | 5 / 1 / 3 |
 | Boots | 77 / 32 / 17 | 29 / 31 / 14 |
-| Sandals | 79 / 31 / 23 | 23 / 19 / 13 |
+| Sandals | 79 / 31 / 24 | 23 / 19 / 13 |
 | Evening shoes | 60 / 24 / 12 | 32 / 12 / 7 |
 | Walking sneakers | 111 / 24 / 19 | 94 / 19 / 17 |
 | Daypack | 37 / 20 / 2 | 18 / 16 / 2 |
 | Day bag | 96 / 116 / 35 | 25 / 68 / 19 |
-| Sunglasses | 49 / 49 / 25 | 44 / 43 / 17 |
+| Sunglasses | 49 / 49 / 25 | 44 / 44 / 16 |
 | Umbrella | 18 / 6 / 3 | 18 / 4 / 4 |
 | Sun hat or cap | 67 / 90 / 44 | 36 / 89 / 29 |
 | Beanie | 42 / 83 / 15 | 51 / 60 / 21 |
@@ -50,7 +50,7 @@
 ## Brands
 
 - H&M: 318
-- Alo: 315
+- Alo: 316
 - FRAME: 308
 - LEMAIRE: 308
 - Everlane: 294
@@ -90,7 +90,7 @@
 - Eberjey: 105
 - Faithfull the Brand: 104
 - Rouje: 102
-- Lunya: 98
+- Lunya: 99
 - Minus33: 91
 - Larroudé: 90
 - CDLP: 89
@@ -109,7 +109,7 @@
 - OluKai: 62
 - Girlfriend Collective: 56
 - Cuyana: 56
-- Allbirds: 54
+- Allbirds: 55
 - Ten Thousand: 51
 - BY FAR: 48
 - Duckworth: 45

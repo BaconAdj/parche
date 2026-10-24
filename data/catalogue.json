@@ -29089,7 +29089,7 @@
   "name": "Soft Suiting Blazer — Bone",
   "price": 119,
   "currency": "CAD",
-  "productUrl": "https://www.kitandace.com/products/8182090989764-soft-suiting-blazer?variant=44594876547268",
+  "productUrl": "https://www.kitandace.com/products/8182090989764-soft-suiting-blazer?variant=44594876580036",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0604/9120/2756/files/KWM10265SoftSuitingBlazer-Bone_031.jpg?v=1754597379",
   "details": "The perfect mix of polish and ease.",
   "checkedAt": "2026-10-24",
@@ -69469,16 +69469,16 @@
   ]
  },
  {
-  "id": "alo-w31047r-1-4-zip-go-time-pullover-black",
+  "id": "alo-w2796r-ribbed-sweater-knit-highline-c-black-white",
   "gender": "women",
-  "tier": "High-end",
+  "tier": "Quality",
   "brand": "Alo",
-  "name": "1/4 Zip Go Time Pullover - Black",
-  "price": 168,
+  "name": "Ribbed Sweater Knit Highline Cropped Tank - Black/White",
+  "price": 118,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w31047r-1-4-zip-go-time-pullover-black",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W31047R_01_b1_s1_a2_dSU26_m191.jpg?v=1780653864",
-  "details": "Lightweight, easy to wear, and endlessly versatile.",
+  "productUrl": "https://www.aloyoga.com/products/w2796r-ribbed-sweater-knit-highline-c-black-white?variant=50661484429671",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2796R_06401_b1_s1_a1_m125.jpg?v=1755729845",
+  "details": "The Highline Ribbed Sweater Knit Cropped Tank puts a retro spin on your off-duty uniform with bold contrast piping and a body-hugging silhou",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -69489,9 +69489,69 @@
    "unknown"
   ],
   "colours": [
-   "black"
+   "black",
+   "white"
   ],
   "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w2796r-ribbed-sweater-knit-highline-c-bluestone-white",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Ribbed Sweater Knit Highline Cropped Tank - Bluestone/White",
+  "price": 118,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w2796r-ribbed-sweater-knit-highline-c-bluestone-white?variant=50661485085031",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2796R_06514_b2_s1_a1_m256.jpg?v=1759983195",
+  "details": "The Highline Ribbed Sweater Knit Cropped Tank puts a retro spin on your off-duty uniform with bold contrast piping and a body-hugging silhou",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "blue"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w2796r-ribbed-sweater-knit-highline-c-lunar-grey-white",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Ribbed Sweater Knit Highline Cropped Tank - Lunar Grey/White",
+  "price": 118,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w2796r-ribbed-sweater-knit-highline-c-lunar-grey-white?variant=50661484790119",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W2796R_06513_b1_s1_a1_m177.jpg?v=1754572029",
+  "details": "The Highline Ribbed Sweater Knit Cropped Tank puts a retro spin on your off-duty uniform with bold contrast piping and a body-hugging silhou",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
    "understated"
   ]
  },
@@ -69554,60 +69614,6 @@
   ]
  },
  {
-  "id": "alo-w3295r-soho-pullover-anthracite",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Soho Pullover - Anthracite",
-  "price": 98,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3295r-soho-pullover-anthracite?variant=40706373288116",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3295R_02125_b1_s1_a1_1_m240.jpg?v=1745986196",
-  "details": "A studio-to-street must-have, the Soho Pullover is seriously soft.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "grey"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-w3660r-cropped-1-4-zip-alumni-pullover-spearmint",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Cropped 1/4 Zip Alumni Pullover - Spearmint",
-  "price": 102,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3660r-cropped-1-4-zip-alumni-pullover-spearmint?variant=50661343166823",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3660R_06326_b2_s1_a1_m207.jpg?v=1747896940",
-  "details": "Upgrade your coverup collection with the Cropped ¼ Zip Alumni Pullover, cut from cool crinkle woven fabric that’s perfect for to-and-from ye",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "green"
-  ],
-  "styles": [
-   "statement"
-  ]
- },
- {
   "id": "alo-w3905r-extreme-cropped-pullover-pink-quartz",
   "gender": "women",
   "tier": "Quality",
@@ -69632,6 +69638,36 @@
   ],
   "styles": [
    "statement"
+  ]
+ },
+ {
+  "id": "andie-archive-oasis-sweater-tank-black-cream-stripe",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Andie",
+  "name": "Oasis Sweater Tank (Black - Cream Stripe)",
+  "price": 110,
+  "currency": "USD",
+  "productUrl": "https://www.andieswim.com/products/archive-oasis-sweater-tank-black-cream-stripe",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/ML-TANK-SKIRT_008.jpg?v=1762447056",
+  "details": "Your other tanks are gonna be jealous.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black",
+   "cream"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
+   "understated"
   ]
  },
  {
@@ -70026,34 +70062,6 @@
   ],
   "colours": [
    "white"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "andie-womens-dune-sweater-cotton-sweater-knit-black",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Andie",
-  "name": "Womens Dune Sweater - Cotton Sweater Knit - Black",
-  "price": 118,
-  "currency": "USD",
-  "productUrl": "https://www.andieswim.com/products/womens-dune-sweater-cotton-sweater-knit-black?variant=40742276497480",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0024/2289/8758/files/53WWS-DNSW-BLCK_1_1ab1ac58-67b4-4043-92a1-dc1b9abff059.jpg?v=1761143557",
-  "details": "Classic fit, fully fashioned pullover sweater Lightweight cotton yarns with novelty thermal stitch Knitted rib at neckline and sleeve cuffs ",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
   ],
   "styles": [
    "relaxed",
@@ -72910,6 +72918,31 @@
   ]
  },
  {
+  "id": "eberjey-fine-gauge-sweater-tank-faded-denim",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Eberjey",
+  "name": "Fine Gauge Sweater Tank",
+  "price": 83.2,
+  "currency": "USD",
+  "productUrl": "https://www.eberjey.com/products/fine-gauge-sweater-tank-faded-denim",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0564/0598/3384/files/Low_Res-EBJ2730-C4665_FADED-F.jpg?v=1741979745",
+  "details": "For staying in and heading out.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
   "id": "eberjey-french-terry-mens-sweatshirt-faded-denim",
   "gender": "men",
   "tier": "Quality",
@@ -72960,31 +72993,6 @@
   ]
  },
  {
-  "id": "eberjey-pointelle-sweater-cardigan-ivory",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Eberjey",
-  "name": "Pointelle Sweater Cardigan",
-  "price": 178,
-  "currency": "USD",
-  "productUrl": "https://www.eberjey.com/products/pointelle-sweater-cardigan-ivory",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0564/0598/3384/files/R6245C-IVRYV_2212.jpg?v=1784122139",
-  "details": "Loungewear you can live in.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed"
-  ]
- },
- {
   "id": "eberjey-recycled-sweater-cropped-cardigan-wildberry",
   "gender": "women",
   "tier": "High-end",
@@ -73010,15 +73018,15 @@
   ]
  },
  {
-  "id": "eberjey-recycled-sweater-cropped-crew-hazelnut",
+  "id": "eberjey-recycled-sweater-cropped-crew-wildberry",
   "gender": "women",
   "tier": "High-end",
   "brand": "Eberjey",
   "name": "Recycled Sweater Cropped Crew",
   "price": 168,
   "currency": "USD",
-  "productUrl": "https://www.eberjey.com/products/recycled-sweater-cropped-crew-hazelnut",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0564/0598/3384/files/T2033WC-HAZEL_1181.jpg?v=1784122132",
+  "productUrl": "https://www.eberjey.com/products/recycled-sweater-cropped-crew-wildberry",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0564/0598/3384/files/T2033WC-WILDB_4262.jpg?v=1785936994",
   "details": "Your favorite sweater weather staple.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -73035,16 +73043,16 @@
   ]
  },
  {
-  "id": "eberjey-recycled-sweater-cropped-crew-wildberry",
+  "id": "eberjey-recycled-sweater-cropped-tank-wildberry",
   "gender": "women",
-  "tier": "High-end",
+  "tier": "Quality",
   "brand": "Eberjey",
-  "name": "Recycled Sweater Cropped Crew",
-  "price": 168,
+  "name": "Recycled Sweater Cropped Tank",
+  "price": 98,
   "currency": "USD",
-  "productUrl": "https://www.eberjey.com/products/recycled-sweater-cropped-crew-wildberry",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0564/0598/3384/files/T2033WC-WILDB_4262.jpg?v=1785936994",
-  "details": "Your favorite sweater weather staple.",
+  "productUrl": "https://www.eberjey.com/products/recycled-sweater-cropped-tank-wildberry",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0564/0598/3384/files/T2033-WILDB_0302_2.jpg?v=1785936998",
+  "details": "Let’s get cozy.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -75547,6 +75555,34 @@
   ]
  },
  {
+  "id": "guess-textured-sweater-top-white-w6rr28z3p41-g012-html",
+  "gender": "women",
+  "tier": "Budget",
+  "brand": "GUESS",
+  "name": "Textured sweater top — white",
+  "price": 40.4,
+  "currency": "USD",
+  "productUrl": "https://www.guess.com/en-us/guess/women/clothing/knitwear/textured-sweater-top-white/W6RR28Z3P41-G012.html",
+  "imageUrl": "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,dpr_1.4,fl_advanced_resize,fl_progressive,w_800,c_scale/v1/NA/Style/ECOMM/W6RR28Z3P41-G012",
+  "details": "",
+  "checkedAt": "2026-10-23",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "herschel-acid-wash-classic-crew-mens",
   "gender": "men",
   "tier": "Quality",
@@ -78044,6 +78080,33 @@
   ]
  },
  {
+  "id": "lunya-womens-cloud-cotton-sweater-tee-whisper-blue",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Lunya",
+  "name": "Cloud Cotton Sweater Tee — Whisper Blue",
+  "price": 168,
+  "currency": "USD",
+  "productUrl": "https://www.lunya.co/products/womens-cloud-cotton-sweater-tee-whisper-blue?variant=42592628703275",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/LOOK_08_CLOUDCOTTON_SWEATERTEE_SHORT_WHISPERBLUE_1607_05.jpg?v=1773080066",
+  "details": "The closest thing to lounging on clouds (probably).",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
   "id": "lunya-womens-pointelle-crew-neck-cardigan-bluebell-bloom",
   "gender": "women",
   "tier": "Quality",
@@ -78181,33 +78244,6 @@
   ]
  },
  {
-  "id": "mack-weldon-ace-quarter-zip",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Mack Weldon",
-  "name": "ACE Quarter-Zip — Blue Shadow Heather",
-  "price": 118,
-  "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/ace-quarter-zip?variant=44017376854129",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Ace-Half-Zip_Blue-Shadow-Heather_M01K14-BSHH.png?v=1786464254",
-  "details": "Crafted from our softer-than-soft French terry, this classic quarter-zip combines the comfort of your favorite hoodie with the style of your",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "relaxed"
-  ]
- },
- {
   "id": "mack-weldon-ace-womens-crew-neck-sweatshirt",
   "gender": "women",
   "tier": "Budget",
@@ -78236,68 +78272,16 @@
   ]
  },
  {
-  "id": "mack-weldon-tech-linen-quarter-zip",
+  "id": "mack-weldon-merino-long-sleeve-sweater-polo",
   "gender": "men",
   "tier": "High-end",
   "brand": "Mack Weldon",
-  "name": "Tech Linen Quarter-Zip — Deep Lagoon Heather",
-  "price": 188,
+  "name": "Merino Long Sleeve Sweater Polo — Night Sky Bird's Eye",
+  "price": 218,
   "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/tech-linen-quarter-zip?variant=42973461741681",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Tech-Linen-Half-Zip_Deep-Lagoon-Heather_M03Z18-DPLH.png?v=1769439406",
-  "details": "Introducing a new kind of linen.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed"
-  ]
- },
- {
-  "id": "mack-weldon-tech-merino-crew-neck-sweater",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Mack Weldon",
-  "name": "Tech Merino Crew Neck Sweater — True Black",
-  "price": 139.99,
-  "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/tech-merino-crew-neck-sweater?variant=41365789606001",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01X03-TB_Front_76de56f2-4c51-41de-9298-097561253f33.png?v=1731446811",
-  "details": "Soft and smooth with a comfortable amount of stretch, this thermoregulating crew neck is made for layering up, lounging around, and looking ",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "mack-weldon-tech-merino-full-zip-sweater",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Mack Weldon",
-  "name": "Tech Merino Full-Zip Sweater — Shooting Star",
-  "price": 238,
-  "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/tech-merino-full-zip-sweater?variant=41427099811953",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01X06-SSR_Front_89571a18-fee1-49fe-8995-62015458ed0e.png?v=1731449931",
-  "details": "Soft and smooth with a comfortable amount of stretch, this thermoregulating full-zip is made for layering up, lounging around, and looking g",
+  "productUrl": "https://www.mackweldon.com/products/merino-long-sleeve-sweater-polo?variant=67592264024177",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Merino-Long-Sleeve-Sweater-Polo_Night-Sky-Bird_s-Eye_M01X20-NSK.png?v=1790771666",
+  "details": "Simply the softest.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -78313,16 +78297,90 @@
   ]
  },
  {
-  "id": "mack-weldon-tech-merino-quarter-zip-sweater",
+  "id": "mack-weldon-tech-linen-button-up-sweater-polo",
   "gender": "men",
   "tier": "High-end",
   "brand": "Mack Weldon",
-  "name": "Tech Merino Quarter-Zip Sweater — Total Eclipse Blue",
-  "price": 198,
+  "name": "Tech Linen Button Up Sweater Polo — Latte Heather",
+  "price": 168,
   "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/tech-merino-quarter-zip-sweater?variant=41365790359665",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01X05-TE_Front_1_a2bd155d-7efb-48d7-b2df-e18322dae6a4.png?v=1760722788",
-  "details": "Soft and smooth with a comfortable amount of stretch, this thermoregulating quarter-zip is made for layering up, lounging around, and lookin",
+  "productUrl": "https://www.mackweldon.com/products/tech-linen-button-up-sweater-polo?variant=42974558224497",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Tech-Linen-Short-Sleeve-Button-Up-Sweater_Latte-Heather_M02X13-LTEH.png?v=1769460110",
+  "details": "Leisurely and luxurious, this linen button up is crafted with COOLMAX® technology and an airy texture—for comfort, anywhere.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "mack-weldon-tech-linen-johnny-collar-sweater-polo",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Mack Weldon",
+  "name": "Tech Linen Johnny Collar Sweater Polo — Desert Taupe Heather",
+  "price": 158,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/tech-linen-johnny-collar-sweater-polo?variant=42968850956401",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Tech-Linen-Johnny-Collar-Sweater-Polo_Desert-Taupe-Heather_M01X17-DTH.png?v=1769179087",
+  "details": "A new kind of sweater polo, with a vintage-inspired collar.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "sand"
+  ],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "mack-weldon-tech-linen-sweater-polo-1",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Mack Weldon",
+  "name": "Tech Linen Sweater Polo — Shallow Water Heather",
+  "price": 78.99,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/tech-linen-sweater-polo-1?variant=44418685108337",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Tech-Linen-Knit-Polo_Shallow-Water-Heather_M03Z11-SWH.png?v=1769442844",
+  "details": "Introducing a new kind of sweater polo.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "mack-weldon-tech-merino-sweater-polo",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Mack Weldon",
+  "name": "Tech Merino Sweater Polo — Total Eclipse",
+  "price": 218,
+  "currency": "USD",
+  "productUrl": "https://www.mackweldon.com/products/tech-merino-sweater-polo?variant=41419727143025",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01X09-TE_Front.png?v=1741620951",
+  "details": "As soft as it is sharp, our take on the classic sweater polo is engineered with thermoregulating merino wool and stretch that doesn’t sag.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -78332,9 +78390,7 @@
    "mild",
    "unknown"
   ],
-  "colours": [
-   "blue"
-  ],
+  "colours": [],
   "styles": [
    "relaxed"
   ]
@@ -79586,6 +79642,56 @@
   ]
  },
  {
+  "id": "onia-linen-sweater-polo-10",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Onia",
+  "name": "Linen Sweater Polo — Washed Olive",
+  "price": 245,
+  "currency": "USD",
+  "productUrl": "https://www.onia.com/products/linen-sweater-polo-10?variant=47240957001865",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0054/6242/5718/files/MTS151-07-WOL.jpg?v=1787086767",
+  "details": "Knit from linen jersey, this short sleeve polo has a relaxed shape and a button placket.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "olive"
+  ],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "onia-linen-sweater-polo-11",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Onia",
+  "name": "Linen Sweater Polo — Egret",
+  "price": 245,
+  "currency": "USD",
+  "productUrl": "https://www.onia.com/products/linen-sweater-polo-11?variant=47240956641417",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0054/6242/5718/files/MTS151-08-YSY_eaed47c1-35b1-460f-99a8-0773d9fd3d97.jpg?v=1787086792",
+  "details": "Knit from linen jersey, this short sleeve polo has a relaxed shape and a button placket.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
   "id": "onia-ribbed-linen-crewneck",
   "gender": "men",
   "tier": "High-end",
@@ -79636,34 +79742,6 @@
   ]
  },
  {
-  "id": "onia-stonewashed-terry-sweatshirt-2",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Onia",
-  "name": "Stonewashed Terry Sweatshirt — Sand",
-  "price": 175,
-  "currency": "USD",
-  "productUrl": "https://www.onia.com/products/stonewashed-terry-sweatshirt-2?variant=47937011286153",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0054/6242/5718/files/MTO75-01OP-27C_63576df6-172b-45d0-9ae7-e8940900596c.jpg?v=1787173439",
-  "details": "A crewneck sweatshirt in 100% cotton terry, stonewashed after make.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "sand"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "onia-stonewashed-terry-sweatshirt-3",
   "gender": "men",
   "tier": "High-end",
@@ -79685,35 +79763,6 @@
   ],
   "colours": [
    "blue"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "onia-textured-wafffle-knit-sweatshirt-2",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Onia",
-  "name": "Textured Waffle Knit Sweatshirt — Ivory",
-  "price": 175,
-  "currency": "USD",
-  "productUrl": "https://www.onia.com/products/textured-wafffle-knit-sweatshirt-2?variant=47937012400265",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0054/6242/5718/files/MTO38-03OP-ZE1.jpg?v=1787162201",
-  "details": "A crewneck sweatshirt in a textured waffle knit, ribbed at the neck, cuffs and hem.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "cream"
   ],
   "styles": [
    "relaxed",
@@ -81439,16 +81488,16 @@
   ]
  },
  {
-  "id": "skims-sweater-knit-logo-pullover-cocoa-egret",
+  "id": "skims-sweater-knit-long-sleeve-cropped-polo-cherry-blossom",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "SWEATER KNIT LOGO PULLOVER | COCOA EGRET — COCOA EGRET SKIMS LOGO",
-  "price": 98,
+  "name": "SWEATER KNIT LONG SLEEVE CROPPED POLO | CHERRY BLOSSOM",
+  "price": 118,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/sweater-knit-logo-pullover-cocoa-egret",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/ChangeText-SKIMS-LOGOSWEATERKNIT-TP-LSL-12224W-CEML-FLT.jpg?v=1791236886",
-  "details": "Your coziest statement knit.",
+  "productUrl": "https://www.skims.com/products/sweater-knit-long-sleeve-cropped-polo-cherry-blossom",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-LSL-13481W-CBM-FLT.jpg?v=1791236419",
+  "details": "Your winter polo, reimagined.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -81458,23 +81507,26 @@
    "mild",
    "unknown"
   ],
-  "colours": [],
+  "colours": [
+   "pink"
+  ],
   "styles": [
    "relaxed",
+   "statement",
    "understated"
   ]
  },
  {
-  "id": "skims-sweater-knit-logo-pullover-onyx-egret",
+  "id": "skims-sweater-knit-long-sleeve-cropped-polo-dark-heather-gre",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "SWEATER KNIT LOGO PULLOVER | ONYX EGRET — ONYX EGRET SKIMS LOGO",
-  "price": 98,
+  "name": "SWEATER KNIT LONG SLEEVE CROPPED POLO | DARK HEATHER GREY",
+  "price": 118,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/sweater-knit-logo-pullover-onyx-egret",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOGOSWEATERKNIT-TP-LSL-12224W-ONES-FLT.jpg?v=1791236998",
-  "details": "Your coziest statement knit.",
+  "productUrl": "https://www.skims.com/products/sweater-knit-long-sleeve-cropped-polo-dark-heather-grey",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-LSL-13481W-DHG-FLT.jpg?v=1791236420",
+  "details": "Your winter polo, reimagined.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -81484,23 +81536,25 @@
    "mild",
    "unknown"
   ],
-  "colours": [],
+  "colours": [
+   "grey"
+  ],
   "styles": [
    "relaxed",
    "understated"
   ]
  },
  {
-  "id": "skims-sweater-knit-logo-pullover-sienna-egret",
+  "id": "skims-sweater-knit-long-sleeve-cropped-polo-onyx",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "SWEATER KNIT LOGO PULLOVER | SIENNA EGRET — SIENNA EGRET SKIMS LOGO",
-  "price": 98,
+  "name": "SWEATER KNIT LONG SLEEVE CROPPED POLO | ONYX",
+  "price": 118,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/sweater-knit-logo-pullover-sienna-egret",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOGOSWEATERKNIT-TP-LSL-12224W-SEML-FLT.jpg?v=1791237004",
-  "details": "Your coziest statement knit.",
+  "productUrl": "https://www.skims.com/products/sweater-knit-long-sleeve-cropped-polo-onyx",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-LSL-13481W-ONX-FLT.jpg?v=1791236420",
+  "details": "Your winter polo, reimagined.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -81510,23 +81564,25 @@
    "mild",
    "unknown"
   ],
-  "colours": [],
+  "colours": [
+   "black"
+  ],
   "styles": [
    "relaxed",
    "understated"
   ]
  },
  {
-  "id": "skims-sweater-knit-logo-zip-up-mock-neck-sweater-sienna-egre",
+  "id": "skims-sweater-knit-long-sleeve-cropped-polo-toffee",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "SWEATER KNIT LOGO ZIP UP MOCK NECK SWEATER | SIENNA EGRET — SIENNA EGRET MINI SKIMS LOGO",
-  "price": 108,
+  "name": "SWEATER KNIT LONG SLEEVE CROPPED POLO | TOFFEE",
+  "price": 118,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/sweater-knit-logo-zip-up-mock-neck-sweater-sienna-egret",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOGOSWEATERKNIT-TP-LSL-13536W-SEML-FLT_75b37056-013e-4d7f-8c76-91ee07f89acd.jpg?v=1791237001",
-  "details": "Zip into winter.",
+  "productUrl": "https://www.skims.com/products/sweater-knit-long-sleeve-cropped-polo-toffee",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-LSL-13481W-TFE-FLT.jpg?v=1791236420",
+  "details": "Your winter polo, reimagined.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "knit"
@@ -82508,6 +82564,66 @@
   ]
  },
  {
+  "id": "taylor-stitch-long-sleeve-valencia-sweater-polo-in-olive-261",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Taylor Stitch",
+  "name": "The Long Sleeve Valencia Sweater Polo in Olive",
+  "price": 155,
+  "currency": "USD",
+  "productUrl": "https://www.taylorstitch.com/products/long-sleeve-valencia-sweater-polo-in-olive-2610",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/Q426_The_Long_Sleeve_Valencia_Sweater_Polo_in_Olive_Cotton_Cashmere_PDP_001.jpg?v=1792020171",
+  "details": "The Long Sleeve Valencia Sweater Polo in Olive from Taylor Stitch",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "olive",
+   "green"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "statement",
+   "understated"
+  ]
+ },
+ {
+  "id": "taylor-stitch-miles-sweater-polo-in-espresso-merino-2610",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Taylor Stitch",
+  "name": "The Miles Sweater Polo in Espresso Merino",
+  "price": 238,
+  "currency": "USD",
+  "productUrl": "https://www.taylorstitch.com/products/miles-sweater-polo-in-espresso-merino-2610",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/Q426_TheMilesSweaterPolo-EspressoMerino_PDP_001.jpg?v=1791818198",
+  "details": "The Miles Sweater Polo in Espresso Merino from Taylor Stitch 100% extrafine merino wool.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "taylor-stitch-organic-cotton-crew-in-canyon-waffle-2610",
   "gender": "men",
   "tier": "Quality",
@@ -82558,35 +82674,6 @@
   ],
   "styles": [
    "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "taylor-stitch-organic-cotton-crew-in-vintage-white-stripe-wa",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Taylor Stitch",
-  "name": "The Organic Cotton Crew in Vintage White Stripe Waffle",
-  "price": 95,
-  "currency": "USD",
-  "productUrl": "https://www.taylorstitch.com/products/organic-cotton-crew-in-vintage-white-stripe-waffle-2610",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/Q426_TheOrganicCottonCrew-VintageWhiteStripeWaffle_PDP_001.jpg?v=1791415762",
-  "details": "The Organic Cotton Crew in Vintage White Stripe Waffle from Taylor Stitch 10-oz.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white"
-  ],
-  "styles": [
-   "relaxed",
-   "statement",
    "understated"
   ]
  },
@@ -82673,37 +82760,6 @@
   "styles": [
    "polished",
    "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "taylor-stitch-seafarer-rollneck-sweater-in-olive-donegal-261",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Taylor Stitch",
-  "name": "The Seafarer Rollneck Sweater in Olive Donegal",
-  "price": 188,
-  "currency": "USD",
-  "productUrl": "https://www.taylorstitch.com/products/seafarer-rollneck-sweater-in-olive-donegal-2610",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/Q426_TheSeafarerRollneckSweater-OliveDonegal_PDP_001.jpg?v=1791488277",
-  "details": "The Seafarer Rollneck Sweater in Olive Donegal from Taylor Stitch 65% RWS extrafine merino wool, 30% recycled nylon, 5% alpaca.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "olive",
-   "green"
-  ],
-  "styles": [
-   "polished",
-   "relaxed",
-   "statement",
    "understated"
   ]
  },
@@ -109312,6 +109368,34 @@
   ]
  },
  {
+  "id": "alo-m3299r-double-take-long-sleeve-crew-black",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Double Take Long Sleeve Crew - Black",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3299r-double-take-long-sleeve-crew-black?variant=43774089560244",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3299R_01_b1_s1_a4_1_m221.jpg?v=1738191075",
+  "details": "Meet your new wardrobe staple.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "alo-m3310r-textured-knit-long-sleeve-polo-rich-bordeaux",
   "gender": "men",
   "tier": "High-end",
@@ -109586,33 +109670,6 @@
   ]
  },
  {
-  "id": "alo-w3903r-ribbed-modal-long-sleeve-bone",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Ribbed Modal Long Sleeve - Bone",
-  "price": 78,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3903r-ribbed-modal-long-sleeve-bone",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3903R_03040_b1_s1_a2_m18_cc11809e-a9aa-49b2-b0e2-62a3dc4c9844.jpg?v=1758933017",
-  "details": "Consider this the basic you’ll be reaching for over and over again.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-w3903r-ribbed-modal-long-sleeve-macadamia",
   "gender": "women",
   "tier": "High-end",
@@ -109692,6 +109749,33 @@
   ],
   "styles": [
    "understated"
+  ]
+ },
+ {
+  "id": "alo-w3984r-dreamlight-long-sleeve-top-candlelight-yellow",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Dreamlight Long Sleeve Top - Candlelight Yellow",
+  "price": 84,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3984r-dreamlight-long-sleeve-top-candlelight-yellow?variant=50661714002279",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3984R_06645_b2_s1_a1_m177.jpg?v=1766050527",
+  "details": "The Dreamlight Long Sleeve Top was designed to feel incredible and look intentional.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "yellow"
+  ],
+  "styles": [
+   "statement"
   ]
  },
  {
@@ -115458,16 +115542,16 @@
   ]
  },
  {
-  "id": "mack-weldon-merino-long-sleeve-sweater-polo",
+  "id": "mack-weldon-silver-long-sleeve-polo-fs",
   "gender": "men",
-  "tier": "High-end",
+  "tier": "Quality",
   "brand": "Mack Weldon",
-  "name": "Merino Long Sleeve Sweater Polo — Night Sky Bird's Eye",
-  "price": 218,
+  "name": "SILVER Long Sleeve Polo — Lambrusco Heather",
+  "price": 44.99,
   "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/merino-long-sleeve-sweater-polo?variant=67592264024177",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Merino-Long-Sleeve-Sweater-Polo_Night-Sky-Bird_s-Eye_M01X20-NSK.png?v=1790771666",
-  "details": "Simply the softest.",
+  "productUrl": "https://www.mackweldon.com/products/silver-long-sleeve-polo-fs?variant=42997056405617",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01K08-LBSCH_Front_857b1f69-2798-44df-848e-759445ebf257.png?v=1770411605",
+  "details": "Your go-to polo for when polo season is over, crafted with world-class Supima® cotton and easy-to-roll sleeves for fluctuating forecasts.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "long-sleeve-top"
@@ -115479,20 +115563,20 @@
   ],
   "colours": [],
   "styles": [
-   "relaxed"
+   "understated"
   ]
  },
  {
-  "id": "mack-weldon-silver-long-sleeve-polo-fs",
+  "id": "mack-weldon-silver-long-sleeve-t-shirt-fs",
   "gender": "men",
   "tier": "Quality",
   "brand": "Mack Weldon",
-  "name": "SILVER Long Sleeve Polo — Lambrusco Heather",
-  "price": 44.99,
+  "name": "SILVER Long Sleeve T-Shirt — Fig Pudding",
+  "price": 32.99,
   "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/silver-long-sleeve-polo-fs?variant=42997056405617",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01K08-LBSCH_Front_857b1f69-2798-44df-848e-759445ebf257.png?v=1770411605",
-  "details": "Your go-to polo for when polo season is over, crafted with world-class Supima® cotton and easy-to-roll sleeves for fluctuating forecasts.",
+  "productUrl": "https://www.mackweldon.com/products/silver-long-sleeve-t-shirt-fs?variant=44420335927409",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/M01T19-FGP.png?v=1753192123",
+  "details": "Balancing comfort and class, this luxurious long sleeve tee is designed with premium Supima® cotton, optimal stretch, and innovative anti-od",
   "checkedAt": "2026-10-24",
   "kinds": [
    "long-sleeve-top"
@@ -118565,6 +118649,35 @@
   ]
  },
  {
+  "id": "taylor-stitch-long-sleeve-shop-tee-in-army-twist-2511",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Taylor Stitch",
+  "name": "The Long Sleeve Shop Tee in Army Twist",
+  "price": 80,
+  "currency": "USD",
+  "productUrl": "https://www.taylorstitch.com/products/long-sleeve-shop-tee-in-army-twist-2511",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/long-sleeve-shop-tee-in-army-twist.jpg?v=1790619005",
+  "details": "The Long Sleeve Shop Tee in Army Twist from Taylor Stitch 9.5-oz.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "green"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
+   "understated"
+  ]
+ },
+ {
   "id": "taylor-stitch-long-sleeve-shop-tee-in-coal-twist-2511",
   "gender": "men",
   "tier": "High-end",
@@ -118647,37 +118760,6 @@
   ],
   "styles": [
    "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "taylor-stitch-long-sleeve-valencia-sweater-polo-in-olive-261",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Taylor Stitch",
-  "name": "The Long Sleeve Valencia Sweater Polo in Olive",
-  "price": 155,
-  "currency": "USD",
-  "productUrl": "https://www.taylorstitch.com/products/long-sleeve-valencia-sweater-polo-in-olive-2610",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/Q426_The_Long_Sleeve_Valencia_Sweater_Polo_in_Olive_Cotton_Cashmere_PDP_001.jpg?v=1792020171",
-  "details": "The Long Sleeve Valencia Sweater Polo in Olive from Taylor Stitch",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "olive",
-   "green"
-  ],
-  "styles": [
-   "polished",
-   "relaxed",
-   "statement",
    "understated"
   ]
  },
@@ -119179,34 +119261,6 @@
   "styles": [
    "relaxed",
    "statement",
-   "understated"
-  ]
- },
- {
-  "id": "tommy-hilfiger-long-sleeve-cable-knit-sweater-polo-xm07936-y",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Tommy Hilfiger",
-  "name": "Long-Sleeve Cable Knit Sweater Polo — Rich Cream",
-  "price": 107.1,
-  "currency": "CAD",
-  "productUrl": "https://ca.tommy.com/en/men/clothing/tops/long-sleeve-cable-knit-sweater-polo/XM07936-YA6.html?journey=men-clothing-tops-sweaters",
-  "imageUrl": "https://shoptommy.scene7.com/is/image/ShopTommy/XM07936_YA6_main",
-  "details": "",
-  "checkedAt": "2026-10-23",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "cream"
-  ],
-  "styles": [
-   "relaxed",
    "understated"
   ]
  },
@@ -123404,6 +123458,32 @@
   ],
   "colours": [
    "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "allbirds-womens-allbirds-slide-mushroom",
+  "gender": "women",
+  "tier": "Budget",
+  "brand": "Allbirds",
+  "name": "Women's Allbirds Slide - Mushroom",
+  "price": 37.5,
+  "currency": "CAD",
+  "productUrl": "https://www.allbirds.ca/products/womens-allbirds-slide-mushroom",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0806/5967/7504/files/A12589_26Q1_Allbirds-Slide-Mushroom_PDP_LEFT.jpg?v=1775145472",
+  "details": "Easy on.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "sandals"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "beige"
   ],
   "styles": [
    "understated"
@@ -142348,7 +142428,7 @@
   ],
   "colours": [
    "black",
-   "navy",
+   "white",
    "blue"
   ],
   "styles": [
@@ -144664,6 +144744,34 @@
   ]
  },
  {
+  "id": "alo-m6143r-7-double-take-short-green-olive",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "7\" Double Take Short - Green Olive",
+  "price": 88,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m6143r-7-double-take-short-green-olive",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M6143R_06464_b1_s1_a4_m221.jpg?v=1756917664",
+  "details": "The wait is over—your favorite fabric now comes in a must-have short.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "olive",
+   "green"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
+  ]
+ },
+ {
   "id": "alo-m6143r-7-double-take-short-white-heather",
   "gender": "men",
   "tier": "High-end",
@@ -144796,33 +144904,6 @@
   ]
  },
  {
-  "id": "alo-m6158r-5-circuit-short-dune-grass",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "5\" Circuit Short - Dune Grass",
-  "price": 68,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m6158r-5-circuit-short-dune-grass",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M6158R_07947_b1_s1_a5_dSU26_m214_1.jpg?v=1784540351",
-  "details": "Your favorite gym shorts just got shorter...",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "shorts"
-  ],
-  "climates": [
-   "hot",
-   "mild"
-  ],
-  "colours": [
-   "green"
-  ],
-  "styles": [
-   "relaxed",
-   "statement"
-  ]
- },
- {
   "id": "alo-m6201p-7-linen-jersey-coastal-short-white",
   "gender": "men",
   "tier": "High-end",
@@ -144847,34 +144928,6 @@
   "styles": [
    "relaxed",
    "understated"
-  ]
- },
- {
-  "id": "alo-w6295r-airlift-energy-short-burgundy",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "5\" Airlift Energy Short - Burgundy",
-  "price": 88,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6295r-airlift-energy-short-burgundy?variant=50661517853031",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6295R_06465_b2_s1_a1_m140.jpg?v=1757324991",
-  "details": "Found: the perfect pair of biker shorts.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "shorts"
-  ],
-  "climates": [
-   "hot",
-   "mild"
-  ],
-  "colours": [
-   "red",
-   "burgundy"
-  ],
-  "styles": [
-   "relaxed",
-   "statement"
   ]
  },
  {
@@ -145011,6 +145064,34 @@
   "styles": [
    "relaxed",
    "understated"
+  ]
+ },
+ {
+  "id": "alo-w6520r-high-waist-dreamscape-short-green-olive",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "High-Waist Dreamscape Short - Green Olive",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w6520r-high-waist-dreamscape-short-green-olive?variant=50661524144487",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6520R_06464_b1_s1_a3_m240.jpg?v=1755901567",
+  "details": "The Dreamscape High-Waist Short brings unexpected ease to your everyday rotation.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "olive",
+   "green"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
   ]
  },
  {
@@ -173825,7 +173906,7 @@
   "name": "Midweight Americana Crew Sock 6-Pack — Spruce",
   "price": 78,
   "currency": "USD",
-  "productUrl": "https://duckworthco.com/products/midweight-americana-crew-sock-6-pack?variant=52002749972800",
+  "productUrl": "https://duckworthco.com/products/midweight-americana-crew-sock-6-pack?variant=52002750071104",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0169/1192/5348/files/DW-MidweightAmericanaCrewSock-SPRUCE-6Pack_1.png?v=1779288240",
   "details": "Description Everyone needs a pair of Duckworth Merino Wool hiking socks.",
   "checkedAt": "2026-10-24",
@@ -190462,35 +190543,6 @@
   ]
  },
  {
-  "id": "knockaround-black-foldable-triangle-case",
-  "gender": "unisex",
-  "tier": "Budget",
-  "brand": "Knockaround",
-  "name": "Black Foldable Triangle Case",
-  "price": 15,
-  "currency": "USD",
-  "productUrl": "https://www.knockaround.com/products/black-foldable-triangle-case",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1356/7869/files/Black-hard-shell-case-for-prescription-glasses_fb9cf641-1977-49ba-a984-3abe9f1b050b.jpg?v=1761058455",
-  "details": "Get your sunglasses safety locked in with this magnetic clam-shell triangle hard case.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "sunglasses"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "knockaround-deja-views",
   "gender": "women",
   "tier": "Budget",
@@ -190843,6 +190895,32 @@
   "styles": [
    "relaxed",
    "statement"
+  ]
+ },
+ {
+  "id": "knockaround-wm-phoenix-fast-lanes-sport",
+  "gender": "unisex",
+  "tier": "Budget",
+  "brand": "Knockaround",
+  "name": "WM Phoenix Open Fast Lanes Sport",
+  "price": 20,
+  "currency": "USD",
+  "productUrl": "https://www.knockaround.com/products/wm-phoenix-fast-lanes-sport",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1356/7869/files/knockaround-phoenix-open-fastlanes-sport-flyover.jpg?v=1765212559",
+  "details": "Dark green frames built for the loudest hole in golf and the longest days in the desert.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "sunglasses"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
   ]
  },
  {
@@ -192489,6 +192567,35 @@
   ]
  },
  {
+  "id": "quay-aura-points-bluelight",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Quay",
+  "name": "AURA POINTS BLUE LIGHT — BLACK/BLUE LIGHT",
+  "price": 75,
+  "currency": "USD",
+  "productUrl": "https://www.quayaustralia.com/products/aura-points-bluelight?variant=44503510089814",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0898/5824/files/Quay_AuraPoints_BlackCLR_Front.jpg?v=1779416150",
+  "details": "Time to collect your AURA POINTS.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "sunglasses"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black",
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "quay-aura-points-sale",
   "gender": "unisex",
   "tier": "Quality",
@@ -192760,34 +192867,6 @@
    "black",
    "blue",
    "brown"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "quay-heart-case",
-  "gender": "men",
-  "tier": "Budget",
-  "brand": "Quay",
-  "name": "HEART CASE — BLACK VELVET/BLACK",
-  "price": 20,
-  "currency": "USD",
-  "productUrl": "https://www.quayaustralia.com/products/heart-case?variant=50543056617558",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0898/5824/files/Quay_HeartCase_Side_9d9bce6c-fb95-4f20-9d36-dd3b2ec1415d.jpg?v=1790619350",
-  "details": "Made with love.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "sunglasses"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "black"
   ],
   "styles": [
    "understated"
@@ -205334,6 +205413,32 @@
   ]
  },
  {
+  "id": "eberjey-aloe-cotton-short-sleeve-tee-wedgewood-blue",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Eberjey",
+  "name": "Aloe Cotton Short Sleeve Tee",
+  "price": 54.6,
+  "currency": "USD",
+  "productUrl": "https://www.eberjey.com/products/aloe-cotton-short-sleeve-tee-wedgewood-blue",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0564/0598/3384/files/Low_Res-T2035S-WEDGB-S_5d0a2d29-d522-4665-8742-859290256a15.jpg?v=1721315975",
+  "details": "A staple piece you’ll reach for again and again.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
   "id": "eberjey-dream-rib-v-neck-tank-black",
   "gender": "women",
   "tier": "High-end",
@@ -205373,32 +205478,6 @@
   "productUrl": "https://www.eberjey.com/products/dream-rib-v-neck-tank-dark-heather-grey",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0564/0598/3384/files/T1002-DHGRE-F1.jpg?v=1769796287",
   "details": "Your new favorite staple.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed"
-  ]
- },
- {
-  "id": "eberjey-fine-gauge-sweater-tank-faded-denim",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Eberjey",
-  "name": "Fine Gauge Sweater Tank",
-  "price": 83.2,
-  "currency": "USD",
-  "productUrl": "https://www.eberjey.com/products/fine-gauge-sweater-tank-faded-denim",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0564/0598/3384/files/Low_Res-EBJ2730-C4665_FADED-F.jpg?v=1741979745",
-  "details": "For staying in and heading out.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "tee"
@@ -208245,35 +208324,6 @@
   ],
   "styles": [
    "statement"
-  ]
- },
- {
-  "id": "guess-textured-sweater-top-white-w6rr28z3p41-g012-html",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "GUESS",
-  "name": "Textured sweater top — white",
-  "price": 40.4,
-  "currency": "USD",
-  "productUrl": "https://www.guess.com/en-us/guess/women/clothing/knitwear/textured-sweater-top-white/W6RR28Z3P41-G012.html",
-  "imageUrl": "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,dpr_1.4,fl_advanced_resize,fl_progressive,w_800,c_scale/v1/NA/Style/ECOMM/W6RR28Z3P41-G012",
-  "details": "",
-  "checkedAt": "2026-10-23",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "white"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
   ]
  },
  {
@@ -211407,34 +211457,6 @@
   ]
  },
  {
-  "id": "lunya-womens-cloud-cotton-sweater-tee-whisper-blue",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Lunya",
-  "name": "Cloud Cotton Sweater Tee — Whisper Blue",
-  "price": 168,
-  "currency": "USD",
-  "productUrl": "https://www.lunya.co/products/womens-cloud-cotton-sweater-tee-whisper-blue?variant=42592628703275",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/LOOK_08_CLOUDCOTTON_SWEATERTEE_SHORT_WHISPERBLUE_1607_05.jpg?v=1773080066",
-  "details": "The closest thing to lounging on clouds (probably).",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "relaxed"
-  ]
- },
- {
   "id": "lunya-womens-linen-embroidered-eyelet-tank-sincere-white",
   "gender": "women",
   "tier": "High-end",
@@ -211500,6 +211522,34 @@
   "currency": "USD",
   "productUrl": "https://www.lunya.co/products/womens-organic-pima-curved-hem-tank-cloud-blue-heather?variant=42592623624235",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/LOOK_15_ORGANIC_PIMA_CURVED_HEM_WIDE_LEG_PANT_CLOUD_BLUE_HEATHER_2960_01.jpg?v=1773886273",
+  "details": "Meet the tank that understands proportions.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "lunya-womens-organic-pima-curved-hem-tank-deep-blue",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Lunya",
+  "name": "Organic Pima Curved Hem Tank — Deep Blue",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.lunya.co/products/womens-organic-pima-curved-hem-tank-deep-blue?variant=43346807717931",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0267/0987/files/1_a829f14e-ba8c-49f8-9085-a5683c2ee514.jpg?v=1785966675",
   "details": "Meet the tank that understands proportions.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -211707,28 +211757,29 @@
   ]
  },
  {
-  "id": "mack-weldon-tech-linen-sweater-polo-1",
+  "id": "mack-weldon-terry-cloth-johnny-collar-polo",
   "gender": "men",
   "tier": "High-end",
   "brand": "Mack Weldon",
-  "name": "Tech Linen Sweater Polo — Shallow Water Heather",
-  "price": 78.99,
+  "name": "Terry Cloth Johnny Collar Polo — Night Sky",
+  "price": 88,
   "currency": "USD",
-  "productUrl": "https://www.mackweldon.com/products/tech-linen-sweater-polo-1?variant=44418685108337",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Tech-Linen-Knit-Polo_Shallow-Water-Heather_M03Z11-SWH.png?v=1769442844",
-  "details": "Introducing a new kind of sweater polo.",
+  "productUrl": "https://www.mackweldon.com/products/terry-cloth-johnny-collar-polo?variant=43194999996529",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0078/6825/2273/files/Terry-Cloth-Johnny-Collar-Polo_Night-Sky_M01T44-NSK.png?v=1777893885",
+  "details": "A polo that's made for the pool, designed with our cotton-rich terry cloth and a vintage-inspired collar.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "tee"
   ],
   "climates": [
+   "cold",
    "mild",
    "hot",
    "unknown"
   ],
   "colours": [],
   "styles": [
-   "relaxed"
+   "understated"
   ]
  },
  {
@@ -211813,36 +211864,6 @@
    "black"
   ],
   "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "minus33-wilderness-expedition-womens-wool-full-zip",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Minus33",
-  "name": "Women's Heavyweight Wool Full-Zip Sweater Top - 100% Merino Wool — Black",
-  "price": 179.99,
-  "currency": "USD",
-  "productUrl": "https://minus33.com/products/wilderness-expedition-womens-wool-full-zip?variant=33310059528329",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0289/3129/3321/files/8030BK-front1-womens-heavyweight-full-zip.jpg?v=1755196481",
-  "details": "Someone as on-the-go as you needs a layer that can stand up to the job.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black",
-   "blue"
-  ],
-  "styles": [
-   "polished",
    "relaxed",
    "understated"
   ]
@@ -218383,16 +218404,45 @@
   ]
  },
  {
-  "id": "taylor-stitch-miles-sweater-polo-in-espresso-merino-2610",
+  "id": "taylor-stitch-nichols-polo-in-nocturne-cotton-cashmere-2608",
   "gender": "men",
   "tier": "High-end",
   "brand": "Taylor Stitch",
-  "name": "The Miles Sweater Polo in Espresso Merino",
-  "price": 238,
+  "name": "The Nichols Polo in Nocturne Cotton Cashmere",
+  "price": 124.6,
   "currency": "USD",
-  "productUrl": "https://www.taylorstitch.com/products/miles-sweater-polo-in-espresso-merino-2610",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/Q426_TheMilesSweaterPolo-EspressoMerino_PDP_001.jpg?v=1791818198",
-  "details": "The Miles Sweater Polo in Espresso Merino from Taylor Stitch 100% extrafine merino wool.",
+  "productUrl": "https://www.taylorstitch.com/products/nichols-polo-in-nocturne-cotton-cashmere-2608",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/nichols-polo-in-nocturne-cotton-cashmere-2608_001.jpg?v=1790611899",
+  "details": "The Nichols Polo in Nocturne Cotton Cashmere from Taylor Stitch 95% organic cotton, 5% cashmere.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "taylor-stitch-nichols-polo-in-sable-cotton-cashmere-2608",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Taylor Stitch",
+  "name": "The Nichols Polo in Sable Cotton Cashmere",
+  "price": 124.6,
+  "currency": "USD",
+  "productUrl": "https://www.taylorstitch.com/products/nichols-polo-in-sable-cotton-cashmere-2608",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/nichols-polo-in-sable-cotton-cashmere-2608_001.jpg?v=1790611901",
+  "details": "The Nichols Polo in Sable Cotton Cashmere from Taylor Stitch 95% organic cotton, 5% cashmere.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "tee"
@@ -218404,67 +218454,6 @@
   ],
   "colours": [
    "brown"
-  ],
-  "styles": [
-   "polished",
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "taylor-stitch-newton-sweater-polo-in-burgundy-birdseye-merin",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Taylor Stitch",
-  "name": "The Newton Sweater Polo in Burgundy Birdseye Merino",
-  "price": 188,
-  "currency": "USD",
-  "productUrl": "https://www.taylorstitch.com/products/newton-sweater-polo-in-burgundy-birdseye-merino-2608",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/newton-sweater-polo-in-burgundy-birdseye-merino-2608_001_35e5ff81-83f6-4b58-92a7-5a8beab555a6.jpg?v=1790612152",
-  "details": "The Newton Sweater Polo in Burgundy Birdseye Merino from Taylor Stitch 100% extrafine merino wool.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "red",
-   "burgundy"
-  ],
-  "styles": [
-   "polished",
-   "relaxed",
-   "statement",
-   "understated"
-  ]
- },
- {
-  "id": "taylor-stitch-newton-sweater-polo-in-navy-birdseye-merino-26",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Taylor Stitch",
-  "name": "The Newton Sweater Polo in Navy Birdseye Merino",
-  "price": 188,
-  "currency": "USD",
-  "productUrl": "https://www.taylorstitch.com/products/newton-sweater-polo-in-navy-birdseye-merino-2608",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/newton-sweater-polo-in-navy-birdseye-merino-2608_001_9c10bfa0-0b51-4125-8cc1-28498b2e51d6.jpg?v=1790612131",
-  "details": "The Newton Sweater Polo in Navy Birdseye Merino from Taylor Stitch 100% extrafine merino wool.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "navy",
-   "blue"
   ],
   "styles": [
    "polished",
@@ -218618,6 +218607,36 @@
   ],
   "styles": [
    "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "taylor-stitch-ripper-polo-in-canyon-2607",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Taylor Stitch",
+  "name": "The Ripper Polo in Canyon",
+  "price": 61.6,
+  "currency": "USD",
+  "productUrl": "https://www.taylorstitch.com/products/ripper-polo-in-canyon-2607",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0070/1922/files/instock_m_q326_ripper-polo-canyon_portrait_001.jpg?v=1782837559",
+  "details": "The Ripper Polo in Canyon from Taylor Stitch 5.5-oz.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "red"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
    "understated"
   ]
  },
@@ -264748,6 +264767,34 @@
   ]
  },
  {
+  "id": "minus33-wilderness-expedition-womens-wool-full-zip",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Minus33",
+  "name": "Women's Heavyweight Wool Full-Zip Sweater Top - 100% Merino Wool — Black",
+  "price": 179.99,
+  "currency": "USD",
+  "productUrl": "https://minus33.com/products/wilderness-expedition-womens-wool-full-zip?variant=33310059528329",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0289/3129/3321/files/8030BK-front1-womens-heavyweight-full-zip.jpg?v=1755196481",
+  "details": "Someone as on-the-go as you needs a layer that can stand up to the job.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black",
+   "blue"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "minus33-womens-brushed-merino-wool-full-zip-hoodie-heavyweig",
   "gender": "women",
   "tier": "High-end",
@@ -270456,6 +270503,32 @@
    "sand"
   ],
   "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "tommy-hilfiger-long-sleeve-cable-knit-sweater-polo-xm07936-y",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Tommy Hilfiger",
+  "name": "Long-Sleeve Cable Knit Sweater Polo — Rich Cream",
+  "price": 107.1,
+  "currency": "CAD",
+  "productUrl": "https://ca.tommy.com/en/men/clothing/tops/long-sleeve-cable-knit-sweater-polo/XM07936-YA6.html?journey=men-clothing-tops-sweaters",
+  "imageUrl": "https://shoptommy.scene7.com/is/image/ShopTommy/XM07936_YA6_main",
+  "details": "",
+  "checkedAt": "2026-10-23",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "relaxed",
    "understated"
   ]
  },
