@@ -1,6 +1,6 @@
-# Catalogue coverage (2026-10-23)
+# Catalogue coverage (2026-10-24)
 
-10310 products from 112 brands. Rejected: 49.
+10310 products from 112 brands. Rejected: 50.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
@@ -21,7 +21,7 @@
 | Workout leggings or shorts | 66 / 66 / 45 | 34 / 21 / 15 |
 | Linen shirt | 15 / 27 / 18 | 40 / 25 / 18 |
 | Button-up shirt | 120 / 85 / 37 | 138 / 81 / 32 |
-| Warm sweater | 124 / 216 / 41 | 109 / 208 / 45 |
+| Warm sweater | 124 / 217 / 40 | 109 / 208 / 45 |
 | Light knit | 165 / 156 / 51 | 120 / 119 / 37 |
 | Long-sleeve top | 150 / 63 / 25 | 138 / 57 / 6 |
 | T-shirt | 230 / 157 / 37 | 222 / 157 / 32 |
@@ -37,8 +37,8 @@
 | Evening shoes | 60 / 24 / 12 | 32 / 12 / 7 |
 | Walking sneakers | 111 / 24 / 19 | 94 / 19 / 17 |
 | Daypack | 37 / 20 / 2 | 18 / 16 / 2 |
-| Day bag | 96 / 115 / 36 | 25 / 68 / 19 |
-| Sunglasses | 49 / 49 / 25 | 44 / 42 / 18 |
+| Day bag | 96 / 116 / 35 | 25 / 68 / 19 |
+| Sunglasses | 49 / 49 / 25 | 44 / 43 / 17 |
 | Umbrella | 18 / 6 / 3 | 18 / 4 / 4 |
 | Sun hat or cap | 67 / 90 / 44 | 36 / 89 / 29 |
 | Beanie | 42 / 83 / 15 | 51 / 60 / 21 |
@@ -164,65 +164,11 @@
 
 ## Category audit
 
-327 products whose name names a different kind of garment than their piece.
+6 products whose name names a different kind of garment than their piece.
 
 - dress-shoes: OluKai — Kahakai - Trench Blue / Trench Blue
 - dress-shoes: OluKai — Moku Pae - Ash / Trench Blue
 - dress-shoes: OluKai — Moku Pae - Trench Blue / Off White
-- knit: Faithfull the Brand — The Knit Vest Wheat
-- knit: Frank And Oak — LAMBSWOOL HEIRLOOM SWEATER VEST
-- knit: Frank And Oak — LAMBSWOOL SWEATER VEST
-- knit: SKIMS — COTTON KNIT MENS SWEATER VEST | DESERT HEATHER GREY — DESERT HEATHER GREY KNIT
-- knit: SKIMS — COTTON KNIT MENS SWEATER VEST | ONYX
-- knit: Summersalt — The High Neck Sweater Vest - Sea Urchin
-- light-jacket: Brixton — Bowery Builders Ranch Performance Flannel - Black/Navy
-- light-jacket: Brixton — Bowery Builders Ranch Performance Flannel - Ultra Marine/Dark Brick
-- rain-shell: totes — Women's Reversible Rain Poncho — Palm Leaves
-- rain-shell: totes — Adult Rain Poncho — Navy Blue
-- rain-shell: totes — Women’s Rain Poncho — Geometry
 - sandals: OluKai — Ulele - Trench Blue / Trench Blue
-- shorts: Brixton — Classic Trunk 17" - Black/Future Grey
-- sleepwear: Alo — Waffle Lounge Jogger - Athletic Heather Grey
-- sleepwear: Alo — 7" Waffle Lounge Short - Athletic Heather Grey
-- sleepwear: Alo — 7" Waffle Lounge Short - Rich Bordeaux
-- sleepwear: Andie — Womens Night Knit Tank - Rayon Jersey - Black
-- sleepwear: Andie — Womens Night Knit Tee - Rayon Jersey - Ruby Port
-- sleepwear: Beyond Yoga — Breathe Easy Ribbed Hoodie — Cabernet
-- sleepwear: Beyond Yoga — Breathe Easy Ribbed Hoodie — Dark Chocolate
-- sleepwear: Beyond Yoga — Breathe Easy Ribbed Wide Leg Pant — Cabernet
-- sleepwear: Beyond Yoga — Breathe Easy Ribbed Wide Leg Pant — Dark Chocolate
-- sleepwear: Beyond Yoga — Rest Day Waffle Wide Leg Pant — Cabernet
-- sleepwear: Beyond Yoga — Rest Day Waffle Wide Leg Pant — Dark Ivy
-- sleepwear: Beyond Yoga — Rest Day Waffle Wrap Pullover — Dark Ivy
-- sleepwear: Bluenotes — Pointelle Knit Baloon Pajama Pants — Lt Blue
-- sleepwear: Bluenotes — Pointelle Knit Wide Leg Pajama Pants — Grey
-- sleepwear: Bluenotes — Holiday Printed Oversized Plush Pajama Shirt — Baby Blue
-- sleepwear: Bluenotes — Mickey Mouse Fair Isle Holiday Plush Pajama Pants — Red
-- sleepwear: Bluenotes — Winnie The Pooh Holiday Plush Pajama Pants — Cream
-- sleepwear: Bluenotes — Winnie The Pooh Holiday Gift Polka Dot Plush Pajama Pants — Lt Pink
-- sleepwear: Bluenotes — The Nightmare Before Christmas Candy Cane Plaid Plush Pajama Pants — Charcoal
-- sleepwear: Bluenotes — Classic Plaid Pajama Pants — Black
-- sleepwear: Bluenotes — Classic Buffalo Plaid Pajama Pants — Red
-- sleepwear: Bluenotes — Classic Tartan Pajama Pants — Red
-- sleepwear: Bluenotes — Classic Tartan Pajama Pants — Red
-- sleepwear: Bluenotes — Classic Windowpane Plaid Pajama Pants — Black
-- sleepwear: Bluenotes — Classic Plaid Pajama Pants — Red
-- sleepwear: Bluenotes — Classic Windowpane Plaid Pajama Pants — Black
-- sleepwear: Bluenotes — Elf OMG! Santa! I Know Him Pajama Pants — Red
-- sleepwear: Bluenotes — Holiday Graphic Super Soft Pajama Dad Shirt & Pants 2-Piece Set — Burgundy
-- sleepwear: Brixton — Lounge Pant - Dark Brick
-- sleepwear: Brixton — Lounge Pant - Sand Stripe
-- sleepwear: Brixton — The Cabana Mesh Lounge Pant - Multi Color Zigzag
-- sleepwear: Brixton — The Lola Lounge Pant - Off White Tile
-- sleepwear: Brixton — The Lola Lounge Pant - Sublime Green Checkerboard
-- sleepwear: CDLP — Cotton Pyjama Trousers Print — Iron Stripe
-- sleepwear: CDLP — Cotton Pyjama Trousers — Navy Blue
-- sleepwear: CDLP — Cotton Pyjama Trousers Print — Shadow Check
-- sleepwear: CDLP — Pyjama Shirt Print — Iron Stripe
-- sleepwear: CDLP — Pyjama Shirt — Navy Blue
-- sleepwear: CDLP — Pyjama Shirt Print — Shadow Check
-- sleepwear: Faherty — Pajama Short Set - Indigo Ikat
-- sleepwear: FRAME — Pyjama Pants -- Beige Stripe
-- sleepwear: FRAME — Pyjama Shirt -- Dusty Mauve
-- sleepwear: FRAME — Pyjama Shirt -- Blue Stripe
-- sleepwear: FRAME — Pyjama Shirt -- Yellow Stripe
+- sun-hat: Topo Designs — Topo Designs x TSPTR Snoopy Trucker — Red / White
+- walking-shoes: Allbirds — Women's Cruiser Jersey - Light Grey/Anthracite (Blizzard Sole)
