@@ -1,5 +1,6 @@
 import type { PackingKind, PackingPlan } from './packing'
 import type { Trip, Wear } from './trip'
+import type { StyledEdit } from './stylist'
 
 // Merchant page, photo and price are kept together as one record from the retailer's own data.
 // affiliateUrl is optional: once a programme approves parché, its tracking link goes here and
@@ -15,5 +16,5 @@ export const TIER_LABEL: Record<Tier, string> = { 'High-end': 'Luxury', Quality:
 
 // What the shop API returns for one piece on the list: options grouped by price tier.
 export type TierOptions = { tier: Tier; label: string; products: Product[] }
-export type NeedOptions = { id: PackingKind; tiers: TierOptions[] }
-export type ShopPayload = { wear: Wear; needs: NeedOptions[]; checkedAt: string | null }
+export type NeedOptions = { id: PackingKind; tiers: TierOptions[]; picks?: string[] }
+export type ShopPayload = { wear: Wear; needs: NeedOptions[]; edit: StyledEdit | null; checkedAt: string | null }

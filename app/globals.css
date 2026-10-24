@@ -508,3 +508,65 @@ button { font: inherit; color: inherit; }
 .marquee .brand-loop-item:hover { color: var(--rouge); transform: scale(1.06); }
 @keyframes marquee { to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+
+/* ── The parché edit ── one direction per trip, presented like a lookbook. */
+.edit { padding: clamp(4rem, 9vw, 7.5rem) 0 clamp(3rem, 6vw, 5rem); background: var(--blanc); }
+.edit-head { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 1.25rem clamp(2rem, 5vw, 5rem); align-items: end; padding-bottom: clamp(2.5rem, 5vw, 4rem); border-bottom: 2px solid var(--marine); }
+.edit-head .kicker { grid-column: 1 / -1; margin-bottom: 0; }
+.edit-name { font-family: var(--serif); font-weight: 400; font-size: clamp(3.2rem, 9vw, 8.5rem); line-height: .88; letter-spacing: -.04em; grid-row: span 3; }
+.w-mask { display: inline-block; overflow: hidden; vertical-align: bottom; padding-bottom: .06em; margin-right: .22em; }
+.w-mask:last-child { margin-right: 0; }
+.w { display: inline-block; }
+.edit-line { font-family: var(--serif); font-size: var(--t-lg); line-height: 1.3; max-width: 34ch; }
+.edit-swatches { list-style: none; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-size: var(--t-xs); font-weight: 600; letter-spacing: .02em; }
+.edit-swatches li { display: inline-flex; align-items: center; gap: .5rem; }
+.edit-swatches span { width: 1.6rem; height: 1.6rem; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(20, 33, 61, .15); }
+.edit-rule { font-size: var(--t-sm); color: var(--graphite); max-width: 46ch; }
+.edit-rule strong { color: var(--marine); }
+.edit-alts { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; margin-top: .5rem; font-size: var(--t-sm); color: var(--graphite); }
+.edit-alts button { font: inherit; font-weight: 600; color: var(--marine); background: none; border: 1px solid var(--rule); border-radius: 999px; padding: .4rem .95rem; cursor: pointer; transition: border-color .2s, background .2s; }
+.edit-alts button:hover { border-color: var(--marine); background: var(--pierre); }
+@media (max-width: 900px) { .edit-head { grid-template-columns: 1fr; } .edit-name { grid-row: auto; } }
+
+.edit-boards { display: grid; gap: clamp(3.5rem, 8vw, 7rem); margin-top: clamp(3rem, 6vw, 5rem); }
+.board { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: clamp(1.75rem, 4vw, 4rem); align-items: start; }
+.board--flip .board-grid { order: 2; }
+.board-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: minmax(0, 1fr); gap: .6rem; }
+.board-tile { position: relative; display: block; background: var(--pierre); overflow: hidden; aspect-ratio: 3 / 4; }
+.board-tile img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; transition: transform .8s cubic-bezier(.2,.7,.2,1); }
+.board-tile:hover img { transform: scale(1.05); }
+.board-tile--hero { grid-column: span 2; grid-row: span 2; aspect-ratio: auto; }
+.board-grid[data-count="2"] .board-tile--hero, .board-grid[data-count="3"] .board-tile--hero { grid-row: span 2; }
+.board-badge { position: absolute; left: .6rem; top: .6rem; min-width: 1.6rem; height: 1.6rem; display: grid; place-items: center; border-radius: 50%; background: var(--blanc); font-size: var(--t-xs); font-weight: 700; }
+.board-tile--hero .board-badge { background: var(--rouge); color: var(--blanc); }
+.board-copy { position: sticky; top: calc(var(--nav-h) + 1.5rem); display: flex; flex-direction: column; gap: 1rem; }
+.board-kicker { font-size: var(--t-sm); font-weight: 600; color: var(--rouge-ink); display: flex; align-items: baseline; gap: .6rem; }
+.board-num { font-family: var(--serif); font-weight: 400; font-size: var(--t-xl); color: var(--marine); }
+.board-title { font-family: var(--serif); font-weight: 400; font-size: var(--t-2xl); line-height: 1; letter-spacing: -.02em; }
+.board-note { font-family: var(--serif); font-size: var(--t-md); line-height: 1.55; max-width: 52ch; }
+.board-pieces { list-style: none; border-top: 1px solid var(--rule); }
+.board-pieces li { display: grid; grid-template-columns: 1.6rem 1fr; gap: .9rem; padding: .85rem 0; border-bottom: 1px solid var(--rule); }
+.board-n { width: 1.6rem; height: 1.6rem; display: grid; place-items: center; border-radius: 50%; background: var(--pierre); font-size: var(--t-xs); font-weight: 700; }
+.board-pieces li:first-child .board-n { background: var(--rouge); color: var(--blanc); }
+.board-role { font-size: var(--t-xs); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--graphite); }
+.board-pieces a { display: block; text-decoration: none; font-size: var(--t-sm); line-height: 1.4; margin-top: .15rem; }
+.board-pieces a:hover { text-decoration: underline; text-underline-offset: .2em; }
+.board-pieces strong { font-weight: 700; margin-right: .3rem; }
+.board-pieces em { font-style: normal; font-weight: 600; margin-left: .5rem; white-space: nowrap; }
+.board-why { font-size: var(--t-sm); color: var(--graphite); margin-top: .25rem; max-width: 56ch; }
+.board-total { font-size: var(--t-sm); font-weight: 600; }
+@media (max-width: 900px) {
+  .board { grid-template-columns: 1fr; }
+  .board--flip .board-grid { order: 0; }
+  .board-copy { position: static; }
+}
+
+/* The shop list names the edit it is styled in, and flags the pieces used in the looks. */
+.edit-strip { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin-top: 1.75rem; padding: .9rem 1.1rem; background: var(--marine); color: var(--blanc); text-decoration: none; }
+.edit-strip-label { font-size: var(--t-xs); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; opacity: .75; }
+.edit-strip-name { font-family: var(--serif); font-size: var(--t-lg); }
+.edit-strip-swatches { display: inline-flex; gap: .3rem; }
+.edit-strip-swatches i { width: 1rem; height: 1rem; border-radius: 50%; box-shadow: 0 0 0 1px rgba(255, 255, 255, .35); }
+.edit-strip-cta { margin-left: auto; font-size: var(--t-sm); font-weight: 600; text-decoration: underline; text-underline-offset: .2em; }
+.edit-strip:hover .edit-strip-cta { text-decoration-thickness: 2px; }
+.pcard-pick { position: absolute; left: .6rem; bottom: .6rem; right: .6rem; background: var(--marine); color: var(--blanc); font-size: var(--t-xs); font-weight: 600; padding: .3rem .55rem; text-align: center; }

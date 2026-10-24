@@ -10,16 +10,16 @@ import { useUser, SignInButton } from '@clerk/nextjs'
 import { ACCOUNTS_ENABLED } from '../../../lib/flags'
 import { createClient } from '../../../lib/supabase'
 import { findDestination, type Destination } from '../../../lib/destinations'
-import { TIER_LABEL, type Product, type ShopPayload, type Tier } from '../../../lib/catalogue-types'
+import { TIER_LABEL, type Product, type ShopPayload } from '../../../lib/catalogue-types'
 import { GROUPS, type PackingKind } from '../../../lib/packing'
 import { ACTIVITIES, STYLES, WEARS, parseTrip, tripParams, formatTripDates, type Trip } from '../../../lib/trip'
 import { buildTravelEdit, type TravelEdit } from '../../../lib/travel-edit'
+import { cad } from '../../../lib/selection'
 import { TripDates, TripWeatherPanel } from './trip-controls'
 import { SiteNav } from '../../../components/SiteNav'
 import { SiteFooter } from '../../../components/SiteFooter'
 import { ProductCard } from '../../../components/ProductCard'
 import Counter from '../../../components/react-bits/Counter'
-import BounceCards from '../../../components/react-bits/BounceCards'
 import LogoLoop from '../../../components/react-bits/LogoLoop'
 
 gsap.registerPlugin(ScrollTrigger, useGSAP)
@@ -102,6 +102,8 @@ function ShopTheList({ edit, shop }: { edit: TravelEdit; shop: ShopState }) {
   const panel = useRef<HTMLDivElement>(null)
   const plan = edit.packingPlan
   const byNeed = useMemo(() => new Map(shop.payload?.needs.map(n => [n.id, n.tiers]) || []), [shop.payload])
+  const picks = useMemo(() => new Set(shop.payload?.needs.flatMap(n => n.picks || []) || []), [shop.payload])
+  const styled = shop.payload?.edit
   const current = plan.needs.find(n => n.id === selected) || plan.needs[0]
   const tiers = byNeed.get(current.id) || []
   const done = plan.needs.filter(n => packed[n.id]).reduce((t, n) => t + n.quantity, 0)
@@ -130,6 +132,12 @@ function ShopTheList({ edit, shop }: { edit: TravelEdit; shop: ShopState }) {
           </div>
           <p className="shop-progress" role="status">{done} of {plan.total} pieces packed</p>
         </div>
+        {styled && <a className="edit-strip" href="#edit">
+          <span className="edit-strip-label">Styled as</span>
+          <span className="edit-strip-name">{styled.name}</span>
+          <span className="edit-strip-swatches" aria-hidden>{styled.swatches.map(s => <i key={s.label} style={{ background: s.hex }} />)}</span>
+          <span className="edit-strip-cta">See the three looks</span>
+        </a>}
 
         <div className="shop-grid">
           <div className="shop-list">
@@ -168,7 +176,7 @@ function ShopTheList({ edit, shop }: { edit: TravelEdit; shop: ShopState }) {
                 <div key={t.tier} className="tier-row">
                   <h4 className="tier-label"><span>{t.label}</span><small>{t.products.length} {t.products.length === 1 ? 'option' : 'options'}</small></h4>
                   <div className="shop-products">
-                    {t.products.map(p => <ProductCard key={p.id} product={p} destination={edit.destination.name} kind={current.id} showTier={false} />)}
+                    {t.products.map(p => <ProductCard key={p.id} product={p} destination={edit.destination.name} kind={current.id} showTier={false} badge={picks.has(p.id) && styled ? `In the ${styled.name} edit` : undefined} />)}
                   </div>
                 </div>
               )) : (
@@ -182,61 +190,84 @@ function ShopTheList({ edit, shop }: { edit: TravelEdit; shop: ShopState }) {
   )
 }
 
-// ── Looks built from real products on the list ──
-type Recipe = { title: string; desc: string; tier: Tier; slots: PackingKind[][] }
-function lookRecipes(edit: TravelEdit): Recipe[] {
-  const a = edit.trip.activity
-  const [day, evening, third] = edit.looks
-  const top: PackingKind[] = ['linen-shirt', 'tee', 'long-sleeve-top', 'knit']
-  const bottom: PackingKind[] = ['light-trousers', 'trousers', 'jeans', 'warm-trousers', 'shorts']
-  return [
-    { ...day, tier: 'Quality', slots: [top, ['coat', 'light-jacket', 'rain-shell', 'warm-knit'], bottom, ['walking-shoes', 'boots', 'sandals'], ['bag', 'sunglasses', 'beanie', 'sun-hat']] },
-    { ...evening, tier: 'High-end', slots: [['dress', 'shirt', 'warm-knit', 'knit'], ['blazer', 'coat', 'light-jacket'], ['skirt', 'trousers', 'warm-trousers', 'light-trousers'], ['dress-shoes', 'boots'], ['belt', 'light-scarf', 'scarf', 'bag']] },
-    { ...third, tier: 'Budget', slots: a === 'active'
-      ? [['active-top'], ['active-bottoms'], ['trail-shoes', 'walking-shoes'], ['daypack'], ['sun-hat', 'beanie', 'sunglasses']]
-      : a === 'relaxing'
-        ? [['swim', 'tee'], ['shorts', 'light-trousers', 'trousers'], ['sandals', 'walking-shoes'], ['sun-hat', 'beanie'], ['sunglasses', 'bag']]
-        : [['tee', 'long-sleeve-top', 'knit'], ['jeans', 'trousers', 'warm-trousers', 'shorts'], ['walking-shoes', 'boots'], ['daypack', 'bag'], ['sunglasses', 'umbrella', 'scarf']] },
-  ]
-}
+// ── The parché edit: one direction for the trip, three looks built from pieces on the list ──
+const cadMoney = (n: number) => new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 }).format(Math.round(n / 10) * 10)
 
-function Looks({ edit, shop }: { edit: TravelEdit; shop: ShopState }) {
-  const byNeed = new Map(shop.payload?.needs.map(n => [n.id, n.tiers]) || [])
-  const looks = lookRecipes(edit).map(r => {
-    const used = new Set<string>()
-    const pieces = r.slots.flatMap(kinds => {
-      for (const k of kinds) {
-        const tiers = byNeed.get(k)
-        if (!tiers?.length) continue
-        const pick = [...(tiers.find(t => t.tier === r.tier)?.products || []), ...tiers.flatMap(t => t.products)].find(p => !used.has(p.id))
-        if (pick) { used.add(pick.id); return [{ kind: k, product: pick }] }
-      }
-      return []
+function EditLooks({ edit, shop, onEdit }: { edit: TravelEdit; shop: ShopState; onEdit: (id: string) => void }) {
+  const root = useRef<HTMLElement>(null)
+  const styled = shop.payload?.edit
+  useGSAP(() => {
+    if (!root.current || !styled || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    gsap.from(root.current.querySelectorAll('.edit-name .w'), { yPercent: 110, duration: 1.1, ease: 'expo.out', stagger: .06, scrollTrigger: { trigger: root.current, start: 'top 75%' } })
+    gsap.from(root.current.querySelectorAll('.edit-swatches li'), { scale: .4, autoAlpha: 0, duration: .7, ease: 'back.out(2)', stagger: .07, scrollTrigger: { trigger: root.current, start: 'top 70%' } })
+    root.current.querySelectorAll<HTMLElement>('.board').forEach(board => {
+      const tl = gsap.timeline({ scrollTrigger: { trigger: board, start: 'top 78%' }, defaults: { ease: 'expo.out' } })
+      tl.from(board.querySelectorAll('.board-tile'), { clipPath: 'inset(100% 0 0 0)', duration: 1.1, stagger: .08 })
+        .from(board.querySelectorAll('.board-tile img'), { scale: 1.18, duration: 1.4, stagger: .08 }, 0)
+        .from(board.querySelectorAll('.board-copy > *'), { y: 24, autoAlpha: 0, duration: .8, stagger: .06 }, .2)
     })
-    return { ...r, pieces }
-  })
+  }, { dependencies: [styled?.id, styled?.looks.map(l => l.pieces.map(p => p.product.id).join()).join()], scope: root, revertOnUpdate: true })
+
+  if (shop.loading && !styled) return <section className="edit" aria-busy="true"><div className="wrap"><p className="kicker" role="status">Our stylists are pulling the looks…</p><div className="shop-skeleton">{Array.from({ length: 4 }, (_, i) => <span key={i} />)}</div></div></section>
+  if (!styled || !styled.looks.length) return null
+  const go = (id: string, kind: string) => `/go/${id}?d=${encodeURIComponent(edit.destination.name)}&k=${kind}`
   return (
-    <section className="looks" aria-labelledby="looks-title">
+    <section ref={root} id="edit" className="edit" aria-labelledby="edit-title">
       <div className="wrap">
-        <p className="kicker">The looks</p>
-        <h2 id="looks-title" className="h2">Three outfits, built from your list.</h2>
-        <div className="looks-grid">
-          {looks.map(look => (
-            <article key={look.title} className="look">
-              <div className="look-collage">
-                {look.pieces.length >= 3
-                  ? <BounceCards images={look.pieces.map(p => ({ src: p.product.imageUrl, alt: `${p.product.brand} ${p.product.name}` }))} containerWidth={320} containerHeight={250} cardSize={128} spread={62} rotation={8} borderWidth={4} borderColor="#FFFFFF" radius={6} animationDelay={0.2} onCardClick={i => window.open(`/go/${look.pieces[i].product.id}?d=${encodeURIComponent(edit.destination.name)}&k=${look.pieces[i].kind}`, '_blank', 'noopener')} />
-                  : <div className="look-collage-empty" aria-hidden><span className="emblem" /></div>}
-              </div>
-              <p className="look-tier">{TIER_LABEL[look.tier]} edit</p>
-              <h3 className="look-title">{look.title}</h3>
-              <p className="look-desc">{look.desc}</p>
-              {look.pieces.length > 0 && <ul className="look-pieces">
-                {look.pieces.map(({ kind, product }) => <li key={product.id}><a href={`/go/${product.id}?d=${encodeURIComponent(edit.destination.name)}&k=${kind}`} target="_blank" rel="noopener sponsored"><span>{product.brand}</span> {product.name}<em>{money(product)}</em></a></li>)}
-              </ul>}
-              {ACCOUNTS_ENABLED && <SaveLookButton dest={edit.destination} title={look.title} desc={look.desc} photo={look.pieces[0]?.product.imageUrl || null} />}
-            </article>
-          ))}
+        <header className="edit-head">
+          <p className="kicker">The parché edit for {edit.destination.name}</p>
+          <h2 id="edit-title" className="edit-name">{styled.name.split(' ').map((w, i) => <span key={i} className="w-mask"><span className="w">{w}</span></span>)}</h2>
+          <p className="edit-line">{styled.line}</p>
+          <ul className="edit-swatches" aria-label="The palette">
+            {styled.swatches.map(s => <li key={s.label}><span style={{ background: s.hex }} aria-hidden /> {s.label}</li>)}
+          </ul>
+          <p className="edit-rule"><strong>The rule.</strong> {styled.rule}</p>
+          {styled.alternates.length > 0 && <div className="edit-alts">
+            <span>Or dress the trip as</span>
+            {styled.alternates.map(a => <button key={a.id} type="button" title={a.line} onClick={() => onEdit(a.id)}>{a.name}</button>)}
+          </div>}
+        </header>
+
+        <div className="edit-boards">
+          {styled.looks.map((look, i) => {
+            const total = look.pieces.reduce((t, p) => t + cad(p.product), 0)
+            const [hero, ...rest] = look.pieces
+            return (
+              <article key={look.id} className={`board${i % 2 ? ' board--flip' : ''}`}>
+                <div className="board-grid" data-count={rest.length}>
+                  <a className="board-tile board-tile--hero" href={go(hero.product.id, hero.kind)} target="_blank" rel="noopener sponsored">
+                    <img src={hero.product.imageUrl} alt={`${hero.product.brand} ${hero.product.name}`} loading="lazy" referrerPolicy="no-referrer" />
+                    <span className="board-badge">1</span>
+                  </a>
+                  {rest.map((p, j) => (
+                    <a key={p.product.id} className="board-tile" href={go(p.product.id, p.kind)} target="_blank" rel="noopener sponsored">
+                      <img src={p.product.imageUrl} alt={`${p.product.brand} ${p.product.name}`} loading="lazy" referrerPolicy="no-referrer" />
+                      <span className="board-badge">{j + 2}</span>
+                    </a>
+                  ))}
+                </div>
+                <div className="board-copy">
+                  <p className="board-kicker"><span className="board-num">{String(i + 1).padStart(2, '0')}</span> {look.occasion} · {TIER_LABEL[look.tier]} edit</p>
+                  <h3 className="board-title">{look.title}</h3>
+                  <p className="board-note">{look.note}</p>
+                  <ol className="board-pieces">
+                    {look.pieces.map((p, j) => (
+                      <li key={p.product.id}>
+                        <span className="board-n">{j + 1}</span>
+                        <div>
+                          <p className="board-role">{p.role}</p>
+                          <a href={go(p.product.id, p.kind)} target="_blank" rel="noopener sponsored"><strong>{p.product.brand}</strong> {p.product.name}<em>{money(p.product)}</em></a>
+                          <p className="board-why">{p.note}</p>
+                        </div>
+                      </li>
+                    ))}
+                  </ol>
+                  <p className="board-total">The full look, about {cadMoney(total)}</p>
+                  {ACCOUNTS_ENABLED && <SaveLookButton dest={edit.destination} title={look.title} desc={look.note} photo={hero.product.imageUrl} />}
+                </div>
+              </article>
+            )
+          })}
         </div>
       </div>
     </section>
@@ -276,10 +307,10 @@ function TripControls({ trip, onChange }: { trip: Trip; onChange: (updates: Part
 }
 
 // ── Results ──
-function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (updates: Partial<Trip>) => void }) {
+function ResultsView({ edit, editId, onTripChange, onEdit }: { edit: TravelEdit; editId: string; onTripChange: (updates: Partial<Trip>) => void; onEdit: (id: string) => void }) {
   const { destination: dest, trip } = edit
   const [editingDates, setEditingDates] = useState(false)
-  const queryKey = tripParams(trip).toString()
+  const queryKey = tripParams(trip).toString() + (editId ? `&edit=${encodeURIComponent(editId)}` : '')
   const [shop, setShop] = useState<ShopState>({ payload: null, loading: true, error: '' })
   const [hero, setHero] = useState<UnsplashPhoto | null>(null)
   const heroRef = useRef<HTMLElement>(null)
@@ -342,7 +373,7 @@ function ResultsView({ edit, onTripChange }: { edit: TravelEdit; onTripChange: (
 
       <ShopTheList key={trip.destination + trip.start + trip.end} edit={edit} shop={shop} />
       <BrandRibbon shop={shop} />
-      <Looks edit={edit} shop={shop} />
+      <EditLooks edit={edit} shop={shop} onEdit={onEdit} />
       <TripWeatherPanel weather={edit.weather} />
     </main>
   )
@@ -392,7 +423,9 @@ function DestinationContent() {
     return () => controller.abort()
   }, [valid, weatherKey, retry])
 
-  function updateTrip(updates: Partial<Trip>) {
+  // A new wardrobe, activity or style re-picks the edit; choosing an alternate edit keeps everything else.
+  function updateTrip(updates: Partial<Trip>) { updateParams({ ...updates, edit: '' }) }
+  function updateParams(updates: Record<string, string | undefined>) {
     const next = new URLSearchParams(searchParams.toString())
     next.set('destination', destination)
     for (const [key, value] of Object.entries(updates)) { if (value) next.set(key, value); else next.delete(key) }
@@ -414,7 +447,7 @@ function DestinationContent() {
           </div>
         </header>
       </main>
-    ) : current?.edit ? <ResultsView key={weatherKey} edit={buildTravelEdit(trip, current.edit.weather)} onTripChange={updateTrip} />
+    ) : current?.edit ? <ResultsView key={weatherKey} edit={buildTravelEdit(trip, current.edit.weather)} editId={searchParams.get('edit') || ''} onTripChange={updateTrip} onEdit={id => updateParams({ edit: id })} />
       : current?.error ? (
         <main className="results"><header className="r-hero"><div className="wrap r-ask">
           <h1 className="r-title">Your travel edit</h1>

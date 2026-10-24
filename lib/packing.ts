@@ -139,15 +139,15 @@ export function buildPackingPlan(trip: Trip, weather: TripWeather): PackingPlan 
   }
   const drop = (id: PackingKind) => { const i = needs.findIndex(n => n.id === id); if (i >= 0) needs.splice(i, 1) }
   const get = (id: PackingKind) => needs.find(n => n.id === id)
-  // Reduce a group to `budget` pieces, taking from the lowest-priority kinds first (the order lists highest first).
+  // Reduce a group to `budget` pieces. Counts come down before kinds disappear: the piece you'd pack most of loses one first,
+  // and a kind is only dropped when everything left is down to one, starting from the lowest priority (the order lists highest first).
   const fit = (order: PackingKind[], budget: number) => {
     const inGroup = () => order.map(get).filter((n): n is PackingNeed => !!n && !n.optional)
-    let count = inGroup().reduce((t, n) => t + n.quantity, 0)
-    for (const id of [...order].reverse()) {
-      const n = get(id)
-      if (!n || n.optional) continue
-      while (count > budget && n.quantity > 0) { n.quantity--; count-- }
-      if (n.quantity === 0) drop(id)
+    while (inGroup().reduce((t, n) => t + n.quantity, 0) > budget) {
+      const group = inGroup()
+      const most = Math.max(...group.map(n => n.quantity))
+      if (most > 1) { [...group].reverse().find(n => n.quantity === most)!.quantity--; continue }
+      drop(group[group.length - 1].id)
     }
   }
   if (short) {

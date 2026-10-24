@@ -35,11 +35,13 @@ function hash(s: string) { let h = 2166136261; for (let i = 0; i < s.length; i++
 // Exact category match is mandatory: a missing rain shell is never filled with a tee.
 // Each piece gets up to `perTier` options in each of luxury, mid-range and budget, from different brands where possible.
 // When a price band is thin, the closest-priced options from the neighbouring band fill it, so every piece still offers a choice.
-export function optionsForNeed(products: Product[], kind: PackingKind, wear: Wear, plan: PackingPlan, style: Trip['style'], seed = '', perTier = 3): TierOptions[] {
+// `fit` lets the trip's edit lean the ranking toward its palette; `pinned` products (pieces styled into a look) are always shown.
+export function optionsForNeed(products: Product[], kind: PackingKind, wear: Wear, plan: PackingPlan, style: Trip['style'], seed = '', perTier = 3, fit?: (p: Product) => number, pinned: Product[] = []): TierOptions[] {
   const score = (p: Product) =>
     (style && p.styles.includes(style) ? 4 : 0) +
     p.colours.filter(c => plan.palette.includes(c)).length * 2 +
     (wear !== 'unisex' && p.gender === wear ? 1 : 0) + (wear === 'unisex' && p.gender === 'unisex' ? 2 : 0) +
+    (fit ? fit(p) : 0) +
     (hash(seed + p.id) % 1000) / 1000
   const matched = products.filter(p => p.kinds[0] === kind && fitsWear(p, wear) && (plan.climate === 'unknown' || p.climates.includes(plan.climate)))
   // Unknown weather never narrows the shop: the packing plan has already chosen which pieces apply.
@@ -66,6 +68,7 @@ export function optionsForNeed(products: Product[], kind: PackingKind, wear: Wea
     const brands = new Set<string>()
     for (const p of pool) if (picks.length < perTier && !brands.has(p.brand)) { picks.push(p); brands.add(p.brand) }
     for (const p of pool) if (picks.length < perTier && !picks.includes(p)) picks.push(p)
+    for (const p of pinned) if (bucket[tier].some(x => x.id === p.id) && !picks.some(x => x.id === p.id)) { if (picks.length >= perTier) picks.pop(); picks.unshift(p) }
     return { tier, label: TIER_LABEL[tier], products: picks.sort((a, b) => cad(b) - cad(a)) }
   }).filter(t => t.products.length)
 }
