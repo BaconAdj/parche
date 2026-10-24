@@ -1,6 +1,6 @@
 # Catalogue coverage (2026-10-24)
 
-10348 products from 112 brands. Rejected: 50.
+10347 products from 112 brands. Rejected: 50.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
@@ -12,18 +12,18 @@
 | Sleepwear | 89 / 71 / 22 | 76 / 30 / 14 |
 | Thermal base layer top | 20 / 9 / 8 | 10 / 12 / 6 |
 | Thermal leggings | 12 / 4 / 4 | 5 / 4 / 1 |
-| Rain jacket | 17 / 27 / 14 | 25 / 25 / 11 |
-| Warm coat | 61 / 108 / 40 | 61 / 61 / 30 |
+| Rain jacket | 17 / 28 / 13 | 25 / 25 / 11 |
+| Warm coat | 61 / 109 / 39 | 61 / 61 / 30 |
 | Blazer | 22 / 15 / 20 | 27 / 10 / 1 |
-| Light jacket | 153 / 118 / 54 | 144 / 106 / 49 |
+| Light jacket | 153 / 118 / 54 | 144 / 107 / 48 |
 | Dress | 108 / 114 / 49 | 10 / 0 / 0 |
 | Workout top | 29 / 21 / 18 | 13 / 20 / 17 |
 | Workout leggings or shorts | 66 / 66 / 45 | 34 / 21 / 15 |
 | Linen shirt | 15 / 27 / 18 | 46 / 26 / 18 |
 | Button-up shirt | 134 / 87 / 38 | 150 / 85 / 28 |
-| Warm sweater | 123 / 219 / 40 | 109 / 208 / 45 |
+| Warm sweater | 126 / 216 / 40 | 112 / 205 / 45 |
 | Light knit | 166 / 157 / 51 | 121 / 118 / 37 |
-| Long-sleeve top | 151 / 63 / 25 | 135 / 58 / 6 |
+| Long-sleeve top | 150 / 64 / 25 | 135 / 58 / 6 |
 | T-shirt | 232 / 154 / 37 | 221 / 159 / 32 |
 | Jeans | 81 / 56 / 23 | 63 / 34 / 20 |
 | Shorts | 119 / 109 / 45 | 106 / 97 / 31 |
@@ -33,11 +33,11 @@
 | Everyday trousers | 211 / 116 / 56 | 179 / 95 / 45 |
 | Hiking or trail shoes | 3 / 1 / 2 | 5 / 1 / 3 |
 | Boots | 77 / 32 / 17 | 29 / 31 / 14 |
-| Sandals | 77 / 31 / 23 | 23 / 19 / 13 |
+| Sandals | 79 / 31 / 23 | 23 / 19 / 13 |
 | Evening shoes | 60 / 24 / 12 | 32 / 12 / 7 |
-| Walking sneakers | 111 / 24 / 19 | 94 / 19 / 17 |
+| Walking sneakers | 111 / 24 / 17 | 94 / 19 / 16 |
 | Daypack | 37 / 20 / 2 | 18 / 16 / 2 |
-| Day bag | 96 / 116 / 35 | 25 / 68 / 19 |
+| Day bag | 96 / 115 / 35 | 25 / 67 / 19 |
 | Sunglasses | 49 / 49 / 25 | 44 / 44 / 16 |
 | Umbrella | 18 / 6 / 3 | 18 / 4 / 4 |
 | Sun hat or cap | 67 / 90 / 44 | 37 / 89 / 29 |
@@ -49,7 +49,7 @@
 
 ## Brands
 
-- Alo: 336
+- Alo: 338
 - H&M: 318
 - FRAME: 308
 - LEMAIRE: 308
@@ -120,14 +120,14 @@
 - Dagne Dover: 40
 - GUESS: 39
 - The North Face: 37
-- Margaux: 34
 - Le Specs: 34
-- KREWE: 31
+- Margaux: 33
+- KREWE: 30
 - Feetures: 27
 - Sunski: 26
 - Lack of Color: 25
-- Koio: 25
 - SAXX: 24
+- Koio: 24
 - Darn Tough: 24
 - Quay: 24
 - Parker Clay: 22

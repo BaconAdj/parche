@@ -12677,31 +12677,6 @@
   ]
  },
  {
-  "id": "krewe-the-wine-tote-woven-canvas",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "KREWE",
-  "name": "The Insulated Wine Tote | Woven Canvas",
-  "price": 40,
-  "currency": "USD",
-  "productUrl": "https://krewe.com/products/the-wine-tote-woven-canvas",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2422/6603/files/WineTote-Final-Web.jpg?v=1756330788",
-  "details": "CHEERS! SANTÉ! PROST! SALUDE! SKÅL! NA ZDROWIE! No matter how you say it, the meaning is the same: raising a glass together.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "bag"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "lack-of-color-sol-wet-bag-yellow",
   "gender": "women",
   "tier": "Quality",
@@ -14244,7 +14219,7 @@
   "price": 78,
   "currency": "USD",
   "productUrl": "https://www.oakandfort.com/products/slouchy-shoulder-bag-ba-15942-w?variant=50071774167279",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Bag-15942_Espresso-3.jpg?v=1787175257",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Bag-15942_Espresso-1.jpg?v=1792817105",
   "details": "The Slouchy Shoulder Bag features a relaxed shape designed for everyday wear.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -35266,34 +35241,6 @@
   ]
  },
  {
-  "id": "alo-w9620r-airlift-double-trouble-bra-black",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Airlift Double Trouble Bra - Black",
-  "price": 47,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w9620r-airlift-double-trouble-bra-black",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9782R_01_b1_s1_a2_dSP26_m191.jpg?v=1771617078",
-  "details": "Nail the layered look in the Double Trouble Bra, designed with a mesh lining peeking out from under a classic sports bra silhouette.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "bra"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-w9654r-cashmere-plush-waffle-v-neck-bra-black",
   "gender": "women",
   "tier": "High-end",
@@ -35347,6 +35294,34 @@
   ],
   "styles": [
    "statement"
+  ]
+ },
+ {
+  "id": "alo-w9805r-seamless-winter-warm-plush-delight-bra-celestial-",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Seamless Winter Warm Plush Delight Bra - Celestial Blue",
+  "price": 51,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w9805r-seamless-winter-warm-plush-delight-bra-celestial-blue?variant=43591461929140",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9805R_05816_b1_s1_a1_1_m18.jpg?v=1729225250",
+  "details": "This is your new favorite layering piece.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "bra"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
   ]
  },
  {
@@ -39419,6 +39394,32 @@
   ]
  },
  {
+  "id": "alo-w4625r-wool-metro-long-coat-dark-heather-grey",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Wool Metro Long Coat - Dark Heather Grey",
+  "price": 348,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4625r-wool-metro-long-coat-dark-heather-grey?variant=43591503511732",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4625R_01300_b1_s1_a1_1_m215.jpg?v=1739423458",
+  "details": "Looks like it’s time to break out the winter coats.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "coat"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
   "id": "alo-w4670r-airlift-winter-warm-radiant-full-zip-burgundy",
   "gender": "women",
   "tier": "Budget",
@@ -39442,31 +39443,6 @@
   ],
   "styles": [
    "statement"
-  ]
- },
- {
-  "id": "alo-w4670r-airlift-winter-warm-radiant-full-zip-jacket-rich-",
-  "gender": "women",
-  "tier": "Budget",
-  "brand": "Alo",
-  "name": "Airlift Winter Warm Radiant Full-Zip Jacket - Rich Bordeaux",
-  "price": 148,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4670r-airlift-winter-warm-radiant-full-zip-jacket-rich-bordeaux",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4670R_06547_b2_s1_a1_dFA26_m210.jpg?v=1791351938",
-  "details": "Consider this the layer you’ll live in.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "coat"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "purple"
-  ],
-  "styles": [
-   "understated"
   ]
  },
  {
@@ -86014,16 +85990,16 @@
   ]
  },
  {
-  "id": "alo-w4680r-linen-cropped-getaway-jacket-macadamia",
+  "id": "alo-w4662r-sport-star-full-zip-jacket-candy-red",
   "gender": "women",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "Linen Cropped Getaway Jacket - Macadamia",
-  "price": 150,
+  "name": "Sport Star Full Zip Jacket - Candy Red",
+  "price": 126,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4680r-linen-cropped-getaway-jacket-macadamia",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4680R_04831_b2_s1_a1_m239_ee432717-3e1e-46e6-adc2-440444161b54.jpg?v=1747074835",
-  "details": "Your perfect summer wardrobe does exist, and it includes pieces from our linen collection.",
+  "productUrl": "https://www.aloyoga.com/products/w4662r-sport-star-full-zip-jacket-candy-red?variant=50661348737383",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4662R_06281_b1_s1_a1_m91.jpg?v=1747232494",
+  "details": "The Sport Star Jacket is the definition of sporty chic.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "light-jacket"
@@ -86033,11 +86009,10 @@
    "unknown"
   ],
   "colours": [
-   "beige"
+   "red"
   ],
   "styles": [
-   "relaxed",
-   "understated"
+   "statement"
   ]
  },
  {
@@ -94902,7 +94877,7 @@
   "name": "ZIP-UP TRACK JACKET — Black",
   "price": 158,
   "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/nimbus-track-jacket-ow-17444-m?variant=50426000441583",
+  "productUrl": "https://www.oakandfort.com/products/nimbus-track-jacket-ow-17444-m?variant=50426000474351",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Outerwear-17444_Black-5.jpg?v=1790117085",
   "details": "This track jacket is designed with a lightweight, sporty silhouette and is made from a textured fabric that elevates each look.",
   "checkedAt": "2026-10-24",
@@ -99111,30 +99086,6 @@
   ]
  },
  {
-  "id": "topo-designs-dirt-overshirt-mens-pos",
-  "gender": "men",
-  "tier": "Budget",
-  "brand": "Topo Designs",
-  "name": "Dirt Overshirt - Men's - Final Sale — Dried Sage",
-  "price": 63,
-  "currency": "USD",
-  "productUrl": "https://topodesigns.com/products/dirt-overshirt-mens-pos?variant=44765992943669",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0277/0693/files/Dirt-Overshirt---Men-s---Final-Sale_Dried-Sage.webp?v=1791987782",
-  "details": "The Dirt Overshirt draws inspiration from the original Dirt Shirt, now reimagined as a true overshirt with a relaxed looser fit perfect for ",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "topo-designs-mountain-shirt-jacket-mens-dark-brown-stripe",
   "gender": "men",
   "tier": "Quality",
@@ -99358,6 +99309,30 @@
   ],
   "styles": [
    "statement"
+  ]
+ },
+ {
+  "id": "topo-designs-topo-designs-x-toyota-utility-jacket-mens",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Topo Designs",
+  "name": "Topo Designs x Toyota Utility Jacket - Men's — Dark Pine",
+  "price": 179,
+  "currency": "USD",
+  "productUrl": "https://topodesigns.com/products/topo-designs-x-toyota-utility-jacket-mens?variant=45985713455157",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0277/0693/files/F26-TopoDesignsxToyota-UtilityJacket-M-DarkPine-312606304_1.webp?v=1789982108",
+  "details": "The Topo Designs x Toyota Trailhunter collection combines performance-driven design, rugged durability and everyday versatility.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
   ]
  },
  {
@@ -115965,16 +115940,16 @@
   ]
  },
  {
-  "id": "oak-fort-contrast-sleeve-long-sleeve-top-kt-17524-w",
+  "id": "oak-fort-cloud-scoop-neck-fitted-long-sleeve-top-kt-16175-w",
   "gender": "women",
-  "tier": "High-end",
+  "tier": "Quality",
   "brand": "Oak + Fort",
-  "name": "CONTRAST SLEEVE LONG SLEEVE TOP — FIG",
-  "price": 58,
+  "name": "CLOUD SCOOP NECK FITTED LONG SLEEVE TOP — Black",
+  "price": 44,
   "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/contrast-sleeve-long-sleeve-top-kt-17524-w?variant=50629825462511",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/TShirt-17524_FIG-1_c5894cb0-7edb-4696-a696-c15c91e9a41d.jpg?v=1789678941",
-  "details": "This long sleeve top is designed with contrast sleeves for a clean colour-blocked look.",
+  "productUrl": "https://www.oakandfort.com/products/cloud-scoop-neck-fitted-long-sleeve-top-kt-16175-w?variant=51043639427311",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/TShirt-16175_Black-1.jpg?v=1792453493",
+  "details": "This fitted scoop neck long sleeve top is made in from an incredibly soft cotton modal blend.",
   "checkedAt": "2026-10-24",
   "kinds": [
    "long-sleeve-top"
@@ -115984,9 +115959,10 @@
    "mild",
    "unknown"
   ],
-  "colours": [],
+  "colours": [
+   "black"
+  ],
   "styles": [
-   "relaxed",
    "understated"
   ]
  },
@@ -120822,15 +120798,15 @@
   ]
  },
  {
-  "id": "cotopaxi-impermeo-3l-hooded-shell-jacket-womens-1",
+  "id": "cotopaxi-impermeo-3l-hooded-shell-jacket-womens",
   "gender": "women",
-  "tier": "Budget",
+  "tier": "Quality",
   "brand": "Cotopaxi",
-  "name": "Impermeo 3L Hooded Shell Jacket - Women's — Moss/Sea Spray",
-  "price": 90,
+  "name": "Impermeo 3L Hooded Shell Jacket - Women's — Acai/Crimson",
+  "price": 230,
   "currency": "USD",
-  "productUrl": "https://www.cotopaxi.com/products/impermeo-3l-hooded-shell-jacket-womens-1?variant=42907648491581",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0281/7544/files/1200x1200png-S25WImpermeo3LHoodedShellJacketMossAndSeaSpray_04.png?v=1735930662",
+  "productUrl": "https://www.cotopaxi.com/products/impermeo-3l-hooded-shell-jacket-womens?variant=43329230307389",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0281/7544/files/f26-w-impermeo-3l-hooded-shell-jacket-acai-and-crimson-lf-r.png?v=1784153240",
   "details": "Built for the unexpected, the Impermeo 3L Hooded Jacket is a waterproof and windproof shell for coastal hikes and summer thunderstorms alike",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -120839,7 +120815,6 @@
   "climates": [
    "cold",
    "mild",
-   "hot",
    "unknown"
   ],
   "colours": [
@@ -123688,6 +123663,58 @@
   "styles": [
    "polished",
    "understated"
+  ]
+ },
+ {
+  "id": "alo-a0919u-alo-classico-sandal-black",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "ALO Classico Sandal - Black",
+  "price": 325,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0919u-alo-classico-sandal-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0919U_01_b1_s1_a2_dSU26_f990f23f-c9b0-4888-96ce-b245a5cc3ea0.jpg?v=1781044033",
+  "details": "A classic take on your favorite sandal.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "sandals"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-a1004u-alo-sunset-sneaker-mule-sundrenched-pink",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "ALO Sunset Sneaker Mule - Sundrenched Pink",
+  "price": 225,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a1004u-alo-sunset-sneaker-mule-sundrenched-pink",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A1004U_07995_b1_s1_a3_dSU26.jpg?v=1780408262",
+  "details": "Everything you know and love about the Sunset Sneaker is now in a mule.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "sandals"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "pink"
+  ],
+  "styles": [
+   "statement"
   ]
  },
  {
@@ -143198,7 +143225,7 @@
   ],
   "colours": [
    "black",
-   "navy",
+   "white",
    "blue"
   ],
   "styles": [
@@ -158192,7 +158219,7 @@
   "name": "Alumni Tennis Skirt - White",
   "price": 88,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6480r-alumni-tennis-skirt-white?variant=50661363646823",
+  "productUrl": "https://www.aloyoga.com/products/w6480r-alumni-tennis-skirt-white?variant=50661363679591",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6480R_00_b1_s1_a5_m91.jpg?v=1748405746",
   "details": "Channel your inner courtside cutie (with this style, it won’t be hard).",
   "checkedAt": "2026-10-24",
@@ -159192,30 +159219,27 @@
   ]
  },
  {
-  "id": "cotopaxi-brinco-skort-womens-1",
+  "id": "cotopaxi-brinco-skort-womens",
   "gender": "women",
   "tier": "Quality",
   "brand": "Cotopaxi",
-  "name": "Brinco Skort - Women's — Blue Smoke",
-  "price": 40,
+  "name": "Brinco Skort - Women's — Whiskey",
+  "price": 80,
   "currency": "USD",
-  "productUrl": "https://www.cotopaxi.com/products/brinco-skort-womens-1?variant=42691830579261",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0281/7544/files/1200x1200png-S25WBrincoSkortBlueSmoke_02.png?v=1734472598",
+  "productUrl": "https://www.cotopaxi.com/products/brinco-skort-womens?variant=42888045428797",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0281/7544/files/s26-w-brinco-skort-whiskey-3093.png?v=1771880017",
   "details": "What do you get when you add a touch of femme to our bestselling shorts? The adventure-ready Brinco Skort, which seamlessly hops between hik",
   "checkedAt": "2026-10-24",
   "kinds": [
    "skirt"
   ],
   "climates": [
-   "hot",
    "mild",
    "unknown"
   ],
-  "colours": [
-   "blue"
-  ],
+  "colours": [],
   "styles": [
-   "understated"
+   "relaxed"
   ]
  },
  {
@@ -184166,15 +184190,15 @@
   ]
  },
  {
-  "id": "alo-a0855u-velvet-off-duty-cap-rich-bordeaux",
+  "id": "alo-a0855u-velvet-off-duty-cap-navy",
   "gender": "unisex",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Velvet Off-Duty Cap - Rich Bordeaux",
+  "name": "Velvet Off-Duty Cap - Navy",
   "price": 98,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0855u-velvet-off-duty-cap-rich-bordeaux",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0855U_06547_b1_s1_a2_dFA26_1.jpg?v=1791357868",
+  "productUrl": "https://www.aloyoga.com/products/a0855u-velvet-off-duty-cap-navy?variant=50661740380519",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0855U_03842_b1_s1_a2.jpg?v=1766773270",
   "details": "Your go-to cap, with a velvet upgrade.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -184186,7 +184210,8 @@
    "unknown"
   ],
   "colours": [
-   "purple"
+   "navy",
+   "blue"
   ],
   "styles": [
    "understated"
@@ -223612,7 +223637,7 @@
   "name": "Accolade Straight Leg Sweatpant - Winter Ivy",
   "price": 138,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/u5012rg-accolade-straight-leg-sweatpant-winter-ivy-mens?variant=43594928193716",
+  "productUrl": "https://www.aloyoga.com/products/u5012rg-accolade-straight-leg-sweatpant-winter-ivy-mens?variant=43594928488628",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U5012RG_05819_b1_s1_a1_1_m180.jpg?v=1732563215",
   "details": "Okay, so we’re pretty much obsessed with this new, straight-leg version of the Accolade Sweatpant — it’s a super soft, leveled-up classic wi",
   "checkedAt": "2026-10-24",
@@ -233996,11 +234021,11 @@
   "gender": "women",
   "tier": "High-end",
   "brand": "Oak + Fort",
-  "name": "100% CASHMERE KNIT STRAIGHT LEG PANT — Charcoal",
+  "name": "100% CASHMERE KNIT STRAIGHT LEG PANT — DARK HEATHER TAUPE",
   "price": 248,
   "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/100-cashmere-knit-straight-leg-pant-pt-16181-w?variant=50890175021295",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Pant-16181_Charcoal-12.jpg?v=1792798615",
+  "productUrl": "https://www.oakandfort.com/products/100-cashmere-knit-straight-leg-pant-pt-16181-w?variant=50890175152367",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Pant-16181_DARK_HEATHER_TAUPE-1.jpg?v=1792816552",
   "details": "These cashmere knit pants are made in a relaxed fit in a straight leg cut.",
   "checkedAt": "2026-10-24",
   "kinds": [
@@ -234012,7 +234037,7 @@
    "unknown"
   ],
   "colours": [
-   "grey"
+   "sand"
   ],
   "styles": [
    "polished"
@@ -249579,35 +249604,6 @@
   ]
  },
  {
-  "id": "allbirds-womens-tree-runner-go-natural-black-blizzard",
-  "gender": "women",
-  "tier": "Budget",
-  "brand": "Allbirds",
-  "name": "Women's Tree Runner Go - Natural Black (Blizzard)",
-  "price": 75,
-  "currency": "CAD",
-  "productUrl": "https://www.allbirds.ca/products/womens-tree-runner-go-natural-black-blizzard",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0806/5967/7504/files/A10609_S24Q2_Tree_Runner_GO_Natural_Black_Blizzard_PDP_LEFT_9e30844f-4ab3-4b78-aa7a-528607ac3a48.jpg?v=1754392824",
-  "details": "The Allbirds Tree Runner is a breathable and lightweight sneaker made with responsibly sourced eucalyptus tree fiber that feels silky smooth",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "walking-shoes"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "black",
-   "blue"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "allbirds-womens-tree-runner-nz-rugged-beige-stone-cream",
   "gender": "women",
   "tier": "Budget",
@@ -249634,6 +249630,34 @@
    "beige"
   ],
   "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "allbirds-womens-wool-cruiser-natural-black-natural-black-sol",
+  "gender": "women",
+  "tier": "Budget",
+  "brand": "Allbirds",
+  "name": "Women's Wool Cruiser - Natural Black (Natural Black Sole)",
+  "price": 67.5,
+  "currency": "CAD",
+  "productUrl": "https://www.allbirds.ca/products/womens-wool-cruiser-natural-black-natural-black-sole",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0806/5967/7504/files/A11800_25Q3_Wool_Cruiser_Natural_Black_Natural_Black_Sole_PDP_LEFT.jpg?v=1786034022",
+  "details": "",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "walking-shoes"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
    "understated"
   ]
  },
@@ -251084,32 +251108,6 @@
   ]
  },
  {
-  "id": "koio-koio-shoe-tree",
-  "gender": "unisex",
-  "tier": "Budget",
-  "brand": "Koio",
-  "name": "Koio Shoe Tree",
-  "price": 30,
-  "currency": "USD",
-  "productUrl": "https://www.koio.co/products/koio-shoe-tree",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0646/1285/products/Koio-Shoe-Trees_1_23f1af8e-0c30-4238-9e37-aacd2d0e6fe1.png?v=1762198383",
-  "details": "Our cedar shoe trees are crafted from wood that absorbs moisture, neutralizes unwanted odors, and helps maintain the structure of your Koios",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "walking-shoes"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "koio-taranto-leather-sneaker-in-bone",
   "gender": "men",
   "tier": "High-end",
@@ -252094,32 +252092,6 @@
   ],
   "styles": [
    "statement"
-  ]
- },
- {
-  "id": "margaux-shoe-shapers",
-  "gender": "women",
-  "tier": "Budget",
-  "brand": "Margaux",
-  "name": "Canvas Shoe Shapers",
-  "price": 18,
-  "currency": "USD",
-  "productUrl": "https://www.margauxny.com/products/shoe-shapers",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1342/4137/files/toe-shaper-full-2025.jpg?v=1732136732",
-  "details": "A perfectly packable accessory for girls on the gaux.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "walking-shoes"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
   ]
  },
  {
@@ -256371,83 +256343,6 @@
   ]
  },
  {
-  "id": "alo-m3210r-chill-hoodie-marathon-blue",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Chill Hoodie - Marathon Blue",
-  "price": 82,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3210r-chill-hoodie-marathon-blue?variant=43774083793076",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3210R_06037_b1_s1_a1_1_m214_f750892c-4e38-41c6-8320-3fe2b1bfaa19.jpg?v=1742097748",
-  "details": "Your favorite fabric is getting a new must-have style.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-m3222r-cable-knit-crew-neck-sweater-bone",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Cable Knit Crew Neck Sweater - Bone",
-  "price": 159,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3222r-cable-knit-crew-neck-sweater-bone?variant=43591350255796",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3222R_03040_b1_s1_a1_1_m221.jpg?v=1731961036",
-  "details": "Take your look to the next level with this classic chunky knit.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
-  "id": "alo-m3222r-cable-knit-crew-neck-sweater-bone-womens",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Cable Knit Crew Neck Sweater - Bone",
-  "price": 159,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3222r-cable-knit-crew-neck-sweater-bone-womens?variant=43594918199476",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3222R_03040_b1_s1_a1_1_m18.jpg?v=1731960983",
-  "details": "Take your look to the next level with this classic chunky knit.",
-  "checkedAt": "2026-10-24",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "alo-m3245r-double-take-hoodie-limestone",
   "gender": "unisex",
   "tier": "Quality",
@@ -256677,6 +256572,56 @@
   ]
  },
  {
+  "id": "alo-m3351r-chunky-knit-rewind-hoodie-rich-bordeaux-multi",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Chunky Knit Rewind Hoodie - Rich Bordeaux Multi",
+  "price": 228,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3351r-chunky-knit-rewind-hoodie-rich-bordeaux-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3351R_07013_b1_s1_a1_dFA26_m257_1.jpg?v=1791376079",
+  "details": "The Chunky Knit Rewind Hoodie is a classic silhouette with a cool look.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "purple"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m3351r-chunky-knit-rewind-hoodie-rich-bordeaux-multi-wom",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Chunky Knit Rewind Hoodie - Rich Bordeaux Multi",
+  "price": 228,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3351r-chunky-knit-rewind-hoodie-rich-bordeaux-multi-womens",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3351R_07013_b1_s1_a1_dFA26_m241_1.jpg?v=1791376132",
+  "details": "Layer up with the Chunky Knit Rewind Hoodie.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "purple"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "alo-m4199r-cotton-canvas-full-zip-hoodie-black",
   "gender": "men",
   "tier": "High-end",
@@ -256775,6 +256720,32 @@
   "styles": [
    "relaxed",
    "statement"
+  ]
+ },
+ {
+  "id": "alo-u3045r-unisex-wool-cashmere-new-class-crewneck-sweater-r",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Unisex Wool Cashmere New Class Crewneck Sweater - Rich Bordeaux",
+  "price": 298,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/u3045r-unisex-wool-cashmere-new-class-crewneck-sweater-rich-bordeaux-mens",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3045R_06547_b2_s1_a1_dFA26_m243.jpg?v=1791361587",
+  "details": "Call us cashmere obsessed.",
+  "checkedAt": "2026-10-24",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "purple"
+  ],
+  "styles": [
+   "polished",
+   "relaxed"
   ]
  },
  {
