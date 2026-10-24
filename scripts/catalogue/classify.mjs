@@ -135,6 +135,8 @@ function tee(c) {
   if (has(SLEEP, t)) return 'sleepwear'
   if (has(BASE, t)) return 'base-layer-top'
   if (has(ACTIVE, t)) return 'active-top'
+  // A sweater tank, polo or top is knitwear in a tee's shape.
+  if (/\bsweater\b/i.test(c.seg)) return has(WARM_KNIT, t) ? 'warm-knit' : 'knit'
   if (c.long) return has(BASE_WEIGHT, t) && has(WOOLLY, t) ? 'base-layer-top' : 'long-sleeve-top'
   return 'tee'
 }
@@ -269,6 +271,7 @@ export function classify(title, type = '', brand = '') {
   if (kind && allowed && !allowed.includes(KIND_FAMILY[kind])) return null
   if (kind && b === 'minus33' && ['tee', 'long-sleeve-top', 'knit'].includes(kind) && !/\b(sweater|cardigan|hoodie|jacket)\b/i.test(title)) kind = 'base-layer-top'
   if (kind && b === 'minus33' && ['trousers', 'active-bottoms'].includes(kind)) kind = 'base-layer-bottoms'
+  if (kind === 'sunglasses' && /\b(cases?|pouch|cords?|straps?|cleaning|cloth)\b/i.test(title)) return null
   if (!kind || (PACK.test(title) && !PACK_OK.has(kind))) return null
   return kind
 }
