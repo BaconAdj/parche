@@ -47,7 +47,7 @@ const NOUNS = [
   N('bottom', 'skirts?|skorts?', c => has(SWIM, c.ctx) ? 'swim' : 'skirt'),
   N('bottom', 'jeans?', c => 'jeans'),
   // Tops
-  N('top', 'shirts?|blouses?|pop-?overs?|button-?(?:ups?|downs?)|oxfords?|camp shirts?', c => shirt(c)),
+  N('top', 'shirts?|blouses?|pop-?overs?|button[- ]?(?:ups?|downs?)|oxfords?|camp shirts?', c => shirt(c)),
   N('top', 't-?shirts?|tees?|tanks?|tank tops?|camis?|camisoles?|polos?|bodysuits?|crop tops?|crops?|tube tops?|tops?|singlets?|tunics?', c => tee(c)),
   N('top', 'henleys?|rugbys?|longsleeves?|long sleeves?', c => longSleeve(c)),
   N('top', 'undershirts?', c => tee(c)),
