@@ -1,5 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server'
+import { NextRequest, NextResponse, after } from 'next/server'
 import { findProduct, outboundUrl } from '../../../lib/product-catalogue'
+import { getPostHogServer, visitorIdFromCookies } from '../../../lib/posthog-server'
 
 // Every shop link goes through here so clicks are measurable and affiliate links can be swapped in centrally.
 export async function GET(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
@@ -21,6 +22,23 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
   // Structured line for Vercel logs; always available even before the table exists.
   console.log(JSON.stringify({ type: 'parche.product_click', ...event, at: new Date().toISOString() }))
   await recordClick(event)
+
+  // Sent after the redirect goes out, so the shopper never waits on analytics.
+  const visitorId = visitorIdFromCookies(request.cookies)
+  after(async () => {
+    const posthog = getPostHogServer()
+    if (!posthog) return
+    try {
+      posthog.capture({
+        distinctId: visitorId || crypto.randomUUID(),
+        event: 'product_clicked',
+        properties: { ...event, app: 'parche', ...(visitorId ? {} : { $process_person_profile: false }) },
+      })
+      await posthog.shutdown()
+    } catch {
+      // Tracking must never block the shopper.
+    }
+  })
 
   const response = NextResponse.redirect(outboundUrl(product), 302)
   response.headers.set('Cache-Control', 'no-store')

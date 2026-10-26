@@ -7,6 +7,7 @@ import { useGSAP } from '@gsap/react'
 import Link from 'next/link'
 import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { useUser, SignInButton } from '@clerk/nextjs'
+import posthog from 'posthog-js'
 import { ACCOUNTS_ENABLED } from '../../../lib/flags'
 import { createClient } from '../../../lib/supabase'
 import { findDestination, type Destination } from '../../../lib/destinations'
@@ -65,6 +66,7 @@ function SaveTripButton({ dest, photo }: { dest: Destination; photo: string | nu
     } else {
       await supabase.from('saved_trips').upsert({ user_id: user.id, destination_slug: dest.slug, destination_name: dest.name, destination_country: dest.country, destination_temp: dest.temp, photo_url: photo })
       setSaved(true)
+      posthog.capture('trip_saved', { destination_slug: dest.slug })
     }
     setLoading(false)
   }
@@ -86,6 +88,7 @@ function SaveLookButton({ dest, title, desc, photo }: { dest: Destination; title
     } else {
       await supabase.from('saved_looks').insert({ user_id: user.id, destination_slug: dest.slug, destination_name: dest.name, look_title: title, look_desc: desc, photo_url: photo })
       setSaved(true)
+      posthog.capture('look_saved', { destination_slug: dest.slug, look_title: title })
     }
     setLoading(false)
   }
