@@ -1,55 +1,55 @@
 # Catalogue coverage (2026-10-27)
 
-10351 products from 111 brands. Rejected: 50.
+10499 products from 112 brands. Rejected: 50.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
 | Sports bra | 13 / 25 / 15 | 0 / 1 / 0 |
 | Bra | 55 / 58 / 34 | 0 / 3 / 1 |
-| Swimwear | 48 / 36 / 53 | 34 / 26 / 13 |
-| Underwear | 94 / 34 / 19 | 110 / 27 / 9 |
-| Socks | 152 / 92 / 20 | 147 / 72 / 20 |
-| Sleepwear | 92 / 71 / 22 | 77 / 37 / 13 |
+| Swimwear | 56 / 36 / 53 | 42 / 26 / 13 |
+| Underwear | 94 / 34 / 19 | 114 / 27 / 9 |
+| Socks | 151 / 93 / 20 | 147 / 72 / 20 |
+| Sleepwear | 92 / 71 / 22 | 79 / 37 / 13 |
 | Thermal base layer top | 20 / 9 / 8 | 10 / 11 / 6 |
 | Thermal leggings | 12 / 4 / 4 | 5 / 4 / 1 |
 | Rain jacket | 19 / 26 / 13 | 25 / 25 / 11 |
-| Warm coat | 62 / 106 / 41 | 61 / 61 / 31 |
-| Blazer | 22 / 15 / 20 | 28 / 10 / 1 |
-| Light jacket | 150 / 125 / 54 | 138 / 113 / 48 |
-| Dress | 110 / 110 / 51 | 10 / 0 / 0 |
+| Warm coat | 64 / 106 / 42 | 61 / 61 / 31 |
+| Blazer | 27 / 15 / 20 | 31 / 10 / 1 |
+| Light jacket | 158 / 125 / 54 | 140 / 113 / 48 |
+| Dress | 118 / 110 / 51 | 10 / 0 / 0 |
 | Workout top | 28 / 21 / 18 | 14 / 19 / 16 |
 | Workout leggings or shorts | 63 / 65 / 49 | 31 / 24 / 15 |
-| Linen shirt | 15 / 27 / 17 | 47 / 26 / 19 |
-| Button-up shirt | 128 / 92 / 38 | 150 / 85 / 27 |
-| Warm sweater | 126 / 215 / 42 | 110 / 208 / 42 |
-| Light knit | 163 / 163 / 50 | 121 / 121 / 35 |
-| Long-sleeve top | 145 / 66 / 26 | 141 / 51 / 6 |
-| T-shirt | 222 / 166 / 36 | 220 / 165 / 29 |
+| Linen shirt | 21 / 27 / 17 | 49 / 26 / 19 |
+| Button-up shirt | 136 / 92 / 38 | 155 / 85 / 27 |
+| Warm sweater | 128 / 215 / 42 | 110 / 208 / 42 |
+| Light knit | 164 / 165 / 50 | 120 / 125 / 35 |
+| Long-sleeve top | 145 / 66 / 26 | 142 / 51 / 6 |
+| T-shirt | 230 / 166 / 36 | 228 / 165 / 29 |
 | Jeans | 81 / 58 / 23 | 63 / 34 / 20 |
-| Shorts | 114 / 114 / 45 | 101 / 102 / 31 |
-| Skirt | 113 / 74 / 51 | 9 / 1 / 0 |
-| Lightweight trousers | 34 / 24 / 7 | 35 / 9 / 3 |
+| Shorts | 122 / 113 / 45 | 103 / 101 / 31 |
+| Skirt | 120 / 74 / 51 | 9 / 1 / 0 |
+| Lightweight trousers | 40 / 24 / 7 | 36 / 9 / 3 |
 | Warm trousers | 37 / 37 / 11 | 44 / 37 / 13 |
-| Everyday trousers | 197 / 131 / 56 | 167 / 107 / 44 |
+| Everyday trousers | 206 / 130 / 56 | 171 / 107 / 44 |
 | Hiking or trail shoes | 3 / 1 / 2 | 5 / 1 / 3 |
 | Boots | 71 / 37 / 17 | 22 / 36 / 14 |
 | Sandals | 81 / 31 / 24 | 24 / 19 / 13 |
 | Evening shoes | 60 / 24 / 12 | 32 / 12 / 7 |
 | Walking sneakers | 109 / 24 / 17 | 93 / 19 / 16 |
 | Daypack | 37 / 20 / 2 | 18 / 16 / 2 |
-| Day bag | 96 / 117 / 35 | 25 / 66 / 20 |
+| Day bag | 96 / 123 / 35 | 25 / 67 / 20 |
 | Sunglasses | 42 / 56 / 24 | 42 / 45 / 16 |
 | Umbrella | 18 / 6 / 3 | 18 / 4 / 4 |
-| Sun hat or cap | 55 / 102 / 39 | 28 / 95 / 27 |
+| Sun hat or cap | 58 / 104 / 39 | 27 / 97 / 27 |
 | Beanie | 35 / 101 / 11 | 45 / 66 / 19 |
 | Gloves | 14 / 19 / 6 | 12 / 16 / 9 |
-| Warm scarf | 58 / 55 / 19 | 37 / 31 / 8 |
-| Light scarf or wrap | 27 / 32 / 4 | 9 / 3 / 2 |
-| Belt | 50 / 13 / 9 | 35 / 11 / 7 |
+| Warm scarf | 60 / 55 / 19 | 37 / 31 / 8 |
+| Light scarf or wrap | 28 / 32 / 4 | 9 / 3 / 2 |
+| Belt | 50 / 15 / 9 | 35 / 11 / 7 |
 
 ## Brands
 
-- Alo: 337
+- Alo: 336
 - H&M: 318
 - LEMAIRE: 310
 - FRAME: 304
@@ -76,6 +76,7 @@
 - AGOLDE: 154
 - Reigning Champ: 153
 - Citizens of Humanity: 149
+- Shan: 149
 - Rains: 147
 - DUER: 143
 - Tommy John: 143

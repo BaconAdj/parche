@@ -16133,6 +16133,168 @@
   ]
  },
  {
+  "id": "shan-0650-07-800",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Large tote bag — Black",
+  "price": 194,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/0650-07-800-large-tote-bag.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/0/6/0650-07-800-03.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "bag"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-0660-07-345",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Waist pouche — Burgundy",
+  "price": 190,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/776296843989-0660-07-345-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/0/6/0660-07-345.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "bag"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "burgundy"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-0660-07-790",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Waist pouche — Maroon",
+  "price": 190,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/776296843958-0660-07-790-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/0/6/0660-07-790.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "bag"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52127-98-300",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "3D jersey fanny pack — Blush",
+  "price": 150,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52127-98-300.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52127-98-300-01-essential_bumbag.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "bag"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52174-98-950",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Essential bumbag — Ocelot",
+  "price": 150,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/margot-pap-4-52174-98-950-3.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52174-98-950-02.jpg",
+  "details": "An accessory to include for your everyday look.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "bag"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52175-98-020",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Essential bumbag — Beige",
+  "price": 150,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/margot-pap-5-52175-98-020.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52175-98-020-04.jpg",
+  "details": "An accessory to include for your everyday look.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "bag"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "skims-faux-fur-clutch-onyx",
   "gender": "women",
   "tier": "Quality",
@@ -27182,6 +27344,60 @@
   ]
  },
  {
+  "id": "shan-52327-99-800",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "3D Jersey belt — Black Caviar",
+  "price": 110,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52327-99-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52327-99-800-01.jpg",
+  "details": "3D Jersey belt belt stylish belt fashion belt classic belt dress belt",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "belt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52340-99-710",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Vegan suede belt — Sahara",
+  "price": 110,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/kate-52340-99-710.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52340-99-710-03.jpg",
+  "details": "Vegan suede belt belt classic belt fashion belt",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "belt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "staud-moon-buckle-belt-26mm-black-croco",
   "gender": "women",
   "tier": "High-end",
@@ -29895,6 +30111,230 @@
   ]
  },
  {
+  "id": "shan-52536-78-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen blazer — Beige",
+  "price": 650,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lina-52536-78-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52536-78-110-01-beige-blazer-linen.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "blazer"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52627-78-110-lb",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Structured blazer",
+  "price": 725,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52627-78-110-3.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52627-78-110-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "blazer"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "polished"
+  ]
+ },
+ {
+  "id": "shan-52627-78-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Structured blazer — Black",
+  "price": 725,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/42067-54-sendai-ready-to-wear-short-caviar-1.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52627-78-800-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "blazer"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52627-81-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Classic fitted blazer — Beige",
+  "price": 650,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52627-81-110.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52627-81-110-jacket-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "blazer"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52627-81-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Classic fitted blazer — Black",
+  "price": 650,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52627-81-800-3.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52327-81-800-04.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "blazer"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62675-78-110",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Structured jersey lycra blazer — Beige",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/techno-62675-78-110.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62675-78-110-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "blazer"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62675-79-110",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Jersey lycra sport blazer — Beige",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/techno-62675-79-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62675-79-110-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "blazer"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62767-78-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Structured 3D Jersey blazer — Black",
+  "price": 650,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/city-62767-78-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62567-78-800-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "blazer"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "staud-leon-velvet-blazer-prowl",
   "gender": "women",
   "tier": "High-end",
@@ -30558,7 +30998,7 @@
   "currency": "USD",
   "productUrl": "https://agolde.com/products/mid-rise-kick-boot-obscure",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0269/4076/8349/files/A259-1817_KICK_BOOT_OBSCURE_2502.jpg?v=1787859885",
-  "details": "This mid-rise bootcut hugs through the hips before opening into a subtle kick at the hem.",
+  "details": "The Kick Boot features a mid-rise waist with a slim fit through the hips and thighs, subtly flaring at the ankle for an elongated silhouette",
   "checkedAt": "2026-10-27",
   "kinds": [
    "boots"
@@ -39455,31 +39895,6 @@
   ]
  },
  {
-  "id": "alo-w4609r-glacier-puffer-espresso",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Glacier Puffer - Espresso",
-  "price": 201,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4609r-glacier-puffer-espresso?variant=43591408386228",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4609R_04064_b2_s1_a1_1_m208.jpg?v=1730359750",
-  "details": "Get a layered look without the extra layers.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "coat"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-w4632r-darling-sweater-puffer-ivory",
   "gender": "women",
   "tier": "Quality",
@@ -39628,6 +40043,32 @@
   ],
   "colours": [
    "purple"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-w4852r-mongolian-faux-fur-starlet-jacket-ivory",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Mongolian Faux Fur Starlet Jacket - Ivory",
+  "price": 257,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4852r-mongolian-faux-fur-starlet-jacket-ivory",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4852R_03299_b2_s1_a1_dFA26_m269.jpg?v=1791351949",
+  "details": "The Mongolian Starlet Jacket brings a cool, retro flair to any look.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "coat"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "white",
+   "cream"
   ],
   "styles": [
    "understated"
@@ -40215,7 +40656,7 @@
   "name": "Erie Parka Tonal Disc — Black 9061",
   "price": 1795,
   "currency": "CAD",
-  "productUrl": "https://www.canadagoose.com/en-ca/products/erie-parka-tonal-disc-1718wt?variant=53275346665696",
+  "productUrl": "https://www.canadagoose.com/en-ca/products/erie-parka-tonal-disc-1718wt?variant=53275346698464",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0761/4686/8448/files/1718WT_9061_on_front_01.jpg?v=1792749380",
   "details": "",
   "checkedAt": "2026-10-27",
@@ -41124,15 +41565,15 @@
   ]
  },
  {
-  "id": "cotopaxi-fuego-down-jacket-womens-5",
+  "id": "cotopaxi-fuego-down-jacket-womens-6",
   "gender": "women",
-  "tier": "Quality",
+  "tier": "Budget",
   "brand": "Cotopaxi",
-  "name": "Fuego Down Jacket - Women's — Spicy/Pitaya",
-  "price": 290,
+  "name": "Fuego Down Jacket - Women's — Quartz Stripes",
+  "price": 108,
   "currency": "USD",
-  "productUrl": "https://www.cotopaxi.com/products/fuego-down-jacket-womens-5?variant=43517103177789",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0281/7544/files/f26-w-fuego-down-jacket-spicy-and-pitaya-01-r.png?v=1787675894",
+  "productUrl": "https://www.cotopaxi.com/products/fuego-down-jacket-womens-6?variant=42981343920189",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0281/7544/files/1200x1200png-F25WFuegoDownJacketQuartzStripes_001.png?v=1769537949",
   "details": "Our iconic down jacket now features a 100% recycled DWR-finished shell and the same responsibly sourced 800-fill down you know and love.",
   "checkedAt": "2026-10-27",
   "kinds": [
@@ -41143,7 +41584,7 @@
   ],
   "colours": [],
   "styles": [
-   "understated"
+   "statement"
   ]
  },
  {
@@ -45316,6 +45757,78 @@
   "productUrl": "https://www.rouje.com/products/jules-rouje-x-reebok-parka-court-taille-cintree-violet-fonce",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0699/2914/0544/files/REEBOK_KWAY_BLEU_2574.jpg?v=1791817950",
   "details": "Blouson zippé cintré Reebok x Rouje Coloris bleu marine Manches longues Col montant Capuche intégrée Lien de serrage à la taille Poignets re",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "coat"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52636-79-110",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Linen & Lycra Blend Hooded Coat — Beige",
+  "price": 560,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lina-52636-79-110.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52636-79-110-jacket-01.jpg",
+  "details": "The refinement of linen reimagined with modern flexibility.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "coat"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52689-79-850",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Statement sparkling fur effect coat — Napolitaine",
+  "price": 1850,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/barbara-52689-79-850.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52689-79-850-flinges-coat-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "coat"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52689-79-850-lb",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Statement sparkling fur effect coat",
+  "price": 1850,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/barbara-52689-79-851.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52689-79-850-0111.jpg",
+  "details": "",
   "checkedAt": "2026-10-27",
   "kinds": [
    "coat"
@@ -49578,7 +50091,7 @@
   "currency": "USD",
   "productUrl": "https://agolde.com/products/kembra-batwing-dress-detox",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0269/4076/8349/files/A20032-1285_KEMBRA_DRESS_LEATHER_DETOX_1288_dfd0091e-3311-4b28-9078-e871d71b4d16.jpg?v=1788561407",
-  "details": "The Kembra Dress offers a sculptural take on a modern mini silhouette.",
+  "details": "The Kembra Dress is crafted from buttery-soft recycled leather with a matte finish and subtle stretch for comfort.",
   "checkedAt": "2026-10-27",
   "kinds": [
    "dress"
@@ -55844,6 +56357,219 @@
   ],
   "styles": [
    "polished",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42730-67-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Halter dress — Black",
+  "price": 395,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/elisabeth-42730-67-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42530-67-800-01-black-long-dress_5.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42730-71-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Maxi Jersey dress — Navy Curacao",
+  "price": 410,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/elisabeth-42730-71-550.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42730-71-550-01-maxi-lycra-dress.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42730-71-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Maxi Jersey dress — Black",
+  "price": 410,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/elisabeth-42730-71-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42730-71-800-01-maxi-lycra-dress.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42730-72-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Short Jersey dress — Black",
+  "price": 360,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/elisabeth-42730-72-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42730-72-800-01-short-lycra-dress.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42736-65-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen polo dress — Hibiscus",
+  "price": 640,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lin-42736-65-951.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42736-65-951-01-lb-dress.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-42736-84-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Long linen shirt dress — Hibiscus",
+  "price": 685,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lin-42736-84-951.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42736-84-951-01-lb-linen-shirt-dress.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-52667-68-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Crinkled Voile Sleeved Dress — Beige",
+  "price": 595,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52667-68-110.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52667-68-110-jersey3d_voile-dress-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52672-71-020",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Crinkle Voile Maxi Dress — Cream",
+  "price": 595,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/olivia-52672-71-020-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52672-71-020-voile-dress-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
    "understated"
   ]
  },
@@ -68834,7 +69560,7 @@
   "currency": "USD",
   "productUrl": "https://agolde.com/products/jenning-sweatshirt-chocolate",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0269/4076/8349/files/A7486_JENNING_SWEATSHIRT_CHOCOLATE_62_9116a322-427c-4415-a3fd-20ede53ccf44.jpg?v=1787865614",
-  "details": "The Jenning Sweatshirt offers a relaxed take on an elevated fleece silhouette.",
+  "details": "The Jenning Sweatshirt features a draped funnel neckline and dropped shoulders for a relaxed, oversized fit.",
   "checkedAt": "2026-10-27",
   "kinds": [
    "knit"
@@ -68862,7 +69588,7 @@
   "currency": "USD",
   "productUrl": "https://agolde.com/products/jenning-sweatshirt-washed-black",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0269/4076/8349/files/A7486_JENNING_SWEATSHIRT_WASHED_BLACK_0306_d12849e0-24d9-4c88-a549-0baffcc99318.jpg?v=1787865438",
-  "details": "The Jenning Sweatshirt offers a refined take on a relaxed fleece silhouette.",
+  "details": "The Jenning Sweatshirt is designed with a draped funnel neckline and dropped shoulders for a relaxed, oversized fit.",
   "checkedAt": "2026-10-27",
   "kinds": [
    "knit"
@@ -69397,34 +70123,6 @@
   ]
  },
  {
-  "id": "alo-m3352r-cotton-rib-parallel-sweater-bone",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Cotton Rib Parallel Sweater - Bone",
-  "price": 131,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3352r-cotton-rib-parallel-sweater-bone",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3352R_03040_b2_s1_a1_dFA26_m252_5be2b04e-ad29-4b81-bf16-0596b19acf0d.jpg?v=1790952324",
-  "details": "Take any look to the next level with the Cotton Rib Parallel Sweater.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ]
- },
- {
   "id": "alo-m3352r-cotton-rib-parallel-sweater-bone-womens",
   "gender": "unisex",
   "tier": "High-end",
@@ -69450,33 +70148,6 @@
   "styles": [
    "relaxed",
    "understated"
-  ]
- },
- {
-  "id": "alo-m3352r-cotton-rib-parallel-sweater-java-brown-heather",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Cotton Rib Parallel Sweater - Java Brown Heather",
-  "price": 131,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3352r-cotton-rib-parallel-sweater-java-brown-heather",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3352R_08197_b2_s1_a2_dFA26_m243.jpg?v=1790873579",
-  "details": "Take any look to the next level with the Cotton Rib Parallel Sweater.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "relaxed"
   ]
  },
  {
@@ -69528,6 +70199,60 @@
   ],
   "colours": [
    "green"
+  ],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
+  "id": "alo-u3031rg-accolade-crew-neck-pullover-summer-romance-red",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Accolade Crew Neck Pullover - Summer Romance Red",
+  "price": 96,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-summer-romance-red",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3031RG_07952_b2_s1_a1_dSU26_m122.png?v=1779860852",
+  "details": "This best seller is cozy, comfortable, cute and done in classic neutrals and on-trend colors—each finished with a chrome ALO logo.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "red"
+  ],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
+  "id": "alo-u3031rg-accolade-crew-neck-pullover-summer-romance-red-m",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Accolade Crew Neck Pullover - Summer Romance Red",
+  "price": 96,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/u3031rg-accolade-crew-neck-pullover-summer-romance-red-mens",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3031RG_07952_b1_s1_a1_dSU26_m245.jpg?v=1779260783",
+  "details": "Cozy and comfortable with plenty of street cred, too, thanks to a chrome ALO logo on the chest and an on-trend offering of colors.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "red"
   ],
   "styles": [
    "statement"
@@ -81486,6 +82211,169 @@
   ],
   "styles": [
    "relaxed"
+  ]
+ },
+ {
+  "id": "shan-42721-73-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Silk poncho — Hibiscus",
+  "price": 575,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/celine-42721-73-951-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42721-73-951-01-silk-poncho.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "polished"
+  ]
+ },
+ {
+  "id": "shan-52567-64-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Jersey oversized crewneck — Beige",
+  "price": 425,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52567-64-110-3.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52567-64-110-01-top.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52567-64-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Jersey oversized crewneck — Black",
+  "price": 425,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52567-64-800-3.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52567-64-800-01-top.jpg",
+  "details": "Long-sleeve 3D jersey top with a modern high-low hemline.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62713-91-800",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Textured V-neck jersey — Black",
+  "price": 160,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/actuel-62713-91-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62013-91-800-02_1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62713-92-155",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Textured V-neck long sleeve jersey — Grey Fog",
+  "price": 180,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/actuel-62713-92-155-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62613-92-155-03.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62767-84-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Long sleeve sweater — Black",
+  "price": 385,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/city-62767-84-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62267-84-800-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
   ]
  },
  {
@@ -97355,6 +98243,262 @@
   ]
  },
  {
+  "id": "shan-52658-79-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Elevated Nylon Jacket — Black",
+  "price": 495,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/gabriella-52658-79-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52658-79-800-nylon-textured-bomber-jacket-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52658-79-800-lb",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Elevated Nylon Jacket",
+  "price": 495,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/gabriella-52658-79-800-3.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52658-79-800-03_-_copie_2_.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52667-75-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Contemporary cropped jacket — Navy",
+  "price": 495,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52667-75-550-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52567-75-550-01-jacket_1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52667-75-550-lb",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Contemporary cropped jacket",
+  "price": 495,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52667-75-550-3.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52667-75-550-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52667-77-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Minimalist jacket — Navy",
+  "price": 560,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52667-77-550-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52667-77-550-jacket-1_1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52667-77-550-lb",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Minimalist jacket",
+  "price": 560,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52667-77-550-3.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52667-77-550-01_copie.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52673-79-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Textured Smocking Jacket — Beige",
+  "price": 625,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/gabriella-52673-79-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52673-79-110-textured-bomber-jacket-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52673-79-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Textured Smocking Jacket — Black",
+  "price": 625,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/gabriella-52673-79-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52673-79-800-textured-bomber-jacket-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62165-82-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Zip-up collar bomber jacket — Black",
+  "price": 395,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/techno-62165-82-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62165-82-800-02.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62267-82-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Stylish bomber — Black",
+  "price": 445,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/62067-82-city-ready-to-wear-black.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62067-82-800-02.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "skims-cotton-fleece-logo-track-jacket-cherry-blossom",
   "gender": "women",
   "tier": "Quality",
@@ -102058,6 +103202,31 @@
   ]
  },
  {
+  "id": "shan-42721-50-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Silk square wrap — Hibiscus",
+  "price": 550,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/celine-42721-50-951.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42721-50-951-01-silk-square-wrap.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-scarf"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "polished"
+  ]
+ },
+ {
   "id": "staud-cecile-silk-scarf-cliffside",
   "gender": "women",
   "tier": "High-end",
@@ -104779,6 +105948,193 @@
   ],
   "styles": [
    "relaxed"
+  ]
+ },
+ {
+  "id": "shan-42730-52-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Wide-leg palazzo pants — Navy Curacao",
+  "price": 395,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/elisabeth-42730-52-550-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42730-52-550-01-wide-leg-palazzo-pants.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-trousers"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42730-52-590",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Wide-leg palazzo pants — Navy",
+  "price": 395,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/elisabeth-42730-52-551.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42730-52-590-01-wide-leg-palazzo-pants.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-trousers"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42736-52-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Straight-leg linen pants — Hibiscus",
+  "price": 480,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lin-42736-52-951.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42736-52-951-03-linen-pants.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-trousers"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-52536-52-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen pants tied at the waist — Beige",
+  "price": 685,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lina-52536-52-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52536-52-110-01-beige-flared-leg-pants.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-trousers"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52636-50-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen & Lycra Pants — Beige",
+  "price": 460,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lina-52636-50-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52636-50-110-pants-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-trousers"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52636-59-020",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen & Lycra Blend Pants — Cream",
+  "price": 535,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lina-52636-59-020-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52636-59-020-pants-01.jpg",
+  "details": "The purity of linen elevated with delicate luminosity.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-trousers"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62736-51-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen trouser — Black",
+  "price": 325,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lin-62736-51-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62436-51-800-01-pants.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-trousers"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
   ]
  },
  {
@@ -108070,6 +109426,217 @@
   ],
   "colours": [
    "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42736-83-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen shirt — Hibiscus",
+  "price": 525,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lin-42736-83-951.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42736-83-951-01-linen-shirt.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-42736-85-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Long linen shirt — Navy Curacao",
+  "price": 495,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lin-42736-85-550-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42736-85-550-01-long-linen-shirt.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52633-82-020",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Ruffled Gauze Blouse — Cream",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/anna-52633-82-020.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52633-82-020-blouse-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52633-83-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Semi-Sheer Gauze Blouse — Black",
+  "price": 435,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/anna-52633-83-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52633-83-800-blouse-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52636-83-020",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen Blouse — Cream",
+  "price": 495,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lina-52636-83-020-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52636-83-020-blouse-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52636-83-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen Blouse — Beige",
+  "price": 425,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lina-52636-83-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52636-83-110-blouse-01_1.jpg",
+  "details": "A naturally elegant essential.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62636-83-155",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Classic linen shirt — Grey Fog",
+  "price": 350,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lin-62636-83-155-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62636-83-155-03.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62736-84-155",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Mandarin collar linen shirt — Grey Fog",
+  "price": 385,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lin-62736-84-155-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62636-84-155-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "linen-shirt"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "grey"
   ],
   "styles": [
    "relaxed",
@@ -117710,6 +119277,33 @@
   "styles": [
    "polished",
    "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62713-49-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Long sleeve textured jersey polo — Black",
+  "price": 250,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/actuel-62713-49-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62613-49-800-polo-3.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
    "understated"
   ]
  },
@@ -130558,6 +132152,55 @@
   ]
  },
  {
+  "id": "shan-52340-98-710",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Fringe scarf — Sahara",
+  "price": 285,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/kate-52340-98-710-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52340-98-710-01.jpg",
+  "details": "Fringe versatile scarf fringe scarf scarf belt suede belt suede scarf",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "scarf"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-52340-98-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Fringe scarf — Black Caviar",
+  "price": 285,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/kate-52340-98-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52340-98-800-02.jpg",
+  "details": "Fringe versatile scarf fringe scarf scarf belt suede belt suede scarf",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "scarf"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "skims-brushed-plaid-ribbed-scarf-pink-big-holly-plaid",
   "gender": "women",
   "tier": "Quality",
@@ -142230,6 +143873,361 @@
   ]
  },
  {
+  "id": "shan-42721-80-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Short-sleeve silk shirt — Black",
+  "price": 525,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/celine-42721-80-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42721-80-800-01-silk-shirt.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42728-85-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Long taffeta shirt — Hibiscus",
+  "price": 485,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/taffeta-42728-85-951-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42728-85-951-01-long-linen-shirt.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42733-60-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Cropped long-sleeve mesh shirt — Black",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/mia-42733-60-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42533-60-800-01-black-mesh-crop-top.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52068-81-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Mock neckline blouse — Navy",
+  "price": 350,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/megan-pap-8-52068-81-550-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/n/a/navy-blouse-52068-81-550-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52351-62-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Bow-tie neck silk blouse — Navy",
+  "price": 525,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/soie-52351-62-550-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52351-62-550-01-navy-silk-blouse.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52421-62-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Silk blouse — Navy",
+  "price": 560,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/soie-52421-62-550-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52421-62-550-01-silk-blouse_1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52652-62-800-lb",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Organza blouse",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/olivia-52652-62-801.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52652-62-800-02.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52652-95-040",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Organza sleeveless blouse — Iridescent Bei",
+  "price": 410,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/olivia-52652-95-040-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52652-95-040-organza-blouse-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62448-80-957",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Short-sleeve casual shirt — Maxime",
+  "price": 285,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/maxime-62448-80-957.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62448-80-957-01-shirt.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-62621-80-950",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Silk button down shirt — Léo",
+  "price": 525,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/soie-62621-80-950.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62621-80-950-silk-shirt-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "polished"
+  ]
+ },
+ {
+  "id": "shan-62635-84-110",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Mandarin collar canvas shirt — Beige Pinstrip",
+  "price": 350,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/caleb-62635-84-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62635-84-110-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62728-80-590",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Short-sleeve casual shirt — Blue Midnight",
+  "price": 285,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/henry-62728-80-590.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62628-80-590-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-62748-80-958",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Soft terry button-down shirt — Duo White And",
+  "price": 325,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/cedric-62748-80-958.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62648-80-958-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "skims-cotton-poplin-shrunken-button-up-shirt-navy-check",
   "gender": "women",
   "tier": "Quality",
@@ -145935,33 +147933,6 @@
   "styles": [
    "relaxed",
    "statement"
-  ]
- },
- {
-  "id": "alo-m6154r-7-repetition-short-gravel",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "7\" Repetition Short - Gravel",
-  "price": 54,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m6154r-7-repetition-short-gravel",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M6154R_05438_b2_s1_a1_dWT26_m214_c22103aa-af49-46f1-85b4-c994af012df5.jpg?v=1792985409",
-  "details": "You’ll reach for this pair again and again.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "shorts"
-  ],
-  "climates": [
-   "hot",
-   "mild"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
   ]
  },
  {
@@ -155420,6 +157391,275 @@
   ]
  },
  {
+  "id": "shan-42663-55-000",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Detailed lace shorts — White",
+  "price": 325,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lili-pap-3-42663-55-000.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42663-55-000-03-lace-short.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42663-55-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Detailed lace shorts — Black",
+  "price": 325,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lili-pap-3-42663-55-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42663-55-800-03-lace-short.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42673-55-020",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "3D Mesh Shorts — Cream",
+  "price": 350,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/nelly-42673-55-020-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42673-55-020-04-short.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42673-55-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "3D Mesh Shorts — Black",
+  "price": 350,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/nelly-42673-55-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42673-55-800-03-short.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42690-54-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Lycra shorts — Black",
+  "price": 365,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/intemporel-42690-54-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42590-54-800-01-black-lycra-shorts_1_1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52636-54-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Linen & Lycra Blend Shorts — Beige",
+  "price": 410,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/lina-52636-54-110.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52636-54-110-shorts-01.jpg",
+  "details": "Effortless summer ease with a delicate luminous touch.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52643-54-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Floral Guipure Lace Shorts — Beige",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/naomi-52643-54-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52643-54-110-short-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52643-54-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Floral Guipure Lace Shorts — Black",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/naomi-52643-54-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52643-54-800-short-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62448-54-957",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Sporty shorts — Maxime",
+  "price": 260,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/maxime-62448-54-957.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62448-54-957-01-shorts.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-62748-54-958",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Soft terry shorts — Duo White And",
+  "price": 260,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/cedric-62748-54-958.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62648-54-958-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "skims-jersey-lounge-mens-relaxed-short-dark-roast",
   "gender": "men",
   "tier": "Quality",
@@ -163735,6 +165975,193 @@
   ]
  },
  {
+  "id": "shan-42730-48-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Elegant lycra maxi skirt — Black",
+  "price": 310,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/elisabeth-42730-48-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42730-48-800-01-lb-lycra-maxi-skirt.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42760-47-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Long wrap skirt — Navy Curacao",
+  "price": 185,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/classique-42760-47-550-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42760-47-550-01-wrap-pareo-skirt.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52619-47-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Printed Midi Skirt — Elena",
+  "price": 650,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/maxime-52619-47-951.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52619-47-951-skirt-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
+  "id": "shan-52632-45-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Ruffled Chiffon Mini Skirt — Black",
+  "price": 395,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/celine-52632-45-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52632-45-800-skirt-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52667-45-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Mini 3D Jersey Skirt — Black",
+  "price": 325,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52667-45-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52667-45-800-jersey3d-skirt-4.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52673-49-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Textured Smocking Maxi Skirt — Beige",
+  "price": 650,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/gabriella-52673-49-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52673-49-110-textured-maxi-skirt-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52673-49-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Textured Smocking Maxi Skirt — Black",
+  "price": 650,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/gabriella-52673-49-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52673-49-800-textured-maxi-skirt-3.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "skims-cotton-rib-foldover-mini-skirt-currant",
   "gender": "unisex",
   "tier": "Quality",
@@ -170712,6 +173139,64 @@
   ]
  },
  {
+  "id": "shan-62694-33-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Soft lounge shorts — Black",
+  "price": 235,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/relaxation-62694-33-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62094-33-800-01_2.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "sleepwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62694-43-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Modal jersey, soft lounge pants — Black",
+  "price": 275,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/62094-43-relaxation-under-wear-black.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62094-43-800-03.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "sleepwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "skims-cotton-poplin-mens-logo-band-sleep-pant-full-moon-chec",
   "gender": "men",
   "tier": "Quality",
@@ -173142,6 +175627,34 @@
   ]
  },
  {
+  "id": "alo-a0660w-womens-lettuce-edge-sock-candy-red-loyalty",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Women's Lettuce Edge Sock - Candy Red",
+  "price": 16,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0660w-womens-lettuce-edge-sock-candy-red-loyalty?variant=50661645386087",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/ChatGPTImageSep10_2026_11_48_25AM.png?v=1789066116",
+  "details": "Lettuce Edge Socks with a ruffled trim and compressive fit—great for workouts or lounging.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "red"
+  ],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
   "id": "alo-a0660w-womens-lettuce-edge-sock-vintage-pink-loyalty",
   "gender": "women",
   "tier": "High-end",
@@ -173246,32 +175759,6 @@
   ],
   "colours": [
    "brown"
-  ],
-  "styles": [
-   "polished"
-  ]
- },
- {
-  "id": "alo-a0930u-cashmere-mesh-sock-rich-bordeaux",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Cashmere Mesh Sock - Rich Bordeaux",
-  "price": 68,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0930u-cashmere-mesh-sock-rich-bordeaux",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0930U_06547_b1_s1_a1_dFA26_1.jpg?v=1791357978",
-  "details": "The Cashmere Mesh Sock is a finishing touch that changes your whole look.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "purple"
   ],
   "styles": [
    "polished"
@@ -173465,7 +175952,7 @@
   "gender": "women",
   "tier": "Budget",
   "brand": "Bluenotes",
-  "name": "Holiday Cozy Crew Socks Giftable 4-Pack — Black",
+  "name": "Cozy Crew Socks Giftable 4-Pack — Black",
   "price": 7.79,
   "currency": "CAD",
   "productUrl": "https://www.bluenotes.com/products/0589-43902700-holiday-cozy-crew-socks-giftable-4-pack?variant=50814995628229",
@@ -184542,16 +187029,16 @@
   ]
  },
  {
-  "id": "alo-a0637u-satin-off-duty-cap-java-brown",
+  "id": "alo-a0648u-off-duty-cap-candy-heart-pink",
   "gender": "unisex",
-  "tier": "High-end",
+  "tier": "Quality",
   "brand": "Alo",
-  "name": "Satin Off-Duty Cap - Java Brown",
-  "price": 68,
+  "name": "Off-Duty Cap - Candy Heart Pink",
+  "price": 44,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0637u-satin-off-duty-cap-java-brown",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0637U_08194_b1_s1_a2_dFA26_1.jpg?v=1791354284",
-  "details": "Get the quiet luxury look in this new satin take on our classic Off Duty hat.",
+  "productUrl": "https://www.aloyoga.com/products/a0648u-off-duty-cap-candy-heart-pink",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0648U_06661_b1_s1_a2.jpg?v=1768418115",
+  "details": "Top off your look with ALO's limited edition, fresh take on the classic dad cap.",
   "checkedAt": "2026-10-27",
   "kinds": [
    "sun-hat"
@@ -184562,22 +187049,22 @@
    "unknown"
   ],
   "colours": [
-   "brown"
+   "pink"
   ],
   "styles": [
-   "polished"
+   "statement"
   ]
  },
  {
-  "id": "alo-a0648u-off-duty-cap-candy-heart-pink",
+  "id": "alo-a0648u-off-duty-cap-paradise-pink",
   "gender": "unisex",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "Off-Duty Cap - Candy Heart Pink",
+  "name": "Off-Duty Cap - Paradise Pink",
   "price": 44,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0648u-off-duty-cap-candy-heart-pink",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0648U_06661_b1_s1_a2.jpg?v=1768418115",
+  "productUrl": "https://www.aloyoga.com/products/a0648u-off-duty-cap-paradise-pink",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0648U_04828_b1_s1_a4_dSU26.jpg?v=1776857554",
   "details": "Top off your look with ALO's limited edition, fresh take on the classic dad cap.",
   "checkedAt": "2026-10-27",
   "kinds": [
@@ -189420,6 +191907,135 @@
   ],
   "styles": [
    "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-0550-07-000",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "White beach hat",
+  "price": 145,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/0550-07-white.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/0/5/0550-07-000-1_2.jpg",
+  "details": "SHAN hat that compliments all of your swimsuits for a very chic look!",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "sun-hat"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-0550-07-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Black beach hat",
+  "price": 145,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/0550-07-black.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/0/5/0550-07-800-1_2.jpg",
+  "details": "SHAN hat that compliments all of your swimsuits for a very chic look!",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "sun-hat"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-0565-95-172",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Shan",
+  "name": "Slate cap",
+  "price": 48,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/0565-95-grey-cap.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/0/5/0565-95-172-1.jpg",
+  "details": "Grey SHAN cap.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "sun-hat"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52176-97-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "SHAN reversible hat — Caviar",
+  "price": 215,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/margot-pap-6-52176-97-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52176-97-800-01.jpg",
+  "details": "SHAN reversible hat.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "sun-hat"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52227-97-520",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "SHAN hat — Polaris",
+  "price": 195,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52227-97-520-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52227-97-520-01.jpg",
+  "details": "SHAN hat beach look beach hat bucket hat",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "sun-hat"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
    "understated"
   ]
  },
@@ -199025,6 +201641,424 @@
   "colours": [],
   "styles": [
    "understated"
+  ]
+ },
+ {
+  "id": "shan-42750-15-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Fashion high-neck one-piece — Hibiscus",
+  "price": 495,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/signature-42750-15-951-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42750-15-951-01-lb-high-neck-one-piece.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42760-01-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Classic elegant one-piece — Hibiscus",
+  "price": 535,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/classique-42760-01-951.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42760-01-951-01-v-wire-one-piece-swimsuit.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42760-23-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Classic bralette bikini top — Hibiscus",
+  "price": 335,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/classique-42760-23-951-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42760-23-951-01-bralette-swimsuit-top.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42760-34-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Classic bikini bottom — Hibiscus",
+  "price": 170,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/classique-42760-34-951.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42760-34-951-03-classic-swimsuit-bottom.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42760-45-951",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Swim skirt — Hibiscus",
+  "price": 245,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/classique-42760-45-951-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42760-45-951-01-swim-skirt.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42770-05-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Signature one-piece swimsuit — Black",
+  "price": 365,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/signature-42770-05-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42770-05-800-01-lb-one-piece-swim.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42775-07-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Contemporary detailed one-piece — Black",
+  "price": 350,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/intemporel-42775-07-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42775-07-800-01-one-piece-swim_1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42795-10-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Mesh detailed halter one-piece — Black",
+  "price": 360,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/charlie-42795-10-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42695-10-800-01-halter-plunging-piece-swimsuit.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62605-19-801",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Sporty swim brief — Black And Whit",
+  "price": 180,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/retro-62605-19-801.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62005-19-801-02_1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62605-21-801",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Fitted short swim trunks — Black And Whit",
+  "price": 185,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/retro-62605-21-801.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62305-21-801-01_1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62618-31-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Long fit swim trunks — Black",
+  "price": 235,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/classique-62618-31-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62018-31-800-01_3.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62645-30-950",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Classic fit stretch swim trunks — Léo",
+  "price": 285,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/casual-62645-30-950-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62645-30-950-swim-trunk-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62645-30-956",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Classic fit stretch swim trunks — Lisbone",
+  "price": 285,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/casual-62645-30-956.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62545-30-956-01-swim-trunk.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62645-31-956",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Long fit stretch swim trunks — Lisbone",
+  "price": 295,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/casual-62645-31-956-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62545-31-956-01-swim-trunk.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62728-30-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Classic fit stretch and quick dry swim trunks — Black",
+  "price": 260,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/henry-62728-30-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62628-30-800-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62745-29-100",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Short fit, stretch and quick dry swim trunks — Yellow",
+  "price": 260,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/casual-62745-29-100-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62645-29-100-swim-trunk-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "swim"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "yellow"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
   ]
  },
  {
@@ -217489,6 +220523,457 @@
   ]
  },
  {
+  "id": "shan-42730-86-550",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Short sleeve kimono — Navy Curacao",
+  "price": 460,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/elisabeth-42730-86-550.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42730-86-550-04-short-sleeve-kimono.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "navy"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42730-86-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Short sleeve kimono — Black",
+  "price": 460,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/elisabeth-42730-86-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42730-86-800.png",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52661-73-020",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Soft Twill Cape-Inspired Top — Cream",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/olivia-52661-73-020-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52661-73-020-twill-cape-top-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52661-73-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Soft Twill Cape-Inspired Top — Black",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/olivia-52661-73-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52661-73-800-twill-cape-top-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52672-70-020",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Crinkle Voile Top — Cream",
+  "price": 460,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/olivia-52672-70-020-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52672-70-020-voile-blouse-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52672-70-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Crinkle Voile Top — Black",
+  "price": 460,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/olivia-52672-70-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52672-70-800-voile-blouse-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52673-61-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Textured Sleeve Top — Black",
+  "price": 435,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/gabriella-52673-61-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52673-61-800-textured-top-3.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52673-98-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Textured Smocking Top — Black",
+  "price": 325,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/gabriella-52673-98-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52673-98-800-textured-bomber-jacket-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62684-81-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Short sleeve t-shirt with SHAN logo — Black",
+  "price": 230,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/signature-62684-81-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62684-81-800-short-sleeve-01_1_.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62694-81-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Soft round neck t-shirt — Black",
+  "price": 175,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/62094-81-relaxation-under-wear-black.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62094-81-800-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62713-47-155",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Textured jersey polo — Grey Fog",
+  "price": 230,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/actuel-62713-47-155.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62613-47-155-03.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62713-47-570",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Textured jersey polo — Blue Port",
+  "price": 230,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/actuel-62713-47-570-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62613-47-570-03.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62720-81-155",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Microfiber crew neck t-shirt — Grey Fog",
+  "price": 145,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/confort-62720-81-155-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62620-81-155-03.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62720-82-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Microfiber long-sleeve crew neck — Black",
+  "price": 165,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/62020-82-confort-ready-to-wear-black.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62020-82-800-02.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62720-91-155",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Microfiber V-neck T-shirt — Grey Fog",
+  "price": 145,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/confort-62720-91-155-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62620-91-155-03.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62720-91-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Microfiber V-neck T-shirt — Black",
+  "price": 145,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/62020-91-confort-ready-to-wear-black.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62620-91-800-t-shirt-3.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "skims-boyfriend-fleece-oversized-polo-blue-black",
   "gender": "unisex",
   "tier": "High-end",
@@ -233818,35 +237303,6 @@
   ]
  },
  {
-  "id": "naadam-cashmere-cropped-pant-1",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Naadam",
-  "name": "Cashmere Cropped Pant — Dark Brown",
-  "price": 99.8,
-  "currency": "USD",
-  "productUrl": "https://www.naadam.co/products/cashmere-cropped-pant-1?variant=39877322604640",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0313/7821/products/NWET004075_CASHMERE_CROPPED_PANT_DARK_BROWN_007.jpg?v=1761278540",
-  "details": "Relax in style.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "trousers"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black",
-   "brown"
-  ],
-  "styles": [
-   "polished",
-   "understated"
-  ]
- },
- {
   "id": "naadam-cashmere-sweatpants-men",
   "gender": "men",
   "tier": "High-end",
@@ -234090,6 +237546,32 @@
   "styles": [
    "polished",
    "understated"
+  ]
+ },
+ {
+  "id": "naadam-the-off-duty-cashmere-jogger",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Naadam",
+  "name": "Signature Cashmere Jogger — Heathered Sea Teal",
+  "price": 171,
+  "currency": "USD",
+  "productUrl": "https://www.naadam.co/products/the-off-duty-cashmere-jogger?variant=43106214510688",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0313/7821/files/Signature_Cashmere_Jogger_CO_Heathered_Sea_Teal_0084.jpg?v=1790277810",
+  "details": "No paparazzi, please.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "polished",
+   "relaxed"
   ]
  },
  {
@@ -236652,6 +240134,337 @@
   ],
   "colours": [],
   "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-42721-52-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Straight-leg silk pants — Black",
+  "price": 585,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/celine-42721-52-800-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/4/2/42721-52-800-01-silk-pants.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52627-51-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Tapered pants — Beige",
+  "price": 460,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52627-51-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52627-51-110-pants-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52627-51-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Tapered pants — Black",
+  "price": 460,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52627-51-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52627-51-800-pants-1_1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52661-52-020",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Soft Twill Wide-Leg Pants — Cream",
+  "price": 425,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/olivia-52661-52-020-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52661-52-020-twill-pants-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52661-52-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Soft Twill Wide-Leg Pants — Black",
+  "price": 425,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/olivia-52661-52-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52661-52-800-twill-pants-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52667-59-110",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Wide-leg 3D jersey pants — Beige",
+  "price": 525,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52667-59-110.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52667-59-110-pants-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52667-59-800-lb",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Wide-leg 3D jersey pants",
+  "price": 525,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/sofia-pap-7-52667-59-801.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52667-59-800-02.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-52677-59-950",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Woolen and 3D Jersey pants — Ocelot",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/margot-pap-7-52677-59-950.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52677-59-950-woolen-pants-3.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "polished",
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-62621-51-950",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Straight-leg silk pants — Léo",
+  "price": 495,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/soie-62621-51-950-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62621-51-950-silk-pants-1.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "polished",
+   "relaxed"
+  ]
+ },
+ {
+  "id": "shan-62635-51-110",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Wide-leg canvas trousers with a drawstring waist — Beige Pinstrip",
+  "price": 360,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/caleb-62635-51-110.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62635-51-110-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62675-51-110",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Straight-leg jersey lycra trouser — Beige",
+  "price": 350,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/techno-62675-51-110-2.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62675-51-110-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "polished",
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62767-44-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Modern comfortable 3D jersey pants — Black",
+  "price": 450,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/city-62767-44-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62267-44-800-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
    "understated"
   ]
  },
@@ -246492,6 +250305,119 @@
   ],
   "styles": [
    "statement"
+  ]
+ },
+ {
+  "id": "shan-62694-71-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Boxer briefs — Black",
+  "price": 125,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/relaxation-62694-71-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62294-71-800-03.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "underwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62720-70-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Short-length boxer brief — Black",
+  "price": 110,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/confort-62720-70-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62020-70-800-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "underwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62720-71-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Mid-length boxer brief — Black",
+  "price": 115,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/62020-71-confort-ready-to-wear-black.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62020-71-800-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "underwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-62720-72-800",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "Long-length boxer brief — Black",
+  "price": 115,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/62020-72-confort-ready-to-wear-black.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/6/2/62020-72-800-01.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "underwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
   ]
  },
  {
@@ -269176,6 +273102,56 @@
   "colours": [],
   "styles": [
    "relaxed"
+  ]
+ },
+ {
+  "id": "shan-52573-80-020",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "3D Mesh Hoodie — Cream",
+  "price": 535,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/nelly-52573-80-020-3.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52573-80-020-01-mesh-hoodie.jpg",
+  "details": "",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "shan-52573-80-800",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Shan",
+  "name": "3D Mesh Hoodie — Black",
+  "price": 535,
+  "currency": "CAD",
+  "productUrl": "https://www.shan.ca/nelly-52573-80-800.html",
+  "imageUrl": "https://www.shan.ca/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/5/2/52573-80-800-01-mesh-hoodie.jpg",
+  "details": "3D Mesh hoodie with subtle transparency.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
   ]
  },
  {
