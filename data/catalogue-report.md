@@ -1,13 +1,13 @@
 # Catalogue coverage (2026-10-27)
 
-10499 products from 112 brands. Rejected: 50.
+10544 products from 112 brands. Rejected: 50.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
 | Sports bra | 13 / 25 / 15 | 0 / 1 / 0 |
 | Bra | 55 / 58 / 34 | 0 / 3 / 1 |
-| Swimwear | 56 / 36 / 53 | 42 / 26 / 13 |
-| Underwear | 94 / 34 / 19 | 114 / 27 / 9 |
+| Swimwear | 64 / 34 / 41 | 50 / 26 / 13 |
+| Underwear | 95 / 35 / 18 | 114 / 27 / 9 |
 | Socks | 151 / 93 / 20 | 147 / 72 / 20 |
 | Sleepwear | 92 / 71 / 22 | 79 / 37 / 13 |
 | Thermal base layer top | 20 / 9 / 8 | 10 / 11 / 6 |
@@ -15,22 +15,22 @@
 | Rain jacket | 19 / 26 / 13 | 25 / 25 / 11 |
 | Warm coat | 64 / 106 / 42 | 61 / 61 / 31 |
 | Blazer | 27 / 15 / 20 | 31 / 10 / 1 |
-| Light jacket | 158 / 125 / 54 | 140 / 113 / 48 |
-| Dress | 118 / 110 / 51 | 10 / 0 / 0 |
+| Light jacket | 166 / 125 / 54 | 140 / 113 / 48 |
+| Dress | 125 / 111 / 51 | 10 / 0 / 0 |
 | Workout top | 28 / 21 / 18 | 14 / 19 / 16 |
 | Workout leggings or shorts | 63 / 65 / 49 | 31 / 24 / 15 |
 | Linen shirt | 21 / 27 / 17 | 49 / 26 / 19 |
-| Button-up shirt | 136 / 92 / 38 | 155 / 85 / 27 |
+| Button-up shirt | 144 / 92 / 38 | 155 / 85 / 27 |
 | Warm sweater | 128 / 215 / 42 | 110 / 208 / 42 |
-| Light knit | 164 / 165 / 50 | 120 / 125 / 35 |
+| Light knit | 166 / 163 / 50 | 122 / 123 / 35 |
 | Long-sleeve top | 145 / 66 / 26 | 142 / 51 / 6 |
-| T-shirt | 230 / 166 / 36 | 228 / 165 / 29 |
+| T-shirt | 238 / 166 / 36 | 228 / 165 / 29 |
 | Jeans | 81 / 58 / 23 | 63 / 34 / 20 |
-| Shorts | 122 / 113 / 45 | 103 / 101 / 31 |
+| Shorts | 124 / 113 / 45 | 103 / 101 / 31 |
 | Skirt | 120 / 74 / 51 | 9 / 1 / 0 |
 | Lightweight trousers | 40 / 24 / 7 | 36 / 9 / 3 |
 | Warm trousers | 37 / 37 / 11 | 44 / 37 / 13 |
-| Everyday trousers | 206 / 130 / 56 | 171 / 107 / 44 |
+| Everyday trousers | 214 / 130 / 56 | 171 / 107 / 44 |
 | Hiking or trail shoes | 3 / 1 / 2 | 5 / 1 / 3 |
 | Boots | 71 / 37 / 17 | 22 / 36 / 14 |
 | Sandals | 81 / 31 / 24 | 24 / 19 / 13 |
@@ -64,6 +64,7 @@
 - Oak + Fort: 216
 - Outerknown: 212
 - Kit and Ace: 209
+- Shan: 207
 - UNIQLO: 190
 - Summersalt: 187
 - Beyond Yoga: 182
@@ -76,10 +77,9 @@
 - AGOLDE: 154
 - Reigning Champ: 153
 - Citizens of Humanity: 149
-- Shan: 149
 - Rains: 147
 - DUER: 143
-- Tommy John: 143
+- Tommy John: 139
 - MOTHER: 129
 - Taylor Stitch: 122
 - Frankies Bikinis: 121
@@ -88,10 +88,10 @@
 - Topo Designs: 114
 - Naadam: 113
 - Outdoor Voices: 113
-- Eberjey: 105
 - Faithfull the Brand: 104
-- Lunya: 101
 - Rouje: 101
+- Eberjey: 101
+- Lunya: 100
 - Minus33: 91
 - Larroudé: 90
 - CDLP: 89
@@ -116,9 +116,9 @@
 - Duckworth: 45
 - Rudsak: 44
 - totes: 44
-- ThirdLove: 43
 - Columbia: 43
 - GUESS: 39
+- ThirdLove: 39
 - Dagne Dover: 38
 - The North Face: 37
 - Le Specs: 34
@@ -164,11 +164,17 @@
 
 ## Category audit
 
-6 products whose name names a different kind of garment than their piece.
+12 products whose name names a different kind of garment than their piece.
 
 - dress-shoes: OluKai — Kahakai - Trench Blue / Trench Blue
 - dress-shoes: OluKai — Moku Pae - Ash / Trench Blue
 - dress-shoes: OluKai — Moku Pae - Trench Blue / Off White
 - sandals: OluKai — Ulele - Trench Blue / Trench Blue
 - sun-hat: Topo Designs — Topo Designs x TSPTR Snoopy Trucker — Red / White
+- underwear: Eberjey — Pima Cotton Bikini
+- underwear: Eberjey — Pima Cotton Bikini
+- underwear: Lunya — Seamless Modal Bikini — Hushed Tan
+- underwear: Lunya — Seamless Modal Bikini — Sincere White
+- underwear: ThirdLove — ComfortStretch Bikini — air
+- underwear: ThirdLove — ComfortStretch Bikini — storm
 - walking-shoes: Allbirds — Women's Cruiser Jersey - Light Grey/Anthracite (Blizzard Sole)
