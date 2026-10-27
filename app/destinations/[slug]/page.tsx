@@ -15,7 +15,6 @@ import { GROUPS, type PackingKind } from '../../../lib/packing'
 import { ACTIVITIES, STYLES, WEARS, parseTrip, tripParams, formatTripDates, type Trip } from '../../../lib/trip'
 import { buildTravelEdit, type TravelEdit } from '../../../lib/travel-edit'
 import { cad } from '../../../lib/selection'
-import { localCredit } from '../../../lib/local-brands'
 import { TripDates, TripWeatherPanel } from './trip-controls'
 import { SiteNav } from '../../../components/SiteNav'
 import { SiteFooter } from '../../../components/SiteFooter'
@@ -258,7 +257,7 @@ function EditLooks({ edit, shop, onEdit }: { edit: TravelEdit; shop: ShopState; 
                         <div>
                           <p className="board-role">{p.role}</p>
                           <a href={go(p.product.id, p.kind)} target="_blank" rel="noopener sponsored"><strong>{p.product.brand}</strong> {p.product.name}<em>{money(p.product)}</em></a>
-                          <p className="board-why">{p.note}{localCredit(p.product.brand) && <span className="board-local"> {localCredit(p.product.brand)}.</span>}</p>
+                          <p className="board-why">{p.note}</p>
                         </div>
                       </li>
                     ))}

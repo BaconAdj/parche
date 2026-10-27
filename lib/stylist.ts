@@ -5,7 +5,6 @@ import type { Product, Tier } from './catalogue-types'
 import type { PackingKind, PackingPlan } from './packing'
 import type { Trip, Wear } from './trip'
 import { profileOf, trendNote, type Family, type StyleProfile } from './style'
-import { featuredBoost } from './local-brands'
 
 type Climate = PackingPlan['climate']
 type Swatch = { label: string; hex: string }
@@ -197,7 +196,6 @@ function pieceScore(p: Product, c: Ctx): number {
   x += s.prestige * (c.hero ? 1.5 : 0.5)
   if (s.clearance) x -= 1
   if (c.brands.has(p.brand)) x -= 1.5
-  x += featuredBoost(p.brand, p.kinds[0])
   return x + jitter(c.seed + p.id) * 0.9
 }
 

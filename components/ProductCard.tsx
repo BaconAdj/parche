@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import { TIER_LABEL, type Product } from '../lib/catalogue-types'
-import { localCredit } from '../lib/local-brands'
 
 const money = (p: Product) => new Intl.NumberFormat('en-CA', { style: 'currency', currency: p.currency, currencyDisplay: p.currency === 'CAD' ? 'narrowSymbol' : 'code' }).format(p.price)
 
@@ -24,7 +23,6 @@ export function ProductCard({ product, destination, kind, showTier = true, badge
       </div>
       <div className="pcard-meta"><span className="pcard-brand">{product.brand}</span><span className="pcard-price">{money(product)}</span></div>
       <p className="pcard-name">{product.name}</p>
-      {localCredit(product.brand) && <p className="pcard-local">{localCredit(product.brand)}</p>}
       <p className="pcard-why">{product.details}</p>
       <span className="pcard-cta">Shop at {product.brand}<span className="visually-hidden"> (opens the retailer&apos;s site)</span></span>
     </a>

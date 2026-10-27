@@ -162,40 +162,6 @@ function PackingRun({ items }: { items: Product[] }) {
   )
 }
 
-// A spotlight on a label from parché's home city. Pieces come from the live catalogue, so it only shows what's in stock.
-function LocalSpotlight() {
-  const root = useRef<HTMLElement>(null)
-  const [items, setItems] = useState<Product[]>([])
-  useEffect(() => {
-    const c = new AbortController()
-    fetch('/api/products?brand=Shan&count=8', { signal: c.signal }).then(r => r.json()).then(j => { if (j.data?.items) setItems(j.data.items) }).catch(() => {})
-    return () => c.abort()
-  }, [])
-  useGSAP(() => {
-    if (!items.length || !root.current || window.matchMedia(REDUCED).matches) return
-    gsap.from(root.current.querySelectorAll('.local-title .w'), { yPercent: 110, duration: 1.1, ease: 'expo.out', stagger: .07, scrollTrigger: { trigger: root.current, start: 'top 75%' } })
-    gsap.from(root.current.querySelectorAll('.local-grid .pcard'), { y: 40, autoAlpha: 0, duration: .9, ease: 'expo.out', stagger: .06, scrollTrigger: { trigger: root.current.querySelector('.local-grid'), start: 'top 85%' } })
-  }, { scope: root, dependencies: [items.length] })
-  if (items.length < 4) return null
-  return (
-    <section ref={root} className="local" aria-labelledby="local-title">
-      <div className="wrap">
-        <div className="local-head">
-          <div>
-            <p className="kicker">Made in Montréal</p>
-            <h2 id="local-title" className="local-title">{'SHAN, from our home city.'.split(' ').map((w, i) => <span key={i} className="w-mask"><span className="w">{w}</span></span>)}</h2>
-          </div>
-          <p className="local-lede">Swimwear, resort wear and ready-to-wear, designed and made in Canada by a Montréal label. Look for it in your edit when you&apos;re heading somewhere warm, and for evenings anywhere.</p>
-        </div>
-        <div className="local-grid">
-          {items.map(p => <ProductCard key={p.id} product={p} kind={p.kinds[0]} />)}
-        </div>
-        <p className="local-foot"><a className="link" href="https://www.shan.ca/" target="_blank" rel="noopener">Visit shan.ca</a></p>
-      </div>
-    </section>
-  )
-}
-
 function CatalogueOrbit({ data }: { data: Showcase }) {
   const images = data.items.slice(14, 26).map(p => ({ src: p.imageUrl, alt: `${p.brand} ${p.name}` }))
   return (
@@ -279,8 +245,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <SectionBoundary name="local-spotlight"><LocalSpotlight /></SectionBoundary>
 
         {showcase && <SectionBoundary name="catalogue-orbit"><CatalogueOrbit data={showcase} /></SectionBoundary>}
 

@@ -23,8 +23,6 @@ const PAIRING = {
   'adidas': (u, i) => { const m = u.match(/\/([A-Z0-9]{6})\.html/i); return !!m && i.toUpperCase().includes(m[1].toUpperCase()) },
 }
 
-// Featured partner labels show their full range in a piece rather than the usual eight.
-const FEATURED = new Set(['Shan'])
 const seen = new Set()
 const rejected = []
 const byKey = new Map()
@@ -52,10 +50,10 @@ for (const r of raw) {
     climates: r.climates || climatesFor(r.kind, text), colours: r.colours || colours(text), styles: r.styles || styles(text),
   }
   if (r.affiliateUrl) product.affiliateUrl = r.affiliateUrl
-  // Diversity: at most 8 products per brand × piece × gender (16 for featured labels).
+  // Diversity: at most 8 products per brand × piece × gender.
   const key = `${product.brand}|${r.kind}|${product.gender}`
   const list = byKey.get(key) || []
-  if (list.length >= (FEATURED.has(product.brand) ? 16 : 8)) continue
+  if (list.length >= 8) continue
   // Avoid near-duplicates (same style in many colours): two colours per style name at most.
   const stem = product.name.split(' — ')[0].toLowerCase()
   if (list.filter(p => p.name.split(' — ')[0].toLowerCase() === stem).length >= 2) continue
