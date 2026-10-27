@@ -79,7 +79,8 @@ const NOUNS = [
   N('sock', 'socks?', () => 'socks'),
   N('sock', 'no-?shows?', () => 'socks', true),
   N('sock', 'quarters?', c => has(/\b(cushion|sock|merino|crew)\b/i, c.ctx + ' ' + c.type) ? 'socks' : null, true),
-  N('swim', 'swimsuits?|swimwear|bikinis?|tankinis?|one[- ]?pieces?|monokinis?|swim trunks?|board ?shorts?|boardshorts?|rash ?guards?|swim shorts?|swim briefs?', () => 'swim'),
+  // A 'bikini' in modal, cotton, lace or seamless knit from a lingerie or sleep label is an underwear cut, not a swimsuit.
+  N('swim', 'swimsuits?|swimwear|bikinis?|tankinis?|one[- ]?pieces?|monokinis?|swim trunks?|board ?shorts?|boardshorts?|rash ?guards?|swim shorts?|swim briefs?', c => /\bbikinis?\b/i.test(c.word) && (/\b(modal|cotton|lace|seamless|mesh brief|pima|silk)\b/i.test(c.seg) && !SWIM.test(c.type) || SLEEP_BRANDS.has(c.brand) || ['knix', 'cdlp', 'saxx', 'mack weldon', 'tommy john', 'thirdlove', 'skims'].includes(c.brand) && !SWIM.test(c.type)) ? 'underwear' : 'swim'),
   N('sleep', 'robes?|pyjamas?|pajamas?|pjs|sleepshirts?|nightshirts?|nightgowns?|nighties?|sleep sets?|pj sets?', () => 'sleepwear'),
   // Bags
   N('bag', 'backpacks?|daypacks?|rucksacks?|kånken|kanken|day packs?', () => 'daypack'),

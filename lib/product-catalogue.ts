@@ -7,6 +7,7 @@ import type { Trip } from './trip'
 import type { NeedOptions, Product } from './catalogue-types'
 import { liveProducts, optionsForNeed } from './selection'
 import { buildEdit, directionFit, DIRECTIONS, type StyledEdit } from './stylist'
+import { featuredBoost } from './local-brands'
 
 export type { Product } from './catalogue-types'
 export { outboundUrl } from './selection'
@@ -27,7 +28,7 @@ export function shopForTrip(plan: PackingPlan, trip: Trip, requestedEdit?: strin
   const styled = edit?.looks.flatMap(l => l.pieces) || []
   const needs = plan.needs.map(n => {
     const pinned = styled.filter(p => p.kind === n.id).map(p => p.product)
-    const tiers = optionsForNeed(live, n.id, trip.wear, plan, trip.style, seed, 3, direction ? p => directionFit(p, direction) * 0.8 : undefined, pinned)
+    const tiers = optionsForNeed(live, n.id, trip.wear, plan, trip.style, seed, 3, p => (direction ? directionFit(p, direction) * 0.8 : 0) + featuredBoost(p.brand, p.kinds[0]), pinned)
     return { id: n.id, tiers, picks: pinned.map(p => p.id) }
   })
   return { needs, edit }
