@@ -8,16 +8,18 @@ import { ROOT, classify, clean, writeJson, slug } from './lib.mjs'
 
 const sources = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts/catalogue/sources.json'), 'utf8')).magento || []
 const only = new Set(process.argv.slice(2))
-const UA = 'Mozilla/5.0 (compatible; parche-catalogue/1.0; +https://github.com/BaconAdj/parche)'
+const BROWSER_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 parche-catalogue/1.0'
 const sleep = ms => new Promise(r => setTimeout(r, ms))
 
 async function gql(domain, query) {
   for (let attempt = 0; attempt < 4; attempt++) {
     try {
-      const res = await fetch(`https://${domain}/graphql`, {
-        method: 'POST', headers: { 'user-agent': UA, 'content-type': 'application/json', accept: 'application/json' },
-        body: JSON.stringify({ query }), signal: AbortSignal.timeout(45000),
+      // GET is the cacheable form of a Magento GraphQL read; some storefront firewalls refuse POST from servers.
+      const res = await fetch(`https://${domain}/graphql?query=${encodeURIComponent(query.replace(/\s+/g, ' '))}`, {
+        headers: { 'user-agent': BROWSER_UA, accept: 'application/json', 'accept-language': 'en-CA,en;q=0.9', store: 'default' },
+        signal: AbortSignal.timeout(45000),
       })
+      if (res.status === 403 && attempt === 0) console.log(`${domain}: 403`, (await res.text()).slice(0, 200))
       if (res.status === 429 || res.status >= 500) { await sleep(4000 * (attempt + 1)); continue }
       if (!res.ok) return { error: `HTTP ${res.status}` }
       const json = await res.json()
