@@ -10699,32 +10699,6 @@
   ]
  },
  {
-  "id": "cotopaxi-chasqui-13l-sling-cada-dia",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Cotopaxi",
-  "name": "Chasqui 13L Sling - Cada Día — Abyss",
-  "price": 57,
-  "currency": "USD",
-  "productUrl": "https://www.cotopaxi.com/products/chasqui-13l-sling-cada-dia?variant=40913797972029",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0281/7544/files/1200x1200png-Chasqui_Abyss_F.png?v=1710886160",
-  "details": "Named for the famed messengers of the Incan Empire, the Chasqui is a modern messenger bag with ample space for your belongings.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "bag"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "cotopaxi-trozo-8l-shoulder-bag",
   "gender": "women",
   "tier": "Quality",
@@ -35353,34 +35327,6 @@
   ]
  },
  {
-  "id": "alo-w9805r-seamless-winter-warm-plush-delight-bra-celestial-",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Seamless Winter Warm Plush Delight Bra - Celestial Blue",
-  "price": 37,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w9805r-seamless-winter-warm-plush-delight-bra-celestial-blue?variant=43591461830836",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9805R_05816_b1_s1_a1_1_m18.jpg?v=1729225250",
-  "details": "This is your new favorite layering piece.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "bra"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-w9808r-tennis-club-sweater-knit-bra-white-spruce-green",
   "gender": "women",
   "tier": "Quality",
@@ -35437,6 +35383,35 @@
   ],
   "styles": [
    "statement"
+  ]
+ },
+ {
+  "id": "alo-w9844r-airlift-charger-bra-crystal-clear-blue-white",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Airlift Charger Bra - Crystal Clear Blue/White",
+  "price": 34,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w9844r-airlift-charger-bra-crystal-clear-blue-white?variant=43774181441716",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9844R_06047_b1_s1_a1_m189.jpg?v=1743076565",
+  "details": "The best things come in smaller packages.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "bra"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "blue"
+  ],
+  "styles": [
+   "understated"
   ]
  },
  {
@@ -39480,6 +39455,31 @@
   ]
  },
  {
+  "id": "alo-w4609r-glacier-puffer-espresso",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Glacier Puffer - Espresso",
+  "price": 201,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4609r-glacier-puffer-espresso?variant=43591408386228",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4609R_04064_b2_s1_a1_1_m208.jpg?v=1730359750",
+  "details": "Get a layered look without the extra layers.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "coat"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "alo-w4632r-darling-sweater-puffer-ivory",
   "gender": "women",
   "tier": "Quality",
@@ -39555,31 +39555,6 @@
   "styles": [
    "polished",
    "understated"
-  ]
- },
- {
-  "id": "alo-w4816p-faux-fur-chic-cropped-jacket-pink-champagne",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Faux Fur Chic Cropped Jacket - Pink Champagne",
-  "price": 328,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4816p-faux-fur-chic-cropped-jacket-pink-champagne?variant=50661693522279",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4816P_07765_b2_s1_a1_m264.jpg?v=1764615245",
-  "details": "Wrap yourself in the Faux Fur Chic Cropped Jacket.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "coat"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "pink"
-  ],
-  "styles": [
-   "statement"
   ]
  },
  {
@@ -55627,16 +55602,16 @@
   ]
  },
  {
-  "id": "outerknown-sea-suit-9mjaqxb6cq-resale",
+  "id": "outerknown-sea-suit-natural",
   "gender": "women",
-  "tier": "Quality",
+  "tier": "Budget",
   "brand": "Outerknown",
-  "name": "S.E.A. Suit - Outerworn — Olive Night",
-  "price": 115.3,
+  "name": "S.E.A. Suit - FINAL SALE — Natural",
+  "price": 50,
   "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/sea-suit-9mjaqxb6cq-resale?variant=54244349313208",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2130066_SEA_Suit_OLN_1_1393a3ea-1c1a-4617-a1c9-a11a91eed4ec.jpg?v=1791166451",
-  "details": "The most effortless way to start your day is with our best-selling jumpsuit with all the functional wearability, premium softness and on-the",
+  "productUrl": "https://www.outerknown.com/products/sea-suit-natural",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2130066_SEA_Suit_NTL0189.jpg?v=1722961972",
+  "details": "Who knew a jumpsuit could make you look as good as you feel.",
   "checkedAt": "2026-10-27",
   "kinds": [
    "dress"
@@ -55647,35 +55622,7 @@
    "unknown"
   ],
   "colours": [
-   "olive",
-   "green"
-  ],
-  "styles": [
-   "relaxed",
-   "statement"
-  ]
- },
- {
-  "id": "outerknown-sea-suit-fv4srxod4-resale",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Outerknown",
-  "name": "S.E.A. Suit - Outerworn — Natural",
-  "price": 82,
-  "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/sea-suit-fv4srxod4-resale?variant=54264482988216",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2130066_S.E.A._Suit_NTL_1_cf9ada72-e885-41e8-853c-bd0cf0f88c03.jpg?v=1791411494",
-  "details": "Our all-time best-selling jumpsuit.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "dress"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
+   "white",
    "beige"
   ],
   "styles": [
@@ -55683,16 +55630,125 @@
   ]
  },
  {
-  "id": "outerknown-solstice-slip-dress-pbwvfiratq-resale",
+  "id": "outerknown-sea-suit-storm",
   "gender": "women",
-  "tier": "High-end",
+  "tier": "Budget",
   "brand": "Outerknown",
-  "name": "Solstice Slip Dress - Outerworn — Storm Bailey",
-  "price": 170,
+  "name": "S.E.A. Suit - FINAL SALE — Storm",
+  "price": 50,
   "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/solstice-slip-dress-pbwvfiratq-resale?variant=54477475545272",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/0D7A0623_d31b78b2-077e-4b3b-9d1b-8a7437403d3a.jpg?v=1792519207",
-  "details": "A flowing expression of art and movement, this slip dress is part of our creative collaboration with artist Bailey Elder.",
+  "productUrl": "https://www.outerknown.com/products/sea-suit-storm",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2130116_SEA_Suit_STM_9014.jpg?v=1724198245",
+  "details": "Who knew a jumpsuit could make you look as good as you feel.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black",
+   "grey"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "outerknown-station-cinched-jumpsuit-harbor",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Outerknown",
+  "name": "Station Cinched Jumpsuit - FINAL SALE — Harbor",
+  "price": 74.4,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/station-cinched-jumpsuit-harbor",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2130097_Station_Cinched_Jumpsuit_HBO_3036.jpg?v=1690574119",
+  "details": "Our best-selling jumpsuit gets a playful update with an adjustable, elastic drawcord waist that lets you cinch to the perfect fit.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "green"
+  ],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
+  "id": "outerknown-station-jumpsuit-primrose-pinstripe",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Outerknown",
+  "name": "Station Jumpsuit - FINAL SALE — Primrose Pinstripe",
+  "price": 53.4,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/station-jumpsuit-primrose-pinstripe",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/products/2130093_Station_Jumpsuit_PRP_1.jpg?v=1673042097",
+  "details": "Our best-selling, no-fuss jumpsuit offers ease and sustainably made functionality to get you dressed and out the door in seconds.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "pink"
+  ],
+  "styles": [
+   "statement"
+  ]
+ },
+ {
+  "id": "outerknown-station-jumpsuit-sea-salt",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Outerknown",
+  "name": "Station Jumpsuit - FINAL SALE — Sea Salt",
+  "price": 53,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/station-jumpsuit-sea-salt",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/products/2130005W_Station_Jumpsuit_SAA_1.jpg?v=1668626289",
+  "details": "You won't find an easier outfit than this no-fuss jumpsuit that gets you dressed and out the door in seconds.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "outerknown-station-suit-shortall-pitch-black",
+  "gender": "women",
+  "tier": "Budget",
+  "brand": "Outerknown",
+  "name": "Station Suit Shortall - FINAL SALE — Pitch Black",
+  "price": 50.4,
+  "currency": "USD",
+  "productUrl": "https://www.outerknown.com/products/station-suit-shortall-pitch-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2130107_Station_Suit_Shortall_PCH_7.jpg?v=1688661092",
+  "details": "A shorter spin on our best-selling Station Jumpsuit to get you dressed and out the door in seconds!",
   "checkedAt": "2026-10-27",
   "kinds": [
    "dress"
@@ -55706,35 +55762,8 @@
    "black"
   ],
   "styles": [
+   "relaxed",
    "understated"
-  ]
- },
- {
-  "id": "outerknown-station-jumpsuit-wrcthc042w-resale",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Outerknown",
-  "name": "Station Jumpsuit - Outerworn — Plum",
-  "price": 131,
-  "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/station-jumpsuit-wrcthc042w-resale?variant=54477490290872",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2130005W_Station_Jumpsuit_PLU_2_c37f482d-c227-44d8-bd16-458ea74e82ec.jpg?v=1792519447",
-  "details": "Our best-selling, no-fuss jumpsuit offers ease and sustainably made functionality to get you dressed and out the door in seconds.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "dress"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "red",
-   "purple"
-  ],
-  "styles": [
-   "statement"
   ]
  },
  {
@@ -55789,60 +55818,6 @@
   ],
   "styles": [
    "understated"
-  ]
- },
- {
-  "id": "outerknown-voyage-overalls-e0wesiy0-f-resale",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Outerknown",
-  "name": "Voyage Overalls - Outerworn — Nineties Wash",
-  "price": 140,
-  "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/voyage-overalls-e0wesiy0-f-resale?variant=54477425443000",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2130050_Voyage_Overalls_NWS-F_0b6abd63-2bbd-4016-b854-b36cb4fc2f79.jpg?v=1792518982",
-  "details": "Classic overalls fit for any adventure.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "dress"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "outerknown-wander-romper-cvprzunzj0-resale",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Outerknown",
-  "name": "WANDER ROMPER - Outerworn — Mineral Red",
-  "price": 130,
-  "currency": "USD",
-  "productUrl": "https://www.outerknown.com/products/wander-romper-cvprzunzj0-resale?variant=54477454999736",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2445/4975/files/2130028_outerknown_wanderromper_mrd_F_pdp_115d7a12-9a6c-404a-8bd5-62cf709c8a4b.jpg?v=1792519087",
-  "details": "Durable, versatile rompers for warm weather wandering.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "dress"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "red"
-  ],
-  "styles": [
-   "statement"
   ]
  },
  {
@@ -85671,6 +85646,33 @@
   ]
  },
  {
+  "id": "alo-m3338r-linen-days-full-zip-jacket-black",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Linen Days Full Zip Jacket - Black",
+  "price": 187,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3338r-linen-days-full-zip-jacket-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3338R_01_b2_s1_a1_dSU26_m276.jpg?v=1780924824",
+  "details": "Lightweight layering is made easy with the Linen Days Full Zip Jacket.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ]
+ },
+ {
   "id": "alo-m3338r-linen-days-full-zip-jacket-bone",
   "gender": "men",
   "tier": "Quality",
@@ -85750,32 +85752,6 @@
   ]
  },
  {
-  "id": "alo-m4187r-performance-on-the-go-jacket-black",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Performance On-The-Go Jacket - Black",
-  "price": 138,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m4187r-performance-on-the-go-jacket-black",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4187R_01_b1_s1_a1_1_m180.jpg?v=1757533500",
-  "details": "Aptly named, the Performance On-The-Go Jacket does it all.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
   "id": "alo-m4202r-ease-trucker-jacket-bone",
   "gender": "men",
   "tier": "Quality",
@@ -85796,58 +85772,6 @@
   ],
   "colours": [
    "beige"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-m4206r-canvas-utility-shacket-java-brown",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Canvas Utility Shacket - Java Brown",
-  "price": 187,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m4206r-canvas-utility-shacket-java-brown",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4206R_08194_b2_s1_a2_dFA26_m252_cd265d38-c307-43f5-971c-d33f0cffd581.jpg?v=1790952324",
-  "details": "Built to layer, made to last.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-m4206r-canvas-utility-shacket-java-brown-womens",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Canvas Utility Shacket - Java Brown",
-  "price": 187,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m4206r-canvas-utility-shacket-java-brown-womens",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4206R_08194_b1_s1_a5_dFA26_m271.jpg?v=1790897430",
-  "details": "Built to layer, made to last.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
   ],
   "styles": [
    "understated"
@@ -85926,6 +85850,33 @@
   ],
   "colours": [
    "beige"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
+  "id": "alo-m4216r-duality-bomber-jacket-navy-womens",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Duality Bomber Jacket - Navy",
+  "price": 208,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m4216r-duality-bomber-jacket-navy-womens",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4216R_03842_b1_s1_a1_dFA26_m18.jpg?v=1787286166",
+  "details": "Add the Duality Bomber Jacket to your outerwear rotation.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "navy",
+   "blue"
   ],
   "styles": [
    "understated"
@@ -197369,7 +197320,7 @@
   "gender": "women",
   "tier": "Budget",
   "brand": "Knix",
-  "name": "Leakproof UltraThin No-Show Bikini — Spring Court Bloom",
+  "name": "Leakproof UltraThin™ No-Show Bikini — Spring Court Bloom",
   "price": 27,
   "currency": "CAD",
   "productUrl": "https://knix.ca/products/leakproof-ultrathin-no-show-bikini-acotar-x-knix?variant=52792091902237",
@@ -201681,6 +201632,35 @@
   ]
  },
  {
+  "id": "alo-w1518r-semi-sheer-mock-neck-oasis-tank-ivory",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Semi Sheer Mock Neck Oasis Tank - Ivory",
+  "price": 44,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w1518r-semi-sheer-mock-neck-oasis-tank-ivory",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W1518R_03299_b2_s1_a2_dFA26_m18.jpg?v=1791487924",
+  "details": "The Semi-Sheer Mock Neck Oasis Tank makes a subtle statement every time you wear it.",
+  "checkedAt": "2026-10-27",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "cream"
+  ],
+  "styles": [
+   "understated"
+  ]
+ },
+ {
   "id": "alo-w2675rg-aspire-tank-bamboo-green-white",
   "gender": "women",
   "tier": "Quality",
@@ -201762,34 +201742,6 @@
   ],
   "colours": [
    "brown"
-  ],
-  "styles": [
-   "understated"
-  ]
- },
- {
-  "id": "alo-w91006r-alo-softsculpt-entice-bra-tank-black",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "ALO Softsculpt Entice Bra Tank - Black",
-  "price": 61,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w91006r-alo-softsculpt-entice-bra-tank-black",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W91006R_01_b1_s1_a2_dFA26_m207_1.jpg?v=1791270859",
-  "details": "Talk about a wardrobe staple.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "black"
   ],
   "styles": [
    "understated"
@@ -226830,33 +226782,6 @@
   ]
  },
  {
-  "id": "cotopaxi-losdos-zip-off-pant-womens-3",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Cotopaxi",
-  "name": "Losdos Zip-Off Pant - Women's — Azure/Aster",
-  "price": 87.5,
-  "currency": "USD",
-  "productUrl": "https://www.cotopaxi.com/products/losdos-zip-off-pant-womens-3?variant=43451471298621",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0281/7544/files/1200x1200png-S26WLosdosZip-OffPantAzureandAster_1394.png?v=1769551545",
-  "details": "The mountains are unpredictable.",
-  "checkedAt": "2026-10-27",
-  "kinds": [
-   "trousers"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "relaxed"
-  ]
- },
- {
   "id": "cotopaxi-salto-ripstop-pant-mens-3",
   "gender": "men",
   "tier": "Budget",
@@ -244359,7 +244284,7 @@
   "name": "Men's Best Damn™ Boxer Brief 5\" — Velaris Night Sky",
   "price": 26,
   "currency": "CAD",
-  "productUrl": "https://knix.ca/products/best-damn-cotton-modal-boxer-brief-5-acotar-x-knix?variant=67664537452829",
+  "productUrl": "https://knix.ca/products/best-damn-cotton-modal-boxer-brief-5-acotar-x-knix?variant=67664537551133",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0935/5191/9389/files/MTD908_CottonModalBoxerBrief_VelarisNightSky2_2x_76a0bffd-e01d-4948-831d-f53ebf32f6c3.webp?v=1790960504",
   "details": "",
   "checkedAt": "2026-10-27",

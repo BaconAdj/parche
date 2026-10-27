@@ -1,6 +1,6 @@
 # Catalogue coverage (2026-10-27)
 
-10354 products from 111 brands. Rejected: 50.
+10351 products from 111 brands. Rejected: 50.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
@@ -15,8 +15,8 @@
 | Rain jacket | 19 / 26 / 13 | 25 / 25 / 11 |
 | Warm coat | 62 / 106 / 41 | 61 / 61 / 31 |
 | Blazer | 22 / 15 / 20 | 28 / 10 / 1 |
-| Light jacket | 150 / 125 / 54 | 138 / 114 / 48 |
-| Dress | 111 / 112 / 48 | 10 / 0 / 0 |
+| Light jacket | 150 / 125 / 54 | 138 / 113 / 48 |
+| Dress | 110 / 110 / 51 | 10 / 0 / 0 |
 | Workout top | 28 / 21 / 18 | 14 / 19 / 16 |
 | Workout leggings or shorts | 63 / 65 / 49 | 31 / 24 / 15 |
 | Linen shirt | 15 / 27 / 17 | 47 / 26 / 19 |
@@ -24,20 +24,20 @@
 | Warm sweater | 126 / 215 / 42 | 110 / 208 / 42 |
 | Light knit | 163 / 163 / 50 | 121 / 121 / 35 |
 | Long-sleeve top | 145 / 66 / 26 | 141 / 51 / 6 |
-| T-shirt | 223 / 165 / 36 | 220 / 165 / 29 |
+| T-shirt | 222 / 166 / 36 | 220 / 165 / 29 |
 | Jeans | 81 / 58 / 23 | 63 / 34 / 20 |
 | Shorts | 114 / 114 / 45 | 101 / 102 / 31 |
 | Skirt | 113 / 74 / 51 | 9 / 1 / 0 |
 | Lightweight trousers | 34 / 24 / 7 | 35 / 9 / 3 |
 | Warm trousers | 37 / 37 / 11 | 44 / 37 / 13 |
-| Everyday trousers | 197 / 132 / 56 | 167 / 107 / 44 |
+| Everyday trousers | 197 / 131 / 56 | 167 / 107 / 44 |
 | Hiking or trail shoes | 3 / 1 / 2 | 5 / 1 / 3 |
 | Boots | 71 / 37 / 17 | 22 / 36 / 14 |
 | Sandals | 81 / 31 / 24 | 24 / 19 / 13 |
 | Evening shoes | 60 / 24 / 12 | 32 / 12 / 7 |
 | Walking sneakers | 109 / 24 / 17 | 93 / 19 / 16 |
 | Daypack | 37 / 20 / 2 | 18 / 16 / 2 |
-| Day bag | 96 / 118 / 35 | 25 / 67 / 20 |
+| Day bag | 96 / 117 / 35 | 25 / 66 / 20 |
 | Sunglasses | 42 / 56 / 24 | 42 / 45 / 16 |
 | Umbrella | 18 / 6 / 3 | 18 / 4 / 4 |
 | Sun hat or cap | 55 / 102 / 39 | 28 / 95 / 27 |
@@ -49,7 +49,7 @@
 
 ## Brands
 
-- Alo: 338
+- Alo: 337
 - H&M: 318
 - LEMAIRE: 310
 - FRAME: 304
@@ -68,8 +68,8 @@
 - Summersalt: 187
 - Beyond Yoga: 182
 - Organic Basics: 182
-- Cotopaxi: 179
 - Brixton: 178
+- Cotopaxi: 177
 - Andie: 171
 - STAUD: 171
 - Knix: 164
