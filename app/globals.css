@@ -570,3 +570,19 @@ button { font: inherit; color: inherit; }
 .edit-strip-cta { margin-left: auto; font-size: var(--t-sm); font-weight: 600; text-decoration: underline; text-underline-offset: .2em; }
 .edit-strip:hover .edit-strip-cta { text-decoration-thickness: 2px; }
 .pcard-pick { position: absolute; left: .6rem; bottom: .6rem; right: .6rem; background: var(--marine); color: var(--blanc); font-size: var(--t-xs); font-weight: 600; padding: .3rem .55rem; text-align: center; }
+
+/* Made in Montréal: a home-city label, presented on the brand's own ground. */
+.local { padding: clamp(4rem, 9vw, 7rem) 0; background: var(--marine); color: var(--blanc); }
+.local .kicker { color: var(--rouge-soft); }
+.local-head { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 1.5rem clamp(2rem, 5vw, 5rem); align-items: end; margin-bottom: clamp(2rem, 4vw, 3rem); }
+.local-title { font-family: var(--serif); font-weight: 400; font-size: clamp(2.6rem, 6.5vw, 6rem); line-height: .92; letter-spacing: -.035em; }
+.local-lede { font-size: var(--t-md); max-width: 44ch; opacity: .85; }
+.local-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 1.75rem); }
+.local .pcard { color: var(--blanc); }
+.local .pcard-why, .local .pcard-local { color: rgba(255, 255, 255, .7); }
+.local .pcard-cta { color: var(--blanc); }
+.local-foot { margin-top: 2rem; }
+.local-foot .link { color: var(--blanc); }
+@media (max-width: 900px) { .local-head { grid-template-columns: 1fr; } .local-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.pcard-local { font-size: var(--t-xs); font-weight: 600; letter-spacing: .02em; color: var(--rouge-ink); }
+.board-local { color: var(--rouge-ink); font-weight: 600; }

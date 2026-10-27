@@ -268,6 +268,8 @@ export function classify(title, type = '', brand = '') {
     kind = head.n.resolve({ ctx, title, seg: at >= 0 ? segs[at] : naming, type, word: head.word, long: head.long, short: head.short, brand: b })
     if (head.n.amb && !(typeHead && !typeHead.n.amb)) kind = STRICT_OF[b] || (!typeHead && LOOSE_OF[b]) || kind
   } else kind = STRICT_OF[b] || LOOSE_OF[b] || (/\blens\b/i.test(title) ? 'sunglasses' : null)
+  // A bralette or brief filed in the store's swim department is swimwear.
+  if ((kind === 'bra' || kind === 'underwear') && SWIM.test(type)) kind = 'swim'
   if (kind && allowed && !allowed.includes(KIND_FAMILY[kind])) return null
   if (kind && b === 'minus33' && ['tee', 'long-sleeve-top', 'knit'].includes(kind) && !/\b(sweater|cardigan|hoodie|jacket)\b/i.test(title)) kind = 'base-layer-top'
   if (kind && b === 'minus33' && ['trousers', 'active-bottoms'].includes(kind)) kind = 'base-layer-bottoms'

@@ -436,5 +436,13 @@
    "brand": "Darn Tough",
    "domain": "darntough.com"
   }
+ ],
+ "magento": [
+  {
+   "brand": "Shan",
+   "domain": "www.shan.ca",
+   "currency": "CAD",
+   "origin": "Montréal"
+  }
  ]
 }

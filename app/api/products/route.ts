@@ -11,6 +11,18 @@ export async function GET(request: NextRequest) {
   }
   const count = Math.min(Number(request.nextUrl.searchParams.get('count')) || 24, 48)
   const live = reviewedProducts()
+  // One brand's spotlight: its pieces spread across categories, at most two of each.
+  const brand = request.nextUrl.searchParams.get('brand')
+  if (brand) {
+    const own = live.filter(p => p.brand.toLowerCase() === brand.toLowerCase())
+    const perKind = new Map<string, number>()
+    const items: Product[] = []
+    for (let round = 0; round < 2 && items.length < count; round++) for (const p of own) {
+      if (items.length >= count || items.includes(p) || (perKind.get(p.kinds[0]) || 0) > round) continue
+      perKind.set(p.kinds[0], (perKind.get(p.kinds[0]) || 0) + 1); items.push(p)
+    }
+    return NextResponse.json({ data: { items, total: own.length } }, { headers: { 'Cache-Control': 'public, s-maxage=3600' } })
+  }
   // One product per brand × piece, spread across the catalogue, changing daily.
   const day = Math.floor(Date.now() / 86400000)
   const seen = new Set<string>()
