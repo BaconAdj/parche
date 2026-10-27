@@ -21,8 +21,6 @@ jobs:
         with: { node-version: 22 }
       - name: Pull brand feeds
         run: node scripts/catalogue/ingest-shopify.mjs
-      - name: Pull Magento stores (Shan)
-        run: node scripts/catalogue/ingest-magento.mjs
       - name: Build catalogue
         run: node scripts/catalogue/build.mjs
       - name: Commit
