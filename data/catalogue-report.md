@@ -1,132 +1,133 @@
-# Catalogue coverage (2026-10-27)
+# Catalogue coverage (2026-11-01)
 
-10544 products from 112 brands. Rejected: 50.
+10774 products from 113 brands. Rejected: 70.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
-| Sports bra | 13 / 25 / 15 | 0 / 1 / 0 |
-| Bra | 55 / 58 / 34 | 0 / 3 / 1 |
-| Swimwear | 64 / 34 / 41 | 50 / 26 / 13 |
-| Underwear | 95 / 35 / 18 | 114 / 27 / 9 |
-| Socks | 151 / 93 / 20 | 147 / 72 / 20 |
-| Sleepwear | 92 / 71 / 22 | 79 / 37 / 13 |
-| Thermal base layer top | 20 / 9 / 8 | 10 / 11 / 6 |
-| Thermal leggings | 12 / 4 / 4 | 5 / 4 / 1 |
-| Rain jacket | 19 / 26 / 13 | 25 / 25 / 11 |
-| Warm coat | 64 / 106 / 42 | 61 / 61 / 31 |
-| Blazer | 27 / 15 / 20 | 31 / 10 / 1 |
-| Light jacket | 166 / 125 / 54 | 140 / 113 / 48 |
-| Dress | 125 / 111 / 51 | 10 / 0 / 0 |
-| Workout top | 28 / 21 / 18 | 14 / 19 / 16 |
-| Workout leggings or shorts | 63 / 65 / 49 | 31 / 24 / 15 |
-| Linen shirt | 21 / 27 / 17 | 49 / 26 / 19 |
-| Button-up shirt | 144 / 92 / 38 | 155 / 85 / 27 |
-| Warm sweater | 128 / 215 / 42 | 110 / 208 / 42 |
-| Light knit | 166 / 163 / 50 | 122 / 123 / 35 |
-| Long-sleeve top | 145 / 66 / 26 | 142 / 51 / 6 |
-| T-shirt | 238 / 166 / 36 | 228 / 165 / 29 |
-| Jeans | 81 / 58 / 23 | 63 / 34 / 20 |
-| Shorts | 124 / 113 / 45 | 103 / 101 / 31 |
-| Skirt | 120 / 74 / 51 | 9 / 1 / 0 |
-| Lightweight trousers | 40 / 24 / 7 | 36 / 9 / 3 |
-| Warm trousers | 37 / 37 / 11 | 44 / 37 / 13 |
-| Everyday trousers | 214 / 130 / 56 | 171 / 107 / 44 |
-| Hiking or trail shoes | 3 / 1 / 2 | 5 / 1 / 3 |
-| Boots | 71 / 37 / 17 | 22 / 36 / 14 |
-| Sandals | 81 / 31 / 24 | 24 / 19 / 13 |
-| Evening shoes | 60 / 24 / 12 | 32 / 12 / 7 |
-| Walking sneakers | 109 / 24 / 17 | 93 / 19 / 16 |
-| Daypack | 37 / 20 / 2 | 18 / 16 / 2 |
-| Day bag | 96 / 123 / 35 | 25 / 67 / 20 |
-| Sunglasses | 42 / 56 / 24 | 42 / 45 / 16 |
+| Sports bra | 14 / 32 / 13 | 0 / 1 / 0 |
+| Bra | 59 / 55 / 35 | 0 / 3 / 1 |
+| Swimwear | 57 / 28 / 36 | 42 / 23 / 16 |
+| Underwear | 101 / 34 / 16 | 114 / 25 / 11 |
+| Socks | 158 / 87 / 20 | 156 / 64 / 20 |
+| Sleepwear | 91 / 74 / 20 | 82 / 39 / 12 |
+| Thermal base layer top | 21 / 11 / 11 | 12 / 27 / 10 |
+| Thermal leggings | 12 / 7 / 8 | 5 / 9 / 4 |
+| Rain jacket | 23 / 25 / 14 | 28 / 27 / 12 |
+| Warm coat | 66 / 115 / 42 | 61 / 63 / 34 |
+| Blazer | 27 / 19 / 12 | 31 / 17 / 2 |
+| Light jacket | 167 / 123 / 57 | 150 / 112 / 51 |
+| Dress | 113 / 114 / 52 | 10 / 0 / 0 |
+| Workout top | 32 / 31 / 12 | 19 / 21 / 18 |
+| Workout leggings or shorts | 60 / 70 / 44 | 37 / 24 / 15 |
+| Linen shirt | 21 / 27 / 17 | 48 / 26 / 18 |
+| Button-up shirt | 139 / 87 / 40 | 151 / 86 / 29 |
+| Warm sweater | 127 / 224 / 43 | 115 / 202 / 49 |
+| Light knit | 173 / 168 / 43 | 129 / 120 / 38 |
+| Long-sleeve top | 152 / 67 / 20 | 146 / 58 / 7 |
+| T-shirt | 233 / 166 / 37 | 220 / 168 / 32 |
+| Jeans | 85 / 52 / 24 | 62 / 36 / 26 |
+| Shorts | 130 / 107 / 44 | 108 / 95 / 22 |
+| Skirt | 120 / 78 / 48 | 9 / 1 / 0 |
+| Lightweight trousers | 38 / 24 / 8 | 35 / 9 / 3 |
+| Warm trousers | 28 / 42 / 16 | 43 / 39 / 16 |
+| Everyday trousers | 222 / 124 / 52 | 182 / 107 / 38 |
+| Hiking or trail shoes | 13 / 5 / 2 | 12 / 7 / 3 |
+| Boots | 71 / 38 / 16 | 28 / 35 / 14 |
+| Sandals | 75 / 28 / 24 | 24 / 20 / 12 |
+| Evening shoes | 57 / 26 / 12 | 32 / 12 / 7 |
+| Walking sneakers | 113 / 36 / 16 | 105 / 33 / 13 |
+| Daypack | 41 / 29 / 1 | 21 / 27 / 2 |
+| Day bag | 100 / 130 / 39 | 26 / 73 / 21 |
+| Sunglasses | 49 / 51 / 24 | 44 / 45 / 14 |
 | Umbrella | 18 / 6 / 3 | 18 / 4 / 4 |
-| Sun hat or cap | 58 / 104 / 39 | 27 / 97 / 27 |
-| Beanie | 35 / 101 / 11 | 45 / 66 / 19 |
-| Gloves | 14 / 19 / 6 | 12 / 16 / 9 |
-| Warm scarf | 60 / 55 / 19 | 37 / 31 / 8 |
-| Light scarf or wrap | 28 / 32 / 4 | 9 / 3 / 2 |
-| Belt | 50 / 15 / 9 | 35 / 11 / 7 |
+| Sun hat or cap | 65 / 97 / 40 | 30 / 96 / 25 |
+| Beanie | 49 / 95 / 14 | 50 / 69 / 18 |
+| Gloves | 14 / 22 / 7 | 12 / 16 / 9 |
+| Warm scarf | 61 / 58 / 20 | 38 / 33 / 16 |
+| Light scarf or wrap | 28 / 32 / 4 | 9 / 4 / 3 |
+| Belt | 50 / 16 / 9 | 36 / 13 / 7 |
 
 ## Brands
 
-- Alo: 336
-- H&M: 318
-- LEMAIRE: 310
-- FRAME: 304
-- Everlane: 300
-- Faherty: 288
-- SKIMS: 275
-- Bluenotes: 269
-- Kotn: 269
-- tentree: 248
-- Woolx: 246
-- Sunspel: 237
-- Oak + Fort: 216
-- Outerknown: 212
-- Kit and Ace: 209
-- Shan: 207
-- UNIQLO: 190
-- Summersalt: 187
-- Beyond Yoga: 182
+- H&M: 348
+- Alo: 339
+- LEMAIRE: 308
+- FRAME: 300
+- Faherty: 290
+- SKIMS: 276
+- Bluenotes: 275
+- Kotn: 270
+- Everlane: 268
+- tentree: 250
+- Woolx: 245
+- Sunspel: 238
+- UNIQLO: 227
+- Oak + Fort: 215
+- Kit and Ace: 210
+- Outerknown: 210
+- Summersalt: 199
+- Cotopaxi: 186
+- Beyond Yoga: 183
 - Organic Basics: 182
-- Brixton: 178
-- Cotopaxi: 177
+- Brixton: 179
 - Andie: 171
 - STAUD: 171
-- Knix: 164
-- AGOLDE: 154
+- Nike: 167
+- Knix: 161
 - Reigning Champ: 153
-- Citizens of Humanity: 149
+- AGOLDE: 153
+- Citizens of Humanity: 152
+- Shan: 149
 - Rains: 147
-- DUER: 143
-- Tommy John: 139
-- MOTHER: 129
+- DUER: 144
+- Tommy John: 140
+- MOTHER: 127
 - Taylor Stitch: 122
 - Frankies Bikinis: 121
-- Mack Weldon: 120
+- Mack Weldon: 119
 - Onia: 117
-- Topo Designs: 114
 - Naadam: 113
 - Outdoor Voices: 113
+- Topo Designs: 113
 - Faithfull the Brand: 104
-- Rouje: 101
 - Eberjey: 101
-- Lunya: 100
+- Lunya: 99
+- Larroudé: 93
+- Rouje: 92
 - Minus33: 91
-- Larroudé: 90
-- CDLP: 89
+- CDLP: 90
 - Lisa Says Gah: 88
-- Herschel: 86
+- Pajar: 88
 - Moose Knuckles: 86
-- Pajar: 86
+- Herschel: 85
+- Ridge Merino: 83
+- Canada Goose: 82
 - Frank And Oak: 82
-- Nike: 81
-- Ridge Merino: 80
 - Rothy's: 80
-- Stance: 80
-- Canada Goose: 79
-- Vessi: 75
-- ZARA: 71
+- Columbia: 79
+- ZARA: 79
+- Stance: 79
+- The North Face: 74
+- Vessi: 74
 - OluKai: 62
+- adidas: 60
 - Girlfriend Collective: 56
 - Cuyana: 56
-- Allbirds: 54
-- Ten Thousand: 51
+- Ten Thousand: 52
+- Allbirds: 51
 - BY FAR: 48
+- Rudsak: 46
 - Duckworth: 45
-- Rudsak: 44
 - totes: 44
-- Columbia: 43
 - GUESS: 39
 - ThirdLove: 39
 - Dagne Dover: 38
-- The North Face: 37
-- Le Specs: 34
-- Margaux: 33
+- Le Specs: 33
+- Margaux: 32
 - KREWE: 30
 - Feetures: 27
+- Lack of Color: 26
 - Sunski: 26
-- Lack of Color: 25
 - SAXX: 24
 - Koio: 24
 - Darn Tough: 24
@@ -137,9 +138,9 @@
 - Kamik: 16
 - Davek: 15
 - Massimo Dutti: 15
+- Knockaround: 15
 - Burberry: 14
 - Xero Shoes: 14
-- Knockaround: 14
 - Mackage: 12
 - Aritzia: 11
 - ASKET: 10
@@ -164,7 +165,7 @@
 
 ## Category audit
 
-12 products whose name names a different kind of garment than their piece.
+11 products whose name names a different kind of garment than their piece.
 
 - dress-shoes: OluKai — Kahakai - Trench Blue / Trench Blue
 - dress-shoes: OluKai — Moku Pae - Ash / Trench Blue
@@ -177,4 +178,3 @@
 - underwear: Lunya — Seamless Modal Bikini — Sincere White
 - underwear: ThirdLove — ComfortStretch Bikini — air
 - underwear: ThirdLove — ComfortStretch Bikini — storm
-- walking-shoes: Allbirds — Women's Cruiser Jersey - Light Grey/Anthracite (Blizzard Sole)
