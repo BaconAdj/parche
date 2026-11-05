@@ -589,7 +589,7 @@ button { font: inherit; color: inherit; }
   linear-gradient(90deg, rgba(10,16,32,.45) 0%, rgba(10,16,32,0) 60%); }
 .dh-inner { position: relative; width: 100%; padding-top: clamp(4rem, 12vh, 8rem); padding-bottom: clamp(7.5rem, 16vh, 11rem); }
 .dh-kicker { color: var(--blanc); opacity: .9; letter-spacing: .02em; }
-.dh-title { color: var(--blanc); font-size: clamp(3.2rem, 9.5vw, 9.5rem); text-shadow: 0 2px 40px rgba(10,16,32,.25); }
+.dh-title { color: var(--blanc); font-size: clamp(3.2rem, 9.5vw, 9.5rem); }
 .dh-title .r-line:first-child { font-size: .42em; letter-spacing: -.02em; line-height: 1.1; margin-bottom: .08em; }
 .dh-city { display: block; overflow: hidden; padding-bottom: .08em; color: var(--blanc); }
 .dh-city .ch { display: inline-block; will-change: transform; }
