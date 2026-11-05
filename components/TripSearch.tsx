@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
+import posthog from 'posthog-js'
 import { WEARS, dateError, localDateISO, type Wear } from '../lib/trip'
 
 // ── Types ──────────────────────────────────────────────
@@ -545,6 +546,7 @@ export function TripSearch({ onQueryChange }: { onQueryChange?: (label: string) 
     const location = dest ? `${dest.label}, ${dest.sublabel.split(' · ')[0]}` : q
     const params = new URLSearchParams({ destination: location, start, end, wear })
     try { localStorage.setItem('parche.wear', wear) } catch {}
+    posthog.capture('trip_searched', { destination_slug: slug, known_destination: Boolean(dest), has_dates: Boolean(start && end), wear })
     router.push(`/destinations/${slug}?${params}`)
   }
 
