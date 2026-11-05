@@ -33,3 +33,9 @@ test('duplicates across queries are removed and the url is sized for a banner', 
   assert.equal(picked.length, 1)
   assert.match(picked[0].url, /w=2400/)
 })
+
+test('accented captions still count as the place', () => {
+  const accented = photo('acc', 'Clear blue ocean on the sandy shore in Cancún', 1200)
+  const generic = photo('gen', 'landscape photo of a beach resort', 55)
+  assert.equal(pickHero([generic, accented], 'Cancun')[0].id, 'acc')
+})

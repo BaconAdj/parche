@@ -39,7 +39,7 @@ const SCENIC = /\b(beach|coast(line)?|ocean|sea|bay|lagoon|turquoise|island|clif
 const UNWANTED = /\b(restaurant|cafe|café|coffee|bar|pub|food|dish|meal|plate|menu|cocktail|drink|beer|wine|kitchen|interior|indoors?|room|bedroom|bed|hotel room|lobby|office|store|shop(ping)?|mall|market stall|sign(age)?|billboard|neon|logo|text|car|cars|truck|traffic|parking|bus|taxi|construction|crane|scaffold|abandoned|dilapidated|derelict|graffiti|trash|garbage|laptop|phone|portrait|selfie|face|wedding)\b/gi
 const PEOPLE = /\b(man|woman|girl|boy|person|people|couple|crowd|tourists?|dog|cat)\b/gi
 
-const textOf = (p: UnsplashResult) => [p.alt_description, p.description, ...(p.tags || []).map(t => t.title)].filter(Boolean).join(' ').toLowerCase()
+const textOf = (p: UnsplashResult) => [p.alt_description, p.description, ...(p.tags || []).map(t => t.title)].filter(Boolean).join(' ').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 const count = (re: RegExp, s: string) => new Set((s.match(re) || []).map(m => m.toLowerCase())).size
 
 export function scorePhoto(p: UnsplashResult, name: string): number {
@@ -47,7 +47,7 @@ export function scorePhoto(p: UnsplashResult, name: string): number {
   const words = slugOf(name).split('-').filter(w => w.length > 2)
   const aboutPlace = words.length > 0 && words.every(w => text.includes(w))
   const ratio = p.width / Math.max(1, p.height)
-  let score = Math.log10((p.likes || 0) + 1) * 2          // crowd-tested photos rise
+  let score = Math.log10((p.likes || 0) + 1) * 2.5         // crowd-tested photos rise
   score += aboutPlace ? 3 : 0                               // clearly of the destination
   score += Math.min(count(SCENIC, text), 3) * 1.5           // scenic subject matter
   score -= count(UNWANTED, text) * 4                        // the "random building or restaurant" problem
