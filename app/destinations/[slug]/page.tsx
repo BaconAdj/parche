@@ -16,30 +16,28 @@ import { ACTIVITIES, STYLES, WEARS, parseTrip, tripParams, formatTripDates, type
 import { buildTravelEdit, type TravelEdit } from '../../../lib/travel-edit'
 import { cad } from '../../../lib/selection'
 import { TripDates, TripWeatherPanel } from './trip-controls'
+import { CuratedRail, DriftStrip, goHref } from './curated'
+import type { HeroPhoto } from '../../../lib/hero-photo'
 import { SiteNav } from '../../../components/SiteNav'
 import { SiteFooter } from '../../../components/SiteFooter'
 import { ProductCard } from '../../../components/ProductCard'
 import Counter from '../../../components/react-bits/Counter'
-import LogoLoop from '../../../components/react-bits/LogoLoop'
 
 gsap.registerPlugin(ScrollTrigger, useGSAP)
 
-// ── Unsplash (optional editorial photography; never used for products) ──
+// ── Hero photography: chosen server-side from several scenic searches (lib/hero-photo.ts) ──
 const UNSPLASH_KEY = process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY || ''
-type UnsplashPhoto = { id: string; urls: { regular: string; small: string }; alt_description: string; user: { name: string }; links: { html: string } }
 
-async function fetchPhoto(query: string, orientation: 'landscape' | 'portrait' = 'portrait'): Promise<UnsplashPhoto | null> {
-  if (!UNSPLASH_KEY) return null
+async function fetchHero(name: string, country: string): Promise<HeroPhoto | null> {
   try {
-    const params = new URLSearchParams({ query, per_page: '3', orientation, content_filter: 'high' })
-    const res = await fetch(`https://api.unsplash.com/search/photos?${params}`, { headers: { Authorization: `Client-ID ${UNSPLASH_KEY}` } })
+    const res = await fetch(`/api/hero?${new URLSearchParams({ name, country })}`)
     const data = await res.json()
-    return data.results?.[0] || null
+    return data.photos?.[0] || null
   } catch { return null }
 }
 
-function PhotoCredit({ photo }: { photo: UnsplashPhoto }) {
-  return <a href={`${photo.links.html}?utm_source=parche&utm_medium=referral`} target="_blank" rel="noopener noreferrer" className="photo-credit">Photo: {photo.user.name}, Unsplash</a>
+function PhotoCredit({ photo }: { photo: HeroPhoto }) {
+  return <a href={`${photo.credit.link}?utm_source=parche&utm_medium=referral`} target="_blank" rel="noopener noreferrer" className="photo-credit">Photo: {photo.credit.name}, Unsplash</a>
 }
 
 // ── Saving (Supabase, signed-in only) ──
@@ -274,16 +272,6 @@ function EditLooks({ edit, shop, onEdit }: { edit: TravelEdit; shop: ShopState; 
   )
 }
 
-function BrandRibbon({ shop }: { shop: ShopState }) {
-  const brands = [...new Set(shop.payload?.needs.flatMap(n => n.tiers.flatMap(t => t.products.map(p => p.brand))) || [])]
-  if (brands.length < 6) return null
-  return (
-    <div className="brand-ribbon" aria-label={`Brands in this edit: ${brands.join(', ')}`}>
-      <LogoLoop logos={brands.map(b => ({ node: <span className="brand-ribbon-item">{b}</span>, title: b }))} speed={60} gap={48} logoHeight={34} fadeOut fadeOutColor="#14213D" pauseOnHover scaleOnHover ariaLabel="Brands in this edit" />
-    </div>
-  )
-}
-
 // ── Trip controls in the hero, so wardrobe, activity and style change the list in place ──
 function TripControls({ trip, onChange }: { trip: Trip; onChange: (updates: Partial<Trip>) => void }) {
   return (
@@ -312,8 +300,10 @@ function ResultsView({ edit, editId, onTripChange, onEdit }: { edit: TravelEdit;
   const [editingDates, setEditingDates] = useState(false)
   const queryKey = tripParams(trip).toString() + (editId ? `&edit=${encodeURIComponent(editId)}` : '')
   const [shop, setShop] = useState<ShopState>({ payload: null, loading: true, error: '' })
-  const [hero, setHero] = useState<UnsplashPhoto | null>(null)
+  const [hero, setHero] = useState<HeroPhoto | null>(null)
+  const [heroLoaded, setHeroLoaded] = useState(false)
   const heroRef = useRef<HTMLElement>(null)
+  const country = trip.destination.split(',').slice(1).join(',').trim() || dest.country || ''
 
   useEffect(() => {
     const controller = new AbortController()
@@ -334,45 +324,76 @@ function ResultsView({ edit, editId, onTripChange, onEdit }: { edit: TravelEdit;
 
   useEffect(() => {
     let cancelled = false
-    fetchPhoto(`${dest.name} street architecture`, 'portrait').then(h => { if (!cancelled) setHero(h) })
+    fetchHero(dest.name, country).then(h => { if (!cancelled) setHero(h) })
     return () => { cancelled = true }
-  }, [dest.name])
+  }, [dest.name, country])
 
   useGSAP(() => {
     if (!heroRef.current || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
     const tl = gsap.timeline({ defaults: { ease: 'expo.out' } })
-    tl.from('.r-title > *', { yPercent: 110, duration: 1, stagger: .08 })
-      .from('.r-weather, .r-controls .r-control', { y: 16, autoAlpha: 0, duration: .7, stagger: .07 }, '-=.6')
-      .from('.r-hero-img', { clipPath: 'inset(0 0 100% 0)', duration: 1.2 }, 0)
-    gsap.to('.r-hero-img img', { yPercent: 12, ease: 'none', scrollTrigger: { trigger: heroRef.current, start: 'top top', end: 'bottom top', scrub: true } })
+    tl.from('.dh-kicker', { y: 14, autoAlpha: 0, duration: .8 })
+      .from('.dh-title .r-line:first-child > *', { yPercent: 110, duration: 1 }, .05)
+      .from('.dh-city .ch', { yPercent: 120, rotate: 6, duration: 1.15, stagger: .035 }, .12)
+      .from('.dh-rule', { scaleX: 0, transformOrigin: 'left center', duration: 1.2 }, .45)
+      .from('.dh-weather, .dh-actions > *', { y: 16, autoAlpha: 0, duration: .8, stagger: .06 }, .5)
+    const st = { trigger: heroRef.current, start: 'top top', end: 'bottom top', scrub: true }
+    gsap.fromTo('.dh-media', { scale: 1.12 }, { scale: 1, yPercent: 14, ease: 'none', scrollTrigger: st })
+    gsap.to('.dh-inner', { yPercent: -22, autoAlpha: .2, ease: 'none', scrollTrigger: st })
   }, { scope: heroRef })
 
   const weatherLine = edit.weather.low === null ? 'Weather to confirm closer to departure' : `${edit.weather.low}–${edit.weather.high}°C, ${edit.weather.kind === 'forecast' ? 'forecast' : 'typical for these dates'}`
+  // The magazine "wearing" credit: the statement piece of the first look, quietly placed in the frame.
+  const spotted = shop.payload?.edit?.looks[0]?.pieces[0]
 
   return (
     <main className="results">
-      <header ref={heroRef} className="r-hero r-hero--compact">
-        <div className="wrap r-hero-grid">
-          <div className="r-hero-copy">
-            <p className="kicker">{formatTripDates(trip.start, trip.end)} · {edit.packingPlan.days} {edit.packingPlan.days === 1 ? 'day' : 'days'}</p>
-            <h1 className="r-title"><span className="r-line">What to wear in</span> <span className="r-line r-city">{dest.name}.</span></h1>
-            <p className="r-weather">{weatherLine}.</p>
-            <TripControls trip={trip} onChange={onTripChange} />
-            <div className="r-actions">
-              <a href="#shop" className="btn btn--rouge">See the {edit.packingPlan.total}-piece list</a>
-              <button type="button" className="btn btn--line" aria-expanded={editingDates} onClick={() => setEditingDates(v => !v)}>Change dates</button>
-              {ACCOUNTS_ENABLED && <SaveTripButton dest={dest} photo={hero?.urls.regular || null} />}
-            </div>
-            {editingDates && <div className="r-dates"><TripDates key={trip.start + trip.end} start={trip.start} end={trip.end} onApply={(start, end) => { onTripChange({ start, end }); setEditingDates(false) }} /></div>}
-          </div>
-          <figure className="r-hero-img">
-            {hero ? <><img src={hero.urls.regular} alt={hero.alt_description || dest.name} /><PhotoCredit photo={hero} /></> : <div className="r-hero-fallback" aria-hidden><span className="emblem" /></div>}
-          </figure>
+      <header ref={heroRef} className={`dh${hero ? ' dh--photo' : ''}${heroLoaded ? ' is-loaded' : ''}`} style={hero ? { ['--dh-tone' as string]: hero.color } : undefined}>
+        <div className="dh-media" aria-hidden={!hero}>
+          {hero ? <>
+            <img className="dh-thumb" src={hero.thumb} alt="" aria-hidden />
+            <img className="dh-img" src={hero.url} alt={hero.alt} onLoad={() => setHeroLoaded(true)} fetchPriority="high" />
+          </> : <div className="dh-fallback"><span className="emblem" /></div>}
         </div>
+        <div className="dh-shade" aria-hidden />
+        <div className="wrap dh-inner">
+          <p className="kicker dh-kicker">{formatTripDates(trip.start, trip.end)} · {edit.packingPlan.days} {edit.packingPlan.days === 1 ? 'day' : 'days'}</p>
+          <h1 className="r-title dh-title">
+            <span className="r-line"><span>What to wear in</span></span>
+            <span className="r-line dh-city" aria-label={`${dest.name}.`}>{[...`${dest.name}.`].map((c, i) => <span key={i} className="ch" aria-hidden>{c === ' ' ? '\u00a0' : c}</span>)}</span>
+          </h1>
+          <span className="dh-rule" aria-hidden />
+          <p className="dh-weather">{weatherLine}.</p>
+          <div className="dh-actions">
+            <a href="#curated" className="btn btn--rouge">See our picks</a>
+            <a href="#shop" className="btn btn--ghost">The full {edit.packingPlan.total}-piece list</a>
+          </div>
+        </div>
+        {spotted && <a className="dh-credit" href={goHref(spotted.product, spotted.kind, dest.name)} target="_blank" rel="noopener sponsored">
+          <span className="dh-credit-img"><img src={spotted.product.imageUrl} alt="" referrerPolicy="no-referrer" /></span>
+          <span className="dh-credit-copy"><small>On the edit</small><strong>{spotted.product.brand}</strong> {spotted.product.name}</span>
+        </a>}
+        {hero && <PhotoCredit photo={hero} />}
       </header>
 
+      <CuratedRail edit={edit} payload={shop.payload} loading={shop.loading} />
+
+      <section className="tailor" aria-label="Tailor your edit">
+        <div className="wrap tailor-inner">
+          <div className="tailor-head">
+            <p className="kicker">Tailor the picks</p>
+            <p className="tailor-line">Change who you&apos;re shopping for, the kind of trip or your style. Everything below updates.</p>
+          </div>
+          <TripControls trip={trip} onChange={onTripChange} />
+          <div className="r-actions">
+            <button type="button" className="btn btn--line" aria-expanded={editingDates} onClick={() => setEditingDates(v => !v)}>Change dates</button>
+            {ACCOUNTS_ENABLED && <SaveTripButton dest={dest} photo={hero?.url || null} />}
+          </div>
+          {editingDates && <div className="r-dates"><TripDates key={trip.start + trip.end} start={trip.start} end={trip.end} onApply={(start, end) => { onTripChange({ start, end }); setEditingDates(false) }} /></div>}
+        </div>
+      </section>
+
       <ShopTheList key={trip.destination + trip.start + trip.end} edit={edit} shop={shop} />
-      <BrandRibbon shop={shop} />
+      <DriftStrip edit={edit} payload={shop.payload} />
       <EditLooks edit={edit} shop={shop} onEdit={onEdit} />
       <TripWeatherPanel weather={edit.weather} />
     </main>
