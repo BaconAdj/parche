@@ -1,5 +1,5 @@
 // Server-only: the full catalogue is several megabytes, so pages receive selections through /api/clothing.
-// data/catalogue.json is rebuilt weekly by .github/workflows/catalogue-refresh.yml (scripts/catalogue).
+// data/catalogue.json is rebuilt daily by .github/workflows/catalogue-refresh.yml (scripts/catalogue); see docs/catalogue-reliability.md.
 import 'server-only'
 import data from '../data/catalogue.json'
 import type { PackingPlan } from './packing'

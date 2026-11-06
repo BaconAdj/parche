@@ -1,0 +1,41 @@
+{
+ "_comment": "Listing pages the daily sweep re-captures (scripts/catalogue/sweep.mjs). Each one returns 20-100 products, so a few pages re-check most of a brand at once. Add pages that hold the brand's packing-list pieces; every brand is swept on the same rules. nike entries are options for the Firecrawl nike-com products/search provider.",
+ "listings": [
+  { "mode": "hm", "url": "https://www2.hm.com/en_ca/men/new-arrivals/view-all.html" },
+  { "mode": "hm", "url": "https://www2.hm.com/en_ca/women/new-arrivals/view-all.html" },
+  { "mode": "hm", "url": "https://www2.hm.com/en_ca/men/shop-by-product/blazers-and-suits.html" },
+  { "mode": "hm", "url": "https://www2.hm.com/en_ca/men/accessories/scarves.html" },
+  { "mode": "hm", "url": "https://www2.hm.com/en_ca/women/accessories/bags.html" },
+  { "mode": "uniqlo", "url": "https://www.uniqlo.com/ca/en/search?q=heattech%20tights" },
+  { "mode": "uniqlo", "url": "https://www.uniqlo.com/ca/en/search?q=heattech%20crew%20neck" },
+  { "mode": "uniqlo", "url": "https://www.uniqlo.com/ca/en/search?q=men%20long%20sleeve%20t-shirt" },
+  { "mode": "uniqlo", "url": "https://www.uniqlo.com/ca/en/search?q=women%20sweater" },
+  { "mode": "uniqlo", "url": "https://www.uniqlo.com/ca/en/search?q=men%20trousers" },
+  { "mode": "uniqlo", "url": "https://www.uniqlo.com/ca/en/search?q=men%20blazer" },
+  { "mode": "uniqlo", "url": "https://www.uniqlo.com/ca/en/search?q=scarf" },
+  { "mode": "uniqlo", "url": "https://www.uniqlo.com/ca/en/search?q=umbrella" },
+  { "mode": "uniqlo", "url": "https://www.uniqlo.com/ca/en/search?q=backpack" },
+  { "mode": "zara", "url": "https://www.zara.com/ca/en/man-blazers-l608.html" },
+  { "mode": "tnf", "url": "https://www.thenorthface.com/en-ca/c/mens-211701" },
+  { "mode": "tnf", "url": "https://www.thenorthface.com/en-ca/c/womens/womens-footwear/womens-hike-263752" },
+  { "mode": "tnf", "url": "https://www.thenorthface.com/en-ca/c/mens/mens-footwear/mens-hike-263751" },
+  { "mode": "tnf", "url": "https://www.thenorthface.com/en-ca/c/bags-and-gear/technical-packs/hike-224525" },
+  { "mode": "columbia", "url": "https://www.columbiasportswear.ca/en/c/activity-trail-footwear/" },
+  { "mode": "columbia", "url": "https://www.columbiasportswear.ca/en/c/baselayer/" },
+  { "mode": "adidas", "url": "https://www.adidas.com/us/new_arrivals" },
+  { "mode": "adidas", "url": "https://www.adidas.com/us/women-new_arrivals" },
+  { "mode": "adidas", "url": "https://www.adidas.com/us/men-new_arrivals" }
+ ],
+ "nike": [
+  { "query": "running shoes", "count": 100 },
+  { "query": "leggings", "count": 100 },
+  { "query": "sports bra", "count": 100 },
+  { "query": "socks", "count": 50 },
+  { "query": "running shorts", "count": 50 },
+  { "query": "dri-fit running top", "count": 50 },
+  { "query": "trail running shoes", "count": 24 },
+  { "query": "backpack", "count": 24 },
+  { "query": "therma-fit tights", "count": 24 },
+  { "path": "/w/new-3n82y", "count": 100 }
+ ]
+}

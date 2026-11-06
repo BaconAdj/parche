@@ -180,7 +180,7 @@ function ShopTheList({ edit, shop }: { edit: TravelEdit; shop: ShopState }) {
               )) : (
                 <p className="shop-status">We&apos;re still sourcing this piece for {edit.trip.wear === 'unisex' ? 'this wardrobe' : edit.trip.wear === 'women' ? 'womenswear' : 'menswear'}. The note above says what to look for.</p>
               )}
-            <p className="shop-foot">Prices are shown in each retailer&apos;s currency and refreshed weekly{shop.payload?.checkedAt ? ` (oldest checked ${shop.payload.checkedAt})` : ''}. Confirm sizes, stock and delivery on the product page.</p>
+            <p className="shop-foot">Prices are shown in each retailer&apos;s currency and re-checked daily for most retailers{shop.payload?.checkedAt ? ` (oldest checked ${shop.payload.checkedAt})` : ''}. Confirm sizes, stock and delivery on the product page.</p>
           </div>
         </div>
       </div>

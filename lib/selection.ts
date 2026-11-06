@@ -7,13 +7,55 @@ import { TIERS, TIER_LABEL, type Product, type Tier, type TierOptions } from './
 const FX = kindsData.fx as Record<string, number>
 export const cad = (p: Product) => p.price * (FX[p.currency] || 1)
 
-// A price older than 30 days is no longer shown: the weekly refresh re-checks every live product.
+// A product nobody has confirmed recently is no longer shown. Feed products and swept seed brands are re-checked
+// daily and carry a shorter maxAgeDays; everything else falls back to 30 days.
 export const MAX_AGE_DAYS = 30
 export function liveProducts(products: Product[], now = new Date()): Product[] {
   return products.filter(p => {
     const age = now.getTime() - Date.parse(p.checkedAt + 'T00:00:00Z')
-    return age >= -86400000 && age < MAX_AGE_DAYS * 86400000
+    return age >= -86400000 && age < (p.maxAgeDays || MAX_AGE_DAYS) * 86400000
   })
+}
+
+// When a product turns out to be sold out at click time: the closest replacements for the same piece.
+// Same piece and wardrobe, same price tier first, then the nearest price; at most two per brand so the shopper
+// sees a real choice. The order is purely rule-based, so no label is favoured.
+export function alternativesFor(product: Product, products: Product[], limit = 6): Product[] {
+  const kind = product.kinds[0]
+  const price = cad(product)
+  const fits = (p: Product) => product.gender === 'unisex' || p.gender === product.gender || p.gender === 'unisex'
+  const ranked = products
+    .filter(p => p.id !== product.id && p.kinds[0] === kind && fits(p) && p.productUrl !== product.productUrl)
+    .sort((a, b) => Number(b.tier === product.tier) - Number(a.tier === product.tier) || Math.abs(cad(a) - price) - Math.abs(cad(b) - price) || a.id.localeCompare(b.id))
+  const perBrand = new Map<string, number>()
+  const out: Product[] = []
+  for (const p of ranked) {
+    if ((perBrand.get(p.brand) || 0) >= 2) continue
+    perBrand.set(p.brand, (perBrand.get(p.brand) || 0) + 1)
+    out.push(p)
+    if (out.length >= limit) break
+  }
+  return out
+}
+
+// Shopify stores answer /products/<handle>.js with live availability. The exact colour (?variant=) decides when present.
+export function shopifyStatusUrl(product: Product): string | null {
+  if (product.feed !== 'shopify') return null
+  try {
+    const u = new URL(product.productUrl)
+    if (!/\/products\/[^/]+$/.test(u.pathname)) return null
+    return `${u.origin}${u.pathname}.js`
+  } catch { return null }
+}
+type ShopifyProductJs = { available?: boolean; variants?: { id: number; available?: boolean }[] }
+export function shopifyAvailability(product: Product, status: number, body: ShopifyProductJs | null): 'available' | 'unavailable' | 'unknown' {
+  if (status === 404) return 'unavailable'
+  if (status !== 200 || !body) return 'unknown'
+  const variant = new URL(product.productUrl).searchParams.get('variant')
+  const v = variant ? body.variants?.find(x => String(x.id) === variant) : undefined
+  if (variant && body.variants && !v) return 'unavailable'
+  const available = v ? v.available : body.available
+  return available === false ? 'unavailable' : available === true ? 'available' : 'unknown'
 }
 
 // Where an outbound click should land: an approved affiliate link when one exists, otherwise the exact product page.

@@ -1,9 +1,10 @@
 name: catalogue-refresh
-# Weekly: pull in-stock products from brand feeds, rebuild data/catalogue.json and commit it.
-# Vercel redeploys on the commit, so prices, photos and availability stay current.
+# Daily: pull in-stock products from brand feeds, sweep the hand-captured brands (when FIRECRAWL_API_KEY is set),
+# rebuild data/catalogue.json, drop products whose photo is gone, and commit. Vercel redeploys on the commit,
+# so prices, photos and availability stay current. See docs/catalogue-reliability.md.
 on:
   schedule:
-    - cron: '17 9 * * 1'   # Mondays 09:17 UTC (5:17 am Montréal)
+    - cron: '17 9 * * *'   # every day 09:17 UTC (5:17 am Montréal)
   workflow_dispatch:
   push:
     branches: [main]
@@ -14,20 +15,29 @@ concurrency: { group: catalogue, cancel-in-progress: false }
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - name: Pull brand feeds
         run: node scripts/catalogue/ingest-shopify.mjs
+      - name: Sweep hand-captured brands
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SWEEP_PAGE_BUDGET: ${{ vars.SWEEP_PAGE_BUDGET || '60' }}
+        run: node scripts/catalogue/sweep.mjs
       - name: Build catalogue
         run: node scripts/catalogue/build.mjs
+      - name: Check product photos
+        run: node scripts/catalogue/check-images.mjs
       - name: Commit
         run: |
           git config user.name "parche-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/raw/seed data/raw/shopify-report.tsv data/catalogue.json data/catalogue-report.md
+          git add data/raw data/catalogue.json data/catalogue-report.md
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "Refresh catalogue $(date -u +%F)"
           git pull --rebase origin main && git push

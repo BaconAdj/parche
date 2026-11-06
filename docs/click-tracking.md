@@ -4,7 +4,8 @@ Every "Shop" button links to `/go/<product-id>?d=<destination>&k=<packing-kind>`
 
 1. Logs a `parche.product_click` JSON line (visible in Vercel → Logs).
 2. Inserts the same event into the Supabase table `product_clicks` if it exists (best effort, 1.5 s timeout, never blocks the redirect).
-3. Redirects (302) to the product's `affiliateUrl` when one is set, otherwise to the exact `productUrl` tagged with `utm_source=parche&utm_medium=referral&utm_campaign=travel-edit`.
+3. For Shopify feed products, asks the store whether that exact colour is still for sale (0.9 s timeout). If it isn't, the shopper goes to `/unavailable/<product-id>` with the closest alternatives instead (see docs/catalogue-reliability.md).
+4. Otherwise redirects (302) to the product's `affiliateUrl` when one is set, or to the exact `productUrl` tagged with `utm_source=parche&utm_medium=referral&utm_campaign=travel-edit`.
 
 ## Turning on affiliate revenue
 

@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { findProduct, outboundUrl } from '../../../lib/product-catalogue'
+import { shopifyAvailability, shopifyStatusUrl } from '../../../lib/selection'
+import type { Product } from '../../../lib/catalogue-types'
 
 // Every shop link goes through here so clicks are measurable and affiliate links can be swapped in centrally.
+// For stores that publish live availability (Shopify), the product is checked at the moment of the click: a sold-out
+// piece sends the shopper to parché's alternatives for that same piece instead of a dead page.
 export async function GET(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
   const product = findProduct(id)
@@ -20,12 +24,34 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
   }
   // Structured line for Vercel logs; always available even before the table exists.
   console.log(JSON.stringify({ type: 'parche.product_click', ...event, at: new Date().toISOString() }))
-  await recordClick(event)
+  const [, availability] = await Promise.all([recordClick(event), liveAvailability(product)])
 
-  const response = NextResponse.redirect(outboundUrl(product), 302)
+  let target = outboundUrl(product)
+  if (availability === 'unavailable') {
+    console.log(JSON.stringify({ type: 'parche.product_unavailable', product_id: product.id, brand: product.brand, at: new Date().toISOString() }))
+    const alt = new URL(`/unavailable/${encodeURIComponent(product.id)}`, request.url)
+    if (destination) alt.searchParams.set('d', destination)
+    if (kind) alt.searchParams.set('k', kind)
+    target = alt.toString()
+  }
+  const response = NextResponse.redirect(target, 302)
   response.headers.set('Cache-Control', 'no-store')
   response.headers.set('Referrer-Policy', 'origin')
   return response
+}
+
+// Asks the store whether this exact product is still for sale. Anything slow or unclear sends the shopper on as usual:
+// the check may only ever prevent a dead click, never block a good one.
+async function liveAvailability(product: Product): Promise<'available' | 'unavailable' | 'unknown'> {
+  const url = shopifyStatusUrl(product)
+  if (!url) return 'unknown'
+  try {
+    const res = await fetch(url, { headers: { accept: 'application/json' }, cache: 'no-store', signal: AbortSignal.timeout(900) })
+    const body = res.status === 200 ? await res.json().catch(() => null) : null
+    return shopifyAvailability(product, res.status, body)
+  } catch {
+    return 'unknown'
+  }
 }
 
 // Optional: stores the click in Supabase when the product_clicks table exists (see docs/click-tracking.md).
