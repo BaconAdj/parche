@@ -2,7 +2,7 @@
 // No AI extraction, so every image belongs to its product. The daily sweep (sweep.mjs) uses the same parsers.
 // Usage:
 //   node scripts/catalogue/seed-parsers.mjs nike <rows.tsv>                       (url, title, subtitle, colour, price, image per line)
-//   node scripts/catalogue/seed-parsers.mjs <hm|uniqlo|zara|tnf|columbia|adidas> <page.html | firecrawl-result.json> [...]
+//   node scripts/catalogue/seed-parsers.mjs <hm|uniqlo|zara|tnf|columbia|adidas|calvinklein|tommy|mango> <page.html | firecrawl-result.json> [...]
 import fs from 'node:fs'
 import path from 'node:path'
 import { ROOT } from './lib.mjs'

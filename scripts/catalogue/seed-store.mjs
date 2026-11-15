@@ -4,7 +4,7 @@ import path from 'node:path'
 import { ROOT } from './lib.mjs'
 
 export const SEED_DIR = path.join(ROOT, 'data/raw/seed')
-export const SEED_FILE = { hm: 'hm', uniqlo: 'uniqlo', zara: 'zara', tnf: 'the-north-face', columbia: 'columbia', adidas: 'adidas', nike: 'nike' }
+export const SEED_FILE = { hm: 'hm', uniqlo: 'uniqlo', zara: 'zara', tnf: 'the-north-face', columbia: 'columbia', adidas: 'adidas', nike: 'nike', calvinklein: 'calvin-klein', tommy: 'tommy-hilfiger', mango: 'mango' }
 export const readSeed = file => { const f = path.join(SEED_DIR, `${file}.json`); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : [] }
 export const writeSeed = (file, records) => fs.writeFileSync(path.join(SEED_DIR, `${file}.json`), JSON.stringify(records, null, 1))
 export const seedFiles = () => fs.readdirSync(SEED_DIR).filter(f => f.endsWith('.json')).map(f => f.replace(/\.json$/, ''))

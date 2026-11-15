@@ -12,7 +12,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-jackets-and-vests/womens-lightweight-insulated-jackets-301807/womens-tnf-range-lightweight-hooded-jacket-NF0A8H18?color=2H9",
   "imageUrl": "https://assets.thenorthface.com/images/t_img/c_fill,ar_4:5,f_auto,h_240,e_unsharp_mask:150,w_192/dpr_2.0/v1780701908/NF0A8H182H9-HERO/Womens-TNF-Range-Lightweight-Hooded-Jacket-TNF-HERO.png",
   "text": "Women’s TNF™ Range Lightweight Hooded Jacket TNF Black/Burgundy Crush/Garnet https://www.thenorthface.com/en-ca/c/womens/womens-jackets-and-vests-211719",
-  "checkedAt": "2026-10-23"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -408,16 +408,16 @@
   "source": "seed:the north face",
   "brand": "The North Face",
   "id": "The North Face-mens-fleece-full-zip-829791-mens-yumiori-full-zip-NF0A883R",
-  "name": "Men’s Yumiori Full Zip — Cumulus Cloud",
-  "title": "Men’s Yumiori Full Zip",
-  "type": "",
+  "name": "Men's Yumiori Full Zip",
+  "title": "Men's Yumiori Full Zip",
+  "type": "Men's Fleece Full Zip",
   "gender": "men",
   "price": 140,
   "currency": "CAD",
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-fleece/mens-fleece-full-zip-829791/mens-yumiori-full-zip-NF0A883R?color=P48",
-  "imageUrl": "https://assets.thenorthface.com/images/t_img/c_fill,ar_4:5,f_auto,h_240,e_unsharp_mask:150,w_192/dpr_2.0/v1778869240/NF0A883RP48-HERO/Mens-Yumiori-Full-Zip-TNF-HERO.png",
-  "text": "Men’s Yumiori Full Zip Cumulus Cloud https://www.thenorthface.com/en-ca/c/mens/mens-jackets-and-vests-211702",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1778869240/NF0A883RP48-HERO/Mens-Yumiori-Full-Zip-TNF-HERO.png",
+  "text": "Men's Yumiori Full Zip Men's Fleece Full Zip",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -453,16 +453,16 @@
   "source": "seed:the north face",
   "brand": "The North Face",
   "id": "The North Face-mens-insulated-and-down-300771-mens-apex-elevation-jacket-NF0A84IF",
-  "name": "Men’s Apex Elevation Jacket — Dark Chestnut",
-  "title": "Men’s Apex Elevation Jacket",
-  "type": "",
+  "name": "Men's Apex Elevation Jacket",
+  "title": "Men's Apex Elevation Jacket",
+  "type": "Men's Insulated & Down",
   "gender": "men",
   "price": 360,
   "currency": "CAD",
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-apex-elevation-jacket-NF0A84IF?color=NMF",
-  "imageUrl": "https://assets.thenorthface.com/images/t_img/c_fill,ar_4:5,f_auto,h_240,e_unsharp_mask:150,w_192/dpr_2.0/v1782256821/NF0A84IFNMF-HERO/Mens-Apex-Elevation-Jacket-TNF-HERO.png",
-  "text": "Men’s Apex Elevation Jacket Dark Chestnut https://www.thenorthface.com/en-ca/c/mens/mens-jackets-and-vests-211702",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1782256821/NF0A84IFNMF-HERO/Mens-Apex-Elevation-Jacket-TNF-HERO.png",
+  "text": "Men's Apex Elevation Jacket Men's Insulated & Down",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -543,16 +543,16 @@
   "source": "seed:the north face",
   "brand": "The North Face",
   "id": "The North Face-mens-insulated-and-down-300771-mens-1996-retro-nuptse-vest-NF0A3JQQ",
-  "name": "Men’s 1996 Retro Nuptse Vest — Copper Silt",
-  "title": "Men’s 1996 Retro Nuptse Vest",
-  "type": "",
+  "name": "Men's 1996 Retro Nuptse Vest",
+  "title": "Men's 1996 Retro Nuptse Vest",
+  "type": "Men's Insulated & Down",
   "gender": "men",
   "price": 330,
   "currency": "CAD",
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-1996-retro-nuptse-vest-NF0A3JQQ?color=RM0",
-  "imageUrl": "https://assets.thenorthface.com/images/t_img/c_fill,ar_4:5,f_auto,h_240,e_unsharp_mask:150,w_192/dpr_2.0/v1778196020/NF0A3JQQRM0-HERO/Mens-1996-Retro-Nuptse-Vest-TNF-HERO.png",
-  "text": "Men’s 1996 Retro Nuptse Vest Copper Silt https://www.thenorthface.com/en-ca/c/mens/mens-jackets-and-vests-211702",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1778196020/NF0A3JQQRM0-HERO/Mens-1996-Retro-Nuptse-Vest-TNF-HERO.png",
+  "text": "Men's 1996 Retro Nuptse Vest Men's Insulated & Down",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -672,7 +672,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-1996-retro-nuptse-jacket-NF0A3C8D?color=S7K",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1781306418/NF0A3C8DS7K-HERO/Mens-1996-Retro-Nuptse-Jacket-TNF-HERO.png",
   "text": "Men's 1996 Retro Nuptse Jacket Men's Insulated & Down",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -717,7 +717,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-tops/mens-hoodies-and-sweatshirts-224211/mens-evolution-monte-regular-hoodie-NF0A8K52?color=NLV",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1774635674/NF0A8K52NLV-HERO/Mens-Evolution-Monte-Regular-Hoodie-TNF-HERO.png",
   "text": "Men's Evolution Monte Regular Hoodie Men's Hoodies & Sweatshirts",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -792,7 +792,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-hike-263751/mens-offtrail-hike-gore-tex-NF0A8AEG?color=P4W",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776115496/NF0A8AEGP4W-HERO/Mens-Offtrail-Hike-GORETEX-TNF-HERO.png",
   "text": "Men's Offtrail Hike GORE-TEX Men's Hike",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -867,7 +867,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-fleece/mens-fleece-full-zip-829791/mens-retro-denali-jacket-NF0A88XH?color=JK3",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723175607/NF0A88XHJK3-HERO/Mens-Retro-Denali-Jacket-TNF-HERO.png",
   "text": "Men's Retro Denali Jacket Men's Fleece Full Zip",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -950,14 +950,14 @@
   "id": "tnf-NF0A7UJK-2EK",
   "name": "Men's Canyonlands Hybrid Jacket",
   "title": "Men's Canyonlands Hybrid Jacket",
-  "type": "Men's Fleece Full Zip",
+  "type": "Men's Insulated & Down",
   "gender": "men",
   "price": 240,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-fleece/mens-fleece-full-zip-829791/mens-canyonlands-hybrid-jacket-NF0A7UJK?color=2EK",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-canyonlands-hybrid-jacket-NF0A7UJK?color=2EK",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1780442425/NF0A7UJK2EK-HERO/Mens-Canyonlands-Hybrid-Jacket-TNF-HERO.png",
-  "text": "Men's Canyonlands Hybrid Jacket Men's Fleece Full Zip",
-  "checkedAt": "2026-11-01"
+  "text": "Men's Canyonlands Hybrid Jacket Men's Insulated & Down",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -987,7 +987,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-hydrenalite-down-hoodie-NF0A5GIE?color=MYB",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1781115641/NF0A5GIEMYB-HERO/Mens-Hydrenalite-Down-Hoodie-TNF-HERO.png",
   "text": "Men's Hydrenalite Down Hoodie Men's Insulated & Down",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -995,14 +995,14 @@
   "id": "tnf-NF0A8H0K-2MB",
   "name": "Men's Aconcagua Hooded Jacket",
   "title": "Men's Aconcagua Hooded Jacket",
-  "type": "Men's",
+  "type": "Men's Insulated & Down",
   "gender": "men",
   "price": 300,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/mens-211701/mens-aconcagua-hooded-jacket-NF0A8H0K?color=2MB",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-aconcagua-hooded-jacket-NF0A8H0K?color=2MB",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1778196188/NF0A8H0K2MB-HERO/Mens-Aconcagua-Hooded-Jacket-TNF-HERO.png",
-  "text": "Men's Aconcagua Hooded Jacket Men's",
-  "checkedAt": "2026-11-01"
+  "text": "Men's Aconcagua Hooded Jacket Men's Insulated & Down",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1032,7 +1032,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-parkas-300775/mens-mcmurdo-bomber-NF0A5GD9?color=0UZ",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1756999743/NF0A5GD90UZ-HERO/Mens-McMurdo-Bomber-TNF-HERO.png",
   "text": "Men's McMurdo Bomber Men's Parkas",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1047,7 +1047,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-rainwear-299284/mens-antora-jacket-NF0A7QEY?color=P48",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1782256809/NF0A7QEYP48-HERO/Mens-Antora-Jacket-TNF-HERO.png",
   "text": "Men's Antora Jacket Men's Rainwear",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1077,7 +1077,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-thermoball-hooded-jacket-NF0A8D1N?color=NLV",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1780442723/NF0A8D1NNLV-HERO/Mens-THERMOBALL-Hooded-Jacket-TNF-HERO.png",
   "text": "Men's THERMOBALL Hooded Jacket Men's Insulated & Down",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1085,14 +1085,14 @@
   "id": "tnf-NF0A8AB4-SP8",
   "name": "Glenclyffe Mid Insulated Waterproof Boots",
   "title": "Glenclyffe Mid Insulated Waterproof Boots",
-  "type": "Men's Boots",
-  "gender": "men",
+  "type": "Women's Winter Boots",
+  "gender": "women",
   "price": 200,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-boots-695280/glenclyffe-mid-insulated-waterproof-boots-NF0A8AB4?color=SP8",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-winter-boots-213481/glenclyffe-mid-insulated-waterproof-boots-NF0A8AB4?color=SP8",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776114604/NF0A8AB4SP8-HERO/Glenclyffe-Mid-Insulated-Waterproof-Boots-TNF-HERO.png",
-  "text": "Glenclyffe Mid Insulated Waterproof Boots Men's Boots",
-  "checkedAt": "2026-11-01"
+  "text": "Glenclyffe Mid Insulated Waterproof Boots Women's Winter Boots",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1115,14 +1115,14 @@
   "id": "tnf-NF0A8D90-T5V",
   "name": "Nuptse Traction Booties",
   "title": "Nuptse Traction Booties",
-  "type": "Men's Slippers",
-  "gender": "men",
+  "type": "Women's Winter Boots",
+  "gender": "women",
   "price": 180,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-slippers-695279/nuptse-traction-booties-NF0A8D90?color=T5V",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-winter-boots-213481/nuptse-traction-booties-NF0A8D90?color=T5V",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776114618/NF0A8D90T5V-HERO/Nuptse-Traction-Booties-TNF-HERO.png",
-  "text": "Nuptse Traction Booties Men's Slippers",
-  "checkedAt": "2026-11-01"
+  "text": "Nuptse Traction Booties Women's Winter Boots",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1152,7 +1152,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-nuketo-synthetic-insulated-jacket-NF0A8J3W?color=RL2",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1780702231/NF0A8J3WRL2-HERO/Mens-Nuketo-Synthetic-Insulated-Jacket-TNF-HERO.png",
   "text": "Men's Nuketo Synthetic Insulated Jacket Men's Insulated & Down",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1160,14 +1160,14 @@
   "id": "tnf-NF0A8DAA-KX7",
   "name": "Nuptse Traction Chukkas",
   "title": "Nuptse Traction Chukkas",
-  "type": "Men's Slippers",
-  "gender": "men",
+  "type": "Women's Winter Boots",
+  "gender": "women",
   "price": 170,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-slippers-695279/nuptse-traction-chukkas-NF0A8DAA?color=KX7",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-winter-boots-213481/nuptse-traction-chukkas-NF0A8DAA?color=KX7",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1753296223/NF0A8DAAKX7-HERO/Nuptse-Traction-Chukkas-TNF-HERO.png",
-  "text": "Nuptse Traction Chukkas Men's Slippers",
-  "checkedAt": "2026-11-01"
+  "text": "Nuptse Traction Chukkas Women's Winter Boots",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1182,7 +1182,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-hike-263751/mens-hedgehog-3-mid-waterproof-boots-NF0A818O?color=7O3",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1736364163/NF0A818O7O3-HERO/Mens-Hedgehog-3-Mid-Waterproof-Boots-TNF-HERO.png",
   "text": "Men's Hedgehog 3 Mid Waterproof Boots Men's Hike",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1190,14 +1190,14 @@
   "id": "tnf-NF0A8G5J-U50",
   "name": "Women's Fastpack WP",
   "title": "Women's Fastpack WP",
-  "type": "Women's Trail Run",
+  "type": "Women's Sneakers",
   "gender": "women",
   "price": 230,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-trail-run-213489/womens-fastpack-wp-NF0A8G5J?color=U50",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-sneakers-296772/womens-fastpack-wp-NF0A8G5J?color=U50",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776115072/NF0A8G5JU50-HERO/Womens-Fastpack-WP-TNF-HERO.png",
-  "text": "Women's Fastpack WP Women's Trail Run",
-  "checkedAt": "2026-11-01"
+  "text": "Women's Fastpack WP Women's Sneakers",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1212,7 +1212,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-hike-263752/womens-fastpack-mid-wp-NF0A8G6A?color=L5Q",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1760723050/NF0A8G6AL5Q-HERO/Womens-Fastpack-Mid-WP-TNF-HERO.png",
   "text": "Women's Fastpack Mid WP Women's Hike",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1227,7 +1227,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-hike-263752/womens-hedgehog-3-waterproof-shoes-NF0A818R?color=0ZP",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723166822/NF0A818R0ZP-HERO/Womens-Hedgehog-3-Waterproof-Shoes-TNF-Asphalt-GreyMeld-Grey-HERO.png",
   "text": "Women's Hedgehog 3 Waterproof Shoes Women's Hike",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1242,7 +1242,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-hike-263752/womens-hedgehog-3-mid-waterproof-boots-NF0A818P?color=0ZP",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723179276/NF0A818P0ZP-HERO/Womens-Hedgehog-3-Mid-Waterproof-Boots-TNF-Asphalt-GreyMeld-Grey-HERO.png",
   "text": "Women's Hedgehog 3 Mid Waterproof Boots Women's Hike",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1250,14 +1250,14 @@
   "id": "tnf-NF0A8AEQ-TDK",
   "name": "Women's VECTIV Enduris 4 Shoes",
   "title": "Women's VECTIV Enduris 4 Shoes",
-  "type": "Women's Trail Run",
+  "type": "Women's Hike",
   "gender": "women",
   "price": 220,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-trail-run-213489/womens-vectiv-enduris-4-shoes-NF0A8AEQ?color=TDK",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-hike-263752/womens-vectiv-enduris-4-shoes-NF0A8AEQ?color=TDK",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776115031/NF0A8AEQTDK-HERO/Womens-VECTIV-Enduris-4-Shoes-TNF-HERO.png",
-  "text": "Women's VECTIV Enduris 4 Shoes Women's Trail Run",
-  "checkedAt": "2026-11-01"
+  "text": "Women's VECTIV Enduris 4 Shoes Women's Hike",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1265,14 +1265,14 @@
   "id": "tnf-NF0A8AE2-KY4",
   "name": "Hedgehog 06 RVST Mules",
   "title": "Hedgehog 06 RVST Mules",
-  "type": "Men's Sneakers",
-  "gender": "men",
+  "type": "Women's Hike",
+  "gender": "women",
   "price": 190,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-sneakers-296771/hedgehog-06-rvst-mules-NF0A8AE2?color=KY4",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-hike-263752/hedgehog-06-rvst-mules-NF0A8AE2?color=KY4",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1736364803/NF0A8AE2KY4-HERO/Hedgehog-06-RVST-Mules-TNF-HERO.png",
-  "text": "Hedgehog 06 RVST Mules Men's Sneakers",
-  "checkedAt": "2026-11-01"
+  "text": "Hedgehog 06 RVST Mules Women's Hike",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1280,14 +1280,14 @@
   "id": "tnf-NF0A8AFF-QHG",
   "name": "Clyffe Suede Shoes",
   "title": "Clyffe Suede Shoes",
-  "type": "Men's Sneakers",
-  "gender": "men",
+  "type": "Women's Hike",
+  "gender": "women",
   "price": 180,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-sneakers-296771/clyffe-suede-shoes-NF0A8AFF?color=QHG",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-hike-263752/clyffe-suede-shoes-NF0A8AFF?color=QHG",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1760722718/NF0A8AFFQHG-HERO/Clyffe-Suede-Shoes-TNF-HERO.png",
-  "text": "Clyffe Suede Shoes Men's Sneakers",
-  "checkedAt": "2026-11-01"
+  "text": "Clyffe Suede Shoes Women's Hike",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1295,14 +1295,14 @@
   "id": "tnf-NF0A8G6B-30C",
   "name": "Men's Fastpack WP",
   "title": "Men's Fastpack WP",
-  "type": "Men's Hike",
+  "type": "Men's Sneakers",
   "gender": "men",
   "price": 230,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-hike-263751/mens-fastpack-wp-NF0A8G6B?color=30C",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-sneakers-296771/mens-fastpack-wp-NF0A8G6B?color=30C",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776115594/NF0A8G6B30C-HERO/Mens-Fastpack-WP-TNF-HERO.png",
-  "text": "Men's Fastpack WP Men's Hike",
-  "checkedAt": "2026-11-01"
+  "text": "Men's Fastpack WP Men's Sneakers",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1317,7 +1317,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-hike-263751/mens-fastpack-mid-wp-NF0A8G4S?color=KAF",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1760722963/NF0A8G4SKAF-HERO/Mens-Fastpack-Mid-WP-TNF-HERO.png",
   "text": "Men's Fastpack Mid WP Men's Hike",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1325,14 +1325,14 @@
   "id": "tnf-NF0A8191-KX7",
   "name": "Men's Ultra 112 Waterproof Shoes",
   "title": "Men's Ultra 112 Waterproof Shoes",
-  "type": "Men's Sneakers",
+  "type": "Men's Hike",
   "gender": "men",
   "price": 200,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-sneakers-296771/mens-ultra-112-waterproof-shoes-NF0A8191?color=KX7",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-hike-263751/mens-ultra-112-waterproof-shoes-NF0A8191?color=KX7",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1736364487/NF0A8191KX7-HERO/Mens-Ultra-112-Waterproof-Shoes-TNF-HERO.png",
-  "text": "Men's Ultra 112 Waterproof Shoes Men's Sneakers",
-  "checkedAt": "2026-11-01"
+  "text": "Men's Ultra 112 Waterproof Shoes Men's Hike",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1347,7 +1347,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-trail-run-213281/mens-vectiv-enduris-4-shoes-NF0A8AEP?color=TDK",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776115538/NF0A8AEPTDK-HERO/Mens-VECTIV-Enduris-4-Shoes-TNF-HERO.png",
   "text": "Men's VECTIV Enduris 4 Shoes Men's Trail Run",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1362,7 +1362,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-hike-263751/mens-hedgehog-3-waterproof-shoes-NF0A818Q?color=KT0",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723441413/NF0A818QKT0-HERO/Mens-Hedgehog-3-Waterproof-Shoes-TNF-TNF-BlackAsphalt-Grey-HERO.png",
   "text": "Men's Hedgehog 3 Waterproof Shoes Men's Hike",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1377,22 +1377,22 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/technical-packs/hike-224525/womens-trail-lite-12-backpack-NF0A87CB?color=NRC",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1763054226/NF0A87CBNRC-HERO/Womens-Trail-Lite-12-Backpack-TNF-HERO.png",
   "text": "Women's Trail Lite 12 Backpack Hike",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
   "brand": "The North Face",
   "id": "tnf-NF0A8HRZ-RO5",
-  "name": "Borealis Trail 16",
-  "title": "Borealis Trail 16",
+  "name": "Borealis Trail 16 Backpack",
+  "title": "Borealis Trail 16 Backpack",
   "type": "Men's Backpacks",
   "gender": "men",
   "price": 130,
   "currency": "CAD",
-  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/backpacks/mens-backpacks-298772/borealis-trail-16-NF0A8HRZ?color=RO5",
-  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1773500170/NF0A8HRZRO5-HERO/Borealis-Trail-16-TNF-HERO.png",
-  "text": "Borealis Trail 16 Men's Backpacks",
-  "checkedAt": "2026-11-01"
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/backpacks/mens-backpacks-298772/borealis-trail-16-backpack-NF0A8HRZ?color=RO5",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1773500170/NF0A8HRZRO5-HERO/Borealis-Trail-16-Backpack-TNF-HERO.png",
+  "text": "Borealis Trail 16 Backpack Men's Backpacks",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1407,7 +1407,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/bags/mini-backpacks-and-slings-829875/borealis-sling-NF0A52UP?color=XCJ",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1775154035/NF0A52UPXCJ-HERO/Borealis-Sling-TNF-HERO.png",
   "text": "Borealis Sling Mini Backpacks & Slings",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1422,7 +1422,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/technical-packs/womens-technical-packs-298793/womens-trail-lite-50-backpack-NF0A81CH?color=NRC",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1763054203/NF0A81CHNRC-HERO/Womens-Trail-Lite-50-Backpack-TNF-HERO.png",
   "text": "Women's Trail Lite 50 Backpack Women's Technical Packs",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1437,7 +1437,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/backpacks/womens-backpacks-268801/borealis-mini-backpack-NF0A52SW?color=NO6",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1780096805/NF0A52SWNO6-HERO/Borealis-Mini-Backpack-TNF-HERO.png",
   "text": "Borealis Mini Backpack Women's Backpacks",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1452,7 +1452,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/bags/fanny-packs-829873/terra-lumbar1l-NF0A8C2K?color=P48",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1775085706/NF0A8C2KP48-HERO/Terra-Lumbar1L-TNF-HERO.png",
   "text": "Terra Lumbar—1L Fanny Packs",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1467,7 +1467,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/the-base-camp-shop/lifestyle-829906/base-camp-daypack-NF0A8BK4?color=BIA",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1735943984/NF0A8BK4BIA-HERO/Base-Camp-Daypack-TNF-HERO.png",
   "text": "Base Camp Daypack Lifestyle",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1482,7 +1482,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/backpacks/fanny-packs-and-totes-591785/terra-lumbar3l-NF0A81EO?color=4JK",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723188291/NF0A81EO4JK-HERO/Terra-Lumbar3L-TNF-HERO.png",
   "text": "Terra Lumbar—3L Fanny Packs & Totes",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1497,7 +1497,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/gear-829821/base-camp-dry-bag-18l-NF0A8GJS?color=ZU3",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1763054075/NF0A8GJSZU3-HERO/Base-Camp-Dry-Bag-18L-TNF-HERO.png",
   "text": "Base Camp Dry Bag 18L Gear",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1512,7 +1512,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/technical-packs-224452/base-camp-dry-bag-12l-NF0A8GJR?color=ZU3",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1763054137/NF0A8GJRZU3-HERO/Base-Camp-Dry-Bag-12L-TNF-HERO.png",
   "text": "Base Camp Dry Bag 12L Technical Packs",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1542,7 +1542,7 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/luggage-and-duffels/travel-accessories-224548/borealis-water-bottle-holder-NF0A81DQ?color=4HF",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723177632/NF0A81DQ4HF-HERO/Borealis-Water-Bottle-Holder-TNF-HERO.png",
   "text": "Borealis Water Bottle Holder Travel Accessories",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:the north face",
@@ -1557,6 +1557,606 @@
   "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/technical-packs/hike-224525/lichen-daypack-NF0A8EEV?color=G1V",
   "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1750345400/NF0A8EEVG1V-HERO/Lichen-Daypack-TNF-HERO.png",
   "text": "Lichen Daypack Hike",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8G5G-KAF",
+  "name": "Verto Approach GORE-TEX",
+  "title": "Verto Approach GORE-TEX",
+  "type": "Women's Hike",
+  "gender": "women",
+  "price": 290,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-hike-263752/verto-approach-gore-tex-NF0A8G5G?color=KAF",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1760722976/NF0A8G5GKAF-HERO/Verto-Approach-GORETEX-TNF-HERO.png",
+  "text": "Verto Approach GORE-TEX Women's Hike",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8G4P-JX4",
+  "name": "Verto Approach",
+  "title": "Verto Approach",
+  "type": "Women's Sneakers",
+  "gender": "women",
+  "price": 220,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-sneakers-296772/verto-approach-NF0A8G4P?color=JX4",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1760722922/NF0A8G4PJX4-HERO/Verto-Approach-TNF-HERO.png",
+  "text": "Verto Approach Women's Sneakers",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8A8X-V2I",
+  "name": "Men's Explore Camp Sandals",
+  "title": "Men's Explore Camp Sandals",
+  "type": "Men's Sandals",
+  "gender": "men",
+  "price": 150,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-sandals-313279/mens-explore-camp-sandals-NF0A8A8X?color=V2I",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723260436/NF0A8A8XV2I-HERO/Mens-Explore-Camp-Sandals-TNF-Forest-OliveNew-Taupe-HERO.png",
+  "text": "Men's Explore Camp Sandals Men's Sandals",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A87CA-NOW",
+  "name": "Trail Lite 12 Backpack",
+  "title": "Trail Lite 12 Backpack",
+  "type": "Hike",
+  "gender": "unisex",
+  "price": 160,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/technical-packs/hike-224525/trail-lite-12-backpack-NF0A87CA?color=NOW",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1777314035/NF0A87CANOW-HERO/Trail-Lite-12-Backpack-TNF-HERO.png",
+  "text": "Trail Lite 12 Backpack Hike",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A87C8-NOW",
+  "name": "Trail Lite 24 Backpack",
+  "title": "Trail Lite 24 Backpack",
+  "type": "Trail Lite",
+  "gender": "unisex",
+  "price": 200,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/trail-lite-829830/trail-lite-24-backpack-NF0A87C8?color=NOW",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1763054240/NF0A87C8NOW-HERO/Trail-Lite-24-Backpack-TNF-HERO.png",
+  "text": "Trail Lite 24 Backpack Trail Lite",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A87C6-NRC",
+  "name": "Women's Trail Lite 24 Backpack",
+  "title": "Women's Trail Lite 24 Backpack",
+  "type": "Women's Technical Packs",
+  "gender": "women",
+  "price": 200,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/technical-packs/womens-technical-packs-298793/womens-trail-lite-24-backpack-NF0A87C6?color=NRC",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1763054757/NF0A87C6NRC-HERO/Womens-Trail-Lite-24-Backpack-TNF-HERO.png",
+  "text": "Women's Trail Lite 24 Backpack Women's Technical Packs",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A87C9-NOW",
+  "name": "Trail Lite Speed 20 Backpack",
+  "title": "Trail Lite Speed 20 Backpack",
+  "type": "Hike",
+  "gender": "unisex",
+  "price": 180,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/technical-packs/hike-224525/trail-lite-speed-20-backpack-NF0A87C9?color=NOW",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1777314039/NF0A87C9NOW-HERO/Trail-Lite-Speed-20-Backpack-TNF-HERO.png",
+  "text": "Trail Lite Speed 20 Backpack Hike",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8BKH-NOW",
+  "name": "Trail Lite Speed 30 Backpack",
+  "title": "Trail Lite Speed 30 Backpack",
+  "type": "Backpacking",
+  "gender": "unisex",
+  "price": 200,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/technical-packs/backpacking-224524/trail-lite-speed-30-backpack-NF0A8BKH?color=NOW",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1786473398/NF0A8BKHNOW-HERO/Trail-Lite-Speed-30-Backpack-TNF-HERO.jpg",
+  "text": "Trail Lite Speed 30 Backpack Backpacking",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A81CG-NOW",
+  "name": "Trail Lite 50 Backpack",
+  "title": "Trail Lite 50 Backpack",
+  "type": "Trail Lite",
+  "gender": "unisex",
+  "price": 320,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/trail-lite-829830/trail-lite-50-backpack-NF0A81CG?color=NOW",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1763054248/NF0A81CGNOW-HERO/Trail-Lite-50-Backpack-TNF-HERO.png",
+  "text": "Trail Lite 50 Backpack Trail Lite",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A87C5-4GZ",
+  "name": "Trail Lite 36 Backpack",
+  "title": "Trail Lite 36 Backpack",
+  "type": "Trail Lite",
+  "gender": "unisex",
+  "price": 230,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/trail-lite-829830/trail-lite-36-backpack-NF0A87C5?color=4GZ",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723177878/NF0A87C54GZ-HERO/Trail-Lite-36-Backpack-TNF-HERO.png",
+  "text": "Trail Lite 36 Backpack Trail Lite",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8H2D-RF2",
+  "name": "Men's Freedom Insulated Jacket",
+  "title": "Men's Freedom Insulated Jacket",
+  "type": "Men's Snow",
+  "gender": "men",
+  "price": 430,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-snow-299293/mens-freedom-insulated-jacket-NF0A8H2D?color=RF2",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1783535108/NF0A8H2DRF2-HERO/Mens-Freedom-Insulated-Jacket-TNF-HERO.png",
+  "text": "Men's Freedom Insulated Jacket Men's Snow",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8H27-NLV",
+  "name": "Men's Freedom Bib",
+  "title": "Men's Freedom Bib",
+  "type": "Men's Snow Pants",
+  "gender": "men",
+  "price": 320,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-bottoms/mens-snow-pants-213197/mens-freedom-bib-NF0A8H27?color=NLV",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1783535048/NF0A8H27NLV-HERO/Mens-Freedom-Bib-TNF-HERO.png",
+  "text": "Men's Freedom Bib Men's Snow Pants",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A89GT-RL5",
+  "name": "Men's Yumiori Reversible Jacket",
+  "title": "Men's Yumiori Reversible Jacket",
+  "type": "Men's Fleece Full Zip",
+  "gender": "men",
+  "price": 250,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-fleece/mens-fleece-full-zip-829791/mens-yumiori-reversible-jacket-NF0A89GT?color=RL5",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1778196109/NF0A89GTRL5-HERO/Mens-Yumiori-Reversible-Jacket-TNF-HERO.png",
+  "text": "Men's Yumiori Reversible Jacket Men's Fleece Full Zip",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8D8W-7LY",
+  "name": "Men's Bergen Mid Waterproof Boots",
+  "title": "Men's Bergen Mid Waterproof Boots",
+  "type": "Men's Winter Boots",
+  "gender": "men",
+  "price": 200,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-winter-boots-213273/mens-bergen-mid-waterproof-boots-NF0A8D8W?color=7LY",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776115212/NF0A8D8W7LY-HERO/Mens-Bergen-Mid-Waterproof-Boots-TNF-HERO.png",
+  "text": "Men's Bergen Mid Waterproof Boots Men's Winter Boots",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8MSE-SR3",
+  "name": "Montana Edge Mitts",
+  "title": "Montana Edge Mitts",
+  "type": "Gloves",
+  "gender": "unisex",
+  "price": 130,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/shop-all/accessories/gloves-730284/montana-edge-mitts-NF0A8MSE?color=SR3",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1785954079/NF0A8MSESR3-HERO/Montana-Edge-Mitts-TNF-HERO.png",
+  "text": "Montana Edge Mitts Gloves",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8MSD-SR3",
+  "name": "Montana Edge Gloves",
+  "title": "Montana Edge Gloves",
+  "type": "Gloves",
+  "gender": "unisex",
+  "price": 130,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/shop-all/accessories/gloves-730284/montana-edge-gloves-NF0A8MSD?color=SR3",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1789773960/NF0A8MSDSR3-HERO/Montana-Edge-Gloves-TNF-HERO.png",
+  "text": "Montana Edge Gloves Gloves",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A52RQ-X86",
+  "name": "Base Camp Voyager Duffel—42L",
+  "title": "Base Camp Voyager Duffel—42L",
+  "type": "Duffel Bags",
+  "gender": "unisex",
+  "price": 200,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/luggage-and-duffels/duffel-bags-224547/base-camp-voyager-duffel42l-NF0A52RQ?color=X86",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1777659613/NF0A52RQX86-HERO/Base-Camp-Voyager-Duffel42L-TNF-HERO.png",
+  "text": "Base Camp Voyager Duffel—42L Duffel Bags",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8CHM-2H9",
+  "name": "Salty Bae Lined Beanie",
+  "title": "Salty Bae Lined Beanie",
+  "type": "Beanies",
+  "gender": "unisex",
+  "price": 45,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/shop-all/accessories/beanies-829866/salty-bae-lined-beanie-NF0A8CHM?color=2H9",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1781115706/NF0A8CHM2H9-HERO/Salty-Bae-Lined-Beanie-TNF-HERO.png",
+  "text": "Salty Bae Lined Beanie Beanies",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8HMN-WB6",
+  "name": "Salty Lined SE Beanie",
+  "title": "Salty Lined SE Beanie",
+  "type": "Beanies",
+  "gender": "unisex",
+  "price": 45,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/shop-all/accessories/beanies-829866/salty-lined-se-beanie-NF0A8HMN?color=WB6",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1785540041/NF0A8HMNWB6-HERO/Salty-Lined-SE-Beanie-TNF-HERO.png",
+  "text": "Salty Lined SE Beanie Beanies",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A89RB-JK3",
+  "name": "Men's Apex Insulated Etip Gloves",
+  "title": "Men's Apex Insulated Etip Gloves",
+  "type": "Men's Gloves",
+  "gender": "men",
+  "price": 80,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-accessories/mens-gloves-213238/mens-apex-insulated-etip-gloves-NF0A89RB?color=JK3",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723164937/NF0A89RBJK3-HERO/Mens-Apex-Insulated-Etip-Gloves-TNF-HERO.png",
+  "text": "Men's Apex Insulated Etip Gloves Men's Gloves",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8H0M-8K2",
+  "name": "Men's Aconcagua Jacket",
+  "title": "Men's Aconcagua Jacket",
+  "type": "Men's Insulated & Down",
+  "gender": "men",
+  "price": 270,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-aconcagua-jacket-NF0A8H0M?color=8K2",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1779924106/NF0A8H0M8K2-HERO/Mens-Aconcagua-Jacket-TNF-HERO.png",
+  "text": "Men's Aconcagua Jacket Men's Insulated & Down",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8D8X-6S4",
+  "name": "Clyffe Mid Insulated Waterproof Shoes",
+  "title": "Clyffe Mid Insulated Waterproof Shoes",
+  "type": "Women's Winter Boots",
+  "gender": "women",
+  "price": 200,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-footwear/womens-winter-boots-213481/clyffe-mid-insulated-waterproof-shoes-NF0A8D8X?color=6S4",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1753295558/NF0A8D8X6S4-HERO/Clyffe-Mid-Insulated-Waterproof-Shoes-TNF-HERO.png",
+  "text": "Clyffe Mid Insulated Waterproof Shoes Women's Winter Boots",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A5LVZ-92P",
+  "name": "Men's Chilkat V 400 Waterproof Boots",
+  "title": "Men's Chilkat V 400 Waterproof Boots",
+  "type": "Men's Winter Boots",
+  "gender": "men",
+  "price": 220,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-winter-boots-213273/mens-chilkat-v-400-waterproof-boots-NF0A5LVZ?color=92P",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723429926/NF0A5LVZ92P-HERO/Mens-Chilkat-V-400-Waterproof-Boots-TNF-Toasted-BrownTNF-Black-HERO.png",
+  "text": "Men's Chilkat V 400 Waterproof Boots Men's Winter Boots",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A5LW3-YW2",
+  "name": "Men's Chilkat V Lace Waterproof Boots",
+  "title": "Men's Chilkat V Lace Waterproof Boots",
+  "type": "Men's Winter Boots",
+  "gender": "men",
+  "price": 180,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-winter-boots-213273/mens-chilkat-v-lace-waterproof-boots-NF0A5LW3?color=YW2",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723265422/NF0A5LW3YW2-HERO/Mens-Chilkat-V-Lace-Waterproof-Boots-TNF-Utility-BrownTNF-Black-HERO.png",
+  "text": "Men's Chilkat V Lace Waterproof Boots Men's Winter Boots",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A817Q-BI4",
+  "name": "Men's Back-To-Berkeley IV Leather Waterproof Boots",
+  "title": "Men's Back-To-Berkeley IV Leather Waterproof Boots",
+  "type": "Men's Boots",
+  "gender": "men",
+  "price": 220,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-boots-695280/mens-back-to-berkeley-iv-leather-waterproof-boots-NF0A817Q?color=BI4",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776115369/NF0A817QBI4-HERO/Mens-BackToBerkeley-IV-Leather-Waterproof-Boots-TNF-HERO.png",
+  "text": "Men's Back-To-Berkeley IV Leather Waterproof Boots Men's Boots",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A5ABT-4H0",
+  "name": "Men's Freedom Bibs",
+  "title": "Men's Freedom Bibs",
+  "type": "Men's Snow Pants",
+  "gender": "men",
+  "price": 320,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-bottoms/mens-snow-pants-213197/mens-freedom-bibs-NF0A5ABT?color=4H0",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723274355/NF0A5ABT4H0-HERO/Mens-Freedom-Bibs-TNF-HERO.png",
+  "text": "Men's Freedom Bibs Men's Snow Pants",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8CGZ-DYY",
+  "name": "Salty Lined Beanie",
+  "title": "Salty Lined Beanie",
+  "type": "Beanies",
+  "gender": "unisex",
+  "price": 35,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/shop-all/accessories/beanies-829866/salty-lined-beanie-NF0A8CGZ?color=DYY",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1751400387/NF0A8CGZDYY-HERO/Salty-Lined-Beanie-TNF-HERO.png",
+  "text": "Salty Lined Beanie Beanies",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8H2B-JK3",
+  "name": "Men's Freedom Insulated Pant",
+  "title": "Men's Freedom Insulated Pant",
+  "type": "Men's Snow Pants",
+  "gender": "men",
+  "price": 290,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-bottoms/mens-snow-pants-213197/mens-freedom-insulated-pant-NF0A8H2B?color=JK3",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1783535080/NF0A8H2BJK3-HERO/Mens-Freedom-Insulated-Pant-TNF-HERO.png",
+  "text": "Men's Freedom Insulated Pant Men's Snow Pants",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A52S3-GKQ",
+  "name": "Base Camp Voyager Duffel—62L",
+  "title": "Base Camp Voyager Duffel—62L",
+  "type": "Duffel Bags",
+  "gender": "unisex",
+  "price": 220,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/bags-and-gear/luggage-and-duffels/duffel-bags-224547/base-camp-voyager-duffel62l-NF0A52S3?color=GKQ",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1761157190/NF0A52S3GKQ-HERO/Base-Camp-Voyager-Duffel62L-TNF-HERO.png",
+  "text": "Base Camp Voyager Duffel—62L Duffel Bags",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A4QYX-RF2",
+  "name": "Men's HMLYN Down Parka",
+  "title": "Men's HMLYN Down Parka",
+  "type": "Men's Parkas",
+  "gender": "men",
+  "price": 540,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-parkas-300775/mens-hmlyn-down-parka-NF0A4QYX?color=RF2",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1781115626/NF0A4QYXRF2-HERO/Mens-HMLYN-Down-Parka-TNF-HERO.png",
+  "text": "Men's HMLYN Down Parka Men's Parkas",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8GDA-N4J",
+  "name": "Montana Gloves",
+  "title": "Montana Gloves",
+  "type": "Gloves",
+  "gender": "unisex",
+  "price": 90,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/shop-all/accessories/gloves-730284/montana-gloves-NF0A8GDA?color=N4J",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1785522179/NF0A8GDAN4J-HERO/Montana-Gloves-TNF-HERO.png",
+  "text": "Montana Gloves Gloves",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8D24-8K2",
+  "name": "Men's Hydrenalite Down Vest",
+  "title": "Men's Hydrenalite Down Vest",
+  "type": "Men's Vests",
+  "gender": "men",
+  "price": 235,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-vests-299291/mens-hydrenalite-down-vest-NF0A8D24?color=8K2",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1751562317/NF0A8D248K2-HERO/Mens-Hydrenalite-Down-Vest-TNF-HERO.png",
+  "text": "Men's Hydrenalite Down Vest Men's Vests",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A7WYE-RF2",
+  "name": "Men's THERMOBALL Snow Triclimate Jacket",
+  "title": "Men's THERMOBALL Snow Triclimate Jacket",
+  "type": "Men's Insulated & Down",
+  "gender": "men",
+  "price": 540,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-insulated-and-down-300771/mens-thermoball-snow-triclimate-jacket-NF0A7WYE?color=RF2",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1781115662/NF0A7WYERF2-HERO/Mens-THERMOBALL-Snow-Triclimate-Jacket-TNF-HERO.png",
+  "text": "Men's THERMOBALL Snow Triclimate Jacket Men's Insulated & Down",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A7UJP-8UR",
+  "name": "Men's Antora Triclimate Jacket",
+  "title": "Men's Antora Triclimate Jacket",
+  "type": "Men's Triclimates",
+  "gender": "men",
+  "price": 360,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-triclimates-299292/mens-antora-triclimate-jacket-NF0A7UJP?color=8UR",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1723259359/NF0A7UJP8UR-HERO/Mens-Antora-Triclimate-Jacket-TNF-HERO.png",
+  "text": "Men's Antora Triclimate Jacket Men's Triclimates",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8GDC-QLI",
+  "name": "Women's Montana Gloves",
+  "title": "Women's Montana Gloves",
+  "type": "Women's Gloves",
+  "gender": "women",
+  "price": 90,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/womens/womens-accessories/womens-gloves-213446/womens-montana-gloves-NF0A8GDC?color=QLI",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1785954045/NF0A8GDCQLI-HERO/Womens-Montana-Gloves-TNF-HERO.png",
+  "text": "Women's Montana Gloves Women's Gloves",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A3MKH-S7K",
+  "name": "Men's THERMOBALL Traction Bootie",
+  "title": "Men's THERMOBALL Traction Bootie",
+  "type": "Men's Slippers",
+  "gender": "men",
+  "price": 100,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-footwear/mens-slippers-695279/mens-thermoball-traction-bootie-NF0A3MKH?color=S7K",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1776115631/NF0A3MKHS7K-HERO/Mens-THERMOBALL-Traction-Bootie-TNF-HERO.png",
+  "text": "Men's THERMOBALL Traction Bootie Men's Slippers",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A88JQ-QLI",
+  "name": "Montana Puffer Mitts",
+  "title": "Montana Puffer Mitts",
+  "type": "Gloves",
+  "gender": "unisex",
+  "price": 95,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/shop-all/accessories/gloves-730284/montana-puffer-mitts-NF0A88JQ?color=QLI",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1750967088/NF0A88JQQLI-HERO/Montana-Puffer-Mitts-TNF-HERO.png",
+  "text": "Montana Puffer Mitts Gloves",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8H24-V7B",
+  "name": "Men's Chakal Jacket",
+  "title": "Men's Chakal Jacket",
+  "type": "Men's Snow",
+  "gender": "men",
+  "price": 490,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-snow-299293/mens-chakal-jacket-NF0A8H24?color=V7B",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1783535025/NF0A8H24V7B-HERO/Mens-Chakal-Jacket-TNF-HERO.png",
+  "text": "Men's Chakal Jacket Men's Snow",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8H25-JK3",
+  "name": "Men's Chakal Pant",
+  "title": "Men's Chakal Pant",
+  "type": "Men's Snow Pants",
+  "gender": "men",
+  "price": 330,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-bottoms/mens-snow-pants-213197/mens-chakal-pant-NF0A8H25?color=JK3",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1783535040/NF0A8H25JK3-HERO/Mens-Chakal-Pant-TNF-HERO.png",
+  "text": "Men's Chakal Pant Men's Snow Pants",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:the north face",
+  "brand": "The North Face",
+  "id": "tnf-NF0A8C8A-2MB",
+  "name": "Men's GORE-TEX Dawnstrike Insulated Jacket",
+  "title": "Men's GORE-TEX Dawnstrike Insulated Jacket",
+  "type": "Men's Snow",
+  "gender": "men",
+  "price": 660,
+  "currency": "CAD",
+  "productUrl": "https://www.thenorthface.com/en-ca/p/mens/mens-jackets-and-vests/mens-snow-299293/mens-gore-tex-dawnstrike-insulated-jacket-NF0A8C8A?color=2MB",
+  "imageUrl": "https://assets.thenorthface.com/images/t_Thumbnail/v1785522136/NF0A8C8A2MB-HERO/Mens-GORETEX-Dawnstrike-Insulated-Jacket-TNF-HERO.png",
+  "text": "Men's GORE-TEX Dawnstrike Insulated Jacket Men's Snow",
+  "checkedAt": "2026-11-15"
  }
 ]

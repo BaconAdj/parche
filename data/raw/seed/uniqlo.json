@@ -36,13 +36,13 @@
   "name": "Sweat Wide Pants",
   "title": "Sweat Wide Pants",
   "type": "",
-  "gender": "unisex",
-  "price": 49.9,
+  "gender": "men",
+  "price": 39.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E471809-000/00",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E471809-000/00?colorDisplayCode=59",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/471809/item/cagoods_59_471809_3x4.jpg?width=600",
-  "text": "Sweat Wide Pants  https://www.uniqlo.com/ca/en/search?q=men%20linen%20shirt",
-  "checkedAt": "2026-10-23"
+  "text": "Sweat Wide Pants MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -87,7 +87,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E475344-000/00?colorDisplayCode=32",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/475344/item/cagoods_32_475344_3x4.jpg?width=600",
   "text": "Jersey Barrel Pants WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -96,13 +96,13 @@
   "name": "AIRism Cotton Oversized T-Shirt | Half-Sleeve",
   "title": "AIRism Cotton Oversized T-Shirt | Half-Sleeve",
   "type": "",
-  "gender": "unisex",
+  "gender": "men",
   "price": 24.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E465185-000/00",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E465185-000/00?colorDisplayCode=18",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/465185/item/cagoods_18_465185_3x4.jpg?width=600",
-  "text": "AIRism Cotton Oversized T-Shirt | Half-Sleeve  https://www.uniqlo.com/ca/en/search?q=men%20linen%20shirt",
-  "checkedAt": "2026-10-23"
+  "text": "AIRism Cotton Oversized T-Shirt | Half-Sleeve MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -127,12 +127,12 @@
   "title": "Sweat Straight Pants",
   "type": "",
   "gender": "women",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E483285-000/00?colorDisplayCode=09",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/483285/item/cagoods_59_483285_3x4.jpg?width=600",
-  "text": "Sweat Straight Pants  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/483285/item/cagoods_09_483285_3x4.jpg?width=600",
+  "text": "Sweat Straight Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -142,12 +142,12 @@
   "title": "Sweat Wide Pants | Tall",
   "type": "",
   "gender": "men",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E473715-000/00?colorDisplayCode=08",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/473715/item/cagoods_69_473715_3x4.jpg?width=600",
-  "text": "Sweat Wide Pants | Tall  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/473715/item/cagoods_08_473715_3x4.jpg?width=600",
+  "text": "Sweat Wide Pants | Tall MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -157,12 +157,12 @@
   "title": "Sweat Wide Pants | Tall",
   "type": "",
   "gender": "women",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E481249-000/00?colorDisplayCode=03",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/481249/item/cagoods_03_481249_3x4.jpg?width=600",
-  "text": "Sweat Wide Pants | Tall  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "text": "Sweat Wide Pants | Tall WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -172,12 +172,12 @@
   "title": "Sweat Wide Pants | Tall",
   "type": "",
   "gender": "women",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E485618-000/00?colorDisplayCode=39",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485618/item/cagoods_39_485618_3x4.jpg?width=600",
-  "text": "Sweat Wide Pants | Tall  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "text": "Sweat Wide Pants | Tall WOMEN, XS",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -187,12 +187,12 @@
   "title": "Sweat Wide Pants",
   "type": "",
   "gender": "women",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479620-000/00?colorDisplayCode=39",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479620/item/cagoods_69_479620_3x4.jpg?width=600",
-  "text": "Sweat Wide Pants  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479620/item/cagoods_39_479620_3x4.jpg?width=600",
+  "text": "Sweat Wide Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -206,8 +206,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487959-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487959/item/cagoods_09_487959_3x4.jpg?width=600",
-  "text": "Smart Easy Pants  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "text": "Smart Easy Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -217,12 +217,12 @@
   "title": "Smart Wide Straight Pants | Check",
   "type": "",
   "gender": "women",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489415-000/00?colorDisplayCode=37",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489415/item/cagoods_37_489415_3x4.jpg?width=600",
-  "text": "Smart Wide Straight Pants | Check  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "text": "Smart Wide Straight Pants | Check WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -236,8 +236,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488866-000/00?colorDisplayCode=69",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488866/item/cagoods_69_488866_3x4.jpg?width=600",
-  "text": "Smart Easy Pants | Striped  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "text": "Smart Easy Pants | Striped WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -266,8 +266,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487185-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487185/item/cagoods_09_487185_3x4.jpg?width=600",
-  "text": "Warm Lined Pants  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "text": "Warm Lined Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -281,8 +281,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489190-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489190/item/cagoods_08_489190_3x4.jpg?width=600",
-  "text": "Pleated Culotte  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "text": "Pleated Culotte WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -295,9 +295,9 @@
   "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486095-000/00?colorDisplayCode=03",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486095/item/cagoods_38_486095_3x4.jpg?width=600",
-  "text": "Washable Knit Pants  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486095/item/cagoods_03_486095_3x4.jpg?width=600",
+  "text": "Washable Knit Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -306,13 +306,13 @@
   "name": "Fleece Jogger Pants",
   "title": "Fleece Jogger Pants",
   "type": "",
-  "gender": "women",
-  "price": 39.9,
+  "gender": "men",
+  "price": 29.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491268-000/00?colorDisplayCode=08",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491268/item/cagoods_54_491268_3x4.jpg?width=600",
-  "text": "Fleece Jogger Pants  https://www.uniqlo.com/ca/en/search?q=women%20pants",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491268/item/cagoods_08_491268_3x4.jpg?width=600",
+  "text": "Fleece Jogger Pants MEN, S-XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -372,7 +372,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E482766-000/00?colorDisplayCode=01",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482766/item/cagoods_01_482766_3x4.jpg?width=600",
   "text": "Waffle Henley Neck T-Shirt | Long Sleeve MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -426,13 +426,13 @@
   "name": "SUPIMA® Cotton T-Shirt",
   "title": "SUPIMA® Cotton T-Shirt",
   "type": "",
-  "gender": "unisex",
+  "gender": "men",
   "price": 24.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E455365-000/00?colorDisplayCode=51",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/455365/item/cagoods_68_455365_3x4.jpg?width=600",
-  "text": "SUPIMA® Cotton T-Shirt  https://www.uniqlo.com/ca/en/search?q=women%20shirt",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/455365/item/cagoods_51_455365_3x4.jpg?width=600",
+  "text": "SUPIMA® Cotton T-Shirt MEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -471,13 +471,13 @@
   "name": "Flannel Boxy Shirt Long Sleeve",
   "title": "Flannel Boxy Shirt Long Sleeve",
   "type": "",
-  "gender": "unisex",
+  "gender": "women",
   "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488559-000/00?colorDisplayCode=30",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488559/item/cagoods_30_488559_3x4.jpg?width=600",
-  "text": "Flannel Boxy Shirt Long Sleeve  https://www.uniqlo.com/ca/en/search?q=women%20shirt",
-  "checkedAt": "2026-10-23"
+  "text": "Flannel Boxy Shirt Long Sleeve WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -486,13 +486,13 @@
   "name": "Flannel Boxy Shirt Long Sleeve",
   "title": "Flannel Boxy Shirt Long Sleeve",
   "type": "",
-  "gender": "unisex",
+  "gender": "women",
   "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489406-000/00?colorDisplayCode=30",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489406/item/cagoods_30_489406_3x4.jpg?width=600",
-  "text": "Flannel Boxy Shirt Long Sleeve  https://www.uniqlo.com/ca/en/search?q=women%20shirt",
-  "checkedAt": "2026-10-23"
+  "text": "Flannel Boxy Shirt Long Sleeve WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -501,13 +501,13 @@
   "name": "Flannel Boxy Shirt Long Sleeve",
   "title": "Flannel Boxy Shirt Long Sleeve",
   "type": "",
-  "gender": "unisex",
+  "gender": "women",
   "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489407-000/00?colorDisplayCode=32",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489407/item/cagoods_32_489407_3x4.jpg?width=600",
-  "text": "Flannel Boxy Shirt Long Sleeve  https://www.uniqlo.com/ca/en/search?q=women%20shirt",
-  "checkedAt": "2026-10-23"
+  "text": "Flannel Boxy Shirt Long Sleeve WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -531,13 +531,13 @@
   "name": "Flannel Shirt Long Sleeve",
   "title": "Flannel Shirt Long Sleeve",
   "type": "",
-  "gender": "women",
+  "gender": "men",
   "price": 49.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E486600-000/00?colorDisplayCode=58",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486600/item/cagoods_34_486600_3x4.jpg?width=600",
-  "text": "Flannel Shirt Long Sleeve  https://www.uniqlo.com/ca/en/search?q=women%20shirt",
-  "checkedAt": "2026-10-23"
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486600-000/00?colorDisplayCode=24",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486600/item/cagoods_24_486600_3x4.jpg?width=600",
+  "text": "Flannel Shirt Long Sleeve MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -552,7 +552,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488739-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488739/item/cagoods_09_488739_3x4.jpg?width=600",
   "text": "Jersey Easy Work Pants MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -567,7 +567,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E484875-000/00?colorDisplayCode=32",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/484875/item/cagoods_32_484875_3x4.jpg?width=600",
   "text": "Barrel Pants MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -582,7 +582,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491216-000/00?colorDisplayCode=32",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491216/item/cagoods_32_491216_3x4.jpg?width=600",
   "text": "Barrel Pants | Tall MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -592,12 +592,12 @@
   "title": "Barrel Chino Pants",
   "type": "",
   "gender": "men",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E487214-000/00?colorDisplayCode=09",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487214/item/cagoods_09_487214_3x4.jpg?width=600",
-  "text": "Barrel Chino Pants MEN, 29 inch-32 inch",
-  "checkedAt": "2026-11-01"
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487214-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487214/item/cagoods_07_487214_3x4.jpg?width=600",
+  "text": "Barrel Chino Pants MEN, 29 inch-30 inch",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -607,12 +607,12 @@
   "title": "Easy Wide Pants",
   "type": "",
   "gender": "men",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487270-000/00?colorDisplayCode=34",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487270/item/cagoods_34_487270_3x4.jpg?width=600",
-  "text": "Easy Wide Pants  https://www.uniqlo.com/ca/en/search?q=men%20pants",
-  "checkedAt": "2026-10-23"
+  "text": "Easy Wide Pants MEN, S-L",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -717,7 +717,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479791-000/00?colorDisplayCode=42",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479791/item/cagoods_42_479791_3x4.jpg?width=600",
   "text": "Soft Knitted Fleece Crew Neck T-Shirt MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -726,13 +726,13 @@
   "name": "Kengo Kuma Short Sleeve T-Shirt",
   "title": "Kengo Kuma Short Sleeve T-Shirt",
   "type": "",
-  "gender": "unisex",
+  "gender": "men",
   "price": 29.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488728-000/00?colorDisplayCode=00",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488728/item/cagoods_00_488728_3x4.jpg?width=600",
-  "text": "Kengo Kuma Short Sleeve T-Shirt  https://www.uniqlo.com/ca/en/search?q=men%20shirt",
-  "checkedAt": "2026-10-23"
+  "text": "Kengo Kuma Short Sleeve T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -741,13 +741,13 @@
   "name": "Sou Fujimoto Short Sleeve T-Shirt",
   "title": "Sou Fujimoto Short Sleeve T-Shirt",
   "type": "",
-  "gender": "unisex",
+  "gender": "men",
   "price": 29.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489391-000/00?colorDisplayCode=00",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489391/item/cagoods_00_489391_3x4.jpg?width=600",
-  "text": "Sou Fujimoto Short Sleeve T-Shirt  https://www.uniqlo.com/ca/en/search?q=men%20shirt",
-  "checkedAt": "2026-10-23"
+  "text": "Sou Fujimoto Short Sleeve T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -756,13 +756,13 @@
   "name": "Flannel Boxy Long Sleeve Shirt",
   "title": "Flannel Boxy Long Sleeve Shirt",
   "type": "",
-  "gender": "unisex",
+  "gender": "women",
   "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489508-000/00?colorDisplayCode=16",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489508/item/cagoods_16_489508_3x4.jpg?width=600",
-  "text": "Flannel Boxy Long Sleeve Shirt  https://www.uniqlo.com/ca/en/search?q=men%20shirt",
-  "checkedAt": "2026-10-23"
+  "text": "Flannel Boxy Long Sleeve Shirt WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -802,12 +802,12 @@
   "title": "Merino Crew Neck Sweater",
   "type": "",
   "gender": "women",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E469410-000/00?colorDisplayCode=69",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/469410/item/cagoods_69_469410_3x4.jpg?width=600",
   "text": "Merino Crew Neck Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -822,7 +822,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491606-000/00?colorDisplayCode=01",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491606/item/cagoods_01_491606_3x4.jpg?width=600",
   "text": "3D Knit Merino Blend Polo Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -834,10 +834,10 @@
   "gender": "women",
   "price": 29.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E485306-000/00?colorDisplayCode=01",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/485306/item/goods_01_485306_3x4.jpg?width=600",
-  "text": "Merino Crew Neck Sweater Short Sleeve WOMEN, XS-L",
-  "checkedAt": "2026-11-01"
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485306-000/00?colorDisplayCode=05",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485306/item/cagoods_05_485306_3x4.jpg?width=600",
+  "text": "Merino Crew Neck Sweater Short Sleeve WOMEN, XS",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -849,10 +849,10 @@
   "gender": "women",
   "price": 39.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E485321-000/00?colorDisplayCode=08",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485321/item/cagoods_08_485321_3x4.jpg?width=600",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485321-000/00?colorDisplayCode=14",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485321/item/cagoods_14_485321_3x4.jpg?width=600",
   "text": "Women 3D Knit Merino Blend Polo Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -866,8 +866,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488758-000/00?colorDisplayCode=30",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488758/item/cagoods_30_488758_3x4.jpg?width=600",
-  "text": "Double Face Crew Neck Sweater MEN, M-XL",
-  "checkedAt": "2026-11-01"
+  "text": "Double Face Crew Neck Sweater MEN, L-XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -881,8 +881,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488210-000/00?colorDisplayCode=16",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488210/item/cagoods_16_488210_3x4.jpg?width=600",
-  "text": "Merino Blend Henley Neck Sweater | Striped WOMEN, XS-L",
-  "checkedAt": "2026-11-01"
+  "text": "Merino Blend Henley Neck Sweater | Striped WOMEN, XS",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -967,12 +967,12 @@
   "title": "Cashmere Crew Neck Sweater",
   "type": "",
   "gender": "women",
-  "price": 129.9,
+  "price": 109.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E465734-000/00?colorDisplayCode=13",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/465734/item/cagoods_13_465734_3x4.jpg?width=600",
   "text": "Cashmere Crew Neck Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1002,7 +1002,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E465736-000/00?colorDisplayCode=03",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/465736/item/cagoods_03_465736_3x4.jpg?width=600",
   "text": "Cashmere V Neck Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1017,7 +1017,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E465735-000/00?colorDisplayCode=68",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/465735/item/cagoods_68_465735_3x4.jpg?width=600",
   "text": "Cashmere Turtleneck Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1077,7 +1077,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E469765-000/00?colorDisplayCode=78",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/469765/item/cagoods_78_469765_3x4.jpg?width=600",
   "text": "HEATTECH Cashmere Blend T-Shirt | Extra Warm WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1092,7 +1092,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E481441-000/00?colorDisplayCode=07",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/481441/item/cagoods_07_481441_3x4.jpg?width=600",
   "text": "HEATTECH Extra Warm Cashmere Blend T-Shirt MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1107,7 +1107,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487931-000/00?colorDisplayCode=38",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487931/item/cagoods_38_487931_3x4.jpg?width=600",
   "text": "Fluffy Cashmere Relaxed V Neck Sweater WOMEN, XXS-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1164,10 +1164,10 @@
   "gender": "men",
   "price": 199.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E486176-000/00",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486176-000/00?colorDisplayCode=05",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486176/item/cagoods_05_486176_3x4.jpg?width=600",
-  "text": "Seamless Down Parka  https://www.uniqlo.com/ca/en/search?q=heattech%20beanie%20scarf",
-  "checkedAt": "2026-10-23"
+  "text": "Seamless Down Parka MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1182,7 +1182,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E482325-000/00?colorDisplayCode=69",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482325/item/cagoods_69_482325_3x4.jpg?width=600",
   "text": "Washable Milano Ribbed Skipper Polo Sweater MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1212,7 +1212,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E480966-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/480966/item/cagoods_09_480966_3x4.jpg?width=600",
   "text": "HEATTECH Ultra Warm Leggings WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1315,9 +1315,9 @@
   "price": 29.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E482299-000/00?colorDisplayCode=08",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482299/item/cagoods_56_482299_3x4.jpg?width=600",
-  "text": "DRY-EX T-Shirt  https://www.uniqlo.com/ca/en/search?q=dry-ex",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482299/item/cagoods_08_482299_3x4.jpg?width=600",
+  "text": "DRY-EX T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1331,8 +1331,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E483970-000/00?colorDisplayCode=03",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/483970/item/cagoods_03_483970_3x4.jpg?width=600",
-  "text": "DRY-EX T-Shirt | Patterned  https://www.uniqlo.com/ca/en/search?q=dry-ex",
-  "checkedAt": "2026-10-23"
+  "text": "DRY-EX T-Shirt | Patterned MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1346,8 +1346,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E485564-000/00?colorDisplayCode=69",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485564/item/cagoods_69_485564_3x4.jpg?width=600",
-  "text": "Dry Pique Polo Shirt  https://www.uniqlo.com/ca/en/search?q=dry-ex",
-  "checkedAt": "2026-10-23"
+  "text": "Dry Pique Polo Shirt MEN, S-XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1361,8 +1361,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E482304-000/00?colorDisplayCode=00",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482304/item/cagoods_00_482304_3x4.jpg?width=600",
-  "text": "Dry Pique Polo Shirt  https://www.uniqlo.com/ca/en/search?q=dry-ex",
-  "checkedAt": "2026-10-23"
+  "text": "Dry Pique Polo Shirt MEN, S-XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1376,8 +1376,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E485565-000/00?colorDisplayCode=55",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485565/item/cagoods_55_485565_3x4.jpg?width=600",
-  "text": "Dry Pique Striped Polo Shirt  https://www.uniqlo.com/ca/en/search?q=dry-ex",
-  "checkedAt": "2026-10-23"
+  "text": "Dry Pique Striped Polo Shirt MEN, S-XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1405,9 +1405,9 @@
   "price": 9.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E465187-000/00?colorDisplayCode=26",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/465187/item/cagoods_69_465187_3x4.jpg?width=600",
-  "text": "Dry Colour T-Shirt  https://www.uniqlo.com/ca/en/search?q=dry-ex",
-  "checkedAt": "2026-10-23"
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/465187/item/cagoods_26_465187_3x4.jpg?width=600",
+  "text": "Dry Colour T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1451,8 +1451,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E478579-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/478579/item/cagoods_09_478579_3x4.jpg?width=600",
-  "text": "Seamless Down Long Coat  https://www.uniqlo.com/ca/en/search?q=coat",
-  "checkedAt": "2026-10-23"
+  "text": "Seamless Down Long Coat WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1466,8 +1466,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E478280-000/00?colorDisplayCode=07",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/478280/item/cagoods_07_478280_3x4.jpg?width=600",
-  "text": "Seamless Down Coat  https://www.uniqlo.com/ca/en/search?q=coat",
-  "checkedAt": "2026-10-23"
+  "text": "Seamless Down Coat MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1552,12 +1552,12 @@
   "title": "Jersey Tailored Jacket",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489108-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489108/item/cagoods_09_489108_3x4.jpg?width=600",
-  "text": "Jersey Tailored Jacket MEN, S-L",
-  "checkedAt": "2026-11-01"
+  "text": "Jersey Tailored Jacket MEN, M-L",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1782,7 +1782,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488858-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/488858/item/goods_09_488858_3x4.jpg?width=600",
   "text": "Utility Backpack MEN, One size",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1792,12 +1792,12 @@
   "title": "Baggy Jeans",
   "type": "",
   "gender": "women",
-  "price": 59.9,
+  "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488450-000/00?colorDisplayCode=65",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488450/item/cagoods_65_488450_3x4.jpg?width=600",
-  "text": "Baggy Jeans  https://www.uniqlo.com/ca/en/search?q=bag",
-  "checkedAt": "2026-10-23"
+  "text": "Baggy Jeans WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1841,8 +1841,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479224-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/479224/item/goods_09_479224_3x4.jpg?width=600",
-  "text": "Storage Bag PUFFTECH  https://www.uniqlo.com/ca/en/search?q=bag",
-  "checkedAt": "2026-10-23"
+  "text": "Storage Bag PUFFTECH WOMEN, M-L",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -1946,8 +1946,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E473696-000/00?colorDisplayCode=38",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/473696/item/cagoods_38_473696_3x4.jpg?width=600",
-  "text": "Linen Cotton Shorts  https://www.uniqlo.com/ca/en/search?q=linen",
-  "checkedAt": "2026-10-23"
+  "text": "Linen Cotton Shorts WOMEN, XXS",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2037,7 +2037,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486199-000/00?colorDisplayCode=69",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/486199/item/goods_69_486199_3x4.jpg?width=600",
   "text": "UV Protection Compact Umbrella MEN, One size",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2067,7 +2067,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E485310-000/00?colorDisplayCode=41",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485310/item/cagoods_41_485310_3x4.jpg?width=600",
   "text": "Souffle Yarn Crew Neck Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2079,10 +2079,10 @@
   "gender": "women",
   "price": 99.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E469871-000/00",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E469871-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/469871/item/cagoods_09_469871_3x4.jpg?width=600",
-  "text": "PUFFTECH Parka  https://www.uniqlo.com/ca/en/search?q=umbrella",
-  "checkedAt": "2026-10-23"
+  "text": "PUFFTECH Parka WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2112,7 +2112,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E453754-000/00?colorDisplayCode=31",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/453754/item/cagoods_31_453754_3x4.jpg?width=600",
   "text": "Washable Milano Ribbed Crew Neck Sweater MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2127,7 +2127,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489191-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489191/item/cagoods_08_489191_3x4.jpg?width=600",
   "text": "Brushed Jersey Barrel Leg Pants WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2137,12 +2137,12 @@
   "title": "Crew Neck T-Shirt",
   "type": "",
   "gender": "men",
-  "price": 19.9,
+  "price": 24.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E422992-000/00",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E422992-000/00?colorDisplayCode=00",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/422992/item/cagoods_00_422992_3x4.jpg?width=600",
-  "text": "Crew Neck T-Shirt  https://www.uniqlo.com/ca/en/search?q=umbrella",
-  "checkedAt": "2026-10-23"
+  "text": "Crew Neck T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2156,8 +2156,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486320-000/00?colorDisplayCode=01",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486320/item/cagoods_01_486320_3x4.jpg?width=600",
-  "text": "Washable Knit V Neck Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "text": "Washable Knit V Neck Sweater WOMEN, XS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2184,10 +2184,10 @@
   "gender": "women",
   "price": 59.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E482281-000/00",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482281-000/00?colorDisplayCode=07",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482281/item/cagoods_07_482281_3x4.jpg?width=600",
-  "text": "EZY Wide Straight Jeans  https://www.uniqlo.com/ca/en/search?q=umbrella",
-  "checkedAt": "2026-10-23"
+  "text": "EZY Wide Straight Jeans WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2202,7 +2202,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479000-000/00?colorDisplayCode=31",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479000/item/cagoods_31_479000_3x4.jpg?width=600",
   "text": "Barrel Jeans WOMEN, 22 inch-34 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2247,7 +2247,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E480342-000/00?colorDisplayCode=10",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/480342/item/cagoods_10_480342_3x4.jpg?width=600",
   "text": "HEATTECH Extra Warm Cashmere Blend T-Shirt | Scoop Neck WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2262,7 +2262,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487201-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/487201/item/goods_09_487201_3x4.jpg?width=600",
   "text": "HEATTECH Extra Warm Cashmere Leggings WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2292,7 +2292,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479525-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479525/item/cagoods_09_479525_3x4.jpg?width=600",
   "text": "HEATTECH Ultra Warm T-Shirt MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2307,7 +2307,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479538-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/479538/item/goods_09_479538_3x4.jpg?width=600",
   "text": "HEATTECH Ultra Warm Tights MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2322,7 +2322,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E478965-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/478965/item/cagoods_09_478965_3x4.jpg?width=600",
   "text": "HEATTECH Ultra Warm Crew Neck T-Shirt WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2332,12 +2332,12 @@
   "title": "HEATTECH Active Leggings",
   "type": "",
   "gender": "women",
-  "price": 39.9,
+  "price": 29.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487609-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487609/item/cagoods_09_487609_3x4.jpg?width=600",
   "text": "HEATTECH Active Leggings WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -2352,7 +2352,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487128-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487128/item/cagoods_08_487128_3x4.jpg?width=600",
   "text": "HEATTECH Extra Warm Pile Lined Tights WOMEN, M-L",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3027,7 +3027,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486928-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/486928/item/goods_08_486928_3x4.jpg?width=600",
   "text": "HEATTECH Tights MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3042,7 +3042,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E485815-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/485815/item/goods_09_485815_3x4.jpg?width=600",
   "text": "HEATTECH Leggings WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3052,12 +3052,12 @@
   "title": "HEATTECH Active Leggings | Tall",
   "type": "",
   "gender": "women",
-  "price": 39.9,
+  "price": 29.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E490472-000/00?colorDisplayCode=39",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/490472/item/cagoods_39_490472_3x4.jpg?width=600",
   "text": "HEATTECH Active Leggings | Tall WOMEN, XS-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3072,7 +3072,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487175-000/00?colorDisplayCode=07",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/487175/item/goods_07_487175_3x4.jpg?width=600",
   "text": "HEATTECH Extra Warm Cashmere Tights MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3087,7 +3087,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479435-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/479435/item/goods_08_479435_3x4.jpg?width=600",
   "text": "HEATTECH Tights MEN, XS-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3102,7 +3102,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487126-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487126/item/cagoods_09_487126_3x4.jpg?width=600",
   "text": "HEATTECH Leg Shaper Tights WOMEN, M-L",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3117,7 +3117,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491088-000/00?colorDisplayCode=04",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491088/item/cagoods_04_491088_3x4.jpg?width=600",
   "text": "HEATTECH Knitted Ribbed Tights WOMEN, M-L",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3132,7 +3132,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487124-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487124/item/cagoods_08_487124_3x4.jpg?width=600",
   "text": "HEATTECH Knitted Tights WOMEN, M-L",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3142,12 +3142,12 @@
   "title": "Cashmere Scarf",
   "type": "",
   "gender": "women",
-  "price": 79.9,
+  "price": 59.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486760-000/00?colorDisplayCode=62",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/486760/item/goods_62_486760_3x4.jpg?width=600",
   "text": "Cashmere Scarf WOMEN, One size",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3162,7 +3162,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489162-000/00?colorDisplayCode=34",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489162/item/cagoods_34_489162_3x4.jpg?width=600",
   "text": "Souffle Yarn Triangle Scarf WOMEN, One size",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3177,7 +3177,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486202-000/00?colorDisplayCode=31",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/486202/item/goods_31_486202_3x4.jpg?width=600",
   "text": "HEATTECH Scarf MEN, One size",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3192,7 +3192,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486203-000/00?colorDisplayCode=16",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/486203/item/goods_16_486203_3x4.jpg?width=600",
   "text": "HEATTECH Scarf | Patterned MEN, One size",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3207,7 +3207,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E477704-000/00?colorDisplayCode=69",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/477704/item/cagoods_69_477704_3x4.jpg?width=600",
   "text": "AirSense Blazer MEN, XS-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3232,12 +3232,12 @@
   "title": "Double Face Tailored Jacket | Checked",
   "type": "",
   "gender": "women",
-  "price": 109.9,
+  "price": 99.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488788-000/00?colorDisplayCode=34",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488788/item/cagoods_34_488788_3x4.jpg?width=600",
-  "text": "Double Face Tailored Jacket | Checked WOMEN, XS-XL",
-  "checkedAt": "2026-11-01"
+  "text": "Double Face Tailored Jacket | Checked WOMEN, XS-L",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3249,10 +3249,10 @@
   "gender": "men",
   "price": 99.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E448034-000/00?colorDisplayCode=08",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/448034/item/cagoods_08_448034_3x4.jpg?width=600",
-  "text": "AirSense Jacket MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E448034-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/448034/item/cagoods_09_448034_3x4.jpg?width=600",
+  "text": "AirSense Jacket MEN, S-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3262,12 +3262,12 @@
   "title": "Knitted Jacket",
   "type": "",
   "gender": "men",
-  "price": 99.9,
+  "price": 89.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488181-000/00?colorDisplayCode=07",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488181/item/cagoods_07_488181_3x4.jpg?width=600",
   "text": "Knitted Jacket MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3282,7 +3282,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491699-000/00?colorDisplayCode=02",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/491699/item/goods_02_491699_3x4.jpg?width=600",
   "text": "HEATTECH Crew Neck T-Shirt Long Sleeve WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3312,7 +3312,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E485812-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485812/item/cagoods_08_485812_3x4.jpg?width=600",
   "text": "HEATTECH Crew Neck T-Shirt Long Sleeve WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3327,7 +3327,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486841-000/00?colorDisplayCode=00",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/486841/item/goods_00_486841_3x4.jpg?width=600",
   "text": "HEATTECH Crew Neck T-Shirt Long Sleeve MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3342,7 +3342,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E493605-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493605/item/cagoods_09_493605_3x4.jpg?width=600",
   "text": "HEATTECH Crew Neck T-Shirt | Short Sleeve MEN, S-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3356,8 +3356,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479430-000/00?colorDisplayCode=00",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479430/item/cagoods_00_479430_3x4.jpg?width=600",
-  "text": "HEATTECH Crew Neck T-Shirt MEN, XL-XXL",
-  "checkedAt": "2026-11-01"
+  "text": "HEATTECH Crew Neck T-Shirt MEN, XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3372,7 +3372,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E465193-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/465193/item/cagoods_09_465193_3x4.jpg?width=600",
   "text": "AIRism Cotton T-Shirt | Long Sleeve MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3382,12 +3382,12 @@
   "title": "Mock Neck T-Shirt Long Sleeve",
   "type": "",
   "gender": "men",
-  "price": 29.9,
+  "price": 19.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E488605-000/00?colorDisplayCode=01",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488605/item/cagoods_01_488605_3x4.jpg?width=600",
-  "text": "Mock Neck T-Shirt Long Sleeve MEN, S-L",
-  "checkedAt": "2026-11-01"
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488605-000/00?colorDisplayCode=35",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488605/item/cagoods_35_488605_3x4.jpg?width=600",
+  "text": "Mock Neck T-Shirt Long Sleeve MEN, L",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3402,7 +3402,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E484780-000/00?colorDisplayCode=01",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/484780/item/cagoods_01_484780_3x4.jpg?width=600",
   "text": "Waffle Crew Neck T-Shirt MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3412,12 +3412,12 @@
   "title": "Rugger Shirt",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488751-000/00?colorDisplayCode=01",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488751/item/cagoods_01_488751_3x4.jpg?width=600",
   "text": "Rugger Shirt MEN, S-L",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3427,12 +3427,12 @@
   "title": "Soft Brushed Turtleneck T-Shirt",
   "type": "",
   "gender": "men",
-  "price": 29.9,
+  "price": 24.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486129-000/00?colorDisplayCode=00",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486129/item/cagoods_00_486129_3x4.jpg?width=600",
   "text": "Soft Brushed Turtleneck T-Shirt MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3442,12 +3442,12 @@
   "title": "Soft Brushed Crew Neck T-Shirt",
   "type": "",
   "gender": "men",
-  "price": 29.9,
+  "price": 24.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E450179-000/00?colorDisplayCode=38",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/450179/item/cagoods_38_450179_3x4.jpg?width=600",
   "text": "Soft Brushed Crew Neck T-Shirt MEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3462,7 +3462,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E460318-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/460318/item/cagoods_09_460318_3x4.jpg?width=600",
   "text": "Waffle Crew Neck T-Shirt | 2025 MEN, XXS",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3476,8 +3476,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486103-000/00?colorDisplayCode=00",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486103/item/cagoods_00_486103_3x4.jpg?width=600",
-  "text": "AIRism Cotton Striped T-Shirt MEN, S-XXL",
-  "checkedAt": "2026-11-01"
+  "text": "AIRism Cotton Striped T-Shirt MEN, L-XXL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3492,7 +3492,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E485342-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485342/item/cagoods_08_485342_3x4.jpg?width=600",
   "text": "Souffle Yarn Skipper Polo Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3507,7 +3507,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488761-000/00?colorDisplayCode=69",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488761/item/cagoods_69_488761_3x4.jpg?width=600",
   "text": "Souffle Yarn Skipper Polo Sweater | Striped WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3517,12 +3517,12 @@
   "title": "3D Knit Cotton Volume Sleeve Sweater",
   "type": "",
   "gender": "women",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E487003-000/00?colorDisplayCode=19",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487003/item/cagoods_19_487003_3x4.jpg?width=600",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487003-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/487003/item/goods_01_487003_3x4.jpg?width=600",
   "text": "3D Knit Cotton Volume Sleeve Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3532,12 +3532,12 @@
   "title": "3D Knit Cotton Volume Sleeve Sweater | Striped",
   "type": "",
   "gender": "women",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488227-000/00?colorDisplayCode=69",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488227/item/cagoods_69_488227_3x4.jpg?width=600",
   "text": "3D Knit Cotton Volume Sleeve Sweater | Striped WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3547,12 +3547,12 @@
   "title": "Low Gauge Cable Crew Sweater",
   "type": "",
   "gender": "women",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488243-000/00?colorDisplayCode=14",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488243/item/cagoods_14_488243_3x4.jpg?width=600",
   "text": "Low Gauge Cable Crew Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3562,12 +3562,12 @@
   "title": "Low Gauge Cable Crew Neck Sweater",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487943-000/00?colorDisplayCode=39",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487943/item/cagoods_39_487943_3x4.jpg?width=600",
   "text": "Low Gauge Cable Crew Neck Sweater MEN, S-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3577,12 +3577,12 @@
   "title": "Lambswool V Neck Cardigan",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488760-000/00?colorDisplayCode=30",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488760/item/cagoods_30_488760_3x4.jpg?width=600",
   "text": "Lambswool V Neck Cardigan MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3642,7 +3642,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E475053-000/00?colorDisplayCode=19",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/475053/item/cagoods_19_475053_3x4.jpg?width=600",
   "text": "Smooth Cotton Crew Neck Sweater WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3652,12 +3652,12 @@
   "title": "Lambswool Fair Isle Crew Neck Sweater",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486087-000/00?colorDisplayCode=31",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486087/item/cagoods_31_486087_3x4.jpg?width=600",
   "text": "Lambswool Fair Isle Crew Neck Sweater MEN, S-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3667,12 +3667,12 @@
   "title": "Lambswool V Neck Sweater",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486086-000/00?colorDisplayCode=12",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486086/item/cagoods_12_486086_3x4.jpg?width=600",
   "text": "Lambswool V Neck Sweater MEN, S-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3687,7 +3687,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487514-000/00?colorDisplayCode=57",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487514/item/cagoods_57_487514_3x4.jpg?width=600",
   "text": "Wool Cashmere V Neck Short Sweater WOMEN, XS-L",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3701,8 +3701,8 @@
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488187-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488187/item/cagoods_09_488187_3x4.jpg?width=600",
-  "text": "Lambswool Crew Neck Sweater WOMEN, XS-L",
-  "checkedAt": "2026-11-01"
+  "text": "Lambswool Crew Neck Sweater WOMEN, M-L",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3717,7 +3717,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E492577-000/00?colorDisplayCode=37",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/492577/item/cagoods_37_492577_3x4.jpg?width=600",
   "text": "3D Knit V Neck Sweater | Striped MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3732,7 +3732,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491361-000/00?colorDisplayCode=49",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491361/item/cagoods_49_491361_3x4.jpg?width=600",
   "text": "3D Knit V Neck Sweater MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3747,7 +3747,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491362-000/00?colorDisplayCode=67",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491362/item/cagoods_67_491362_3x4.jpg?width=600",
   "text": "3D Knit Boat Neck Sweater MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3762,7 +3762,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491363-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491363/item/cagoods_09_491363_3x4.jpg?width=600",
   "text": "3D Knit Mock Neck Sweater MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3777,7 +3777,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491365-000/00?colorDisplayCode=07",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491365/item/cagoods_07_491365_3x4.jpg?width=600",
   "text": "3D Knit Turtleneck Sweater | Striped MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3792,7 +3792,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E482321-000/00?colorDisplayCode=37",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482321/item/cagoods_37_482321_3x4.jpg?width=600",
   "text": "Washable 3D Knit Crew Neck Sweater MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3807,7 +3807,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486078-000/00?colorDisplayCode=31",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486078/item/cagoods_31_486078_3x4.jpg?width=600",
   "text": "Souffle Yarn Half Zip Sweater MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3822,7 +3822,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486071-000/00?colorDisplayCode=04",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486071/item/cagoods_04_486071_3x4.jpg?width=600",
   "text": "Lambswool Crew Neck Sweater MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3837,7 +3837,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491360-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491360/item/cagoods_09_491360_3x4.jpg?width=600",
   "text": "3D Knit Polo Sweater MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3852,7 +3852,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487939-000/00?colorDisplayCode=38",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487939/item/cagoods_38_487939_3x4.jpg?width=600",
   "text": "Souffle Yarn Polo Sweater MEN, S-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3867,7 +3867,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479284-000/00?colorDisplayCode=31",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479284/item/cagoods_31_479284_3x4.jpg?width=600",
   "text": "Brushed Jersey Wide Pants WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3882,7 +3882,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E477345-000/00?colorDisplayCode=32",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/477345/item/cagoods_32_477345_3x4.jpg?width=600",
   "text": "Jersey Barrel Leg Pants | Tall WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3892,12 +3892,12 @@
   "title": "Pleated Barrel Leg Pants",
   "type": "",
   "gender": "women",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
-  "productUrl": "https://www.uniqlo.com/ca/en/products/E491087-000/00?colorDisplayCode=09",
-  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491087/item/cagoods_09_491087_3x4.jpg?width=600",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491087-000/00?colorDisplayCode=38",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491087/item/cagoods_38_491087_3x4.jpg?width=600",
   "text": "Pleated Barrel Leg Pants WOMEN, 24 inch-32 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3912,7 +3912,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E479285-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479285/item/cagoods_08_479285_3x4.jpg?width=600",
   "text": "Brushed Jersey Wide Pants | Tall WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3922,12 +3922,12 @@
   "title": "Corduroy Barrel Leg Pants",
   "type": "",
   "gender": "women",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488202-000/00?colorDisplayCode=30",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488202/item/cagoods_30_488202_3x4.jpg?width=600",
-  "text": "Corduroy Barrel Leg Pants WOMEN, M-XL",
-  "checkedAt": "2026-11-01"
+  "text": "Corduroy Barrel Leg Pants WOMEN, XL",
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3942,7 +3942,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488397-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488397/item/cagoods_08_488397_3x4.jpg?width=600",
   "text": "EZY Barrel Jeans MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3957,7 +3957,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E462197-000/00?colorDisplayCode=38",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/462197/item/cagoods_38_462197_3x4.jpg?width=600",
   "text": "Pleated Wide Pants MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3972,7 +3972,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486471-000/00?colorDisplayCode=34",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486471/item/cagoods_34_486471_3x4.jpg?width=600",
   "text": "Corduroy Easy Ankle Pants MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3987,7 +3987,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487220-000/00?colorDisplayCode=38",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487220/item/cagoods_38_487220_3x4.jpg?width=600",
   "text": "Pleated Relaxed Wide Pants MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -3997,12 +3997,12 @@
   "title": "Corduroy Volume Pants",
   "type": "",
   "gender": "women",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487851-000/00?colorDisplayCode=01",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487851/item/cagoods_01_487851_3x4.jpg?width=600",
   "text": "Corduroy Volume Pants WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4017,7 +4017,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E486468-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486468/item/cagoods_08_486468_3x4.jpg?width=600",
   "text": "Stretch Easy Ankle Pants | Denim MEN, S-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4032,7 +4032,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488743-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488743/item/cagoods_09_488743_3x4.jpg?width=600",
   "text": "Barrel Jeans MEN, 28 inch-38 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4047,7 +4047,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491891-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491891/item/cagoods_08_491891_3x4.jpg?width=600",
   "text": "Stretch Easy Ankle Pants MEN, S-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4062,7 +4062,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487209-000/00?colorDisplayCode=32",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487209/item/cagoods_32_487209_3x4.jpg?width=600",
   "text": "Slim Chino Pants MEN, 28 inch-38 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4077,7 +4077,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491890-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491890/item/cagoods_09_491890_3x4.jpg?width=600",
   "text": "Stretch Easy Ankle Pants MEN, S-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4092,7 +4092,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488687-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488687/item/cagoods_08_488687_3x4.jpg?width=600",
   "text": "EZY Barrel Jeans | Tall MEN, XS-XL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4107,7 +4107,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E489565-000/00?colorDisplayCode=66",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489565/item/cagoods_66_489565_3x4.jpg?width=600",
   "text": "Barrel Jeans MEN, 28 inch-38 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4117,12 +4117,12 @@
   "title": "Smart Pants",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491784-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491784/item/cagoods_09_491784_3x4.jpg?width=600",
   "text": "Smart Pants MEN, 28 inch-38 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4132,12 +4132,12 @@
   "title": "Regular Chino Pants",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E482880-000/00?colorDisplayCode=57",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482880/item/cagoods_57_482880_3x4.jpg?width=600",
   "text": "Regular Chino Pants MEN, 29 inch-36 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4147,12 +4147,12 @@
   "title": "Corduroy Volume Pants | Tall",
   "type": "",
   "gender": "women",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E488853-000/00?colorDisplayCode=01",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488853/item/cagoods_01_488853_3x4.jpg?width=600",
   "text": "Corduroy Volume Pants | Tall WOMEN, XXS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4167,7 +4167,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E455486-000/00?colorDisplayCode=08",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/455486/item/cagoods_08_455486_3x4.jpg?width=600",
   "text": "AIRsense Pants MEN, 29 inch-36 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4177,12 +4177,12 @@
   "title": "Two-Way Stretch Smart Pants",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E491787-000/00?colorDisplayCode=04",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491787/item/cagoods_04_491787_3x4.jpg?width=600",
   "text": "Two-Way Stretch Smart Pants MEN, 28 inch-38 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4197,7 +4197,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E484807-000/00?colorDisplayCode=67",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/484807/item/cagoods_67_484807_3x4.jpg?width=600",
   "text": "Barrel Jeans | Tall WOMEN, 22 inch-34 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4207,12 +4207,12 @@
   "title": "Barrel Jeans Corduroy",
   "type": "",
   "gender": "men",
-  "price": 49.9,
+  "price": 39.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487207-000/00?colorDisplayCode=09",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487207/item/cagoods_09_487207_3x4.jpg?width=600",
   "text": "Barrel Jeans Corduroy MEN, 29 inch-33 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4242,7 +4242,7 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E478487-000/00?colorDisplayCode=32",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/478487/item/cagoods_32_478487_3x4.jpg?width=600",
   "text": "Extra Stretch Pants | Tall MEN, S",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4252,12 +4252,12 @@
   "title": "Smart Pants | Tall",
   "type": "",
   "gender": "men",
-  "price": 59.9,
+  "price": 49.9,
   "currency": "CAD",
   "productUrl": "https://www.uniqlo.com/ca/en/products/E487218-000/00?colorDisplayCode=06",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487218/item/cagoods_06_487218_3x4.jpg?width=600",
   "text": "Smart Pants | Tall MEN, 28 inch-36 inch",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
  },
  {
   "source": "seed:uniqlo",
@@ -4287,6 +4287,2871 @@
   "productUrl": "https://www.uniqlo.com/ca/en/products/E462429-000/00?colorDisplayCode=38",
   "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/462429/item/cagoods_38_462429_3x4.jpg?width=600",
   "text": "Pleated Wide Pants | Tall MEN, XS-XXL",
-  "checkedAt": "2026-11-01"
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493521-000-00",
+  "name": "HEATTECH Extra Warm Ribbed High Neck",
+  "title": "HEATTECH Extra Warm Ribbed High Neck",
+  "type": "",
+  "gender": "women",
+  "price": 34.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493521-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493521/item/cagoods_09_493521_3x4.jpg?width=600",
+  "text": "HEATTECH Extra Warm Ribbed High Neck WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487424-000-00",
+  "name": "Reversible Down Short Jacket",
+  "title": "Reversible Down Short Jacket",
+  "type": "",
+  "gender": "women",
+  "price": 159.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487424-000/00?colorDisplayCode=18",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487424/item/cagoods_18_487424_3x4.jpg?width=600",
+  "text": "Reversible Down Short Jacket WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E480045-000-00",
+  "name": "Hybrid Down Parka",
+  "title": "Hybrid Down Parka",
+  "type": "",
+  "gender": "men",
+  "price": 199.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E480045-000/00?colorDisplayCode=32",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/480045/item/cagoods_32_480045_3x4.jpg?width=600",
+  "text": "Hybrid Down Parka MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487412-000-00",
+  "name": "Ultra Warm Down Long Coat",
+  "title": "Ultra Warm Down Long Coat",
+  "type": "",
+  "gender": "women",
+  "price": 279.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487412-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487412/item/cagoods_07_487412_3x4.jpg?width=600",
+  "text": "Ultra Warm Down Long Coat WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489430-000-00",
+  "name": "Seamless Down Long Coat | Patterned",
+  "title": "Seamless Down Long Coat | Patterned",
+  "type": "",
+  "gender": "women",
+  "price": 249.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489430-000/00?colorDisplayCode=39",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489430/item/cagoods_39_489430_3x4.jpg?width=600",
+  "text": "Seamless Down Long Coat | Patterned WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489410-000-00",
+  "name": "Seamless Down Short Coat",
+  "title": "Seamless Down Short Coat",
+  "type": "",
+  "gender": "women",
+  "price": 229.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489410-000/00?colorDisplayCode=57",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489410/item/cagoods_57_489410_3x4.jpg?width=600",
+  "text": "Seamless Down Short Coat WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487425-000-00",
+  "name": "Non-Quilted Down Short Coat",
+  "title": "Non-Quilted Down Short Coat",
+  "type": "",
+  "gender": "women",
+  "price": 159.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487425-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487425/item/cagoods_09_487425_3x4.jpg?width=600",
+  "text": "Non-Quilted Down Short Coat WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E478577-000-00",
+  "name": "Seamless Down Parka",
+  "title": "Seamless Down Parka",
+  "type": "",
+  "gender": "women",
+  "price": 179.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E478577-000/00?colorDisplayCode=36",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/478577/item/cagoods_36_478577_3x4.jpg?width=600",
+  "text": "Seamless Down Parka WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489429-000-00",
+  "name": "Seamless Down Parka | Check",
+  "title": "Seamless Down Parka | Check",
+  "type": "",
+  "gender": "women",
+  "price": 179.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489429-000/00?colorDisplayCode=57",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489429/item/cagoods_57_489429_3x4.jpg?width=600",
+  "text": "Seamless Down Parka | Check WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487408-000-00",
+  "name": "PUFFTECH Jacket",
+  "title": "PUFFTECH Jacket",
+  "type": "",
+  "gender": "women",
+  "price": 69.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487408-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487408/item/cagoods_09_487408_3x4.jpg?width=600",
+  "text": "PUFFTECH Jacket WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E492040-000-00",
+  "name": "Storage Bag PUFFTECH",
+  "title": "Storage Bag PUFFTECH",
+  "type": "",
+  "gender": "women",
+  "price": 3.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E492040-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/492040/item/goods_09_492040_3x4.jpg?width=600",
+  "text": "Storage Bag PUFFTECH WOMEN, M-L",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486172-000-00",
+  "name": "PUFFTECH Parka",
+  "title": "PUFFTECH Parka",
+  "type": "",
+  "gender": "men",
+  "price": 99.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486172-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486172/item/cagoods_01_486172_3x4.jpg?width=600",
+  "text": "PUFFTECH Parka MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E470067-000-00",
+  "name": "Ultra Light Down Jacket",
+  "title": "Ultra Light Down Jacket",
+  "type": "",
+  "gender": "men",
+  "price": 99.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E470067-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/470067/item/cagoods_69_470067_3x4.jpg?width=600",
+  "text": "Ultra Light Down Jacket MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486171-000-00",
+  "name": "PUFFTECH Jacket",
+  "title": "PUFFTECH Jacket",
+  "type": "",
+  "gender": "men",
+  "price": 69.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486171-000/00?colorDisplayCode=19",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486171/item/cagoods_19_486171_3x4.jpg?width=600",
+  "text": "PUFFTECH Jacket MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E479755-000-00",
+  "name": "PUFFTECH Jacket | 2025",
+  "title": "PUFFTECH Jacket | 2025",
+  "type": "",
+  "gender": "men",
+  "price": 69.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E479755-000/00?colorDisplayCode=57",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479755/item/cagoods_57_479755_3x4.jpg?width=600",
+  "text": "PUFFTECH Jacket | 2025 MEN, XS",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E470118-000-00",
+  "name": "PUFFTECH Parka | 2025",
+  "title": "PUFFTECH Parka | 2025",
+  "type": "",
+  "gender": "men",
+  "price": 69.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E470118-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/470118/item/cagoods_69_470118_3x4.jpg?width=600",
+  "text": "PUFFTECH Parka | 2025 MEN, XS",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486177-000-00",
+  "name": "Light Down Volume Jacket",
+  "title": "Light Down Volume Jacket",
+  "type": "",
+  "gender": "men",
+  "price": 149.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486177-000/00?colorDisplayCode=56",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486177/item/cagoods_56_486177_3x4.jpg?width=600",
+  "text": "Light Down Volume Jacket MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E469863-000-00",
+  "name": "PUFFTECH Compact Vest",
+  "title": "PUFFTECH Compact Vest",
+  "type": "",
+  "gender": "women",
+  "price": 69.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E469863-000/00?colorDisplayCode=11",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/469863/item/cagoods_11_469863_3x4.jpg?width=600",
+  "text": "PUFFTECH Compact Vest WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487348-000-00",
+  "name": "PUFFTECH Vest",
+  "title": "PUFFTECH Vest",
+  "type": "",
+  "gender": "men",
+  "price": 79.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487348-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487348/item/cagoods_69_487348_3x4.jpg?width=600",
+  "text": "PUFFTECH Vest MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488746-000-00",
+  "name": "Storage Bag | PUFFTECH",
+  "title": "Storage Bag | PUFFTECH",
+  "type": "",
+  "gender": "men",
+  "price": 3.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488746-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/488746/item/goods_69_488746_3x4.jpg?width=600",
+  "text": "Storage Bag | PUFFTECH MEN, M-L",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487323-000-00",
+  "name": "Ultra Warm Down Coat",
+  "title": "Ultra Warm Down Coat",
+  "type": "",
+  "gender": "men",
+  "price": 279.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487323-000/00?colorDisplayCode=33",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487323/item/cagoods_33_487323_3x4.jpg?width=600",
+  "text": "Ultra Warm Down Coat MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486484-000-00",
+  "name": "Super Non Iron Slim Fit Shirt Long Sleeve | Botton Down",
+  "title": "Super Non Iron Slim Fit Shirt Long Sleeve | Botton Down",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486484-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486484/item/cagoods_00_486484_3x4.jpg?width=600",
+  "text": "Super Non Iron Slim Fit Shirt Long Sleeve | Botton Down MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E456630-000-00",
+  "name": "Oxford Slim Fit Shirt | Button Down Collar",
+  "title": "Oxford Slim Fit Shirt | Button Down Collar",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E456630-000/00?colorDisplayCode=64",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/456630/item/cagoods_64_456630_3x4.jpg?width=600",
+  "text": "Oxford Slim Fit Shirt | Button Down Collar MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486494-000-00",
+  "name": "Super Non Iron Slim Fit Shirt Long Sleeve | Striped | Botton Down",
+  "title": "Super Non Iron Slim Fit Shirt Long Sleeve | Striped | Botton Down",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486494-000/00?colorDisplayCode=66",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486494/item/cagoods_66_486494_3x4.jpg?width=600",
+  "text": "Super Non Iron Slim Fit Shirt Long Sleeve | Striped | Botton Down MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E456588-000-00",
+  "name": "Super Non Iron Slim Fit Shirt | Button Down Collar",
+  "title": "Super Non Iron Slim Fit Shirt | Button Down Collar",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E456588-000/00?colorDisplayCode=64",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/456588/item/goods_64_456588_3x4.jpg?width=600",
+  "text": "Super Non Iron Slim Fit Shirt | Button Down Collar MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E450260-000-00",
+  "name": "Broadcloth Shirt | Button Down Collar",
+  "title": "Broadcloth Shirt | Button Down Collar",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E450260-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/450260/item/cagoods_00_450260_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt | Button Down Collar MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E490526-000-00",
+  "name": "Middle Gauge Crew Neck Sweater",
+  "title": "Middle Gauge Crew Neck Sweater",
+  "type": "",
+  "gender": "men",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E490526-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/490526/item/goods_01_490526_3x4.jpg?width=600",
+  "text": "Middle Gauge Crew Neck Sweater MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491588-000-00",
+  "name": "Smooth Cotton Crew Neck Sweater",
+  "title": "Smooth Cotton Crew Neck Sweater",
+  "type": "",
+  "gender": "women",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491588-000/00?colorDisplayCode=02",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491588/item/cagoods_02_491588_3x4.jpg?width=600",
+  "text": "Smooth Cotton Crew Neck Sweater WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482280-000-00",
+  "name": "Barrel Jeans",
+  "title": "Barrel Jeans",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482280-000/00?colorDisplayCode=64",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482280/item/cagoods_64_482280_3x4.jpg?width=600",
+  "text": "Barrel Jeans WOMEN, 32 inch",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E490575-000-00",
+  "name": "Two-Way Stretch Smart Pants",
+  "title": "Two-Way Stretch Smart Pants",
+  "type": "",
+  "gender": "men",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E490575-000/00?colorDisplayCode=32",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/490575/item/cagoods_32_490575_3x4.jpg?width=600",
+  "text": "Two-Way Stretch Smart Pants MEN, 28 inch-38 inch",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493776-000-00",
+  "name": "Two-Way Stretch Smart Pants",
+  "title": "Two-Way Stretch Smart Pants",
+  "type": "",
+  "gender": "men",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493776-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/493776/item/goods_09_493776_3x4.jpg?width=600",
+  "text": "Two-Way Stretch Smart Pants MEN, 28 inch-38 inch",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E480764-000-00",
+  "name": "Broadcloth Shirt",
+  "title": "Broadcloth Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E480764-000/00?colorDisplayCode=65",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/480764/item/cagoods_65_480764_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485653-000-00",
+  "name": "Broadcloth Shirt",
+  "title": "Broadcloth Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485653-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485653/item/cagoods_01_485653_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt MEN, M-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482461-000-00",
+  "name": "Broadcloth Shirt Long Sleeve | Check",
+  "title": "Broadcloth Shirt Long Sleeve | Check",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482461-000/00?colorDisplayCode=54",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482461/item/cagoods_54_482461_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt Long Sleeve | Check MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482460-000-00",
+  "name": "Broadcloth Shirt | Striped",
+  "title": "Broadcloth Shirt | Striped",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482460-000/00?colorDisplayCode=67",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482460/item/cagoods_67_482460_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt | Striped MEN, L",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488794-000-00",
+  "name": "Flannel Shirt Long Sleeve",
+  "title": "Flannel Shirt Long Sleeve",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488794-000/00?colorDisplayCode=38",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488794/item/cagoods_38_488794_3x4.jpg?width=600",
+  "text": "Flannel Shirt Long Sleeve MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486615-000-00",
+  "name": "Flannel Shirt Long Sleeve",
+  "title": "Flannel Shirt Long Sleeve",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486615-000/00?colorDisplayCode=57",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486615/item/cagoods_57_486615_3x4.jpg?width=600",
+  "text": "Flannel Shirt Long Sleeve MEN, S-L",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488560-000-00",
+  "name": "Cotton Volume Sleeve Shirt",
+  "title": "Cotton Volume Sleeve Shirt",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488560-000/00?colorDisplayCode=39",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488560/item/cagoods_39_488560_3x4.jpg?width=600",
+  "text": "Cotton Volume Sleeve Shirt WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489509-000-00",
+  "name": "Cotton Volume Sleeve Shirt | Striped",
+  "title": "Cotton Volume Sleeve Shirt | Striped",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489509-000/00?colorDisplayCode=62",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489509/item/cagoods_62_489509_3x4.jpg?width=600",
+  "text": "Cotton Volume Sleeve Shirt | Striped WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489427-000-00",
+  "name": "Cotton Volume Sleeve Shirt | Striped",
+  "title": "Cotton Volume Sleeve Shirt | Striped",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489427-000/00?colorDisplayCode=12",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489427/item/cagoods_12_489427_3x4.jpg?width=600",
+  "text": "Cotton Volume Sleeve Shirt | Striped WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488795-000-00",
+  "name": "Flannel Shirt Long Sleeve",
+  "title": "Flannel Shirt Long Sleeve",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488795-000/00?colorDisplayCode=18",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488795/item/cagoods_18_488795_3x4.jpg?width=600",
+  "text": "Flannel Shirt Long Sleeve MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E481224-000-00",
+  "name": "Flannel Checked Shirt",
+  "title": "Flannel Checked Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E481224-000/00?colorDisplayCode=34",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/481224/item/cagoods_34_481224_3x4.jpg?width=600",
+  "text": "Flannel Checked Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488253-000-00",
+  "name": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | NARUTO",
+  "title": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | NARUTO",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488253-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/488253/item/goods_09_488253_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | NARUTO MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488252-000-00",
+  "name": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | NARUTO",
+  "title": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | NARUTO",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488252-000/00?colorDisplayCode=30",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/488252/item/goods_30_488252_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | NARUTO MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487560-000-00",
+  "name": "MANGA UT SHUEISHA 100th | Jujutsu Kaisen",
+  "title": "MANGA UT SHUEISHA 100th | Jujutsu Kaisen",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487560-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487560/item/cagoods_00_487560_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th | Jujutsu Kaisen MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487561-000-00",
+  "name": "MANGA UT SHUEISHA 100th | Jujutsu Kaisen",
+  "title": "MANGA UT SHUEISHA 100th | Jujutsu Kaisen",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487561-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487561/item/cagoods_00_487561_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th | Jujutsu Kaisen MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488263-000-00",
+  "name": "MANGA UT SHUEISHA | Spy x Family",
+  "title": "MANGA UT SHUEISHA | Spy x Family",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488263-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488263/item/cagoods_09_488263_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Spy x Family MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487575-000-00",
+  "name": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE",
+  "title": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487575-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/487575/item/goods_00_487575_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E484778-000-00",
+  "name": "MANGA UT SHUEISHA 100th | HUNTER×HUNTER",
+  "title": "MANGA UT SHUEISHA 100th | HUNTER×HUNTER",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E484778-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/484778/item/cagoods_00_484778_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th | HUNTER×HUNTER MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E484779-000-00",
+  "name": "MANGA UT SHUEISHA 100th | HUNTER×HUNTER",
+  "title": "MANGA UT SHUEISHA 100th | HUNTER×HUNTER",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E484779-000/00?colorDisplayCode=03",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/484779/item/cagoods_03_484779_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th | HUNTER×HUNTER MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489653-000-00",
+  "name": "MANGA UT SHUEISHA | Spy x Family",
+  "title": "MANGA UT SHUEISHA | Spy x Family",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489653-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489653/item/cagoods_00_489653_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Spy x Family MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489662-000-00",
+  "name": "MANGA UT SHUEISHA | BLEACH",
+  "title": "MANGA UT SHUEISHA | BLEACH",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489662-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489662/item/cagoods_00_489662_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | BLEACH MEN, XXS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489660-000-00",
+  "name": "MANGA UT SHUEISHA | Black Clover",
+  "title": "MANGA UT SHUEISHA | Black Clover",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489660-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489660/item/cagoods_09_489660_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Black Clover MEN, XXS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489661-000-00",
+  "name": "MANGA UT SHUEISHA | Black Clover",
+  "title": "MANGA UT SHUEISHA | Black Clover",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489661-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489661/item/cagoods_00_489661_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Black Clover MEN, XXS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E470187-000-00",
+  "name": "Flannel Checked Shirt",
+  "title": "Flannel Checked Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E470187-000/00?colorDisplayCode=38",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/470187/item/cagoods_38_470187_3x4.jpg?width=600",
+  "text": "Flannel Checked Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486602-000-00",
+  "name": "Flannel Checked Shirt Long Sleeve",
+  "title": "Flannel Checked Shirt Long Sleeve",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486602-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486602/item/cagoods_09_486602_3x4.jpg?width=600",
+  "text": "Flannel Checked Shirt Long Sleeve MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486595-000-00",
+  "name": "Flannel Shirt Long Sleeve | Check",
+  "title": "Flannel Shirt Long Sleeve | Check",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486595-000/00?colorDisplayCode=46",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486595/item/cagoods_46_486595_3x4.jpg?width=600",
+  "text": "Flannel Shirt Long Sleeve | Check MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486604-000-00",
+  "name": "Flannel Checked Shirt Long Sleeve",
+  "title": "Flannel Checked Shirt Long Sleeve",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486604-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486604/item/cagoods_09_486604_3x4.jpg?width=600",
+  "text": "Flannel Checked Shirt Long Sleeve MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486597-000-00",
+  "name": "Flannel Checked Shirt Long Sleeve",
+  "title": "Flannel Checked Shirt Long Sleeve",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486597-000/00?colorDisplayCode=19",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486597/item/cagoods_19_486597_3x4.jpg?width=600",
+  "text": "Flannel Checked Shirt Long Sleeve MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E470182-000-00",
+  "name": "Flannel Shirt",
+  "title": "Flannel Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E470182-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/470182/item/cagoods_01_470182_3x4.jpg?width=600",
+  "text": "Flannel Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486594-000-00",
+  "name": "Flannel Shirt Long Sleeve | Check",
+  "title": "Flannel Shirt Long Sleeve | Check",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486594-000/00?colorDisplayCode=30",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486594/item/cagoods_30_486594_3x4.jpg?width=600",
+  "text": "Flannel Shirt Long Sleeve | Check MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486596-000-00",
+  "name": "Flannel Checked Shirt Long Sleeve",
+  "title": "Flannel Checked Shirt Long Sleeve",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486596-000/00?colorDisplayCode=26",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486596/item/cagoods_26_486596_3x4.jpg?width=600",
+  "text": "Flannel Checked Shirt Long Sleeve MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486598-000-00",
+  "name": "Flannel Checked Shirt Long Sleeve",
+  "title": "Flannel Checked Shirt Long Sleeve",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486598-000/00?colorDisplayCode=58",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486598/item/cagoods_58_486598_3x4.jpg?width=600",
+  "text": "Flannel Checked Shirt Long Sleeve MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E481040-000-00",
+  "name": "Oversized Sweatshirt",
+  "title": "Oversized Sweatshirt",
+  "type": "",
+  "gender": "men",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E481040-000/00?colorDisplayCode=08",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/481040/item/cagoods_08_481040_3x4.jpg?width=600",
+  "text": "Oversized Sweatshirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486117-000-00",
+  "name": "Sweatshirt | 2026",
+  "title": "Sweatshirt | 2026",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486117-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486117/item/cagoods_01_486117_3x4.jpg?width=600",
+  "text": "Sweatshirt | 2026 MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493507-000-00",
+  "name": "KAWS UNIVERSE Sweatshirt",
+  "title": "KAWS UNIVERSE Sweatshirt",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493507-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493507/item/cagoods_07_493507_3x4.jpg?width=600",
+  "text": "KAWS UNIVERSE Sweatshirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486296-000-00",
+  "name": "KAWS UNIVERSE Sweatshirt",
+  "title": "KAWS UNIVERSE Sweatshirt",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486296-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486296/item/cagoods_09_486296_3x4.jpg?width=600",
+  "text": "KAWS UNIVERSE Sweatshirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482753-000-00",
+  "name": "KAWS UNIVERSE UT Graphic T-Shirt",
+  "title": "KAWS UNIVERSE UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482753-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482753/item/cagoods_09_482753_3x4.jpg?width=600",
+  "text": "KAWS UNIVERSE UT Graphic T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493510-000-00",
+  "name": "KAWS UNIVERSE UT Graphic T-Shirt",
+  "title": "KAWS UNIVERSE UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493510-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493510/item/cagoods_07_493510_3x4.jpg?width=600",
+  "text": "KAWS UNIVERSE UT Graphic T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493511-000-00",
+  "name": "KAWS UNIVERSE UT Graphic T-Shirt",
+  "title": "KAWS UNIVERSE UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493511-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493511/item/cagoods_00_493511_3x4.jpg?width=600",
+  "text": "KAWS UNIVERSE UT Graphic T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493506-000-00",
+  "name": "KAWS UNIVERSE Sweatshirt",
+  "title": "KAWS UNIVERSE Sweatshirt",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493506-000/00?colorDisplayCode=02",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493506/item/cagoods_02_493506_3x4.jpg?width=600",
+  "text": "KAWS UNIVERSE Sweatshirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493509-000-00",
+  "name": "KAWS UNIVERSE UT Graphic T-Shirt",
+  "title": "KAWS UNIVERSE UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493509-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493509/item/cagoods_00_493509_3x4.jpg?width=600",
+  "text": "KAWS UNIVERSE UT Graphic T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489159-000-00",
+  "name": "Andy Warhol UT Graphic T-Shirt",
+  "title": "Andy Warhol UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489159-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489159/item/cagoods_00_489159_3x4.jpg?width=600",
+  "text": "Andy Warhol UT Graphic T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489160-000-00",
+  "name": "Andy Warhol UT Graphic T-Shirt",
+  "title": "Andy Warhol UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489160-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489160/item/cagoods_01_489160_3x4.jpg?width=600",
+  "text": "Andy Warhol UT Graphic T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489158-000-00",
+  "name": "Andy Warhol UT Graphic T-Shirt",
+  "title": "Andy Warhol UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489158-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489158/item/cagoods_09_489158_3x4.jpg?width=600",
+  "text": "Andy Warhol UT Graphic T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482804-000-00",
+  "name": "Andy Warhol UT Graphic T-Shirt",
+  "title": "Andy Warhol UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482804-000/00?colorDisplayCode=36",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482804/item/cagoods_36_482804_3x4.jpg?width=600",
+  "text": "Andy Warhol UT Graphic T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E484762-000-00",
+  "name": "Ukiyo-e UT Graphic T-Shirt",
+  "title": "Ukiyo-e UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E484762-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/484762/item/cagoods_09_484762_3x4.jpg?width=600",
+  "text": "Ukiyo-e UT Graphic T-Shirt MEN, M-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486143-000-00",
+  "name": "Ukiyo-e UT Graphic T-Shirt",
+  "title": "Ukiyo-e UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486143-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486143/item/cagoods_01_486143_3x4.jpg?width=600",
+  "text": "Ukiyo-e UT Graphic T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486144-000-00",
+  "name": "Ukiyo-e UT Graphic T-Shirt",
+  "title": "Ukiyo-e UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486144-000/00?colorDisplayCode=08",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486144/item/cagoods_08_486144_3x4.jpg?width=600",
+  "text": "Ukiyo-e UT Graphic T-Shirt MEN, XS-S",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486146-000-00",
+  "name": "Ukiyo-e UT Graphic T-Shirt",
+  "title": "Ukiyo-e UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486146-000/00?colorDisplayCode=05",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486146/item/cagoods_05_486146_3x4.jpg?width=600",
+  "text": "Ukiyo-e UT Graphic T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482747-000-00",
+  "name": "MAGIC FOR ALL ICONS UT Graphic T-Shirt",
+  "title": "MAGIC FOR ALL ICONS UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482747-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482747/item/cagoods_01_482747_3x4.jpg?width=600",
+  "text": "MAGIC FOR ALL ICONS UT Graphic T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485077-000-00",
+  "name": "Ukiyo-e Blue UT Graphic T-Shirt",
+  "title": "Ukiyo-e Blue UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485077-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485077/item/cagoods_01_485077_3x4.jpg?width=600",
+  "text": "Ukiyo-e Blue UT Graphic T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485073-000-00",
+  "name": "Ukiyo-e Blue UT Graphic T-Shirt",
+  "title": "Ukiyo-e Blue UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485073-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485073/item/cagoods_69_485073_3x4.jpg?width=600",
+  "text": "Ukiyo-e Blue UT Graphic T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493045-000-00",
+  "name": "NY POP ART UT Graphic T-Shirt | Andy Warhol",
+  "title": "NY POP ART UT Graphic T-Shirt | Andy Warhol",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493045-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493045/item/cagoods_00_493045_3x4.jpg?width=600",
+  "text": "NY POP ART UT Graphic T-Shirt | Andy Warhol MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493044-000-00",
+  "name": "NY POP ART UT Graphic T-Shirt | Jean-Michel Basquiat",
+  "title": "NY POP ART UT Graphic T-Shirt | Jean-Michel Basquiat",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493044-000/00?colorDisplayCode=08",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493044/item/cagoods_08_493044_3x4.jpg?width=600",
+  "text": "NY POP ART UT Graphic T-Shirt | Jean-Michel Basquiat MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E493046-000-00",
+  "name": "NY POP ART UT Graphic T-Shirt | Keith Haring",
+  "title": "NY POP ART UT Graphic T-Shirt | Keith Haring",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E493046-000/00?colorDisplayCode=02",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/493046/item/cagoods_02_493046_3x4.jpg?width=600",
+  "text": "NY POP ART UT Graphic T-Shirt | Keith Haring MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488072-000-00",
+  "name": "NY POP ART UT Graphic T-Shirt | Basquiat",
+  "title": "NY POP ART UT Graphic T-Shirt | Basquiat",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488072-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488072/item/cagoods_09_488072_3x4.jpg?width=600",
+  "text": "NY POP ART UT Graphic T-Shirt | Basquiat MEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485482-000-00",
+  "name": "MAGIC FOR ALL ICONS UT Graphic T-Shirt",
+  "title": "MAGIC FOR ALL ICONS UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485482-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485482/item/cagoods_01_485482_3x4.jpg?width=600",
+  "text": "MAGIC FOR ALL ICONS UT Graphic T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482784-000-00",
+  "name": "Ukiyo-e Blue UT Graphic T-Shirt",
+  "title": "Ukiyo-e Blue UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482784-000/00?colorDisplayCode=66",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482784/item/cagoods_66_482784_3x4.jpg?width=600",
+  "text": "Ukiyo-e Blue UT Graphic T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485074-000-00",
+  "name": "Ukiyo-e Blue UT Graphic T-Shirt",
+  "title": "Ukiyo-e Blue UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485074-000/00?colorDisplayCode=62",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/485074/item/goods_62_485074_3x4.jpg?width=600",
+  "text": "Ukiyo-e Blue UT Graphic T-Shirt MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485069-000-00",
+  "name": "NY POP ART UT Graphic T-Shirt | Jean-Michel Basquiat",
+  "title": "NY POP ART UT Graphic T-Shirt | Jean-Michel Basquiat",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485069-000/00?colorDisplayCode=02",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485069/item/cagoods_02_485069_3x4.jpg?width=600",
+  "text": "NY POP ART UT Graphic T-Shirt | Jean-Michel Basquiat MEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487576-000-00",
+  "name": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE",
+  "title": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487576-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/487576/item/goods_09_487576_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E475367-000-00",
+  "name": "AIRism Cotton Pique Polo Shirt",
+  "title": "AIRism Cotton Pique Polo Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E475367-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/475367/item/cagoods_00_475367_3x4.jpg?width=600",
+  "text": "AIRism Cotton Pique Polo Shirt MEN, S-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488250-000-00",
+  "name": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE",
+  "title": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488250-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/488250/item/goods_00_488250_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488251-000-00",
+  "name": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | NARUTO",
+  "title": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | NARUTO",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488251-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/488251/item/goods_09_488251_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | NARUTO MEN, XS-S",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E480815-000-00",
+  "name": "PEACE FOR ALL Graphic T-Shirt | Koji Yakusho",
+  "title": "PEACE FOR ALL Graphic T-Shirt | Koji Yakusho",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E480815-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480815/item/goods_09_480815_3x4.jpg?width=600",
+  "text": "PEACE FOR ALL Graphic T-Shirt | Koji Yakusho MEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485665-000-00",
+  "name": "Ukiyo-e Animals UT Graphic T-Shirt",
+  "title": "Ukiyo-e Animals UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485665-000/00?colorDisplayCode=54",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485665/item/cagoods_54_485665_3x4.jpg?width=600",
+  "text": "Ukiyo-e Animals UT Graphic T-Shirt MEN, XS",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485481-000-00",
+  "name": "MAGIC FOR ALL ICONS UT Graphic T-Shirt",
+  "title": "MAGIC FOR ALL ICONS UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485481-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485481/item/cagoods_00_485481_3x4.jpg?width=600",
+  "text": "MAGIC FOR ALL ICONS UT Graphic T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485064-000-00",
+  "name": "NY POP ART UT Graphic T-Shirt | Keith Haring",
+  "title": "NY POP ART UT Graphic T-Shirt | Keith Haring",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485064-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485064/item/cagoods_00_485064_3x4.jpg?width=600",
+  "text": "NY POP ART UT Graphic T-Shirt | Keith Haring MEN, XXS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482752-000-00",
+  "name": "NY POP ART UT Graphic T-Shirt | Andy Warhol",
+  "title": "NY POP ART UT Graphic T-Shirt | Andy Warhol",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482752-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482752/item/cagoods_00_482752_3x4.jpg?width=600",
+  "text": "NY POP ART UT Graphic T-Shirt | Andy Warhol MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485067-000-00",
+  "name": "NY POP ART UT Graphic T-Shirt | Keith Haring",
+  "title": "NY POP ART UT Graphic T-Shirt | Keith Haring",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485067-000/00?colorDisplayCode=68",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485067/item/cagoods_68_485067_3x4.jpg?width=600",
+  "text": "NY POP ART UT Graphic T-Shirt | Keith Haring MEN, XS-M",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488249-000-00",
+  "name": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE",
+  "title": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488249-000/00?colorDisplayCode=61",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/488249/item/goods_61_488249_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA 100th UT Graphic T-Shirt | ONE PIECE MEN, M-L",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487806-000-00",
+  "name": "MAGIC FOR ALL ICONS UT Graphic T-Shirt",
+  "title": "MAGIC FOR ALL ICONS UT Graphic T-Shirt",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487806-000/00?colorDisplayCode=08",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487806/item/cagoods_08_487806_3x4.jpg?width=600",
+  "text": "MAGIC FOR ALL ICONS UT Graphic T-Shirt MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489651-000-00",
+  "name": "MANGA UT SHUEISHA | Spy x Family",
+  "title": "MANGA UT SHUEISHA | Spy x Family",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489651-000/00?colorDisplayCode=41",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489651/item/cagoods_41_489651_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Spy x Family MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489664-000-00",
+  "name": "MANGA UT SHUEISHA | Mashle",
+  "title": "MANGA UT SHUEISHA | Mashle",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489664-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489664/item/cagoods_69_489664_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Mashle MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489652-000-00",
+  "name": "MANGA UT SHUEISHA | Spy x Family",
+  "title": "MANGA UT SHUEISHA | Spy x Family",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489652-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489652/item/cagoods_09_489652_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Spy x Family MEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486586-000-00",
+  "name": "Broadcloth Shirt Long Sleeve | Check",
+  "title": "Broadcloth Shirt Long Sleeve | Check",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486586-000/00?colorDisplayCode=18",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486586/item/cagoods_18_486586_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt Long Sleeve | Check MEN, M-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487466-000-00",
+  "name": "Magic For All UT",
+  "title": "Magic For All UT",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487466-000/00?colorDisplayCode=58",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487466/item/cagoods_58_487466_3x4.jpg?width=600",
+  "text": "Magic For All UT MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487462-000-00",
+  "name": "Magic For All UT",
+  "title": "Magic For All UT",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487462-000/00?colorDisplayCode=61",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487462/item/cagoods_61_487462_3x4.jpg?width=600",
+  "text": "Magic For All UT MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E472516-000-00",
+  "name": "PEACE FOR ALL Graphic T-Shirt | MOOMIN",
+  "title": "PEACE FOR ALL Graphic T-Shirt | MOOMIN",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E472516-000/00?colorDisplayCode=10",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/472516/item/goods_10_472516_3x4.jpg?width=600",
+  "text": "PEACE FOR ALL Graphic T-Shirt | MOOMIN MEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488884-000-00",
+  "name": "Magic For All UT",
+  "title": "Magic For All UT",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488884-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488884/item/cagoods_00_488884_3x4.jpg?width=600",
+  "text": "Magic For All UT MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486591-000-00",
+  "name": "Broadcloth Shirt Long Sleeve | Striped",
+  "title": "Broadcloth Shirt Long Sleeve | Striped",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486591-000/00?colorDisplayCode=63",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486591/item/cagoods_63_486591_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt Long Sleeve | Striped MEN, M-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489656-000-00",
+  "name": "MANGA UT SHUEISHA | Yu-Gi-Oh!",
+  "title": "MANGA UT SHUEISHA | Yu-Gi-Oh!",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489656-000/00?colorDisplayCode=64",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489656/item/cagoods_64_489656_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Yu-Gi-Oh! MEN, XXS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486587-000-00",
+  "name": "Broadcloth Shirt Long Sleeve | Check",
+  "title": "Broadcloth Shirt Long Sleeve | Check",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486587-000/00?colorDisplayCode=55",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486587/item/cagoods_55_486587_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt Long Sleeve | Check MEN, M",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488789-000-00",
+  "name": "Broadcloth Shirt Long Sleeve | Striped",
+  "title": "Broadcloth Shirt Long Sleeve | Striped",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488789-000/00?colorDisplayCode=66",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488789/item/cagoods_66_488789_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt Long Sleeve | Striped MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489657-000-00",
+  "name": "MANGA UT SHUEISHA | Yu-Gi-Oh!",
+  "title": "MANGA UT SHUEISHA | Yu-Gi-Oh!",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489657-000/00?colorDisplayCode=04",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489657/item/cagoods_04_489657_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Yu-Gi-Oh! MEN, XXS-S",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489663-000-00",
+  "name": "MANGA UT SHUEISHA | BLEACH",
+  "title": "MANGA UT SHUEISHA | BLEACH",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489663-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489663/item/cagoods_09_489663_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | BLEACH MEN, XS",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487465-000-00",
+  "name": "Magic For All UT",
+  "title": "Magic For All UT",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487465-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487465/item/cagoods_69_487465_3x4.jpg?width=600",
+  "text": "Magic For All UT MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488790-000-00",
+  "name": "Broadcloth Shirt Long Sleeve | Striped",
+  "title": "Broadcloth Shirt Long Sleeve | Striped",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488790-000/00?colorDisplayCode=68",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488790/item/cagoods_68_488790_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt Long Sleeve | Striped MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489654-000-00",
+  "name": "MANGA UT SHUEISHA | Yu-Gi-Oh!",
+  "title": "MANGA UT SHUEISHA | Yu-Gi-Oh!",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489654-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489654/item/cagoods_00_489654_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Yu-Gi-Oh! MEN, XXS-S",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486590-000-00",
+  "name": "Broadcloth Shirt Long Sleeve | Striped",
+  "title": "Broadcloth Shirt Long Sleeve | Striped",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486590-000/00?colorDisplayCode=03",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486590/item/cagoods_03_486590_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt Long Sleeve | Striped MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486588-000-00",
+  "name": "Broadcloth Shirt Long Sleeve | Check",
+  "title": "Broadcloth Shirt Long Sleeve | Check",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486588-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486588/item/cagoods_69_486588_3x4.jpg?width=600",
+  "text": "Broadcloth Shirt Long Sleeve | Check MEN, S-M",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E481931-000-00",
+  "name": "PEACE FOR ALL Graphic T-Shirt | Artemis",
+  "title": "PEACE FOR ALL Graphic T-Shirt | Artemis",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E481931-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/481931/item/goods_00_481931_3x4.jpg?width=600",
+  "text": "PEACE FOR ALL Graphic T-Shirt | Artemis MEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E481930-000-00",
+  "name": "PEACE FOR ALL Graphic T-Shirt | Artemis",
+  "title": "PEACE FOR ALL Graphic T-Shirt | Artemis",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E481930-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/481930/item/goods_09_481930_3x4.jpg?width=600",
+  "text": "PEACE FOR ALL Graphic T-Shirt | Artemis MEN, XXS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489655-000-00",
+  "name": "MANGA UT SHUEISHA | Yu-Gi-Oh!",
+  "title": "MANGA UT SHUEISHA | Yu-Gi-Oh!",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489655-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489655/item/cagoods_00_489655_3x4.jpg?width=600",
+  "text": "MANGA UT SHUEISHA | Yu-Gi-Oh! MEN, XXS-XS",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E457111-000-00",
+  "name": "PEACE FOR ALL Graphic T-Shirt | Haruki Murakami",
+  "title": "PEACE FOR ALL Graphic T-Shirt | Haruki Murakami",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E457111-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/457111/item/goods_00_457111_3x4.jpg?width=600",
+  "text": "PEACE FOR ALL Graphic T-Shirt | Haruki Murakami MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E483732-000-00",
+  "name": "PEACE FOR ALL Graphic T-Shirt | Ichiriki",
+  "title": "PEACE FOR ALL Graphic T-Shirt | Ichiriki",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E483732-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/483732/item/goods_69_483732_3x4.jpg?width=600",
+  "text": "PEACE FOR ALL Graphic T-Shirt | Ichiriki MEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E459567-000-00",
+  "name": "PEACE FOR ALL Graphic T-Shirt | Peanuts",
+  "title": "PEACE FOR ALL Graphic T-Shirt | Peanuts",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E459567-000/00?colorDisplayCode=41",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/459567/item/goods_41_459567_3x4.jpg?width=600",
+  "text": "PEACE FOR ALL Graphic T-Shirt | Peanuts MEN, XS-L",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E484287-000-00",
+  "name": "PEACE FOR ALL Graphic T-Shirt | Honjo",
+  "title": "PEACE FOR ALL Graphic T-Shirt | Honjo",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E484287-000/00?colorDisplayCode=62",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/484287/item/goods_62_484287_3x4.jpg?width=600",
+  "text": "PEACE FOR ALL Graphic T-Shirt | Honjo MEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E480814-000-00",
+  "name": "PEACE FOR ALL Graphic T-Shirt | Akamai Technologies",
+  "title": "PEACE FOR ALL Graphic T-Shirt | Akamai Technologies",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E480814-000/00?colorDisplayCode=30",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/480814/item/goods_30_480814_3x4.jpg?width=600",
+  "text": "PEACE FOR ALL Graphic T-Shirt | Akamai Technologies MEN, XXS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489395-000-00",
+  "name": "Brushed Jersey Wide Pants | Herringbone",
+  "title": "Brushed Jersey Wide Pants | Herringbone",
+  "type": "",
+  "gender": "women",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489395-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489395/item/cagoods_07_489395_3x4.jpg?width=600",
+  "text": "Brushed Jersey Wide Pants | Herringbone WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489396-000-00",
+  "name": "Brushed Jersey Wide Pants | Tall | Herringbone",
+  "title": "Brushed Jersey Wide Pants | Tall | Herringbone",
+  "type": "",
+  "gender": "women",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489396-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489396/item/cagoods_07_489396_3x4.jpg?width=600",
+  "text": "Brushed Jersey Wide Pants | Tall | Herringbone WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E492171-000-00",
+  "name": "Chino Wide Pants",
+  "title": "Chino Wide Pants",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E492171-000/00?colorDisplayCode=30",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/492171/item/cagoods_30_492171_3x4.jpg?width=600",
+  "text": "Chino Wide Pants WOMEN, 25 inch-32 inch",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488084-000-00",
+  "name": "Pleated Chino Pants",
+  "title": "Pleated Chino Pants",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488084-000/00?colorDisplayCode=32",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488084/item/cagoods_32_488084_3x4.jpg?width=600",
+  "text": "Pleated Chino Pants WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487608-000-00",
+  "name": "Warm Pile Lined Sweat Wide Pants",
+  "title": "Warm Pile Lined Sweat Wide Pants",
+  "type": "",
+  "gender": "women",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487608-000/00?colorDisplayCode=03",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487608/item/cagoods_03_487608_3x4.jpg?width=600",
+  "text": "Warm Pile Lined Sweat Wide Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489383-000-00",
+  "name": "Warm Pile Lined Sweat Wide Pants | Tall",
+  "title": "Warm Pile Lined Sweat Wide Pants | Tall",
+  "type": "",
+  "gender": "women",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489383-000/00?colorDisplayCode=03",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489383/item/cagoods_03_489383_3x4.jpg?width=600",
+  "text": "Warm Pile Lined Sweat Wide Pants | Tall WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491104-000-00",
+  "name": "High Rise Wide Jeans",
+  "title": "High Rise Wide Jeans",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491104-000/00?colorDisplayCode=02",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491104/item/cagoods_02_491104_3x4.jpg?width=600",
+  "text": "High Rise Wide Jeans WOMEN, 22 inch-34 inch",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E484813-000-00",
+  "name": "EZY Wide Straight Jeans | Tall",
+  "title": "EZY Wide Straight Jeans | Tall",
+  "type": "",
+  "gender": "women",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E484813-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/484813/item/cagoods_07_484813_3x4.jpg?width=600",
+  "text": "EZY Wide Straight Jeans | Tall WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E494543-000-00",
+  "name": "EZY Denim Relaxed Pants",
+  "title": "EZY Denim Relaxed Pants",
+  "type": "",
+  "gender": "women",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E494543-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/494543/item/cagoods_69_494543_3x4.jpg?width=600",
+  "text": "EZY Denim Relaxed Pants WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486982-000-00",
+  "name": "Utility Volume Pants",
+  "title": "Utility Volume Pants",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486982-000/00?colorDisplayCode=31",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486982/item/cagoods_31_486982_3x4.jpg?width=600",
+  "text": "Utility Volume Pants WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E483042-000-00",
+  "name": "Cotton Culotte",
+  "title": "Cotton Culotte",
+  "type": "",
+  "gender": "women",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E483042-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/483042/item/cagoods_09_483042_3x4.jpg?width=600",
+  "text": "Cotton Culotte WOMEN, XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488694-000-00",
+  "name": "Denim Culotte",
+  "title": "Denim Culotte",
+  "type": "",
+  "gender": "women",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488694-000/00?colorDisplayCode=65",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488694/item/cagoods_65_488694_3x4.jpg?width=600",
+  "text": "Denim Culotte WOMEN, 22 inch-32 inch",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488814-000-00",
+  "name": "Smart Culotte | Print",
+  "title": "Smart Culotte | Print",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488814-000/00?colorDisplayCode=35",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488814/item/cagoods_35_488814_3x4.jpg?width=600",
+  "text": "Smart Culotte | Print WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488010-000-00",
+  "name": "Smart Culotte",
+  "title": "Smart Culotte",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488010-000/00?colorDisplayCode=05",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488010/item/cagoods_05_488010_3x4.jpg?width=600",
+  "text": "Smart Culotte WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487589-000-00",
+  "name": "Cotton Volume Easy Pants",
+  "title": "Cotton Volume Easy Pants",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487589-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487589/item/cagoods_07_487589_3x4.jpg?width=600",
+  "text": "Cotton Volume Easy Pants WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E474481-000-00",
+  "name": "Extra Stretch Active Wide Pants",
+  "title": "Extra Stretch Active Wide Pants",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E474481-000/00?colorDisplayCode=39",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/474481/item/cagoods_39_474481_3x4.jpg?width=600",
+  "text": "Extra Stretch Active Wide Pants WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491519-000-00",
+  "name": "Smart Wide Straight Pants",
+  "title": "Smart Wide Straight Pants",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491519-000/00?colorDisplayCode=04",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491519/item/cagoods_04_491519_3x4.jpg?width=600",
+  "text": "Smart Wide Straight Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486120-000-00",
+  "name": "Sweat Pants | 2026",
+  "title": "Sweat Pants | 2026",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486120-000/00?colorDisplayCode=04",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486120/item/cagoods_04_486120_3x4.jpg?width=600",
+  "text": "Sweat Pants | 2026 MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487957-000-00",
+  "name": "Smart Wide Straight Pants",
+  "title": "Smart Wide Straight Pants",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487957-000/00?colorDisplayCode=04",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487957/item/cagoods_04_487957_3x4.jpg?width=600",
+  "text": "Smart Wide Straight Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491520-000-00",
+  "name": "Smart Wide Straight Pants | Tall",
+  "title": "Smart Wide Straight Pants | Tall",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491520-000/00?colorDisplayCode=04",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/491520/item/goods_04_491520_3x4.jpg?width=600",
+  "text": "Smart Wide Straight Pants | Tall WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486317-000-00",
+  "name": "Ribbed Wide Easy Pants",
+  "title": "Ribbed Wide Easy Pants",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486317-000/00?colorDisplayCode=03",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486317/item/cagoods_03_486317_3x4.jpg?width=600",
+  "text": "Ribbed Wide Easy Pants WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488168-000-00",
+  "name": "Ribbed Wide Easy Pants | Flower",
+  "title": "Ribbed Wide Easy Pants | Flower",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488168-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488168/item/cagoods_69_488168_3x4.jpg?width=600",
+  "text": "Ribbed Wide Easy Pants | Flower WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488167-000-00",
+  "name": "Ribbed Wide Easy Pants | Stripe",
+  "title": "Ribbed Wide Easy Pants | Stripe",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488167-000/00?colorDisplayCode=16",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488167/item/cagoods_16_488167_3x4.jpg?width=600",
+  "text": "Ribbed Wide Easy Pants | Stripe WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486316-000-00",
+  "name": "Flannel Easy Pants",
+  "title": "Flannel Easy Pants",
+  "type": "",
+  "gender": "women",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486316-000/00?colorDisplayCode=08",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486316/item/cagoods_08_486316_3x4.jpg?width=600",
+  "text": "Flannel Easy Pants WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488169-000-00",
+  "name": "Flannel Easy Pants | Check",
+  "title": "Flannel Easy Pants | Check",
+  "type": "",
+  "gender": "women",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488169-000/00?colorDisplayCode=12",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488169/item/cagoods_12_488169_3x4.jpg?width=600",
+  "text": "Flannel Easy Pants | Check WOMEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489763-000-00",
+  "name": "Flannel Easy Pants | Gingham",
+  "title": "Flannel Easy Pants | Gingham",
+  "type": "",
+  "gender": "women",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489763-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489763/item/cagoods_69_489763_3x4.jpg?width=600",
+  "text": "Flannel Easy Pants | Gingham WOMEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E489397-000-00",
+  "name": "Washable Knit Pants | Tall",
+  "title": "Washable Knit Pants | Tall",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E489397-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/489397/item/cagoods_01_489397_3x4.jpg?width=600",
+  "text": "Washable Knit Pants | Tall WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E481583-000-00",
+  "name": "Stretch Easy Shorts | Denim 8\"",
+  "title": "Stretch Easy Shorts | Denim 8\"",
+  "type": "",
+  "gender": "men",
+  "price": 34.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E481583-000/00?colorDisplayCode=64",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/481583/item/cagoods_64_481583_3x4.jpg?width=600",
+  "text": "Stretch Easy Shorts | Denim 8\" MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E481582-000-00",
+  "name": "Stretch Easy Shorts | 8\"",
+  "title": "Stretch Easy Shorts | 8\"",
+  "type": "",
+  "gender": "men",
+  "price": 34.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E481582-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/481582/item/cagoods_09_481582_3x4.jpg?width=600",
+  "text": "Stretch Easy Shorts | 8\" MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488882-000-00",
+  "name": "Volume Pants",
+  "title": "Volume Pants",
+  "type": "",
+  "gender": "women",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488882-000/00?colorDisplayCode=37",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488882/item/cagoods_37_488882_3x4.jpg?width=600",
+  "text": "Volume Pants WOMEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491116-000-00",
+  "name": "Straight Jeans | Distressed",
+  "title": "Straight Jeans | Distressed",
+  "type": "",
+  "gender": "women",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491116-000/00?colorDisplayCode=62",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491116/item/cagoods_62_491116_3x4.jpg?width=600",
+  "text": "Straight Jeans | Distressed WOMEN, 22 inch-34 inch",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E487257-000-00",
+  "name": "Brushed Jersey Wide Pants",
+  "title": "Brushed Jersey Wide Pants",
+  "type": "",
+  "gender": "men",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E487257-000/00?colorDisplayCode=38",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/487257/item/cagoods_38_487257_3x4.jpg?width=600",
+  "text": "Brushed Jersey Wide Pants MEN, S-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E484209-000-00",
+  "name": "Jorts | 13\"",
+  "title": "Jorts | 13\"",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E484209-000/00?colorDisplayCode=63",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/484209/item/cagoods_63_484209_3x4.jpg?width=600",
+  "text": "Jorts | 13\" MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E479134-000-00",
+  "name": "Stretch Easy Ankle Pants",
+  "title": "Stretch Easy Ankle Pants",
+  "type": "",
+  "gender": "men",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E479134-000/00?colorDisplayCode=36",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/479134/item/cagoods_36_479134_3x4.jpg?width=600",
+  "text": "Stretch Easy Ankle Pants MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E458325-000-00",
+  "name": "Stretch Easy Shorts | Seersucker | 8\"",
+  "title": "Stretch Easy Shorts | Seersucker | 8\"",
+  "type": "",
+  "gender": "men",
+  "price": 34.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E458325-000/00?colorDisplayCode=64",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/458325/item/cagoods_64_458325_3x4.jpg?width=600",
+  "text": "Stretch Easy Shorts | Seersucker | 8\" MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482758-000-00",
+  "name": "Sweat Wide Shorts | 9\"",
+  "title": "Sweat Wide Shorts | 9\"",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482758-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482758/item/cagoods_09_482758_3x4.jpg?width=600",
+  "text": "Sweat Wide Shorts | 9\" MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482883-000-00",
+  "name": "Wide Cargo Pants",
+  "title": "Wide Cargo Pants",
+  "type": "",
+  "gender": "men",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482883-000/00?colorDisplayCode=58",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482883/item/cagoods_58_482883_3x4.jpg?width=600",
+  "text": "Wide Cargo Pants MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488203-000-00",
+  "name": "Corduroy Culotte",
+  "title": "Corduroy Culotte",
+  "type": "",
+  "gender": "women",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488203-000/00?colorDisplayCode=30",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488203/item/cagoods_30_488203_3x4.jpg?width=600",
+  "text": "Corduroy Culotte WOMEN, L-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482936-000-00",
+  "name": "Cargo Pants",
+  "title": "Cargo Pants",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482936-000/00?colorDisplayCode=56",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482936/item/cagoods_56_482936_3x4.jpg?width=600",
+  "text": "Cargo Pants MEN, L-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E481248-000-00",
+  "name": "Sweat Wide Pants | Short",
+  "title": "Sweat Wide Pants | Short",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E481248-000/00?colorDisplayCode=60",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/481248/item/cagoods_60_481248_3x4.jpg?width=600",
+  "text": "Sweat Wide Pants | Short WOMEN, L",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488010-000-01",
+  "name": "Smart Culotte",
+  "title": "Smart Culotte",
+  "type": "",
+  "gender": "women",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488010-000/01?colorDisplayCode=30",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488010/item/cagoods_30_488010_3x4.jpg?width=600",
+  "text": "Smart Culotte WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E473791-000-00",
+  "name": "Linen Blend Easy Pants",
+  "title": "Linen Blend Easy Pants",
+  "type": "",
+  "gender": "women",
+  "price": 19.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E473791-000/00?colorDisplayCode=11",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/473791/item/cagoods_11_473791_3x4.jpg?width=600",
+  "text": "Linen Blend Easy Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E485993-000-00",
+  "name": "Smart Wide Pants | Striped",
+  "title": "Smart Wide Pants | Striped",
+  "type": "",
+  "gender": "women",
+  "price": 19.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E485993-000/00?colorDisplayCode=69",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/485993/item/cagoods_69_485993_3x4.jpg?width=600",
+  "text": "Smart Wide Pants | Striped WOMEN, XXS",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E477753-000-00",
+  "name": "Extra Stretch Active Shorts | 5\"",
+  "title": "Extra Stretch Active Shorts | 5\"",
+  "type": "",
+  "gender": "men",
+  "price": 34.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E477753-000/00?colorDisplayCode=02",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/477753/item/cagoods_02_477753_3x4.jpg?width=600",
+  "text": "Extra Stretch Active Shorts | 5\" MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E486121-000-00",
+  "name": "Sweat Pants | 2026 | Tall",
+  "title": "Sweat Pants | 2026 | Tall",
+  "type": "",
+  "gender": "men",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E486121-000/00?colorDisplayCode=04",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/486121/item/cagoods_04_486121_3x4.jpg?width=600",
+  "text": "Sweat Pants | 2026 | Tall MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488854-000-00",
+  "name": "Utility Volume Pants | Tall",
+  "title": "Utility Volume Pants | Tall",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488854-000/00?colorDisplayCode=31",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488854/item/cagoods_31_488854_3x4.jpg?width=600",
+  "text": "Utility Volume Pants | Tall WOMEN, XXS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E488462-000-00",
+  "name": "Wide Straight Jeans",
+  "title": "Wide Straight Jeans",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E488462-000/00?colorDisplayCode=07",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/488462/item/cagoods_07_488462_3x4.jpg?width=600",
+  "text": "Wide Straight Jeans WOMEN, 23 inch-32 inch",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491163-000-00",
+  "name": "High Rise Wide Jeans | Tall",
+  "title": "High Rise Wide Jeans | Tall",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491163-000/00?colorDisplayCode=65",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491163/item/cagoods_65_491163_3x4.jpg?width=600",
+  "text": "High Rise Wide Jeans | Tall WOMEN, 22 inch-34 inch",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E483306-000-00",
+  "name": "Linen Cotton Tapered Pants | Striped",
+  "title": "Linen Cotton Tapered Pants | Striped",
+  "type": "",
+  "gender": "women",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E483306-000/00?colorDisplayCode=00",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/483306/item/cagoods_00_483306_3x4.jpg?width=600",
+  "text": "Linen Cotton Tapered Pants | Striped WOMEN, XXS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E482945-000-00",
+  "name": "Chino Shorts | 7\"",
+  "title": "Chino Shorts | 7\"",
+  "type": "",
+  "gender": "men",
+  "price": 12.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E482945-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/482945/item/cagoods_01_482945_3x4.jpg?width=600",
+  "text": "Chino Shorts | 7\" MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E477753-000-01",
+  "name": "Extra Stretch Active Shorts | 5\"",
+  "title": "Extra Stretch Active Shorts | 5\"",
+  "type": "",
+  "gender": "men",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E477753-000/01?colorDisplayCode=02",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/477753/item/cagoods_02_477753_3x4.jpg?width=600",
+  "text": "Extra Stretch Active Shorts | 5\" MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E458325-000-01",
+  "name": "Stretch Easy Shorts | Seersucker | 8\"",
+  "title": "Stretch Easy Shorts | Seersucker | 8\"",
+  "type": "",
+  "gender": "men",
+  "price": 19.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E458325-000/01?colorDisplayCode=08",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/458325/item/cagoods_08_458325_3x4.jpg?width=600",
+  "text": "Stretch Easy Shorts | Seersucker | 8\" MEN, XS",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E477753-000-02",
+  "name": "Extra Stretch Active Shorts | 5\"",
+  "title": "Extra Stretch Active Shorts | 5\"",
+  "type": "",
+  "gender": "men",
+  "price": 19.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E477753-000/02?colorDisplayCode=34",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/477753/item/cagoods_34_477753_3x4.jpg?width=600",
+  "text": "Extra Stretch Active Shorts | 5\" MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E481582-000-01",
+  "name": "Stretch Easy Shorts | 8\"",
+  "title": "Stretch Easy Shorts | 8\"",
+  "type": "",
+  "gender": "men",
+  "price": 19.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E481582-000/01?colorDisplayCode=11",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/481582/item/cagoods_11_481582_3x4.jpg?width=600",
+  "text": "Stretch Easy Shorts | 8\" MEN, XS-XL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E483546-000-00",
+  "name": "Extra Stretch Active Leggings",
+  "title": "Extra Stretch Active Leggings",
+  "type": "",
+  "gender": "women",
+  "price": 29.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E483546-000/00?colorDisplayCode=68",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/483546/item/cagoods_68_483546_3x4.jpg?width=600",
+  "text": "Extra Stretch Active Leggings WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491515-000-00",
+  "name": "Smart Easy Pants",
+  "title": "Smart Easy Pants",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491515-000/00?colorDisplayCode=05",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491515/item/cagoods_05_491515_3x4.jpg?width=600",
+  "text": "Smart Easy Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491516-000-00",
+  "name": "Smart Easy Pants",
+  "title": "Smart Easy Pants",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491516-000/00?colorDisplayCode=05",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491516/item/cagoods_05_491516_3x4.jpg?width=600",
+  "text": "Smart Easy Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E490585-000-00",
+  "name": "Wide Cargo Pants",
+  "title": "Wide Cargo Pants",
+  "type": "",
+  "gender": "men",
+  "price": 59.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E490585-000/00?colorDisplayCode=09",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/490585/item/goods_09_490585_3x4.jpg?width=600",
+  "text": "Wide Cargo Pants MEN, XS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491517-000-00",
+  "name": "Smart Easy Pants",
+  "title": "Smart Easy Pants",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491517-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491517/item/cagoods_01_491517_3x4.jpg?width=600",
+  "text": "Smart Easy Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E491518-000-00",
+  "name": "Smart Easy Pants",
+  "title": "Smart Easy Pants",
+  "type": "",
+  "gender": "women",
+  "price": 49.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E491518-000/00?colorDisplayCode=01",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/ca/imagesgoods/491518/item/cagoods_01_491518_3x4.jpg?width=600",
+  "text": "Smart Easy Pants WOMEN, XXS-XXL",
+  "checkedAt": "2026-11-15"
+ },
+ {
+  "source": "seed:uniqlo",
+  "brand": "UNIQLO",
+  "id": "UNIQLO-E492119-000-00",
+  "name": "Lightweight Pocketable Backpack",
+  "title": "Lightweight Pocketable Backpack",
+  "type": "",
+  "gender": "women",
+  "price": 39.9,
+  "currency": "CAD",
+  "productUrl": "https://www.uniqlo.com/ca/en/products/E492119-000/00?colorDisplayCode=02",
+  "imageUrl": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/492119/item/goods_02_492119_3x4.jpg?width=600",
+  "text": "Lightweight Pocketable Backpack WOMEN, One size",
+  "checkedAt": "2026-11-15"
  }
 ]

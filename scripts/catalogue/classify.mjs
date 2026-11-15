@@ -258,6 +258,8 @@ export function classify(title, type = '', brand = '') {
     const sleep = has(SLEEP, `${title} ${type}`) || /\b(cami|shortie|robe)\b/i.test(naming) || SLEEP_BRANDS.has(b)
     return sleep && !PACK.test(title) ? 'sleepwear' : null
   }
+  // A footwear label's knit toque is a beanie, not a boot model ("Blundstone Toque - Black").
+  if (b === 'blundstone' && /\b(toques?|tuques?|beanies?)\b/i.test(naming)) return 'beanie'
   const limit = BRAND_FAMILIES[b]
   const allowed = limit?.fams
   if (head && allowed && !allowed.includes(head.n.fam)) { if (!limit.models) return null; head = null }

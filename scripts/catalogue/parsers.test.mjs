@@ -21,6 +21,11 @@ test('sold out, gone and unknown are told apart, and only proof changes anything
   assert.equal(verifyProductPage(rec, '', 404).status, 'gone')
 })
 
+test('offers without any availability are unknown, not sold out', () => {
+  const html = ld({ '@type': 'Product', offers: { '@type': 'Offer', url: 'https://x/boot.html?color=014', price: '150', priceCurrency: 'CAD' } })
+  assert.equal(verifyProductPage(rec, html, 200).status, 'unknown')
+})
+
 test('a price in another currency than the record is never applied', () => {
   const v = verifyProductPage(rec, group([['https://x/boot.html?color=014&size=10', '130', 'InStock', 'USD']]), 200)
   assert.equal(v.status, 'ok')
@@ -64,4 +69,28 @@ test('merging a fresh capture refreshes the record, keeps curation fields, clear
 test('housekeeping drops records unconfirmed for 60 days and sold out for 30', () => {
   const kept = pruneRecords([{ checkedAt: '2026-09-01' }, { checkedAt: '2026-10-01', unavailableSince: '2026-10-01' }, { checkedAt: '2026-10-01' }], '2026-11-06')
   assert.deepEqual(kept, [{ checkedAt: '2026-10-01' }])
+})
+
+test('PVH tiles (Calvin Klein, Tommy): photo must carry the style and colour code, one price only', () => {
+  const attr = p => JSON.stringify({ product: p }).replace(/"/g, '&quot;')
+  const tile = (pid, img, prices) => `<div class="product" data-pid="${pid}" data-category="{&quot;product_master_category&quot;:&quot;men:underwear&quot;}" data-product-image-attr="${attr({ url: `/en/men/underwear/trunk/${pid}.html?journey=x`, available: true, images: [{ absURL: img, alt: 'Cotton Trunk, Black' }] })}">${prices.map(v => `<span class="sales"> <span class="value" content="${v}">$${v}</span>`).join('')}</div>`
+  const img = 'https://calvinklein.scene7.com/is/image/CalvinKlein/'
+  const html = tile('NB1897-001', `${img}NB1897_001_main`, ['42.00']) + tile('NB2000-100', `${img}NB1897_001_main`, ['30.00']) + tile('NB3000-100', `${img}NB3000_100_main`, ['30.00', '20.00'])
+  const out = listingParsers.calvinklein(html)
+  assert.equal(out.length, 1)
+  assert.deepEqual([out[0].name, out[0].price, out[0].gender, out[0].productUrl, out[0].imageUrl], ['Cotton Trunk — Black', 42, 'men', 'https://www.calvinklein.ca/en/men/underwear/trunk/NB1897-001.html?journey=x', `${img}NB1897_001_main`])
+})
+
+test('Mango tiles: that colour’s own link and photo, single price, gender from the link', () => {
+  const tile = (code, col, imgCol, prices) => `<div data-slot="${code}:${col}"><div aria-label="Images of Wool coat in Black colour"><meta content="https://media.mango.com/is/image/punto/${code}-${imgCol}-002"></div><a href="https://shop.mango.com/ca/en/p/women/coats/coats/wool-coat/${code}/${col}/00">x</a>${prices.map(p => `<span>$ ${p}</span>`).join('')}</div>`
+  const out = listingParsers.mango(tile('37017807', '99', '99', ['379.99']) + tile('37017808', '99', '70', ['379.99']) + tile('37017809', '99', '99', ['379.99', '299.99']))
+  assert.equal(out.length, 1)
+  assert.deepEqual([out[0].id, out[0].name, out[0].gender, out[0].price], ['Mango-37017807-99', 'Wool coat — Black', 'women', 379.99])
+})
+
+test('a footwear label’s toque is filed as a beanie, its boots stay boots', async () => {
+  const { classify } = await import('./classify.mjs')
+  assert.equal(classify('Blundstone Toque - Black', '', 'Blundstone'), 'beanie')
+  assert.equal(classify('Blundstone 585 Chelsea Boot - Rustic Brown', '', 'Blundstone'), 'boots')
+  assert.equal(classify('Original 500 - Stout Brown', '', 'Blundstone'), 'boots')
 })

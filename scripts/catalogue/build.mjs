@@ -33,6 +33,10 @@ const PAIRING = {
   'adidas': (u, i) => { const m = u.match(/\/([A-Z0-9]{6})\.html/i); return !!m && i.toUpperCase().includes(m[1].toUpperCase()) },
 }
 
+// Most recently confirmed records first (stable, so file order holds within a day): the per-brand caps below then
+// fill with current pieces, and records about to pass their freshness window can't crowd out fresh captures.
+raw.sort((a, b) => (b.checkedAt || today).localeCompare(a.checkedAt || today))
+
 const seen = new Set()
 const rejected = []
 const byKey = new Map()

@@ -148,7 +148,62 @@ export const listingParsers = {
   },
 }
 
-const NIKE_SKIP = /basketball|skate|football|soccer|cleat|golf|spike|weightlift|boxing|wrestling/i
+// PVH stores (Calvin Klein CA, Tommy Hilfiger CA) list tiles as <div class="product" data-pid="<style>-<colour>"> with the
+// product JSON in data-product-image-attr; the photo must start with that style and colour code, and the tile must show one price.
+function pvhTiles(html, brand, host, imgHost) {
+  const out = []
+  for (const t0 of html.split(/<div class="product" data-pid="/).slice(1)) {
+    const t = t0.slice(0, 60000)
+    const pid = (t.match(/^([A-Z0-9]+-[A-Z0-9]{3})"/) || [])[1]
+    const attr = (t.match(/data-product-image-attr="([^"]*)"/) || [])[1]
+    if (!pid || !attr) continue
+    let p
+    try { p = JSON.parse(decode(attr)).product } catch { continue }
+    if (!p?.url || !p.images?.length || p.available === false) continue
+    const [code, col] = pid.split('-')
+    const img = p.images[0].absURL || p.images[0].url || ''
+    if (!img.startsWith(`${imgHost}${code}_${col}_`) || !p.url.split('?')[0].endsWith(`/${pid}.html`)) continue
+    const sales = [...t.matchAll(/class="sales">\s*<span[^>]*class="value" content="([\d.]+)"/g)].map(m => +m[1])
+    const any = [...t.matchAll(/class="value" content="([\d.]+)"/g)].map(m => +m[1])
+    const price = sales.length === 1 ? sales[0] : any.length === 1 ? any[0] : null
+    if (!(price > 0)) continue
+    const alt = decode(p.images[0].alt || ''), i = alt.lastIndexOf(', ')
+    const title = i > 0 ? alt.slice(0, i) : alt, colour = i > 0 ? alt.slice(i + 2) : ''
+    const cat = decode((t.match(/data-category="([^"]*)"/) || [])[1] || '')
+    let mc = ''
+    try { mc = JSON.parse(cat).product_master_category || '' } catch {}
+    if (!title || KIDS.test(`${title} ${mc}`)) continue
+    const path = p.url.split('?')[0]
+    const gender = /(^|:)women(:|$)/.test(mc) || /\/women\//.test(path) ? 'women' : /(^|:)men(:|$)/.test(mc) || /\/men\//.test(path) ? 'men' : 'unisex'
+    out.push({ source: `seed:${brand.toLowerCase()}`, brand, id: `${brand}-${path.split('/').slice(-2).join('-')}`, name: colour ? `${title} — ${colour}` : title, title, type: '', gender,
+      price, currency: 'CAD', productUrl: host + p.url, imageUrl: `${imgHost}${code}_${col}_main`, text: `${title} ${colour} ${mc}` })
+  }
+  return out
+}
+listingParsers.calvinklein = html => pvhTiles(html, 'Calvin Klein', 'https://www.calvinklein.ca', 'https://calvinklein.scene7.com/is/image/CalvinKlein/')
+listingParsers.tommy = html => pvhTiles(html, 'Tommy Hilfiger', 'https://ca.tommy.com', 'https://shoptommy.scene7.com/is/image/ShopTommy/')
+
+// Mango tiles (data-slot="<code>:<colour>"): name and colour from the carousel label, that colour's own link and photo
+// (code-colour in both paths), and a single listed price.
+listingParsers.mango = html => {
+  const out = []
+  for (const s of html.split(/<div data-slot="/).slice(1)) {
+    const m = s.match(/^(\d{8}):(\d{2})"/)
+    if (!m) continue
+    const [, code, col] = m, t = s.slice(0, 30000)
+    const lab = t.match(/aria-label="Images of (.+?) in (.+?) colour"/)
+    const url = (t.match(new RegExp(`href="(https://shop\\.mango\\.com/ca/en/p/(women|men)/[a-z0-9/-]+/${code}/${col}/00)"`)) || [])
+    const img = (t.match(new RegExp(`content="(https://media\\.mango\\.com/is/image/punto/${code}-${col}-\\d+)"`)) || [])[1]
+    const prices = [...new Set(t.replace(/<[^>]+>/g, '~').split('~').map(x => x.trim()).filter(x => /^\$ [\d,.]+$/.test(x)))]
+    if (!lab || !url[1] || !img || prices.length !== 1) continue
+    const name = decode(lab[1]), colour = decode(lab[2])
+    out.push({ source: 'seed:mango', brand: 'Mango', id: `Mango-${code}-${col}`, name: `${name} — ${colour}`, title: name, type: '', gender: url[2],
+      price: +prices[0].replace(/[^\d.]/g, ''), currency: 'CAD', productUrl: url[1], imageUrl: `${img}?wid=2048&hei=2867&fit=crop`, text: `${name} ${colour}` })
+  }
+  return out
+}
+
+const NIKE_SKIP =/basketball|skate|football|soccer|cleat|golf|spike|weightlift|boxing|wrestling/i
 // One Nike record, from a row of the Nike search provider's data (or the manual TSV format).
 export function nikeRecord({ url, title, subtitle = '', color = '', price, img }) {
   if (!url || !img || !(+price > 0)) return null
@@ -173,7 +228,7 @@ export function nikeFromSearch(data) {
 }
 
 // Which listing parser and product verifier a seed record belongs to.
-export const brandMode = brand => ({ 'H&M': 'hm', UNIQLO: 'uniqlo', ZARA: 'zara', 'The North Face': 'tnf', Columbia: 'columbia', adidas: 'adidas', Nike: 'nike' })[brand] || 'generic'
+export const brandMode = brand => ({ 'H&M': 'hm', UNIQLO: 'uniqlo', ZARA: 'zara', 'The North Face': 'tnf', Columbia: 'columbia', adidas: 'adidas', Nike: 'nike', 'Calvin Klein': 'calvinklein', 'Tommy Hilfiger': 'tommy', Mango: 'mango' })[brand] || 'generic'
 
 // Which offers on a product page belong to this record's exact colour.
 function variantMatcher(record) {
@@ -210,6 +265,8 @@ export function verifyProductPage(record, html, statusCode) {
   const match = variantMatcher(record)
   const mine = offers.filter(o => match(o, o.node))
   if (!mine.length) return { status: 'gone', note: 'colour no longer offered' }
+  // Offers that don't state availability at all prove nothing about stock (e.g. Salomon): never read them as sold out.
+  if (!mine.some(o => o.availability)) return { status: 'unknown', note: 'offers state no availability' }
   const live = mine.filter(o => AVAILABLE.test(String(o.availability || '')))
   if (!live.length) return { status: 'soldout' }
   const prices = live.map(o => +o.price).filter(n => n > 0)

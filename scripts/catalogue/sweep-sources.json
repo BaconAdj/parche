@@ -24,7 +24,12 @@
   { "mode": "columbia", "url": "https://www.columbiasportswear.ca/en/c/baselayer/" },
   { "mode": "adidas", "url": "https://www.adidas.com/us/new_arrivals" },
   { "mode": "adidas", "url": "https://www.adidas.com/us/women-new_arrivals" },
-  { "mode": "adidas", "url": "https://www.adidas.com/us/men-new_arrivals" }
+  { "mode": "adidas", "url": "https://www.adidas.com/us/men-new_arrivals" },
+  { "mode": "calvinklein", "url": "https://www.calvinklein.ca/en/men/underwear" },
+  { "mode": "calvinklein", "url": "https://www.calvinklein.ca/en/underwear/men/multipacks" },
+  { "mode": "tommy", "url": "https://ca.tommy.com/en/men/clothing/tops" },
+  { "mode": "tommy", "url": "https://ca.tommy.com/en/men/clothing/tops/polos" },
+  { "mode": "mango", "url": "https://shop.mango.com/ca/en/c/women/coats/coats/cb4b5b2b" }
  ],
  "nike": [
   { "query": "running shoes", "count": 100 },

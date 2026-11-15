@@ -11,7 +11,7 @@ If a store's feed fails on a given day, `build.mjs` keeps that store's products 
 
 ## 2. Hand-captured brands: the daily sweep (`scripts/catalogue/sweep.mjs`)
 
-For brands without a public feed (H&M, UNIQLO, ZARA, Nike, The North Face, Columbia, adidas and the others in `data/raw/seed/`):
+For brands without a public feed (H&M, UNIQLO, ZARA, Nike, The North Face, Columbia, adidas, Calvin Klein, Tommy Hilfiger, Mango and the others in `data/raw/seed/`):
 
 1. **Listing pages.** The pages in `scripts/catalogue/sweep-sources.json` are re-captured through the Firecrawl API and parsed by `scripts/catalogue/parsers.mjs` (no AI extraction; a photo is kept only when it carries the product's own code). One page re-confirms 20–100 products. New-season pieces are added.
 2. **Product pages.** Displayed products the listings didn't confirm are opened one by one, most-clicked first, up to `SWEEP_PAGE_BUDGET` pages a day (default 60). The verdict comes from the retailer's own schema.org data for that exact colour (Nike: the Firecrawl Nike product provider):
