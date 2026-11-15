@@ -366,91 +366,27 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w51298r-airbrush-high-waist-heart-throb-legging-steel-gr",
+  "id": "alo-w54142r-airlift-mesh-high-waist-7-8-tempo-legging-black",
   "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Airbrush High-Waist Heart Throb Legging - Steel Grey/White",
-  "price": 93,
+  "name": "Airlift Mesh High-Waist 7/8 Tempo Legging - Black",
+  "price": 138,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w51298r-airbrush-high-waist-heart-throb-legging-steel-grey-white",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W51298R_05569_b1_s1_a1_1_m76_0c8b1d44-175f-48ad-8067-3de1933f4b60.jpg?v=1734054637",
-  "details": "It’s the legging that does it all.",
+  "productUrl": "https://www.aloyoga.com/products/w54142r-airlift-mesh-high-waist-7-8-tempo-legging-black?variant=43299006775476",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54142R_01_b1_s1_a1_1_m18.jpg?v=1722381513",
+  "details": "For dance rehearsal to date night, these leggings are designed with contour seaming along the sides and a sweetheart waistband in the back.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "active-bottoms"
   ],
   "climates": [
-   "cold",
    "mild",
    "hot",
    "unknown"
   ],
   "colours": [
-   "white",
-   "grey"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w54180r-airlift-high-waist-alignment-legging-smoky-quart",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Airlift High-Waist Alignment Legging - Smoky Quartz/White",
-  "price": 100,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w54180r-airlift-high-waist-alignment-legging-smoky-quartz-white?variant=43774129176756",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54180R_02512_b1_s1_a1_1_m233.jpg?v=1774653312",
-  "details": "Find your flow in the Airlift Alignment Legging.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "active-bottoms"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "brown"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w54184r-airlift-high-waist-sleek-legging-mushroom",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Airlift High-Waist Sleek Legging - Mushroom",
-  "price": 96,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w54184r-airlift-high-waist-sleek-legging-mushroom?variant=43774129963188",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54184R_05498_b1_s1_a5_1_m54.jpg?v=1738703203",
-  "details": "Sculpt your silhouette with the Airlift Sleek Legging.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "active-bottoms"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
+   "black"
   ],
   "styles": [
    "understated"
@@ -481,6 +417,37 @@
   ],
   "colours": [
    "grey"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w54288r-airlift-high-waist-haven-legging-black-white",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Airlift High-Waist Haven Legging - Black/White",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w54288r-airlift-high-waist-haven-legging-black-white",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54288R_06401_b1_s1_a1_m134_9427b806-fab9-48f5-9f3d-5da29e3d358e.jpg?v=1775150057",
+  "details": "The Airlift High-Waist Haven Legging turns a classic silhouette into a power move.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "active-bottoms"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black",
+   "white"
   ],
   "styles": [
    "understated"
@@ -541,6 +508,36 @@
   ],
   "colours": [
    "pink"
+  ],
+  "styles": [
+   "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w5604r-7-8-high-waist-airbrush-legging-spearmint",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "7/8 High-Waist Airbrush Legging - Spearmint",
+  "price": 82,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w5604r-7-8-high-waist-airbrush-legging-spearmint?variant=50661358829927",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W5604R_06326_b1_s1_a1_m161.jpg?v=1748624907",
+  "details": "Meet the legging that deserves a place in your rotation.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "active-bottoms"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "green"
   ],
   "styles": [
    "statement"
@@ -8810,7 +8807,7 @@
   "name": "Sport Jersey Throwback Long-Sleeve Tee - Olive Night Varsity",
   "price": 98,
   "currency": "USD",
-  "productUrl": "https://fahertybrand.com/products/sport-jersey-throwback-ls-tee-olive-night-varsity?variant=44875923980357",
+  "productUrl": "https://fahertybrand.com/products/sport-jersey-throwback-ls-tee-olive-night-varsity?variant=44875924013125",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0359/8357/files/WKF2608-OVV_Sport_Jersey_Throwback_LS_Tee_WS_FRONT_CROP_1_Web.jpg?v=1794521390",
   "details": "Made from 100% organic cotton, this long-sleeve tee has a relaxed fit and a soft, lived-in feel for everyday comfort.",
   "checkedAt": "2026-11-15",
@@ -13121,16 +13118,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "faherty-riviera-crochet-bag-black",
+  "id": "faherty-oversized-artisan-straw-tote-natural",
   "gender": "unisex",
-  "tier": "Quality",
+  "tier": "High-end",
   "brand": "Faherty",
-  "name": "Riviera Crochet Bag - Black",
-  "price": 59,
+  "name": "Oversized Artisan Straw Tote - Natural",
+  "price": 248,
   "currency": "USD",
-  "productUrl": "https://fahertybrand.com/products/riviera-crochet-bag-black?variant=43871586943045",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0359/8357/files/SP26-Faherty-Unisex-YD0080-001-RivieraCrochetBag-Black_FRONT_1_Web.jpg?v=1769280182",
-  "details": "Crocheted in 100% organic cotton, this bag features a structured zigzag pattern and a soft, flexible body.",
+  "productUrl": "https://fahertybrand.com/products/oversized-artisan-straw-tote-natural?variant=44770442543173",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0359/8357/files/WAU2613-NAT_Oversized_Artisan_Straw_Tote_LD_FRONT_1_Web.jpg?v=1785939621",
+  "details": "Hand-crocheted from 100% raffia with an open, textured design built big on purpose.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "bag"
@@ -13141,12 +13138,9 @@
    "hot",
    "unknown"
   ],
-  "colours": [
-   "black",
-   "white"
-  ],
+  "colours": [],
   "styles": [
-   "understated"
+   "relaxed"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -18901,36 +18895,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-terry-small-tote-peony",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "TERRY SMALL TOTE | PEONY",
-  "price": 40,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/terry-small-tote-peony",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-ACCESSORIES-BP-BGS-8920W-PEO-FLT_908fe2a6-07c4-49ea-8541-46fc0af45e71.jpg?v=1785735616",
-  "details": "Perfect for all your beach essentials.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "bag"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "pink"
-  ],
-  "styles": [
-   "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "skims-velour-small-tote-espresso",
   "gender": "women",
   "tier": "Quality",
@@ -24055,34 +24019,6 @@
   ],
   "styles": [
    "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-a0397u-faux-fur-ear-warmers-ivory",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Faux Fur Ear Warmers - Ivory",
-  "price": 54,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0397u-faux-fur-ear-warmers-ivory?variant=41853533552820",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/products/A0397U_03299_b1_a1_904c1681-7423-4e6f-8b36-ea8c18f95e96.jpg?v=1700081145",
-  "details": "For apres-ski or street, keep ears cozy and covered with Faux Fur Ear Warmers — made from ultra-soft and warming faux fur fabric and an elas",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "beanie"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "white",
-   "cream"
-  ],
-  "styles": [
-   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -33787,6 +33723,36 @@
   "maxAgeDays": 10
  },
  {
+  "id": "everlane-womens-dream-blazer-black",
+  "gender": "women",
+  "tier": "Budget",
+  "brand": "Everlane",
+  "name": "The Dream Blazer | Black",
+  "price": 50,
+  "currency": "USD",
+  "productUrl": "https://www.everlane.com/products/womens-dream-blazer-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/d5784936_0db7.jpg?v=1753411587",
+  "details": "This piece features a relaxed fit, slim notch-lapel, single-breast with one button, back vent, a slim fit through sleeves, flap pockets with",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "blazer"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "everlane-womens-dream-blazer-navy",
   "gender": "women",
   "tier": "Budget",
@@ -33843,36 +33809,6 @@
   "styles": [
    "polished",
    "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "everlane-womens-oversized-blazer-taupe-herringbone",
-  "gender": "women",
-  "tier": "Budget",
-  "brand": "Everlane",
-  "name": "The Oversized Blazer in Wool | Taupe Herringbone",
-  "price": 74,
-  "currency": "USD",
-  "productUrl": "https://www.everlane.com/products/womens-oversized-blazer-taupe-herringbone",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/c61a1971_086d.jpg?v=1759857612",
-  "details": "Our Oversized Blazer in Wool has a roomy, menswear-inspired shape and modern look—complete with cuff buttons, flap pockets, and recycled sho",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "blazer"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "sand"
-  ],
-  "styles": [
-   "polished",
-   "relaxed"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -43261,6 +43197,38 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-w9351rg-splendor-bra-spruce-green-white",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Splendor Bra - Spruce Green/White",
+  "price": 47,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w9351rg-splendor-bra-spruce-green-white?variant=43774159487156",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9351RG_06045_b1_s1_a1_1_m174.jpg?v=1747163431",
+  "details": "Comfiest.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "bra"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "green"
+  ],
+  "styles": [
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-w9533r-airlift-line-up-bra-celestial-blue",
   "gender": "women",
   "tier": "High-end",
@@ -43352,68 +43320,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w9680r-airbrush-heart-throb-bra-steel-grey-white",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Airbrush Heart Throb Bra - Steel Grey/White",
-  "price": 70,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w9680r-airbrush-heart-throb-bra-steel-grey-white?variant=43766280913076",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9680R_05569_b2_s1_a1_1_m209.jpg?v=1734054626",
-  "details": "Way too cute to cover up.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "bra"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "grey"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w9744r-alosoft-head-start-bra-gravel",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Alosoft Head Start Bra - Gravel",
-  "price": 40,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w9744r-alosoft-head-start-bra-gravel?variant=42865597874356",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9744R_05438_b1_s1_a4_1_m191.jpg?v=1724271134",
-  "details": "Get an edge up on the competition in the Head Start Bra.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "bra"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-w9780r-airlift-suit-up-bra-burgundy-truffle-black",
   "gender": "women",
   "tier": "High-end",
@@ -43447,16 +43353,46 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w9780r-airlift-suit-up-bra-spruce-green-white",
+  "id": "alo-w9797r-airlift-empower-bra-spruce-green",
   "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Airlift Suit Up Bra - Spruce Green/White",
-  "price": 61,
+  "name": "Airlift Empower Bra - Spruce Green",
+  "price": 68,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w9780r-airlift-suit-up-bra-spruce-green-white?variant=43774163746996",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9780R_06045_b1_s1_a1_1_m54.jpg?v=1739815731",
-  "details": "Ready for action.",
+  "productUrl": "https://www.aloyoga.com/products/w9797r-airlift-empower-bra-spruce-green?variant=43774169546932",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9797R_06023_b1_s1_a1_1_m174.jpg?v=1739239947",
+  "details": "Support? Check.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "bra"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "green"
+  ],
+  "styles": [
+   "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w9808r-tennis-club-sweater-knit-bra-crystal-clear-blue-w",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Tennis Club Sweater Knit Bra - Crystal Clear Blue/White",
+  "price": 54,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w9808r-tennis-club-sweater-knit-bra-crystal-clear-blue-white",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9808R_06047_b1_s1_a5_m207.jpg?v=1747163420",
+  "details": "Cut from a softly textured cotton knit with a slew of preppy details, this bra top brings a touch of tenniscore to any look.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "bra"
@@ -43469,10 +43405,10 @@
   ],
   "colours": [
    "white",
-   "green"
+   "blue"
   ],
   "styles": [
-   "statement",
+   "relaxed",
    "understated"
   ],
   "feed": "shopify",
@@ -47501,16 +47437,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "woolx-womens-merino-seamless-bra-hayden",
+  "id": "woolx-mila-bra-cream-heather",
   "gender": "women",
   "tier": "High-end",
   "brand": "Woolx",
-  "name": "Hayden Bra - Rosewater",
-  "price": 100,
+  "name": "Mila Bra - Cream Heather",
+  "price": 85,
   "currency": "USD",
-  "productUrl": "https://woolx.com/products/womens-merino-seamless-bra-hayden?variant=42695012057154",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/small-4_477b6163-b61b-440f-88a5-3db8c87e095d.jpg?v=1777034420",
-  "details": "Convertible straps Moisture wicking Dries fast Odor resistant No wires, no digging Temperature regulating Wear for days without washing Inse",
+  "productUrl": "https://woolx.com/products/mila-bra-cream-heather?variant=41655177379906",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/mila1_db578b91-8a16-46f5-9e0c-203e7c4ff8d2.jpg?v=1734616087",
+  "details": "Our new Cream Heather Mila bra is here and it's soon to be your favorite piece! It is extremely comfortable, while also being very minimalis",
   "checkedAt": "2026-11-15",
   "kinds": [
    "bra"
@@ -47520,11 +47456,11 @@
    "unknown"
   ],
   "colours": [
-   "pink"
+   "cream"
   ],
   "styles": [
    "polished",
-   "statement"
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -47988,6 +47924,61 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-w4460r-ice-breaker-puffer-jacket-ivory",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Ice Breaker Puffer Jacket - Ivory",
+  "price": 398,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4460r-ice-breaker-puffer-jacket-ivory?variant=43766324166836",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4460R_03299_b1_s1_a1_1_m205.jpg?v=1734054741",
+  "details": "Icy winters are no match for the new Ice Breaker Puffer Jacket.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "coat"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "white",
+   "cream"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w4609r-glacier-puffer-black",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Glacier Puffer - Black",
+  "price": 288,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4609r-glacier-puffer-black?variant=43591407599796",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4609R_01_b1_s1_a3_1_m206.jpg?v=1775150703",
+  "details": "Get a layered look without the extra layers.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "coat"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-w4609r-glacier-puffer-espresso",
   "gender": "women",
   "tier": "Quality",
@@ -48071,15 +48062,15 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w4670r-airlift-winter-warm-radiant-full-zip-jacket-grave",
+  "id": "alo-w4670r-airlift-winter-warm-radiant-full-zip-burgundy",
   "gender": "women",
   "tier": "Budget",
   "brand": "Alo",
-  "name": "Airlift Winter Warm Radiant Full-Zip Jacket - Gravel",
+  "name": "Airlift Winter Warm Radiant Full-Zip Jacket - Burgundy",
   "price": 148,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4670r-airlift-winter-warm-radiant-full-zip-jacket-gravel",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4670R_05438_b2_s1_a1_dSP26_m134_195c9b92-fd16-4a05-adfd-8a66c9f709eb.jpg?v=1772833448",
+  "productUrl": "https://www.aloyoga.com/products/w4670r-airlift-winter-warm-radiant-full-zip-burgundy?variant=50661497897319",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4670R_06465_b2_s1_a1_m235.jpg?v=1757323588",
   "details": "Consider this the layer you’ll live in.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -48089,10 +48080,11 @@
    "cold"
   ],
   "colours": [
-   "beige"
+   "red",
+   "burgundy"
   ],
   "styles": [
-   "understated"
+   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -48117,60 +48109,6 @@
   ],
   "colours": [
    "black"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w4789p-wool-nightfall-long-coat-alpine-cocoa-heather",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Wool Blend Nightfall Long Coat - Alpine Cocoa Heather",
-  "price": 1600,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4789p-wool-nightfall-long-coat-alpine-cocoa-heather",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A4789U_07767_b1_s1_a1_m191_32169dce-128d-4fec-ab89-97b8927b594b.jpg?v=1765413566",
-  "details": "A coat defined by its silhouette.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "coat"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "polished"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w4837r-faux-fur-cropped-amore-jacket-rich-bordeaux",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Faux Fur Cropped Amore Jacket - Rich Bordeaux",
-  "price": 348,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4837r-faux-fur-cropped-amore-jacket-rich-bordeaux",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4837R_06547_b2_s1_a1_dFA26_m210.jpg?v=1791351942",
-  "details": "Bring a little drama to any look with the Amore Jacket.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "coat"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "purple"
   ],
   "styles": [
    "understated"
@@ -53720,11 +53658,11 @@
   "gender": "women",
   "tier": "Budget",
   "brand": "Oak + Fort",
-  "name": "LONG HAIR FAUX FUR JACKET — Charcoal",
+  "name": "LONG HAIR FAUX FUR JACKET — Cream",
   "price": 128,
   "currency": "USD",
-  "productUrl": "https://www.oakandfort.com/products/long-hair-faux-fur-jacket-ow-17886-w?variant=50980875763951",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Outerwear-17886_Charcoal-1.jpg?v=1791587089",
+  "productUrl": "https://www.oakandfort.com/products/long-hair-faux-fur-jacket-ow-17886-w?variant=50980875862255",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0697/9102/3343/files/Outerwear-17886_Cream-32.jpg?v=1791588637",
   "details": "This faux fur jacket is designed with a long-hair finish that creates a fuller, more dimensional look.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -53734,7 +53672,7 @@
    "cold"
   ],
   "colours": [
-   "grey",
+   "cream",
    "purple"
   ],
   "styles": [
@@ -60802,16 +60740,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w8141r-charmed-tennis-dress-magenta-crush",
+  "id": "alo-w8207r-goddess-ribbed-go-to-dress-espresso",
   "gender": "women",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "Charmed Tennis Dress - Magenta Crush",
-  "price": 70,
+  "name": "Goddess Ribbed Go-To Dress - Espresso",
+  "price": 64,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w8141r-charmed-tennis-dress-magenta-crush?variant=41346111733940",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/products/W8141R_04355_b1_s1_a1_1_m100.jpg?v=1654558256",
-  "details": "This tennis dress is c-u-t-e.",
+  "productUrl": "https://www.aloyoga.com/products/w8207r-goddess-ribbed-go-to-dress-espresso?variant=42376188723380",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W8207R_04046_b1_s1_a2_1_m177.jpg?v=1703713744",
+  "details": "The name says it all: The Goddess Ribbed Go-To Tank fits like your best basic tank, with a racerback and cropped hem—but it’s made from a bu",
   "checkedAt": "2026-11-15",
   "kinds": [
    "dress"
@@ -60822,10 +60760,10 @@
    "unknown"
   ],
   "colours": [
-   "pink"
+   "brown"
   ],
   "styles": [
-   "statement"
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -60854,37 +60792,6 @@
    "black"
   ],
   "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w8277r-tennis-club-sweater-knit-dress-athletic-heather-g",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Tennis Club Sweater Knit Dress - Athletic Heather Grey/White",
-  "price": 148,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w8277r-tennis-club-sweater-knit-dress-athletic-heather-grey-white",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W8277R_06501_b1_s1_a1_dWT26_m262.jpg?v=1792697476",
-  "details": "Score the country-club-chic look in this dress.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "dress"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "grey"
-  ],
-  "styles": [
-   "relaxed",
    "understated"
   ],
   "feed": "shopify",
@@ -60952,6 +60859,36 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-w8278r-airbrush-streamlined-dress-pink-quartz-white",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Airbrush Streamlined Dress - Pink Quartz/White",
+  "price": 96,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w8278r-airbrush-streamlined-dress-pink-quartz-white?variant=43774152343732",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W8278R_06055_b1_s1_a1_m189.jpg?v=1744019052",
+  "details": "How good is this dress? From the chic piping detail to the softly sculpted A-line silhouette, the Airbrush Streamlined Dress was designed to",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "pink"
+  ],
+  "styles": [
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-w8278r-airbrush-streamlined-dress-spearmint-white",
   "gender": "women",
   "tier": "Quality",
@@ -60976,35 +60913,6 @@
   ],
   "styles": [
    "statement",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w8303r-ribbed-mesh-secret-dress-crystal-clear-blue",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Ribbed Mesh Secret Dress - Crystal Clear Blue",
-  "price": 75,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w8303r-ribbed-mesh-secret-dress-crystal-clear-blue",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W8303R_06030_b1_s1_a1_m191.jpg?v=1743063171",
-  "details": "The best way to add something chic to your wardrobe lineup is with the Ribbed Mesh Secret Dress.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "dress"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
    "understated"
   ],
   "feed": "shopify",
@@ -61038,6 +60946,35 @@
   "styles": [
    "statement",
    "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w8346r-airbrush-splendor-dress-candy-heart-pink",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Airbrush Splendor Dress - Candy Heart Pink",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w8346r-airbrush-splendor-dress-candy-heart-pink",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W8346R_06661_b1_s1_a2_dSP26_m246.jpg?v=1771875083",
+  "details": "The ultimate one-and-done look is here.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "dress"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "pink"
+  ],
+  "styles": [
+   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -67961,15 +67898,15 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-waffle-henley-dress-onyx-floral-deer-print",
+  "id": "skims-waffle-henley-dress-buff-montgomery-check",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "WAFFLE HENLEY DRESS | ONYX FLORAL DEER PRINT",
+  "name": "WAFFLE HENLEY DRESS | BUFF MONTGOMERY CHECK",
   "price": 108,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/waffle-henley-dress-onyx-floral-deer-print",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-OP-DRS-12857W-OXFD-FLT.jpg?v=1793038924",
+  "productUrl": "https://www.skims.com/products/waffle-henley-dress-buff-montgomery-check",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-OP-DRS-UFFM-FLT.jpg?v=1793732510",
   "details": "A merry little mini.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -67990,15 +67927,15 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-waffle-henley-dress-sugar-red-crystal-fairisle",
+  "id": "skims-waffle-henley-dress-snow-deer-ornament-print",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "WAFFLE HENLEY DRESS | SUGAR RED CRYSTAL FAIRISLE",
+  "name": "WAFFLE HENLEY DRESS | SNOW DEER ORNAMENT PRINT",
   "price": 108,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/waffle-henley-dress-sugar-red-crystal-fairisle",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-OP-DRS-12857W-SRCY-FLT.jpg?v=1793038882",
+  "productUrl": "https://www.skims.com/products/waffle-henley-dress-snow-deer-ornament-print",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-OP-DRS-12857W-SDEO-FLT.jpg?v=1793732001",
   "details": "A merry little mini.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -68009,9 +67946,7 @@
    "mild",
    "unknown"
   ],
-  "colours": [
-   "red"
-  ],
+  "colours": [],
   "styles": [
    "relaxed",
    "statement",
@@ -83207,66 +83142,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-m3227r-scholar-cardigan-sweater-black",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Scholar Cardigan Sweater - Black",
-  "price": 138,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3227r-scholar-cardigan-sweater-black?variant=42542417674420",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3227R_01_b1_s3_a1_1_m93.jpg?v=1705085726",
-  "details": "A classic piece you’ll wear constantly, the Scholar is knit from a soft, heavyweight cotton blend with just-right drape.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-m3227r-scholar-cardigan-sweater-black-womens",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Scholar Cardigan Sweater - Black",
-  "price": 138,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3227r-scholar-cardigan-sweater-black-womens?variant=42545600266420",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3227R_01_b1_s1_a1_1_m54.jpg?v=1705981846",
-  "details": "A classic piece you’ll wear constantly, the Scholar is knit from a soft, heavyweight cotton blend with just-right drape.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-m3259r-light-weight-takeaway-track-pullover-java-brown",
   "gender": "men",
   "tier": "High-end",
@@ -83443,6 +83318,93 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-u3040rg-accolade-1-4-zip-pullover-rich-bordeaux-mens",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Accolade 1/4 Zip Pullover - Rich Bordeaux",
+  "price": 148,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/u3040rg-accolade-1-4-zip-pullover-rich-bordeaux-mens",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3040RG_06547_b1_s1_a1_dFA26_m214_1.jpg?v=1791267779",
+  "details": "Everyone needs more Accolade.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "purple"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-u3040rg-accolade-1-4-zip-pullover-winter-frost",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Accolade 1/4 Zip Pullover - Winter Frost",
+  "price": 148,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/u3040rg-accolade-1-4-zip-pullover-winter-frost",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3040RG_06646_b1_s1_a2_m125_f346d034-0134-4666-8323-5f55657536a6.jpg?v=1776707830",
+  "details": "Everyone needs more Accolade.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-u3040rg-accolade-1-4-zip-pullover-winter-frost-mens",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Accolade 1/4 Zip Pullover - Winter Frost",
+  "price": 148,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/u3040rg-accolade-1-4-zip-pullover-winter-frost-mens",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3040RG_06646_b1_s1_a4_m214_jpg.png?v=1776707664",
+  "details": "Everyone needs more Accolade.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-u3055r-take-it-easy-long-sleeve-henley-pullover-black",
   "gender": "women",
   "tier": "High-end",
@@ -83498,6 +83460,65 @@
   "styles": [
    "relaxed",
    "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w31068r-sweater-sunlit-cardigan-black",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Sweater Sunlit Cardigan - Black",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w31068r-sweater-sunlit-cardigan-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W31068R_01_b1_s1_a2_dSU26_m191_448c41a8-57f0-4c3b-8f86-1f65addd23c1.jpg?v=1780608054",
+  "details": "The Sunlit Cardigan is a sweater knit that’s light enough for warm temps and extended getaways.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w3587r-ribbed-cropped-whisper-cardigan-summer-romance-re",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Ribbed Cropped Whisper Cardigan - Summer Romance Red",
+  "price": 74,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3587r-ribbed-cropped-whisper-cardigan-summer-romance-red",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3587R_07952_b2_s1_a1_dSU26_m143.png?v=1779861105",
+  "details": "An ultra-cropped cardi with a pretty low V? Yes, please.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "red"
+  ],
+  "styles": [
+   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -83562,124 +83583,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w3847r-tennis-club-sweater-knit-cardigan-crystal-clear-b",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Tennis Club Sweater Knit Cardigan - Crystal Clear Blue/White",
-  "price": 124,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3847r-tennis-club-sweater-knit-cardigan-crystal-clear-blue-white?variant=43774112891060",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3847R_06047_b1_s1_a1_m207.jpg?v=1747165787",
-  "details": "This is not your grandpa’s cardigan: Cut to fit the female form with a roomy drape, it has dropped shoulders, a four-button front, ribbed cu",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "white",
-   "blue"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w3850r-snuggle-up-sweater-cropped-cardigan-bluestone",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Snuggle Up Sweater Cropped Cardigan - Bluestone",
-  "price": 134,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3850r-snuggle-up-sweater-cropped-cardigan-bluestone?variant=50661488558439",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3850R_04352_b1_s1_a3_m191.jpg?v=1759904412",
-  "details": "Been looking for the perfect cardigan? We have it for you.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "relaxed"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w3924rg-cropped-accolade-crewneck-candlelight-yellow",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Cropped Accolade Crewneck - Candlelight Yellow",
-  "price": 128,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3924rg-cropped-accolade-crewneck-candlelight-yellow?variant=50661716656487",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3924RG_06645_b2_s1_a1_m190.jpg?v=1766052005",
-  "details": "You know what they say: the best things in life come in shorter packages.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "yellow"
-  ],
-  "styles": [
-   "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w3950r-muse-crew-neck-pullover-java-brown-heather",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Muse Crew Neck Pullover - Java Brown Heather",
-  "price": 108,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3950r-muse-crew-neck-pullover-java-brown-heather",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3950R_08197_b2_s1_a1_dFA26_m264.jpg?v=1788844415",
-  "details": "A modern take on the classic crew, the Muse Crewneck Pullover is designed with a relaxed drape, ribbed finishing, and a cropped hemline that",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "knit"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-w3967r-alo-softsculpt-precision-1-4-zip-long-sleeve-cali",
   "gender": "women",
   "tier": "Quality",
@@ -83690,6 +83593,35 @@
   "productUrl": "https://www.aloyoga.com/products/w3967r-alo-softsculpt-precision-1-4-zip-long-sleeve-california-blue",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3967R_08193_b2_s1_a1_dFA26_m280.jpg?v=1786445360",
   "details": "Elevate your layers with the ALO Softsculpt Precision 1/4 Zip Long Sleeve.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "knit"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w4721r-cropped-breezy-full-zip-cover-up-seashell-blue",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Cropped AloBreezy Full-Zip Cover Up - Seashell Blue",
+  "price": 89,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4721r-cropped-breezy-full-zip-cover-up-seashell-blue?variant=50661351883111",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4721R_05442_b1_s1_a1_m241.jpg?v=1749473124",
+  "details": "Looking for the perfect jacket for all your between-season looks? The Cropped AloBreezy Full-Zip is it.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "knit"
@@ -100625,7 +100557,7 @@
   "name": "Collins 1/4 Zip Sweater - Purple Iris",
   "price": 180,
   "currency": "USD",
-  "productUrl": "https://woolx.com/products/non-itchy-merino-wool-collins-sweater-purple-iris?variant=43869725392962",
+  "productUrl": "https://woolx.com/products/non-itchy-merino-wool-collins-sweater-purple-iris?variant=43869726015554",
   "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/2_26dc991b-ab16-4fdf-9cbd-247b014d32b7.jpg?v=1786452382",
   "details": "Quarter-zip neckline for adjustable warmth Relaxed fit for easy layering Never itchy, always comfy Perfect for lounging, layering, or headin",
   "checkedAt": "2026-11-15",
@@ -102027,6 +101959,62 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-m4144r-renown-varsity-jacket-bone",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Renown Varsity Jacket - Bone",
+  "price": 168,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m4144r-renown-varsity-jacket-bone",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4144R_03040_b2_s1_a1_1_m252.jpg?v=1760364639",
+  "details": "Add a new game-changing layer to your rotation.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-m4144r-renown-varsity-jacket-bone-womens",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Renown Varsity Jacket - Bone",
+  "price": 168,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m4144r-renown-varsity-jacket-bone-womens",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4144R_03040_b1_s1_a2_m161.jpg?v=1761947300",
+  "details": "Add a new game-changing layer to your rotation.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-m4166r-vantage-nylon-ripstop-track-jacket-mushroom",
   "gender": "men",
   "tier": "Quality",
@@ -102253,62 +102241,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-m4216r-duality-bomber-jacket-black-womens",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Duality Bomber Jacket - Black",
-  "price": 298,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m4216r-duality-bomber-jacket-black-womens",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4216R_01_b1_s1_a1_dFA26_m191_59533f03-a212-418e-9330-fcc419bb4a49.jpg?v=1787286161",
-  "details": "Add the Duality Bomber Jacket to your outerwear rotation.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-m4216r-duality-bomber-jacket-gravel",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Duality Bomber Jacket - Gravel",
-  "price": 298,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m4216r-duality-bomber-jacket-gravel",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M4216R_05438_b1_s1_a3_dFA26_m243.jpg?v=1788856689",
-  "details": "Add the Duality Bomber Jacket to your outerwear rotation.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "beige"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-m4216r-duality-bomber-jacket-gravel-womens",
   "gender": "unisex",
   "tier": "High-end",
@@ -102393,62 +102325,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w4493r-foxy-sherpa-jacket-chai-latte",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Foxy Sherpa Jacket - Chai Latte",
-  "price": 228,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4493r-foxy-sherpa-jacket-chai-latte?variant=50661712396647",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4493R_06660_b1_s1_a2_m207.jpg?v=1769473413",
-  "details": "Done in plush sherpa, the Foxy is your new go-to layer.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w4507r-mvp-jacket-black",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "MVP Jacket - Black",
-  "price": 106,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4507r-mvp-jacket-black?variant=42337304346804",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4507R_01_b1_s1_a1_1_m89.jpg?v=1701287295",
-  "details": "Undeniably the best new coverup — meet The MVP Jacket.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-w4524r-metallic-break-line-trench-silver-metallic",
   "gender": "unisex",
   "tier": "High-end",
@@ -102478,16 +102354,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w4559r-formation-trench-coat-black",
+  "id": "alo-w4530r-sherpa-edge-bomber-brownstone",
   "gender": "women",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Formation Trench Coat - Black",
-  "price": 278,
+  "name": "Sherpa Edge Bomber - Brownstone",
+  "price": 228,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4559r-formation-trench-coat-black?variant=42542403420340",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4559R_01_b1_s1_a1_1_m54.jpg?v=1707168621",
-  "details": "Classic with a cool twist, the Formation is the trench you’ve been searching for.",
+  "productUrl": "https://www.aloyoga.com/products/w4530r-sherpa-edge-bomber-brownstone?variant=50661711511911",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4530R_06659_b1_s1_a3_m261.jpg?v=1762152627",
+  "details": "Done in sherpa with quilted patches at the pockets, elbows and back, this bomber jacket is, well, the bomb.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "light-jacket"
@@ -102497,7 +102373,7 @@
    "unknown"
   ],
   "colours": [
-   "black"
+   "brown"
   ],
   "styles": [
    "understated"
@@ -102562,16 +102438,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w4620r-prime-trench-toasted-almond",
+  "id": "alo-w4580r-cropped-doubles-only-full-zip-jacket-ivory",
   "gender": "women",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "Prime Trench - Toasted Almond",
+  "name": "Cropped Doubles Only Full Zip Jacket - Ivory",
   "price": 148,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w4620r-prime-trench-toasted-almond?variant=43766334324916",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4620R_05131_b1_s1_a1_1_m91_15ecb56b-34c5-437c-9f58-34b962c082eb.jpg?v=1742961403",
-  "details": "The epitome of effortlessly cool, the Prime Trench can be dressed up or down—or even worn as a dress.",
+  "productUrl": "https://www.aloyoga.com/products/w4580r-cropped-doubles-only-full-zip-jacket-ivory?variant=42865478762676",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4580R_03299_b1_s1_a3_1_m18.jpg?v=1720047856",
+  "details": "Give retro vibes in the Doubles Only Jacket, designed with a dimensional ribbed finish and a cute stand collar.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "light-jacket"
@@ -102581,8 +102457,8 @@
    "unknown"
   ],
   "colours": [
-   "beige",
-   "almond"
+   "white",
+   "cream"
   ],
   "styles": [
    "understated"
@@ -102614,6 +102490,62 @@
   ],
   "styles": [
    "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w4711r-socialite-shacket-espresso",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Socialite Shacket - Espresso",
+  "price": 198,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4711r-socialite-shacket-espresso?variant=50661502189927",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4711R_04064_b1_s1_a4_m54.jpg?v=1758607772",
+  "details": "Structured, oversized, and endlessly wearable—it’s like wearing your boyfriend’s shirt without the hassle of having a boyfriend.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w4778r-cropped-fan-favorite-full-zip-jacket-black",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Cropped Fan Favorite Full Zip Jacket - Black",
+  "price": 198,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w4778r-cropped-fan-favorite-full-zip-jacket-black",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W4778R_01_b2_s1_a10_dFA26_m186_337d6814-6298-4ff4-abd2-bd304a4e0ba4.jpg?v=1787179519",
+  "details": "The Cropped Fan Favorite Full Zip Jacket is defined by its clean lines and considered proportions.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -106748,6 +106680,34 @@
   "maxAgeDays": 10
  },
  {
+  "id": "everlane-mens-heavyweight-twill-waffle-overshirt-heather-cha",
+  "gender": "men",
+  "tier": "Budget",
+  "brand": "Everlane",
+  "name": "Heavyweight Waffle Twill Overshirt | Heather Charcoal",
+  "price": 47,
+  "currency": "USD",
+  "productUrl": "https://www.everlane.com/products/mens-heavyweight-twill-waffle-overshirt-heather-charcoal",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/ef63c3fc_23b2.jpg?v=1759425617",
+  "details": "Heavy twill and a waffle-knit lining keep it warm and comfortable, while chest and lower pockets make it functional, too.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "everlane-mens-heavyweight-twill-waffle-overshirt-heather-gre",
   "gender": "men",
   "tier": "Budget",
@@ -106799,34 +106759,6 @@
   ],
   "styles": [
    "polished"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "everlane-mens-utility-shirt-jacket-aged-brass",
-  "gender": "men",
-  "tier": "Budget",
-  "brand": "Everlane",
-  "name": "Utility Shirt Jacket | Aged Brass",
-  "price": 30,
-  "currency": "USD",
-  "productUrl": "https://www.everlane.com/products/mens-utility-shirt-jacket-aged-brass",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0623/7916/3734/files/b955b8dd_d88f.jpg?v=1754621060",
-  "details": "This transitional layer features oversized utility pockets at the chest, adjustable cuffs, and a slightly shorter length designed to be worn",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -115401,32 +115333,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "rudsak-nour-8126538-vintage-rose",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Rudsak",
-  "name": "NOUR - 8126538 Vintage Rose",
-  "price": 695,
-  "currency": "CAD",
-  "productUrl": "https://www.rudsak.com/products/nour-8126538-vintage-rose",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0065/4612/8967/files/NOUR_8126538_VINTAGEROSE-FullBodyShot-ClosedJacket.png?v=1794512281",
-  "details": "The NOUR by RUDSAK brings a bold, texture-driven approach to winter dressing.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "light-jacket"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "rudsak-reed-m126530-espresso",
   "gender": "men",
   "tier": "Quality",
@@ -115474,6 +115380,32 @@
   "colours": [
    "olive"
   ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "rudsak-vivienne-8126528-mix-vanilla",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Rudsak",
+  "name": "VIVIENNE - 8126528 Mix Vanilla",
+  "price": 699.99,
+  "currency": "CAD",
+  "productUrl": "https://www.rudsak.com/products/vivienne-8126528-mix-vanilla",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0065/4612/8967/files/VIVIENNEMIXVANILLAFBF.webp?v=1794754065",
+  "details": "VIVIENNE by RUDSAK makes a statement in plush faux fur, combining rich texture with the warmth of 800+ fill-power RDS-certified duck down .",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "light-jacket"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [],
   "styles": [
    "understated"
   ],
@@ -122445,7 +122377,7 @@
   "name": "Laidback Linen Pant - Victorian Garden",
   "price": 134,
   "currency": "USD",
-  "productUrl": "https://fahertybrand.com/products/laidback-linen-pant-victorian-garden?variant=44875820793925",
+  "productUrl": "https://fahertybrand.com/products/laidback-linen-pant-victorian-garden?variant=44875820826693",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0359/8357/files/WBF2601-VGZ_Laidback_Linen_Pant_OM_FRONT_CROP_1_Web.jpg?v=1783948856",
   "details": "Made from 100% linen, this pull-on pant has a lightweight, breathable feel that stays comfortable all day.",
   "checkedAt": "2026-11-15",
@@ -130022,35 +129954,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-m3199r-conquer-reform-long-sleeve-with-hood-marathon-blu",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Conquer Reform Long Sleeve With Hood - Marathon Blue",
-  "price": 75,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3199r-conquer-reform-long-sleeve-with-hood-marathon-blue?variant=43774090772660",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3199R_06037_b1_s1_a001_1_m221.jpg?v=1742852650",
-  "details": "A go-anywhere, do-anything training essential.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-m3199r-conquer-reform-long-sleeve-with-hood-monument",
   "gender": "men",
   "tier": "High-end",
@@ -130101,6 +130004,35 @@
   ],
   "colours": [
    "brown"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-m3199r-conquer-reform-long-sleeve-with-hood-winter-frost",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Conquer Reform Long Sleeve With Hood - Winter Frost",
+  "price": 108,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3199r-conquer-reform-long-sleeve-with-hood-winter-frost",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3199R_06646_b2_s1_a3_m208.jpg?v=1776827173",
+  "details": "A go-anywhere, do-anything training essential.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
   ],
   "styles": [
    "understated"
@@ -130227,6 +130159,37 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-m3370r-cotton-cashmere-ever-soft-long-sleeve-crew-ivory",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Cashmere Blend Ever Soft Long Sleeve Crew - Ivory",
+  "price": 198,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3370r-cotton-cashmere-ever-soft-long-sleeve-crew-ivory",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3370R_03299_b2_s1_a2_dFA26_m257.jpg?v=1790873714",
+  "details": "The Cashmere Blend Ever Soft Long Sleeve is perfect for elevating any look.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "cream"
+  ],
+  "styles": [
+   "polished",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-w31076r-ribbed-cropped-reset-long-sleeve-bamboo-green",
   "gender": "women",
   "tier": "High-end",
@@ -130251,6 +130214,35 @@
   ],
   "styles": [
    "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w31078r-semi-sheer-oasis-long-sleeve-espresso",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Semi Sheer Oasis Long Sleeve - Espresso",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w31078r-semi-sheer-oasis-long-sleeve-espresso",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W31078R_04064_b1_s1_a4_dWT26_m18.jpg?v=1793177737",
+  "details": "The Semi-Sheer Oasis Long Sleeve is a capsule closet piece you need.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -130317,35 +130309,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w31252r-semi-sheer-oasis-boxy-long-sleeve-java-brown-hea",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Semi-Sheer Oasis Boxy Long Sleeve - Java Brown Heather",
-  "price": 78,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w31252r-semi-sheer-oasis-boxy-long-sleeve-java-brown-heather",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W31252R_08197_b1_s1_a30_dFA26_m241.jpg?v=1789617446",
-  "details": "She's cool, she's chic, and she's a capsule closet favorite.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "brown"
-  ],
-  "styles": [
-   "relaxed"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-w3781r-ribbed-sea-coast-long-sleeve-black",
   "gender": "women",
   "tier": "High-end",
@@ -130370,35 +130333,6 @@
   ],
   "styles": [
    "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w3869r-ribbed-mesmerize-long-sleeve-bold-red",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Ribbed Mesmerize Long Sleeve - Bold Red",
-  "price": 61,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3869r-ribbed-mesmerize-long-sleeve-bold-red?variant=43591447543988",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3869R_05814_b1_s1_a4_1_m215.jpg?v=1733879930",
-  "details": "Customize your look with the Mesmerize Long Sleeve.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "red"
-  ],
-  "styles": [
-   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -130440,7 +130374,7 @@
   "name": "Washed Alosoft Crop Finesse Long Sleeve - Cool Grey Wash",
   "price": 58,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3930r-washed-alosoft-crop-finesse-long-sleeve-cool-grey-wash?variant=43774117937332",
+  "productUrl": "https://www.aloyoga.com/products/w3930r-washed-alosoft-crop-finesse-long-sleeve-cool-grey-wash?variant=43774118035636",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3930R_06081_b1_s1_a1_1_m91.jpg?v=1747165738",
   "details": "Consider this your new go-to long sleeve.",
   "checkedAt": "2026-11-15",
@@ -130454,6 +130388,35 @@
   ],
   "colours": [
    "grey"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w3984r-dreamlight-long-sleeve-top-black",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Dreamlight Long Sleeve Top - Black",
+  "price": 84,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3984r-dreamlight-long-sleeve-top-black?variant=50661713674599",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3984R_01_b2_s1_a1_m190.jpg?v=1766050476",
+  "details": "The Dreamlight Long Sleeve Top was designed to feel incredible and look intentional.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "black"
   ],
   "styles": [
    "understated"
@@ -139292,6 +139255,37 @@
   ]
  },
  {
+  "id": "skims-cotton-jersey-long-sleeve-t-shirt-oat-arched-skims-pla",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "SKIMS",
+  "name": "COTTON JERSEY LONG SLEEVE T-SHIRT | OAT ARCHED SKIMS PLAID",
+  "price": 64,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/cotton-jersey-long-sleeve-t-shirt-oat-arched-skims-plaid",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-LSL-13486W-OASP-FLT.jpg?v=1794508462",
+  "details": "A form-fitting, ultra-flattering long sleeve tee that is perfect for everyday wear.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "skims-essential-knit-henley-espresso",
   "gender": "women",
   "tier": "High-end",
@@ -139685,35 +139679,6 @@
   "colours": [],
   "styles": [
    "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-waffle-oversized-long-sleeve-top-onyx-floral-deer-prin",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "SKIMS",
-  "name": "WAFFLE OVERSIZED LONG SLEEVE TOP | ONYX FLORAL DEER PRINT",
-  "price": 78,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/waffle-oversized-long-sleeve-top-onyx-floral-deer-print",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-LSL-12854W-OXFD-FLT_2d9a1a80-05df-489b-842d-b1c57803c6e7.jpg?v=1793039197",
-  "details": "Comfort gets a festive update.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed",
-   "statement",
    "understated"
   ],
   "feed": "shopify",
@@ -140905,6 +140870,36 @@
   "maxAgeDays": 10
  },
  {
+  "id": "tentree-freemont-henley-deep-burgundy",
+  "gender": "men",
+  "tier": "Quality",
+  "brand": "tentree",
+  "name": "Freemont Henley — DEEP BURGUNDY",
+  "price": 62.4,
+  "currency": "CAD",
+  "productUrl": "https://tentree.ca/products/freemont-henley-deep-burgundy?variant=44904925135034",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2404/6643/files/Burgundy-TreeWaffle-Henley-Longsleeve-TCM5552-5596_1.jpg?v=1753747354",
+  "details": "Part button-up, part tee.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "long-sleeve-top"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "burgundy"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "tentree-madison-longsleeve-meteorite-black",
   "gender": "women",
   "tier": "Quality",
@@ -141145,36 +141140,6 @@
   ],
   "styles": [
    "relaxed"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "tentree-treeblend-baker-henley-longsleeve-clay-heather-meteo",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "tentree",
-  "name": "TreeBlend Baker Henley Longsleeve — CLAY HEATHER METEORITE BLACK HEATHER",
-  "price": 40,
-  "currency": "CAD",
-  "productUrl": "https://tentree.ca/products/treeblend-baker-henley-longsleeve-clay-heather-meteorite-black-heather?variant=45546344972474",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2404/6643/files/Multi-TreeBlend-Classic-Henley-Longsleeve-TCM2308-6216_3.jpg?v=1769630803",
-  "details": "Part button-up, part tee.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "long-sleeve-top"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -156185,6 +156150,37 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-m1249r-sports-club-sweater-knit-short-sleeve-button-up-g",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Sports Club Sweater Knit Short Sleeve Button Up - Gravel",
+  "price": 178,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m1249r-sports-club-sweater-knit-short-sleeve-button-up-gravel",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M1249R_05438_b1_s1_a2_dSU26_m214.jpg?v=1782900581",
+  "details": "It’s the button-up that blurs the line between laid-back and elevated.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "shirt"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "beige"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-w31176r-satin-smooth-talker-button-up-black",
   "gender": "women",
   "tier": "High-end",
@@ -156373,7 +156369,7 @@
   "name": "Dreamscape Button Down Long Sleeve - Smoky Quartz",
   "price": 89,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3732r-dreamscape-button-down-long-sleeve-smoky-quartz?variant=43774111875252",
+  "productUrl": "https://www.aloyoga.com/products/w3732r-dreamscape-button-down-long-sleeve-smoky-quartz?variant=43774111842484",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3732R_02512_b1_s1_a1_m158.jpg?v=1741692510",
   "details": "This lightweight layer feels like a dream.",
   "checkedAt": "2026-11-15",
@@ -168611,7 +168607,7 @@
   "name": "Fernwood Flannel Shirt — DEEP BURGUNDY SHADOW PLAID",
   "price": 86.4,
   "currency": "CAD",
-  "productUrl": "https://tentree.ca/products/fernwood-flannel-shirt-deep-burgundy-shadow-plaid?variant=44904937488570",
+  "productUrl": "https://tentree.ca/products/fernwood-flannel-shirt-deep-burgundy-shadow-plaid?variant=44904937554106",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2404/6643/files/Multi-Womens-Longsleeve-Button-Down-TCW5382-5827_2.jpg?v=1753128014",
   "details": "Crafted from an insulating blend of kapok and organic cotton, the environmental footprint of this flannel’s significantly smaller than that ",
   "checkedAt": "2026-11-15",
@@ -171535,15 +171531,15 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-m6154r-7-repetition-short-marathon-blue",
+  "id": "alo-m6154r-7-repetition-short-celestial-blue",
   "gender": "men",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "7\" Repetition Short - Marathon Blue",
-  "price": 54,
+  "name": "7\" Repetition Short - Celestial Blue",
+  "price": 46,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m6154r-7-repetition-short-marathon-blue?variant=43774095261876",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M6154R_06037_b1_s1_a001_1_m221.jpg?v=1742096395",
+  "productUrl": "https://www.aloyoga.com/products/m6154r-7-repetition-short-celestial-blue?variant=43591319650484",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M6154R_05816_b1_s3_a1_m225.jpg?v=1731971863",
   "details": "You’ll reach for this pair again and again.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -171792,35 +171788,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w6368r-alolux-high-waist-me-time-short-black",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Alolux High-Waist Me Time Short - Black",
-  "price": 38,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6368r-alolux-high-waist-me-time-short-black?variant=42376150352052",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6368R_01_b1_s1_a1_1_m177.jpg?v=1699390103",
-  "details": "The Alolux Me Time Short is seriously comfy.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "shorts"
-  ],
-  "climates": [
-   "hot",
-   "mild"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-w6405r-playmaker-dolphin-short-crystal-clear-blue",
   "gender": "women",
   "tier": "Quality",
@@ -171878,16 +171845,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w6495r-3-alo-softsculpt-high-waist-precision-short-blues",
+  "id": "alo-w6472rg-accolade-short-bold-red",
   "gender": "women",
-  "tier": "Quality",
+  "tier": "High-end",
   "brand": "Alo",
-  "name": "3\" ALO Softsculpt High-Waist Precision Short - Bluestone",
-  "price": 67,
+  "name": "Accolade Short - Bold Red",
+  "price": 78,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6495r-3-alo-softsculpt-high-waist-precision-short-bluestone",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6495R_04352_b2_s1_a2_m256_ffa8c62b-94cc-47b7-8f6c-47921fc7fceb.jpg?v=1760139330",
-  "details": "Everything about ALO Softsculpt is just right.",
+  "productUrl": "https://www.aloyoga.com/products/w6472rg-accolade-short-bold-red?variant=43591325974708",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6472RG_05814_b1_s1_a1_1_m191.jpg?v=1733879302",
+  "details": "We might be biased, but there’s really no such thing as too much Accolade.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "shorts"
@@ -171897,10 +171864,41 @@
    "mild"
   ],
   "colours": [
-   "blue"
+   "red"
   ],
   "styles": [
-   "relaxed"
+   "relaxed",
+   "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w6706r-airlift-polka-dot-3-high-waist-short-black-white",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "3\" Airlift Polka Dot High-Waist Short - Black/White",
+  "price": 88,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w6706r-airlift-polka-dot-3-high-waist-short-black-white",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6706R_0100_b1_s1_a5_dFA26_m207.jpg?v=1786958504",
+  "details": "The Airlift Polka Dot Short is a sleek style that was made for making a statement.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "shorts"
+  ],
+  "climates": [
+   "hot",
+   "mild"
+  ],
+  "colours": [
+   "black",
+   "white"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -185337,64 +185335,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w6240r-match-point-tennis-skirt-azure-blue",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Match Point Tennis Skirt - Azure Blue",
-  "price": 78,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6240r-match-point-tennis-skirt-azure-blue",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6240R_04830_b1_s1_a2_dSU26_m241.jpg?v=1780654542",
-  "details": "Take your look from the court to post-practice plans in the Match Point Tennis Skirt.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "skirt"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w6355r-airbrush-high-waist-good-form-tennis-skirt-spruce",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Airbrush High-Waist Good Form Tennis Skirt - Spruce Green",
-  "price": 54,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6355r-airbrush-high-waist-good-form-tennis-skirt-spruce-green?variant=43774136385716",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6355R_06023_b1_s1_a1_1_m54.jpg?v=1747165468",
-  "details": "The Good Form Tennis Skirt is a grand slam.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "skirt"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "green"
-  ],
-  "styles": [
-   "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-w6427r-tennis-club-sweater-knit-skirt-white-spruce-green",
   "gender": "women",
   "tier": "Quality",
@@ -185402,7 +185342,7 @@
   "name": "Tennis Club Sweater Knit Skirt - White/Spruce Green",
   "price": 68,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6427r-tennis-club-sweater-knit-skirt-white-spruce-green?variant=43774137041076",
+  "productUrl": "https://www.aloyoga.com/products/w6427r-tennis-club-sweater-knit-skirt-white-spruce-green?variant=43774137073844",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6427R_06054_b1_s1_a3_1_m54.jpg?v=1747165457",
   "details": "Not only does the Tennis Club Sweater Knit Skirt serve major looks, but it’s totally functional for playing a pickup game of Padel.",
   "checkedAt": "2026-11-15",
@@ -185485,6 +185425,35 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-w6476r-polar-fleece-wintry-mix-skirt-ivory",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Polar Fleece Wintry Mix Skirt - Ivory",
+  "price": 68,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w6476r-polar-fleece-wintry-mix-skirt-ivory?variant=43774144544948",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6476R_03299_b1_s1_a1_1_m231.jpg?v=1747163463",
+  "details": "Add a little softness to your wardrobe with the Polar Fleece Wintry Mix Skirt.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "cream"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-w6480r-alumni-tennis-skirt-white",
   "gender": "women",
   "tier": "Quality",
@@ -185543,16 +185512,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w6491r-alosoft-better-together-tennis-skirt-athletic-hea",
+  "id": "alo-w6568r-low-rise-fan-favorite-micro-skirt-california-blue",
   "gender": "women",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "Alosoft Better Together Tennis Skirt - Athletic Heather Grey/White",
-  "price": 78,
+  "name": "Low-Rise Fan Favorite Micro Skirt - California Blue",
+  "price": 98,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w6491r-alosoft-better-together-tennis-skirt-athletic-heather-grey-white?variant=50661365776743",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6491R_03320_b1_s1_a1_m91.jpg?v=1748404981",
-  "details": "Get your layer on, without wearing more than one piece.",
+  "productUrl": "https://www.aloyoga.com/products/w6568r-low-rise-fan-favorite-micro-skirt-california-blue",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6568R_08193_b1_s1_a1_dFA26_m91.jpg?v=1785919839",
+  "details": "With its low-rise fit and clean lines, there’s no doubt that the Low-Rise Fan Favorite Micro Skirt is the it-girl on the block.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "skirt"
@@ -185563,11 +185532,39 @@
    "unknown"
   ],
   "colours": [
-   "white",
-   "grey"
+   "blue"
   ],
   "styles": [
    "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w6700r-low-rise-best-bet-skirt-warm-butter",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Low-Rise Best Bet Skirt - Warm Butter",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w6700r-low-rise-best-bet-skirt-warm-butter",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W6700R_06026_b2_s1_a1_dFA26_m277.jpg?v=1787900926",
+  "details": "The Low-Rise Best Bet Skirt is a chic silhouette that takes any look to the next level.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "skirt"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "yellow"
+  ],
+  "styles": [
+   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -198377,7 +198374,7 @@
   "price": 88,
   "currency": "USD",
   "productUrl": "https://www.yourparade.com/products/organic-matching-holiday-pajamas-mens?variant=43251507396631",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0045/4757/5842/files/FW25_JAMMIES_MEN_PAJAMAS_HOLIDAY_alpine.jpg?v=1794729922",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0045/4757/5842/files/FW25_JAMMIES_MEN_PAJAMAS_HOLIDAY_alpine.jpg?v=1794747848",
   "details": "Parade's Unisex/Men's Holiday print Pajamas are generous in length.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -198405,7 +198402,7 @@
   "price": 88,
   "currency": "USD",
   "productUrl": "https://www.yourparade.com/products/organic-my-jammies-matching-holiday-pajamas-womens?variant=41681449222167",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0045/4757/5842/files/FW24_HOLIDAY_JAMMIES_WOMEN_SET_confetti.jpg?v=1794729913",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0045/4757/5842/files/FW24_HOLIDAY_JAMMIES_WOMEN_SET_confetti.jpg?v=1794755216",
   "details": "Parade's Women’s Pajamas are high waisted & generous in length.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -199123,6 +199120,65 @@
   ]
  },
  {
+  "id": "skims-cotton-rib-lace-cami-and-boxer-set-cherry-blossom-kitt",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "SKIMS",
+  "name": "COTTON RIB LACE CAMI AND BOXER SET | CHERRY BLOSSOM KITTEN BELLS",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/cotton-rib-lace-cami-and-boxer-set-cherry-blossom-kitten-bells",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-SST-12905W-CKBL-FLT-T_COMPOSITE.jpg?v=1794520434",
+  "details": "The sweetest set for staying in.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sleepwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "pink"
+  ],
+  "styles": [
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-cotton-rib-lace-cami-and-boxer-set-wisteria",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "SKIMS",
+  "name": "COTTON RIB LACE CAMI AND BOXER SET | WISTERIA",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/cotton-rib-lace-cami-and-boxer-set-wisteria",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-SST-13491W-WSA-FLT-T_COMPOSITE.jpg?v=1794518771",
+  "details": "The sweetest set for staying in.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sleepwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "skims-cozy-knit-unisex-robe-pink-brick-elk-ribbon",
   "gender": "unisex",
   "tier": "High-end",
@@ -199295,34 +199351,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-flannel-sleep-plush-lined-long-robe-buff-montgomery-ch",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "SKIMS",
-  "name": "FLANNEL SLEEP PLUSH LINED LONG ROBE | BUFF MONTGOMERY CHECK",
-  "price": 158,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/flannel-sleep-plush-lined-long-robe-buff-montgomery-check",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-RB-ROBE-13864W-UFFM-FLT-CLOSED.jpg?v=1792798533",
-  "details": "The coziest way to stay in.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "sleepwear"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "statement",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "skims-jersey-sleep-mens-sleep-set-brick-frosty-cabin",
   "gender": "men",
   "tier": "High-end",
@@ -199351,16 +199379,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-logo-pointelle-tank-and-flannel-pant-sleep-set-hot-pin",
-  "gender": "women",
+  "id": "skims-jersey-sleep-mens-sleep-set-dark-roast",
+  "gender": "men",
   "tier": "High-end",
   "brand": "SKIMS",
-  "name": "LOGO POINTELLE TANK AND FLANNEL PANT SLEEP SET | HOT PINK HOLLY PLAID — HOT PINK MINI HOLLY PLAID",
-  "price": 98,
+  "name": "JERSEY SLEEP MENS SLEEP SET | DARK ROAST",
+  "price": 128,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/logo-pointelle-tank-and-flannel-pant-sleep-set-hot-pink-holly-plaid",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-LON-12849-HPHP-FLT_Composite.jpg?v=1792805316",
-  "details": "The perfect mix for bedtime.",
+  "productUrl": "https://www.skims.com/products/jersey-sleep-mens-sleep-set-dark-roast",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-SHR-6192M-DRT-COMPOSITE-FLT.jpg?v=1793657904",
+  "details": "You’ll be dreaming before your head hits the pillow.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "sleepwear"
@@ -199368,13 +199396,11 @@
   "climates": [
    "cold",
    "mild",
+   "hot",
    "unknown"
   ],
-  "colours": [
-   "pink"
-  ],
+  "colours": [],
   "styles": [
-   "statement",
    "understated"
   ],
   "feed": "shopify",
@@ -199403,6 +199429,38 @@
   ],
   "colours": [],
   "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-plush-long-robe-merlot",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "SKIMS",
+  "name": "PLUSH LONG ROBE | MERLOT",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/plush-long-robe-merlot",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-RB-ROBE-12840W-MRT-FLT-CLOSED.jpg?v=1793733119",
+  "details": "Designed in our ultra-soft Plush fabric, this long robe features a cozy shawl collar and self-tie waist for adjustable comfort.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sleepwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "red"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
    "understated"
   ],
   "feed": "shopify",
@@ -199503,164 +199561,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-silk-lace-cami-and-short-set-onyx-tonal",
+  "id": "skims-skims-jacquard-sleep-set-brick-skims-logo",
   "gender": "women",
   "tier": "High-end",
   "brand": "SKIMS",
-  "name": "SILK LACE CAMI AND SHORT SET | ONYX TONAL",
+  "name": "SKIMS JACQUARD SLEEP SET | BRICK SKIMS LOGO",
   "price": 148,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/silk-lace-cami-and-short-set-onyx-tonal",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-TNK-12132W-NXTL-FLT-T_COMPOSITE.jpg?v=1793243052",
-  "details": "Soft, sexy, and effortlessly elegant.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "sleepwear"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "polished",
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-skims-sleep-short-sleeve-button-up-set-brick-frosty-ca",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "SKIMS SLEEP SHORT SLEEVE BUTTON UP SET | BRICK FROSTY CABIN",
-  "price": 88,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/skims-sleep-short-sleeve-button-up-set-brick-frosty-cabin",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-SST-5750W-BKFN-FLT_COMPOSITE.jpg?v=1792787957",
-  "details": "A match made in heaven.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "sleepwear"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-skims-sleep-short-sleeve-button-up-set-cherry-blossom-",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "SKIMS SLEEP SHORT SLEEVE BUTTON UP SET | CHERRY BLOSSOM SPORTS CAR GIFT",
-  "price": 88,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/skims-sleep-short-sleeve-button-up-set-cherry-blossom-sports-car-gift",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-SST-5750W-CSPF-T_COMPOSITE.jpg?v=1792800950",
-  "details": "A match made in heaven.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "sleepwear"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed",
-   "statement",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-stretch-lace-triangle-cami-and-short-set-cardinal",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "SKIMS",
-  "name": "STRETCH LACE TRIANGLE CAMI AND SHORT SET | CARDINAL",
-  "price": 98,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/stretch-lace-triangle-cami-and-short-set-cardinal",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-SET-9557W-CNL-FLT_aComposite.jpg?v=1793385100",
-  "details": "Slip into something naughty and nice.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "sleepwear"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-woven-shine-long-sleep-set-onyx-los-angeles-ski",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "SKIMS",
-  "name": "WOVEN SHINE LONG SLEEP SET | ONYX LOS ANGELES SKI",
-  "price": 108,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/woven-shine-long-sleep-set-onyx-los-angeles-ski",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-LON-12869W-OLAS-T-FLT-COMPOSITE.jpg?v=1793057796",
-  "details": "A festive take on classic pajamas.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "sleepwear"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "polished",
-   "statement",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-woven-shine-robe-barely-pink-snack-bag",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "WOVEN SHINE ROBE | BARELY PINK SNACK BAG",
-  "price": 82,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/woven-shine-robe-barely-pink-snack-bag",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-RB-ROBE-12163W-BPSB-FLT.jpg?v=1784150315",
-  "details": "Artist Aurel Schmidt brings her signature world of playful prints and feminine details to this classic robe.",
+  "productUrl": "https://www.skims.com/products/skims-jacquard-sleep-set-brick-skims-logo",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-LON-12860W-BKOG-FLT-T_COMPOSITE.jpg?v=1794525763",
+  "details": "Your bedtime basics, upgraded.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "sleepwear"
@@ -199672,7 +199582,131 @@
    "unknown"
   ],
   "colours": [
-   "pink"
+   "red"
+  ],
+  "styles": [
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-skims-sleep-cardigan-and-pant-sleep-set-blue-quartz-sn",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "SKIMS",
+  "name": "SKIMS SLEEP CARDIGAN AND PANT SLEEP SET | BLUE QUARTZ SNOWFLAKE",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/skims-sleep-cardigan-and-pant-sleep-set-blue-quartz-snowflake",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-LON-13571W-BQUK-FLT-B-COMPOSITE.jpg?v=1794526065",
+  "details": "The ultimate bedtime set.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sleepwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-skims-sleep-lace-cami-and-pant-sleep-set-blue-quartz-s",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "SKIMS",
+  "name": "SKIMS SLEEP LACE CAMI AND PANT SLEEP SET | BLUE QUARTZ SNOWFLAKE",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/skims-sleep-lace-cami-and-pant-sleep-set-blue-quartz-snowflake",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-LON-13568W-BQUK-FLT-B_COMPOSITE.jpg?v=1794526185",
+  "details": "Sweet dreams start with this ultra-soft set.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sleepwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-skims-sleep-long-sleeve-button-up-set-blue-quartz-snow",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "SKIMS",
+  "name": "SKIMS SLEEP LONG SLEEVE BUTTON UP SET | BLUE QUARTZ SNOWFLAKE",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/skims-sleep-long-sleeve-button-up-set-blue-quartz-snowflake",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-PNS-5752W-BQUK-FLT-B_COMPOSITE.jpg?v=1794517962",
+  "details": "Your old pajamas can’t compete with this soft, ultra-comfortable sleep set.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sleepwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-skims-sleep-short-sleeve-button-up-set-blue-quartz-sno",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "SKIMS",
+  "name": "SKIMS SLEEP SHORT SLEEVE BUTTON UP SET | BLUE QUARTZ SNOWFLAKE",
+  "price": 88,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/skims-sleep-short-sleeve-button-up-set-blue-quartz-snowflake",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-ST-SST-5750W-BQUK-FLT-B_COMPOSITE.jpg?v=1794517881",
+  "details": "A match made in heaven.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sleepwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
   ],
   "styles": [
    "relaxed",
@@ -201566,39 +201600,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-a0357u-unisex-throwback-sock-oatmeal-heather-charcoal-gr",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Unisex Throwback Sock - Oatmeal Heather/Charcoal Green",
-  "price": 23,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0357u-unisex-throwback-sock-oatmeal-heather-charcoal-green?variant=43774076518580",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0357U_06470_b1_s1_a1.jpg?v=1737056125",
-  "details": "Instant classic.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "grey",
-   "beige",
-   "green"
-  ],
-  "styles": [
-   "statement",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-a0411w-womens-strappy-siren-grip-sock-soft-mulberry",
   "gender": "women",
   "tier": "High-end",
@@ -201846,15 +201847,15 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-a0480u-unisex-half-crew-throwback-sock-white-sun-kissed-",
+  "id": "alo-a0480u-unisex-half-crew-throwback-sock-white-seashell-bl",
   "gender": "unisex",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Unisex Half-Crew Throwback Sock - White/Sun Kissed Brown",
-  "price": 34,
+  "name": "Unisex Half-Crew Throwback Sock - White/Seashell Blue",
+  "price": 23,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0480u-unisex-half-crew-throwback-sock-white-sun-kissed-brown",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0480U_08120_b1_s1_a3_dSU26.jpg?v=1778655507",
+  "productUrl": "https://www.aloyoga.com/products/a0480u-unisex-half-crew-throwback-sock-white-seashell-blue?variant=42865371578548",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0480U_05506_b1_s1_a1_1.jpg?v=1715967967",
   "details": "Instant classic.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -201868,9 +201869,41 @@
   ],
   "colours": [
    "white",
-   "brown"
+   "blue"
   ],
   "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-a0480u-unisex-half-crew-throwback-sock-white-spruce-gree",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Unisex Half-Crew Throwback Sock - White/Spruce Green",
+  "price": 23,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0480u-unisex-half-crew-throwback-sock-white-spruce-green?variant=43774078386356",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0480U_06054_b1_s1_a1.jpg?v=1739414508",
+  "details": "Instant classic.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "white",
+   "green"
+  ],
+  "styles": [
+   "statement",
    "understated"
   ],
   "feed": "shopify",
@@ -208697,6 +208730,66 @@
   "maxAgeDays": 10
  },
  {
+  "id": "skims-chunky-rib-sock-blue-quartz",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "SKIMS",
+  "name": "CHUNKY RIB SOCK | BLUE QUARTZ",
+  "price": 18,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/chunky-rib-sock-blue-quartz",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-ACCESSORIES-SH-SCK-14280W-BLQ-FLT_COMPOSITE_PAIR.jpg?v=1793730219",
+  "details": "This chunky rib sock brings a classic, oversized feel to every look—complete with our signature logo at the sole.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-chunky-rib-sock-stone",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "SKIMS",
+  "name": "CHUNKY RIB SOCK | STONE",
+  "price": 18,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/chunky-rib-sock-stone",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-ACCESSORIES-SH-SCK-14280W-STN-FLT_COMPOSITE_PAIR.jpg?v=1793730219",
+  "details": "This chunky rib sock brings a classic, oversized feel to every look—complete with our signature logo at the sole.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "sand"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "skims-cozy-logo-sock-silver-elk-fairisle-print",
   "gender": "women",
   "tier": "Quality",
@@ -208719,67 +208812,6 @@
   ],
   "colours": [
    "grey"
-  ],
-  "styles": [
-   "statement",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-lurex-crew-sock-cardinal",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "LUREX CREW SOCK | CARDINAL",
-  "price": 20,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/lurex-crew-sock-cardinal",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-SH-SCK-12362W-CNL-FLT_COMPOSITE.jpg?v=1793244242",
-  "details": "A little sparkle in every step.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "red"
-  ],
-  "styles": [
-   "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-lurex-crew-sock-champagne",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "LUREX CREW SOCK | CHAMPAGNE",
-  "price": 20,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/lurex-crew-sock-champagne",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-SH-SCK-12362W-CHP-FLT_COMPOSITE.jpg?v=1793244586",
-  "details": "A little sparkle in every step.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "pink"
   ],
   "styles": [
    "statement",
@@ -209092,37 +209124,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-skims-socks-ribbed-quarter-crew-logo-sock-merlot",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "SKIMS SOCKS RIBBED QUARTER CREW LOGO SOCK | MERLOT — MERLOT / MERLOT CONTRAST",
-  "price": 14,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/skims-socks-ribbed-quarter-crew-logo-sock-merlot",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-ACCESSORIES-SO-SCK-13513W-MERT-FLT-COMPOSITE.jpg?v=1793244368",
-  "details": "Your everyday sock, shortened.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "socks"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "red"
-  ],
-  "styles": [
-   "statement",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "skims-stretch-lace-slouch-sock-cardinal",
   "gender": "women",
   "tier": "High-end",
@@ -209176,6 +209177,36 @@
   "styles": [
    "relaxed",
    "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-textured-sock-3-pack-cherry-blossom-kitten-multi",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "SKIMS",
+  "name": "TEXTURED SOCK 3-PACK | CHERRY BLOSSOM KITTEN MULTI — CB KITTEN MULTI",
+  "price": 38,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/textured-sock-3-pack-cherry-blossom-kitten-multi",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-SH-SCK-10503W-SNO-FLT_DTL_SNO-COMPOSITE.jpg?v=1794605840",
+  "details": "This quarter crew length sock pack features a raw edge Cotton sock, Polyester blend sock, and rib knit sock with a pretty lace hem.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "socks"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "pink"
+  ],
+  "styles": [
+   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -214387,15 +214418,15 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-a0543u-performance-off-duty-cap-california-blue",
+  "id": "alo-a0543u-performance-off-duty-cap-pink-marshmallow",
   "gender": "unisex",
   "tier": "High-end",
   "brand": "Alo",
-  "name": "Performance Off-Duty Cap - California Blue",
+  "name": "Performance Off-Duty Cap - Pink Marshmallow",
   "price": 68,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0543u-performance-off-duty-cap-california-blue",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0543U_08193_b1_s1_a1_dFA26.jpg?v=1785917575",
+  "productUrl": "https://www.aloyoga.com/products/a0543u-performance-off-duty-cap-pink-marshmallow",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0543U_08196_b1_s1_a1_dFA26_jpg.jpg?v=1785075148",
   "details": "Get your head in the game in the Performance Off-Duty Hat.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -214407,10 +214438,10 @@
    "unknown"
   ],
   "colours": [
-   "blue"
+   "pink"
   ],
   "styles": [
-   "understated"
+   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -214445,6 +214476,35 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-a0634u-winterfun-zhivago-hat-espresso",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Winterfun Zhivago Hat - Espresso",
+  "price": 128,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0634u-winterfun-zhivago-hat-espresso",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0634U_04064_b1_s1_a1_dWT26.jpg?v=1794200620",
+  "details": "Achieve it-girl status in the Zhivago hat.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sun-hat"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-a0637u-satin-off-duty-cap-brownstone",
   "gender": "unisex",
   "tier": "High-end",
@@ -214454,6 +214514,35 @@
   "currency": "USD",
   "productUrl": "https://www.aloyoga.com/products/a0637u-satin-off-duty-cap-brownstone?variant=50661743362407",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0637U_06659_b1_s1_a3.jpg?v=1762150311",
+  "details": "Get the quiet luxury look in this new satin take on our classic Off Duty hat.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sun-hat"
+  ],
+  "climates": [
+   "hot",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "polished"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-a0637u-satin-off-duty-cap-java-brown",
+  "gender": "unisex",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Satin Off-Duty Cap - Java Brown",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0637u-satin-off-duty-cap-java-brown",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0637U_08194_b1_s1_a2_dFA26_1.jpg?v=1791354284",
   "details": "Get the quiet luxury look in this new satin take on our classic Off Duty hat.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -214560,35 +214649,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-a0648u-off-duty-cap-spruce-green",
-  "gender": "unisex",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Off-Duty Cap - Spruce Green",
-  "price": 44,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0648u-off-duty-cap-spruce-green",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/0648U_06023_b1_s1_a2.jpg?v=1739573168",
-  "details": "Top off your look with ALO's limited edition, fresh take on the classic dad cap.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "sun-hat"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "green"
-  ],
-  "styles": [
-   "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-a0652u-performance-eclipse-visor-black-black",
   "gender": "women",
   "tier": "High-end",
@@ -214625,7 +214685,7 @@
   "name": "Good Shade Puffer Bucket Hat - White",
   "price": 54,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0656u-good-shade-puffer-bucket-hat-white?variant=43298961490100",
+  "productUrl": "https://www.aloyoga.com/products/a0656u-good-shade-puffer-bucket-hat-white?variant=43298961522868",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0656U_00_b1_s1_a2.jpg?v=1722383145",
   "details": "Nothing says summer like a bucket hat.",
   "checkedAt": "2026-11-15",
@@ -214696,35 +214756,6 @@
   ],
   "colours": [
    "blue"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-a0855u-velvet-off-duty-cap-rich-bordeaux",
-  "gender": "unisex",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Velvet Off-Duty Cap - Rich Bordeaux",
-  "price": 98,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/a0855u-velvet-off-duty-cap-rich-bordeaux",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0855U_06547_b1_s1_a2_dFA26_1.jpg?v=1791357868",
-  "details": "Your go-to cap, with a velvet upgrade.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "sun-hat"
-  ],
-  "climates": [
-   "hot",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "purple"
   ],
   "styles": [
    "understated"
@@ -223659,37 +223690,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "le-specs-fortune-teller-sand",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Le Specs",
-  "name": "FORTUNE TELLER | SAND",
-  "price": 59.5,
-  "currency": "USD",
-  "productUrl": "https://lespecs.com/products/fortune-teller-sand",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0029/7900/4480/files/876ca7c8c090aaeada40b08f30774112.jpg?v=1751336621",
-  "details": "Embrace vintage appeal with our FORTUNE TELLER aviator sunglasses.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "sunglasses"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "sand",
-   "green"
-  ],
-  "styles": [
-   "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "le-specs-glaciem-pearl-sandstone",
   "gender": "unisex",
   "tier": "Quality",
@@ -223987,6 +223987,37 @@
   ],
   "styles": [
    "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "le-specs-nouveau-vie-cloud",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Le Specs",
+  "name": "NOUVEAU VIE | CLOUD",
+  "price": 34.99,
+  "currency": "USD",
+  "productUrl": "https://lespecs.com/products/nouveau-vie-cloud",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0029/7900/4480/files/891af79131890ee69bef8ea95c9c5b9c.jpg?v=1747197778",
+  "details": "Updating a ‘90s-inspired look with luxurious detailing, our NOUVEAU VIE sunglasses are chic and versatile.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "sunglasses"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "grey",
+   "brown"
+  ],
+  "styles": [
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -232953,6 +232984,37 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-w1479r-alo-softsculpt-precision-short-sleeve-top-pink-wi",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "ALO Softsculpt Precision Short Sleeve Top - Pink Wild Rose",
+  "price": 62,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w1479r-alo-softsculpt-precision-short-sleeve-top-pink-wild-rose?variant=50661482004839",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W1479R_06463_b1_s1_a2_m18.jpg?v=1753979764",
+  "details": "The ALO Softsculpt Precision Short Sleeve Top is your new everyday essential.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "pink"
+  ],
+  "styles": [
+   "relaxed",
+   "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-w2737r-goddess-ribbed-go-to-tank-burgundy-truffle",
   "gender": "women",
   "tier": "Quality",
@@ -233135,45 +233197,15 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w9730r-seamless-ribbed-favorite-bra-tank-candy-heart-pin",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Seamless Ribbed Favorite Bra Tank - Candy Heart Pink",
-  "price": 84,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w9730r-seamless-ribbed-favorite-bra-tank-candy-heart-pink",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9730R_06661_b2_s1_a2_dSP26_m91.jpg?v=1777852649",
-  "details": "Sometimes it’s good to play favorites — enter the Seamless Ribbed Favorite Bra Tank.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "pink"
-  ],
-  "styles": [
-   "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w9777r-ribbed-en-pointe-tank-mushroom-heather",
+  "id": "alo-w9777r-ribbed-en-pointe-tank-candy-red",
   "gender": "women",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "Ribbed En Pointe Tank - Mushroom Heather",
+  "name": "Ribbed En Pointe Tank - Candy Red",
   "price": 54,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w9777r-ribbed-en-pointe-tank-mushroom-heather?variant=43774163550388",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9777R_06049_b1_s1_a5_1_m231.jpg?v=1738614422",
+  "productUrl": "https://www.aloyoga.com/products/w9777r-ribbed-en-pointe-tank-candy-red?variant=50661375279463",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9777R_06281_b1_s1_a1_m143.jpg?v=1745304080",
   "details": "This tank is so en pointe.",
   "checkedAt": "2026-11-15",
   "kinds": [
@@ -233186,10 +233218,10 @@
    "unknown"
   ],
   "colours": [
-   "brown"
+   "red"
   ],
   "styles": [
-   "understated"
+   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -251063,16 +251095,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-cotton-rib-tank-merlot",
+  "id": "skims-cotton-jersey-t-shirt-oat-arched-skims-plaid",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "COTTON RIB TANK | MERLOT",
-  "price": 38,
+  "name": "COTTON JERSEY T-SHIRT | OAT ARCHED SKIMS PLAID",
+  "price": 54,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/cotton-rib-tank-merlot",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-SP-TNK-0038-MRT-FLT.png?v=1792803474",
-  "details": "Everyone agrees – this tank is 10/10.",
+  "productUrl": "https://www.skims.com/products/cotton-jersey-t-shirt-oat-arched-skims-plaid",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-SSL-13012W-OASP-FLT.jpg?v=1794508464",
+  "details": "Our viral t-shirt in the cotton everyone craves.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "tee"
@@ -251084,7 +251116,7 @@
    "unknown"
   ],
   "colours": [
-   "red"
+   "cream"
   ],
   "styles": [
    "relaxed",
@@ -253579,6 +253611,35 @@
   "maxAgeDays": 10
  },
  {
+  "id": "tentree-embroidered-ten-t-shirt-seaport-heather-warm-oak",
+  "gender": "men",
+  "tier": "Budget",
+  "brand": "tentree",
+  "name": "Embroidered Ten T-Shirt — SEAPORT HEATHER WARM OAK",
+  "price": 27,
+  "currency": "CAD",
+  "productUrl": "https://tentree.ca/products/embroidered-ten-t-shirt-seaport-heather-warm-oak?variant=44905173647546",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2404/6643/files/Blue-Regular-Fit-Crew-Neck-T-shirt-TCM3009-5668_1.jpg?v=1749230611",
+  "details": "Comfortable and soft lightweight jersey t-shirt made from 45% Recycled Polyester, 30% TENCEL™ Lyocell, 25% Organic Cotton that makes for an ",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "tentree-framed-haitian-bloom-t-shirt-meteorite-black-pink-sa",
   "gender": "women",
   "tier": "Quality",
@@ -253861,39 +253922,6 @@
   "styles": [
    "relaxed",
    "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "tentree-sasquatch-t-shirt-nightfall-heather-floatie",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "tentree",
-  "name": "Sasquatch T-Shirt — NIGHTFALL HEATHER FLOATIE",
-  "price": 31.5,
-  "currency": "CAD",
-  "productUrl": "https://tentree.ca/products/sasquatch-t-shirt-nightfall-heather-floatie?variant=45724466479290",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2404/6643/files/Blue-TreeBlend-Embroidered-Graphic-T-Shirt-TCM5755-6102_2.jpg?v=1774030188",
-  "details": "This Sasquatch T-Shirt is a daily reminder to step outside your comfort zone and into the outdoors.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [
-   "black",
-   "orange"
-  ],
-  "styles": [
-   "relaxed",
-   "statement",
-   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -255705,35 +255733,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "woolx-mens-lightweight-endurance-merino-wool-short-sleeve",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Woolx",
-  "name": "Endurance Tee - Estate Blue",
-  "price": 100,
-  "currency": "USD",
-  "productUrl": "https://woolx.com/products/mens-lightweight-endurance-merino-wool-short-sleeve?variant=42873370280002",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/endurance.jpg?v=1774872043",
-  "details": "Engineered to go the distance with you, and guaranteed to perform under any conditions.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "tee"
-  ],
-  "climates": [
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "blue"
-  ],
-  "styles": [
-   "polished",
-   "relaxed"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "woolx-mens-long-sleeve-merino-essential-tee-peppercorn",
   "gender": "men",
   "tier": "High-end",
@@ -255937,6 +255936,35 @@
   "styles": [
    "relaxed",
    "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "woolx-summit-mens-merino-wool-polo-peppercorn",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Woolx",
+  "name": "Summit Polo - Peppercorn",
+  "price": 110,
+  "currency": "USD",
+  "productUrl": "https://woolx.com/products/summit-mens-merino-wool-polo-peppercorn?variant=43725760004162",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1494/1276/files/4_d9314f56-92a4-4bb5-82dd-f031219c17b1.jpg?v=1782390708",
+  "details": "Peak performance meets classic style.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "tee"
+  ],
+  "climates": [
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "polished",
+   "relaxed"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -258561,7 +258589,7 @@
   "name": "Cargo Ripstop Trouser - Bone",
   "price": 82,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m5159r-cargo-ripstop-trouser-bone?variant=42542385529012",
+  "productUrl": "https://www.aloyoga.com/products/m5159r-cargo-ripstop-trouser-bone?variant=42542385332404",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M5159R_03040_b1_s3_a1_1_m93.jpg?v=1710200936",
   "details": "Can’t stop, won’t stop.",
   "checkedAt": "2026-11-15",
@@ -258578,36 +258606,6 @@
   ],
   "styles": [
    "polished",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-m5175r-repetition-pant-steel-grey",
-  "gender": "men",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Repetition Pant - Steel Grey",
-  "price": 128,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m5175r-repetition-pant-steel-grey?variant=43766335963316",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M5175R_05541_b1_s1_a1_1_m198.jpg?v=1734054798",
-  "details": "We’re redefining all-day performance wear with the Repetition Pant .",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "trousers"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "grey"
-  ],
-  "styles": [
-   "relaxed",
    "understated"
   ],
   "feed": "shopify",
@@ -258665,6 +258663,35 @@
   ],
   "colours": [
    "brown"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-m5259r-double-take-straight-leg-pant-monument",
+  "gender": "men",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Double Take Straight Leg Pant - Monument",
+  "price": 128,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m5259r-double-take-straight-leg-pant-monument",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M5259R_03497_b1_s1_a1_dFA26_m257.jpg?v=1784629786",
+  "details": "The Double Take Straight Leg Pant has a laid-back feel with an elevated finish.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "grey"
   ],
   "styles": [
    "understated"
@@ -258880,36 +258907,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w51208r-high-waist-pursuit-trouser-anthracite",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "High-Waist Pursuit Trouser - Anthracite",
-  "price": 148,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w51208r-high-waist-pursuit-trouser-anthracite?variant=42062680522932",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W51208R_02125_b1_s1_a1_1_m76.jpg?v=1709685746",
-  "details": "The Pursuit Trouser is the ultimate closet staple.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "trousers"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "grey"
-  ],
-  "styles": [
-   "polished",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-w51383r-h-w-show-off-cargo-wide-leg-trouser-long-ivory",
   "gender": "women",
   "tier": "Quality",
@@ -259090,16 +259087,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w5784r-muse-sweatpant-burgundy-truffle",
+  "id": "alo-w54530r-airlift-polka-dot-high-waist-iconic-90s-capri-bl",
   "gender": "women",
-  "tier": "Quality",
+  "tier": "High-end",
   "brand": "Alo",
-  "name": "Muse Sweatpant - Burgundy Truffle",
-  "price": 82,
+  "name": "Airlift Polka Dot High-Waist Iconic 90's Capri - Black/White",
+  "price": 128,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w5784r-muse-sweatpant-burgundy-truffle?variant=43591428931764",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W5784R_05815_b1_s1_a1_m54.jpg?v=1731038117",
-  "details": "Meet the sweats you’ve seen all over your feed.",
+  "productUrl": "https://www.aloyoga.com/products/w54530r-airlift-polka-dot-high-waist-iconic-90s-capri-black-white",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54530R_0100_b1_s1_a2_dFA26_m207.jpg?v=1786957785",
+  "details": "The Airlift Polka Dot Iconic 90's Capri is a sleek style that was made for making a statement.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "trousers"
@@ -259110,12 +259107,40 @@
    "unknown"
   ],
   "colours": [
-   "red",
-   "burgundy"
+   "black",
+   "white"
   ],
   "styles": [
-   "relaxed",
-   "statement"
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w54728r-semi-sheer-high-waist-oasis-wide-leg-pant-long-j",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Semi Sheer High-Waist Oasis Wide Leg Pant (Long) - Java Brown Heather",
+  "price": 138,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w54728r-semi-sheer-high-waist-oasis-wide-leg-pant-long-java-brown-heather",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W54728R_08197_b1_s1_a40_dFA26_m241.jpg?v=1789617139",
+  "details": "The Semi-Sheer Oasis Wide Leg Pant is the perfect piece to throw on and go.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "brown"
+  ],
+  "styles": [
+   "relaxed"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -273464,35 +273489,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-cotton-jersey-foldover-capri-navy",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "COTTON JERSEY FOLDOVER CAPRI | NAVY",
-  "price": 64,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/cotton-jersey-foldover-capri-navy",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/BO-PAN-6154W-NVY-BB-SKIMS-LOUNGEWEAR_03230-FR.webp?v=1790886985",
-  "details": "Your go-to pant for looking cute and feeling comfy.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "trousers"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "unknown"
-  ],
-  "colours": [
-   "navy"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "skims-cotton-jersey-foldover-pant-merlot",
   "gender": "women",
   "tier": "Quality",
@@ -273518,6 +273514,37 @@
   "styles": [
    "relaxed",
    "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-cotton-jersey-foldover-pant-oat-arched-skims-plaid",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "SKIMS",
+  "name": "COTTON JERSEY FOLDOVER PANT | OAT ARCHED SKIMS PLAID",
+  "price": 78,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/cotton-jersey-foldover-pant-oat-arched-skims-plaid",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-BT-PNT-13016W-OASP-FLT.jpg?v=1794508465",
+  "details": "Your go-to pant for looking cute and feeling comfy.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "trousers"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "unknown"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -275138,7 +275165,7 @@
   "name": "Interval Pant | Short — Black",
   "price": 138,
   "currency": "USD",
-  "productUrl": "https://www.tenthousand.cc/products/interval-pant-shorter-inseam?variant=44547593076823",
+  "productUrl": "https://www.tenthousand.cc/products/interval-pant-shorter-inseam?variant=44547593142359",
   "imageUrl": "https://cdn.shopify.com/s/files/1/0251/7377/files/Interval-Pant_Black_419_Front_CS.png?v=1760292348",
   "details": "Designed for unmatched versatility, our best-selling training pant delivers overbuilt performance for all the ways you train.",
   "checkedAt": "2026-11-15",
@@ -278612,6 +278639,35 @@
   ]
  },
  {
+  "id": "alo-a0285w-airmesh-venus-thong-candy-heart-pink",
+  "gender": "women",
+  "tier": "High-end",
+  "brand": "Alo",
+  "name": "Airmesh Venus Thong - Candy Heart Pink",
+  "price": 34,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/a0285w-airmesh-venus-thong-candy-heart-pink",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/A0285W_06661_b1_s1_a4_dSP26_m191.jpg?v=1769199571",
+  "details": "The lightweight, ultra-breathable Airmesh Venus Thong is designed to be comfortably discreet with a sweet look and barely-there feel.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "underwear"
+  ],
+  "climates": [
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "pink"
+  ],
+  "styles": [
+   "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-a0285w-airmesh-venus-thong-espresso",
   "gender": "women",
   "tier": "High-end",
@@ -278693,6 +278749,37 @@
    "purple"
   ],
   "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "bluenotes-0649-43902709-zoo-york-drippy-logo-printed-boxer-b",
+  "gender": "men",
+  "tier": "Budget",
+  "brand": "Bluenotes",
+  "name": "Zoo York Drippy Logo Printed Boxer Briefs — Black",
+  "price": 6,
+  "currency": "CAD",
+  "productUrl": "https://www.bluenotes.com/products/0649-43902709-zoo-york-drippy-logo-printed-boxer-briefs?variant=50814978130117",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/1981/3329/files/064943902709-01-0.jpg?v=1793109115",
+  "details": "Woven underwear.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "underwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "black"
+  ],
+  "styles": [
+   "statement",
    "understated"
   ],
   "feed": "shopify",
@@ -278873,34 +278960,6 @@
   ],
   "styles": [
    "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "bluenotes-1849-19122604-zoo-york-pickles-skateboards-boxer-b",
-  "gender": "men",
-  "tier": "Budget",
-  "brand": "Bluenotes",
-  "name": "Zoo York Pickles & Skateboards Boxer Briefs — Multi",
-  "price": 6,
-  "currency": "CAD",
-  "productUrl": "https://www.bluenotes.com/products/1849-19122604-zoo-york-pickles-skateboards-boxer-briefs?variant=50830643626181",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/1981/3329/files/184919122604-36-0.jpg?v=1793206342",
-  "details": "Woven underwear.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "underwear"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -286240,34 +286299,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "tommy-john-womens-cool-cotton-brief-8",
-  "gender": "women",
-  "tier": "Budget",
-  "brand": "Tommy John",
-  "name": "Women's Cool Cotton Brief — Lilac Chiffon",
-  "price": 10,
-  "currency": "USD",
-  "productUrl": "https://tommyjohn.com/products/womens-cool-cotton-brief-8?variant=67598819459117",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2964/7474/files/1002280_500272_Ecomm_Back_W_U_CC_BRF_4.2.26_af4d3e00-1721-4f01-a550-da4b93990464.jpg?v=1790859371",
-  "details": "Pima Cotton Stretch Fabric Breathable, moisture-wicking (sweat control) with a premium feel.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "underwear"
-  ],
-  "climates": [
-   "cold",
-   "mild",
-   "hot",
-   "unknown"
-  ],
-  "colours": [],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "tommy-john-womens-cool-cotton-brief-lace-waist-3-pack-1",
   "gender": "women",
   "tier": "High-end",
@@ -286439,6 +286470,36 @@
    "unknown"
   ],
   "colours": [],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "tommy-john-womens-second-skin-luxe-rib-thong",
+  "gender": "women",
+  "tier": "Budget",
+  "brand": "Tommy John",
+  "name": "Women's Second Skin Luxe Rib Thong — Argyle Purple Luxe Rib",
+  "price": 5.5,
+  "currency": "USD",
+  "productUrl": "https://tommyjohn.com/products/womens-second-skin-luxe-rib-thong?variant=41664551747629",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2964/7474/files/1003470_500184_Ecomm_Front_W_I_SS_THNG_7.20.2023_Fabric_Bubble.jpg?v=1745524762",
+  "details": "Luxuriously Soft, Ribbed Modal Stretch Fabric Fan-favorite Second Skin fabric with a ribbed texture for extra airflow.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "underwear"
+  ],
+  "climates": [
+   "cold",
+   "mild",
+   "hot",
+   "unknown"
+  ],
+  "colours": [
+   "purple"
+  ],
   "styles": [
    "understated"
   ],
@@ -295910,16 +295971,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-m3214r-renown-heavy-weight-1-4-zip-espresso",
-  "gender": "unisex",
+  "id": "alo-m3245r-double-take-hoodie-green-olive",
+  "gender": "men",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "Renown Heavy Weight 1/4 Zip - Espresso",
-  "price": 118,
+  "name": "Double Take Hoodie - Green Olive",
+  "price": 128,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3214r-renown-heavy-weight-1-4-zip-espresso?variant=42337310277812",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3214R_04064_b1_s3_a1_1_m154.jpg?v=1696615861",
-  "details": "Put it on and never take it off.",
+  "productUrl": "https://www.aloyoga.com/products/m3245r-double-take-hoodie-green-olive?variant=50661463589223",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3245R_06464_b2_s1_a7_m180.jpg?v=1757355806",
+  "details": "Meet our new Double Take Hoodie: The fabric is lighter than our heavyweight Renown, more polished than street-smart Accolade, and has a soft",
   "checkedAt": "2026-11-15",
   "kinds": [
    "warm-knit"
@@ -295928,25 +295989,26 @@
    "cold"
   ],
   "colours": [
-   "brown"
+   "olive",
+   "green"
   ],
   "styles": [
-   "understated"
+   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
  },
  {
-  "id": "alo-m3214r-renown-heavy-weight-1-4-zip-espresso-womens",
-  "gender": "unisex",
+  "id": "alo-m3245r-double-take-hoodie-green-olive-womens",
+  "gender": "women",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "Renown Heavy Weight 1/4 Zip - Espresso",
-  "price": 118,
+  "name": "Double Take Hoodie - Green Olive",
+  "price": 128,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3214r-renown-heavy-weight-1-4-zip-espresso-womens?variant=42403242639540",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3214R_04064_b1_s1_a1_1_m89.jpg?v=1697083565",
-  "details": "Put it on and never take it off.",
+  "productUrl": "https://www.aloyoga.com/products/m3245r-double-take-hoodie-green-olive-womens",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3245R_06464_b1_s1_a4_m241.jpg?v=1757094118",
+  "details": "Meet our new Double Take Hoodie: The fabric is lighter than our heavyweight Renown, more polished than street-smart Accolade, and has a soft",
   "checkedAt": "2026-11-15",
   "kinds": [
    "warm-knit"
@@ -295955,10 +296017,11 @@
    "cold"
   ],
   "colours": [
-   "brown"
+   "olive",
+   "green"
   ],
   "styles": [
-   "understated"
+   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -296028,6 +296091,62 @@
   "productUrl": "https://www.aloyoga.com/products/m3245r-double-take-hoodie-steel-grey-womens?variant=42873192906932",
   "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3245R_05541_b1_s1_a1_1_m54_4bed4cc3-2f12-45e8-8d3c-48850a55be6d.jpg?v=1715731125",
   "details": "Meet our new Double Take Hoodie: The fabric is lighter than our heavyweight Renown, more polished than street-smart Accolade, and has a soft",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-m3254r-chill-vintage-wash-hoodie-steel-grey-wash",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Chill Vintage Wash Hoodie - Steel Grey Wash",
+  "price": 128,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3254r-chill-vintage-wash-hoodie-steel-grey-wash?variant=43766294413492",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3254R_05721_b1_s1_a3_1_m198.jpg?v=1734054621",
+  "details": "Your new go-to for easy all-day style.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-m3254r-chill-vintage-wash-hoodie-steel-grey-wash-womens",
+  "gender": "unisex",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Chill Vintage Wash Hoodie - Steel Grey Wash",
+  "price": 128,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/m3254r-chill-vintage-wash-hoodie-steel-grey-wash-womens?variant=43584686915764",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3254R_05721_b1_s1_a4_1_m78.jpg?v=1726516765",
+  "details": "Whatever’s on your weekend agenda, this hoodie is here for it.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "warm-knit"
@@ -296155,33 +296274,6 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-m3345r-alo-vapor-long-sleeve-hoodie-black",
-  "gender": "men",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "ALO Vapor Long Sleeve Hoodie - Black",
-  "price": 98,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/m3345r-alo-vapor-long-sleeve-hoodie-black",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/M3345R_01_b1_s1_a1_dFA26_m257.jpg?v=1788855331",
-  "details": "Make your move in the ALO Vapor Long Sleeve Hoodie.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "black"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "alo-m3345r-alo-vapor-long-sleeve-hoodie-java-brown",
   "gender": "men",
   "tier": "Quality",
@@ -296255,33 +296347,6 @@
   ],
   "colours": [
    "purple"
-  ],
-  "styles": [
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-u3013r-renown-heavy-weight-hoodie-winter-frost",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Renown Heavy Weight Hoodie - Winter Frost",
-  "price": 148,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/u3013r-renown-heavy-weight-hoodie-winter-frost",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/U3013R_06646_b1_s1_a2_m261_30d395e9-3af0-493a-a80e-afcccfb9a15d.jpg?v=1776707794",
-  "details": "Take it out & about in the Renown Hoodie, our forward, street-ready look for he, she & they.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "blue"
   ],
   "styles": [
    "understated"
@@ -296371,16 +296436,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "alo-w3642r-quilted-cropped-arena-hoodie-black",
+  "id": "alo-w31007r-polar-fleece-retreat-cover-up-rich-bordeaux",
   "gender": "women",
   "tier": "Quality",
   "brand": "Alo",
-  "name": "Quilted Cropped Arena Hoodie - Black",
-  "price": 108,
+  "name": "Polar Fleece Retreat Cover Up - Rich Bordeaux",
+  "price": 168,
   "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3642r-quilted-cropped-arena-hoodie-black?variant=41275896135860",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/products/W3642R_01_b1_s1_a1_1_m77.jpg?v=1704222386",
-  "details": "Tough up front but a softie at heart, the Quilted Cropped Arena Hoodie is gonna be the go-to.",
+  "productUrl": "https://www.aloyoga.com/products/w31007r-polar-fleece-retreat-cover-up-rich-bordeaux",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W31007R_06547_b2_s1_a1_dFA26_m210.jpg?v=1791351561",
+  "details": "Your new cold-weather staple.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "warm-knit"
@@ -296389,37 +296454,10 @@
    "cold"
   ],
   "colours": [
-   "black"
+   "purple"
   ],
   "styles": [
    "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w3814r-bae-hoodie-spruce-green",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "Alo",
-  "name": "Bae Hoodie - Spruce Green",
-  "price": 68,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3814r-bae-hoodie-spruce-green?variant=43774112399540",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3814R_06023_b1_s1_a1_1_m54.jpg?v=1739240303",
-  "details": "A cute and comfy counterpart to your high-waisted favorites, the Bae Hoodie has a relaxed fit, long scrunchable sleeves, ribbed cuffs and a ",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "green"
-  ],
-  "styles": [
-   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -296448,35 +296486,6 @@
   ],
   "styles": [
    "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "alo-w3887r-cashmere-plush-waffle-1-4-zip-pullover-burgundy",
-  "gender": "women",
-  "tier": "High-end",
-  "brand": "Alo",
-  "name": "Cashmere Plush Waffle 1/4 Zip Pullover - Burgundy",
-  "price": 338,
-  "currency": "USD",
-  "productUrl": "https://www.aloyoga.com/products/w3887r-cashmere-plush-waffle-1-4-zip-pullover-burgundy?variant=50661489672551",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3887R_06465_b1_s1_a5_m54.jpg?v=1757418476",
-  "details": "From studio to street, this quarter-zip will be your new go-to.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [
-   "red",
-   "burgundy"
-  ],
-  "styles": [
-   "polished",
-   "statement"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -296537,6 +296546,33 @@
   "maxAgeDays": 10
  },
  {
+  "id": "alo-w3980r-sway-full-zip-hoodie-azure-blue",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "Alo",
+  "name": "Sway Full Zip Hoodie - Azure Blue",
+  "price": 128,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w3980r-sway-full-zip-hoodie-azure-blue",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W3980R_04830_b2_s1_a1_dSU26_m143.png?v=1781007613",
+  "details": "The Sway Full-Zip Hoodie has a kind of softness that makes you slow down.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "blue"
+  ],
+  "styles": [
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
   "id": "alo-w4702r-cropped-mountain-peak-full-zip-hoodie-bamboo-gree",
   "gender": "women",
   "tier": "High-end",
@@ -296559,6 +296595,34 @@
   ],
   "styles": [
    "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "alo-w9834r-polar-fleece-corset-ivory",
+  "gender": "women",
+  "tier": "Budget",
+  "brand": "Alo",
+  "name": "Polar Fleece Corset - Ivory",
+  "price": 51,
+  "currency": "USD",
+  "productUrl": "https://www.aloyoga.com/products/w9834r-polar-fleece-corset-ivory?variant=43774180982964",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/2185/2813/files/W9834R_03299_b1_s1_a2_1_m215.jpg?v=1738630539",
+  "details": "Cozy meets fashion-forward with the Polar Fleece Corset.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "white",
+   "cream"
+  ],
+  "styles": [
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -310121,33 +310185,6 @@
   ]
  },
  {
-  "id": "skims-airy-cashmere-turtleneck-cardinal",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "AIRY CASHMERE TURTLENECK | CARDINAL",
-  "price": 168,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/airy-cashmere-turtleneck-cardinal",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-LSL-12500W-CNL-FLT.jpg?v=1792802732",
-  "details": "Cozy up in cashmere.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "warm-knit"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [],
-  "styles": [
-   "polished",
-   "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
   "id": "skims-airy-cashmere-v-neck-pullover-cardinal",
   "gender": "women",
   "tier": "Quality",
@@ -310203,16 +310240,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-cotton-fleece-logo-faux-fur-lined-zip-up-hoodie-merlot",
+  "id": "skims-cotton-fleece-crewneck-oat-arched-skims-plaid",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "COTTON FLEECE LOGO FAUX FUR LINED ZIP-UP HOODIE | MERLOT",
-  "price": 168,
+  "name": "COTTON FLEECE CREWNECK | OAT ARCHED SKIMS PLAID",
+  "price": 98,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/cotton-fleece-logo-faux-fur-lined-zip-up-hoodie-merlot",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-SCL-13431W-MRT-FLT.jpg?v=1792781102",
-  "details": "A luxe, warm essential.",
+  "productUrl": "https://www.skims.com/products/cotton-fleece-crewneck-oat-arched-skims-plaid",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-LSL-13021W-OASP-FLT_d759b355-8a98-479a-8247-d6405c926856.jpg?v=1794508456",
+  "details": "The ultra-soft classic crewneck you love to lounge in all day, updated with a more open neckline and slightly longer length for a more comfo",
   "checkedAt": "2026-11-15",
   "kinds": [
    "warm-knit"
@@ -310221,26 +310258,27 @@
    "cold"
   ],
   "colours": [
-   "red"
+   "cream"
   ],
   "styles": [
    "relaxed",
-   "statement"
+   "statement",
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
  },
  {
-  "id": "skims-cotton-fleece-logo-faux-fur-lined-zip-up-hoodie-onyx",
+  "id": "skims-cotton-fleece-reversible-zip-up-hoodie-light-heather-g",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "COTTON FLEECE LOGO FAUX FUR LINED ZIP-UP HOODIE | ONYX",
-  "price": 168,
+  "name": "COTTON FLEECE REVERSIBLE ZIP UP HOODIE | LIGHT HEATHER GREY BUFF MONTGOMERY CHECK",
+  "price": 148,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/cotton-fleece-logo-faux-fur-lined-zip-up-hoodie-onyx",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-SCL-13431W-ONX-FLT.jpg?v=1792781106",
-  "details": "A luxe, warm essential.",
+  "productUrl": "https://www.skims.com/products/cotton-fleece-reversible-zip-up-hoodie-light-heather-grey-buff-montgomery-check",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-OW-ZUP-12809W-LBMC-FLT.jpg?v=1792781116",
+  "details": "Two looks, one cozy essential.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "warm-knit"
@@ -310248,9 +310286,41 @@
   "climates": [
    "cold"
   ],
-  "colours": [],
+  "colours": [
+   "grey"
+  ],
   "styles": [
    "relaxed",
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-cotton-fleece-zip-up-hoodie-oat-arched-skims-plaid",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "SKIMS",
+  "name": "COTTON FLEECE ZIP UP HOODIE | OAT ARCHED SKIMS PLAID",
+  "price": 108,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/cotton-fleece-zip-up-hoodie-oat-arched-skims-plaid",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-TP-SCL-11862W-OASP-FLT_b6c221ff-5201-4059-9343-6ba94e052e7c.jpg?v=1794508459",
+  "details": "Effortless comfort for every day.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "warm-knit"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
    "understated"
   ],
   "feed": "shopify",
@@ -318428,16 +318498,16 @@
   "maxAgeDays": 10
  },
  {
-  "id": "skims-cotton-fleece-logo-double-waistband-pant-currant",
+  "id": "skims-cotton-fleece-jogger-oat-arched-skims-plaid",
   "gender": "women",
   "tier": "Quality",
   "brand": "SKIMS",
-  "name": "COTTON FLEECE LOGO DOUBLE WAISTBAND PANT | CURRANT",
+  "name": "COTTON FLEECE JOGGER | OAT ARCHED SKIMS PLAID",
   "price": 98,
   "currency": "USD",
-  "productUrl": "https://www.skims.com/products/cotton-fleece-logo-double-waistband-pant-currant",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-BT-PNT-14071W-CUR-FLT_a84ed6c6-185d-4f75-b492-805dd2c96faf.jpg?v=1791237984",
-  "details": "The trend you'll wear on repeat.",
+  "productUrl": "https://www.skims.com/products/cotton-fleece-jogger-oat-arched-skims-plaid",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-JO-JOG-8600W-OASP-FLT_bca03dfe-8b8a-4ed2-ad04-44e19b08fe4a.jpg?v=1794508454",
+  "details": "The jogger you'll live in.",
   "checkedAt": "2026-11-15",
   "kinds": [
    "warm-trousers"
@@ -318446,36 +318516,11 @@
    "cold"
   ],
   "colours": [
-   "burgundy"
+   "cream"
   ],
   "styles": [
    "relaxed",
-   "understated"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-cotton-fleece-logo-double-waistband-pant-espresso",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "COTTON FLEECE LOGO DOUBLE WAISTBAND PANT | ESPRESSO",
-  "price": 98,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/cotton-fleece-logo-double-waistband-pant-espresso",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-BT-PNT-14071W-ESP-FLT_b5331494-c6ea-4cf6-8a20-fd5b2af8648b.jpg?v=1791238068",
-  "details": "The trend you'll wear on repeat.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "warm-trousers"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed",
+   "statement",
    "understated"
   ],
   "feed": "shopify",
@@ -318533,32 +318578,6 @@
   "styles": [
    "relaxed",
    "statement"
-  ],
-  "feed": "shopify",
-  "maxAgeDays": 10
- },
- {
-  "id": "skims-cotton-fleece-logo-double-waistband-pant-onyx",
-  "gender": "women",
-  "tier": "Quality",
-  "brand": "SKIMS",
-  "name": "COTTON FLEECE LOGO DOUBLE WAISTBAND PANT | ONYX",
-  "price": 98,
-  "currency": "USD",
-  "productUrl": "https://www.skims.com/products/cotton-fleece-logo-double-waistband-pant-onyx",
-  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-BT-PNT-14031W-ONX-FLT.jpg?v=1789604680",
-  "details": "The trend you'll wear on repeat.",
-  "checkedAt": "2026-11-15",
-  "kinds": [
-   "warm-trousers"
-  ],
-  "climates": [
-   "cold"
-  ],
-  "colours": [],
-  "styles": [
-   "relaxed",
-   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10
@@ -318641,6 +318660,63 @@
   "styles": [
    "relaxed",
    "statement"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-cotton-fleece-reversible-staight-leg-pant-light-heathe",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "SKIMS",
+  "name": "COTTON FLEECE REVERSIBLE STRAIGHT LEG PANT | LIGHT HEATHER GREY BUFF MONTGOMERY CHECK",
+  "price": 148,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/cotton-fleece-reversible-staight-leg-pant-light-heather-grey-buff-montgomery-check",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGEWEAR-BT-PNT-12810W-LBMC-FLT-1.jpg?v=1792781112",
+  "details": "The ultimate two-in-one sweatpant.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "warm-trousers"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "grey"
+  ],
+  "styles": [
+   "relaxed",
+   "statement",
+   "understated"
+  ],
+  "feed": "shopify",
+  "maxAgeDays": 10
+ },
+ {
+  "id": "skims-cotton-fleece-straight-leg-pant-oat-arched-skims-plaid",
+  "gender": "women",
+  "tier": "Quality",
+  "brand": "SKIMS",
+  "name": "COTTON FLEECE STRAIGHT LEG PANT | OAT ARCHED SKIMS PLAID",
+  "price": 98,
+  "currency": "USD",
+  "productUrl": "https://www.skims.com/products/cotton-fleece-straight-leg-pant-oat-arched-skims-plaid",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0259/5448/4284/files/SKIMS-LOUNGWEAR-BT-PNT-11859W-OASP-FLT_ac427d97-9ef6-4044-863e-aeb4b69dba22.jpg?v=1794508456",
+  "details": "Your off-duty days just got a lot comfier.",
+  "checkedAt": "2026-11-15",
+  "kinds": [
+   "warm-trousers"
+  ],
+  "climates": [
+   "cold"
+  ],
+  "colours": [
+   "cream"
+  ],
+  "styles": [
+   "statement",
+   "understated"
   ],
   "feed": "shopify",
   "maxAgeDays": 10

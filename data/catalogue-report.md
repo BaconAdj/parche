@@ -1,47 +1,47 @@
 # Catalogue coverage (2026-11-15)
 
-11237 products from 113 brands. Rejected: 135.
+11239 products from 113 brands. Rejected: 135.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
 | Sports bra | 9 / 44 / 13 | 0 / 0 / 0 |
-| Bra | 59 / 61 / 33 | 0 / 0 / 0 |
+| Bra | 58 / 62 / 33 | 0 / 0 / 0 |
 | Swimwear | 49 / 33 / 40 | 42 / 24 / 16 |
-| Underwear | 96 / 29 / 19 | 116 / 24 / 11 |
-| Socks | 147 / 101 / 20 | 152 / 73 / 17 |
-| Sleepwear | 82 / 79 / 23 | 85 / 42 / 13 |
+| Underwear | 97 / 29 / 19 | 116 / 24 / 11 |
+| Socks | 148 / 100 / 20 | 152 / 73 / 17 |
+| Sleepwear | 82 / 79 / 23 | 86 / 42 / 13 |
 | Thermal base layer top | 20 / 12 / 11 | 12 / 24 / 15 |
 | Thermal leggings | 14 / 7 / 8 | 6 / 10 / 4 |
 | Rain jacket | 23 / 27 / 15 | 32 / 29 / 11 |
-| Warm coat | 68 / 129 / 49 | 64 / 68 / 37 |
+| Warm coat | 67 / 130 / 49 | 64 / 68 / 37 |
 | Blazer | 33 / 19 / 20 | 33 / 18 / 2 |
-| Light jacket | 171 / 124 / 64 | 153 / 124 / 56 |
+| Light jacket | 168 / 127 / 64 | 151 / 126 / 56 |
 | Dress | 120 / 116 / 53 | 16 / 0 / 0 |
 | Workout top | 29 / 34 / 11 | 20 / 21 / 18 |
 | Workout leggings or shorts | 62 / 74 / 47 | 36 / 25 / 19 |
 | Linen shirt | 21 / 23 / 19 | 41 / 30 / 19 |
-| Button-up shirt | 135 / 86 / 51 | 146 / 86 / 42 |
-| Warm sweater | 122 / 237 / 54 | 114 / 201 / 65 |
-| Light knit | 181 / 178 / 47 | 134 / 122 / 47 |
-| Long-sleeve top | 159 / 68 / 22 | 142 / 62 / 12 |
-| T-shirt | 243 / 181 / 32 | 219 / 175 / 39 |
+| Button-up shirt | 135 / 86 / 51 | 147 / 86 / 42 |
+| Warm sweater | 121 / 237 / 55 | 114 / 201 / 65 |
+| Light knit | 182 / 177 / 47 | 134 / 122 / 47 |
+| Long-sleeve top | 160 / 68 / 22 | 143 / 62 / 12 |
+| T-shirt | 243 / 181 / 32 | 219 / 174 / 40 |
 | Jeans | 76 / 53 / 29 | 65 / 34 / 27 |
-| Shorts | 121 / 117 / 48 | 105 / 103 / 37 |
+| Shorts | 123 / 115 / 48 | 105 / 103 / 37 |
 | Skirt | 124 / 78 / 50 | 14 / 0 / 0 |
 | Lightweight trousers | 44 / 27 / 16 | 34 / 11 / 3 |
 | Warm trousers | 30 / 47 / 17 | 50 / 43 / 20 |
-| Everyday trousers | 207 / 150 / 49 | 178 / 121 / 33 |
+| Everyday trousers | 208 / 149 / 49 | 178 / 121 / 33 |
 | Hiking or trail shoes | 15 / 6 / 2 | 13 / 7 / 3 |
 | Boots | 91 / 41 / 20 | 34 / 43 / 13 |
 | Sandals | 76 / 28 / 24 | 26 / 18 / 14 |
 | Evening shoes | 65 / 27 / 13 | 40 / 11 / 8 |
 | Walking sneakers | 115 / 47 / 20 | 101 / 36 / 18 |
 | Daypack | 49 / 33 / 2 | 29 / 27 / 2 |
-| Day bag | 101 / 134 / 42 | 26 / 77 / 24 |
+| Day bag | 102 / 132 / 42 | 27 / 76 / 24 |
 | Sunglasses | 38 / 53 / 25 | 34 / 43 / 18 |
 | Umbrella | 11 / 5 / 12 | 11 / 3 / 11 |
-| Sun hat or cap | 64 / 87 / 56 | 30 / 84 / 41 |
-| Beanie | 48 / 105 / 24 | 46 / 81 / 27 |
+| Sun hat or cap | 65 / 86 / 56 | 31 / 83 / 41 |
+| Beanie | 48 / 104 / 24 | 46 / 80 / 27 |
 | Gloves | 17 / 33 / 6 | 15 / 23 / 9 |
 | Warm scarf | 72 / 67 / 22 | 44 / 33 / 15 |
 | Light scarf or wrap | 29 / 32 / 5 | 9 / 3 / 3 |
@@ -49,7 +49,7 @@
 
 ## Reliability
 
-Hidden if unconfirmed for: 10 days (9593 products), 30 days (1644 products).
+Hidden if unconfirmed for: 10 days (9595 products), 30 days (1644 products).
 Daily sweep: not active.
 Sold out and hidden: 0.
 Feeds that failed today (yesterday's products kept): www.meriwool.com, bombas.com, wearpact.com, www.meundies.com, www.chubbiesshorts.com, vuoriclothing.com, www.rhone.com, www.gymshark.com, www.rainbowsandals.com (0 products).
@@ -57,7 +57,7 @@ Feeds that failed today (yesterday's products kept): www.meriwool.com, bombas.co
 ## Brands
 
 - H&M: 362
-- Alo: 330
+- Alo: 332
 - Everlane: 316
 - LEMAIRE: 311
 - Faherty: 295
@@ -172,12 +172,14 @@ Feeds that failed today (yesterday's products kept): www.meriwool.com, bombas.co
 
 ## Category audit
 
-16 products whose name names a different kind of garment than their piece.
+18 products whose name names a different kind of garment than their piece.
 
 - dress-shoes: OluKai — Kahakai - Trench Blue / Trench Blue
 - dress-shoes: OluKai — Moku Pae - Ash / Trench Blue
 - dress-shoes: OluKai — Moku Pae - Trench Blue / Off White
 - sandals: OluKai — Ulele - Trench Blue / Trench Blue
+- sleepwear: SKIMS — COTTON RIB LACE CAMI AND BOXER SET | CHERRY BLOSSOM KITTEN BELLS
+- sleepwear: SKIMS — COTTON RIB LACE CAMI AND BOXER SET | WISTERIA
 - sun-hat: Topo Designs — Topo Designs x TSPTR Snoopy Trucker — Red / White
 - underwear: Eberjey — Pima Cotton Bikini
 - underwear: Eberjey — Pima Cotton Bikini
@@ -193,7 +195,7 @@ Feeds that failed today (yesterday's products kept): www.meriwool.com, bombas.co
 
 ## Photo check
 
-11160 photos checked: 3 gone (products removed), 573 could not be checked (left as is).
+11162 photos checked: 3 gone (products removed), 45 could not be checked (left as is).
 - UNIQLO — HEATTECH Lined Gloves Faux Suede
 - UNIQLO — Super Non Iron Stretch Slim Fit Shirt
 - UNIQLO — PEACE FOR ALL Graphic T-Shirt
