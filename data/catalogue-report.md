@@ -1,55 +1,55 @@
-# Catalogue coverage (2026-11-21)
+# Catalogue coverage (2026-11-22)
 
-11291 products from 113 brands. Rejected: 135.
+11273 products from 113 brands. Rejected: 135.
 
 | Piece | Women L/M/B | Men L/M/B |
 |---|---|---|
 | Sports bra | 5 / 40 / 21 | 0 / 0 / 0 |
-| Bra | 58 / 61 / 32 | 0 / 0 / 0 |
-| Swimwear | 48 / 28 / 41 | 42 / 18 / 22 |
-| Underwear | 90 / 27 / 25 | 111 / 26 / 10 |
-| Socks | 144 / 100 / 22 | 150 / 70 / 19 |
-| Sleepwear | 80 / 75 / 26 | 87 / 37 / 16 |
+| Bra | 58 / 60 / 32 | 0 / 0 / 0 |
+| Swimwear | 48 / 29 / 41 | 42 / 18 / 22 |
+| Underwear | 92 / 26 / 24 | 112 / 24 / 10 |
+| Socks | 144 / 101 / 22 | 150 / 71 / 19 |
+| Sleepwear | 80 / 74 / 26 | 87 / 37 / 16 |
 | Thermal base layer top | 22 / 10 / 11 | 14 / 22 / 14 |
 | Thermal leggings | 12 / 7 / 8 | 6 / 10 / 4 |
 | Rain jacket | 22 / 26 / 16 | 29 / 34 / 13 |
-| Warm coat | 65 / 124 / 55 | 63 / 68 / 44 |
-| Blazer | 36 / 12 / 25 | 33 / 19 / 2 |
-| Light jacket | 154 / 137 / 69 | 135 / 138 / 57 |
-| Dress | 111 / 117 / 67 | 16 / 0 / 0 |
-| Workout top | 20 / 32 / 23 | 13 / 26 / 18 |
-| Workout leggings or shorts | 51 / 75 / 53 | 34 / 28 / 19 |
+| Warm coat | 59 / 126 / 58 | 60 / 72 / 45 |
+| Blazer | 36 / 12 / 25 | 34 / 18 / 2 |
+| Light jacket | 156 / 135 / 69 | 136 / 138 / 56 |
+| Dress | 111 / 114 / 70 | 16 / 0 / 0 |
+| Workout top | 20 / 33 / 23 | 13 / 27 / 17 |
+| Workout leggings or shorts | 49 / 77 / 52 | 33 / 28 / 19 |
 | Linen shirt | 19 / 24 / 19 | 35 / 32 / 21 |
-| Button-up shirt | 130 / 89 / 56 | 131 / 102 / 40 |
-| Warm sweater | 113 / 246 / 60 | 102 / 217 / 68 |
-| Light knit | 162 / 188 / 58 | 115 / 138 / 46 |
-| Long-sleeve top | 156 / 71 / 24 | 139 / 70 / 14 |
-| T-shirt | 235 / 183 / 40 | 206 / 188 / 37 |
-| Jeans | 65 / 62 / 35 | 60 / 41 / 25 |
-| Shorts | 119 / 121 / 48 | 102 / 103 / 38 |
+| Button-up shirt | 128 / 89 / 56 | 130 / 103 / 40 |
+| Warm sweater | 117 / 244 / 60 | 106 / 216 / 65 |
+| Light knit | 163 / 188 / 57 | 116 / 138 / 45 |
+| Long-sleeve top | 156 / 70 / 24 | 139 / 68 / 14 |
+| T-shirt | 234 / 183 / 41 | 206 / 187 / 37 |
+| Jeans | 65 / 61 / 36 | 60 / 41 / 25 |
+| Shorts | 121 / 120 / 48 | 103 / 103 / 38 |
 | Skirt | 112 / 91 / 52 | 14 / 0 / 0 |
-| Lightweight trousers | 35 / 34 / 17 | 31 / 14 / 3 |
+| Lightweight trousers | 34 / 34 / 17 | 31 / 14 / 3 |
 | Warm trousers | 34 / 41 / 27 | 48 / 43 / 23 |
-| Everyday trousers | 189 / 170 / 52 | 159 / 137 / 35 |
-| Hiking or trail shoes | 15 / 7 / 6 | 14 / 7 / 7 |
-| Boots | 88 / 40 / 27 | 34 / 39 / 17 |
-| Sandals | 71 / 24 / 26 | 26 / 19 / 15 |
-| Evening shoes | 58 / 32 / 13 | 33 / 19 / 8 |
-| Walking sneakers | 105 / 61 / 24 | 93 / 45 / 17 |
-| Daypack | 47 / 34 / 5 | 27 / 29 / 4 |
-| Day bag | 86 / 145 / 43 | 24 / 82 / 24 |
+| Everyday trousers | 188 / 172 / 51 | 160 / 136 / 35 |
+| Hiking or trail shoes | 15 / 6 / 6 | 14 / 7 / 7 |
+| Boots | 88 / 40 / 27 | 33 / 40 / 17 |
+| Sandals | 68 / 27 / 26 | 26 / 18 / 14 |
+| Evening shoes | 58 / 32 / 13 | 34 / 18 / 8 |
+| Walking sneakers | 102 / 60 / 23 | 90 / 47 / 17 |
+| Daypack | 46 / 35 / 5 | 27 / 29 / 4 |
+| Day bag | 86 / 143 / 44 | 23 / 81 / 25 |
 | Sunglasses | 36 / 52 / 22 | 32 / 45 / 15 |
 | Umbrella | 11 / 5 / 12 | 11 / 3 / 11 |
-| Sun hat or cap | 56 / 89 / 61 | 31 / 81 / 48 |
-| Beanie | 40 / 104 / 38 | 42 / 81 / 34 |
+| Sun hat or cap | 56 / 88 / 63 | 31 / 80 / 50 |
+| Beanie | 38 / 103 / 38 | 41 / 80 / 34 |
 | Gloves | 16 / 33 / 13 | 15 / 22 / 10 |
-| Warm scarf | 62 / 84 / 22 | 37 / 41 / 15 |
+| Warm scarf | 62 / 84 / 22 | 37 / 40 / 15 |
 | Light scarf or wrap | 26 / 26 / 9 | 9 / 3 / 3 |
 | Belt | 49 / 17 / 9 | 35 / 13 / 7 |
 
 ## Reliability
 
-Hidden if unconfirmed for: 10 days (9647 products), 30 days (1644 products).
+Hidden if unconfirmed for: 10 days (9629 products), 30 days (1644 products).
 Daily sweep: not active.
 Sold out and hidden: 0.
 Feeds that failed today (yesterday's products kept): www.meriwool.com, bombas.com, wearpact.com, www.meundies.com, www.chubbiesshorts.com, vuoriclothing.com, www.rhone.com, www.gymshark.com, www.rainbowsandals.com (0 products).
@@ -57,84 +57,84 @@ Feeds that failed today (yesterday's products kept): www.meriwool.com, bombas.co
 ## Brands
 
 - H&M: 362
-- Alo: 337
+- Alo: 336
 - LEMAIRE: 314
-- Everlane: 300
+- Everlane: 296
 - Faherty: 295
 - FRAME: 287
 - Bluenotes: 282
 - Kotn: 273
-- SKIMS: 271
+- SKIMS: 270
 - UNIQLO: 260
 - Woolx: 259
 - Sunspel: 245
+- tentree: 236
 - Oak + Fort: 234
-- tentree: 233
 - Kit and Ace: 227
-- Outerknown: 216
+- Outerknown: 215
 - Nike: 213
 - Summersalt: 198
 - Brixton: 185
-- STAUD: 184
 - Beyond Yoga: 183
+- STAUD: 183
 - Organic Basics: 182
 - Cotopaxi: 174
 - Knix: 165
 - Citizens of Humanity: 152
 - AGOLDE: 152
-- Reigning Champ: 151
+- Reigning Champ: 150
 - Rains: 149
 - Shan: 149
 - DUER: 144
 - Tommy John: 139
 - Andie: 138
-- MOTHER: 131
 - ZARA: 130
-- Taylor Stitch: 127
+- MOTHER: 128
+- Taylor Stitch: 126
+- Topo Designs: 121
 - Frankies Bikinis: 120
 - Mack Weldon: 119
 - Outdoor Voices: 118
 - Onia: 118
-- Topo Designs: 118
 - Faithfull the Brand: 115
 - Cuyana: 114
-- Lisa Says Gah: 111
+- Lisa Says Gah: 110
 - Naadam: 108
 - The North Face: 102
 - Herschel: 101
 - Eberjey: 101
-- Lunya: 97
 - Columbia: 97
 - Rouje: 96
+- Lunya: 95
 - Ridge Merino: 93
 - CDLP: 92
-- Canada Goose: 92
+- Canada Goose: 91
 - Larroudé: 90
 - Moose Knuckles: 86
 - Minus33: 84
 - Frank And Oak: 84
 - Pajar: 83
+- Stance: 82
 - Rothy's: 80
-- Stance: 80
 - adidas: 78
 - Vessi: 70
 - OluKai: 62
 - Girlfriend Collective: 56
 - GUESS: 56
-- Ten Thousand: 53
+- Ten Thousand: 52
 - Rudsak: 51
-- Allbirds: 49
 - BY FAR: 48
+- Allbirds: 48
 - Duckworth: 46
 - totes: 44
 - Banana Republic: 43
 - ThirdLove: 39
 - Dagne Dover: 38
 - Le Specs: 33
-- Koio: 33
 - Margaux: 31
 - KREWE: 30
 - Blundstone: 28
+- Koio: 28
 - Lack of Color: 26
 - Sunski: 26
 - Feetures: 25
@@ -146,7 +146,7 @@ Feeds that failed today (yesterday's products kept): www.meriwool.com, bombas.co
 - Massimo Dutti: 19
 - Kamik: 19
 - Victoria's Secret: 18
-- Mackage: 18
+- Mackage: 17
 - Thousand Fell: 17
 - Xero Shoes: 16
 - Davek: 15
@@ -158,8 +158,8 @@ Feeds that failed today (yesterday's products kept): www.meriwool.com, bombas.co
 - goodr: 10
 - Astral: 10
 - Calvin Klein: 10
-- Parade: 10
 - Ralph Lauren: 9
+- Parade: 9
 - Hanes: 9
 - Mango: 8
 - Blunt: 8
@@ -197,7 +197,7 @@ Feeds that failed today (yesterday's products kept): www.meriwool.com, bombas.co
 
 ## Photo check
 
-11215 photos checked: 3 gone (products removed), 9667 could not be checked (left as is).
+11197 photos checked: 3 gone (products removed), 8547 could not be checked (left as is).
 - UNIQLO — HEATTECH Lined Gloves Faux Suede
 - UNIQLO — Super Non Iron Stretch Slim Fit Shirt
 - UNIQLO — PEACE FOR ALL Graphic T-Shirt
